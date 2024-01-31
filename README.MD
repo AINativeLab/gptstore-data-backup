@@ -1,13 +1,13 @@
 # GPT Store data backup
 
 <p align="center">
-<h2 align="center">Powered by</h2>
+Powered by
 </p>
 
 <p align="center">
-<a target="_blank" href="https://gptshunter.com/?utm_source=leaked_gpts">
-<img alt="GPTsHunter" src="https://gptshunter.com/full-logo.svg" width="300">
-</a>
+  <a target="_blank" href="https://gptshunter.com/?utm_source=gptstore-data-backup">
+    <img alt="GPTsHunter" src="https://gptshunter.com/full-logo.svg" width="300">
+  </a>
 </p>
 
 ## Latest
@@ -16,7 +16,7 @@
 
 [2024-01-31.global.md](/archive/2024-01-31/global/README.MD)
 
-## GPT Leaderboard for 2024-01-31
+## Global GPT Leaderboard for 2024-01-31
 
 
 
