@@ -1,5 +1,7 @@
 # GPT Store data backup
 
+This project daily scrapes and archives data from the official GPT Store. If you have other data requirements, please open an issue.
+
 <p align="center">
 Powered by
 </p>
