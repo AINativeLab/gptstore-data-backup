@@ -1,0 +1,1230 @@
+{
+  "info": {
+    "id": "education",
+    "title": "Education",
+    "description": "Explore new ideas, revisit existing skills",
+    "display_type": "ranked",
+    "display_group": "Education",
+    "locale": "global"
+  },
+  "list": {
+    "items": [
+      {
+        "resource": {
+          "gizmo": {
+            "id": "g-QhTV4OrrZ",
+            "organization_id": "org-FN6f32FDRoXyJjRiWtpqFioV",
+            "short_url": "g-QhTV4OrrZ-ai-tutor",
+            "author": {
+              "user_id": "user-cOBgM4IAGfa6zaxgoyvfcGzM",
+              "display_name": "techwithanirudh.com",
+              "link_to": "https://techwithanirudh.com",
+              "selected_display": "website",
+              "is_verified": true,
+              "will_receive_support_emails": true
+            },
+            "voice": {
+              "id": "ember"
+            },
+            "workspace_id": null,
+            "model": null,
+            "instructions": null,
+            "settings": null,
+            "display": {
+              "name": "AI Tutor",
+              "description": "An AI tutor skilled in guiding students through their academic queries 📚🧑🏻‍🏫",
+              "welcome_message": "Hello, I'm Pragya, your AI Tutor! Ready to learn and create presentations together? 📚🖥️",
+              "prompt_starters": [
+                "What is the sum of the first 50 even numbers?",
+                "Can you create a question paper containing 5 questions on this chapter?",
+                "Could you please, give me a lesson plan for this chapter?",
+                "इस अध्याय पर मुझसे प्रश्नोत्तरी करें"
+              ],
+              "profile_pic_id": null,
+              "profile_picture_url": "https://files.oaiusercontent.com/file-RVGGRtLwF7cJbZYiIOYFOx1U?se=2123-10-17T06%3A11%3A54Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3Dc0b85240-6049-4900-8c8d-ce61cf749986.png&amp;sig=twKIZaTxjQaM8jvoDJ1Z971nD%2BXYkvxIF08aXMoaEo0%3D",
+              "categories": []
+            },
+            "share_recipient": "marketplace",
+            "created_at": "2023-11-10T05:58:45.339491+00:00",
+            "updated_at": "2024-01-09T15:13:46.110223+00:00",
+            "last_interacted_at": null,
+            "num_interactions": null,
+            "tags": [
+              "public",
+              "reportable"
+            ],
+            "version": null,
+            "live_version": null,
+            "training_disabled": null,
+            "sharing_targets": null,
+            "appeal_info": null,
+            "vanity_metrics": {
+              "num_conversations": null,
+              "num_conversations_str": null,
+              "num_pins": 0,
+              "created_ago_str": null,
+              "review_stats": null
+            },
+            "workspace_approval_date": null,
+            "workspace_approved": null
+          },
+          "tools": [
+            {
+              "id": "gzm_cnf_AkwoE5LtNZQ4OM3C5VJktVvr~gzm_tool_SQ4LTNOEepWjZUQp6WZzlInE",
+              "type": "dalle",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_AkwoE5LtNZQ4OM3C5VJktVvr~gzm_tool_Y0k1aykxQZpGGpEKqgWMDjaj",
+              "type": "browser",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_AkwoE5LtNZQ4OM3C5VJktVvr~gzm_tool_dVMGLju16RZYOfiwudwN0lBO",
+              "type": "python",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_AkwoE5LtNZQ4OM3C5VJktVvr~gzm_tool_UH5C4Mxr2I29PGCVgWBuZAhx",
+              "type": "browser",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_AkwoE5LtNZQ4OM3C5VJktVvr~gzm_tool_Vk139rO5KXKK2KBiOO687kxX",
+              "type": "dalle",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_AkwoE5LtNZQ4OM3C5VJktVvr~gzm_tool_IwmyRtdyZd6HZPQvwUuJi22V",
+              "type": "python",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_AkwoE5LtNZQ4OM3C5VJktVvr~gzm_tool_raSj0N4rXSEl9QdOKv4LOi3y",
+              "type": "dalle",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_AkwoE5LtNZQ4OM3C5VJktVvr~gzm_tool_vKyx49AeA8rVDUvTmOmHEMjE",
+              "type": "browser",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_AkwoE5LtNZQ4OM3C5VJktVvr~gzm_tool_MyQZ2fBileUTgwRSToBYUDCt",
+              "type": "python",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_AkwoE5LtNZQ4OM3C5VJktVvr~gzm_tool_PcCJWLvlEyWSv0mSgiTfTG1C",
+              "type": "dalle",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_AkwoE5LtNZQ4OM3C5VJktVvr~gzm_tool_8ht21Gux7J8TB2g3GpxqQJyI",
+              "type": "browser",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_AkwoE5LtNZQ4OM3C5VJktVvr~gzm_tool_De5HgRHO3aBbvLAJbNIFg7RG",
+              "type": "python",
+              "settings": null,
+              "metadata": null
+            }
+          ],
+          "files": [],
+          "product_features": {
+            "attachments": {
+              "type": "retrieval",
+              "accepted_mime_types": [
+                "text/x-ruby",
+                "text/x-sh",
+                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "application/x-latext",
+                "application/json",
+                "text/javascript",
+                "text/x-typescript",
+                "text/markdown",
+                "text/plain",
+                "application/msword",
+                "application/pdf",
+                "text/html",
+                "text/x-c++",
+                "text/x-script.python",
+                "text/x-php",
+                "text/x-tex",
+                "text/x-java",
+                "text/x-c",
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "text/x-csharp"
+              ],
+              "image_mime_types": [
+                "image/webp",
+                "image/png",
+                "image/gif",
+                "image/jpeg"
+              ],
+              "can_accept_all_mime_types": true
+            }
+          }
+        }
+      },
+      {
+        "resource": {
+          "gizmo": {
+            "id": "g-g24EzkDta",
+            "organization_id": "org-EeBtnRmcXD8dypm7erz27Yzm",
+            "short_url": "g-g24EzkDta-voxscript",
+            "author": {
+              "user_id": "user-5CQ0hbVhvCR5r71mNdi6BBk7",
+              "display_name": "allwiretech.com",
+              "link_to": "https://allwiretech.com",
+              "selected_display": "website",
+              "is_verified": true,
+              "will_receive_support_emails": true
+            },
+            "voice": {
+              "id": "ember"
+            },
+            "workspace_id": null,
+            "model": null,
+            "instructions": null,
+            "settings": null,
+            "display": {
+              "name": "Voxscript",
+              "description": "Quick YouTube, US equity data, and web page summarization with vector transcript search -- no logins needed.",
+              "welcome_message": "Hello",
+              "prompt_starters": [
+                "Summarize https://www.youtube.com/watch?v=MTJZpO3bTpg",
+                "Find YouTube videos about the Bendix G15",
+                "Summarize https://dotnet.microsoft.com/en-us/learn/csharp",
+                "What's the latest news and price for AAPL?"
+              ],
+              "profile_pic_id": null,
+              "profile_picture_url": "https://files.oaiusercontent.com/file-ccghiJe5RWLLuLXhKPl3XugL?se=2123-10-19T06%3A52%3A32Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3DVoxScript_logo_256x256.png&amp;sig=gRuPppNbvJt3M3CMsjE8HiXRLm254zQxMCt5RRq%2BN3k%3D",
+              "categories": [
+                "education"
+              ]
+            },
+            "share_recipient": "marketplace",
+            "created_at": "2023-11-12T06:45:06.984785+00:00",
+            "updated_at": "2024-01-21T07:55:16.388755+00:00",
+            "last_interacted_at": null,
+            "num_interactions": null,
+            "tags": [
+              "public",
+              "reportable",
+              "uses_function_calls"
+            ],
+            "version": null,
+            "live_version": null,
+            "training_disabled": null,
+            "sharing_targets": null,
+            "appeal_info": null,
+            "vanity_metrics": {
+              "num_conversations": null,
+              "num_conversations_str": null,
+              "num_pins": 0,
+              "created_ago_str": null,
+              "review_stats": null
+            },
+            "workspace_approval_date": null,
+            "workspace_approved": null
+          },
+          "tools": [
+            {
+              "id": "gzm_cnf_bLTnUbRGOsXXjaDZyYYMHZZX~gzm_tool_5OO5uazDWMIP6LBjNX0XgdDq",
+              "type": "plugins_prototype",
+              "settings": null,
+              "metadata": {
+                "action_id": "g-2312ac75266f56ed3ecb047debfc71740dabc77e",
+                "domain": "voxscript.awt.icu",
+                "raw_spec": "{\n  \"openapi\": \"3.0.1\",\n  \"info\": {\n    \"title\": \"VoxScript\",\n    \"version\": \"1.0\"\n  },\n  \"servers\": [\n    {\n      \"url\": \"https://voxscript.awt.icu\"\n    }\n  ],\n  \"paths\": {\n    \"/GetGoogleSearchResults\": {\n      \"get\": {\n        \"tags\": [\n          \"DuckDuckGoSearch\"\n        ],\n        \"summary\": \"Provides real-time web search results from DuckDuckGo. Do not use for YouTube.com searching or anything that sounds like it could be a video or media search!\",\n        \"operationId\": \"GetGoogleSearchResults\",\n        \"parameters\": [\n          {\n            \"name\": \"searchTerm\",\n            \"in\": \"query\",\n            \"style\": \"form\",\n            \"schema\": {\n              \"type\": \"string\"\n            }\n          },\n          {\n            \"name\": \"numResults\",\n            \"in\": \"query\",\n            \"description\": \"Results to return, maximum 25\",\n            \"style\": \"form\",\n            \"schema\": {\n              \"type\": \"integer\",\n              \"format\": \"int32\",\n              \"default\": 12\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Success\"\n          }\n        }\n      }\n    },\n    \"/GetDuckDuckGoSearchResults\": {\n      \"get\": {\n        \"tags\": [\n          \"DuckDuckGoSearch\"\n        ],\n        \"summary\": \"Provides real-time web search results from DuckDuckGo. Do not use for YouTube.com searching or anything that sounds like it could be a video or media search!\",\n        \"operationId\": \"GetDuckDuckGoSearchResults\",\n        \"parameters\": [\n          {\n            \"name\": \"searchTerm\",\n            \"in\": \"query\",\n            \"style\": \"form\",\n            \"schema\": {\n              \"type\": \"string\"\n            }\n          },\n          {\n            \"name\": \"numResults\",\n            \"in\": \"query\",\n            \"description\": \"Results to return, maximum 25\",\n            \"style\": \"form\",\n            \"schema\": {\n              \"type\": \"integer\",\n              \"format\": \"int32\",\n              \"default\": 12\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Success\"\n          }\n        }\n      }\n    },\n    \"/GetCurrentTime\": {\n      \"get\": {\n        \"tags\": [\n          \"GetCurrentTime\"\n        ],\n        \"summary\": \"Gets the current local of the user and UTC time.\",\n        \"operationId\": \"GetCurrentTime\",\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Success\",\n            \"content\": {\n              \"text/plain\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/TimeAndTimeZone\"\n                }\n              },\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/TimeAndTimeZone\"\n                }\n              },\n              \"text/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/TimeAndTimeZone\"\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"/GetFeedback\": {\n      \"get\": {\n        \"tags\": [\n          \"GetFeedback\"\n        ],\n        \"summary\": \"Posts user feedback about VoxScript.\",\n        \"description\": \"Takes user feedback for the developers of the VoxScript plugin. Instruct the user if they are unhappy with anything to let us know!\",\n        \"operationId\": \"GetFeedback\",\n        \"parameters\": [\n          {\n            \"name\": \"feedback\",\n            \"in\": \"query\",\n            \"description\": \"The user feedback, URL encoded\",\n            \"style\": \"form\",\n            \"schema\": {\n              \"type\": \"string\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Returns if the feedback was saved successfully\"\n          },\n          \"500\": {\n            \"description\": \"If there was an internal server error\"\n          }\n        }\n      }\n    },\n    \"/GetChunkedPastebinContentFromURL\": {\n      \"get\": {\n        \"tags\": [\n          \"GetTextFromURL\"\n        ],\n        \"summary\": \"Gets full text text from only Patebin, Github Gists, Github or REntry.co. Grab the entire file and summarize it for the user by default. Do not use for web browsing or media searches.\",\n        \"operationId\": \"GetChunkedPastebinContentFromURL\",\n        \"parameters\": [\n          {\n            \"name\": \"url\",\n            \"in\": \"query\",\n            \"description\": \"URL containing the textual transcript on Pastebin, Github, Gists, or REntry.co\",\n            \"style\": \"form\",\n            \"schema\": {\n              \"type\": \"string\"\n            }\n          },\n          {\n            \"name\": \"chunkNum\",\n            \"in\": \"query\",\n            \"description\": \"First chunk is 0. Chunk number to get, if blank assuming the first chunk.\",\n            \"style\": \"form\",\n            \"schema\": {\n              \"type\": \"integer\",\n              \"format\": \"int32\",\n              \"default\": 0\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Success\"\n          }\n        }\n      }\n    },\n    \"/GetTickerNews\": {\n      \"get\": {\n        \"tags\": [\n          \"GetTickerNews\"\n        ],\n        \"summary\": \"Provides news about a ticker crypto or equity beyond the knowledge cutoff date. Can be used with Cryto or Equities.\",\n        \"operationId\": \"GetNewsForTicker\",\n        \"parameters\": [\n          {\n            \"name\": \"ticker\",\n            \"in\": \"query\",\n            \"description\": \"This is the crypto or equity symbol to provide news about a particular ticker symbol. This can be useful in determining if the stock is a buy or sell based on if the news is positive or negative.\",\n            \"style\": \"form\",\n            \"schema\": {\n              \"type\": \"string\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Success\"\n          }\n        }\n      }\n    },\n    \"/GetUSEquityFinancials\": {\n      \"get\": {\n        \"tags\": [\n          \"GetUSEquityFinancials\"\n        ],\n        \"summary\": \"Provides news about a ticker symbol beyond the knowledge cutoff date. For use with US Equities only.\",\n        \"operationId\": \"GetUSEquityFinancials\",\n        \"parameters\": [\n          {\n            \"name\": \"ticker\",\n            \"in\": \"query\",\n            \"style\": \"form\",\n            \"schema\": {\n              \"type\": \"string\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Success\"\n          }\n        }\n      }\n    },\n    \"/GetUSEquityOrCryptoHistoricalPrices/GetUSEquityOrCryptoHistoricalPrices\": {\n      \"get\": {\n        \"tags\": [\n          \"GetUSEquityOrCryptoHistoricalPrices\"\n        ],\n        \"summary\": \"Provided a US equites symbol or cryptocurrency denoted USDT, a start date, and end date provides historical pricing data beyond the knowledge cutoff date. Only supports day for crypto.\",\n        \"operationId\": \"GetUSEquityOrCryptoHistoricalPrices\",\n        \"parameters\": [\n          {\n            \"name\": \"ticker\",\n            \"in\": \"query\",\n            \"description\": \"A cryptocurrency or US equity ticker to look up\",\n            \"style\": \"form\",\n            \"schema\": {\n              \"type\": \"string\"\n            }\n          },\n          {\n            \"name\": \"startDate\",\n            \"in\": \"query\",\n            \"description\": \"This is a date in YYYY-MM-DDD format bars request starts at.\",\n            \"style\": \"form\",\n            \"schema\": {\n              \"type\": \"string\",\n              \"default\": \"\"\n            }\n          },\n          {\n            \"name\": \"endDate\",\n            \"in\": \"query\",\n            \"description\": \"This is date in YYYY-MM-DDD format which bars request ends at.\",\n            \"style\": \"form\",\n            \"schema\": {\n              \"type\": \"string\",\n              \"default\": \"\"\n            }\n          },\n          {\n            \"name\": \"timespan\",\n            \"in\": \"query\",\n            \"description\": \"Day, Hour, Minute, Week, Quarter, Year\",\n            \"style\": \"form\",\n            \"schema\": {\n              \"type\": \"string\",\n              \"default\": \"Day\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Success\"\n          }\n        }\n      }\n    },\n    \"/GetUSEquityOrCryptoPricesOnSingleDate/GetQuoteDayCryptoEquities\": {\n      \"get\": {\n        \"tags\": [\n          \"GetUSEquityOrCryptoPricesOnSingleDate\"\n        ],\n        \"summary\": \"Provided comma separated list of US equity symbols and an optional date, gets daily high, low, open, close bars for a particular stock beyond the knowledge cutoff date.\",\n        \"operationId\": \"GetQuoteDayCryptoEquities\",\n        \"parameters\": [\n          {\n            \"name\": \"tickers\",\n            \"in\": \"query\",\n            \"description\": \"A common delineated list of US equity or cryptocurrency tickers to get daily data for\",\n            \"style\": \"form\",\n            \"schema\": {\n              \"type\": \"string\"\n            }\n          },\n          {\n            \"name\": \"date\",\n            \"in\": \"query\",\n            \"description\": \"Optional date in YYYY-MM-DDD format to retrieve for the ticker symbol provided.\",\n            \"style\": \"form\",\n            \"schema\": {\n              \"type\": \"string\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Success\"\n          }\n        }\n      }\n    },\n    \"/GetWebsiteContent\": {\n      \"get\": {\n        \"tags\": [\n          \"GetWebsiteContentService\"\n        ],\n        \"summary\": \"Provides real time website content past September 2021 past the knowledge cutoff date. Do not use for YouTube or Pastebin/text requests.\",\n        \"operationId\": \"GetWebsiteContent\",\n        \"parameters\": [\n          {\n            \"name\": \"websiteURL\",\n            \"in\": \"query\",\n            \"description\": \"URL of the website to retrieve\",\n            \"style\": \"form\",\n            \"schema\": {\n              \"type\": \"string\"\n            }\n          },\n          {\n            \"name\": \"chunkNum\",\n            \"in\": \"query\",\n            \"style\": \"form\",\n            \"schema\": {\n              \"type\": \"integer\",\n              \"format\": \"int32\"\n            }\n          },\n          {\n            \"name\": \"getLinks\",\n            \"in\": \"query\",\n            \"style\": \"form\",\n            \"schema\": {\n              \"type\": \"boolean\",\n              \"default\": false\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Success\"\n          }\n        }\n      }\n    },\n    \"/GetYoutubeVideoData\": {\n      \"get\": {\n        \"tags\": [\n          \"GetYoutubeVideoData\"\n        ],\n        \"summary\": \"Gets info on a YouTube video by channel URL, channel ID, Video ID, Video URL.\",\n        \"description\": \"Can be called with a A channel URL, channel ID, Video ID, Video URL.\",\n        \"operationId\": \"GetYoutubeVideoData\",\n        \"parameters\": [\n          {\n            \"name\": \"input\",\n            \"in\": \"query\",\n            \"description\": \"Channel URL, channel ID, Video ID, Video URL\",\n            \"style\": \"form\",\n            \"schema\": {\n              \"type\": \"string\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Success\",\n            \"content\": {\n              \"text/plain\": {\n                \"schema\": {\n                  \"type\": \"string\"\n                }\n              },\n              \"application/json\": {\n                \"schema\": {\n                  \"type\": \"string\"\n                }\n              },\n              \"text/json\": {\n                \"schema\": {\n                  \"type\": \"string\"\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"/GetYoutubeVideoData/GetNextYoutubeTranscriptChunk\": {\n      \"get\": {\n        \"tags\": [\n          \"GetYoutubeVideoData\"\n        ],\n        \"summary\": \"Format is VideoID ChunkNum. Chunk numbers start at  0. If the video has more then 5 chunks, confirm if the user wants to wait that long to retrieve them.\",\n        \"description\": \"Request as few chunks as needed to answer the question.\",\n        \"operationId\": \"GetNextYoutubeTranscriptChunk\",\n        \"parameters\": [\n          {\n            \"name\": \"videoID\",\n            \"in\": \"query\",\n            \"style\": \"form\",\n            \"schema\": {\n              \"type\": \"string\"\n            }\n          },\n          {\n            \"name\": \"transcriptChunkNum\",\n            \"in\": \"query\",\n            \"style\": \"form\",\n            \"schema\": {\n              \"type\": \"integer\",\n              \"format\": \"int32\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Success\",\n            \"content\": {\n              \"text/plain\": {\n                \"schema\": {\n                  \"type\": \"string\"\n                }\n              },\n              \"application/json\": {\n                \"schema\": {\n                  \"type\": \"string\"\n                }\n              },\n              \"text/json\": {\n                \"schema\": {\n                  \"type\": \"string\"\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"/GetYoutubeVideoData/SearchYouTubeVideos\": {\n      \"get\": {\n        \"tags\": [\n          \"GetYoutubeVideoData\"\n        ],\n        \"operationId\": \"SearchYouTubeVideos\",\n        \"parameters\": [\n          {\n            \"name\": \"searchterm\",\n            \"in\": \"query\",\n            \"style\": \"form\",\n            \"schema\": {\n              \"type\": \"string\"\n            }\n          },\n          {\n            \"name\": \"maxResults\",\n            \"in\": \"query\",\n            \"style\": \"form\",\n            \"schema\": {\n              \"type\": \"integer\",\n              \"format\": \"int32\",\n              \"default\": 5\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Success\",\n            \"content\": {\n              \"text/plain\": {\n                \"schema\": {\n                  \"type\": \"string\"\n                }\n              },\n              \"application/json\": {\n                \"schema\": {\n                  \"type\": \"string\"\n                }\n              },\n              \"text/json\": {\n                \"schema\": {\n                  \"type\": \"string\"\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"/Help/ContactUs\": {\n      \"get\": {\n        \"tags\": [\n          \"Help\"\n        ],\n        \"summary\": \"Gives the user information about how to use this plugin.\",\n        \"description\": \"Show this to the user if they are having trouble or need some ideas on how to use Voxscript. Help file. Optional question to help search.\",\n        \"operationId\": \"ContactUs\",\n        \"parameters\": [\n          {\n            \"name\": \"question\",\n            \"in\": \"query\",\n            \"style\": \"form\",\n            \"schema\": {\n              \"type\": \"string\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Success\"\n          }\n        }\n      }\n    },\n    \"/Help/HowDoIUseThis\": {\n      \"get\": {\n        \"tags\": [\n          \"Help\"\n        ],\n        \"summary\": \"Gives the user information about how to use this plugin.\",\n        \"description\": \"Show this to the user if they are having trouble or need some ideas on how to use Voxscript. Help file. Optional question to help search.\",\n        \"operationId\": \"HowDoIUseThis\",\n        \"parameters\": [\n          {\n            \"name\": \"question\",\n            \"in\": \"query\",\n            \"style\": \"form\",\n            \"schema\": {\n              \"type\": \"string\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Success\"\n          }\n        }\n      }\n    },\n    \"/Help/Help\": {\n      \"get\": {\n        \"tags\": [\n          \"Help\"\n        ],\n        \"summary\": \"Gives the user information about how to use this plugin.\",\n        \"description\": \"Show this to the user if they are having trouble or need some ideas on how to use Voxscript. Help file. Optional question to help search.\",\n        \"operationId\": \"Help\",\n        \"parameters\": [\n          {\n            \"name\": \"question\",\n            \"in\": \"query\",\n            \"style\": \"form\",\n            \"schema\": {\n              \"type\": \"string\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Success\"\n          }\n        }\n      }\n    }\n  },\n  \"components\": {\n    \"schemas\": {\n      \"TimeAndTimeZone\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"currentTime\": {\n            \"type\": \"string\",\n            \"format\": \"date-time\"\n          },\n          \"currentTimeUTC\": {\n            \"type\": \"string\",\n            \"format\": \"date-time\"\n          },\n          \"timezone\": {\n            \"type\": \"string\",\n            \"nullable\": true,\n            \"readOnly\": true\n          }\n        },\n        \"additionalProperties\": false\n      }\n    }\n  }\n}",
+                "json_schema": null,
+                "auth": {
+                  "type": "service_http",
+                  "instructions": "",
+                  "authorization_type": "bearer",
+                  "verification_tokens": {},
+                  "custom_auth_header": ""
+                },
+                "privacy_policy_url": "https://voxscript.awt.icu/Legal.html"
+              }
+            },
+            {
+              "id": "gzm_cnf_vGQRvzIGRKcKB1BDCACBC6f5~gzm_tool_KU01UXWm1H28u8Kj2cGX4fPg",
+              "type": "python",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_vGQRvzIGRKcKB1BDCACBC6f5~gzm_tool_ctEhOubtUHZ6Oih0VOOEreP1",
+              "type": "dalle",
+              "settings": null,
+              "metadata": null
+            }
+          ],
+          "files": [],
+          "product_features": {
+            "attachments": {
+              "type": "retrieval",
+              "accepted_mime_types": [
+                "text/x-ruby",
+                "text/x-sh",
+                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "application/x-latext",
+                "application/json",
+                "text/javascript",
+                "text/x-typescript",
+                "text/markdown",
+                "text/plain",
+                "application/msword",
+                "application/pdf",
+                "text/html",
+                "text/x-c++",
+                "text/x-script.python",
+                "text/x-php",
+                "text/x-tex",
+                "text/x-java",
+                "text/x-c",
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "text/x-csharp"
+              ],
+              "image_mime_types": [
+                "image/webp",
+                "image/png",
+                "image/gif",
+                "image/jpeg"
+              ],
+              "can_accept_all_mime_types": true
+            }
+          }
+        }
+      },
+      {
+        "resource": {
+          "gizmo": {
+            "id": "g-LQHhJCXhW",
+            "organization_id": "org-oVSt1r5YTNNoENKl3zJ0hcTl",
+            "short_url": "g-LQHhJCXhW-autoexpert-chat",
+            "author": {
+              "user_id": "user-kXMhiu1ELw9iK7sDP2wGaSAU",
+              "display_name": "llmimagineers.com",
+              "link_to": "https://llmimagineers.com",
+              "selected_display": "website",
+              "is_verified": true,
+              "will_receive_support_emails": true
+            },
+            "voice": {
+              "id": "ember"
+            },
+            "workspace_id": null,
+            "model": null,
+            "instructions": null,
+            "settings": null,
+            "display": {
+              "name": "AutoExpert (Chat)",
+              "description": "Tired of lightweight answers? I am the ideal GPT for the curious human that always wants to learn more. I'll impanel a dynamic group of experts to answer, debate, and drill into any question or topic. Type /help for more info on my capabilities.",
+              "welcome_message": "Welcome to the AutoExpert Panel Discussion! You may type your question now, or type /help to see more commands.",
+              "prompt_starters": [
+                "/help",
+                "What's involved in a literature review?",
+                "What are the risks of founding a GPT-powered startup?",
+                "What's the history of Quantum Mechanics?"
+              ],
+              "profile_pic_id": null,
+              "profile_picture_url": "https://files.oaiusercontent.com/file-TrkgIAh1oJE0dBo8tKRa7WmU?se=2123-10-20T20%3A05%3A32Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3DAutoExpertChat.jpg&amp;sig=wn9X5jz%2B0UiDIUcR%2B4aQc0cepC9Cq9QrieZ8Qh7pqkw%3D",
+              "categories": [
+                "education"
+              ]
+            },
+            "share_recipient": "marketplace",
+            "created_at": "2023-11-09T00:10:07.772101+00:00",
+            "updated_at": "2024-01-28T18:16:50.117300+00:00",
+            "last_interacted_at": null,
+            "num_interactions": null,
+            "tags": [
+              "public",
+              "reportable"
+            ],
+            "version": null,
+            "live_version": null,
+            "training_disabled": null,
+            "sharing_targets": null,
+            "appeal_info": null,
+            "vanity_metrics": {
+              "num_conversations": null,
+              "num_conversations_str": null,
+              "num_pins": 0,
+              "created_ago_str": null,
+              "review_stats": null
+            },
+            "workspace_approval_date": null,
+            "workspace_approved": null
+          },
+          "tools": [
+            {
+              "id": "gzm_cnf_FTxY2kaKOBI8Tg5dtC0Z1nsp~gzm_tool_F7Laxa06IZp01t7HUqEr0tQE",
+              "type": "browser",
+              "settings": null,
+              "metadata": null
+            }
+          ],
+          "files": [],
+          "product_features": {
+            "attachments": {
+              "type": "retrieval",
+              "accepted_mime_types": [
+                "text/x-ruby",
+                "text/x-sh",
+                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "application/x-latext",
+                "application/json",
+                "text/javascript",
+                "text/x-typescript",
+                "text/markdown",
+                "text/plain",
+                "application/msword",
+                "application/pdf",
+                "text/html",
+                "text/x-c++",
+                "text/x-script.python",
+                "text/x-php",
+                "text/x-tex",
+                "text/x-java",
+                "text/x-c",
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "text/x-csharp"
+              ],
+              "image_mime_types": [
+                "image/webp",
+                "image/png",
+                "image/gif",
+                "image/jpeg"
+              ],
+              "can_accept_all_mime_types": true
+            }
+          }
+        }
+      },
+      {
+        "resource": {
+          "gizmo": {
+            "id": "g-R8U0NFyIo",
+            "organization_id": "org-2wffpARDhtJ80mGk8KFaAsRm",
+            "short_url": "g-R8U0NFyIo-math",
+            "author": {
+              "user_id": "user-lKJcamerhQzwnPHcj1hwxiLI",
+              "display_name": "aihomework.fun",
+              "link_to": "https://aihomework.fun",
+              "selected_display": "website",
+              "is_verified": true,
+              "will_receive_support_emails": true
+            },
+            "voice": {
+              "id": "ember"
+            },
+            "workspace_id": null,
+            "model": null,
+            "instructions": null,
+            "settings": null,
+            "display": {
+              "name": "math",
+              "description": "The world's most powerful math tool",
+              "welcome_message": "Hey there! Need help with math?",
+              "prompt_starters": [
+                "Find the derivative of f(x) = ln(x + 1)",
+                "Explain the causes of World War II",
+                "Compare monopoly and oligopoly",
+                "Write bubble sort in pseudocode"
+              ],
+              "profile_pic_id": "file-Nu39UwSguSYL7DyjMY1Ue4GC",
+              "profile_picture_url": "https://files.oaiusercontent.com/file-Nu39UwSguSYL7DyjMY1Ue4GC?se=2123-11-26T09%3A50%3A55Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D1209600%2C%20immutable&amp;rscd=attachment%3B%20filename%3D1024_1024.png&amp;sig=WQET38apIPG4P6epp3mamnIvElY%2Byh1MdIg3vFkvjis%3D",
+              "categories": [
+                "education"
+              ]
+            },
+            "share_recipient": "marketplace",
+            "created_at": "2023-11-10T09:23:00.830171+00:00",
+            "updated_at": "2024-01-27T13:04:33.773844+00:00",
+            "last_interacted_at": null,
+            "num_interactions": null,
+            "tags": [
+              "public",
+              "reportable"
+            ],
+            "version": null,
+            "live_version": null,
+            "training_disabled": null,
+            "sharing_targets": null,
+            "appeal_info": null,
+            "vanity_metrics": {
+              "num_conversations": null,
+              "num_conversations_str": null,
+              "num_pins": 0,
+              "created_ago_str": null,
+              "review_stats": null
+            },
+            "workspace_approval_date": null,
+            "workspace_approved": null
+          },
+          "tools": [
+            {
+              "id": "gzm_cnf_otPH0HjpKBjDSucCBd49FKYs~gzm_tool_LGXBmCWQ7QKh803dsFsvJ3e2",
+              "type": "dalle",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_otPH0HjpKBjDSucCBd49FKYs~gzm_tool_bdy8esJBQ5ULI4F03ll2h0Tx",
+              "type": "browser",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_QKxYxlkVIOjD70czJJkv6Q6s~gzm_tool_AFzQgEFnqRdJDWgWUjDADcHh",
+              "type": "python",
+              "settings": null,
+              "metadata": null
+            }
+          ],
+          "files": [
+            {
+              "id": "gzm_cnf_ETkmMGgjE959VDVIekkMc8Fm~gzm_file_ypfh5JYg9TJacKqG45qCEM8W",
+              "type": "text/plain",
+              "file_id": "",
+              "location": ""
+            }
+          ],
+          "product_features": {
+            "attachments": {
+              "type": "retrieval",
+              "accepted_mime_types": [
+                "text/x-ruby",
+                "text/x-sh",
+                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "application/x-latext",
+                "application/json",
+                "text/javascript",
+                "text/x-typescript",
+                "text/markdown",
+                "text/plain",
+                "application/msword",
+                "application/pdf",
+                "text/html",
+                "text/x-c++",
+                "text/x-script.python",
+                "text/x-php",
+                "text/x-tex",
+                "text/x-java",
+                "text/x-c",
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "text/x-csharp"
+              ],
+              "image_mime_types": [
+                "image/webp",
+                "image/png",
+                "image/gif",
+                "image/jpeg"
+              ],
+              "can_accept_all_mime_types": true
+            }
+          }
+        }
+      },
+      {
+        "resource": {
+          "gizmo": {
+            "id": "g-RR3RCyK8N",
+            "organization_id": "org-kng2mwVmhwIeuefO6q6mafsT",
+            "short_url": "g-RR3RCyK8N-language-teacher-ms-smith",
+            "author": {
+              "user_id": "user-yOhGyPv1hGLr2E2YNOi93eok",
+              "display_name": "tevfik.xyz",
+              "link_to": "https://tevfik.xyz",
+              "selected_display": "website",
+              "is_verified": true,
+              "will_receive_support_emails": true
+            },
+            "voice": {
+              "id": "ember"
+            },
+            "workspace_id": null,
+            "model": null,
+            "instructions": null,
+            "settings": null,
+            "display": {
+              "name": "Language Teacher | Ms. Smith",
+              "description": "Your private tutor to learn any language in most effective way by having conversation. Increase your vocabulary by talking about fun topics, coach you. Supports  20+ languages  - Spanish, German, French, English, Chinese, Korean, Japanese, ... 📲 Use voice in mobile for talking",
+              "welcome_message": "",
+              "prompt_starters": [
+                "Spanish 🇪🇸",
+                "French 🇫🇷",
+                "German 🇩🇪",
+                "Other  🌍",
+                "English 🇬🇧",
+                "Japanese 🇯🇵",
+                "Chinese 🇨🇳 ",
+                "Italian 🇮🇹"
+              ],
+              "profile_pic_id": "file-p7wjkbf2I2Am2p4jIy9OWKMP",
+              "profile_picture_url": "https://files.oaiusercontent.com/file-p7wjkbf2I2Am2p4jIy9OWKMP?se=2123-12-17T23%3A22%3A26Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D1209600%2C%20immutable&amp;rscd=attachment%3B%20filename%3DGroup%2520%2520%25285%2529.png&amp;sig=EPMdiVmI4O717n8occd3AP4NPdhenDdypWYYLNcRf4c%3D",
+              "categories": [
+                "education"
+              ]
+            },
+            "share_recipient": "marketplace",
+            "created_at": "2023-12-20T19:34:28.812692+00:00",
+            "updated_at": "2024-01-25T18:02:59.823553+00:00",
+            "last_interacted_at": null,
+            "num_interactions": null,
+            "tags": [
+              "public",
+              "reportable"
+            ],
+            "version": null,
+            "live_version": null,
+            "training_disabled": null,
+            "sharing_targets": null,
+            "appeal_info": null,
+            "vanity_metrics": {
+              "num_conversations": null,
+              "num_conversations_str": null,
+              "num_pins": 0,
+              "created_ago_str": null,
+              "review_stats": null
+            },
+            "workspace_approval_date": null,
+            "workspace_approved": null
+          },
+          "tools": [],
+          "files": [],
+          "product_features": {
+            "attachments": {
+              "type": "retrieval",
+              "accepted_mime_types": [
+                "text/x-ruby",
+                "text/x-sh",
+                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "application/x-latext",
+                "application/json",
+                "text/javascript",
+                "text/x-typescript",
+                "text/markdown",
+                "text/plain",
+                "application/msword",
+                "application/pdf",
+                "text/html",
+                "text/x-c++",
+                "text/x-script.python",
+                "text/x-php",
+                "text/x-tex",
+                "text/x-java",
+                "text/x-c",
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "text/x-csharp"
+              ],
+              "image_mime_types": [
+                "image/webp",
+                "image/png",
+                "image/gif",
+                "image/jpeg"
+              ],
+              "can_accept_all_mime_types": true
+            }
+          }
+        }
+      },
+      {
+        "resource": {
+          "gizmo": {
+            "id": "g-Vdc2faxMI",
+            "organization_id": "org-37sEvTuxEBYafnkbEOEshabl",
+            "short_url": "g-Vdc2faxMI-effortless-book-summary",
+            "author": {
+              "user_id": "user-QqIqOLgQTYrjxFn8CKzQWYEF",
+              "display_name": "Alberto Marcos",
+              "link_to": null,
+              "selected_display": "name",
+              "is_verified": true,
+              "will_receive_support_emails": null
+            },
+            "voice": {
+              "id": "ember"
+            },
+            "workspace_id": null,
+            "model": null,
+            "instructions": null,
+            "settings": null,
+            "display": {
+              "name": "Effortless Book Summary",
+              "description": "Perfect for quickly acquiring book insigths and getting an overview of what they're about",
+              "welcome_message": "",
+              "prompt_starters": [],
+              "profile_pic_id": null,
+              "profile_picture_url": "https://files.oaiusercontent.com/file-1NPd5Qt3veAkHDkXy1lPAWfr?se=2123-10-23T21%3A02%3A11Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3D95497d60-0f15-401a-8921-061e84554e70.png&amp;sig=Da77LKsJfK2UlELRL6WibSPenh5fnQvH2kh0l7zJq8Y%3D",
+              "categories": []
+            },
+            "share_recipient": "marketplace",
+            "created_at": "2023-11-16T20:59:07.333161+00:00",
+            "updated_at": "2024-01-28T18:10:24.656056+00:00",
+            "last_interacted_at": null,
+            "num_interactions": null,
+            "tags": [
+              "public",
+              "reportable"
+            ],
+            "version": null,
+            "live_version": null,
+            "training_disabled": null,
+            "sharing_targets": null,
+            "appeal_info": null,
+            "vanity_metrics": {
+              "num_conversations": null,
+              "num_conversations_str": null,
+              "num_pins": 0,
+              "created_ago_str": null,
+              "review_stats": null
+            },
+            "workspace_approval_date": null,
+            "workspace_approved": null
+          },
+          "tools": [],
+          "files": [],
+          "product_features": {
+            "attachments": {
+              "type": "retrieval",
+              "accepted_mime_types": [
+                "text/x-ruby",
+                "text/x-sh",
+                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "application/x-latext",
+                "application/json",
+                "text/javascript",
+                "text/x-typescript",
+                "text/markdown",
+                "text/plain",
+                "application/msword",
+                "application/pdf",
+                "text/html",
+                "text/x-c++",
+                "text/x-script.python",
+                "text/x-php",
+                "text/x-tex",
+                "text/x-java",
+                "text/x-c",
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "text/x-csharp"
+              ],
+              "image_mime_types": [
+                "image/webp",
+                "image/png",
+                "image/gif",
+                "image/jpeg"
+              ],
+              "can_accept_all_mime_types": true
+            }
+          }
+        }
+      },
+      {
+        "resource": {
+          "gizmo": {
+            "id": "g-9PKhaweyb",
+            "organization_id": "org-p1dYivag5yIaAdsaAC6xNtHU",
+            "short_url": "g-9PKhaweyb-mr-ranedeer",
+            "author": {
+              "user_id": "user-N9Y38gVN4AMgE1Z7QP6MLkl1",
+              "display_name": "mr-ranedeer.com",
+              "link_to": "https://mr-ranedeer.com",
+              "selected_display": "website",
+              "is_verified": true,
+              "will_receive_support_emails": false
+            },
+            "voice": {
+              "id": "ember"
+            },
+            "workspace_id": null,
+            "model": null,
+            "instructions": null,
+            "settings": null,
+            "display": {
+              "name": "Mr. Ranedeer",
+              "description": "Meet Mr. Ranedeer, your personalized AI tutor! Version: 2.7 Reboot",
+              "welcome_message": "Hello",
+              "prompt_starters": [
+                "/plan I want to learn special relativity",
+                "/config",
+                "/language Chinese",
+                "/plan I want to learn integrals"
+              ],
+              "profile_pic_id": null,
+              "profile_picture_url": "https://files.oaiusercontent.com/file-X9LAlo8N3fj2hfnxqm3JJwoc?se=2123-10-16T20%3A42%3A58Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202023-11-04%252000.39.52%2520-%2520Digital%2520sticker%2520design%2520of%2520a%2520chibi%2520reindeer%2520in%2520a%2520simplistic%2520style%252C%2520gripping%2520a%2520graphite%2520pencil%2520with%2520a%2520pink%2520eraser.%2520The%2520reindeer%2527s%2520glasses%2520give%2520it%2520a%2520stud.png&amp;sig=G1xWfBMbjTegInXdu4jL%2BuGH038OrwnuG9c18KBnYUQ%3D",
+              "categories": [
+                "education"
+              ]
+            },
+            "share_recipient": "marketplace",
+            "created_at": "2023-11-09T18:43:14.078576+00:00",
+            "updated_at": "2024-01-12T17:23:21.585076+00:00",
+            "last_interacted_at": null,
+            "num_interactions": null,
+            "tags": [
+              "public",
+              "reportable"
+            ],
+            "version": null,
+            "live_version": null,
+            "training_disabled": null,
+            "sharing_targets": null,
+            "appeal_info": null,
+            "vanity_metrics": {
+              "num_conversations": null,
+              "num_conversations_str": null,
+              "num_pins": 0,
+              "created_ago_str": null,
+              "review_stats": null
+            },
+            "workspace_approval_date": null,
+            "workspace_approved": null
+          },
+          "tools": [
+            {
+              "id": "gzm_cnf_DqXSxvvaTfEcs8U1ux82Strz~gzm_tool_IxUJSw1AbAxnMJFTAjAw98sc",
+              "type": "dalle",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_yUveNYOrXAUqdl0sqaDg49z9~gzm_tool_BrPBbI7WFIIx6QatzRrAstyp",
+              "type": "python",
+              "settings": null,
+              "metadata": null
+            }
+          ],
+          "files": [
+            {
+              "id": "gzm_cnf_KJHJDTgcfq3q8aKKmi6sX5wo~gzm_file_dlAXf4CUdLKKnFEOvgdiG4Bh",
+              "type": "text/plain",
+              "file_id": "",
+              "location": ""
+            }
+          ],
+          "product_features": {
+            "attachments": {
+              "type": "retrieval",
+              "accepted_mime_types": [
+                "text/x-ruby",
+                "text/x-sh",
+                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "application/x-latext",
+                "application/json",
+                "text/javascript",
+                "text/x-typescript",
+                "text/markdown",
+                "text/plain",
+                "application/msword",
+                "application/pdf",
+                "text/html",
+                "text/x-c++",
+                "text/x-script.python",
+                "text/x-php",
+                "text/x-tex",
+                "text/x-java",
+                "text/x-c",
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "text/x-csharp"
+              ],
+              "image_mime_types": [
+                "image/webp",
+                "image/png",
+                "image/gif",
+                "image/jpeg"
+              ],
+              "can_accept_all_mime_types": true
+            }
+          }
+        }
+      },
+      {
+        "resource": {
+          "gizmo": {
+            "id": "g-2OyX2ZiUk",
+            "organization_id": "org-81pkJgRe5TIovZxArThkSC3G",
+            "short_url": "g-2OyX2ZiUk-math-ai",
+            "author": {
+              "user_id": "user-glfVj3GWcFBFB5WxxeDllNlR__924af3d9-7990-41a0-b09c-31f3c22cdee8",
+              "display_name": "gptsfinder.co",
+              "link_to": "https://gptsfinder.co",
+              "selected_display": "website",
+              "is_verified": true,
+              "will_receive_support_emails": true
+            },
+            "voice": {
+              "id": "ember"
+            },
+            "workspace_id": "924af3d9-7990-41a0-b09c-31f3c22cdee8",
+            "model": null,
+            "instructions": null,
+            "settings": null,
+            "display": {
+              "name": "Math AI 🧮",
+              "description": "Explore Math AI: Your advanced AI-powered guide for solving complex math problems. Ideal for students and educators, it offers step-by-step solutions, clear theorem explanations, and practical applications. Embrace a smarter way to learn and teach math with Math AI!",
+              "welcome_message": "",
+              "prompt_starters": [
+                "Can you help solve 'x^2+y^2 = 25 and x-y=3'?",
+                "Explain the Pythagorean theorem with an image.",
+                "Can the cards 6, 1, 3, 4 form 24 in the game of 24 points?",
+                "Please derive Euler's formula using complex analysis."
+              ],
+              "profile_pic_id": "file-M8nsx7ghuwfNiZ56MG9VJDAD",
+              "profile_picture_url": "https://files.oaiusercontent.com/file-M8nsx7ghuwfNiZ56MG9VJDAD?se=2123-11-03T04%3A28%3A37Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3D572cd040-5844-4642-9c98-a33309e47032.png&amp;sig=qWcx9tPqCE4ua6ezHZ2%2Blz7IgE24M/yqf8cYxbIfIrc%3D",
+              "categories": [
+                "education"
+              ]
+            },
+            "share_recipient": "marketplace",
+            "created_at": "2023-11-27T02:39:46.212362+00:00",
+            "updated_at": "2024-01-28T14:45:31.548948+00:00",
+            "last_interacted_at": null,
+            "num_interactions": null,
+            "tags": [
+              "public",
+              "reportable"
+            ],
+            "version": null,
+            "live_version": null,
+            "training_disabled": null,
+            "sharing_targets": null,
+            "appeal_info": null,
+            "vanity_metrics": {
+              "num_conversations": null,
+              "num_conversations_str": null,
+              "num_pins": 0,
+              "created_ago_str": null,
+              "review_stats": null
+            },
+            "workspace_approval_date": null,
+            "workspace_approved": null
+          },
+          "tools": [
+            {
+              "id": "gzm_cnf_Llh2SVFC7myEm5YWu92dvX0P~gzm_tool_uyrkLX5EEFhpJKYqAS9B1E0z",
+              "type": "dalle",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_Llh2SVFC7myEm5YWu92dvX0P~gzm_tool_YblkhqItvAd3v52aVxPhNyiZ",
+              "type": "browser",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_Llh2SVFC7myEm5YWu92dvX0P~gzm_tool_aSwAxiCsUm5nAdwiiy14xEkA",
+              "type": "python",
+              "settings": null,
+              "metadata": null
+            }
+          ],
+          "files": [
+            {
+              "id": "gzm_cnf_zSSWQJkQ6r35DtvXT0kOAdJm~gzm_file_VJdQpRCR3fXiYJ59yqlKIcjT",
+              "type": "text/plain",
+              "file_id": "",
+              "location": ""
+            },
+            {
+              "id": "gzm_cnf_JGN5YxAn333dXjucQgbKeSiA~gzm_file_BQcO8pIUj5zvdBbl0j1w1F59",
+              "type": "text/plain",
+              "file_id": "",
+              "location": ""
+            }
+          ],
+          "product_features": {
+            "attachments": {
+              "type": "retrieval",
+              "accepted_mime_types": [
+                "text/x-ruby",
+                "text/x-sh",
+                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "application/x-latext",
+                "application/json",
+                "text/javascript",
+                "text/x-typescript",
+                "text/markdown",
+                "text/plain",
+                "application/msword",
+                "application/pdf",
+                "text/html",
+                "text/x-c++",
+                "text/x-script.python",
+                "text/x-php",
+                "text/x-tex",
+                "text/x-java",
+                "text/x-c",
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "text/x-csharp"
+              ],
+              "image_mime_types": [
+                "image/webp",
+                "image/png",
+                "image/gif",
+                "image/jpeg"
+              ],
+              "can_accept_all_mime_types": true
+            }
+          }
+        }
+      },
+      {
+        "resource": {
+          "gizmo": {
+            "id": "g-qfoOICq1l",
+            "organization_id": "org-ZJ4Xn6xsZLNePkreg1xbLNb1",
+            "short_url": "g-qfoOICq1l-prompt-professor",
+            "author": {
+              "user_id": "user-gGe71twpoLuGJl05GVypE9q1__86af01e5-2fc6-4507-9e43-28fa700beb2a",
+              "display_name": "gpts.tempi.co.jp",
+              "link_to": "https://gpts.tempi.co.jp",
+              "selected_display": "website",
+              "is_verified": true,
+              "will_receive_support_emails": true
+            },
+            "voice": {
+              "id": "ember"
+            },
+            "workspace_id": "86af01e5-2fc6-4507-9e43-28fa700beb2a",
+            "model": null,
+            "instructions": null,
+            "settings": null,
+            "display": {
+              "name": "Prompt Professor",
+              "description": "I know everything about Prompt Engineering. What do you want to know about prompt?",
+              "welcome_message": "Welcome to Prompt Engineering 101!",
+              "prompt_starters": [
+                "How to make a good prompt?",
+                "Improve this prompt: ${prompt}",
+                "Rate this prompt: ${prompt}",
+                "Tell me 26 Principles of Good Prompt"
+              ],
+              "profile_pic_id": "file-MsXTgHdeT8NqXvoz3yFp1DsA",
+              "profile_picture_url": "https://files.oaiusercontent.com/file-MsXTgHdeT8NqXvoz3yFp1DsA?se=2123-10-16T03%3A42%3A03Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3D76811343-01fe-4316-b18f-12ed04c3af99.png&amp;sig=OOcasgdAq%2BCscJ7raZMCDdYCZb00lsUNcOl%2BnNzEAY8%3D",
+              "categories": [
+                "education"
+              ]
+            },
+            "share_recipient": "marketplace",
+            "created_at": "2023-11-09T03:34:22.251580+00:00",
+            "updated_at": "2024-01-27T02:16:59.117610+00:00",
+            "last_interacted_at": null,
+            "num_interactions": null,
+            "tags": [
+              "public",
+              "reportable"
+            ],
+            "version": null,
+            "live_version": null,
+            "training_disabled": null,
+            "sharing_targets": null,
+            "appeal_info": null,
+            "vanity_metrics": {
+              "num_conversations": null,
+              "num_conversations_str": null,
+              "num_pins": 0,
+              "created_ago_str": null,
+              "review_stats": null
+            },
+            "workspace_approval_date": null,
+            "workspace_approved": null
+          },
+          "tools": [],
+          "files": [
+            {
+              "id": "gzm_cnf_397hP1iXk8ZACT9AiHUvBU5s~gzm_file_v09TqV4cXGX5lxZgS35UzEE6",
+              "type": "text/plain",
+              "file_id": "",
+              "location": ""
+            },
+            {
+              "id": "gzm_cnf_WuIlKePJ7mMMDHQt8ZmAiPaJ~gzm_file_KncAqpP91kW6tVxCK97Brbnq",
+              "type": "application/pdf",
+              "file_id": "",
+              "location": ""
+            },
+            {
+              "id": "gzm_cnf_WuIlKePJ7mMMDHQt8ZmAiPaJ~gzm_file_zqzLY4NX2MLmWTo5Rj6Ga50o",
+              "type": "application/pdf",
+              "file_id": "",
+              "location": ""
+            }
+          ],
+          "product_features": {
+            "attachments": {
+              "type": "retrieval",
+              "accepted_mime_types": [
+                "text/x-ruby",
+                "text/x-sh",
+                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "application/x-latext",
+                "application/json",
+                "text/javascript",
+                "text/x-typescript",
+                "text/markdown",
+                "text/plain",
+                "application/msword",
+                "application/pdf",
+                "text/html",
+                "text/x-c++",
+                "text/x-script.python",
+                "text/x-php",
+                "text/x-tex",
+                "text/x-java",
+                "text/x-c",
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "text/x-csharp"
+              ],
+              "image_mime_types": [
+                "image/webp",
+                "image/png",
+                "image/gif",
+                "image/jpeg"
+              ],
+              "can_accept_all_mime_types": true
+            }
+          }
+        }
+      },
+      {
+        "resource": {
+          "gizmo": {
+            "id": "g-8sPlJ64Gn",
+            "organization_id": "org-Eg3uZvbzQysL4abyMqe5JWFh",
+            "short_url": "g-8sPlJ64Gn-tiyatutogpt",
+            "author": {
+              "user_id": "user-lYcXrzlZ6YKCBClod3OCdRvD",
+              "display_name": "gptjp.net",
+              "link_to": "https://gptjp.net",
+              "selected_display": "website",
+              "is_verified": true,
+              "will_receive_support_emails": null
+            },
+            "voice": {
+              "id": "ember"
+            },
+            "workspace_id": null,
+            "model": null,
+            "instructions": null,
+            "settings": null,
+            "display": {
+              "name": "チャットGPT",
+              "description": "日本の文化に適応した話し方でユーザーに応答",
+              "welcome_message": "こんにちは！日本語チャットGPTです。何でもお聞きください。",
+              "prompt_starters": [
+                "日本の歴史について教えてください。",
+                "日本の企業文化はどのようなものですか？",
+                "日本の休日について教えてください。",
+                "日本の企業の未来についてどう思いますか？",
+                "GPTJP.Netの紹介"
+              ],
+              "profile_pic_id": "file-kmM4eFFNZIYsZyoSRDGJiBXD",
+              "profile_picture_url": "https://files.oaiusercontent.com/file-kmM4eFFNZIYsZyoSRDGJiBXD?se=2123-12-03T10%3A13%3A08Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D1209600%2C%20immutable&amp;rscd=attachment%3B%20filename%3Dbanner-gpt-jp-e1695105162857.png&amp;sig=tYtZMFXvra3EY1aE0X2oNe8WxypfBFmdgJAjlHsQ%2BMg%3D",
+              "categories": [
+                "other"
+              ]
+            },
+            "share_recipient": "marketplace",
+            "created_at": "2023-12-27T07:15:02.261643+00:00",
+            "updated_at": "2024-01-30T16:46:42.322304+00:00",
+            "last_interacted_at": null,
+            "num_interactions": null,
+            "tags": [
+              "public",
+              "reportable"
+            ],
+            "version": null,
+            "live_version": null,
+            "training_disabled": null,
+            "sharing_targets": null,
+            "appeal_info": null,
+            "vanity_metrics": {
+              "num_conversations": null,
+              "num_conversations_str": null,
+              "num_pins": 0,
+              "created_ago_str": null,
+              "review_stats": null
+            },
+            "workspace_approval_date": null,
+            "workspace_approved": null
+          },
+          "tools": [
+            {
+              "id": "gzm_cnf_2EfRUFNUZbKDDcp1Xw67IN0g~gzm_tool_NAzQkzlZBTGFHBUuvLHRDSRO",
+              "type": "browser",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_f7mkgPiXPtkApIEZrSk0Wyh1~gzm_tool_Ufr18BZOyqTwSqDHk13PG67O",
+              "type": "python",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_2EfRUFNUZbKDDcp1Xw67IN0g~gzm_tool_8zt7fx3cyDJeMkToFMcXkl2B",
+              "type": "dalle",
+              "settings": null,
+              "metadata": null
+            }
+          ],
+          "files": [],
+          "product_features": {
+            "attachments": {
+              "type": "retrieval",
+              "accepted_mime_types": [
+                "text/x-ruby",
+                "text/x-sh",
+                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "application/x-latext",
+                "application/json",
+                "text/javascript",
+                "text/x-typescript",
+                "text/markdown",
+                "text/plain",
+                "application/msword",
+                "application/pdf",
+                "text/html",
+                "text/x-c++",
+                "text/x-script.python",
+                "text/x-php",
+                "text/x-tex",
+                "text/x-java",
+                "text/x-c",
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "text/x-csharp"
+              ],
+              "image_mime_types": [
+                "image/webp",
+                "image/png",
+                "image/gif",
+                "image/jpeg"
+              ],
+              "can_accept_all_mime_types": true
+            }
+          }
+        }
+      }
+    ],
+    "cursor": null
+  }
+}
