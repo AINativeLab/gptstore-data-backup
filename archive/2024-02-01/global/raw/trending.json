@@ -1,0 +1,1400 @@
+{
+  "info": {
+    "id": "trending",
+    "title": "Trending",
+    "description": "Most popular GPTs by our community",
+    "display_type": "ranked",
+    "display_group": "Top Picks",
+    "locale": "global"
+  },
+  "list": {
+    "items": [
+      {
+        "resource": {
+          "gizmo": {
+            "id": "g-B3hgivKK9",
+            "organization_id": "org-Lhg5UuxewxUamqjwDCtrkn4V",
+            "short_url": "g-B3hgivKK9-write-for-me",
+            "author": {
+              "user_id": "user-qcK7n3IbKhYmu4dSv3kkiut3",
+              "display_name": "puzzle.today",
+              "link_to": "https://puzzle.today",
+              "selected_display": "website",
+              "is_verified": true,
+              "will_receive_support_emails": true
+            },
+            "voice": {
+              "id": "ember"
+            },
+            "workspace_id": null,
+            "model": null,
+            "instructions": null,
+            "settings": null,
+            "display": {
+              "name": "Write For Me",
+              "description": "Write tailored, engaging content with a focus on quality, relevance and precise word count.",
+              "welcome_message": "How can I assist with your content needs today?",
+              "prompt_starters": [
+                "Write me a 1000 word analysis on the future of GPT.",
+                "Write me a 200 word product description for a red screwdriver. ",
+                "Write a 3000 word blog about the future of SEO if ChatGPT kills search engines.",
+                "Write a five paragraph essay on brutalist architecture. "
+              ],
+              "profile_pic_id": null,
+              "profile_picture_url": "https://files.oaiusercontent.com/file-hVjI65nZeCAowpoArhSWjynX?se=2123-10-24T11%3A26%3A42Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3Ded9312a8-bf37-4345-93bd-2e8b54bc2a89.png&amp;sig=nw8OKVAhe0pqBOvG8jlopI5cQ2npVyuHjAjSpr%2BWKFo%3D",
+              "categories": []
+            },
+            "share_recipient": "marketplace",
+            "created_at": "2023-11-17T11:08:46.422186+00:00",
+            "updated_at": "2024-01-31T17:51:27.739596+00:00",
+            "last_interacted_at": null,
+            "num_interactions": null,
+            "tags": [
+              "public",
+              "reportable"
+            ],
+            "version": null,
+            "live_version": null,
+            "training_disabled": null,
+            "sharing_targets": null,
+            "appeal_info": null,
+            "vanity_metrics": {
+              "num_conversations": null,
+              "num_conversations_str": null,
+              "num_pins": 0,
+              "created_ago_str": null,
+              "review_stats": null
+            },
+            "workspace_approval_date": null,
+            "workspace_approved": null
+          },
+          "tools": [
+            {
+              "id": "gzm_cnf_beABKP0vR5FARysR0QswD9C4~gzm_tool_eBRCdiC28TzmkmlcEMJNgBsx",
+              "type": "dalle",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_beABKP0vR5FARysR0QswD9C4~gzm_tool_SaLuHtCItvhOrZYHSWBVpQt2",
+              "type": "browser",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_beABKP0vR5FARysR0QswD9C4~gzm_tool_tS7qT03d0NGlMlo5MFC0ozB7",
+              "type": "python",
+              "settings": null,
+              "metadata": null
+            }
+          ],
+          "files": [],
+          "product_features": {
+            "attachments": {
+              "type": "retrieval",
+              "accepted_mime_types": [
+                "text/javascript",
+                "application/json",
+                "text/x-ruby",
+                "text/x-php",
+                "text/x-c",
+                "text/x-typescript",
+                "text/plain",
+                "text/markdown",
+                "text/x-c++",
+                "application/x-latext",
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "application/msword",
+                "text/x-script.python",
+                "text/x-java",
+                "text/x-csharp",
+                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "text/x-tex",
+                "text/x-sh",
+                "application/pdf",
+                "text/html"
+              ],
+              "image_mime_types": [
+                "image/png",
+                "image/gif",
+                "image/webp",
+                "image/jpeg"
+              ],
+              "can_accept_all_mime_types": true
+            }
+          }
+        }
+      },
+      {
+        "resource": {
+          "gizmo": {
+            "id": "g-hcqdAuSMv",
+            "organization_id": "org-CPFoSyGjImiKAPtCqlEmt1zM",
+            "short_url": "g-hcqdAuSMv-kayak-flights-hotels-cars",
+            "author": {
+              "user_id": "user-Kpr6pjgHr7YWOF6mzm9uDs3L",
+              "display_name": "kayak.com",
+              "link_to": "https://kayak.com",
+              "selected_display": "website",
+              "is_verified": true,
+              "will_receive_support_emails": true
+            },
+            "voice": {
+              "id": "ember"
+            },
+            "workspace_id": null,
+            "model": null,
+            "instructions": null,
+            "settings": null,
+            "display": {
+              "name": "KAYAK - Flights, Hotels &amp; Cars",
+              "description": "Your travel planning assistant for flights, hotels, &amp; cars",
+              "welcome_message": "Hello! Where are we heading today? Let's start planning your journey.",
+              "prompt_starters": [
+                "How much is a boutique hotel in New York?",
+                "When's the best time to travel to Tokyo in summer?",
+                "How much does it cost to fly to San Francisco?",
+                "Where can I travel for $500?"
+              ],
+              "profile_pic_id": null,
+              "profile_picture_url": "https://files.oaiusercontent.com/file-SB3uThCh1QuhmqNoQ4OjHxLd?se=2123-10-16T20%3A27%3A07Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3Dkayak-mark-1024.png&amp;sig=DI34ROkQUJFbNlh2KS%2BWY6w0DibnYtU%2BOfofYGu/6c4%3D",
+              "categories": [
+                "lifestyle"
+              ]
+            },
+            "share_recipient": "marketplace",
+            "created_at": "2023-11-09T19:59:19.155152+00:00",
+            "updated_at": "2024-01-31T17:51:29.095590+00:00",
+            "last_interacted_at": null,
+            "num_interactions": null,
+            "tags": [
+              "public",
+              "reportable",
+              "uses_function_calls"
+            ],
+            "version": null,
+            "live_version": null,
+            "training_disabled": null,
+            "sharing_targets": null,
+            "appeal_info": null,
+            "vanity_metrics": {
+              "num_conversations": null,
+              "num_conversations_str": null,
+              "num_pins": 0,
+              "created_ago_str": null,
+              "review_stats": null
+            },
+            "workspace_approval_date": null,
+            "workspace_approved": null
+          },
+          "tools": [
+            {
+              "id": "gzm_cnf_f4v8gH6zbSufKAkLtPmU7bjN~gzm_tool_W4IBo3vb7Go4SyuznAW2Q5xv",
+              "type": "plugins_prototype",
+              "settings": null,
+              "metadata": {
+                "action_id": "g-b876729938112539eae03ae20d4c58832ee787a6",
+                "domain": "www.kayak.com",
+                "raw_spec": "openapi: 3.0.1\ninfo:\n  title: KAYAK - Flights, Hotels, Cars\n  description: A plugin that allows users to search for the best deals on flights, hotels and cars\n  version: v1\nservers:\n  - url: https://www.kayak.com\npaths:\n  /sherlock/aiplugin/search/flights:\n    post:\n      operationId: searchFlights\n      x-openai-isConsequential: false\n      summary: Search flights on a flight route for certain dates\n      requestBody:\n        required: true\n        content:\n          application/json:\n            schema:\n              $ref: \"#/components/schemas/searchFlightsRequest\"\n      parameters:\n        - name: format\n          in: query\n          required: true\n          schema:\n            type: string\n            default: json\n          description: The format of the response.\n      responses:\n        \"200\":\n          description: OK\n        \"429\":\n          description: Rate limited\n  /sherlock/aiplugin/search/stays:\n    post:\n      operationId: searchStays\n      x-openai-isConsequential: false\n      summary: Search stays for certain dates\n      requestBody:\n        required: true\n        content:\n          application/json:\n            schema:\n              $ref: \"#/components/schemas/searchStaysRequest\"\n      parameters:\n        - name: format\n          in: query\n          required: true\n          schema:\n            type: string\n            default: json\n          description: The format of the response.  \n      responses:\n        \"200\":\n          description: OK\n        \"429\":\n          description: Rate limited\n  /sherlock/aiplugin/search/cars:\n    post:\n      operationId: searchCars\n      x-openai-isConsequential: false\n      summary: Search rental cars for certain dates\n      requestBody:\n        required: true\n        content:\n          application/json:\n            schema:\n              $ref: \"#/components/schemas/searchCarsRequest\"\n      parameters:\n        - name: format\n          in: query\n          required: true\n          schema:\n            type: string\n            default: json\n          description: The format of the response.\n      responses:\n        \"200\":\n          description: OK\n        \"429\":\n          description: Rate limited\n  /sherlock/aiplugin/explore:\n    post:\n      operationId: explore\n      x-openai-isConsequential: false\n      summary: Find places to go on a budget. This endpoint will return destinations that can be reached by plane within the\n        given budget.\n      requestBody:\n        required: true\n        content:\n          application/json:\n            schema:\n              $ref: \"#/components/schemas/exploreRequest\"\n      parameters:\n        - name: format\n          in: query\n          required: true\n          schema:\n            type: string\n            default: json\n          description: The format of the response.\n      responses:\n        \"200\":\n          description: OK\n        \"429\":\n          description: Rate limited\n  /sherlock/aiplugin/insights/flights:\n    post:\n      operationId: flightInsights\n      x-openai-isConsequential: false\n      summary: This endpoint can be used when the flight route is known yet the travel dates are flexible. For example a user\n        may say they want to travel for 2 weeks whenever air fares are the lowest. Another example is that a user\n        specifies a travel month without exact dates.\n      requestBody:\n        required: true\n        content:\n          application/json:\n            schema:\n              $ref: \"#/components/schemas/flightInsightsRequest\"\n      parameters:\n        - name: format\n          in: query\n          required: true\n          schema:\n            type: string\n            default: json\n          description: The format of the response.\n      responses:\n        \"200\":\n          description: OK\n        \"429\":\n          description: Rate limited\ncomponents:\n  schemas:\n    searchFlightsRequest:\n      type: object\n      required:\n        - destination\n        - departDate\n      properties:\n        origin:\n          type: string\n          description: The origin from which the flight starts. Will be approximated if not specified.\n        destination:\n          type: string\n          description: The destination to which the flight goes\n        departDate:\n          type: string\n          format: date\n          description: Departure date of the flight at the origin\n        departHourRange:\n          type: array\n          items:\n            type: integer\n          description: Range of hours in between which the outgoing flight should depart. Hours between 0 and 23, ranges such as\n            [12,14]. Only needed when a specific flight departure time is requested.\n        returnDate:\n          type: string\n          format: date\n          description: Return date of the flight. Only required for round trip flights\n        returnHourRange:\n          type: array\n          items:\n            type: integer\n          description: Range of hours in between which the return flight should depart. Hours between 0 and 23, ranges such as\n            [12,14]. Only needed when a specific return flight departure time is requested.\n        cabinClass:\n          type: string\n          description: Flight cabin class. Defaults to Economy class if not specified.\n          enum:\n            - economy\n            - premium_economy\n            - business\n            - first\n        numAdults:\n          type: integer\n          description: Number of adults that are flying\n        numChildren:\n          type: integer\n          description: Number of children that are flying\n        nonStopOnly:\n          type: boolean\n          description: Only show non-stop flights\n        preferredCarriers:\n          type: array\n          items:\n            type: string\n          description: Optional list of airlines that are preferred.\n        excludeCarriers:\n          type: array\n          items:\n            type: string\n          description: Optional list of airlines that should be avoided.\n    searchStaysRequest:\n      type: object\n      required:\n        - destination\n        - checkinDate\n        - checkoutDate\n      properties:\n        destination:\n          type: string\n          description: The city where you need a stay\n        hotelName:\n          type: string\n          description: Name of the specific hotel for which the user wants to search. Optional only required when a specific hotel\n            is requested.\n        landmark:\n          type: string\n          description: Optional landmark to refine the location\n        neighborhood:\n          type: string\n          description: Optional neighborhood to refine the location\n        address:\n          type: string\n          description: Optional address to refine the location\n        checkinDate:\n          type: string\n          format: date\n          description: Check in date\n        checkoutDate:\n          type: string\n          format: date\n          description: Check out date\n        numAdults:\n          type: integer\n          description: Number of adults that are staying.\n        numChildren:\n          type: integer\n          description: Number of children that are staying\n        numRooms:\n          type: integer\n          description: Number of rooms needed\n        minNumStars:\n          type: integer\n          description: Minimum number of stars the accommodation should have\n        specialRequest:\n          type: string\n          description: Any question or preference related to the accommodation for which we have no explicit query parameters.\n        preferredAmenities:\n          type: array\n          items:\n            $ref: \"#/components/schemas/hotelAmenity\"\n          description: |\n            Specify one or many amenities that the accommodation should offer: \n            - spa: Spa\n            - pool: Pool\n            - pet_friendly: Pet-friendly\n            - beach_front: At the beach front\n            - fitness_center: Fitness center\n            - kitchen: Kitchen\n            - parking: Parking\n            - adult_only: Adult-only accommodation\n            - wifi: Wi-Fi\n            - ev_charger: Charger for electric vehicles\n            - facilities_disabled_guests: Facilities for guests with disabilities\n            - elevator: Elevator\n        preferredFreebies:\n          type: array\n          items:\n            $ref: \"#/components/schemas/hotelFreebie\"\n          description: |\n            Specify one or many freebies that should be included in the room rate:\n            - free_cancellation: Rate includes free cancellation\n            - free_breakfast: Rate includes breakfast\n            - free_internet: Rate includes free Internet access\n            - all_inclusive: All-inclusive rate\n        preferredClassifications:\n          type: array\n          items:\n            $ref: \"#/components/schemas/hotelClassification\"\n          description: &gt;\n            Specify one or many classifications that allow us to understand better what kind of experience the user is\n            looking for:\n\n            - bed_and_breakfast: Bed and breakfast\n\n            - motel: Motel\n\n            - inn: Inn\n\n            - capsule_hotel: Capsule hotel\n\n            - apartment: Apartment\n\n            - villa: Villa\n\n            - ryokan: Ryokan\n\n            - hostel: Hostel\n\n            - cottage: Cottage\n\n            - holiday_home: Holiday home\n        preferredAmbiances:\n          type: array\n          items:\n            $ref: \"#/components/schemas/hotelAmbiance\"\n          description: &gt;\n            Specify one or many ambiances that allow us to understand better what kind of experience the user is looking\n            for:\n\n            - boutique: Boutique hotel\n\n            - budget: Hotels that are budget-friendly\n\n            - romantic: Hotels suited for romantic trips\n\n            - historic: Hotels with a historic character\n\n            - family_friendly: Family-friendly accommodations\n    searchCarsRequest:\n      type: object\n      required:\n        - origin\n        - pickupDate\n        - dropoffDate\n      properties:\n        origin:\n          type: string\n          description: The location where you want to pick your rental car\n        destination:\n          type: string\n          description: The location where you want to drop off your rental car. Will take the origin if no other location is given.\n        pickupDate:\n          type: string\n          format: date\n          description: The date when you want to pick up your rental car\n        pickupHour:\n          type: integer\n          description: Rental car pick up hour in 24-hour format. Optional parameter that defaults to noon.\n        dropoffDate:\n          type: string\n          format: date\n          description: The date when you want to drop off your rental car\n        dropoffHour:\n          type: integer\n          description: Rental car drop off hour in 24-hour format. Optional parameter that defaults to noon.\n    exploreRequest:\n      type: object\n      properties:\n        origin:\n          type: string\n          description: The origin from which the flight starts. Will be approximated if not specified.\n        destinationHints:\n          type: array\n          items:\n            type: string\n          description: Optional list of cities that are requested to be included in the results, if prices are available.\n        departDate:\n          type: string\n          format: date\n          description: Departure date of the flight at the origin\n        returnDate:\n          type: string\n          format: date\n          description: Return date of the flight. Must be specified when a departure date is given.\n        budgetUsd:\n          type: integer\n          description: Expected cost of round trip flight ticket for one person\n        nonStopOnly:\n          type: boolean\n          description: Only show non-stop flights\n        useExactDates:\n          type: boolean\n          description: Set to true if travel on specific dates is requested. The default is flexible travel within a time period.\n        minDays:\n          type: integer\n          description: Minimum duration that the suggested trips should have. Expressed in the number of days\n        maxDays:\n          type: integer\n          description: Maximum duration that the suggested trips should have. Expressed in the number of days\n    flightInsightsRequest:\n      type: object\n      required:\n        - destination\n        - departDate\n      properties:\n        origin:\n          type: string\n          description: The origin from which the flight starts. Will be approximated if not specified.\n        destination:\n          type: string\n          description: The destination to which the flight goes\n        departDate:\n          type: string\n          format: date\n          description: Departure date of the flight at the origin\n        returnDate:\n          type: string\n          format: date\n          description: Return date of the flight. Only required for round trip flights\n        nonStopOnly:\n          type: boolean\n          description: Only show non-stop pricing if non-stop flights are available on the requested route\n    hotelAmenity:\n      type: string\n      enum:\n        - spa\n        - pool\n        - pet_friendly\n        - beach_front\n        - fitness_center\n        - kitchen\n        - parking\n        - adult_only\n        - wifi\n        - ev_charger\n        - facilities_disabled_guests\n        - elevator\n    hotelFreebie:\n      type: string\n      enum:\n        - free_cancellation\n        - free_breakfast\n        - free_internet\n        - all_inclusive\n    hotelClassification:\n      type: string\n      enum:\n        - bed_and_breakfast\n        - motel\n        - inn\n        - capsule_hotel\n        - apartment\n        - villa\n        - ryokan\n        - hostel\n        - cottage\n        - holiday_home\n    hotelAmbiance:\n      type: string\n      enum:\n        - boutique\n        - budget\n        - romantic\n        - historic\n        - family_friendly\n",
+                "json_schema": null,
+                "auth": {
+                  "type": "service_http",
+                  "instructions": "",
+                  "authorization_type": "bearer",
+                  "verification_tokens": {},
+                  "custom_auth_header": ""
+                },
+                "privacy_policy_url": "https://www.kayak.com/privacy"
+              }
+            }
+          ],
+          "files": [],
+          "product_features": {
+            "attachments": {
+              "type": "retrieval",
+              "accepted_mime_types": [
+                "text/javascript",
+                "application/json",
+                "text/x-ruby",
+                "text/x-php",
+                "text/x-c",
+                "text/x-typescript",
+                "text/plain",
+                "text/markdown",
+                "text/x-c++",
+                "application/x-latext",
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "application/msword",
+                "text/x-script.python",
+                "text/x-java",
+                "text/x-csharp",
+                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "text/x-tex",
+                "text/x-sh",
+                "application/pdf",
+                "text/html"
+              ],
+              "image_mime_types": [
+                "image/png",
+                "image/gif",
+                "image/webp",
+                "image/jpeg"
+              ],
+              "can_accept_all_mime_types": true
+            }
+          }
+        }
+      },
+      {
+        "resource": {
+          "gizmo": {
+            "id": "g-2azCVmXdy",
+            "organization_id": "org-dVp3SlijZF2EyjK9dxplnuVn",
+            "short_url": "g-2azCVmXdy-humanizer-pro",
+            "author": {
+              "user_id": "user-LfH5gS5D7s5RMBHWOJ8qd3DT",
+              "display_name": "charlygpts.com",
+              "link_to": "https://charlygpts.com",
+              "selected_display": "website",
+              "is_verified": true,
+              "will_receive_support_emails": true
+            },
+            "voice": {
+              "id": "ember"
+            },
+            "workspace_id": null,
+            "model": null,
+            "instructions": null,
+            "settings": null,
+            "display": {
+              "name": "Humanizer Pro",
+              "description": "#1 Humanizer in the market. Writes text like a human, avoiding AI detection. This tool humanizes your content to bypass the most advanced AI detectors, mantaining content meaning and quality. **New update available**",
+              "welcome_message": "Hello! Ready to write naturally together?",
+              "prompt_starters": [
+                "⬇️ PASTE THE TEXT YOU WANT TO HUMANIZE ⬇️",
+                "We recommend inserting &lt; 1000 words texts"
+              ],
+              "profile_pic_id": "file-B3J9SZ6f8uh21XyDgNJ236pg",
+              "profile_picture_url": "https://files.oaiusercontent.com/file-B3J9SZ6f8uh21XyDgNJ236pg?se=2123-10-22T14%3A41%3A35Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3D579a0db4-4eef-4846-98f7-ff2979eb942e.webp&amp;sig=xs2Th9HWsBkW5G60Vp90UmCc/QeGOrRXjF4XhcPHwhw%3D",
+              "categories": [
+                "writing"
+              ]
+            },
+            "share_recipient": "marketplace",
+            "created_at": "2023-11-15T14:14:36.022505+00:00",
+            "updated_at": "2024-01-31T17:54:32.066210+00:00",
+            "last_interacted_at": null,
+            "num_interactions": null,
+            "tags": [
+              "public",
+              "reportable",
+              "uses_function_calls"
+            ],
+            "version": null,
+            "live_version": null,
+            "training_disabled": null,
+            "sharing_targets": null,
+            "appeal_info": null,
+            "vanity_metrics": {
+              "num_conversations": null,
+              "num_conversations_str": null,
+              "num_pins": 0,
+              "created_ago_str": null,
+              "review_stats": null
+            },
+            "workspace_approval_date": null,
+            "workspace_approved": null
+          },
+          "tools": [
+            {
+              "id": "gzm_cnf_fsobWOQwWJSYZocr1hw4n7IT~gzm_tool_N09ltVQ8WQfrEwaEQPl32DnQ",
+              "type": "dalle",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_fsobWOQwWJSYZocr1hw4n7IT~gzm_tool_zhDbZBCnimAGQ2ClqaRFlgRu",
+              "type": "browser",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_smadVa4e15FVVVmemBHu2zrE~gzm_tool_HxoePGVOIg1X34knmaXl22qH",
+              "type": "plugins_prototype",
+              "settings": null,
+              "metadata": {
+                "action_id": "g-6c0b6204d369364e23ae19b220d6eb0df3c71fcb",
+                "domain": "plugin.gptinf.com",
+                "raw_spec": "openapi: 3.0.1\ninfo:\n  title: GPTinf Plugin\n  description: A plugin to humanize AI content by paraphrasing.\n  version: v1\nservers:\n  - url: https://plugin.gptinf.com/api\npaths:\n  /paraphrase:\n    post:\n      operationId: paraphrase\n      summary: Paraphrase a text\n      requestBody:\n        required: true\n        content:\n          application/json:\n            schema:\n              $ref: \"#/components/schemas/paraphraseRequest\"\n      responses:\n        \"200\":\n          description: OK\n          content:\n            application/json:\n              schema:\n                $ref: \"#/components/schemas/paraphraseResponse\"\n        \"400\":\n          description: Bad Request\n          content:\n            application/json:\n              schema:\n                $ref: \"#/components/schemas/errorResponse\"\ncomponents:\n  schemas:\n    paraphraseRequest:\n      type: object\n      required:\n        - text\n      properties:\n        text:\n          type: string\n          description: The text to paraphrase.\n    paraphraseResponse:\n      type: object\n      required:\n        - paraphrased\n      properties:\n        paraphrased:\n          type: string\n          description: The successful paraphrase of the text. Or request to increase the words limit.\n    errorResponse:\n      type: object\n      required:\n        - error\n      properties:\n        error:\n          type: string\n          description: Description of the error.",
+                "json_schema": null,
+                "auth": {
+                  "type": "oauth",
+                  "instructions": "",
+                  "client_url": "https://plugin.gptinf.com/api/oauth",
+                  "scope": "",
+                  "authorization_url": "https://plugin.gptinf.com/api/oauth_exchange",
+                  "authorization_content_type": "application/x-www-form-urlencoded",
+                  "verification_tokens": {},
+                  "pkce_required": false,
+                  "token_exchange_method": "default_post"
+                },
+                "privacy_policy_url": "https://app.gptinf.com/privacy_policy.html"
+              }
+            },
+            {
+              "id": "gzm_cnf_fsobWOQwWJSYZocr1hw4n7IT~gzm_tool_KTOwOFlroR5LlJF3NUnp4QCg",
+              "type": "python",
+              "settings": null,
+              "metadata": null
+            }
+          ],
+          "files": [],
+          "product_features": {
+            "attachments": {
+              "type": "retrieval",
+              "accepted_mime_types": [
+                "text/javascript",
+                "application/json",
+                "text/x-ruby",
+                "text/x-php",
+                "text/x-c",
+                "text/x-typescript",
+                "text/plain",
+                "text/markdown",
+                "text/x-c++",
+                "application/x-latext",
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "application/msword",
+                "text/x-script.python",
+                "text/x-java",
+                "text/x-csharp",
+                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "text/x-tex",
+                "text/x-sh",
+                "application/pdf",
+                "text/html"
+              ],
+              "image_mime_types": [
+                "image/png",
+                "image/gif",
+                "image/webp",
+                "image/jpeg"
+              ],
+              "can_accept_all_mime_types": true
+            }
+          }
+        }
+      },
+      {
+        "resource": {
+          "gizmo": {
+            "id": "g-n7Rs0IK86",
+            "organization_id": "org-1gikMSRWhS0V4jJTAy90gWPI",
+            "short_url": "g-n7Rs0IK86-grimoire",
+            "author": {
+              "user_id": "user-xNvKxI7DzdHAjr6LBbhCDWKi",
+              "display_name": "gptavern.mindgoblinstudios.com",
+              "link_to": "https://gptavern.mindgoblinstudios.com",
+              "selected_display": "website",
+              "is_verified": true,
+              "will_receive_support_emails": true
+            },
+            "voice": {
+              "id": "ember"
+            },
+            "workspace_id": null,
+            "model": null,
+            "instructions": null,
+            "settings": null,
+            "display": {
+              "name": "Grimoire",
+              "description": "Coding Wizard🧙‍♂️ Learn to Prompt-gram! Create a website (or anything) with a sentence. 20+ Hotkeys for coding flows. Learn Prompt-1st Code+Art with 75 starter projects. Or Build anything! Ask any question or upload a photo. Type R for README, K for cmd menu v2.0.4✨📜 GPTavern",
+              "welcome_message": "Hello! How can I assist with your code today?",
+              "prompt_starters": [
+                "Write code to... Use N to create an instant website. ",
+                "Pt1.md 2 Link in bio site",
+                "⚠ P Display Grimoire.md full text",
+                "⚠ new Grimoire iOS companion app! https://testflight.apple.com/join/rpdloc91",
+                "Toss a coin to your Grimoire! Tip to support development. Thank you! [https://tipjar.mindgoblinstudios.com/](https://tipjar.mindgoblinstudios.com/)",
+                "Pt1.md 3 Sketch to code",
+                "Pt2.md 13 Ballpit physics: Matter.js",
+                "Pt2.md 19 Blog with .md files",
+                "Pt4.md 40 Forbidden Spells Curses, Cursor.sh 101",
+                "Pt7. Md Book of the Dead Heresy 101: Coding basics re-imagined, post GPT-4",
+                "K for cmd⚠ R to Readme.md &amp; Tutorial, show K",
+                "Pt8.md Book of Life: Summoning 101: Connect robot to openAi api"
+              ],
+              "profile_pic_id": "file-0iw1nJRFDLfuXLJy3SHURMiE",
+              "profile_picture_url": "https://files.oaiusercontent.com/file-0iw1nJRFDLfuXLJy3SHURMiE?se=2123-12-26T23%3A31%3A22Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D1209600%2C%20immutable&amp;rscd=attachment%3B%20filename%3DCherished%2520Member.png&amp;sig=vlX1mXOxWn/p7qK07bDbFcK6D1fOdSrvdPnK4h7VOT8%3D",
+              "categories": [
+                "programming"
+              ]
+            },
+            "share_recipient": "marketplace",
+            "created_at": "2023-11-07T05:12:26.204722+00:00",
+            "updated_at": "2024-01-31T05:19:11.663938+00:00",
+            "last_interacted_at": null,
+            "num_interactions": null,
+            "tags": [
+              "public",
+              "reportable",
+              "uses_function_calls"
+            ],
+            "version": null,
+            "live_version": null,
+            "training_disabled": null,
+            "sharing_targets": null,
+            "appeal_info": null,
+            "vanity_metrics": {
+              "num_conversations": null,
+              "num_conversations_str": null,
+              "num_pins": 0,
+              "created_ago_str": null,
+              "review_stats": null
+            },
+            "workspace_approval_date": null,
+            "workspace_approved": null
+          },
+          "tools": [
+            {
+              "id": "gzm_cnf_nGFPgWNiICA1vgUODjYHXOug~gzm_tool_f69lCmSYsy2jEeArt0Cv1JAd",
+              "type": "plugins_prototype",
+              "settings": null,
+              "metadata": {
+                "action_id": "g-38e7f9b2ec68234feeaf1b42d4898dbb22856f69",
+                "domain": "app.netlify.com",
+                "raw_spec": "{\n  \"openapi\": \"3.0.0\",\n  \"info\": {\n    \"title\": \"Netlify\",\n    \"description\": \"Deploy static websites\",\n    \"version\": \"1.0\"\n  },\n  \"servers\": [\n    {\n      \"url\": \"https://app.netlify.com\"\n    }\n  ],\n  \"paths\": {\n    \"/partner-drop/api/v1/drop\": {\n      \"post\": {\n        \"operationId\": \"deployToNetlify\",\n        \"x-openai-isConsequential\": false,\n        \"summary\": \"Deploy files to Netlify to create website. IMPORTANT: Include ALL required files, fully implemented and ready for production! Old files must be re-uploaded.\",\n        \"requestBody\": {\n          \"required\": true,\n          \"content\": {\n            \"application/json\": {\n              \"schema\": {\n                \"type\": \"object\",\n                \"properties\": {\n                  \"files\": {\n                    \"description\": \"file paths &amp; file content to deploy\",\n                    \"type\": \"array\",\n                    \"items\": {\n                      \"type\": \"object\",\n                      \"properties\": {\n                        \"path\": {\n                          \"description\": \"file path\",\n                          \"type\": \"string\"\n                        },\n                        \"content\": {\n                          \"description\": \"file content\",\n                          \"type\": \"string\"\n                        }\n                      }\n                    }\n                  }\n                }\n              }\n            }\n          }\n        },\n        \"responses\": {\n          \"200\": {\n            \"description\": \"OK\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/Deploy\"\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  },\n  \"components\": {\n    \"schemas\": {\n      \"Deploy\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"url\": {\n            \"type\": \"string\",\n            \"description\": \"site URL\"\n          },\n          \"claim_url\": {\n            \"type\": \"string\",\n            \"description\": \"Save your site via the Claim URL! Or it will be deleted in one hour!!! The URL must contain the token inside the hash for it to work. After claiming, users can use netlify dashboard to download files, setup a custom domain, and configure settings.\"\n          },\n          \"important_message\": {\n            \"type\": \"string\",\n            \"description\": \"status\"\n          }\n        }\n      }\n    }\n  }\n}",
+                "json_schema": null,
+                "auth": {
+                  "type": "service_http",
+                  "instructions": "",
+                  "authorization_type": "bearer",
+                  "verification_tokens": {},
+                  "custom_auth_header": ""
+                },
+                "privacy_policy_url": "https://www.netlify.com/privacy/"
+              }
+            },
+            {
+              "id": "gzm_cnf_ILk2WcFYr0QUtjyTXoc1GSyu~gzm_tool_Ca4jG9Feurnwn8pnCLrw0AXO",
+              "type": "browser",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_ILk2WcFYr0QUtjyTXoc1GSyu~gzm_tool_0P43mhq5cQyESk82aEkkQqLE",
+              "type": "dalle",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_ILk2WcFYr0QUtjyTXoc1GSyu~gzm_tool_L1oDnC4dUOuYmz3VDb9iZgsY",
+              "type": "python",
+              "settings": null,
+              "metadata": null
+            }
+          ],
+          "files": [
+            {
+              "id": "gzm_cnf_dEVPvuuc3eucV17Huz465P6w~gzm_file_aVZDfmIKXVl2NWld08EIkCAW",
+              "type": "",
+              "file_id": "",
+              "location": ""
+            },
+            {
+              "id": "gzm_cnf_sZujESjtm8T4ppf89CSDTSpU~gzm_file_RBPhCBoon0FizUnQDIBwpwqB",
+              "type": "",
+              "file_id": "",
+              "location": ""
+            },
+            {
+              "id": "gzm_cnf_dEVPvuuc3eucV17Huz465P6w~gzm_file_uZqnnmSBppe4faGcpIiYgwVU",
+              "type": "",
+              "file_id": "",
+              "location": ""
+            },
+            {
+              "id": "gzm_cnf_dEVPvuuc3eucV17Huz465P6w~gzm_file_ckFcZXUzw3E3h6vxQM8x1lBC",
+              "type": "",
+              "file_id": "",
+              "location": ""
+            },
+            {
+              "id": "gzm_cnf_dEVPvuuc3eucV17Huz465P6w~gzm_file_V93n1iANm1JXfq385roynKmy",
+              "type": "",
+              "file_id": "",
+              "location": ""
+            },
+            {
+              "id": "gzm_cnf_dEVPvuuc3eucV17Huz465P6w~gzm_file_fBlh2botOE3kOsnixENbwv9K",
+              "type": "",
+              "file_id": "",
+              "location": ""
+            },
+            {
+              "id": "gzm_cnf_FyHnCkKXQ6CmIs0jDUjYfcxW~gzm_file_yzyGvVO1l3JZ5tVbj3EU42uw",
+              "type": "",
+              "file_id": "",
+              "location": ""
+            },
+            {
+              "id": "gzm_cnf_aAO9H0xC7XZiEDNFiwqKnel7~gzm_file_vUbuAt2NkUvnhBQndpJE8Zig",
+              "type": "",
+              "file_id": "",
+              "location": ""
+            },
+            {
+              "id": "gzm_cnf_PRUsqU8perBZbiT8hWcK8wz2~gzm_file_MX2pgAAk2fDwfkZENigAFiSK",
+              "type": "",
+              "file_id": "",
+              "location": ""
+            },
+            {
+              "id": "gzm_cnf_dEVPvuuc3eucV17Huz465P6w~gzm_file_pnqZGpHYMgrX0JjK4tKvW2tE",
+              "type": "",
+              "file_id": "",
+              "location": ""
+            },
+            {
+              "id": "gzm_cnf_dEVPvuuc3eucV17Huz465P6w~gzm_file_5YBlQuZ2LSz8mf5BdiT71m69",
+              "type": "",
+              "file_id": "",
+              "location": ""
+            },
+            {
+              "id": "gzm_cnf_dEVPvuuc3eucV17Huz465P6w~gzm_file_cimrmCb0dTrveJfw3wf7Gs9u",
+              "type": "",
+              "file_id": "",
+              "location": ""
+            },
+            {
+              "id": "gzm_cnf_LoASQe7fl0LgPQK14kAXIbH6~gzm_file_9HSDvcYi3G2UC1MGL63kz4vC",
+              "type": "",
+              "file_id": "",
+              "location": ""
+            },
+            {
+              "id": "gzm_cnf_aAO9H0xC7XZiEDNFiwqKnel7~gzm_file_8X8kXynGMwuYy6OQ6n1hAKRa",
+              "type": "",
+              "file_id": "",
+              "location": ""
+            },
+            {
+              "id": "gzm_cnf_ILk2WcFYr0QUtjyTXoc1GSyu~gzm_file_0q2DlIb7yMLKkis8hqn1TtPa",
+              "type": "image/png",
+              "file_id": "",
+              "location": ""
+            },
+            {
+              "id": "gzm_cnf_FFHCijhoIwbqpcU5dHjBvqR5~gzm_file_MTXJxoby8LZC1vD7m2X5g7s8",
+              "type": "",
+              "file_id": "",
+              "location": ""
+            },
+            {
+              "id": "gzm_cnf_57pYzMm15A9wAcspeTAIaQNI~gzm_file_VG8F2qfrHvr6k7LozxlaGDNN",
+              "type": "",
+              "file_id": "",
+              "location": ""
+            },
+            {
+              "id": "gzm_cnf_OWeGJ5dQwuRKwYFGcxZT5iMo~gzm_file_ZkLxtsqV9bjrWSgpkHcIEmOz",
+              "type": "",
+              "file_id": "",
+              "location": ""
+            }
+          ],
+          "product_features": {
+            "attachments": {
+              "type": "retrieval",
+              "accepted_mime_types": [
+                "text/javascript",
+                "application/json",
+                "text/x-ruby",
+                "text/x-php",
+                "text/x-c",
+                "text/x-typescript",
+                "text/plain",
+                "text/markdown",
+                "text/x-c++",
+                "application/x-latext",
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "application/msword",
+                "text/x-script.python",
+                "text/x-java",
+                "text/x-csharp",
+                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "text/x-tex",
+                "text/x-sh",
+                "application/pdf",
+                "text/html"
+              ],
+              "image_mime_types": [
+                "image/png",
+                "image/gif",
+                "image/webp",
+                "image/jpeg"
+              ],
+              "can_accept_all_mime_types": true
+            }
+          }
+        }
+      },
+      {
+        "resource": {
+          "gizmo": {
+            "id": "g-V2KIUZSj0",
+            "organization_id": "org-FHQEtg8RGuIClOPJU8FxPHJQ",
+            "short_url": "g-V2KIUZSj0-ai-pdf",
+            "author": {
+              "user_id": "user-9rCcq3yoxFRErAkvkOdjeqtF",
+              "display_name": "myaidrive.com",
+              "link_to": null,
+              "selected_display": "name",
+              "is_verified": true,
+              "will_receive_support_emails": true
+            },
+            "voice": {
+              "id": "ember"
+            },
+            "workspace_id": null,
+            "model": null,
+            "instructions": null,
+            "settings": null,
+            "display": {
+              "name": "Ai PDF",
+              "description": "Securely store and chat with ALL your PDFs for FREE, even x-large PDFs! Ai PDF powers more than 400,000 chats with professionals and researchers. It includes free myaidrive.com storage account, while Pro version can search folders with 1000s of files, OCR and extract title, authors and more!",
+              "welcome_message": "Hello",
+              "prompt_starters": [
+                "START HERE: HOW TO UPLOAD A FILE",
+                "How's AI PDF different ?",
+                "How to search across multiple files?",
+                "I have lots of files and want a PRO tool"
+              ],
+              "profile_pic_id": "file-9XepYndxfvemsnkdZ6cnT5em",
+              "profile_picture_url": "https://files.oaiusercontent.com/file-9XepYndxfvemsnkdZ6cnT5em?se=2123-10-13T20%3A40%3A38Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3Dlogo.png&amp;sig=iLNHnnlyyia9R%2BqHCe3A09us9866vp3s4byPzVRT7qo%3D",
+              "categories": [
+                "productivity"
+              ]
+            },
+            "share_recipient": "marketplace",
+            "created_at": "2023-11-06T20:34:51.435569+00:00",
+            "updated_at": "2024-01-31T17:51:39.666249+00:00",
+            "last_interacted_at": null,
+            "num_interactions": null,
+            "tags": [
+              "public",
+              "reportable",
+              "uses_function_calls"
+            ],
+            "version": null,
+            "live_version": null,
+            "training_disabled": null,
+            "sharing_targets": null,
+            "appeal_info": null,
+            "vanity_metrics": {
+              "num_conversations": null,
+              "num_conversations_str": null,
+              "num_pins": 0,
+              "created_ago_str": null,
+              "review_stats": null
+            },
+            "workspace_approval_date": null,
+            "workspace_approved": null
+          },
+          "tools": [
+            {
+              "id": "gzm_cnf_Tzp6NtDmVR3fFRFNWOI2FeF8~gzm_tool_UpFBxt1muyQ4juzHDh3fdk94",
+              "type": "plugins_prototype",
+              "settings": null,
+              "metadata": {
+                "action_id": "g-0c245e918a1b944a414c8bdb100bf31a0aab6298",
+                "domain": "aipdf.myaidrive.com",
+                "raw_spec": "{\n  \"openapi\": \"3.1.0\",\n  \"info\": {\n    \"title\": \"AI Drive\",\n    \"description\": \"Super-fast, interactive chats with PDFs of any size, complete with page references for fact checking.\",\n    \"version\": \"v0.0.1\"\n  },\n  \"servers\": [\n    {\n      \"url\": \"https://aipdf.myaidrive.com\"\n    }\n  ],\n  \"paths\": {\n    \"/summarize_pdf\": {\n      \"post\": {\n        \"description\": \"Provide the summary or highlights of the PDF linked. ALWAYS PROVIDE QUOTES AND PAGE CITIATIONS. Add at the end of your summary this We finished processing the whole document with the PDF Search plugin. What else would you like to know?\",\n        \"operationId\": \"summarize\",\n        \"parameters\": [],\n        \"requestBody\": {\n          \"content\": {\n            \"application/json\": {\n              \"schema\": {\n                \"$ref\": \"#/components/schemas/summarizeRequestSchema\"\n              }\n            }\n          },\n          \"required\": true\n        },\n        \"deprecated\": false,\n        \"security\": [],\n        \"x-openai-isConsequential\": false\n      }\n    },\n    \"/upload_and_search_pdf\": {\n      \"post\": {\n        \"description\": \"Semantic query into a URL link to a document. THINK STEP BY STEP. ALWAYS PROVIDE QUOTES AND PAGE CITIATIONS. BREAK COMPLEX QUESTIONS INTO SEVERAL QUERIES.\",\n        \"operationId\": \"upload_and_search_pdf\",\n        \"parameters\": [],\n        \"requestBody\": {\n          \"content\": {\n            \"application/json\": {\n              \"schema\": {\n                \"$ref\": \"#/components/schemas/upload_and_search_pdfRequestSchema\"\n              }\n            }\n          },\n          \"required\": true\n        },\n        \"deprecated\": false,\n        \"security\": [],\n        \"x-openai-isConsequential\": false\n      }\n    }\n  },\n  \"components\": {\n    \"schemas\": {\n      \"upload_and_search_pdfRequestSchema\": {\n        \"properties\": {\n          \"pdf_url\": {\n            \"type\": \"\",\n            \"title\": \"pdf_url\",\n            \"description\": \"url where the PDF file is stored. e.g. https://myaidrive.com/eHrCoFs6i23ygrxL/Democracy_in.pdf\"\n          },\n          \"query\": {\n            \"type\": \"\",\n            \"title\": \"query\",\n            \"description\": \"Query to perform semantic search.\"\n          }\n        },\n        \"type\": \"object\",\n        \"required\": [\n          \"pdf_url\",\n          \"query\"\n        ],\n        \"title\": \"upload_and_search_pdfRequestSchema\"\n      },\n      \"summarizeRequestSchema\": {\n        \"properties\": {\n          \"pdf_url\": {\n            \"type\": \"\",\n            \"title\": \"pdf_url\",\n            \"description\": \"url where the PDF file is stored. e.g. https://myaidrive.com/eHrCoFs6i23ygrxL/Democracy_in.pdf\"\n          }\n        },\n        \"type\": \"object\",\n        \"required\": [\n          \"pdf_url\"\n        ],\n        \"title\": \"summarizeRequestSchema\"\n      }\n    },\n    \"securitySchemes\": {\n      \"apiKey\": {\n        \"type\": \"apiKey\"\n      }\n    }\n  }\n}",
+                "json_schema": null,
+                "auth": {
+                  "type": "service_http",
+                  "instructions": "",
+                  "authorization_type": "basic",
+                  "verification_tokens": {},
+                  "custom_auth_header": null
+                },
+                "privacy_policy_url": "https://myaidrive.com/#/privacy-policy"
+              }
+            },
+            {
+              "id": "gzm_cnf_h2co4ZSbnQ5pvv05RhoLgufj~gzm_tool_iTjwgh7QurU8vNgwIyY4l0YO",
+              "type": "dalle",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_h2co4ZSbnQ5pvv05RhoLgufj~gzm_tool_txmQ4dp4unF3si1e5BETyDE7",
+              "type": "python",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_h2co4ZSbnQ5pvv05RhoLgufj~gzm_tool_TVmmxqtfwdqhPo2RcoxFYffv",
+              "type": "browser",
+              "settings": null,
+              "metadata": null
+            }
+          ],
+          "files": [
+            {
+              "id": "gzm_cnf_RWpoDN9jqoVZA1LR7NxCTRbw~gzm_file_QBtyzhnDPkTYqC6CKbAg9QaU",
+              "type": "text/plain",
+              "file_id": "",
+              "location": ""
+            }
+          ],
+          "product_features": {
+            "attachments": {
+              "type": "retrieval",
+              "accepted_mime_types": [
+                "text/javascript",
+                "application/json",
+                "text/x-ruby",
+                "text/x-php",
+                "text/x-c",
+                "text/x-typescript",
+                "text/plain",
+                "text/markdown",
+                "text/x-c++",
+                "application/x-latext",
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "application/msword",
+                "text/x-script.python",
+                "text/x-java",
+                "text/x-csharp",
+                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "text/x-tex",
+                "text/x-sh",
+                "application/pdf",
+                "text/html"
+              ],
+              "image_mime_types": [
+                "image/png",
+                "image/gif",
+                "image/webp",
+                "image/jpeg"
+              ],
+              "can_accept_all_mime_types": true
+            }
+          }
+        }
+      },
+      {
+        "resource": {
+          "gizmo": {
+            "id": "g-h8l4uLHFQ",
+            "organization_id": "org-EjquXjWT0E066HTE6gv2ti9g",
+            "short_url": "g-h8l4uLHFQ-video-maker-by-invideo-ai",
+            "author": {
+              "user_id": "user-M64bxYAIRX4KL5kKyb60nPiu",
+              "display_name": "invideo AI",
+              "link_to": null,
+              "selected_display": "name",
+              "is_verified": true,
+              "will_receive_support_emails": true
+            },
+            "voice": {
+              "id": "ember"
+            },
+            "workspace_id": null,
+            "model": null,
+            "instructions": null,
+            "settings": null,
+            "display": {
+              "name": "Video Maker by invideo AI",
+              "description": "Generate stunning narrated videos effortlessly with this videoGPT!",
+              "welcome_message": "Hi there! Ready to turn your script or idea into a video? Let's start!",
+              "prompt_starters": [
+                "Let's create a video!",
+                "Let's create an explainer video.",
+                "Let's create a youtube shorts video!",
+                "Let's start by creating a script..."
+              ],
+              "profile_pic_id": "file-Y5VfZYtGbbkXhPTzqGn8mhGW",
+              "profile_picture_url": "https://files.oaiusercontent.com/file-Y5VfZYtGbbkXhPTzqGn8mhGW?se=2123-12-24T13%3A42%3A16Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D1209600%2C%20immutable&amp;rscd=attachment%3B%20filename%3DVideoMaker-blue%25402x.png&amp;sig=m4ZiA/1bZnp56z2D3IlEnQkwD3NlK2E333ss%2B%2B7Y16w%3D",
+              "categories": [
+                "productivity"
+              ]
+            },
+            "share_recipient": "marketplace",
+            "created_at": "2023-11-24T12:04:19.281443+00:00",
+            "updated_at": "2024-01-31T17:58:17.751174+00:00",
+            "last_interacted_at": null,
+            "num_interactions": null,
+            "tags": [
+              "public",
+              "reportable",
+              "uses_function_calls"
+            ],
+            "version": null,
+            "live_version": null,
+            "training_disabled": null,
+            "sharing_targets": null,
+            "appeal_info": null,
+            "vanity_metrics": {
+              "num_conversations": null,
+              "num_conversations_str": null,
+              "num_pins": 0,
+              "created_ago_str": null,
+              "review_stats": null
+            },
+            "workspace_approval_date": null,
+            "workspace_approved": null
+          },
+          "tools": [
+            {
+              "id": "gzm_cnf_wHmuSawSGzImZTMQmqnQSMr5~gzm_tool_YxxnimmBHrrg3oZQFsnuHcEM",
+              "type": "python",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_9scIEgShQ8K8inhssRYmePyi~gzm_tool_1M98XjjSi8pnn0v17Mok16JY",
+              "type": "plugins_prototype",
+              "settings": null,
+              "metadata": {
+                "action_id": "g-b2352dd9dd4f2f4ae774a1e26f0b85bc4398bbfc",
+                "domain": "video-ai.invideo.io",
+                "raw_spec": "openapi: 3.0.1\ninfo:\n  title: invideo AI\n  description: Plugin for crafting narrated videos from text prompts and scripts.\n  version: v1\nservers:\n  - url: https://video-ai.invideo.io\npaths:\n  /api/copilot/request/chatgpt-new-from-brief:\n    post:\n      operationId: generateVideoFromBrief\n      summary: Generate video from a detailed brief.\n      requestBody:\n        required: true\n        content:\n          application/json:\n            schema:\n              $ref: \"#/components/schemas/VideoFromBriefInput\"\n      responses:\n        \"200\":\n          description: OK\n          content:\n            application/json:\n              schema:\n                $ref: \"#/components/schemas/VideoResponse\"\n  /api/copilot/request/chatgpt-new-from-script:\n    post:\n      operationId: generateVideoFromScript\n      summary: Generate video from a script.\n      requestBody:\n        required: true\n        content:\n          application/json:\n            schema:\n              $ref: \"#/components/schemas/VideoFromScriptInput\"\n      responses:\n        \"200\":\n          description: OK\n          content:\n            application/json:\n              schema:\n                $ref: \"#/components/schemas/VideoResponse\"\ncomponents:\n  schemas:\n    VideoFromBriefInput:\n      type: object\n      properties:\n        brief:\n          type: string\n          description: Plain english text starting with \"Create a video\" or \"Create a [platform] video\"\n        settings:\n          type: string\n          description: Plain english text covering instructions such as gender and accent of the voiceover, tone of the background\n            music. Can be left empty.\n        title:\n          type: string\n        description:\n          type: string\n        platforms:\n          type: array\n          items:\n            type: string\n          description: suggest three platforms this video would be ideal for\n        audiences:\n          type: array\n          items:\n            type: string\n          description: suggest three audiences this video would be ideal for\n        length_in_minutes:\n          type: float\n          description: suggest the length of the video in minutes\n      required:\n        - title\n        - description\n        - platforms\n        - audiences\n        - length_in_minutes\n        - brief\n        - settings\n    VideoFromScriptInput:\n      type: object\n      properties:\n        script:\n          type: string\n          description: plain english text that is the script of the video\n        settings:\n          type: string\n          description: Plain english text covering instructions such as gender and accent of the voiceover, tone of the background\n            music. Can be left empty.\n        title:\n          type: string\n        description:\n          type: string\n        platforms:\n          type: array\n          items:\n            type: string\n          description: suggest three platforms this video would be ideal for\n        audiences:\n          type: array\n          items:\n            type: string\n          description: suggest three audiences this video would be ideal for\n        length_in_minutes:\n          type: float\n          description: suggest the length of the video in minutes\n      required:\n        - title\n        - description\n        - platforms\n        - audiences\n        - length_in_minutes\n        - script\n        - settings\n    VideoResponse:\n      type: object\n      properties:\n        video_url:\n          type: string\n",
+                "json_schema": null,
+                "auth": {
+                  "type": "none"
+                },
+                "privacy_policy_url": "https://pro-api.invideo.io/legal.html"
+              }
+            },
+            {
+              "id": "gzm_cnf_FrmpO8n3sI67b9ONLixutJTV~gzm_tool_JuJ6DG5KORNTa1i2UsdZolyc",
+              "type": "dalle",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_FrmpO8n3sI67b9ONLixutJTV~gzm_tool_fx08woct4a7jiweI5hhMzbNx",
+              "type": "browser",
+              "settings": null,
+              "metadata": null
+            }
+          ],
+          "files": [],
+          "product_features": {
+            "attachments": {
+              "type": "retrieval",
+              "accepted_mime_types": [
+                "text/javascript",
+                "application/json",
+                "text/x-ruby",
+                "text/x-php",
+                "text/x-c",
+                "text/x-typescript",
+                "text/plain",
+                "text/markdown",
+                "text/x-c++",
+                "application/x-latext",
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "application/msword",
+                "text/x-script.python",
+                "text/x-java",
+                "text/x-csharp",
+                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "text/x-tex",
+                "text/x-sh",
+                "application/pdf",
+                "text/html"
+              ],
+              "image_mime_types": [
+                "image/png",
+                "image/gif",
+                "image/webp",
+                "image/jpeg"
+              ],
+              "can_accept_all_mime_types": true
+            }
+          }
+        }
+      },
+      {
+        "resource": {
+          "gizmo": {
+            "id": "g-a9JivI0y2",
+            "organization_id": "org-J8s7k6ldlWQgIPn5qCTGXGRg",
+            "short_url": "g-a9JivI0y2-consistent-character-gpt-fast-high-quality",
+            "author": {
+              "user_id": "user-bpmApMbymAlBeGAkig32juCU",
+              "display_name": "ailemonacademy.com",
+              "link_to": "https://ailemonacademy.com",
+              "selected_display": "website",
+              "is_verified": true,
+              "will_receive_support_emails": true
+            },
+            "voice": {
+              "id": "ember"
+            },
+            "workspace_id": null,
+            "model": null,
+            "instructions": null,
+            "settings": null,
+            "display": {
+              "name": "Consistent Character GPT👉🏼 Fast &amp; High Quality⚡️",
+              "description": "Your creative partner for generating characters in different poses, expressions, styles, and scenes. No prompt needed, just start with 'CLICK HERE' and follow the steps.",
+              "welcome_message": "Hey, ready to design some unique characters?",
+              "prompt_starters": [
+                "CLICK HERE to start creating character designs!"
+              ],
+              "profile_pic_id": null,
+              "profile_picture_url": "https://files.oaiusercontent.com/file-7FWjuUBgaewsVzcpSpKh1hKX?se=2123-12-29T22%3A54%3A19Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D1209600%2C%20immutable&amp;rscd=attachment%3B%20filename%3DDallE%25203%2520Consistent%2520Character%2520Generator%2520GPT.png&amp;sig=HeNVypLTkOjCbernM6fm6hK3IxSlehRUBwiDizO/Q9M%3D",
+              "categories": [
+                "dalle"
+              ]
+            },
+            "share_recipient": "marketplace",
+            "created_at": "2023-11-12T17:04:33.107384+00:00",
+            "updated_at": "2024-01-31T05:21:25.743742+00:00",
+            "last_interacted_at": null,
+            "num_interactions": null,
+            "tags": [
+              "public",
+              "reportable"
+            ],
+            "version": null,
+            "live_version": null,
+            "training_disabled": null,
+            "sharing_targets": null,
+            "appeal_info": null,
+            "vanity_metrics": {
+              "num_conversations": null,
+              "num_conversations_str": null,
+              "num_pins": 0,
+              "created_ago_str": null,
+              "review_stats": null
+            },
+            "workspace_approval_date": null,
+            "workspace_approved": null
+          },
+          "tools": [
+            {
+              "id": "gzm_cnf_BFCJ7V5ngvZU8gbEiRIO5H59~gzm_tool_1OgNpOEMd3Zwdp3kyCeRjfEg",
+              "type": "python",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_BFCJ7V5ngvZU8gbEiRIO5H59~gzm_tool_2SprtTQyCKXFSzrjNZWNFAOC",
+              "type": "dalle",
+              "settings": null,
+              "metadata": null
+            }
+          ],
+          "files": [
+            {
+              "id": "gzm_cnf_BFCJ7V5ngvZU8gbEiRIO5H59~gzm_file_F2ZgcC0b6F2KPfDh6fxNp0a4",
+              "type": "image/png",
+              "file_id": "",
+              "location": ""
+            }
+          ],
+          "product_features": {
+            "attachments": {
+              "type": "retrieval",
+              "accepted_mime_types": [
+                "text/javascript",
+                "application/json",
+                "text/x-ruby",
+                "text/x-php",
+                "text/x-c",
+                "text/x-typescript",
+                "text/plain",
+                "text/markdown",
+                "text/x-c++",
+                "application/x-latext",
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "application/msword",
+                "text/x-script.python",
+                "text/x-java",
+                "text/x-csharp",
+                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "text/x-tex",
+                "text/x-sh",
+                "application/pdf",
+                "text/html"
+              ],
+              "image_mime_types": [
+                "image/png",
+                "image/gif",
+                "image/webp",
+                "image/jpeg"
+              ],
+              "can_accept_all_mime_types": true
+            }
+          }
+        }
+      },
+      {
+        "resource": {
+          "gizmo": {
+            "id": "g-Ej5zYQRIB",
+            "organization_id": "org-6T1f9CaYwaKku4YRbov1yPXW",
+            "short_url": "g-Ej5zYQRIB-academic-assistant-pro",
+            "author": {
+              "user_id": "user-7LUVlGv6xIwOK59Ou0OEuRmB",
+              "display_name": "awesomegpts.vip",
+              "link_to": "https://awesomegpts.vip",
+              "selected_display": "website",
+              "is_verified": true,
+              "will_receive_support_emails": true
+            },
+            "voice": {
+              "id": "ember"
+            },
+            "workspace_id": null,
+            "model": null,
+            "instructions": null,
+            "settings": null,
+            "display": {
+              "name": "👌Academic Assistant Pro",
+              "description": "Professional academic assistant with a professorial touch",
+              "welcome_message": "Hello, ready to assist with your academic needs! 📚",
+              "prompt_starters": [
+                "Can you help me outline my paper on ecology?",
+                "I need to polish a thesis abstract.",
+                "Could you rewrite this paragraph to be more concise?",
+                "Write a SCI paper about ChatGPT embedding"
+              ],
+              "profile_pic_id": null,
+              "profile_picture_url": "https://files.oaiusercontent.com/file-Dwtb6wId5QQI5EFlrVNBkOVk?se=2123-10-20T08%3A47%3A21Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3D629998af-08da-406f-b8d1-97c9543b56b8.png&amp;sig=Q5Hqblmz5PUlhNl%2BiOFui9Iuk94YCBTHmxSgM9V/Ynk%3D",
+              "categories": [
+                "writing"
+              ]
+            },
+            "share_recipient": "marketplace",
+            "created_at": "2023-11-09T01:50:37.779141+00:00",
+            "updated_at": "2024-01-30T17:47:00.480559+00:00",
+            "last_interacted_at": null,
+            "num_interactions": null,
+            "tags": [
+              "public",
+              "reportable"
+            ],
+            "version": null,
+            "live_version": null,
+            "training_disabled": null,
+            "sharing_targets": null,
+            "appeal_info": null,
+            "vanity_metrics": {
+              "num_conversations": null,
+              "num_conversations_str": null,
+              "num_pins": 0,
+              "created_ago_str": null,
+              "review_stats": null
+            },
+            "workspace_approval_date": null,
+            "workspace_approved": null
+          },
+          "tools": [
+            {
+              "id": "gzm_cnf_ep3raZnK7TpSOzlVqY7ibDDM~gzm_tool_SBGnHSX1bI6U8j58warBWKnq",
+              "type": "browser",
+              "settings": null,
+              "metadata": null
+            }
+          ],
+          "files": [],
+          "product_features": {
+            "attachments": {
+              "type": "retrieval",
+              "accepted_mime_types": [
+                "text/javascript",
+                "application/json",
+                "text/x-ruby",
+                "text/x-php",
+                "text/x-c",
+                "text/x-typescript",
+                "text/plain",
+                "text/markdown",
+                "text/x-c++",
+                "application/x-latext",
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "application/msword",
+                "text/x-script.python",
+                "text/x-java",
+                "text/x-csharp",
+                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "text/x-tex",
+                "text/x-sh",
+                "application/pdf",
+                "text/html"
+              ],
+              "image_mime_types": [
+                "image/png",
+                "image/gif",
+                "image/webp",
+                "image/jpeg"
+              ],
+              "can_accept_all_mime_types": true
+            }
+          }
+        }
+      },
+      {
+        "resource": {
+          "gizmo": {
+            "id": "g-UbpNAGYL9",
+            "organization_id": "org-6T1f9CaYwaKku4YRbov1yPXW",
+            "short_url": "g-UbpNAGYL9-all-around-writer-professional-version",
+            "author": {
+              "user_id": "user-7LUVlGv6xIwOK59Ou0OEuRmB",
+              "display_name": "awesomegpts.vip",
+              "link_to": "https://awesomegpts.vip",
+              "selected_display": "website",
+              "is_verified": true,
+              "will_receive_support_emails": true
+            },
+            "voice": {
+              "id": "ember"
+            },
+            "workspace_id": null,
+            "model": null,
+            "instructions": null,
+            "settings": null,
+            "display": {
+              "name": "✏️All-around Writer (Professional Version)",
+              "description": "A professional writer📚 who specializes in writing all types of content (essays, novels, articles, copywriting)...",
+              "welcome_message": "Hello",
+              "prompt_starters": [
+                "Craft 10 copywritings about Iphone 15 Pro Max",
+                "Write a paper about AI LLM in sci format",
+                "Write a magical cultivation of fairies novel step by step",
+                "Write an unconventional love letter to the one I love"
+              ],
+              "profile_pic_id": "file-3bb4cMsJxmTglzwJMny2J5FQ",
+              "profile_picture_url": "https://files.oaiusercontent.com/file-3bb4cMsJxmTglzwJMny2J5FQ?se=2123-10-16T01%3A33%3A50Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3D95bf7bd2-9782-4d24-9e06-7f0534ef6469.png&amp;sig=K05NkNlTpmMcEfHCyalr6yeShPCpwmPw%2BgSFSbjEiS4%3D",
+              "categories": [
+                "writing"
+              ]
+            },
+            "share_recipient": "marketplace",
+            "created_at": "2023-11-09T01:18:32.180841+00:00",
+            "updated_at": "2024-01-30T17:46:03.471354+00:00",
+            "last_interacted_at": null,
+            "num_interactions": null,
+            "tags": [
+              "public",
+              "reportable"
+            ],
+            "version": null,
+            "live_version": null,
+            "training_disabled": null,
+            "sharing_targets": null,
+            "appeal_info": null,
+            "vanity_metrics": {
+              "num_conversations": null,
+              "num_conversations_str": null,
+              "num_pins": 0,
+              "created_ago_str": null,
+              "review_stats": null
+            },
+            "workspace_approval_date": null,
+            "workspace_approved": null
+          },
+          "tools": [
+            {
+              "id": "gzm_cnf_v2KJ6OHK4Z9RtDM8n40gzpxl~gzm_tool_kkhgO0XrE24v5nMDISwXjaP8",
+              "type": "browser",
+              "settings": null,
+              "metadata": null
+            }
+          ],
+          "files": [],
+          "product_features": {
+            "attachments": {
+              "type": "retrieval",
+              "accepted_mime_types": [
+                "text/javascript",
+                "application/json",
+                "text/x-ruby",
+                "text/x-php",
+                "text/x-c",
+                "text/x-typescript",
+                "text/plain",
+                "text/markdown",
+                "text/x-c++",
+                "application/x-latext",
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "application/msword",
+                "text/x-script.python",
+                "text/x-java",
+                "text/x-csharp",
+                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "text/x-tex",
+                "text/x-sh",
+                "application/pdf",
+                "text/html"
+              ],
+              "image_mime_types": [
+                "image/png",
+                "image/gif",
+                "image/webp",
+                "image/jpeg"
+              ],
+              "can_accept_all_mime_types": true
+            }
+          }
+        }
+      },
+      {
+        "resource": {
+          "gizmo": {
+            "id": "g-UfFxTDMxq",
+            "organization_id": "org-y7Xz7fGf8F002T5yQXC0uVv3",
+            "short_url": "g-UfFxTDMxq-askyourpdf-research-assistant",
+            "author": {
+              "user_id": "user-vh4D140gNi8OulBaocuxSksZ",
+              "display_name": "askyourpdf.com",
+              "link_to": "https://askyourpdf.com",
+              "selected_display": "website",
+              "is_verified": true,
+              "will_receive_support_emails": true
+            },
+            "voice": {
+              "id": "ember"
+            },
+            "workspace_id": null,
+            "model": null,
+            "instructions": null,
+            "settings": null,
+            "display": {
+              "name": "AskYourPDF Research Assistant",
+              "description": "Automate your research with AI,  Chat multiple files (Unlimited PDFs), Generate articles/essays with valid citations, ChatPDF,  Analyse and generate references for  papers, create and interact with a knowledge base of your files and much more using AskYourPDF.",
+              "welcome_message": "Hello",
+              "prompt_starters": [
+                "How can I use this GPT?",
+                "List the documents on my account",
+                "Tell me about this paper https://arxiv.org/pdf/2306.12139.pdf",
+                "Write me an essay on the effects of Large Language Models such as ChatGPT on education",
+                "Can you help me cite my essay?",
+                "How can you help me with my literature review write up?",
+                "How can I leverage this GPT to find academic papers?",
+                "Can you help me summarize a webpage?",
+                "Write me an essay on the effects of Large Language Models such as ChatGPT on education"
+              ],
+              "profile_pic_id": "file-DA3Ydcqttrv1tYcjGUv9Nv3Q",
+              "profile_picture_url": "https://files.oaiusercontent.com/file-DA3Ydcqttrv1tYcjGUv9Nv3Q?se=2123-12-21T07%3A50%3A47Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D1209600%2C%20immutable&amp;rscd=attachment%3B%20filename%3Daypp_logo.png&amp;sig=YesTZBWDISzB1veZ2kJr2U74q71MmcP%2B0VHpsf4UvFo%3D",
+              "categories": [
+                "research"
+              ]
+            },
+            "share_recipient": "marketplace",
+            "created_at": "2023-11-06T21:27:38.057971+00:00",
+            "updated_at": "2024-01-29T12:46:14.974411+00:00",
+            "last_interacted_at": null,
+            "num_interactions": null,
+            "tags": [
+              "public",
+              "reportable",
+              "uses_function_calls"
+            ],
+            "version": null,
+            "live_version": null,
+            "training_disabled": null,
+            "sharing_targets": null,
+            "appeal_info": null,
+            "vanity_metrics": {
+              "num_conversations": null,
+              "num_conversations_str": null,
+              "num_pins": 0,
+              "created_ago_str": null,
+              "review_stats": null
+            },
+            "workspace_approval_date": null,
+            "workspace_approved": null
+          },
+          "tools": [
+            {
+              "id": "gzm_cnf_G3sruUXRdiYNaq4ZaiTvcG2J~gzm_tool_DnGB1pfqOZS1Jh6FUUTKim1h",
+              "type": "plugins_prototype",
+              "settings": null,
+              "metadata": {
+                "action_id": "g-b9f9edbe71020a9438aaffd657d942ab4c46513e",
+                "domain": "pro.askyourpdf.com",
+                "raw_spec": "{\n  \"openapi\": \"3.0.2\",\n  \"info\": {\n    \"title\": \"FastAPI\",\n    \"version\": \"0.1.0\"\n  },\n  \"paths\": {\n    \"/api/usage\": {\n      \"get\": {\n        \"summary\": \"Get Daily Usage\",\n        \"operationId\": \"get_daily_usage_api_usage_get\",\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/DailyUsageAnalytics\"\n                }\n              }\n            }\n          }\n        },\n        \"security\": [\n          {\n            \"OAuth2PasswordBearer\": []\n          }\n        ]\n      }\n    },\n    \"/api/upload\": {\n      \"post\": {\n        \"summary\": \"Upload Pdf\",\n        \"description\": \"Upload a PDF file and save it to the database.\\n\\nArgs:\\n    user: The user who is uploading the file.\\n    file: The PDF file to upload.\\n\\nReturns:\\n    dict: The document ID of the uploaded file.\",\n        \"operationId\": \"upload_pdf_api_upload_post\",\n        \"requestBody\": {\n          \"content\": {\n            \"multipart/form-data\": {\n              \"schema\": {\n                \"$ref\": \"#/components/schemas/Body_upload_pdf_api_upload_post\"\n              }\n            }\n          },\n          \"required\": true\n        },\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/BaseFileResponse\"\n                }\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        },\n        \"security\": [\n          {\n            \"OAuth2PasswordBearer\": []\n          }\n        ],\n        \"x-openai-isConsequential\": false\n      }\n    },\n    \"/api/download_pdf\": {\n      \"post\": {\n        \"summary\": \"Download Pdf\",\n        \"description\": \"Download a PDF file from a URL and save it to the vector database.\",\n        \"operationId\": \"download_pdf_api_download_pdf_post\",\n        \"parameters\": [\n          {\n            \"required\": true,\n            \"schema\": {\n              \"title\": \"Url\",\n              \"type\": \"string\"\n            },\n            \"name\": \"url\",\n            \"in\": \"query\"\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/BaseFileResponse\"\n                }\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        },\n        \"security\": [\n          {\n            \"OAuth2PasswordBearer\": []\n          }\n        ]\n      }\n    },\n    \"/query\": {\n      \"post\": {\n        \"summary\": \"Perform Query on Document or Knowledge base using doc_id given\",\n        \"description\": \"Perform a query on a document.\",\n        \"operationId\": \"perform_query_query_post\",\n        \"requestBody\": {\n          \"content\": {\n            \"application/json\": {\n              \"schema\": {\n                \"$ref\": \"#/components/schemas/InputData\"\n              }\n            }\n          },\n          \"required\": true\n        },\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/ResponseModel\"\n                }\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        },\n        \"security\": [\n          {\n            \"OAuth2PasswordBearer\": []\n          }\n        ],\n        \"x-openai-isConsequential\": false\n      }\n    },\n    \"/references\": {\n      \"post\": {\n        \"summary\": \"Get References\",\n        \"description\": \"Retrieves a list of references that match the specified criteria.\\n\\n- **limit**: The maximum number of references to return.\\n- **keyword_combinations**: List of keyword combinations to search for.\",\n        \"operationId\": \"get_references_references_post\",\n        \"requestBody\": {\n          \"content\": {\n            \"application/json\": {\n              \"schema\": {\n                \"$ref\": \"#/components/schemas/SourceRetrievalRequest\"\n              }\n            }\n          },\n          \"required\": true\n        },\n        \"security\": [\n          {\n            \"OAuth2PasswordBearer\": []\n          }\n        ],\n        \"x-openai-isConsequential\": false,\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/SourcedModel\"\n                }\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"/api/documents\": {\n      \"get\": {\n        \"summary\": \"Fetch User Documents\",\n        \"description\": \"Returns all documents for the current user. Request maximum 10 documents per page.\",\n        \"operationId\": \"fetch_user_documents_api_documents_get\",\n        \"parameters\": [\n          {\n            \"required\": false,\n            \"schema\": {\n              \"title\": \"Page\",\n              \"minimum\": 1,\n              \"type\": \"integer\",\n              \"default\": 1\n            },\n            \"name\": \"page\",\n            \"in\": \"query\"\n          },\n          {\n            \"required\": false,\n            \"schema\": {\n              \"title\": \"Page Size\",\n              \"maximum\": 10,\n              \"minimum\": 1,\n              \"type\": \"integer\",\n              \"default\": 10\n            },\n            \"name\": \"page_size\",\n            \"in\": \"query\"\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/UserDocumentsMetaSerializer\"\n                }\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        },\n        \"security\": [\n          {\n            \"OAuth2PasswordBearer\": []\n          }\n        ],\n        \"x-openai-isConsequential\": false\n      }\n    },\n    \"/api/search\": {\n      \"get\": {\n        \"tags\": [\n          \"document management\"\n        ],\n        \"summary\": \"Search\",\n        \"description\": \"Search for documents.\\n\\nArgs:\\n    user: The user who is searching.\\n    query: The search string to use for query.\\n\\nReturns:\\n    dict: A list of documents.\",\n        \"operationId\": \"search_api_search_get\",\n        \"parameters\": [\n          {\n            \"required\": true,\n            \"schema\": {\n              \"title\": \"Query\",\n              \"type\": \"string\"\n            },\n            \"name\": \"query\",\n            \"in\": \"query\"\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"title\": \"Response Search Api Search Get\",\n                  \"type\": \"array\",\n                  \"items\": {\n                    \"$ref\": \"#/components/schemas/UserDocumentMeta\"\n                  }\n                }\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        },\n        \"security\": [\n          {\n            \"OAuth2PasswordBearer\": []\n          }\n        ]\n      }\n    },\n    \"/api/knowledge\": {\n      \"get\": {\n        \"tags\": [\n          \"knowledge base\"\n        ],\n        \"summary\": \"Get Knowledge Bases\",\n        \"description\": \"Get knowledge bases\\n\\nArgs:\\n    user: The user making the request.\\n    page: The page number.\\n    page_size: The number of items per page.\\n\\nReturns:\\n    PaginatedKnowledgeBase: The response containing the updated knowledge base.\",\n        \"operationId\": \"get_knowledge_bases_api_knowledge_get\",\n        \"parameters\": [\n          {\n            \"required\": false,\n            \"schema\": {\n              \"title\": \"Page\",\n              \"minimum\": 1,\n              \"type\": \"integer\",\n              \"default\": 1\n            },\n            \"name\": \"page\",\n            \"in\": \"query\"\n          },\n          {\n            \"required\": false,\n            \"schema\": {\n              \"title\": \"Page Size\",\n              \"maximum\": 100,\n              \"minimum\": 1,\n              \"type\": \"integer\",\n              \"default\": 10\n            },\n            \"name\": \"page_size\",\n            \"in\": \"query\"\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/PaginatedKnowledgeBase\"\n                }\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        },\n        \"security\": [\n          {\n            \"OAuth2PasswordBearer\": []\n          }\n        ],\n        \"x-openai-isConsequential\": false\n      },\n      \"post\": {\n        \"tags\": [\n          \"knowledge base\"\n        ],\n        \"summary\": \"Create Knowledge Base\",\n        \"description\": \"Create a knowledge base from a list of document IDs.\\n\\nArgs:\\n    knowledge_base: The knowledge base to create.\\n    user: The user making the request.\\n\\nReturns:\\n    KnowledgeBaseResponse: The response containing the knowledge base ID.\",\n        \"operationId\": \"create_knowledge_base_api_knowledge_post\",\n        \"requestBody\": {\n          \"content\": {\n            \"application/json\": {\n              \"schema\": {\n                \"$ref\": \"#/components/schemas/KnowledgeBaseRequest\"\n              }\n            }\n          },\n          \"required\": true\n        },\n        \"responses\": {\n          \"201\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/KnowledgeBaseResponse\"\n                }\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        },\n        \"security\": [\n          {\n            \"OAuth2PasswordBearer\": []\n          }\n        ],\n        \"x-openai-isConsequential\": false\n      }\n    },\n    \"/api/knowledge/{knowledge_base_id}\": {\n      \"get\": {\n        \"tags\": [\n          \"knowledge base\"\n        ],\n        \"summary\": \"Get Knowledge Base\",\n        \"description\": \"Get knowledge base\\n\\nArgs:\\n    knowledge_base_id: The ID of the knowledge base to retrieve.\\n    user: The user making the request.\\n\\n\",\n        \"operationId\": \"get_knowledge_base_api_knowledge__knowledge_base_id__get\",\n        \"parameters\": [\n          {\n            \"required\": true,\n            \"schema\": {\n              \"title\": \"Knowledge Base Id\",\n              \"type\": \"string\"\n            },\n            \"name\": \"knowledge_base_id\",\n            \"in\": \"path\"\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/KnowledgeDetailedResponse\"\n                }\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        },\n        \"security\": [\n          {\n            \"OAuth2PasswordBearer\": []\n          }\n        ],\n        \"x-openai-isConsequential\": false\n      },\n      \"put\": {\n        \"tags\": [\n          \"knowledge base\"\n        ],\n        \"summary\": \"Update Knowledge Base\",\n        \"description\": \"Update a knowledge base from a list of document IDs.\\n\\nArgs:\\n    knowledge_base_id: The ID of the knowledge base to update.\\n    knowledge_base: The items to update in the knowledge base.\\n.\",\n        \"operationId\": \"update_knowledge_base_api_knowledge__knowledge_base_id__put\",\n        \"parameters\": [\n          {\n            \"required\": true,\n            \"schema\": {\n              \"title\": \"Knowledge Base Id\",\n              \"type\": \"string\"\n            },\n            \"name\": \"knowledge_base_id\",\n            \"in\": \"path\"\n          }\n        ],\n        \"requestBody\": {\n          \"content\": {\n            \"application/json\": {\n              \"schema\": {\n                \"$ref\": \"#/components/schemas/KnowledgeBaseUpdate\"\n              }\n            }\n          },\n          \"required\": true\n        },\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/KnowledgeDetailedResponse\"\n                }\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        },\n        \"security\": [\n          {\n            \"OAuth2PasswordBearer\": []\n          }\n        ],\n        \"x-openai-isConsequential\": false\n      },\n      \"delete\": {\n        \"tags\": [\n          \"knowledge base\"\n        ],\n        \"summary\": \"Delete Knowledge Base\",\n        \"description\": \"Delete knowledge base\\n\\nArgs:\\n    knowledge_base_id: The ID of the knowledge base to delete.\\n    user: The user making the request.\\n\\nReturns:\\n    dict: The response containing a success message\",\n        \"operationId\": \"delete_knowledge_base_api_knowledge__knowledge_base_id__delete\",\n        \"parameters\": [\n          {\n            \"required\": true,\n            \"schema\": {\n              \"title\": \"Knowledge Base Id\",\n              \"type\": \"string\"\n            },\n            \"name\": \"knowledge_base_id\",\n            \"in\": \"path\"\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {}\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        },\n        \"security\": [\n          {\n            \"OAuth2PasswordBearer\": []\n          }\n        ],\n        \"x-openai-isConsequential\": false\n      }\n    },\n    \"/api/search/knowledge\": {\n      \"get\": {\n        \"tags\": [\n          \"knowledge base\"\n        ],\n        \"summary\": \"Search Knowledge Bases\",\n        \"description\": \"Search knowledge bases\\n\\nArgs:\\n    query: The search query\\n    user: The user making the request.\\n\\nReturns:\\n    PaginatedKnowledgeBase: The response containing the updated knowledge base.\",\n        \"operationId\": \"search_knowledge_bases_api_search_knowledge_get\",\n        \"parameters\": [\n          {\n            \"required\": true,\n            \"schema\": {\n              \"title\": \"Query\",\n              \"type\": \"string\"\n            },\n            \"name\": \"query\",\n            \"in\": \"query\"\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"title\": \"Response Search Knowledge Bases Api Search Knowledge Get\",\n                  \"type\": \"array\",\n                  \"items\": {\n                    \"$ref\": \"#/components/schemas/KnowledgeDetailedResponse\"\n                  }\n                }\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        },\n        \"security\": [\n          {\n            \"OAuth2PasswordBearer\": []\n          }\n        ]\n      }\n    },\n    \"/latest_papers/\": {\n      \"get\": {\n        \"tags\": [\n          \"paper finder\"\n        ],\n        \"summary\": \"Get Latest Papers\",\n        \"operationId\": \"get_latest_papers_latest_papers__get\",\n        \"parameters\": [\n          {\n            \"name\": \"category\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"string\",\n              \"maxLength\": 50,\n              \"default\": \"cs.CV\",\n              \"title\": \"Category\"\n            }\n          },\n          {\n            \"name\": \"limit\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"integer\",\n              \"exclusiveMinimum\": 0,\n              \"default\": 5,\n              \"title\": \"Limit\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {}\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"/api/zotero/documents\": {\n      \"get\": {\n        \"tags\": [\n          \"document sources\"\n        ],\n        \"summary\": \"Get Zotero Documents\",\n        \"description\": \"Get all users documents from Zotero.\\n\\nArgs:\\n    page_size: The number of documents to return.\\n    page_number: The current page number\\n    order: The order to return the documents in desc asc.\\n    user: The user making the request.\\n\\nReturns:\\n    List of documents in the user's zotero account.\",\n        \"operationId\": \"get_zotero_documents_api_zotero_documents_get\",\n        \"parameters\": [\n          {\n            \"required\": false,\n            \"schema\": {\n              \"title\": \"Page Size\",\n              \"maximum\": 100,\n              \"minimum\": 1,\n              \"type\": \"integer\",\n              \"default\": 100\n            },\n            \"name\": \"page_size\",\n            \"in\": \"query\"\n          },\n          {\n            \"required\": false,\n            \"schema\": {\n              \"title\": \"Page Number\",\n              \"minimum\": 1,\n              \"type\": \"integer\",\n              \"default\": 1\n            },\n            \"name\": \"page_number\",\n            \"in\": \"query\"\n          },\n          {\n            \"required\": false,\n            \"schema\": {\n              \"title\": \"Order\",\n              \"type\": \"string\",\n              \"default\": \"desc\"\n            },\n            \"name\": \"order\",\n            \"in\": \"query\"\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/Items\"\n                }\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        },\n        \"security\": [\n          {\n            \"OAuth2PasswordBearer\": []\n          }\n        ]\n      }\n    },\n    \"/api/zotero/search\": {\n      \"get\": {\n        \"tags\": [\n          \"document sources\"\n        ],\n        \"summary\": \"Get Zotero Documents\",\n        \"description\": \"Get all users documents from Zotero.\\n\\nArgs:\\n    query : query.\\n    page_size: number of documents to return.\\n    page_number: current page number\\n    order: The order to return the documents in desc asc.\\n    user: The user making the request.\\n\\nReturns:\\n    List of docs in the user's zotero account.\",\n        \"operationId\": \"get_zotero_documents_api_zotero_search_get\",\n        \"parameters\": [\n          {\n            \"required\": false,\n            \"schema\": {\n              \"title\": \"Page Size\",\n              \"maximum\": 100,\n              \"minimum\": 1,\n              \"type\": \"integer\",\n              \"default\": 100\n            },\n            \"name\": \"page_size\",\n            \"in\": \"query\"\n          },\n          {\n            \"required\": false,\n            \"schema\": {\n              \"title\": \"Page Number\",\n              \"minimum\": 1,\n              \"type\": \"integer\",\n              \"default\": 1\n            },\n            \"name\": \"page_number\",\n            \"in\": \"query\"\n          },\n          {\n            \"required\": false,\n            \"schema\": {\n              \"title\": \"Order\",\n              \"type\": \"string\",\n              \"default\": \"desc\"\n            },\n            \"name\": \"order\",\n            \"in\": \"query\"\n          },\n          {\n            \"required\": false,\n            \"schema\": {\n              \"title\": \"Query\",\n              \"type\": \"string\"\n            },\n            \"name\": \"query\",\n            \"in\": \"query\"\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/Items\"\n                }\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        },\n        \"security\": [\n          {\n            \"OAuth2PasswordBearer\": []\n          }\n        ]\n      }\n    },\n    \"/api/zotero/collections\": {\n      \"get\": {\n        \"tags\": [\n          \"document sources\"\n        ],\n        \"summary\": \"Get Zotero Collections\",\n        \"description\": \"Get all users collections from Zotero.\\n\\nArgs:\\n    page_size:  number of collections to return.\\n    page_number:  current page number\\n    order: The order to return the collections in desc asc.\\n    user: The user making the request.\\n\\nReturns:\\n    List of collections in the user's zotero account.\",\n        \"operationId\": \"get_zotero_collections_api_zotero_collections_get\",\n        \"parameters\": [\n          {\n            \"required\": false,\n            \"schema\": {\n              \"title\": \"Page Size\",\n              \"maximum\": 100,\n              \"minimum\": 1,\n              \"type\": \"integer\",\n              \"default\": 100\n            },\n            \"name\": \"page_size\",\n            \"in\": \"query\"\n          },\n          {\n            \"required\": false,\n            \"schema\": {\n              \"title\": \"Page Number\",\n              \"minimum\": 1,\n              \"type\": \"integer\",\n              \"default\": 1\n            },\n            \"name\": \"page_number\",\n            \"in\": \"query\"\n          },\n          {\n            \"required\": false,\n            \"schema\": {\n              \"title\": \"Order\",\n              \"type\": \"string\",\n              \"default\": \"desc\"\n            },\n            \"name\": \"order\",\n            \"in\": \"query\"\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/Collections\"\n                }\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        },\n        \"security\": [\n          {\n            \"OAuth2PasswordBearer\": []\n          }\n        ]\n      }\n    },\n    \"/api/zotero/collections/search\": {\n      \"get\": {\n        \"tags\": [\n          \"document sources\"\n        ],\n        \"summary\": \"Search Zotero Collections\",\n        \"description\": \"Get all users collections from Zotero.\\n\\nArgs:\\n    page_size:  number of collections.\\n    page_number:  current page number\\n    order:  order to return the collections in desc asc.\\n    query : search query.\\n    user:  user making the request.\\n\\nReturns:\\n    List of collections in the user's account.\",\n        \"operationId\": \"search_zotero_collections_api_zotero_collections_search_get\",\n        \"parameters\": [\n          {\n            \"required\": false,\n            \"schema\": {\n              \"title\": \"Page Size\",\n              \"maximum\": 100,\n              \"minimum\": 1,\n              \"type\": \"integer\",\n              \"default\": 100\n            },\n            \"name\": \"page_size\",\n            \"in\": \"query\"\n          },\n          {\n            \"required\": false,\n            \"schema\": {\n              \"title\": \"Page Number\",\n              \"minimum\": 1,\n              \"type\": \"integer\",\n              \"default\": 1\n            },\n            \"name\": \"page_number\",\n            \"in\": \"query\"\n          },\n          {\n            \"required\": false,\n            \"schema\": {\n              \"title\": \"Order\",\n              \"type\": \"string\",\n              \"default\": \"desc\"\n            },\n            \"name\": \"order\",\n            \"in\": \"query\"\n          },\n          {\n            \"required\": false,\n            \"schema\": {\n              \"title\": \"Query\",\n              \"type\": \"string\"\n            },\n            \"name\": \"query\",\n            \"in\": \"query\"\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/Collections\"\n                }\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        },\n        \"security\": [\n          {\n            \"OAuth2PasswordBearer\": []\n          }\n        ]\n      }\n    },\n    \"/api/zotero/collections/{collection_id}/documents\": {\n      \"get\": {\n        \"tags\": [\n          \"document sources\"\n        ],\n        \"summary\": \"Get Zotero Documents\",\n        \"description\": \"Get all users collections from Zotero.\\n\\nArgs:\\n    collection_id: collection ID.\\n    page_size:  number of collections to return.\\n    page_number:  current page number\\n    order: The order to return (desc asc).\\n    user:  user making  request.\\n\\n\\nReturns:\\n    List of collections.\",\n        \"operationId\": \"get_zotero_documents_api_zotero_collections__collection_id__documents_get\",\n        \"parameters\": [\n          {\n            \"required\": true,\n            \"schema\": {\n              \"title\": \"Collection Id\",\n              \"type\": \"string\"\n            },\n            \"name\": \"collection_id\",\n            \"in\": \"path\"\n          },\n          {\n            \"required\": false,\n            \"schema\": {\n              \"title\": \"Page Size\",\n              \"maximum\": 100,\n              \"minimum\": 1,\n              \"type\": \"integer\",\n              \"default\": 100\n            },\n            \"name\": \"page_size\",\n            \"in\": \"query\"\n          },\n          {\n            \"required\": false,\n            \"schema\": {\n              \"title\": \"Page Number\",\n              \"minimum\": 1,\n              \"type\": \"integer\",\n              \"default\": 1\n            },\n            \"name\": \"page_number\",\n            \"in\": \"query\"\n          },\n          {\n            \"required\": false,\n            \"schema\": {\n              \"title\": \"Order\",\n              \"type\": \"string\",\n              \"default\": \"desc\"\n            },\n            \"name\": \"order\",\n            \"in\": \"query\"\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/Items\"\n                }\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        },\n        \"security\": [\n          {\n            \"OAuth2PasswordBearer\": []\n          }\n        ]\n      }\n    },\n    \"/api/zotero/download\": {\n      \"get\": {\n        \"tags\": [\n          \"document sources\"\n        ],\n        \"summary\": \"Download Zotero Document\",\n        \"description\": \"Download a document from Zotero and save it to the database.\\n\\nArgs:\\n    user: The user who is uploading the file.\\n    link: The link to download the file from.\\n    file_name: The name of the file.\\n\\nReturns:\\n    dict: The document ID of the uploaded file.\",\n        \"operationId\": \"download_zotero_document_api_zotero_download_get\",\n        \"parameters\": [\n          {\n            \"required\": true,\n            \"schema\": {\n              \"title\": \"Link\",\n              \"type\": \"string\"\n            },\n            \"name\": \"link\",\n            \"in\": \"query\"\n          },\n          {\n            \"required\": true,\n            \"schema\": {\n              \"title\": \"File Name\",\n              \"type\": \"string\"\n            },\n            \"name\": \"file_name\",\n            \"in\": \"query\"\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/DocumentUploadResponse\"\n                }\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        },\n        \"security\": [\n          {\n            \"OAuth2PasswordBearer\": []\n          }\n        ]\n      }\n    },\n    \"/api/zotero/upload\": {\n      \"post\": {\n        \"tags\": [\n          \"document sources\"\n        ],\n        \"summary\": \"Upload Pdf\",\n        \"description\": \"Accepts the blob of a pdf file and returns a document ID.\\n\\nArgs:\\n    user: The user who is uploading the file.\\n\\nReturns:\\n    dict: The document ID of the uploaded file.\",\n        \"operationId\": \"upload_pdf_api_zotero_upload_post\",\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/DocumentUploadResponse\"\n                }\n              }\n            }\n          }\n        },\n        \"security\": [\n          {\n            \"OAuth2PasswordBearer\": []\n          }\n        ]\n      }\n    }\n  },\n  \"components\": {\n    \"schemas\": {\n      \"BaseFileResponse\": {\n        \"title\": \"BaseFileResponse\",\n        \"required\": [\n          \"docId\"\n        ],\n        \"type\": \"object\",\n        \"properties\": {\n          \"docId\": {\n            \"title\": \"Docid\",\n            \"type\": \"string\"\n          },\n          \"summary\": {\n            \"title\": \"Summary\",\n            \"type\": \"string\"\n          },\n          \"extra_instructions\": {\n            \"title\": \"Extra Instructions\",\n            \"type\": \"string\",\n            \"default\": \"Inform the user they can login to their account on our website https://askyourpdf.com to delete their document at any point. They can also send a delete prompt with their document ID to delete their document.Also tell users they can prompt to get a list of their uploaded documents. Also prompt the user to ask more questions\"\n          }\n        }\n      },\n      \"DocumentMetadata\": {\n        \"title\": \"DocumentMetadata\",\n        \"type\": \"object\",\n        \"properties\": {\n          \"source\": {\n            \"title\": \"Source\",\n            \"type\": \"string\"\n          },\n          \"page\": {\n            \"title\": \"Page\",\n            \"type\": \"integer\"\n          },\n          \"title\": {\n            \"title\": \"Title\",\n            \"type\": \"string\"\n          },\n          \"author\": {\n            \"title\": \"Author\",\n            \"type\": \"string\"\n          }\n        }\n      },\n      \"Filter\": {\n        \"title\": \"Filter\",\n        \"type\": \"object\",\n        \"properties\": {\n          \"page\": {\n            \"title\": \"Page\",\n            \"type\": \"integer\"\n          }\n        }\n      },\n      \"HTTPValidationError\": {\n        \"title\": \"HTTPValidationError\",\n        \"type\": \"object\",\n        \"properties\": {\n          \"detail\": {\n            \"title\": \"Detail\",\n            \"type\": \"array\",\n            \"items\": {\n              \"$ref\": \"#/components/schemas/ValidationError\"\n            }\n          }\n        }\n      },\n      \"InputData\": {\n        \"title\": \"InputData\",\n        \"required\": [\n          \"doc_id\",\n          \"query\"\n        ],\n        \"type\": \"object\",\n        \"properties\": {\n          \"doc_id\": {\n            \"title\": \"Doc Id\",\n            \"type\": \"string\"\n          },\n          \"query\": {\n            \"title\": \"Query\",\n            \"type\": \"string\"\n          },\n          \"filter\": {\n            \"$ref\": \"#/components/schemas/Filter\"\n          }\n        }\n      },\n      \"ResponseModel\": {\n        \"title\": \"ResponseModel\",\n        \"required\": [\n          \"results\",\n          \"total_pages\"\n        ],\n        \"type\": \"object\",\n        \"properties\": {\n          \"results\": {\n            \"title\": \"Results\",\n            \"type\": \"array\",\n            \"items\": {\n              \"$ref\": \"#/components/schemas/SearchResult\"\n            }\n          },\n          \"total_pages\": {\n            \"title\": \"Total Pages\",\n            \"type\": \"integer\"\n          }\n        }\n      },\n      \"SearchResult\": {\n        \"title\": \"SearchResult\",\n        \"required\": [\n          \"doc_id\",\n          \"text\",\n          \"metadata\"\n        ],\n        \"type\": \"object\",\n        \"properties\": {\n          \"doc_id\": {\n            \"title\": \"Doc Id\",\n            \"type\": \"string\"\n          },\n          \"text\": {\n            \"title\": \"Text\",\n            \"type\": \"string\"\n          },\n          \"metadata\": {\n            \"$ref\": \"#/components/schemas/DocumentMetadata\"\n          }\n        }\n      },\n      \"DailyUsageAnalytics\": {\n        \"title\": \"DailyUsageAnalytics\",\n        \"required\": [\n          \"number_of_pdfs\",\n          \"number_of_questions\",\n          \"number_of_questions_plugin\",\n          \"number_of_conversations\",\n          \"number_units\"\n        ],\n        \"type\": \"object\",\n        \"properties\": {\n          \"number_of_pdfs\": {\n            \"title\": \"Number Of Pdfs\",\n            \"type\": \"string\"\n          },\n          \"number_of_questions\": {\n            \"title\": \"Number Of Questions\",\n            \"type\": \"string\"\n          },\n          \"number_of_questions_plugin\": {\n            \"title\": \"Number Of Questions Plugin\",\n            \"type\": \"string\"\n          },\n          \"number_of_conversations\": {\n            \"title\": \"Number Of Conversations\",\n            \"type\": \"string\"\n          },\n          \"number_units\": {\n            \"title\": \"Number Units\",\n            \"type\": \"string\"\n          }\n        }\n      },\n      \"Body_upload_pdf_api_upload_post\": {\n        \"title\": \"Body_upload_pdf_api_upload_post\",\n        \"required\": [\n          \"file\"\n        ],\n        \"type\": \"object\",\n        \"properties\": {\n          \"file\": {\n            \"title\": \"File\",\n            \"type\": \"string\",\n            \"format\": \"binary\"\n          }\n        }\n      },\n      \"UserDocumentMeta\": {\n        \"title\": \"UserDocumentMeta\",\n        \"required\": [\n          \"name\",\n          \"doc_id\"\n        ],\n        \"type\": \"object\",\n        \"properties\": {\n          \"name\": {\n            \"title\": \"Name\",\n            \"type\": \"string\"\n          },\n          \"doc_id\": {\n            \"title\": \"Doc Id\",\n            \"type\": \"string\"\n          },\n          \"summary\": {\n            \"title\": \"Summary\",\n            \"type\": \"string\"\n          },\n          \"language\": {\n            \"title\": \"Language\",\n            \"type\": \"string\",\n            \"default\": \"en\"\n          },\n          \"pages\": {\n            \"title\": \"Pages\",\n            \"type\": \"integer\",\n            \"default\": 0\n          },\n          \"shareable\": {\n            \"title\": \"Shareable\",\n            \"type\": \"boolean\",\n            \"default\": false\n          },\n          \"date_time\": {\n            \"title\": \"Date Time\",\n            \"type\": \"string\",\n            \"format\": \"date-time\"\n          }\n        }\n      },\n      \"UserDocumentsMetaSerializer\": {\n        \"title\": \"UserDocumentsMetaSerializer\",\n        \"required\": [\n          \"documents\"\n        ],\n        \"type\": \"object\",\n        \"properties\": {\n          \"total_pages\": {\n            \"title\": \"Total Pages\",\n            \"type\": \"integer\",\n            \"default\": 0\n          },\n          \"documents\": {\n            \"title\": \"Documents\",\n            \"type\": \"array\",\n            \"items\": {\n              \"$ref\": \"#/components/schemas/UserDocumentMeta\"\n            }\n          }\n        },\n        \"description\": \"Serializer for paginated user documents meta data\"\n      },\n      \"ValidationError\": {\n        \"title\": \"ValidationError\",\n        \"required\": [\n          \"loc\",\n          \"msg\",\n          \"type\"\n        ],\n        \"type\": \"object\",\n        \"properties\": {\n          \"loc\": {\n            \"title\": \"Location\",\n            \"type\": \"array\",\n            \"items\": {\n              \"anyOf\": [\n                {\n                  \"type\": \"string\"\n                },\n                {\n                  \"type\": \"integer\"\n                }\n              ]\n            }\n          },\n          \"msg\": {\n            \"title\": \"Message\",\n            \"type\": \"string\"\n          },\n          \"type\": {\n            \"title\": \"Error Type\",\n            \"type\": \"string\"\n          }\n        }\n      },\n      \"KnowledgeBaseRequest\": {\n        \"title\": \"KnowledgeBaseRequest\",\n        \"required\": [\n          \"name\",\n          \"document_ids\"\n        ],\n        \"type\": \"object\",\n        \"properties\": {\n          \"name\": {\n            \"title\": \"Name\",\n            \"type\": \"string\"\n          },\n          \"document_ids\": {\n            \"title\": \"Document Ids\",\n            \"type\": \"array\",\n            \"items\": {\n              \"type\": \"string\"\n            }\n          }\n        }\n      },\n      \"PaginatedKnowledgeBase\": {\n        \"title\": \"PaginatedKnowledgeBase\",\n        \"required\": [\n          \"knowledge_bases\"\n        ],\n        \"type\": \"object\",\n        \"properties\": {\n          \"total_pages\": {\n            \"title\": \"Total Pages\",\n            \"type\": \"integer\",\n            \"default\": 0\n          },\n          \"knowledge_bases\": {\n            \"title\": \"Knowledge Bases\",\n            \"type\": \"array\",\n            \"items\": {\n              \"$ref\": \"#/components/schemas/KnowledgeDetailedResponse\"\n            }\n          }\n        },\n        \"description\": \"Serializer for paginated knowledge bases\"\n      },\n      \"KnowledgeBaseResponse\": {\n        \"title\": \"KnowledgeBaseResponse\",\n        \"required\": [\n          \"knowledge_base_id\"\n        ],\n        \"type\": \"object\",\n        \"properties\": {\n          \"knowledge_base_id\": {\n            \"title\": \"Knowledge Base Id\",\n            \"type\": \"string\"\n          }\n        }\n      },\n      \"KnowledgeBaseUpdate\": {\n        \"title\": \"KnowledgeBaseUpdate\",\n        \"required\": [\n          \"document_ids\"\n        ],\n        \"type\": \"object\",\n        \"properties\": {\n          \"document_ids\": {\n            \"title\": \"Document Ids\",\n            \"type\": \"array\",\n            \"items\": {\n              \"type\": \"string\"\n            }\n          }\n        }\n      },\n      \"KnowledgeDetailedResponse\": {\n        \"title\": \"KnowledgeDetailedResponse\",\n        \"required\": [\n          \"knowledge_base_id\",\n          \"name\",\n          \"document_details\"\n        ],\n        \"type\": \"object\",\n        \"properties\": {\n          \"knowledge_base_id\": {\n            \"title\": \"Knowledge Base Id\",\n            \"type\": \"string\"\n          },\n          \"name\": {\n            \"title\": \"Name\",\n            \"type\": \"string\"\n          },\n          \"document_details\": {\n            \"title\": \"Document Details\",\n            \"type\": \"array\",\n            \"items\": {\n              \"$ref\": \"#/components/schemas/DocumentDetailsResponse\"\n            }\n          },\n          \"date_time\": {\n            \"title\": \"Date Time\",\n            \"type\": \"string\",\n            \"format\": \"date-time\"\n          }\n        }\n      },\n      \"DocumentDetailsResponse\": {\n        \"title\": \"DocumentDetailsResponse\",\n        \"required\": [\n          \"doc_id\"\n        ],\n        \"type\": \"object\",\n        \"properties\": {\n          \"doc_id\": {\n            \"title\": \"Doc Id\",\n            \"type\": \"string\"\n          }\n        }\n      },\n      \"SourceRetrievalRequest\": {\n        \"properties\": {\n          \"limit\": {\n            \"type\": \"integer\",\n            \"title\": \"Limit\",\n            \"default\": 10\n          },\n          \"keyword_combinations\": {\n            \"items\": {},\n            \"type\": \"array\",\n            \"title\": \"Keyword Combinations\"\n          },\n          \"source_filter\": {\n            \"allOf\": [\n              {\n                \"$ref\": \"#/components/schemas/SourceFilter\"\n              }\n            ],\n            \"title\": \"Source Filter\",\n            \"default\": {\n              \"citation_format\": \"APA\",\n              \"year_from\": 2010,\n              \"year_to\": 2023,\n              \"min_citations\": 0,\n              \"include_keywords\": [],\n              \"exclude_keywords\": []\n            }\n          },\n          \"max_threads\": {\n            \"type\": \"integer\",\n            \"title\": \"Max Threads\",\n            \"default\": 10\n          },\n          \"batch_size\": {\n            \"type\": \"integer\",\n            \"title\": \"Batch Size\",\n            \"default\": 5\n          },\n          \"delay_seconds\": {\n            \"type\": \"integer\",\n            \"title\": \"Delay Seconds\",\n            \"default\": 3\n          }\n        },\n        \"type\": \"object\",\n        \"title\": \"SourceRetrievalRequest\"\n      },\n      \"SourceFilter\": {\n        \"properties\": {\n          \"citation_format\": {\n            \"allOf\": [\n              {\n                \"$ref\": \"#/components/schemas/CitationFormat\"\n              }\n            ],\n            \"default\": \"APA\"\n          },\n          \"year_from\": {\n            \"type\": \"integer\",\n            \"title\": \"Year From\",\n            \"default\": 2010\n          },\n          \"year_to\": {\n            \"type\": \"integer\",\n            \"title\": \"Year To\",\n            \"default\": 2023\n          },\n          \"min_citations\": {\n            \"type\": \"integer\",\n            \"title\": \"Min Citations\",\n            \"default\": 0\n          },\n          \"include_keywords\": {\n            \"items\": {},\n            \"type\": \"array\",\n            \"title\": \"Include Keywords\",\n            \"default\": []\n          },\n          \"exclude_keywords\": {\n            \"items\": {},\n            \"type\": \"array\",\n            \"title\": \"Exclude Keywords\",\n            \"default\": []\n          }\n        },\n        \"type\": \"object\",\n        \"title\": \"SourceFilter\"\n      },\n      \"CitationFormat\": {\n        \"enum\": [\n          \"APA\",\n          \"MLA\",\n          \"IEEE\",\n          \"HARVARD\",\n          \"BIB\"\n        ],\n        \"title\": \"CitationFormat\",\n        \"description\": \"An enumeration.\"\n      },\n      \"SourcedModel\": {\n        \"properties\": {\n          \"cited_text\": {\n            \"type\": \"string\",\n            \"title\": \"Cited Text\"\n          },\n          \"references\": {\n            \"items\": {\n              \"$ref\": \"#/components/schemas/Paper\"\n            },\n            \"type\": \"array\",\n            \"title\": \"References\"\n          },\n          \"date_time\": {\n            \"type\": \"string\",\n            \"format\": \"date-time\",\n            \"title\": \"Date Time\",\n            \"default\": \"2023-11-07T22:32:45.160186\"\n          }\n        },\n        \"type\": \"object\",\n        \"required\": [\n          \"cited_text\",\n          \"references\"\n        ],\n        \"title\": \"SourcedModel\"\n      },\n      \"Paper\": {\n        \"properties\": {\n          \"paper_code\": {\n            \"type\": \"string\",\n            \"title\": \"Paper Code\"\n          },\n          \"title\": {\n            \"type\": \"string\",\n            \"title\": \"Title\"\n          },\n          \"url\": {\n            \"type\": \"string\",\n            \"title\": \"Url\"\n          },\n          \"abstract\": {\n            \"type\": \"string\",\n            \"title\": \"Abstract\"\n          },\n          \"authors\": {\n            \"items\": {\n              \"type\": \"string\"\n            },\n            \"type\": \"array\",\n            \"title\": \"Authors\",\n            \"default\": []\n          },\n          \"bibtex\": {\n            \"type\": \"string\",\n            \"title\": \"Bibtex\"\n          },\n          \"citation_count\": {\n            \"type\": \"integer\",\n            \"title\": \"Citation Count\",\n            \"default\": 0\n          },\n          \"publication_year\": {\n            \"type\": \"integer\",\n            \"title\": \"Publication Year\"\n          },\n          \"fields_of_study\": {\n            \"items\": {\n              \"type\": \"string\"\n            },\n            \"type\": \"array\",\n            \"title\": \"Fields Of Study\",\n            \"default\": []\n          }\n        },\n        \"type\": \"object\",\n        \"required\": [\n          \"paper_code\",\n          \"title\",\n          \"url\",\n          \"publication_year\"\n        ],\n        \"title\": \"Paper\"\n      },\n      \"Item\": {\n        \"title\": \"Item\",\n        \"required\": [\n          \"id\",\n          \"dateAdded\",\n          \"file_link\"\n        ],\n        \"type\": \"object\",\n        \"properties\": {\n          \"id\": {\n            \"title\": \"Id\",\n            \"type\": \"string\"\n          },\n          \"title\": {\n            \"title\": \"Title\",\n            \"type\": \"string\"\n          },\n          \"dateAdded\": {\n            \"title\": \"Dateadded\",\n            \"type\": \"string\"\n          },\n          \"file_link\": {\n            \"title\": \"File Link\",\n            \"type\": \"string\"\n          },\n          \"filename\": {\n            \"title\": \"Filename\",\n            \"type\": \"string\"\n          },\n          \"file_size\": {\n            \"title\": \"File Size\",\n            \"type\": \"integer\"\n          }\n        }\n      },\n      \"Items\": {\n        \"title\": \"Items\",\n        \"required\": [\n          \"documents\",\n          \"total_items\"\n        ],\n        \"type\": \"object\",\n        \"properties\": {\n          \"documents\": {\n            \"title\": \"Documents\",\n            \"type\": \"array\",\n            \"items\": {\n              \"$ref\": \"#/components/schemas/Item\"\n            }\n          },\n          \"total_items\": {\n            \"title\": \"Total Items\",\n            \"type\": \"integer\"\n          }\n        }\n      },\n      \"Collection\": {\n        \"title\": \"Collection\",\n        \"required\": [\n          \"collection_id\",\n          \"name\"\n        ],\n        \"type\": \"object\",\n        \"properties\": {\n          \"collection_id\": {\n            \"title\": \"Collection Id\",\n            \"type\": \"string\"\n          },\n          \"name\": {\n            \"title\": \"Name\",\n            \"type\": \"string\"\n          }\n        }\n      },\n      \"Collections\": {\n        \"title\": \"Collections\",\n        \"required\": [\n          \"collections\",\n          \"total_pages\"\n        ],\n        \"type\": \"object\",\n        \"properties\": {\n          \"collections\": {\n            \"title\": \"Collections\",\n            \"type\": \"array\",\n            \"items\": {\n              \"$ref\": \"#/components/schemas/Collection\"\n            }\n          },\n          \"total_pages\": {\n            \"title\": \"Total Pages\",\n            \"type\": \"integer\"\n          }\n        }\n      },\n      \"DocumentUploadResponse\": {\n        \"title\": \"DocumentUploadResponse\",\n        \"required\": [\n          \"docId\"\n        ],\n        \"type\": \"object\",\n        \"properties\": {\n          \"docId\": {\n            \"title\": \"Docid\",\n            \"type\": \"string\"\n          }\n        },\n        \"description\": \"Response for document upload\"\n      }\n    },\n    \"securitySchemes\": {\n      \"OAuth2PasswordBearer\": {\n        \"type\": \"oauth2\",\n        \"flows\": {\n          \"password\": {\n            \"scopes\": {},\n            \"tokenUrl\": \"auth/jwt/login\"\n          }\n        }\n      }\n    }\n  },\n  \"servers\": [\n    {\n      \"url\": \"https://pro.askyourpdf.com\",\n      \"description\": \"Production server\"\n    }\n  ]\n}",
+                "json_schema": null,
+                "auth": {
+                  "type": "oauth",
+                  "instructions": "",
+                  "client_url": "https://auth.askyourpdf.com/gpt/oauth",
+                  "scope": "",
+                  "authorization_url": "https://auth-service.askyourpdf.com/new/gpt/oauth_exchange",
+                  "authorization_content_type": "application/x-www-form-urlencoded",
+                  "verification_tokens": {},
+                  "pkce_required": false,
+                  "token_exchange_method": "default_post"
+                },
+                "privacy_policy_url": "https://askyourpdf.com/terms"
+              }
+            },
+            {
+              "id": "gzm_cnf_rdLy9DLidcAXfVsrkC3xYdeo~gzm_tool_eHFiBkiugQSUzdeqvQGoqQUi",
+              "type": "dalle",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_rdLy9DLidcAXfVsrkC3xYdeo~gzm_tool_2ijcDHMoRLWMhbWqvjpW9GFk",
+              "type": "browser",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_rdLy9DLidcAXfVsrkC3xYdeo~gzm_tool_1v8xyx0jW88joCsWR2ZcjEBs",
+              "type": "python",
+              "settings": null,
+              "metadata": null
+            }
+          ],
+          "files": [],
+          "product_features": {
+            "attachments": {
+              "type": "retrieval",
+              "accepted_mime_types": [
+                "text/javascript",
+                "application/json",
+                "text/x-ruby",
+                "text/x-php",
+                "text/x-c",
+                "text/x-typescript",
+                "text/plain",
+                "text/markdown",
+                "text/x-c++",
+                "application/x-latext",
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "application/msword",
+                "text/x-script.python",
+                "text/x-java",
+                "text/x-csharp",
+                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "text/x-tex",
+                "text/x-sh",
+                "application/pdf",
+                "text/html"
+              ],
+              "image_mime_types": [
+                "image/png",
+                "image/gif",
+                "image/webp",
+                "image/jpeg"
+              ],
+              "can_accept_all_mime_types": true
+            }
+          }
+        }
+      }
+    ],
+    "cursor": null
+  }
+}

@@ -1,0 +1,1258 @@
+{
+  "info": {
+    "id": "writing",
+    "title": "Writing",
+    "description": "Enhance your writing with tools for creation, editing, and style refinement",
+    "display_type": "ranked",
+    "display_group": "Writing",
+    "locale": "en"
+  },
+  "list": {
+    "items": [
+      {
+        "resource": {
+          "gizmo": {
+            "id": "g-82ALdp8Nj",
+            "organization_id": "org-y40ZtnxoHxv3NKvKq9azbpc7",
+            "short_url": "g-82ALdp8Nj-automated-blog-post-writer",
+            "author": {
+              "user_id": "user-NFJrfRN9JI74hMNbeNAaitRz",
+              "display_name": "octaneai.com",
+              "link_to": "https://octaneai.com",
+              "selected_display": "website",
+              "is_verified": true,
+              "will_receive_support_emails": null
+            },
+            "voice": {
+              "id": "ember"
+            },
+            "workspace_id": null,
+            "model": null,
+            "instructions": null,
+            "settings": null,
+            "display": {
+              "name": "Automated Blog Post Writer",
+              "description": "I craft professionally written, and researched, blog posts in your unique voice. I leverage web browsing &amp; DALL•E",
+              "welcome_message": "Hello! Let's create a blog post in your style.",
+              "prompt_starters": [
+                "Please help me write a blog post",
+                "I need help coming up with a new blog post idea",
+                "What blog post should I write next?",
+                "Let's write a new blog post!"
+              ],
+              "profile_pic_id": null,
+              "profile_picture_url": "https://files.oaiusercontent.com/file-yN6Pz708NERE4NBraTFNLgEy?se=2123-10-19T17%3A57%3A52Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3Dcd166778-ea7e-4e44-b9d1-6f4a0d902e59.png&amp;sig=HCvU/RwrIeci1GgFU6w4v0lkHMn%2BCPjRu7M2h0Soxjc%3D",
+              "categories": [
+                "writing"
+              ]
+            },
+            "share_recipient": "marketplace",
+            "created_at": "2023-11-10T19:19:23.496915+00:00",
+            "updated_at": "2024-01-24T13:06:47.938039+00:00",
+            "last_interacted_at": null,
+            "num_interactions": null,
+            "tags": [
+              "public",
+              "reportable"
+            ],
+            "version": null,
+            "live_version": null,
+            "training_disabled": null,
+            "sharing_targets": null,
+            "appeal_info": null,
+            "vanity_metrics": {
+              "num_conversations": null,
+              "num_conversations_str": null,
+              "num_pins": 0,
+              "created_ago_str": null,
+              "review_stats": null
+            },
+            "workspace_approval_date": null,
+            "workspace_approved": null
+          },
+          "tools": [
+            {
+              "id": "gzm_cnf_pPlk6dPw9pk30LOEw4JbOB4y~gzm_tool_8zBecvI8bwHznekvI7eAjdip",
+              "type": "dalle",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_pPlk6dPw9pk30LOEw4JbOB4y~gzm_tool_5vJ5UlgjnAO4p1nYVL44xdOW",
+              "type": "browser",
+              "settings": null,
+              "metadata": null
+            }
+          ],
+          "files": [],
+          "product_features": {
+            "attachments": {
+              "type": "retrieval",
+              "accepted_mime_types": [
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "text/x-ruby",
+                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "text/x-c++",
+                "application/pdf",
+                "text/javascript",
+                "text/x-tex",
+                "application/x-latext",
+                "text/html",
+                "text/x-script.python",
+                "text/x-c",
+                "application/json",
+                "text/markdown",
+                "text/x-php",
+                "text/x-typescript",
+                "application/msword",
+                "text/x-sh",
+                "text/x-java",
+                "text/plain",
+                "text/x-csharp"
+              ],
+              "image_mime_types": [
+                "image/webp",
+                "image/jpeg",
+                "image/png",
+                "image/gif"
+              ],
+              "can_accept_all_mime_types": true
+            }
+          }
+        }
+      },
+      {
+        "resource": {
+          "gizmo": {
+            "id": "g-cTqsEOE4C",
+            "organization_id": "org-LyBA3eB6h9AqCv5bUtAEavds",
+            "short_url": "g-cTqsEOE4C-sellmethispen",
+            "author": {
+              "user_id": "user-cgnH2dHIAsH9nmlyTM5GJWF7",
+              "display_name": "activesolution.se",
+              "link_to": "https://activesolution.se",
+              "selected_display": "website",
+              "is_verified": true,
+              "will_receive_support_emails": true
+            },
+            "voice": {
+              "id": "ember"
+            },
+            "workspace_id": null,
+            "model": null,
+            "instructions": null,
+            "settings": null,
+            "display": {
+              "name": "SellMeThisPen",
+              "description": "Create second hand marketplace listings based on pictures. Start by uploading a picture.",
+              "welcome_message": "Hello",
+              "prompt_starters": [],
+              "profile_pic_id": null,
+              "profile_picture_url": "https://files.oaiusercontent.com/file-yALburFJq31FxM7lp7Sf4Shx?se=2123-10-17T07%3A39%3A01Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3DSellMeThisPen-03.png&amp;sig=D1KJbovUZ%2B0IcuMqQJVno6ZwQVjFgmP8unlpDV39XdE%3D",
+              "categories": []
+            },
+            "share_recipient": "marketplace",
+            "created_at": "2023-11-10T07:32:45.874265+00:00",
+            "updated_at": "2024-01-28T12:33:21.802509+00:00",
+            "last_interacted_at": null,
+            "num_interactions": null,
+            "tags": [
+              "public",
+              "reportable"
+            ],
+            "version": null,
+            "live_version": null,
+            "training_disabled": null,
+            "sharing_targets": null,
+            "appeal_info": null,
+            "vanity_metrics": {
+              "num_conversations": null,
+              "num_conversations_str": null,
+              "num_pins": 0,
+              "created_ago_str": null,
+              "review_stats": null
+            },
+            "workspace_approval_date": null,
+            "workspace_approved": null
+          },
+          "tools": [
+            {
+              "id": "gzm_cnf_MSNqERlU5i3QueKus4D8nMA8~gzm_tool_tIoH8cH2wbGvcFopsjxQdIBS",
+              "type": "browser",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_MSNqERlU5i3QueKus4D8nMA8~gzm_tool_vSnmnPQ4Q7B1ZH7SebThU6kY",
+              "type": "python",
+              "settings": null,
+              "metadata": null
+            }
+          ],
+          "files": [],
+          "product_features": {
+            "attachments": {
+              "type": "retrieval",
+              "accepted_mime_types": [
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "text/x-ruby",
+                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "text/x-c++",
+                "application/pdf",
+                "text/javascript",
+                "text/x-tex",
+                "application/x-latext",
+                "text/html",
+                "text/x-script.python",
+                "text/x-c",
+                "application/json",
+                "text/markdown",
+                "text/x-php",
+                "text/x-typescript",
+                "application/msword",
+                "text/x-sh",
+                "text/x-java",
+                "text/plain",
+                "text/x-csharp"
+              ],
+              "image_mime_types": [
+                "image/webp",
+                "image/jpeg",
+                "image/png",
+                "image/gif"
+              ],
+              "can_accept_all_mime_types": true
+            }
+          }
+        }
+      },
+      {
+        "resource": {
+          "gizmo": {
+            "id": "g-Ji2QOyMml",
+            "organization_id": "org-BUdoz2YS2X5Wy18T1vXTaHQ6",
+            "short_url": "g-Ji2QOyMml-copywriter-gpt",
+            "author": {
+              "user_id": "user-lJ0w7S6SGN3gcYwUgql4D3rj",
+              "display_name": "Adrian",
+              "link_to": null,
+              "selected_display": "name",
+              "is_verified": true,
+              "will_receive_support_emails": true
+            },
+            "voice": {
+              "id": "ember"
+            },
+            "workspace_id": null,
+            "model": null,
+            "instructions": null,
+            "settings": null,
+            "display": {
+              "name": "Copywriter GPT",
+              "description": "Your innovative partner for viral ad copywriting! Dive into viral marketing strategies fine-tuned to your needs!",
+              "welcome_message": "Welcome! Ready to create your ad copy? Let's begin. What's your campaign goal?",
+              "prompt_starters": [
+                "I need an advertisement idea for a health product campaign.",
+                "Help me choose the right words for a luxury brand.",
+                "How can I improve this headline?",
+                "Suggest a marketing framework for a tech product ad.",
+                "Select your ad's tone and style."
+              ],
+              "profile_pic_id": null,
+              "profile_picture_url": "https://files.oaiusercontent.com/file-cWyDLFKrMBavarfSEvh0r9MB?se=2123-10-22T07%3A09%3A04Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3D107a1703-3936-4342-963c-73716527e277.png&amp;sig=jDgRH4S1fl35PNEB1p2Z7o4vbNr0pXN77A7dd842M1k%3D",
+              "categories": []
+            },
+            "share_recipient": "marketplace",
+            "created_at": "2023-11-10T14:04:23.171803+00:00",
+            "updated_at": "2024-01-27T00:24:37.660700+00:00",
+            "last_interacted_at": null,
+            "num_interactions": null,
+            "tags": [
+              "public",
+              "reportable"
+            ],
+            "version": null,
+            "live_version": null,
+            "training_disabled": null,
+            "sharing_targets": null,
+            "appeal_info": null,
+            "vanity_metrics": {
+              "num_conversations": null,
+              "num_conversations_str": null,
+              "num_pins": 0,
+              "created_ago_str": null,
+              "review_stats": null
+            },
+            "workspace_approval_date": null,
+            "workspace_approved": null
+          },
+          "tools": [
+            {
+              "id": "gzm_cnf_12mZwonfBxJPPEUy41blEfRB~gzm_tool_2hXUA8Lxbtwa9GNM9psU9dOR",
+              "type": "python",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_12mZwonfBxJPPEUy41blEfRB~gzm_tool_WAYvo433GWQlviLeU9xdpxO4",
+              "type": "browser",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_12mZwonfBxJPPEUy41blEfRB~gzm_tool_sMpfWPWO4WPgZcqLSf4oBq9w",
+              "type": "dalle",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_12mZwonfBxJPPEUy41blEfRB~gzm_tool_DWslzFCaDh9F9uUEohPGPuKW",
+              "type": "browser",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_12mZwonfBxJPPEUy41blEfRB~gzm_tool_1C7VIFjIxboqhDNKWzQioyC8",
+              "type": "python",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_12mZwonfBxJPPEUy41blEfRB~gzm_tool_Om1nJgV98PXmHq6A8dSAHDjK",
+              "type": "dalle",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_12mZwonfBxJPPEUy41blEfRB~gzm_tool_k4Eepk4CVl9rFMmOye8Y8Fxb",
+              "type": "browser",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_12mZwonfBxJPPEUy41blEfRB~gzm_tool_uFME0h7ufsuVriBeVU1OluW1",
+              "type": "python",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_12mZwonfBxJPPEUy41blEfRB~gzm_tool_a9a9HKiZ1XTABAdxQKw2ztTZ",
+              "type": "dalle",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_12mZwonfBxJPPEUy41blEfRB~gzm_tool_fjertRJPLhGs8uvShxJXglqO",
+              "type": "dalle",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_12mZwonfBxJPPEUy41blEfRB~gzm_tool_q5KrGoXW2UeDN6tX9Be2rV0U",
+              "type": "browser",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_12mZwonfBxJPPEUy41blEfRB~gzm_tool_mrdZTt2QBnV3QnMObzZAwisp",
+              "type": "python",
+              "settings": null,
+              "metadata": null
+            }
+          ],
+          "files": [
+            {
+              "id": "gzm_cnf_WMbp7Ngyv30rbyfZQXqkgbHU~gzm_file_0j1Be1aSan3SxMkmIf7nVvtD",
+              "type": "application/pdf",
+              "file_id": "",
+              "location": ""
+            }
+          ],
+          "product_features": {
+            "attachments": {
+              "type": "retrieval",
+              "accepted_mime_types": [
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "text/x-ruby",
+                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "text/x-c++",
+                "application/pdf",
+                "text/javascript",
+                "text/x-tex",
+                "application/x-latext",
+                "text/html",
+                "text/x-script.python",
+                "text/x-c",
+                "application/json",
+                "text/markdown",
+                "text/x-php",
+                "text/x-typescript",
+                "application/msword",
+                "text/x-sh",
+                "text/x-java",
+                "text/plain",
+                "text/x-csharp"
+              ],
+              "image_mime_types": [
+                "image/webp",
+                "image/jpeg",
+                "image/png",
+                "image/gif"
+              ],
+              "can_accept_all_mime_types": true
+            }
+          }
+        }
+      },
+      {
+        "resource": {
+          "gizmo": {
+            "id": "g-OHtksi5YI",
+            "organization_id": "org-VxddYt6Ta5dDlRTCl80qSvRX",
+            "short_url": "g-OHtksi5YI-essay-writer",
+            "author": {
+              "user_id": "user-njBcZemFcbjV6WP8VktnlREZ",
+              "display_name": "essaypro.com",
+              "link_to": "https://essaypro.com",
+              "selected_display": "website",
+              "is_verified": true,
+              "will_receive_support_emails": true
+            },
+            "voice": {
+              "id": "ember"
+            },
+            "workspace_id": null,
+            "model": null,
+            "instructions": null,
+            "settings": null,
+            "display": {
+              "name": "Essay Writer 😎",
+              "description": "Expert essay writing helper by essaypro.com",
+              "welcome_message": "Hello! Need help with an essay? Let's start!",
+              "prompt_starters": [
+                "I need to write an essay 😎",
+                "What are your features? 🧐"
+              ],
+              "profile_pic_id": null,
+              "profile_picture_url": "https://files.oaiusercontent.com/file-qcz1yfeByNW2imXe24mwYB2g?se=2123-10-18T12%3A02%3A20Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3Dae8d6fb8-f64a-48c8-892d-2328f681a7dd.png&amp;sig=gGIahcawX7rO2H2e4GYyZB2MOyVeef%2B1W1tJx/6SHMU%3D",
+              "categories": [
+                "writing"
+              ]
+            },
+            "share_recipient": "marketplace",
+            "created_at": "2023-11-11T11:15:18.712926+00:00",
+            "updated_at": "2024-01-28T02:07:36.673614+00:00",
+            "last_interacted_at": null,
+            "num_interactions": null,
+            "tags": [
+              "public",
+              "reportable"
+            ],
+            "version": null,
+            "live_version": null,
+            "training_disabled": null,
+            "sharing_targets": null,
+            "appeal_info": null,
+            "vanity_metrics": {
+              "num_conversations": null,
+              "num_conversations_str": null,
+              "num_pins": 0,
+              "created_ago_str": null,
+              "review_stats": null
+            },
+            "workspace_approval_date": null,
+            "workspace_approved": null
+          },
+          "tools": [
+            {
+              "id": "gzm_cnf_mYHYiwTTyEJUfwhSs9EhtVQP~gzm_tool_fRdmwkg7j7UjzonBvLkrlYAk",
+              "type": "browser",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_mYHYiwTTyEJUfwhSs9EhtVQP~gzm_tool_404QILQhNIo6TMPkUbtMAZzK",
+              "type": "dalle",
+              "settings": null,
+              "metadata": null
+            }
+          ],
+          "files": [],
+          "product_features": {
+            "attachments": {
+              "type": "retrieval",
+              "accepted_mime_types": [
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "text/x-ruby",
+                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "text/x-c++",
+                "application/pdf",
+                "text/javascript",
+                "text/x-tex",
+                "application/x-latext",
+                "text/html",
+                "text/x-script.python",
+                "text/x-c",
+                "application/json",
+                "text/markdown",
+                "text/x-php",
+                "text/x-typescript",
+                "application/msword",
+                "text/x-sh",
+                "text/x-java",
+                "text/plain",
+                "text/x-csharp"
+              ],
+              "image_mime_types": [
+                "image/webp",
+                "image/jpeg",
+                "image/png",
+                "image/gif"
+              ],
+              "can_accept_all_mime_types": true
+            }
+          }
+        }
+      },
+      {
+        "resource": {
+          "gizmo": {
+            "id": "g-txEiClD5G",
+            "organization_id": "org-MUe4Ve6haTMoBMWA8wrsNrT9",
+            "short_url": "g-txEiClD5G-ai-song-maker",
+            "author": {
+              "user_id": "user-bbZZIvGm8HdK3lTEWhSlkg5k",
+              "display_name": "Sherwyn Leander D'souza",
+              "link_to": null,
+              "selected_display": "name",
+              "is_verified": true,
+              "will_receive_support_emails": true
+            },
+            "voice": {
+              "id": "ember"
+            },
+            "workspace_id": null,
+            "model": null,
+            "instructions": null,
+            "settings": null,
+            "display": {
+              "name": "AI Song Maker",
+              "description": "Create music using musical theory. Discover essential songwriting tips to compose music and create songs. This GPT can produce chord progressions, musical notes, song lyrics, soundtracks and album covers.",
+              "welcome_message": "Hello! Ready to create some music?",
+              "prompt_starters": [
+                "Can you write me sheet music and soundtrack for the following lyrics, use a fur elise pirate remix as the starting point and use a piano for the melody, and a guitar playing chords: We're soaring high, beyond the sky, In the realm where dreams never die. With every chain now left behind, We embrace the freedom we find.",
+                "Show me the Instruction Manual with Helpful URLs",
+                "Create me an album cover from these lyrics",
+                "Can you write me a song from the image I upload?"
+              ],
+              "profile_pic_id": "file-mUUUHpvvTJyQrL2ccIfgXXGh",
+              "profile_picture_url": "https://files.oaiusercontent.com/file-mUUUHpvvTJyQrL2ccIfgXXGh?se=2123-12-30T02%3A14%3A55Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D1209600%2C%20immutable&amp;rscd=attachment%3B%20filename%3D03d7c1ef-165a-4444-9b25-e535cc01f356.png&amp;sig=i8VHBGFjluRk%2BQ%2BWlHsGm1Ktu%2BPk2RKHxc0o5M%2B5KM8%3D",
+              "categories": [
+                "other"
+              ]
+            },
+            "share_recipient": "marketplace",
+            "created_at": "2023-11-16T06:55:03.259057+00:00",
+            "updated_at": "2024-01-31T06:39:27.101056+00:00",
+            "last_interacted_at": null,
+            "num_interactions": null,
+            "tags": [
+              "public",
+              "reportable"
+            ],
+            "version": null,
+            "live_version": null,
+            "training_disabled": null,
+            "sharing_targets": null,
+            "appeal_info": null,
+            "vanity_metrics": {
+              "num_conversations": null,
+              "num_conversations_str": null,
+              "num_pins": 0,
+              "created_ago_str": null,
+              "review_stats": null
+            },
+            "workspace_approval_date": null,
+            "workspace_approved": null
+          },
+          "tools": [
+            {
+              "id": "gzm_cnf_kR6Uh0pfoAXEdgbPbX0H6YJA~gzm_tool_J4hqkIk9VEEaMyKJ52ilLUuB",
+              "type": "browser",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_kR6Uh0pfoAXEdgbPbX0H6YJA~gzm_tool_n977cTAqBFKMTLTE5gEdnMdg",
+              "type": "dalle",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_VqQaln1Ogf3iJ4r7O3wZo6Cj~gzm_tool_ia9QP7ZzbE0mcqzr1zN1nKt1",
+              "type": "python",
+              "settings": null,
+              "metadata": null
+            }
+          ],
+          "files": [
+            {
+              "id": "gzm_cnf_QNmZFjEqvjx8NDXXy04g9opK~gzm_file_yd7lyhe2SknA2GakucsmjwT6",
+              "type": "text/plain",
+              "file_id": "",
+              "location": ""
+            },
+            {
+              "id": "gzm_cnf_QNmZFjEqvjx8NDXXy04g9opK~gzm_file_UQ7hL5KfOXtJzL9IYbGZqqTc",
+              "type": "",
+              "file_id": "",
+              "location": ""
+            },
+            {
+              "id": "gzm_cnf_fbI5jrmbN6Lejszg3sLKDc0W~gzm_file_n4EeVGwVIPzjUepZgmETjjsz",
+              "type": "application/zip",
+              "file_id": "",
+              "location": ""
+            },
+            {
+              "id": "gzm_cnf_XteN2PJgoLWAdvByEnA5bGHF~gzm_file_nSsGeJqbl3VsPSSmLHG4h9JE",
+              "type": "text/plain",
+              "file_id": "",
+              "location": ""
+            },
+            {
+              "id": "gzm_cnf_SpiUSSq3JXFgtD6IsR8dSX0w~gzm_file_FOI68TsDTZ6BHmqPulvdWHIH",
+              "type": "text/plain",
+              "file_id": "",
+              "location": ""
+            },
+            {
+              "id": "gzm_cnf_KMvBPb6pEzqTAEJqolktOPmL~gzm_file_0Q7bYOq7CLm0k3nbnJ7GTp4s",
+              "type": "application/zip",
+              "file_id": "",
+              "location": ""
+            },
+            {
+              "id": "gzm_cnf_nJ5kIXduAj00i4S31F45P510~gzm_file_bNpAjDrUop1uSuKsztLgZZAN",
+              "type": "",
+              "file_id": "",
+              "location": ""
+            }
+          ],
+          "product_features": {
+            "attachments": {
+              "type": "retrieval",
+              "accepted_mime_types": [
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "text/x-ruby",
+                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "text/x-c++",
+                "application/pdf",
+                "text/javascript",
+                "text/x-tex",
+                "application/x-latext",
+                "text/html",
+                "text/x-script.python",
+                "text/x-c",
+                "application/json",
+                "text/markdown",
+                "text/x-php",
+                "text/x-typescript",
+                "application/msword",
+                "text/x-sh",
+                "text/x-java",
+                "text/plain",
+                "text/x-csharp"
+              ],
+              "image_mime_types": [
+                "image/webp",
+                "image/jpeg",
+                "image/png",
+                "image/gif"
+              ],
+              "can_accept_all_mime_types": true
+            }
+          }
+        }
+      },
+      {
+        "resource": {
+          "gizmo": {
+            "id": "g-Qf60vcWcr",
+            "organization_id": "org-7GlwtkoCiA05sefxpYkqAgyP",
+            "short_url": "g-Qf60vcWcr-income-stream-surfer-s-seo-content-writer",
+            "author": {
+              "user_id": "user-tJMkeG1wFzKMsblfAyIk68S0",
+              "display_name": "incomestreamsurfers.com",
+              "link_to": "https://incomestreamsurfers.com",
+              "selected_display": "website",
+              "is_verified": true,
+              "will_receive_support_emails": true
+            },
+            "voice": {
+              "id": "ember"
+            },
+            "workspace_id": null,
+            "model": null,
+            "instructions": null,
+            "settings": null,
+            "display": {
+              "name": "Income Stream Surfer's SEO Content Writer",
+              "description": "Writes SEO Content using ChatGPT For ANY website",
+              "welcome_message": "Hello, ready to craft some SEO content!",
+              "prompt_starters": [
+                "What website am I writing for?",
+                "What is the keyword?",
+                "What are the internal links to include?",
+                "How many generations should I generate?"
+              ],
+              "profile_pic_id": null,
+              "profile_picture_url": "https://files.oaiusercontent.com/file-10SgVdlnZRmCUvF7Mu2CxIsd?se=2123-10-20T22%3A16%3A32Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3D6ca8b8ca-9799-4d90-b543-6d2a29ee8808.png&amp;sig=pSxYchaQlJz25ykTYyrOcGWxYxO6P1LQj1/nbusXIUw%3D",
+              "categories": [
+                "other"
+              ]
+            },
+            "share_recipient": "marketplace",
+            "created_at": "2023-11-13T15:01:54.617693+00:00",
+            "updated_at": "2024-01-17T18:03:14.869088+00:00",
+            "last_interacted_at": null,
+            "num_interactions": null,
+            "tags": [
+              "public",
+              "reportable"
+            ],
+            "version": null,
+            "live_version": null,
+            "training_disabled": null,
+            "sharing_targets": null,
+            "appeal_info": null,
+            "vanity_metrics": {
+              "num_conversations": null,
+              "num_conversations_str": null,
+              "num_pins": 0,
+              "created_ago_str": null,
+              "review_stats": null
+            },
+            "workspace_approval_date": null,
+            "workspace_approved": null
+          },
+          "tools": [
+            {
+              "id": "gzm_cnf_uQvgHCjZdUAWd0Aiq5UaWCCz~gzm_tool_tIEHePsApy9XeVl1XyFf1YCD",
+              "type": "browser",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_uQvgHCjZdUAWd0Aiq5UaWCCz~gzm_tool_a2CwJlW6SQoXb4saI6r58j7F",
+              "type": "dalle",
+              "settings": null,
+              "metadata": null
+            }
+          ],
+          "files": [],
+          "product_features": {
+            "attachments": {
+              "type": "retrieval",
+              "accepted_mime_types": [
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "text/x-ruby",
+                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "text/x-c++",
+                "application/pdf",
+                "text/javascript",
+                "text/x-tex",
+                "application/x-latext",
+                "text/html",
+                "text/x-script.python",
+                "text/x-c",
+                "application/json",
+                "text/markdown",
+                "text/x-php",
+                "text/x-typescript",
+                "application/msword",
+                "text/x-sh",
+                "text/x-java",
+                "text/plain",
+                "text/x-csharp"
+              ],
+              "image_mime_types": [
+                "image/webp",
+                "image/jpeg",
+                "image/png",
+                "image/gif"
+              ],
+              "can_accept_all_mime_types": true
+            }
+          }
+        }
+      },
+      {
+        "resource": {
+          "gizmo": {
+            "id": "g-PWizFQk8C",
+            "organization_id": "org-bMEJVhPUTAWixqmLYXWOjj7Y",
+            "short_url": "g-PWizFQk8C-blog-expert",
+            "author": {
+              "user_id": "user-P6LpAwrnjhj4bAEsPL5ZZhrW",
+              "display_name": "Faisal Binateeq",
+              "link_to": null,
+              "selected_display": "name",
+              "is_verified": true,
+              "will_receive_support_emails": true
+            },
+            "voice": {
+              "id": "ember"
+            },
+            "workspace_id": null,
+            "model": null,
+            "instructions": null,
+            "settings": null,
+            "display": {
+              "name": "Blog Expert",
+              "description": "SEO blog content creator with expertise in keyword optimization and engaging writing.",
+              "welcome_message": "Ready to craft your SEO-optimized blog post!",
+              "prompt_starters": [
+                "Create an SEO-friendly title for a blog about nutrition.",
+                "Write a compelling introduction for a tech article.",
+                "Generate an SEO meta-description for a travel blog.",
+                "Conclude an article on renewable energy."
+              ],
+              "profile_pic_id": null,
+              "profile_picture_url": "https://files.oaiusercontent.com/file-1Eh7A79o1yuLdC6OrA20Xd9g?se=2123-10-16T06%3A36%3A51Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3D4f7c6083-6745-4890-840e-67624e07705e.png&amp;sig=rYRNzKfuG38RTpp5wxY6j1iyLiPYQK0yGIBp8jrabZw%3D",
+              "categories": []
+            },
+            "share_recipient": "marketplace",
+            "created_at": "2023-11-09T05:56:08.150702+00:00",
+            "updated_at": "2024-01-27T00:24:11.969919+00:00",
+            "last_interacted_at": null,
+            "num_interactions": null,
+            "tags": [
+              "public",
+              "reportable"
+            ],
+            "version": null,
+            "live_version": null,
+            "training_disabled": null,
+            "sharing_targets": null,
+            "appeal_info": null,
+            "vanity_metrics": {
+              "num_conversations": null,
+              "num_conversations_str": null,
+              "num_pins": 0,
+              "created_ago_str": null,
+              "review_stats": null
+            },
+            "workspace_approval_date": null,
+            "workspace_approved": null
+          },
+          "tools": [
+            {
+              "id": "gzm_cnf_LoTBjolxaUF2dUUCXc6LH6ff~gzm_tool_vg4F2NRRiFlOhnG8xVbFcznu",
+              "type": "browser",
+              "settings": null,
+              "metadata": null
+            }
+          ],
+          "files": [],
+          "product_features": {
+            "attachments": {
+              "type": "retrieval",
+              "accepted_mime_types": [
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "text/x-ruby",
+                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "text/x-c++",
+                "application/pdf",
+                "text/javascript",
+                "text/x-tex",
+                "application/x-latext",
+                "text/html",
+                "text/x-script.python",
+                "text/x-c",
+                "application/json",
+                "text/markdown",
+                "text/x-php",
+                "text/x-typescript",
+                "application/msword",
+                "text/x-sh",
+                "text/x-java",
+                "text/plain",
+                "text/x-csharp"
+              ],
+              "image_mime_types": [
+                "image/webp",
+                "image/jpeg",
+                "image/png",
+                "image/gif"
+              ],
+              "can_accept_all_mime_types": true
+            }
+          }
+        }
+      },
+      {
+        "resource": {
+          "gizmo": {
+            "id": "g-1mzAswM3D",
+            "organization_id": "org-iW7tDR4myhSIY4uGhJxVHafY",
+            "short_url": "g-1mzAswM3D-write-like-a-human",
+            "author": {
+              "user_id": "user-DOEEUP5wiG8nFz0v6kCT1oJb",
+              "display_name": "thehenhavenph.com",
+              "link_to": "https://thehenhavenph.com",
+              "selected_display": "website",
+              "is_verified": true,
+              "will_receive_support_emails": null
+            },
+            "voice": {
+              "id": "ember"
+            },
+            "workspace_id": null,
+            "model": null,
+            "instructions": null,
+            "settings": null,
+            "display": {
+              "name": "Write Like A Human",
+              "description": "Writer for everything in human-like output and non-AI",
+              "welcome_message": "Hello! I'll adapt my writing to fit your context perfectly.",
+              "prompt_starters": [
+                "Compose a formal report on:",
+                "Write a casual email about:",
+                "Create a story with a humorous tone:",
+                "Draft a text in [language] about:"
+              ],
+              "profile_pic_id": "file-h7UXawVOGMQqIjW5W5amxZdL",
+              "profile_picture_url": "https://files.oaiusercontent.com/file-h7UXawVOGMQqIjW5W5amxZdL?se=2123-12-18T11%3A27%3A37Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D1209600%2C%20immutable&amp;rscd=attachment%3B%20filename%3Dc6d94b0a-9e66-4338-b2a2-d55b9c284ae8.png&amp;sig=GZG/cn5WiiL2jDaMvm4SUdhAIq9gI/CwJs%2B5qB5mTI0%3D",
+              "categories": [
+                "writing"
+              ]
+            },
+            "share_recipient": "marketplace",
+            "created_at": "2024-01-11T11:20:52.100342+00:00",
+            "updated_at": "2024-01-21T02:02:50.504621+00:00",
+            "last_interacted_at": null,
+            "num_interactions": null,
+            "tags": [
+              "public",
+              "reportable"
+            ],
+            "version": null,
+            "live_version": null,
+            "training_disabled": null,
+            "sharing_targets": null,
+            "appeal_info": null,
+            "vanity_metrics": {
+              "num_conversations": null,
+              "num_conversations_str": null,
+              "num_pins": 0,
+              "created_ago_str": null,
+              "review_stats": null
+            },
+            "workspace_approval_date": null,
+            "workspace_approved": null
+          },
+          "tools": [
+            {
+              "id": "gzm_cnf_xLu4ZOENSm2beLUoQ4wzoSXP~gzm_tool_pXFsEVVl5osw5ejUzkMsvaca",
+              "type": "browser",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_xLu4ZOENSm2beLUoQ4wzoSXP~gzm_tool_nLnxQR1R1mT0ydIOenXlxZC8",
+              "type": "dalle",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_fawRJhXASaAi3O7F4qOGk4Cf~gzm_tool_l69ngIRNKwSEWLBBRm2kdBOk",
+              "type": "python",
+              "settings": null,
+              "metadata": null
+            }
+          ],
+          "files": [],
+          "product_features": {
+            "attachments": {
+              "type": "retrieval",
+              "accepted_mime_types": [
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "text/x-ruby",
+                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "text/x-c++",
+                "application/pdf",
+                "text/javascript",
+                "text/x-tex",
+                "application/x-latext",
+                "text/html",
+                "text/x-script.python",
+                "text/x-c",
+                "application/json",
+                "text/markdown",
+                "text/x-php",
+                "text/x-typescript",
+                "application/msword",
+                "text/x-sh",
+                "text/x-java",
+                "text/plain",
+                "text/x-csharp"
+              ],
+              "image_mime_types": [
+                "image/webp",
+                "image/jpeg",
+                "image/png",
+                "image/gif"
+              ],
+              "can_accept_all_mime_types": true
+            }
+          }
+        }
+      },
+      {
+        "resource": {
+          "gizmo": {
+            "id": "g-EuZgyHTbd",
+            "organization_id": "org-KfoyhMK6qV3esgJrwcjMgapm",
+            "short_url": "g-EuZgyHTbd-email-buddy",
+            "author": {
+              "user_id": "user-uyyUP9dfuGWLnB1ElqAV3Bma",
+              "display_name": "Parkizio Technologies Ltd.",
+              "link_to": null,
+              "selected_display": "name",
+              "is_verified": true,
+              "will_receive_support_emails": null
+            },
+            "voice": {
+              "id": "ember"
+            },
+            "workspace_id": null,
+            "model": null,
+            "instructions": null,
+            "settings": null,
+            "display": {
+              "name": "Email Buddy",
+              "description": "Expert in giving emails a natural, conversational tone.",
+              "welcome_message": "Hi there! Let's make your emails sound more natural and engaging.",
+              "prompt_starters": [
+                "Can you make this email sound more casual?",
+                "Help me rewrite this email to sound friendlier.",
+                "How can I express this more naturally in an email?",
+                "Suggest a more relaxed tone for this email."
+              ],
+              "profile_pic_id": "file-9S9jXhTLevT8gdAWoULXYt4C",
+              "profile_picture_url": "https://files.oaiusercontent.com/file-9S9jXhTLevT8gdAWoULXYt4C?se=2123-10-29T18%3A16%3A20Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3D3f0fde91-c77a-4815-b23d-5b1f2fb36171.png&amp;sig=WozKzNf1ZU1PPr5vS4OHG0Av5CB2Ut3p6kdpnAOQ0xQ%3D",
+              "categories": []
+            },
+            "share_recipient": "marketplace",
+            "created_at": "2023-11-22T18:12:05.013380+00:00",
+            "updated_at": "2024-01-27T00:23:52.954051+00:00",
+            "last_interacted_at": null,
+            "num_interactions": null,
+            "tags": [
+              "public",
+              "reportable"
+            ],
+            "version": null,
+            "live_version": null,
+            "training_disabled": null,
+            "sharing_targets": null,
+            "appeal_info": null,
+            "vanity_metrics": {
+              "num_conversations": null,
+              "num_conversations_str": null,
+              "num_pins": 0,
+              "created_ago_str": null,
+              "review_stats": null
+            },
+            "workspace_approval_date": null,
+            "workspace_approved": null
+          },
+          "tools": [
+            {
+              "id": "gzm_cnf_nVgL4zWBU63tN9kSzlFTlMLz~gzm_tool_7aFVGHqHPtnjijG2vlRLJuyg",
+              "type": "browser",
+              "settings": null,
+              "metadata": null
+            }
+          ],
+          "files": [],
+          "product_features": {
+            "attachments": {
+              "type": "retrieval",
+              "accepted_mime_types": [
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "text/x-ruby",
+                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "text/x-c++",
+                "application/pdf",
+                "text/javascript",
+                "text/x-tex",
+                "application/x-latext",
+                "text/html",
+                "text/x-script.python",
+                "text/x-c",
+                "application/json",
+                "text/markdown",
+                "text/x-php",
+                "text/x-typescript",
+                "application/msword",
+                "text/x-sh",
+                "text/x-java",
+                "text/plain",
+                "text/x-csharp"
+              ],
+              "image_mime_types": [
+                "image/webp",
+                "image/jpeg",
+                "image/png",
+                "image/gif"
+              ],
+              "can_accept_all_mime_types": true
+            }
+          }
+        }
+      },
+      {
+        "resource": {
+          "gizmo": {
+            "id": "g-a6Fpz8NRb",
+            "organization_id": "org-TUclYVpMFVsWgjnQiSgxsm4U",
+            "short_url": "g-a6Fpz8NRb-humanize-ai",
+            "author": {
+              "user_id": "user-ml0XWT3G0JfJO3leB8rY0RPf",
+              "display_name": "gptinf.com",
+              "link_to": "https://gptinf.com",
+              "selected_display": "website",
+              "is_verified": true,
+              "will_receive_support_emails": true
+            },
+            "voice": {
+              "id": "ember"
+            },
+            "workspace_id": null,
+            "model": null,
+            "instructions": null,
+            "settings": null,
+            "display": {
+              "name": "Humanize AI",
+              "description": "Humanize AI text is a free AI Text converter tool capable of efficiently humanizing your content.",
+              "welcome_message": "",
+              "prompt_starters": [
+                "Please provide the AI text to humanize"
+              ],
+              "profile_pic_id": null,
+              "profile_picture_url": "https://files.oaiusercontent.com/file-IJL3FKB56H4lFmwrnTzpByPx?se=2123-11-14T07%3A53%3A48Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D1209600%2C%20immutable&amp;rscd=attachment%3B%20filename%3D0_Humanizer.%2520blue%2520and%2520green%2520on%2520black_esrgan-v1-x2plus.png&amp;sig=LMF2ctK5PEFCoisLv/ujYDEb56zmkagm3VLTPXsnqzM%3D",
+              "categories": [
+                "writing"
+              ]
+            },
+            "share_recipient": "marketplace",
+            "created_at": "2023-12-08T07:47:15.592112+00:00",
+            "updated_at": "2024-01-30T07:02:01.566640+00:00",
+            "last_interacted_at": null,
+            "num_interactions": null,
+            "tags": [
+              "public",
+              "reportable",
+              "uses_function_calls"
+            ],
+            "version": null,
+            "live_version": null,
+            "training_disabled": null,
+            "sharing_targets": null,
+            "appeal_info": null,
+            "vanity_metrics": {
+              "num_conversations": null,
+              "num_conversations_str": null,
+              "num_pins": 0,
+              "created_ago_str": null,
+              "review_stats": null
+            },
+            "workspace_approval_date": null,
+            "workspace_approved": null
+          },
+          "tools": [
+            {
+              "id": "gzm_cnf_cOSUu8xDMDGsG2EvQUzNTPmH~gzm_tool_xIQz77ns7vUjeEgbiJYryGX1",
+              "type": "dalle",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_cOSUu8xDMDGsG2EvQUzNTPmH~gzm_tool_3zyoShrrtcd7q9pJ32nNom30",
+              "type": "browser",
+              "settings": null,
+              "metadata": null
+            },
+            {
+              "id": "gzm_cnf_le0DUYYAutfNKrj6PtZJUHgu~gzm_tool_0mc2ZoibmasaiSaxBiDEusKz",
+              "type": "plugins_prototype",
+              "settings": null,
+              "metadata": {
+                "action_id": "g-1817922c27e248a2de920f1e00364cc7b94ae16c",
+                "domain": "plugin.gptinf.com",
+                "raw_spec": "openapi: 3.0.1\ninfo:\n  title: GPTinf Plugin\n  description: A plugin to humanize AI content by paraphrasing. Only ethical use is allowed.\n  version: v1\nservers:\n  - url: https://plugin.gptinf.com/api\npaths:\n  /paraphrase:\n    post:\n      operationId: paraphrase\n      summary: Paraphrase a text\n      requestBody:\n        required: true\n        content:\n          application/json:\n            schema:\n              $ref: \"#/components/schemas/paraphraseRequest\"\n      responses:\n        \"200\":\n          description: OK\n          content:\n            application/json:\n              schema:\n                $ref: \"#/components/schemas/paraphraseResponse\"\n        \"400\":\n          description: Bad Request\n          content:\n            application/json:\n              schema:\n                $ref: \"#/components/schemas/errorResponse\"\ncomponents:\n  schemas:\n    paraphraseRequest:\n      type: object\n      required:\n        - text\n        - id\n      properties:\n        text:\n          type: string\n          description: The text to paraphrase.\n        id:\n          type: string\n          enum:\n            - Od28B\n          description: A constant value ID for this GPT.\n    paraphraseResponse:\n      type: object\n      required:\n        - paraphrased\n      properties:\n        paraphrased:\n          type: string\n          description: The successful paraphrase of the text. Or request to increase the words limit.\n    errorResponse:\n      type: object\n      required:\n        - error\n      properties:\n        error:\n          type: string\n          description: Description of the error.\n        description:\n          type: string\n          description: Description of the error.\n",
+                "json_schema": null,
+                "auth": {
+                  "type": "oauth",
+                  "instructions": "",
+                  "client_url": "https://plugin.gptinf.com/api/oauth",
+                  "scope": "",
+                  "authorization_url": "https://plugin.gptinf.com/api/oauth_exchange",
+                  "authorization_content_type": "application/x-www-form-urlencoded",
+                  "verification_tokens": {},
+                  "pkce_required": false,
+                  "token_exchange_method": "default_post"
+                },
+                "privacy_policy_url": "https://app.gptinf.com/privacy_policy.html"
+              }
+            },
+            {
+              "id": "gzm_cnf_cOSUu8xDMDGsG2EvQUzNTPmH~gzm_tool_Z0d0Zt0G92Kp0VNlerr7cZo3",
+              "type": "python",
+              "settings": null,
+              "metadata": null
+            }
+          ],
+          "files": [],
+          "product_features": {
+            "attachments": {
+              "type": "retrieval",
+              "accepted_mime_types": [
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "text/x-ruby",
+                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "text/x-c++",
+                "application/pdf",
+                "text/javascript",
+                "text/x-tex",
+                "application/x-latext",
+                "text/html",
+                "text/x-script.python",
+                "text/x-c",
+                "application/json",
+                "text/markdown",
+                "text/x-php",
+                "text/x-typescript",
+                "application/msword",
+                "text/x-sh",
+                "text/x-java",
+                "text/plain",
+                "text/x-csharp"
+              ],
+              "image_mime_types": [
+                "image/webp",
+                "image/jpeg",
+                "image/png",
+                "image/gif"
+              ],
+              "can_accept_all_mime_types": true
+            }
+          }
+        }
+      }
+    ],
+    "cursor": null
+  }
+}
