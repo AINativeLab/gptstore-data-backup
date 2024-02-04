@@ -1,0 +1,824 @@
+[
+  {
+    "name": "Prompt Perfect",
+    "id": "g-0QDef4GiE",
+    "short_url": "https://chat.openai.com/g/g-0QDef4GiE-prompt-perfect",
+    "num_conversations_str": "50K+"
+  },
+  {
+    "name": "Wolfram",
+    "id": "g-0S5FXLyFN",
+    "short_url": "https://chat.openai.com/g/g-0S5FXLyFN-wolfram",
+    "num_conversations_str": "50K+"
+  },
+  {
+    "name": "Write Like A Human",
+    "id": "g-1mzAswM3D",
+    "short_url": "https://chat.openai.com/g/g-1mzAswM3D-write-like-a-human",
+    "num_conversations_str": "1K+"
+  },
+  {
+    "name": "Tattoo GPT",
+    "id": "g-1zMekbWTA",
+    "short_url": "https://chat.openai.com/g/g-1zMekbWTA-tattoo-gpt",
+    "num_conversations_str": "50K+"
+  },
+  {
+    "name": "Code Copilot",
+    "id": "g-2DQzU5UZl",
+    "short_url": "https://chat.openai.com/g/g-2DQzU5UZl-code-copilot",
+    "num_conversations_str": "25K+"
+  },
+  {
+    "name": "DesignerGPT",
+    "id": "g-2Eo3NxuS7",
+    "short_url": "https://chat.openai.com/g/g-2Eo3NxuS7-designergpt",
+    "num_conversations_str": "100K+"
+  },
+  {
+    "name": "Math AI 🧮",
+    "id": "g-2OyX2ZiUk",
+    "short_url": "https://chat.openai.com/g/g-2OyX2ZiUk-math-ai",
+    "num_conversations_str": "10K+"
+  },
+  {
+    "name": "Humanizer Pro",
+    "id": "g-2azCVmXdy",
+    "short_url": "https://chat.openai.com/g/g-2azCVmXdy-humanizer-pro",
+    "num_conversations_str": "200K+"
+  },
+  {
+    "name": "DALL·E",
+    "id": "g-2fkFE8rbu",
+    "short_url": "https://chat.openai.com/g/g-2fkFE8rbu-dall-e",
+    "num_conversations_str": null
+  },
+  {
+    "name": "Sous Chef",
+    "id": "g-3VrgJ1GpH",
+    "short_url": "https://chat.openai.com/g/g-3VrgJ1GpH-sous-chef",
+    "num_conversations_str": null
+  },
+  {
+    "name": "AskTheCode",
+    "id": "g-3s6SJ5V7S",
+    "short_url": "https://chat.openai.com/g/g-3s6SJ5V7S-askthecode",
+    "num_conversations_str": "25K+"
+  },
+  {
+    "name": "Web Browser",
+    "id": "g-3w1rEXGE0",
+    "short_url": "https://chat.openai.com/g/g-3w1rEXGE0-web-browser",
+    "num_conversations_str": null
+  },
+  {
+    "name": "Diagrams: Show Me",
+    "id": "g-5QhhdsfDj",
+    "short_url": "https://chat.openai.com/g/g-5QhhdsfDj-diagrams-show-me",
+    "num_conversations_str": "300K+"
+  },
+  {
+    "name": "Planty",
+    "id": "g-6PKrcgTBL",
+    "short_url": "https://chat.openai.com/g/g-6PKrcgTBL-planty",
+    "num_conversations_str": null
+  },
+  {
+    "name": "Glibatree Art Designer",
+    "id": "g-7CKojumSX",
+    "short_url": "https://chat.openai.com/g/g-7CKojumSX-glibatree-art-designer",
+    "num_conversations_str": "100K+"
+  },
+  {
+    "name": "Automated Writer",
+    "id": "g-82ALdp8Nj",
+    "short_url": "https://chat.openai.com/g/g-82ALdp8Nj-automated-writer",
+    "num_conversations_str": "25K+"
+  },
+  {
+    "name": "Murder Mystery Mayhem",
+    "id": "g-82dEDeoN3",
+    "short_url": "https://chat.openai.com/g/g-82dEDeoN3-murder-mystery-mayhem",
+    "num_conversations_str": "25K+"
+  },
+  {
+    "name": "チャットGPT",
+    "id": "g-8sPlJ64Gn",
+    "short_url": "https://chat.openai.com/g/g-8sPlJ64Gn-tiyatutogpt",
+    "num_conversations_str": "5K+"
+  },
+  {
+    "name": "Mr. Ranedeer",
+    "id": "g-9PKhaweyb",
+    "short_url": "https://chat.openai.com/g/g-9PKhaweyb-mr-ranedeer",
+    "num_conversations_str": "50K+"
+  },
+  {
+    "name": "Math Solver",
+    "id": "g-9YeZz6m6k",
+    "short_url": "https://chat.openai.com/g/g-9YeZz6m6k-math-solver",
+    "num_conversations_str": "50K+"
+  },
+  {
+    "name": "Super Describe",
+    "id": "g-9qWC0oyBd",
+    "short_url": "https://chat.openai.com/g/g-9qWC0oyBd-super-describe",
+    "num_conversations_str": "200K+"
+  },
+  {
+    "name": "Write For Me",
+    "id": "g-B3hgivKK9",
+    "short_url": "https://chat.openai.com/g/g-B3hgivKK9-write-for-me",
+    "num_conversations_str": "300K+"
+  },
+  {
+    "name": "Rizz GPT",
+    "id": "g-CsdwU23wt",
+    "short_url": "https://chat.openai.com/g/g-CsdwU23wt-rizz-gpt",
+    "num_conversations_str": "25K+"
+  },
+  {
+    "name": "Coloring Book Hero",
+    "id": "g-DerYxX7rA",
+    "short_url": "https://chat.openai.com/g/g-DerYxX7rA-coloring-book-hero",
+    "num_conversations_str": null
+  },
+  {
+    "name": "MARKETING",
+    "id": "g-DtjWjSDiv",
+    "short_url": "https://chat.openai.com/g/g-DtjWjSDiv-marketing",
+    "num_conversations_str": "5K+"
+  },
+  {
+    "name": "Travel Guide",
+    "id": "g-E7eSRUHy6",
+    "short_url": "https://chat.openai.com/g/g-E7eSRUHy6-travel-guide",
+    "num_conversations_str": "5K+"
+  },
+  {
+    "name": "Math Mentor",
+    "id": "g-ENhijiiwK",
+    "short_url": "https://chat.openai.com/g/g-ENhijiiwK-math-mentor",
+    "num_conversations_str": null
+  },
+  {
+    "name": "👌Academic Assistant Pro",
+    "id": "g-Ej5zYQRIB",
+    "short_url": "https://chat.openai.com/g/g-Ej5zYQRIB-academic-assistant-pro",
+    "num_conversations_str": "100K+"
+  },
+  {
+    "name": "Math Expert",
+    "id": "g-FReXnZbT8",
+    "short_url": "https://chat.openai.com/g/g-FReXnZbT8-math-expert",
+    "num_conversations_str": "1K+"
+  },
+  {
+    "name": "Cosmic Dream",
+    "id": "g-FdMHL1sNo",
+    "short_url": "https://chat.openai.com/g/g-FdMHL1sNo-cosmic-dream",
+    "num_conversations_str": null
+  },
+  {
+    "name": "Universal Primer",
+    "id": "g-GbLbctpPz",
+    "short_url": "https://chat.openai.com/g/g-GbLbctpPz-universal-primer",
+    "num_conversations_str": "100K+"
+  },
+  {
+    "name": "What should I watch?",
+    "id": "g-Gm9cCA5qg",
+    "short_url": "https://chat.openai.com/g/g-Gm9cCA5qg-what-should-i-watch",
+    "num_conversations_str": "25K+"
+  },
+  {
+    "name": "Doc Maker",
+    "id": "g-Gt6Z8pqWF",
+    "short_url": "https://chat.openai.com/g/g-Gt6Z8pqWF-doc-maker",
+    "num_conversations_str": "50K+"
+  },
+  {
+    "name": "Video Summarizer",
+    "id": "g-GvcYCKPIH",
+    "short_url": "https://chat.openai.com/g/g-GvcYCKPIH-video-summarizer",
+    "num_conversations_str": "50K+"
+  },
+  {
+    "name": "Data Analyst",
+    "id": "g-HMNcP6w7d",
+    "short_url": "https://chat.openai.com/g/g-HMNcP6w7d-data-analyst",
+    "num_conversations_str": null
+  },
+  {
+    "name": "Video Insights: Summaries/Vision/Transcription",
+    "id": "g-HXZv0dg8w",
+    "short_url": "https://chat.openai.com/g/g-HXZv0dg8w-video-insights-summaries-vision-transcription",
+    "num_conversations_str": "25K+"
+  },
+  {
+    "name": "💻Professional Coder (Auto programming)",
+    "id": "g-HgZuFuuBK",
+    "short_url": "https://chat.openai.com/g/g-HgZuFuuBK-professional-coder-auto-programming",
+    "num_conversations_str": "100K+"
+  },
+  {
+    "name": "Video GPT by VEED",
+    "id": "g-Hkqnd7mFT",
+    "short_url": "https://chat.openai.com/g/g-Hkqnd7mFT-video-gpt-by-veed",
+    "num_conversations_str": "300K+"
+  },
+  {
+    "name": "Code Tutor",
+    "id": "g-HxPrv1p8v",
+    "short_url": "https://chat.openai.com/g/g-HxPrv1p8v-code-tutor",
+    "num_conversations_str": "50K+"
+  },
+  {
+    "name": "API Docs",
+    "id": "g-I1XNbsyDK",
+    "short_url": "https://chat.openai.com/g/g-I1XNbsyDK-api-docs",
+    "num_conversations_str": "10K+"
+  },
+  {
+    "name": "Video Maker",
+    "id": "g-I9f8LxD5P",
+    "short_url": "https://chat.openai.com/g/g-I9f8LxD5P-video-maker",
+    "num_conversations_str": "10K+"
+  },
+  {
+    "name": "Home Style Advisor",
+    "id": "g-JUPludygA",
+    "short_url": "https://chat.openai.com/g/g-JUPludygA-home-style-advisor",
+    "num_conversations_str": "10K+"
+  },
+  {
+    "name": "Copywriter GPT",
+    "id": "g-Ji2QOyMml",
+    "short_url": "https://chat.openai.com/g/g-Ji2QOyMml-copywriter-gpt",
+    "num_conversations_str": "25K+"
+  },
+  {
+    "name": "PlaylistAI - Music Playlist Maker",
+    "id": "g-KkxbQAVuk",
+    "short_url": "https://chat.openai.com/g/g-KkxbQAVuk-playlistai-music-playlist-maker",
+    "num_conversations_str": "10K+"
+  },
+  {
+    "name": "AllTrails",
+    "id": "g-KpF6lTka3",
+    "short_url": "https://chat.openai.com/g/g-KpF6lTka3-alltrails",
+    "num_conversations_str": "50K+"
+  },
+  {
+    "name": "ScholarAI",
+    "id": "g-L2HknCZTC",
+    "short_url": "https://chat.openai.com/g/g-L2HknCZTC-scholarai",
+    "num_conversations_str": "200K+"
+  },
+  {
+    "name": "AutoExpert (Chat)",
+    "id": "g-LQHhJCXhW",
+    "short_url": "https://chat.openai.com/g/g-LQHhJCXhW-autoexpert-chat",
+    "num_conversations_str": "50K+"
+  },
+  {
+    "name": "Midjourney",
+    "id": "g-LpDlUu6oL",
+    "short_url": "https://chat.openai.com/g/g-LpDlUu6oL-midjourney",
+    "num_conversations_str": "5K+"
+  },
+  {
+    "name": "Resume",
+    "id": "g-MrgKnTZbc",
+    "short_url": "https://chat.openai.com/g/g-MrgKnTZbc-resume",
+    "num_conversations_str": "25K+"
+  },
+  {
+    "name": "SciSpace",
+    "id": "g-NgAcklHd8",
+    "short_url": "https://chat.openai.com/g/g-NgAcklHd8-scispace",
+    "num_conversations_str": "100K+"
+  },
+  {
+    "name": "Essay Writer 😎",
+    "id": "g-OHtksi5YI",
+    "short_url": "https://chat.openai.com/g/g-OHtksi5YI-essay-writer",
+    "num_conversations_str": "10K+"
+  },
+  {
+    "name": "Healthy Chef",
+    "id": "g-OdwKeQjDm",
+    "short_url": "https://chat.openai.com/g/g-OdwKeQjDm-healthy-chef",
+    "num_conversations_str": "25K+"
+  },
+  {
+    "name": "Blog Expert",
+    "id": "g-PWizFQk8C",
+    "short_url": "https://chat.openai.com/g/g-PWizFQk8C-blog-expert",
+    "num_conversations_str": "5K+"
+  },
+  {
+    "name": "Mocktail Mixologist",
+    "id": "g-PXlrhc1MV",
+    "short_url": "https://chat.openai.com/g/g-PXlrhc1MV-mocktail-mixologist",
+    "num_conversations_str": null
+  },
+  {
+    "name": "Income Stream Surfer's SEO Content Writer",
+    "id": "g-Qf60vcWcr",
+    "short_url": "https://chat.openai.com/g/g-Qf60vcWcr-income-stream-surfer-s-seo-content-writer",
+    "num_conversations_str": "10K+"
+  },
+  {
+    "name": "AI Tutor",
+    "id": "g-QhTV4OrrZ",
+    "short_url": "https://chat.openai.com/g/g-QhTV4OrrZ-ai-tutor",
+    "num_conversations_str": "50K+"
+  },
+  {
+    "name": "Laundry Buddy",
+    "id": "g-QrGDSn90Q",
+    "short_url": "https://chat.openai.com/g/g-QrGDSn90Q-laundry-buddy",
+    "num_conversations_str": null
+  },
+  {
+    "name": "math",
+    "id": "g-R8U0NFyIo",
+    "short_url": "https://chat.openai.com/g/g-R8U0NFyIo-math",
+    "num_conversations_str": "10K+"
+  },
+  {
+    "name": "Language Teacher | Ms. Smith",
+    "id": "g-RR3RCyK8N",
+    "short_url": "https://chat.openai.com/g/g-RR3RCyK8N-language-teacher-ms-smith",
+    "num_conversations_str": "10K+"
+  },
+  {
+    "name": "22.500+ Best Custom GPTs",
+    "id": "g-RuhDS8mbd",
+    "short_url": "https://chat.openai.com/g/g-RuhDS8mbd-22-500-best-custom-gpts",
+    "num_conversations_str": "100K+"
+  },
+  {
+    "name": "Image Edit, Recreate &amp; Merge",
+    "id": "g-SIE5101qP",
+    "short_url": "https://chat.openai.com/g/g-SIE5101qP-image-edit-recreate-merge",
+    "num_conversations_str": "100K+"
+  },
+  {
+    "name": "Game Time",
+    "id": "g-Sug6mXozT",
+    "short_url": "https://chat.openai.com/g/g-Sug6mXozT-game-time",
+    "num_conversations_str": null
+  },
+  {
+    "name": "The Negotiator",
+    "id": "g-TTTAK9GuS",
+    "short_url": "https://chat.openai.com/g/g-TTTAK9GuS-the-negotiator",
+    "num_conversations_str": null
+  },
+  {
+    "name": "GymStreak Workout Creator",
+    "id": "g-TVDhLW5fm",
+    "short_url": "https://chat.openai.com/g/g-TVDhLW5fm-gymstreak-workout-creator",
+    "num_conversations_str": "25K+"
+  },
+  {
+    "name": "Machine Learning",
+    "id": "g-TfiZbdLM0",
+    "short_url": "https://chat.openai.com/g/g-TfiZbdLM0-machine-learning",
+    "num_conversations_str": "1K+"
+  },
+  {
+    "name": "AI Humanizer Pro",
+    "id": "g-TiS7zU3kO",
+    "short_url": "https://chat.openai.com/g/g-TiS7zU3kO-ai-humanizer-pro",
+    "num_conversations_str": "10K+"
+  },
+  {
+    "name": "DeepGame",
+    "id": "g-TzI2BlJPT",
+    "short_url": "https://chat.openai.com/g/g-TzI2BlJPT-deepgame",
+    "num_conversations_str": "50K+"
+  },
+  {
+    "name": "✏️All-around Writer (Professional Version)",
+    "id": "g-UbpNAGYL9",
+    "short_url": "https://chat.openai.com/g/g-UbpNAGYL9-all-around-writer-professional-version",
+    "num_conversations_str": "100K+"
+  },
+  {
+    "name": "AskYourPDF Research Assistant",
+    "id": "g-UfFxTDMxq",
+    "short_url": "https://chat.openai.com/g/g-UfFxTDMxq-askyourpdf-research-assistant",
+    "num_conversations_str": "300K+"
+  },
+  {
+    "name": "Ai PDF",
+    "id": "g-V2KIUZSj0",
+    "short_url": "https://chat.openai.com/g/g-V2KIUZSj0-ai-pdf",
+    "num_conversations_str": "500K+"
+  },
+  {
+    "name": "Effortless Book Summary",
+    "id": "g-Vdc2faxMI",
+    "short_url": "https://chat.openai.com/g/g-Vdc2faxMI-effortless-book-summary",
+    "num_conversations_str": "10K+"
+  },
+  {
+    "name": "Slide Maker",
+    "id": "g-Vklr0BddT",
+    "short_url": "https://chat.openai.com/g/g-Vklr0BddT-slide-maker",
+    "num_conversations_str": "100K+"
+  },
+  {
+    "name": "Tech Support Advisor",
+    "id": "g-WKIaLGGem",
+    "short_url": "https://chat.openai.com/g/g-WKIaLGGem-tech-support-advisor",
+    "num_conversations_str": null
+  },
+  {
+    "name": "Astrology Birth Chart GPT",
+    "id": "g-WxckXARTP",
+    "short_url": "https://chat.openai.com/g/g-WxckXARTP-astrology-birth-chart-gpt",
+    "num_conversations_str": "50K+"
+  },
+  {
+    "name": "AutoExpert (Academic)",
+    "id": "g-YAgNxPJEq",
+    "short_url": "https://chat.openai.com/g/g-YAgNxPJEq-autoexpert-academic",
+    "num_conversations_str": "25K+"
+  },
+  {
+    "name": "ChatGPT Classic",
+    "id": "g-YyyyMT9XH",
+    "short_url": "https://chat.openai.com/g/g-YyyyMT9XH-chatgpt-classic",
+    "num_conversations_str": null
+  },
+  {
+    "name": "Photo Multiverse",
+    "id": "g-ZctQCI6MG",
+    "short_url": "https://chat.openai.com/g/g-ZctQCI6MG-photo-multiverse",
+    "num_conversations_str": "50K+"
+  },
+  {
+    "name": "AlphaNotes GPT",
+    "id": "g-ZdfrSRAyo",
+    "short_url": "https://chat.openai.com/g/g-ZdfrSRAyo-alphanotes-gpt",
+    "num_conversations_str": "25K+"
+  },
+  {
+    "name": "Humanize AI",
+    "id": "g-a6Fpz8NRb",
+    "short_url": "https://chat.openai.com/g/g-a6Fpz8NRb-humanize-ai",
+    "num_conversations_str": "1K+"
+  },
+  {
+    "name": "AI Voice Generator",
+    "id": "g-a83ktVq7n",
+    "short_url": "https://chat.openai.com/g/g-a83ktVq7n-ai-voice-generator",
+    "num_conversations_str": "25K+"
+  },
+  {
+    "name": "Consistent Character GPT👉🏼 Fast &amp; High Quality⚡️",
+    "id": "g-a9JivI0y2",
+    "short_url": "https://chat.openai.com/g/g-a9JivI0y2-consistent-character-gpt-fast-high-quality",
+    "num_conversations_str": "100K+"
+  },
+  {
+    "name": "Canva",
+    "id": "g-alKfVrz9K",
+    "short_url": "https://chat.openai.com/g/g-alKfVrz9K-canva",
+    "num_conversations_str": "700K+"
+  },
+  {
+    "name": "Consensus",
+    "id": "g-bo0FiWLY7",
+    "short_url": "https://chat.openai.com/g/g-bo0FiWLY7-consensus",
+    "num_conversations_str": "1M+"
+  },
+  {
+    "name": "CK-12 Flexi",
+    "id": "g-cEEXd8Dpb",
+    "short_url": "https://chat.openai.com/g/g-cEEXd8Dpb-ck-12-flexi",
+    "num_conversations_str": "50K+"
+  },
+  {
+    "name": "PowerPoint Presentation Maker by SlidesGPT",
+    "id": "g-cJtHaGnyo",
+    "short_url": "https://chat.openai.com/g/g-cJtHaGnyo-powerpoint-presentation-maker-by-slidesgpt",
+    "num_conversations_str": "25K+"
+  },
+  {
+    "name": "Python",
+    "id": "g-cKXjWStaE",
+    "short_url": "https://chat.openai.com/g/g-cKXjWStaE-python",
+    "num_conversations_str": "25K+"
+  },
+  {
+    "name": "CV Writer",
+    "id": "g-cStsvQbjd",
+    "short_url": "https://chat.openai.com/g/g-cStsvQbjd-cv-writer",
+    "num_conversations_str": "10K+"
+  },
+  {
+    "name": "SellMeThisPen",
+    "id": "g-cTqsEOE4C",
+    "short_url": "https://chat.openai.com/g/g-cTqsEOE4C-sellmethispen",
+    "num_conversations_str": "50K+"
+  },
+  {
+    "name": "AI算命",
+    "id": "g-cbNeVpiuC",
+    "short_url": "https://chat.openai.com/g/g-cbNeVpiuC-aisuan-ming",
+    "num_conversations_str": "25K+"
+  },
+  {
+    "name": "Crypto GPT",
+    "id": "g-dlkWTk2kk",
+    "short_url": "https://chat.openai.com/g/g-dlkWTk2kk-crypto-gpt",
+    "num_conversations_str": "5K+"
+  },
+  {
+    "name": "Hot Mods",
+    "id": "g-fTA4FQ7wj",
+    "short_url": "https://chat.openai.com/g/g-fTA4FQ7wj-hot-mods",
+    "num_conversations_str": null
+  },
+  {
+    "name": "Image Copy Machine GPT",
+    "id": "g-g0efUwWgG",
+    "short_url": "https://chat.openai.com/g/g-g0efUwWgG-image-copy-machine-gpt",
+    "num_conversations_str": "100K+"
+  },
+  {
+    "name": "Voxscript",
+    "id": "g-g24EzkDta",
+    "short_url": "https://chat.openai.com/g/g-g24EzkDta-voxscript",
+    "num_conversations_str": "25K+"
+  },
+  {
+    "name": "Cartoonize Yourself",
+    "id": "g-gFFsdkfMC",
+    "short_url": "https://chat.openai.com/g/g-gFFsdkfMC-cartoonize-yourself",
+    "num_conversations_str": "300K+"
+  },
+  {
+    "name": "Logo Creator",
+    "id": "g-gFt1ghYJl",
+    "short_url": "https://chat.openai.com/g/g-gFt1ghYJl-logo-creator",
+    "num_conversations_str": "600K+"
+  },
+  {
+    "name": "Presentation Architect",
+    "id": "g-gnM4CjCZz",
+    "short_url": "https://chat.openai.com/g/g-gnM4CjCZz-presentation-architect",
+    "num_conversations_str": "5K+"
+  },
+  {
+    "name": "Video Maker by invideo AI",
+    "id": "g-h8l4uLHFQ",
+    "short_url": "https://chat.openai.com/g/g-h8l4uLHFQ-video-maker-by-invideo-ai",
+    "num_conversations_str": "100K+"
+  },
+  {
+    "name": "Resume",
+    "id": "g-hQdMJ5mJh",
+    "short_url": "https://chat.openai.com/g/g-hQdMJ5mJh-resume",
+    "num_conversations_str": "10K+"
+  },
+  {
+    "name": "KAYAK - Flights, Hotels &amp; Cars",
+    "id": "g-hcqdAuSMv",
+    "short_url": "https://chat.openai.com/g/g-hcqdAuSMv-kayak-flights-hotels-cars",
+    "num_conversations_str": "50K+"
+  },
+  {
+    "name": "Paper Interpreter (Japanese)",
+    "id": "g-hxDOCBQrs",
+    "short_url": "https://chat.openai.com/g/g-hxDOCBQrs-paper-interpreter-japanese",
+    "num_conversations_str": "50K+"
+  },
+  {
+    "name": "Screenshot To Code GPT",
+    "id": "g-hz8Pw1quF",
+    "short_url": "https://chat.openai.com/g/g-hz8Pw1quF-screenshot-to-code-gpt",
+    "num_conversations_str": "50K+"
+  },
+  {
+    "name": "Python🌟",
+    "id": "g-iF6V6LCML",
+    "short_url": "https://chat.openai.com/g/g-iF6V6LCML-python",
+    "num_conversations_str": "10K+"
+  },
+  {
+    "name": "Website Generator",
+    "id": "g-iYSeH3EAI",
+    "short_url": "https://chat.openai.com/g/g-iYSeH3EAI-website-generator",
+    "num_conversations_str": "1K+"
+  },
+  {
+    "name": "Mindmap📊Diagram 📈Chart- PRO BUILDER-⚡FREE⚡",
+    "id": "g-jBdvgesNC",
+    "short_url": "https://chat.openai.com/g/g-jBdvgesNC-mindmapdiagram-chart-pro-builder-free",
+    "num_conversations_str": "10K+"
+  },
+  {
+    "name": "Code Guru",
+    "id": "g-k3IqoCe1l",
+    "short_url": "https://chat.openai.com/g/g-k3IqoCe1l-code-guru",
+    "num_conversations_str": "10K+"
+  },
+  {
+    "name": "Scholar GPT",
+    "id": "g-kZ0eYXlJe",
+    "short_url": "https://chat.openai.com/g/g-kZ0eYXlJe-scholar-gpt",
+    "num_conversations_str": "100K+"
+  },
+  {
+    "name": "Java Assistant",
+    "id": "g-kZ59SXL9S",
+    "short_url": "https://chat.openai.com/g/g-kZ59SXL9S-java-assistant",
+    "num_conversations_str": "10K+"
+  },
+  {
+    "name": "Mia AI",
+    "id": "g-l38NcMokB",
+    "short_url": "https://chat.openai.com/g/g-l38NcMokB-mia-ai",
+    "num_conversations_str": "50K+"
+  },
+  {
+    "name": "Creative Writing Coach",
+    "id": "g-lN1gKFnvL",
+    "short_url": "https://chat.openai.com/g/g-lN1gKFnvL-creative-writing-coach",
+    "num_conversations_str": null
+  },
+  {
+    "name": "Grimoire",
+    "id": "g-n7Rs0IK86",
+    "short_url": "https://chat.openai.com/g/g-n7Rs0IK86-grimoire",
+    "num_conversations_str": "600K+"
+  },
+  {
+    "name": "Physics Oracle",
+    "id": "g-odWlfAKWM",
+    "short_url": "https://chat.openai.com/g/g-odWlfAKWM-physics-oracle",
+    "num_conversations_str": "5K+"
+  },
+  {
+    "name": "Stock-GPT: Stock Price &amp; Market Insights",
+    "id": "g-oruAyNyUY",
+    "short_url": "https://chat.openai.com/g/g-oruAyNyUY-stock-gpt-stock-price-market-insights",
+    "num_conversations_str": "1K+"
+  },
+  {
+    "name": "LOGO",
+    "id": "g-pCq5xaCri",
+    "short_url": "https://chat.openai.com/g/g-pCq5xaCri-logo",
+    "num_conversations_str": "25K+"
+  },
+  {
+    "name": "WebPilot",
+    "id": "g-pNWGgUYqS",
+    "short_url": "https://chat.openai.com/g/g-pNWGgUYqS-webpilot",
+    "num_conversations_str": "100K+"
+  },
+  {
+    "name": "AutoExpert (Dev)",
+    "id": "g-pTF23RJ6f",
+    "short_url": "https://chat.openai.com/g/g-pTF23RJ6f-autoexpert-dev",
+    "num_conversations_str": "100K+"
+  },
+  {
+    "name": "image generator",
+    "id": "g-pmuQfob8d",
+    "short_url": "https://chat.openai.com/g/g-pmuQfob8d-image-generator",
+    "num_conversations_str": "700K+"
+  },
+  {
+    "name": "Prompt Professor",
+    "id": "g-qfoOICq1l",
+    "short_url": "https://chat.openai.com/g/g-qfoOICq1l-prompt-professor",
+    "num_conversations_str": "10K+"
+  },
+  {
+    "name": "CrewAI Assistant",
+    "id": "g-qqTuUWsBY",
+    "short_url": "https://chat.openai.com/g/g-qqTuUWsBY-crewai-assistant",
+    "num_conversations_str": "25K+"
+  },
+  {
+    "name": "math",
+    "id": "g-rr7AytfKH",
+    "short_url": "https://chat.openai.com/g/g-rr7AytfKH-math",
+    "num_conversations_str": "1K+"
+  },
+  {
+    "name": "PDF Insight",
+    "id": "g-rsuRKk1MX",
+    "short_url": "https://chat.openai.com/g/g-rsuRKk1MX-pdf-insight",
+    "num_conversations_str": "1K+"
+  },
+  {
+    "name": "GPT Detector | Ai Detector | Ai Checker",
+    "id": "g-s3FfLKPBo",
+    "short_url": "https://chat.openai.com/g/g-s3FfLKPBo-gpt-detector-ai-detector-ai-checker",
+    "num_conversations_str": "5K+"
+  },
+  {
+    "name": "Finance Wizard",
+    "id": "g-szDdJUX9V",
+    "short_url": "https://chat.openai.com/g/g-szDdJUX9V-finance-wizard",
+    "num_conversations_str": "100K+"
+  },
+  {
+    "name": "Python",
+    "id": "g-tNwCg2vYv",
+    "short_url": "https://chat.openai.com/g/g-tNwCg2vYv-python",
+    "num_conversations_str": "1K+"
+  },
+  {
+    "name": "MJ Prompt Generator (V6)",
+    "id": "g-tc0eHXdgb",
+    "short_url": "https://chat.openai.com/g/g-tc0eHXdgb-mj-prompt-generator-v6",
+    "num_conversations_str": "50K+"
+  },
+  {
+    "name": "Visual Weather Artist GPT",
+    "id": "g-twUGxmpHv",
+    "short_url": "https://chat.openai.com/g/g-twUGxmpHv-visual-weather-artist-gpt",
+    "num_conversations_str": "10K+"
+  },
+  {
+    "name": "AI Song Maker",
+    "id": "g-txEiClD5G",
+    "short_url": "https://chat.openai.com/g/g-txEiClD5G-ai-song-maker",
+    "num_conversations_str": "10K+"
+  },
+  {
+    "name": "Whimsical Diagrams",
+    "id": "g-vI2kaiM9N",
+    "short_url": "https://chat.openai.com/g/g-vI2kaiM9N-whimsical-diagrams",
+    "num_conversations_str": "10K+"
+  },
+  {
+    "name": "Mid Journey V6 Prompt Creator",
+    "id": "g-vd364I1Zi",
+    "short_url": "https://chat.openai.com/g/g-vd364I1Zi-mid-journey-v6-prompt-creator",
+    "num_conversations_str": "5K+"
+  },
+  {
+    "name": "Keymate.AI GPT",
+    "id": "g-veSrMmasJ",
+    "short_url": "https://chat.openai.com/g/g-veSrMmasJ-keymate-ai-gpt",
+    "num_conversations_str": "25K+"
+  },
+  {
+    "name": "OCR",
+    "id": "g-wETMBcESv",
+    "short_url": "https://chat.openai.com/g/g-wETMBcESv-ocr",
+    "num_conversations_str": "5K+"
+  },
+  {
+    "name": "Tax Assistant - Tax, Taxes, Taxabl",
+    "id": "g-wnNwA5ioV",
+    "short_url": "https://chat.openai.com/g/g-wnNwA5ioV-tax-assistant-tax-taxes-taxabl",
+    "num_conversations_str": "1K+"
+  },
+  {
+    "name": "Professional LinkedIn Post Writer",
+    "id": "g-wzCQWPdaA",
+    "short_url": "https://chat.openai.com/g/g-wzCQWPdaA-professional-linkedin-post-writer",
+    "num_conversations_str": "1K+"
+  },
+  {
+    "name": "YouTube Video Summarizer",
+    "id": "g-xYRkZh2Ba",
+    "short_url": "https://chat.openai.com/g/g-xYRkZh2Ba-youtube-video-summarizer",
+    "num_conversations_str": "5K+"
+  },
+  {
+    "name": "LegalGPT",
+    "id": "g-xck3iENsZ",
+    "short_url": "https://chat.openai.com/g/g-xck3iENsZ-legalgpt",
+    "num_conversations_str": "10K+"
+  },
+  {
+    "name": "Fully SEO Optimized Article including FAQ's",
+    "id": "g-ySbhcRtru",
+    "short_url": "https://chat.openai.com/g/g-ySbhcRtru-fully-seo-optimized-article-including-faq-s",
+    "num_conversations_str": "50K+"
+  },
+  {
+    "name": "LogoGPT",
+    "id": "g-z61XG6t54",
+    "short_url": "https://chat.openai.com/g/g-z61XG6t54-logogpt",
+    "num_conversations_str": "50K+"
+  },
+  {
+    "name": "Books",
+    "id": "g-z77yDe7Vu",
+    "short_url": "https://chat.openai.com/g/g-z77yDe7Vu-books",
+    "num_conversations_str": "100K+"
+  }
+]

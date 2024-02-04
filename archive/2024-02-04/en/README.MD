@@ -1,29 +1,7 @@
-# GPT Store data backup
-
-This project daily scrapes and archives data from the official GPT Store. If you have other data requirements, please open an issue.
-
-<p align="center">
-Powered by
-</p>
-
-<p align="center">
-  <a target="_blank" href="https://gptshunter.com/?utm_source=gptstore-data-backup">
-    <img alt="GPTsHunter" src="https://gptshunter.com/full-logo.svg" width="300">
-  </a>
-</p>
-
-## Latest
-
-[2024-02-04.en.md](/archive/2024-02-04/en/README.MD)
-
-[2024-02-04.global.md](/archive/2024-02-04/global/README.MD)
-
-## Global GPT Leaderboard for 2024-02-04
+# 2024-02-04
 
 
-
-
-### Featured
+## Featured
 
 Curated top picks from this week
 
@@ -414,39 +392,39 @@ No.9 / 10K+
 No.10 / 10K+
         
 
-[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="SellMeThisPen" src="https://files.oaiusercontent.com/file-yALburFJq31FxM7lp7Sf4Shx?se=2123-10-17T07%3A39%3A01Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3DSellMeThisPen-03.png&amp;sig=D1KJbovUZ%2B0IcuMqQJVno6ZwQVjFgmP8unlpDV39XdE%3D"/>](https://chat.openai.com/g/g-cTqsEOE4C-sellmethispen)
-
-[**SellMeThisPen**](https://chat.openai.com/g/g-cTqsEOE4C-sellmethispen) \
-No.11 / 50K+
-        
-
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Income Stream Surfer's SEO Content Writer" src="https://files.oaiusercontent.com/file-10SgVdlnZRmCUvF7Mu2CxIsd?se=2123-10-20T22%3A16%3A32Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3D6ca8b8ca-9799-4d90-b543-6d2a29ee8808.png&amp;sig=pSxYchaQlJz25ykTYyrOcGWxYxO6P1LQj1/nbusXIUw%3D"/>](https://chat.openai.com/g/g-Qf60vcWcr-income-stream-surfer-s-seo-content-writer)
 
 [**Income Stream Surfer's SEO Content Writer**](https://chat.openai.com/g/g-Qf60vcWcr-income-stream-surfer-s-seo-content-writer) \
-No.12 / 10K+
+No.11 / 10K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Blog Expert" src="https://files.oaiusercontent.com/file-1Eh7A79o1yuLdC6OrA20Xd9g?se=2123-10-16T06%3A36%3A51Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3D4f7c6083-6745-4890-840e-67624e07705e.png&amp;sig=rYRNzKfuG38RTpp5wxY6j1iyLiPYQK0yGIBp8jrabZw%3D"/>](https://chat.openai.com/g/g-PWizFQk8C-blog-expert)
 
 [**Blog Expert**](https://chat.openai.com/g/g-PWizFQk8C-blog-expert) \
-No.13 / 5K+
+No.12 / 5K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="AI Humanizer Pro" src="https://files.oaiusercontent.com/file-9P5nlYHHRNrE0IFT1WqMEHfB?se=2123-12-31T09%3A45%3A35Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D1209600%2C%20immutable&amp;rscd=attachment%3B%20filename%3DBypass%2520GPT.png&amp;sig=UduBsGC57CSjWsMA%2BEPuf7jYougMcNhQEveOnchw%2B2k%3D"/>](https://chat.openai.com/g/g-TiS7zU3kO-ai-humanizer-pro)
 
 [**AI Humanizer Pro**](https://chat.openai.com/g/g-TiS7zU3kO-ai-humanizer-pro) \
-No.14 / 10K+
+No.13 / 10K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Humanize AI" src="https://files.oaiusercontent.com/file-IJL3FKB56H4lFmwrnTzpByPx?se=2123-11-14T07%3A53%3A48Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D1209600%2C%20immutable&amp;rscd=attachment%3B%20filename%3D0_Humanizer.%2520blue%2520and%2520green%2520on%2520black_esrgan-v1-x2plus.png&amp;sig=LMF2ctK5PEFCoisLv/ujYDEb56zmkagm3VLTPXsnqzM%3D"/>](https://chat.openai.com/g/g-a6Fpz8NRb-humanize-ai)
 
 [**Humanize AI**](https://chat.openai.com/g/g-a6Fpz8NRb-humanize-ai) \
-No.15 / 1K+
+No.14 / 1K+
         
 
-[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Write Like A Human" src="https://files.oaiusercontent.com/file-h7UXawVOGMQqIjW5W5amxZdL?se=2123-12-18T11%3A27%3A37Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D1209600%2C%20immutable&amp;rscd=attachment%3B%20filename%3Dc6d94b0a-9e66-4338-b2a2-d55b9c284ae8.png&amp;sig=GZG/cn5WiiL2jDaMvm4SUdhAIq9gI/CwJs%2B5qB5mTI0%3D"/>](https://chat.openai.com/g/g-1mzAswM3D-write-like-a-human)
+[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="GPT Detector | Ai Detector | Ai Checker" src="https://files.oaiusercontent.com/file-6Gn5xaLahL1KGEPlbBOtINKH?se=2123-12-13T06%3A33%3A28Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D1209600%2C%20immutable&amp;rscd=attachment%3B%20filename%3D765c15da-b390-4d30-bb4a-301cd5f9d0bd.png&amp;sig=6HK548r7LBjccMoasEiNlvmi7pztmQl57TYNKD6guec%3D"/>](https://chat.openai.com/g/g-s3FfLKPBo-gpt-detector-ai-detector-ai-checker)
 
-[**Write Like A Human**](https://chat.openai.com/g/g-1mzAswM3D-write-like-a-human) \
+[**GPT Detector | Ai Detector | Ai Checker**](https://chat.openai.com/g/g-s3FfLKPBo-gpt-detector-ai-detector-ai-checker) \
+No.15 / 5K+
+        
+
+[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Professional LinkedIn Post Writer" src="https://files.oaiusercontent.com/file-NwOtzAMROIviOKVN4iXWQO5V?se=2123-10-22T17%3A33%3A24Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3D6c3066f8-61f2-45cd-8d3d-a953bf027d65.png&amp;sig=QCbO06%2BITl1%2B52Rb19JdNeJ372SGtAXX/d4mjqMrKmY%3D"/>](https://chat.openai.com/g/g-wzCQWPdaA-professional-linkedin-post-writer)
+
+[**Professional LinkedIn Post Writer**](https://chat.openai.com/g/g-wzCQWPdaA-professional-linkedin-post-writer) \
 No.16 / 1K+
         
 
@@ -640,15 +618,15 @@ No.13 / 5K+
 No.14 / 1K+
         
 
-[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Paper Interpreter (Japanese)" src="https://files.oaiusercontent.com/file-8i4vObbTYaTFeNItgHzSQ3CD?se=2123-10-18T07%3A36%3A25Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3D77fb450c-8d96-451c-be32-8c65b9d0be6b.png&amp;sig=rytNp5O0t3QICtzKDipdv5RdrmUiLqEw5DrMQpg1Mqk%3D"/>](https://chat.openai.com/g/g-hxDOCBQrs-paper-interpreter-japanese)
+[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Stock-GPT: Stock Price &amp; Market Insights" src="https://files.oaiusercontent.com/file-yzUefELWNxk1l4j2wh93kTEy?se=2123-12-17T22%3A44%3A06Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D1209600%2C%20immutable&amp;rscd=attachment%3B%20filename%3DColor%2520logo%2520with%2520background%25203.png&amp;sig=9UcCY1XIrZ0uREyzJHEfNDReOMv40EZElIjhOplLOMU%3D"/>](https://chat.openai.com/g/g-oruAyNyUY-stock-gpt-stock-price-market-insights)
 
-[**Paper Interpreter (Japanese)**](https://chat.openai.com/g/g-hxDOCBQrs-paper-interpreter-japanese) \
-No.15 / 50K+
+[**Stock-GPT: Stock Price &amp; Market Insights**](https://chat.openai.com/g/g-oruAyNyUY-stock-gpt-stock-price-market-insights) \
+No.15 / 1K+
         
 
-[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="OCR" src="https://files.oaiusercontent.com/file-viawZc27abVKIwyG1VxCB3mL?se=2123-10-19T21%3A01%3A37Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3D5a22a8e9-3b62-4b65-a62f-9318afee1b82.png&amp;sig=ZkME3mjttkqxeqM8o37BxgWeKg6bXuTxP82uPiFnpNo%3D"/>](https://chat.openai.com/g/g-wETMBcESv-ocr)
+[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Crypto GPT" src="https://files.oaiusercontent.com/file-pgzvlr36zMvFXpvo4Nsp6wU7?se=2123-10-20T16%3A10%3A53Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3D58cf2252-2db2-4efd-a4d1-7a8ef037e69a.png&amp;sig=9LwLxB/p9nfO0lF40qQTgEpzxyRNbTnF3kfARKjSb8Y%3D"/>](https://chat.openai.com/g/g-dlkWTk2kk-crypto-gpt)
 
-[**OCR**](https://chat.openai.com/g/g-wETMBcESv-ocr) \
+[**Crypto GPT**](https://chat.openai.com/g/g-dlkWTk2kk-crypto-gpt) \
 No.16 / 5K+
         
 
@@ -770,88 +748,88 @@ No.1 / 100K+
 No.2 / 50K+
         
 
-[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Video Summarizer" src="https://files.oaiusercontent.com/file-j03XK1qFCdQDjwVvA2NZfIlm?se=2123-12-30T21%3A04%3A16Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D1209600%2C%20immutable&amp;rscd=attachment%3B%20filename%3DVideo%2520Summarizer%2520logo%2520new.png&amp;sig=sT081KZq91h24uibPRNkqLtdRWODjLGJmx6UGpwge7A%3D"/>](https://chat.openai.com/g/g-GvcYCKPIH-video-summarizer)
-
-[**Video Summarizer**](https://chat.openai.com/g/g-GvcYCKPIH-video-summarizer) \
-No.3 / 50K+
-        
-
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Math Solver" src="https://files.oaiusercontent.com/file-tSZCMmjyqOBMHOnHPUxKQH8t?se=2123-10-21T09%3A02%3A36Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3D7e1dfc13-782c-4d41-843f-6908894cf8d7.png&amp;sig=8FWfLPP5oiPa515w7A4jjhjs9qYqy2kgAdjmTWuHCuI%3D"/>](https://chat.openai.com/g/g-9YeZz6m6k-math-solver)
 
 [**Math Solver**](https://chat.openai.com/g/g-9YeZz6m6k-math-solver) \
-No.4 / 50K+
+No.3 / 50K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Code Tutor" src="https://files.oaiusercontent.com/file-wT9OjtSlKWSliHQlnvDPbLnB?se=2123-11-06T22%3A36%3A37Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3Dkhanmigolite.png&amp;sig=N18iwfrxqf8q664WbG5zlsN/EONc5asA9ODNrsUv1bs%3D"/>](https://chat.openai.com/g/g-HxPrv1p8v-code-tutor)
 
 [**Code Tutor**](https://chat.openai.com/g/g-HxPrv1p8v-code-tutor) \
-No.5 / 50K+
+No.4 / 50K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="math" src="https://files.oaiusercontent.com/file-Nu39UwSguSYL7DyjMY1Ue4GC?se=2123-11-26T09%3A50%3A55Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D1209600%2C%20immutable&amp;rscd=attachment%3B%20filename%3D1024_1024.png&amp;sig=WQET38apIPG4P6epp3mamnIvElY%2Byh1MdIg3vFkvjis%3D"/>](https://chat.openai.com/g/g-R8U0NFyIo-math)
 
 [**math**](https://chat.openai.com/g/g-R8U0NFyIo-math) \
-No.6 / 10K+
+No.5 / 10K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="AlphaNotes GPT" src="https://files.oaiusercontent.com/file-0puZS53HRUM93uhJ1w8ZRgf8?se=2123-10-15T15%3A14%3A02Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3Dalphanotes%2520cyberbrain%2520logo.png&amp;sig=7t0/PntGh0KQRUNNDZQEy49hbx3sPzGgBNP8p9C5RFg%3D"/>](https://chat.openai.com/g/g-ZdfrSRAyo-alphanotes-gpt)
 
 [**AlphaNotes GPT**](https://chat.openai.com/g/g-ZdfrSRAyo-alphanotes-gpt) \
-No.7 / 25K+
+No.6 / 25K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="AI Tutor" src="https://files.oaiusercontent.com/file-RVGGRtLwF7cJbZYiIOYFOx1U?se=2123-10-17T06%3A11%3A54Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3Dc0b85240-6049-4900-8c8d-ce61cf749986.png&amp;sig=twKIZaTxjQaM8jvoDJ1Z971nD%2BXYkvxIF08aXMoaEo0%3D"/>](https://chat.openai.com/g/g-QhTV4OrrZ-ai-tutor)
 
 [**AI Tutor**](https://chat.openai.com/g/g-QhTV4OrrZ-ai-tutor) \
-No.8 / 50K+
+No.7 / 50K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Voxscript" src="https://files.oaiusercontent.com/file-ccghiJe5RWLLuLXhKPl3XugL?se=2123-10-19T06%3A52%3A32Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3DVoxScript_logo_256x256.png&amp;sig=gRuPppNbvJt3M3CMsjE8HiXRLm254zQxMCt5RRq%2BN3k%3D"/>](https://chat.openai.com/g/g-g24EzkDta-voxscript)
 
 [**Voxscript**](https://chat.openai.com/g/g-g24EzkDta-voxscript) \
-No.9 / 25K+
+No.8 / 25K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="AutoExpert (Chat)" src="https://files.oaiusercontent.com/file-TrkgIAh1oJE0dBo8tKRa7WmU?se=2123-10-20T20%3A05%3A32Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3DAutoExpertChat.jpg&amp;sig=wn9X5jz%2B0UiDIUcR%2B4aQc0cepC9Cq9QrieZ8Qh7pqkw%3D"/>](https://chat.openai.com/g/g-LQHhJCXhW-autoexpert-chat)
 
 [**AutoExpert (Chat)**](https://chat.openai.com/g/g-LQHhJCXhW-autoexpert-chat) \
-No.10 / 50K+
-        
-
-[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Language Teacher | Ms. Smith" src="https://files.oaiusercontent.com/file-p7wjkbf2I2Am2p4jIy9OWKMP?se=2123-12-17T23%3A22%3A26Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D1209600%2C%20immutable&amp;rscd=attachment%3B%20filename%3DGroup%2520%2520%25285%2529.png&amp;sig=EPMdiVmI4O717n8occd3AP4NPdhenDdypWYYLNcRf4c%3D"/>](https://chat.openai.com/g/g-RR3RCyK8N-language-teacher-ms-smith)
-
-[**Language Teacher | Ms. Smith**](https://chat.openai.com/g/g-RR3RCyK8N-language-teacher-ms-smith) \
-No.11 / 10K+
+No.9 / 50K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Effortless Book Summary" src="https://files.oaiusercontent.com/file-1NPd5Qt3veAkHDkXy1lPAWfr?se=2123-10-23T21%3A02%3A11Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3D95497d60-0f15-401a-8921-061e84554e70.png&amp;sig=Da77LKsJfK2UlELRL6WibSPenh5fnQvH2kh0l7zJq8Y%3D"/>](https://chat.openai.com/g/g-Vdc2faxMI-effortless-book-summary)
 
 [**Effortless Book Summary**](https://chat.openai.com/g/g-Vdc2faxMI-effortless-book-summary) \
-No.12 / 10K+
-        
-
-[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="チャットGPT" src="https://files.oaiusercontent.com/file-kmM4eFFNZIYsZyoSRDGJiBXD?se=2123-12-03T10%3A13%3A08Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D1209600%2C%20immutable&amp;rscd=attachment%3B%20filename%3Dbanner-gpt-jp-e1695105162857.png&amp;sig=tYtZMFXvra3EY1aE0X2oNe8WxypfBFmdgJAjlHsQ%2BMg%3D"/>](https://chat.openai.com/g/g-8sPlJ64Gn-tiyatutogpt)
-
-[**チャットGPT**](https://chat.openai.com/g/g-8sPlJ64Gn-tiyatutogpt) \
-No.13 / 5K+
+No.10 / 10K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Mr. Ranedeer" src="https://files.oaiusercontent.com/file-X9LAlo8N3fj2hfnxqm3JJwoc?se=2123-10-16T20%3A42%3A58Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202023-11-04%252000.39.52%2520-%2520Digital%2520sticker%2520design%2520of%2520a%2520chibi%2520reindeer%2520in%2520a%2520simplistic%2520style%252C%2520gripping%2520a%2520graphite%2520pencil%2520with%2520a%2520pink%2520eraser.%2520The%2520reindeer%2527s%2520glasses%2520give%2520it%2520a%2520stud.png&amp;sig=G1xWfBMbjTegInXdu4jL%2BuGH038OrwnuG9c18KBnYUQ%3D"/>](https://chat.openai.com/g/g-9PKhaweyb-mr-ranedeer)
 
 [**Mr. Ranedeer**](https://chat.openai.com/g/g-9PKhaweyb-mr-ranedeer) \
-No.14 / 50K+
+No.11 / 50K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Math AI 🧮" src="https://files.oaiusercontent.com/file-M8nsx7ghuwfNiZ56MG9VJDAD?se=2123-11-03T04%3A28%3A37Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3D572cd040-5844-4642-9c98-a33309e47032.png&amp;sig=qWcx9tPqCE4ua6ezHZ2%2Blz7IgE24M/yqf8cYxbIfIrc%3D"/>](https://chat.openai.com/g/g-2OyX2ZiUk-math-ai)
 
 [**Math AI 🧮**](https://chat.openai.com/g/g-2OyX2ZiUk-math-ai) \
-No.15 / 10K+
+No.12 / 10K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Prompt Professor" src="https://files.oaiusercontent.com/file-MsXTgHdeT8NqXvoz3yFp1DsA?se=2123-10-16T03%3A42%3A03Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3D76811343-01fe-4316-b18f-12ed04c3af99.png&amp;sig=OOcasgdAq%2BCscJ7raZMCDdYCZb00lsUNcOl%2BnNzEAY8%3D"/>](https://chat.openai.com/g/g-qfoOICq1l-prompt-professor)
 
 [**Prompt Professor**](https://chat.openai.com/g/g-qfoOICq1l-prompt-professor) \
-No.16 / 10K+
+No.13 / 10K+
+        
+
+[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Physics Oracle" src="https://files.oaiusercontent.com/file-iEmwaPltlUSxp3RAhYdqN2fk?se=2123-12-17T00%3A21%3A47Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D1209600%2C%20immutable&amp;rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202024-01-10%252000.21.25%2520-%2520Create%2520a%2520sophisticated%2520and%2520minimalistic%2520image%2520of%2520a%2520sentient%2520orb%252C%2520characterized%2520by%2520a%2520cosmic%2520design.%2520The%2520orb%2520is%2520white%2520with%2520shades%2520of%2520blue%2520that%2520elegantly.png&amp;sig=RgRLp3z4ZGlgZ%2BtYdAtT2nhkPVK6AOutYJ5BvPyap7o%3D"/>](https://chat.openai.com/g/g-odWlfAKWM-physics-oracle)
+
+[**Physics Oracle**](https://chat.openai.com/g/g-odWlfAKWM-physics-oracle) \
+No.14 / 5K+
+        
+
+[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Math Expert" src="https://files.oaiusercontent.com/file-VyajBaEFbbBDO5cFd1PtJv91?se=2123-10-25T08%3A55%3A02Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3DFrame%252019.png&amp;sig=7AnxdA3HnmGXBIG7fh3z8o6mkWum%2BdP32mnbUGcu4qg%3D"/>](https://chat.openai.com/g/g-FReXnZbT8-math-expert)
+
+[**Math Expert**](https://chat.openai.com/g/g-FReXnZbT8-math-expert) \
+No.15 / 1K+
+        
+
+[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Machine Learning" src="https://files.oaiusercontent.com/file-79w3XiRGkbTiECoVNmkLzcKV?se=2123-10-24T07%3A23%3A14Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3Da706c100-ff7e-48d7-8483-35754c66f8cd.png&amp;sig=3aiA9n2Euf1Ri4dVkc2GF3GHBOqDb/oHQ9XHK0OyKys%3D"/>](https://chat.openai.com/g/g-TfiZbdLM0-machine-learning)
+
+[**Machine Learning**](https://chat.openai.com/g/g-TfiZbdLM0-machine-learning) \
+No.16 / 1K+
         
 
 ## Lifestyle
@@ -943,10 +921,10 @@ No.13 / 5K+
 No.14 / 10K+
         
 
-[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="AI算命" src="https://files.oaiusercontent.com/file-a9UNZBiuJ8B2csrFnmRqEDI4?se=2123-10-18T03%3A25%3A54Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202023-11-11%252011.24.59%2520-%2520A%2520sophisticated%2520logo%2520design%2520combining%2520elements%2520of%2520Chinese%2520metaphysics%252C%2520divination%252C%2520I%2520Ching%252C%2520and%2520Feng%2520Shui.%2520The%2520design%2520should%2520feature%2520a%2520yin-yang%2520symbol.png&amp;sig=JHNYYvUEzBePVce7TfiMwsxw2GDsME8m6BWB%2B7JkG0c%3D"/>](https://chat.openai.com/g/g-cbNeVpiuC-aisuan-ming)
+[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Tax Assistant - Tax, Taxes, Taxabl" src="https://files.oaiusercontent.com/file-mJ5v7RMi9R6thTeDwZJlGrI8?se=2123-12-22T14%3A46%3A13Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D1209600%2C%20immutable&amp;rscd=attachment%3B%20filename%3DUntitled.png&amp;sig=XdKodmCtJSJl7krioraspAQ7mVphfzFKpER4qwcJssU%3D"/>](https://chat.openai.com/g/g-wnNwA5ioV-tax-assistant-tax-taxes-taxabl)
 
-[**AI算命**](https://chat.openai.com/g/g-cbNeVpiuC-aisuan-ming) \
-No.15 / 25K+
+[**Tax Assistant - Tax, Taxes, Taxabl**](https://chat.openai.com/g/g-wnNwA5ioV-tax-assistant-tax-taxes-taxabl) \
+No.15 / 1K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="math" src="https://files.oaiusercontent.com/file-2z12MObxsray86CO4LvLmiky?se=2124-01-04T01%3A08%3A56Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D1209600%2C%20immutable&amp;rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202024-01-28%252001.08.32%2520-%2520Create%2520an%2520abstract%2520representation%2520of%2520the%2520mathematical%2520Pi%2520symbol%2520%2528%25CF%2580%2529%2520in%2520a%2520style%2520that%2520conveys%2520opulent%2520minimalism.%2520The%2520symbol%2520should%2520be%2520formed%2520from%2520elega.png&amp;sig=/HhR/NO9Q3dEkLGFcYgoE5HRhSmUpm2AXpwMdymFcKI%3D"/>](https://chat.openai.com/g/g-rr7AytfKH-math)
@@ -954,5 +932,3 @@ No.15 / 25K+
 [**math**](https://chat.openai.com/g/g-rr7AytfKH-math) \
 No.16 / 1K+
         
-
-      
