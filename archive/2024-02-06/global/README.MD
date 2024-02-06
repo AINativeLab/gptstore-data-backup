@@ -1,29 +1,7 @@
-# GPT Store data backup
-
-This project daily scrapes and archives data from the official GPT Store. If you have other data requirements, please open an issue.
-
-<p align="center">
-Powered by
-</p>
-
-<p align="center">
-  <a target="_blank" href="https://gptshunter.com/?utm_source=gptstore-data-backup">
-    <img alt="GPTsHunter" src="https://gptshunter.com/full-logo.svg" width="300">
-  </a>
-</p>
-
-## Latest
-
-[2024-02-06.en.md](/archive/2024-02-06/en/README.MD)
-
-[2024-02-06.global.md](/archive/2024-02-06/global/README.MD)
-
-## Global GPT Leaderboard for 2024-02-06
+# 2024-02-06
 
 
-
-
-### Featured
+## Featured
 
 Curated top picks from this week
 
@@ -960,5 +938,3 @@ No.15 / 25K+
 [**PlaylistAI - Music Playlist Maker**](https://chat.openai.com/g/g-KkxbQAVuk-playlistai-music-playlist-maker) \
 No.16 / 10K+
         
-
-      
