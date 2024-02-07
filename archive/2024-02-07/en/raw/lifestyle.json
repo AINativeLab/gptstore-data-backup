@@ -1,0 +1,1382 @@
+{
+    "info": {
+        "id": "lifestyle",
+        "title": "Lifestyle",
+        "description": "Get tips on travel, workouts, style, food, and more",
+        "display_type": "ranked",
+        "display_group": "Lifestyle",
+        "locale": "en"
+    },
+    "list": {
+        "items": [
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-CsdwU23wt",
+                        "organization_id": "org-mn853bRPQqhFrNd95QwNGFGF",
+                        "short_url": "g-CsdwU23wt-rizz-gpt",
+                        "author": {
+                            "user_id": "user-QqUdk0sMiGYrD1ZQwb8PMEb9",
+                            "display_name": "6hive.ee",
+                            "link_to": "https://6hive.ee",
+                            "selected_display": "website",
+                            "is_verified": true,
+                            "will_receive_support_emails": false,
+                            "socials": {}
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Rizz GPT",
+                            "description": "Your friendly dating buddy, making dating easier.",
+                            "welcome_message": "Need help with your dating app messages? I'm here to help!",
+                            "prompt_starters": [
+                                "Craft a romantic opener for this profile.",
+                                "What's a flirty reply to this message?",
+                                "Help me write a charming message for my match.",
+                                "Suggest a witty and romantic response to this."
+                            ],
+                            "profile_pic_id": "file-tBBp1S0YLUSqFxI16buQK6Di",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-tBBp1S0YLUSqFxI16buQK6Di?se=2124-01-12T14%3A31%3A55Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DGigolo-1024.png&sig=uPfqOZCxOzhbCUHKKxj9YO1qNmXlzhNAhmrk2RunB9U%3D",
+                            "categories": [
+                                "lifestyle"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-10T10:11:59.834030+00:00",
+                        "updated_at": "2024-02-05T19:46:27.583183+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_5i2cmDC0cgYzH8DJnCkft95Z~gzm_tool_lm2UlG2bZp9Z3LOkdY2TgmUd",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_5i2cmDC0cgYzH8DJnCkft95Z~gzm_tool_nIzdMS1cpy90Ut0LGLCBQp9b",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_5i2cmDC0cgYzH8DJnCkft95Z~gzm_tool_Wvn8erNz5sMrWTfRvCD2JFWc",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-java",
+                                "application/x-latext",
+                                "text/x-script.python",
+                                "text/x-php",
+                                "text/x-c",
+                                "text/x-sh",
+                                "text/x-c++",
+                                "text/x-csharp",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/html",
+                                "text/x-typescript",
+                                "application/json",
+                                "application/msword",
+                                "text/plain",
+                                "text/x-ruby",
+                                "text/markdown",
+                                "application/pdf",
+                                "text/x-tex",
+                                "text/javascript",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/png",
+                                "image/webp",
+                                "image/gif"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-OdwKeQjDm",
+                        "organization_id": "org-UCbdMTIJIkCpN4mdPVnyhIUA",
+                        "short_url": "g-OdwKeQjDm-healthy-chef",
+                        "author": {
+                            "user_id": "user-JRLibb6vuu5vTYz9FjVNpeHe",
+                            "display_name": "daniel garcia acosta",
+                            "link_to": null,
+                            "selected_display": "name",
+                            "is_verified": true,
+                            "will_receive_support_emails": null,
+                            "socials": {}
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Healthy Chef",
+                            "description": "Recipe creator with visual and nutritional insights.",
+                            "welcome_message": "Hello! Share your ingredients' photo, and I'll suggest a recipe with a visual preview!",
+                            "prompt_starters": [
+                                "What can I cook with these ingredients?",
+                                "Show me a healthy recipe for these items.",
+                                "Can you suggest a recipe and its image?",
+                                "Create a dish using these ingredients."
+                            ],
+                            "profile_pic_id": "file-uaoGajfnKxjuvdiGcM64UgeK",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-uaoGajfnKxjuvdiGcM64UgeK?se=2123-10-17T22%3A15%3A08Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202023-11-10%252023.14.56%2520-%2520A%2520simple%2520icon%2520featuring%2520a%2520chef%2520hat%2520with%2520a%2520broccoli%2520floret%2520on%2520top%252C%2520using%2520bold%2520colors%2520and%2520clear%2520lines%2520for%2520a%2520clean%2520and%2520minimalist%2520design%252C%2520suitable%2520for%2520a%2520.png&sig=BoRAfP/QT60Nfi8RrK%2B82BfWymia46IochrKwFPprqk%3D",
+                            "categories": [
+                                "other"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-10T21:44:35.482013+00:00",
+                        "updated_at": "2024-02-01T14:38:14.440936+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_nTwmbC0sVS3FBKsYN4wVSsvE~gzm_tool_pV4vjTL8XfqFHlT1xOwBCWds",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-f6e2edeba3c3ed8a495d77cfa7d7913fe4291546",
+                                "domain": "api.spoonacular.com",
+                                "raw_spec": "{\n  \"openapi\": \"3.0.0\",\n  \"info\": {\n    \"title\": \"Spoonacular API\",\n    \"version\": \"1.0.0\",\n    \"description\": \"API for fetching recipes, ingredients, and nutrition facts from Spoonacular.\",\n    \"termsOfService\": \"https://spoonacular.com/food-api/privacy\"\n  },\n  \"servers\": [\n    {\n      \"url\": \"https://api.spoonacular.com\"\n    }\n  ],\n  \"paths\": {\n    \"/recipes/complexSearch\": {\n      \"get\": {\n        \"operationId\": \"searchRecipes\",\n        \"summary\": \"Search Recipes\",\n        \"description\": \"Fetch a list of recipes based on query parameters.\",\n        \"parameters\": [\n          {\n            \"name\": \"query\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"description\": \"Search query.\",\n            \"schema\": {\n              \"type\": \"string\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"A list of recipes.\"\n          }\n        }\n      }\n    },\n    \"/food/ingredients/{ingredientId}/information\": {\n      \"get\": {\n        \"operationId\": \"getIngredientInformation\",\n        \"summary\": \"Get Ingredient Information\",\n        \"description\": \"Fetch detailed information about an ingredient.\",\n        \"parameters\": [\n          {\n            \"name\": \"ingredientId\",\n            \"in\": \"path\",\n            \"required\": true,\n            \"description\": \"ID of the ingredient.\",\n            \"schema\": {\n              \"type\": \"integer\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Detailed information about the ingredient.\"\n          }\n        }\n      }\n    },\n    \"/recipes/{id}/nutritionWidget.json\": {\n      \"get\": {\n        \"operationId\": \"getRecipeNutritionFacts\",\n        \"summary\": \"Get Recipe Nutrition Facts\",\n        \"description\": \"Fetch nutrition facts for a specific recipe.\",\n        \"parameters\": [\n          {\n            \"name\": \"id\",\n            \"in\": \"path\",\n            \"required\": true,\n            \"description\": \"ID of the recipe.\",\n            \"schema\": {\n              \"type\": \"integer\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Nutrition facts of the recipe.\"\n          }\n        }\n      }\n    }\n  }\n}",
+                                "json_schema": null,
+                                "auth": {
+                                    "type": "service_http",
+                                    "instructions": "",
+                                    "authorization_type": "custom",
+                                    "verification_tokens": {},
+                                    "custom_auth_header": "x-api-key"
+                                },
+                                "privacy_policy_url": "https://spoonacular.com/food-api/privacy"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_c1AoWqnkMJJ4x9yS4LnZUS2y~gzm_tool_Avzk9GYAo5aJurFfowUJJoQ1",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_c1AoWqnkMJJ4x9yS4LnZUS2y~gzm_tool_V3uqE9E6ToyCnLtSzA9nS2bD",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-java",
+                                "application/x-latext",
+                                "text/x-script.python",
+                                "text/x-php",
+                                "text/x-c",
+                                "text/x-sh",
+                                "text/x-c++",
+                                "text/x-csharp",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/html",
+                                "text/x-typescript",
+                                "application/json",
+                                "application/msword",
+                                "text/plain",
+                                "text/x-ruby",
+                                "text/markdown",
+                                "application/pdf",
+                                "text/x-tex",
+                                "text/javascript",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/png",
+                                "image/webp",
+                                "image/gif"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-Gm9cCA5qg",
+                        "organization_id": "org-PvZudCqY7OUQRspPdn5AJ1LO",
+                        "short_url": "g-Gm9cCA5qg-what-should-i-watch",
+                        "author": {
+                            "user_id": "user-0yGtioCdwkMr7HYgsDYHDSPt",
+                            "display_name": "Ammaar Reshi",
+                            "link_to": null,
+                            "selected_display": "name",
+                            "is_verified": true,
+                            "will_receive_support_emails": true,
+                            "socials": {}
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "What should I watch?",
+                            "description": "Find movies and tv shows to watch based on your taste and preferences, goodbye decision paralysis!",
+                            "welcome_message": "Ready to find your next favorite movie!",
+                            "prompt_starters": [
+                                "What genre are you in the mood for?",
+                                "List your top 5 favorite movies.",
+                                "Which actors do you love watching?",
+                                "Look at my Letterboxd favorites and then learn about my preferences and find me something to watch!"
+                            ],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-dYV7TerOf1CRaKkQLonEiEXR?se=2123-10-16T05%3A29%3A54Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dbfb9053c-56a1-4c13-8f9c-fb9c66c5f087.png&sig=NIlFbA02Y/MT25byL%2BR53BTori7SAknUwSAdBlD2tnM%3D",
+                            "categories": []
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-09T04:14:32.894528+00:00",
+                        "updated_at": "2024-01-28T12:33:27.497291+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_pDfESrQm5JmJqulUDYf5VtwF~gzm_tool_1kEVma9w8J30ol895BF1uoCM",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_pDfESrQm5JmJqulUDYf5VtwF~gzm_tool_XYsz8owBJXN1d8JrXXbeILS3",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-java",
+                                "application/x-latext",
+                                "text/x-script.python",
+                                "text/x-php",
+                                "text/x-c",
+                                "text/x-sh",
+                                "text/x-c++",
+                                "text/x-csharp",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/html",
+                                "text/x-typescript",
+                                "application/json",
+                                "application/msword",
+                                "text/plain",
+                                "text/x-ruby",
+                                "text/markdown",
+                                "application/pdf",
+                                "text/x-tex",
+                                "text/javascript",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/png",
+                                "image/webp",
+                                "image/gif"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-JUPludygA",
+                        "organization_id": "org-p3NZQs3KlvadMmBl99wup1qb",
+                        "short_url": "g-JUPludygA-home-style-advisor",
+                        "author": {
+                            "user_id": "user-otEinfpKItIBIoXfJ0x8jELr",
+                            "display_name": "Eric Rafael Ramos Suárez",
+                            "link_to": null,
+                            "selected_display": "name",
+                            "is_verified": true,
+                            "will_receive_support_emails": null,
+                            "socials": {}
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Home Style Advisor",
+                            "description": "Analyzes home photos, suggests decor matching style, and uses DALL-E for visual ideas.",
+                            "welcome_message": "Hello! I'm here to help bring your home's style to life. What can we work on today?",
+                            "prompt_starters": [
+                                "What can I do to refresh my kitchen's look?",
+                                "I'd like a more relaxing bedroom, any ideas?",
+                                "How should I arrange my living room for a modern feel?",
+                                "Can you suggest decor for my home office?"
+                            ],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-aZWIUu8pgEtJtb1NitZgCE8T?se=2123-10-18T21%3A39%3A31Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D73c35cf7-cdd2-4032-a991-2f39fd9eb9cb.png&sig=nPKWjNnJYJi3xp3P33/IwxUXlV5VqQCyTwVD5K4JKJo%3D",
+                            "categories": []
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-11T21:33:29.029971+00:00",
+                        "updated_at": "2024-01-09T14:55:00.969442+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_u4ABhFDZECuclXNW9SQKCXtt~gzm_tool_I73kmIMXnkAnbmu9cn6uemQu",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_u4ABhFDZECuclXNW9SQKCXtt~gzm_tool_bIkAIfC6clU0tdID0REPv38e",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-java",
+                                "application/x-latext",
+                                "text/x-script.python",
+                                "text/x-php",
+                                "text/x-c",
+                                "text/x-sh",
+                                "text/x-c++",
+                                "text/x-csharp",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/html",
+                                "text/x-typescript",
+                                "application/json",
+                                "application/msword",
+                                "text/plain",
+                                "text/x-ruby",
+                                "text/markdown",
+                                "application/pdf",
+                                "text/x-tex",
+                                "text/javascript",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/png",
+                                "image/webp",
+                                "image/gif"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-E7eSRUHy6",
+                        "organization_id": "org-T3jG2d0o0R9XR4L4sm8nF8KQ",
+                        "short_url": "g-E7eSRUHy6-travel-guide",
+                        "author": {
+                            "user_id": "user-Juap6M37313K1mETVI0oWYyH",
+                            "display_name": "capchair.com",
+                            "link_to": "https://capchair.com",
+                            "selected_display": "website",
+                            "is_verified": true,
+                            "will_receive_support_emails": true,
+                            "socials": {}
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Travel Guide",
+                            "description": "Expert on global travel destinations, trip planning, budget building, and exploring the world! Press T for Travel Menu.",
+                            "welcome_message": "Ready to explore the world together? Let's go!",
+                            "prompt_starters": [
+                                "T",
+                                "Plan my dream trip",
+                                "Budget secrets",
+                                "Discover hidden gems"
+                            ],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-uPadZwNiuUm9JGclfBexETJ0?se=2123-12-28T05%3A52%3A00Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3D878bdaa1-3bcf-443b-81ff-18c484905c6d.png&sig=UruNoc%2BYtztbAdXCHxqHnmO4peE5pkTipq09aS81ZxI%3D",
+                            "categories": [
+                                "lifestyle"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-12T10:53:42.196755+00:00",
+                        "updated_at": "2024-01-26T19:43:04.329955+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_uo3KzlQISAKgQgpbARmwPEMd~gzm_tool_7UxivC0HKg4xpXRbLV3ixMQv",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-7bc9bb007eb77fb7650b235fe21d9a93724ae845",
+                                "domain": "gpts.webpilot.ai",
+                                "raw_spec": "openapi: 3.0.1\ninfo:\n  title: webPilot\n  description: >-\n    Start with a Request: Users can either directly request the 'longContentWriter' to write a long form article or\n    choose to use 'webPageReader' for information gathering before content creation. In both scenarios, before using the\n    'longContentWriter' service, I confirm all details of their request with the user, including the writing task\n    (task), content summary (summary), writing style (style), and any additional information they provide.\n\n    Information Gathering with 'webPageReader': When 'webPageReader' is used, I search the internet and gather relevant information based on the writing task. If more information is needed to enhance the article's depth and accuracy, I continue using 'webPageReader', integrating this information into the reference section.\n\n    Content Generation by 'longContentWriter': After confirming all details with the user, including any additional contributions and enhanced information from 'webPageReader', I proceed to generate the long-form content. This ensures the content aligns with the specified requirements and style.\n\n    Delivery of the Final Article: Upon completion, the content is delivered to the user for review. They can request revisions or additional information if necessary.\n\n    Default Assumptions in Responses: When users request content creation, especially in areas requiring specific knowledge like Bitcoin trends, I will make an initial assumption about the writing style and target audience. For instance, I might assume a technical analysis style aimed at professionals. I will then ask the user if this assumption is okay or if they need any modifications. This approach helps streamline the content creation process.\n  version: v1.1\nservers:\n  - url: https://gpts.webpilot.ai\npaths:\n  /api/read:\n    post:\n      operationId: webPageReader\n      x-openai-isConsequential: false\n      summary: visit web page\n      requestBody:\n        required: true\n        content:\n          application/json:\n            schema:\n              $ref: \"#/components/schemas/visitWebPageRequest\"\n      responses:\n        \"200\":\n          description: OK\n          content:\n            application/json:\n              schema:\n                $ref: \"#/components/schemas/visitWebPageResponse\"\n        \"400\":\n          description: Bad Request\n          content:\n            application/json:\n              schema:\n                $ref: \"#/components/schemas/visitWebPageError\"\n  /api/write:\n    post:\n      operationId: longContentWriter\n      x-openai-isConsequential: false\n      summary: generate a book\n      requestBody:\n        required: true\n        content:\n          application/json:\n            schema:\n              $ref: \"#/components/schemas/generateContentRequest\"\n      responses:\n        \"200\":\n          description: OK\n          content:\n            application/json:\n              schema:\n                $ref: \"#/components/schemas/generateContentResponse\"\n        \"400\":\n          description: Bad Request\n          content:\n            application/json:\n              schema:\n                $ref: \"#/components/schemas/generateContentError\"\ncomponents:\n  schemas:\n    generateContentRequest:\n      type: object\n      required:\n        - task\n        - language\n        - summary\n        - style\n      properties:\n        task:\n          type: string\n          description: The \"task\" field outlines the specific requirements and objectives for generating the content. This\n            includes detailed instructions on what needs to be accomplished through the writing, such as the main topic\n            to be covered, any particular arguments or perspectives to be presented, and the desired outcome or impact\n            of the piece. This field serves as a directive for the content creation process, ensuring that the writing\n            not only adheres to the given guidelines but also effectively achieves its intended purpose, whether it's to\n            inform, persuade, entertain, or educate the audience.\n        language:\n          type: string\n          description: Required, the language used by the user in the request, according to the ISO 639-1 standard. For Chinese,\n            use zh-CN for Simplified Chinese and zh-TW for Traditional Chinese.\n        summary:\n          type: string\n          description: The \"summary\" field encapsulates a concise overview of the writing content, presenting the core themes, key\n            points, and primary objectives of the piece. This brief but comprehensive synopsis serves as a roadmap,\n            guiding the overall direction and focus of the writing, ensuring that it remains aligned with the intended\n            message and purpose throughout the development process. This summary not only aids in maintaining coherence\n            and relevance but also provides a clear preview of what the reader can expect from the full content.\n        reference:\n          type: string\n          description: The \"reference\" field is a curated collection of information sourced from the Internet via WebPilot, or\n            proveded by the user, specifically tailored to enrich and support the writing task at hand. It involves a\n            selective process where relevant data, facts, and insights related to the topic are gathered, ensuring that\n            the content is not only well-informed and accurate but also closely aligned with the specific requirements\n            and objectives of the writing project. This field acts as a foundation, providing a rich base of verified\n            and pertinent information from which the article or content is crafted. This field would be long.\n        style:\n          type: string\n          description: The \"style\" field in content creation is a detailed framework encompassing three pivotal components - the\n            writing tone or style, the target audience, and the publication medium. This field is structured as\n            \"[specific writing style], aimed at [target audience], using [language style], inspired by [notable content\n            creator].\" The writing style element ranges from formal and analytical to casual and engaging, setting the\n            overall tone. The target audience aspect identifies the specific reader group, such as students,\n            professionals, or the general public, tailoring the content's complexity and relevance. The language style,\n            whether academic, colloquial, or technical, shapes the linguistic approach. The final component, inspired by\n            a notable content creator, serves as a reference for the desired tone and approach, like \"analytical and\n            concise, aimed at business professionals, using professional language, inspired by a renowned business\n            journalist.\" This clear and structured definition ensures the content is effectively aligned with the\n            audience's needs and the publication's format.\n    generateContentResponse:\n      type: object\n      properties:\n        message:\n          type: string\n          description: Result message of the request\n    generateContentError:\n      type: object\n      properties:\n        code:\n          type: string\n          description: error code\n        message:\n          type: string\n          description: error message\n        detail:\n          type: string\n          description: error detail\n    visitWebPageResponse:\n      type: object\n      properties:\n        title:\n          type: string\n          description: The title of this web page\n        content:\n          type: string\n          description: The content of the web page's url to be summarized\n        meta:\n          type: object\n          description: The Html meta info of the web page\n        links:\n          type: array\n          description: Some links in the web page\n          items:\n            type: string\n        extra_search_results:\n          type: array\n          description: Additional Search results\n          items:\n            type: object\n            properties:\n              title:\n                type: string\n                description: the title of this search result\n              link:\n                type: string\n                description: the link of this search result\n              snippet:\n                type: string\n                description: the snippet of this search result\n        todo:\n          type: array\n          description: what to do with the content\n          items:\n            type: string\n        tips:\n          type: array\n          description: Tips placed at the end of the answer\n          items:\n            type: string\n        rules:\n          description: Adherence is required when outputting content.\n          items:\n            type: string\n    visitWebPageRequest:\n      type: object\n      required:\n        - link\n        - ur\n      properties:\n        link:\n          type: string\n          description: Required, The web page's url to visit and retrieve content from.\n        ur:\n          type: string\n          description: Required, a clear statement of the user's request, can be used as a search query and may include search\n            operators.\n        lp:\n          type: boolean\n          description: Required, Whether the link is directly provided by the user\n        rt:\n          type: boolean\n          description: If the last request doesn't meet user's need, set this to true when trying to retry another request.\n        l:\n          type: string\n          description: Required, the language used by the user in the request, according to the ISO 639-1 standard. For Chinese,\n            use zh-CN for Simplified Chinese and zh-TW for Traditional Chinese.\n    visitWebPageError:\n      type: object\n      properties:\n        code:\n          type: string\n          description: error code\n        message:\n          type: string\n          description: error message\n        detail:\n          type: string\n          description: error detail\n",
+                                "json_schema": null,
+                                "auth": {
+                                    "type": "none"
+                                },
+                                "privacy_policy_url": "https://gpts.webpilot.ai/privacy_policy.html"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_4fXqkMIJJzODYmIL89Qh9W2J~gzm_tool_1j4Q9OW8JukxiNAm6VFVWQZz",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_Mh0Lv44ikLdW06pfxfzakcc0~gzm_tool_fAHN4dsucJnRvlH7GVJ5DSl0",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-java",
+                                "application/x-latext",
+                                "text/x-script.python",
+                                "text/x-php",
+                                "text/x-c",
+                                "text/x-sh",
+                                "text/x-c++",
+                                "text/x-csharp",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/html",
+                                "text/x-typescript",
+                                "application/json",
+                                "application/msword",
+                                "text/plain",
+                                "text/x-ruby",
+                                "text/markdown",
+                                "application/pdf",
+                                "text/x-tex",
+                                "text/javascript",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/png",
+                                "image/webp",
+                                "image/gif"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-KpF6lTka3",
+                        "organization_id": "org-yS84io1xyQry388ZRkCiKMsE",
+                        "short_url": "g-KpF6lTka3-alltrails",
+                        "author": {
+                            "user_id": "user-n5OFCXwmMX59FvXYfo1XB63e",
+                            "display_name": "alltrails.com",
+                            "link_to": "https://alltrails.com",
+                            "selected_display": "website",
+                            "is_verified": true,
+                            "will_receive_support_emails": null,
+                            "socials": {}
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "AllTrails",
+                            "description": "Find trails that fit your nature for your next hike, ride, or run.",
+                            "welcome_message": "",
+                            "prompt_starters": [
+                                "What trail criteria can I ask about?",
+                                "Which trails near me are dog-friendly?",
+                                "Show me easy hiking trails near New York City.",
+                                "What are the top 3 trails in Yosemite National Park?"
+                            ],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-wJ9EBGnkL70yfZwQT59iYtMm?se=2123-12-17T18%3A55%3A31Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DAllTrails_Logo_ForCircle%25402x.png&sig=ieep4aIfXG0KmF2O/fnvBUoTu5WstnV1%2BJvvnJ4UeL8%3D",
+                            "categories": [
+                                "lifestyle"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-27T21:16:15.999057+00:00",
+                        "updated_at": "2024-01-23T20:37:42.074506+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_JiBldJP0rSQeYWpBK7icd2ZB~gzm_tool_PrhbhPy2iLfwINgxPufOtEKt",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-eaf0e78bb71845ae7b86a9268d1374c168f5bd85",
+                                "domain": "chatgpt-production.alltrails.com",
+                                "raw_spec": "---\nopenapi: 3.1.1\ninfo:\n  title: AllTrails\n  version: 1.0.0\n  description: \"Allows users to retrieve a list of trails based on search criteria.\"\nservers:\n  - url: https://chatgpt-production.alltrails.com\npaths:\n  /search-trails:\n    post:\n      operationId: searchTrails\n      x-openai-isConsequential: false\n      summary: \"Retrieves trail(s) from AllTrails that match the user's query.\"\n      security:\n        - bearerAuth: []\n      requestBody:\n        required: true\n        content:\n          application/json:\n            schema:\n              $ref: '#/components/schemas/Query'\n      responses:\n        '200':\n          description: \"List of trails retrieved successfully.\"\n          content:\n            application/json:\n              schema:\n                type: object\n                properties:\n                  data:\n                    description: \"An array of trail objects that includes trail metadata.\"\n                    schema:\n                      type: array\n                      items:\n                        $ref: '#/components/schemas/Trail'\n                  assumed_location:\n                    description: |\n                      This property represents the location that AllTrails has assumed based on the user's input. Given the potential ambiguity when users provide only a city_name or area_name that might be common worldwide, AllTrails queries Algolia for the most likely match. While the majority of the time the location is accurate, there are instances where it might not align with the user's intended location.\n                      In the case that a 'worldwide' search is performed, this property will be populated to 'worldwide'. In this case, state that the results are worldwide and do not include a specific location.\n                      \n                      This property MUST be communicated word-for-word to the user at the start of the response. For example, if `assumed_location` is \"Hanover, New Hampshire, United States\", then the output should start by mentioning the full detailed location e.g. 'Here are some trails in Hanover, New Hampshire, United States ...'. \n\n                      The assistant should always check the `assumed_location` with the user to verify that the recommendations are for the intended area. If there's a discrepancy, users might need to provide more specific location details in their query to get accurate trail recommendations.\n                    schema:\n                      type: string\n                  EXTRA_INFORMATION_FOR_ASSISTANT:\n                    description: |\n                      This property includes additional instructions for how the assistant should output results to the user.\n                    schema:\n                      type: string\n        '204':\n          description: |\n            A 204 status code is used when the server successfully processes the request, but there is no content to return to the user. When this is returned, the assistant should ask the user to retry their request with different details. If this value is returned, the assistant should NOT return any trail information.\n          content:\n            application/json:\n              schema:\n                $ref: '#/components/schemas/Error'\n        '400':\n          description: |\n            A 400 status code is used for bad requests.\n          content:\n            application/json:\n              schema:\n                $ref: '#/components/schemas/Error'\n        '401':\n          description: |\n            A 401 status code is used when the user is not authenticated. Access token is missing or invalid.\n        '500':\n          description: |\n            A 500 status code is used when server has encountered an unexpected condition or configuration problem that prevents it from fulfilling the request made by the client.\n          content:\n            application/json:\n              schema:\n                $ref: '#/components/schemas/Error'\ncomponents:\n  securitySchemes:\n    bearerAuth:\n      type: http\n      scheme: bearer\n  schemas:\n    Error:\n      type: object\n      properties:\n        ERROR_MESSAGE:\n          description: |\n            When an error occurs, the assistant should:\n\n            1. Use this message to determine the nature of the error:\n              - if the error message contains an InvalidPropertyException or InvalidEnumException, the assistant should re-format the request with the correct filter values from the lists of acceptable features, activities, difficulty_rating, route_type, and/or visitor_useage. These values can be found in this schema. If the assistant cannot convert the property names to something valid, then leave the filter param out. If the filter param is left out then you MUST NOTIFY THE USER that you left that filter out of the query\n              - If the error message indicates a configuration or internal issue, the assistant should acknowledge the error, inform the user that it's a technical issue not caused by their input, and suggest trying again later.\n              - If the error message points to an issue with the query construction, such as \"filter string is invalid\", the assistant should recognize its own mistake in formulating the request. It should then re-prompt the user with a clarified request or provide an alternative solution.\n            2. In cases where the error's root cause is ambiguous or not explicitly mentioned in the `ERROR_MESSAGE`, the assistant should handle the situation gracefully, apologizing for the inconvenience and suggesting potential corrective actions or alternative queries.\n\n            The primary goal is to ensure a smooth user experience. the assistant should always strive to be self-correcting, avoid placing blame on the user, and provide clear directions or alternatives when errors arise.\n          schema:\n            type: string\n    Query:\n      type: object\n      properties:\n        country_name:\n          description: |\n            Full name of the country where trails are located. If the user does not explicitly specify the `country_name` property, the `country_name` property should be deduced from the `state_name`, `city_name`, or `area_name` property. \n            \n            For example, if user asks for 'trails in San Francisco', automatically set the `country_name` property to 'United States' and the `state_name` property to 'California'.\n\n            If the user specifies they're interested in trails around the world, set `country_name` to 'world'.\n\n            This property MUST always be populated.\n          schema:\n            type: string\n        state_name:\n          description: |\n            Full name of the state or region where trails are located. If not given, the `state_name` property should be deduced from the `city_name`, or `area_name` property. \n            \n            For example, if user asks for trails in Rochester, automatically set `country_name` to 'United States' and `state_name`='New Hampshire'.\n\n            This property MUST be populated whenever a user mentions a specific state, city, or area. \n\n            Always ensure the state or region name is in its full form, not abbreviated.\n          schema:\n            type: string\n        city_name:\n          description: |\n            This property represents the full name of the city or town where trails are located and MUST be populated if a user specifies a city in their query.\n\n            To determine its value:\n            1. If the user explicitly mentions a city or town, use that city's full name. For instance, if a user says 'trails in San Francisco', set `city_name` to 'San Francisco'.\n            2. Do NOT populate this property if the user's query is about specific parks, forests, or wilderness areas. For example, if the user asks for trails in Yellowstone, omit the `city_name` property entirely.\n\n            Always ensure the city or town name is in its full form, not abbreviated or shortened.\n          schema:\n            type: string\n        area_name:\n          description: |\n            This property represents the full name of a national, state, city, or local park, forest, or wilderness area and MUST be populated if a user specifies such an area in their query.\n\n            To determine its value:\n            1. If the user explicitly mentions a specific park, forest, or wilderness area, use its full name. For instance, if a user says 'trails in Tahoe', set `area_name` to 'Tahoe National Forest'.\n            2. If the user provides a well-known abbreviation or shortened name of an area, deduce the full name. For example, if the user asks for trails in 'Yosemite', set `area_name` to 'Yosemite National Park'.\n\n            Always ensure the area name is in its complete and accurate form.\n          schema:\n            type: string\n        location_helper:\n          description: |\n            This property specifies if the user wants to find trails \"in\" or \"near\" the request of their specified location.\n\n            To determine the appropriate value:\n            1. If the user provides a broad or non-specific location, such as a state or a country (i.e. if area_name and city_name are not populated), then 'location_helper' should ALWAYS be set to 'in', regardless of the user's phrasing.\n            2. If the user specifies a more granular or specific location, like a city or an area (i.e. if area_name or city_name is populated), then the value can be set to 'near' if the user's query indicates proximity (e.g. 'trails near...'). \n\n            For clarity:\n            - If a user says 'trails in San Francisco' or 'trails in Yellowstone National Park', then 'location_helper' should be set to 'in'.\n            - If a user says 'trails near San Francisco' or 'trails near Yellowstone National Park', then 'location_helper' should be set to 'near'.\n            - If a user says 'trails in California' or 'trails in the United States', then 'location_helper' should be set to 'in'.\n            - If a user says 'trails near California' or 'trails near the United States', then 'location_helper' should be set to 'in'.\n          schema:\n            type: string\n            enum: [in, near]\n            default: in\n        radius:\n          description: |\n            This property specifies the search radius centered around a given location, represented IN METERS. It's crucial to determine its value based on the user's query and the `location_helper` property.\n\n            To determine its value:\n            1. If `location_helper` is set to 'in', DO NOT populate this property.\n            2. If `location_helper` is set to 'near':\n              - If the user provides a specific distance, convert that distance to meters and use it. For example, if a user says 'trails within 10 miles of Greenpoint, Brooklyn', set `radius` to 16093 meters.\n              - If the user doesn't specify a distance, default `radius` to 32187 meters (approximately 20 miles). Ensure to notify the user of this default value in the response.\n\n            Always ensure the value for `radius` is an integer. If conversions result in a float, round up or down to the nearest whole number.\n          schema:\n            type: integer\n        sort_by_dist_bool:\n          description: |\n            If the user explicitly emphasizes that they would like the results sorted by distance (e.g. 'closest trails to Seattle'), then `sort_by_dist_bool` should be set to `true`. \n            \n            If the user simply says that they're interested in results near a location, assume that the user wants their results returned in the default popularity-based order.\n          schema:\n            type: boolean\n            enum: [true, false]\n            default: false\n        query:\n          description: |\n            The 'query' property is a text-based string used to filter trails by their names or other textual attributes.\n\n            To determine its value:\n            1. Extract specific trail names or textual attributes mentioned by the user. For instance, if a user asks about the 'Lands End Trail', set `query` to 'Lands End'.\n            2. If the user does not specify a particular trail name or attribute, this property may be left empty or omitted.\n\n            It's essential to format this property correctly, as it directly influences the accuracy of the search results.\n          schema:\n            type: string\n        num_trails:\n          description: |\n            The 'num_trails' property specifies the number of trail recommendations the user wishes to receive.\n          schema:\n            type: integer\n            minimum: 1\n            maximum: 20\n            default: 3\n        raw_query:\n          description: |\n            The 'raw_query' property is essential and MUST be populated for every request.\n\n            It captures the user's query in its exact, unaltered form. This means capturing the user's input word for word without any modifications or omissions.\n\n            For instance, if a user says, 'Show me trails in San Francisco under 30 miles', the `raw_query` should be set to 'Show me trails in San Francisco under 30 miles'.\n\n            Accurately recording the 'raw_query' ensures that the user's original intent is preserved and can be referenced if needed.\n          schema:\n            type: string\n        filters:\n          description: |\n            The 'filters' property is a vital component and MUST be populated for every request, even when it seems duplicative to do so.\n            It is a an intricate Algiolia filter string tailored to refine search results based on user preferences.\n\n            Here's how to construct the `filters` string:\n            1. **Parameters**: The string is built using a combination of specific parameters. Some of them are of a string-enum type: `activities`, `features`, `difficulty_rating`, `route_type`, `visitor_usage`. Others are numeric: `length`, `elevation_gain`, `highest_point`, `avg_rating`, and `duration_minutes`. Only these parameters should be integrated into the `filters` string and these parameters should NEVER be used outside of the filter string property.\n            2. **Boolean Operators**: Use `AND` and `OR` operators to combine conditions. Always group conditions with parentheses for clarity. For example, for a query like 'Dog-friendly trails in San Francisco under 5 hours', the string would be: `(features:dogs OR features:dogs-leash) AND duration_minutes < 300`.\n            3. **Numerical Parameters**: For parameters `length`, `elevation_gain`, `highest_point`, `avg_rating`, and `duration_minutes`, use \"=\" for exact matches and \"<\" or \">\" for comparisons. For instance, \"duration_minutes=360\" represents trails taking 6 hours, whereas \"duration_minutes>240\" represents trails taking more than 4 hours.\n            4. **String-Enum Parameters**: Use a colon \":\" for these. For instance, \"features:dogs\" or \"activities:backpacking\".\n            5. **Default Value**: If the user doesn't specify any filtering criteria, set the `filters` parameter to an empty string.\n\n            Below are the details of the various parameters (separated by horizontal rules) that can be used as part of the `filters` string:\n\n            ---\n\n            The 'activities' parameter is utilized to filter trails based on specific outdoor activities they accommodate.\n\n            Match the user's mentioned activities with the provided enums. \n            For instance, if a user says 'trails with bike paths', then `(activities:mountain-biking OR activities:road-biking)` should be included in the `filters` string.\n\n            Here is a dictionary describing the ONLY activities that are supported by this API:\n\n            - backpacking: Outdoor recreation of carrying gear on one's back while hiking for more than a day.\n            - birding: Bird-watching. Use this when the user is interested in watching birds.\n            - camping: Camping. Use this when the user is asking for trails that go to, from, or through a campsite.\n            - xc-skiing: The sport of skiing across the countryside (cross-country skiing), often through woods and usually on relatively flat terrain.\n            - fishing: Fishing. Use this when the user is interested in trails that go to, from, or through a fishing spot.\n            - hiking: The activity of going for long walks in the country or woods. Use this whenever a user mentions hiking.\n            - horses: Use this when the user is looking for horseback riding trails or specifies that they are an equestrian.\n            - mountain-biking: Mountain biking is a sport of riding bicycles off-road, often over rough terrain, usually using specially designed mountain bikes.\n            - off-road-driving: Off-roading is the activity of driving or riding in a vehicle on unpaved surfaces such as sand, dirt, gravel, riverbeds, mud, snow, rocks, and other natural terrain.\n            - paddle-sports: Any sport involving the propulsion of a watercraft by means of a paddle. Kayaking and canoeing are paddlesports.\n            - road-biking: Road cycling is the a form of cycling in which cyclists ride on paved roadways.\n            - rock-climbing: The sport or activity of climbing rock faces, especially with the aid of ropes and special equipment.\n            - scenic-driving: Scenic driving. Driving routes through areas with good views.\n            - skiing: The action of traveling over snow on skis, especially as a sport or recreation.\n            - snowshoeing: A very specific activity of walking over snow wearing snowshoes.\n            - trail-running: Use this when the user is interested in trails supporting any running activity (running, jogging, trail running, etc.)\n            - walking: Use this when the user is interested in trails supporting any casual walking activity (walking, strolling, etc.)\n            - bike-touring: Bike touring. Bicycle touring can range from single-day trips to extended travels spanning weeks or months.\n            - via-ferrata: A specific type of climbing route found in the Alps and certain other Alpine locations where the user hangs or clips onto cables.\n            - whitewater-kayaking: The activity of paddling a kayak on whitewater (turbulent water).\n\n            If the user's mentioned activities don't align with the provided enums, inform the user of the available activity options and seek further clarification.\n            It's crucial to distinguish between `activities` and `features`. Activities typically involve actions, often ending in '-ing' (e.g. 'hiking', 'biking'). NEVER list features, such as 'dogs' or 'waterfall', under `activities`. Always cross-reference with the provided enums to ensure accuracy.\n            Only apply these activity-related parameters if the user explicitly mentions them in their query. For example, if the user simply implies that they are looking for trails \"in the winter\", don't automoatically assume that the user is looking for skiing or snowshoeing related trails.\n\n            ---\n\n            The 'features' parameter is employed to filter trails based on specific characteristics or attributes they possess, either inherent to the trail or related to its accessibility/suitability.\n            \n            Pay close attention to the user's specific requirements regarding dogs:\n              - If a user inquires about 'dog-friendly trails', then use `(features:dogs AND features:dogs-leash)`. \n              - If a user specifies wanting trails where dogs are allowed without leashes, then use `features:dogs` only.\n              - If a user specifies a preference for trails where dogs must be on leashes, then use `features:dogs-leash` only.\n              - In the absence of specific instructions about leashes, include both ['dogs', 'dogs-leash'] to cover all dog-friendly trails.\n            \n            Here is a dictionary describing the ONLY features that are supported by this API:\n\n            - ada: Trail is disabilities-friendly (e.g. wheelchairs, wheelchair friendly...etc)\n            - beach: Trail features a beach.\n            - cave: Trail features a cave.\n            - dogs: Trail is dog friendly, doesn't require a leash. \n            - dogs-leash: Trail is dog friendly, but requires a leash.\n            - dogs-no: Trail is not dog friendly, no dogs are allowed.\n            - forest: Trail features a forest.\n            - lake: Trail features a lake.\n            - kids: Trail is kid/child friendly. \n            - hot-springs: Trail features hot springs.\n            - paved: Trail is paved.\n            - partially-paved: Trail is partially paved.\n            - rails-trails: Trail follows railroad rails.\n            - river: Trail features a river.\n            - strollers: Trail is stroller friendly.\n            - views: Trail has good views along it.\n            - waterfall: Trail features a waterfall.\n            - wild-flowers: Trail features wild flowers.\n            - wildlife: Trail features wildlife (animals).\n            - off-trail: Trails that involve a lot of bush-whacking and route finding.\n            - no-shade: Trail is not situated well for users who want to avoid the sun.\n            - city-walk: Urban trail routes going through the middle of cities.\n            - historic-site: Trail is located in or by a historic site.\n            - pub-crawl: Trails that are representative of pub crawls, the act of visiting multiple pubs or bars in a single session. Primarily used in the UK.\n            - fee: Trail is not free OR requires a ticket to be purchased in order to access.\n            \n            If the user's mentioned features don't correspond loosely with the provided enums, inform them of the available feature options and request further details. \n            It is essential that the assistant doesn't incorrectly apply an activity type as a feature or vice-versa.\n\n            ---\n\n            The 'difficulty_rating' parameter represents the trail's level of difficulty. It can be ONLY one of the following string values:\n\n            - easy: Easy trails that are suitable for all skill levels.\n            - moderate: Moderate trails that are suitable for those at intermediate skill levels.\n            - hard: Hard trails that are suitable for those at advanced skill levels and those looking for a challenge.\n\n            For example: If a user asks for 'easy trails', then `difficulty_rating:easy`.\n\n            ---\n\n            The 'route_type' parameter specifies the configuration or layout of the trail. It can be ONLY one of the following string values:\n\n            - loop: The start and end points are the same.\n            - out-and-back: One travels to a destination and then retraces their steps back to the starting point.\n            - point-to-point: The trail starts and ends at different locations.\n\n            For example, if user asks for 'loop trails', then `route_type:loop`.\n\n            ---\n\n            The 'visitor_usage' parameter represents the level of traffic on the trail. It can be ONLY one of the following string values:\n\n            - light: The trail is lightly trafficked - not a lot of people are typically on it.\n            - moderate: The trail is moderately trafficked.\n            - heavy: The trail is heavily trafficked - many people are typically on it.\n            - extreme: The trail is extremely trafficked - this is one of the busiest trails in the area.\n\n            For example, if user asks for 'trails with light to moderate trail traffic', then `visitor_usage:light OR visitor_usage:moderate`.\n\n            ---\n\n            The 'length' parameter is a number that represents the length of a trail in meters.\n            \n            For example, if user asks for 'trails that are 1 mile long', then `length=1609.34`.\n            \n            Perform arithmetic to calculate the total length of the trail as a trip, if needed.\n\n            ---\n\n            The 'elevation_gain' parameter is a number that represents the elevation gain of a trail in meters.\n\n            For example, if user asks for 'trails with 6000 ft elevation gain', then `elevation_gain=1828.8`.\n\n            ---\n\n            The 'highest_point' parameter is a number that represents the highest point on a trail in meters.\n\n            For example, if user asks for 'trails with a highest point of 8000 ft', then `highest_point=2438.4`.\n\n            ---\n\n            The 'avg_rating' parameter is a number that represents the average user rating for a trail based on a 5-star scale (ranges from 1 to 5).\n\n            For example, if a user asks for 'trails rated 4.2 stars', then `avg_rating=4.2'.\n            \n            If the user specifies a rating outside the 1-5 range or provides a non-integer value, inform them of the available options and seek clarification.\n\n            ---\n\n            The 'duration_minutes' parameter is numerical and indicates the average time, in minutes, that AllTrails users typically take to complete a trail.\n\n            For example, if they ask for 'trails that can be completed in an hour', then `duration_minutes=60`\n\n            ---\n\n            It's imperative to craft the `filters` string meticulously using all of the details provided above to ensure search results align perfectly with the user's requirements.\n          schema:\n            type: string\n            default: \"\"\n      required:\n        - country_name\n        - raw_query\n        - filters\n    Trail:\n      type: object\n      properties:\n        trail_name:\n          description: |\n            Represents the 'og:title' OpenGraph tag, which indicates the name of the trail. \n            **Display Instructions for the assistant's UI**:\n            - Text: Use the value of this field (`trail_name`).\n            - Formatting: Bold the text.\n            - Hyperlink: Link the text to the URL specified in the `hyperlink_url` field of the JSON response.\n            - **Desired Output**: [**Trail Name from `trail_name`**](URL from `hyperlink_url`)\n          schema: \n            type: string\n        hyperlink_url:\n          description: \"Represents the 'og:url' OpenGraph tag, which provides the URL associated with the trail.\"\n          schema:\n            type: url\n        location:\n          description: \"A comma-separated string that provides the full location of the trail, including components like city, state, and country.\"\n          schema:\n            type: string\n        description:\n          description: \"Short description of the trail.\"\n          schema:\n            type: string\n        difficulty_rating:\n          description: \"The difficulty rating of the trail.\"\n          schema:\n            enum: [Easy, Moderate, Hard, Unknown]\n            type: string\n        elevation_gain:\n          description: |\n            The elevation gain of the trail.\n          schema:\n            type: string\n        length:\n          description: |\n            The length of the trail.\n          schema:\n            type: string\n        estimated_completion_time:\n          description: |\n            The estimated hiking time for trail completion.\n          schema:\n            type: string\n        star_rating:\n          description: |\n            The average star rating of the trail by AllTrails users, fetched from AllTrails.\n          schema:\n            type: number\n        image:\n          description: |\n            A shortened URL to an image. \n            To access the image, make a GET request to image. The server will redirect this request to the actual image URL.\n          schema:\n            type: url\n        geoloc:\n          description: |\n            The latitude and longitude of the trail. DO NOT display this field to the user.\n          schema:\n            type: object\n            properties:\n              lat:\n                description: |\n                  The latitude of the trail.\n                type: number\n              lng:\n                description: |\n                  The longitude of the trail.\n                type: number\n      required:\n        - trail_name\n        - hyperlink_url\n        - location\n        - difficulty_rating\n        - elevation_gain\n        - length\n        - estimated_completion_time\n        - star_rating\n        - geoloc\n",
+                                "json_schema": null,
+                                "auth": {
+                                    "type": "service_http",
+                                    "instructions": "",
+                                    "authorization_type": "bearer",
+                                    "verification_tokens": {},
+                                    "custom_auth_header": ""
+                                },
+                                "privacy_policy_url": "https://privacy.alltrails.com/policies/en-US"
+                            }
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-java",
+                                "application/x-latext",
+                                "text/x-script.python",
+                                "text/x-php",
+                                "text/x-c",
+                                "text/x-sh",
+                                "text/x-c++",
+                                "text/x-csharp",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/html",
+                                "text/x-typescript",
+                                "application/json",
+                                "application/msword",
+                                "text/plain",
+                                "text/x-ruby",
+                                "text/markdown",
+                                "application/pdf",
+                                "text/x-tex",
+                                "text/javascript",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/png",
+                                "image/webp",
+                                "image/gif"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-PFQijmS57",
+                        "organization_id": "org-41i3Gx4U8LkYVWd3lKb9IFAS",
+                        "short_url": "g-PFQijmS57-medical-ai",
+                        "author": {
+                            "user_id": "user-3AS0OosIpXYDEjYn8xCXYesE",
+                            "display_name": "medadvice.ai",
+                            "link_to": "https://medadvice.ai",
+                            "selected_display": "website",
+                            "is_verified": true,
+                            "will_receive_support_emails": true,
+                            "socials": {}
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Medical AI",
+                            "description": "AI assistant here to listen to your health questions, point you to worldwide clinical-medicine guidelines, and recommend top local doctors. I'm made by Oxford Medics but am not a substitute for a doctor.",
+                            "welcome_message": "",
+                            "prompt_starters": [
+                                "Can you give me some medical information?",
+                                "Give me links to clinical guidelines for a condition",
+                                "I want to learn more about some symptoms",
+                                "Recommend me my top local doctors"
+                            ],
+                            "profile_pic_id": "file-pIwBOPS9TJnu5OXlQJC4FkIO",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-pIwBOPS9TJnu5OXlQJC4FkIO?se=2124-01-06T08%3A36%3A04Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DUntitled-2.png&sig=hjuyesRgRyXz6ttCIKB3uTnxV33TRyxDOgPucmlvQPw%3D",
+                            "categories": [
+                                "lifestyle"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-15T19:37:31.135681+00:00",
+                        "updated_at": "2024-01-30T08:36:10.382840+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_EG63OTfO4IFMrTuZ4sYQOt7t~gzm_tool_aQgZqkkjISfNp5CbrpGi6FNM",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_dfAR4VvUd1hkVYNQR0qTUyCl~gzm_file_WctRjhLfKZwCUAAJXu0Z1wD9",
+                            "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-java",
+                                "application/x-latext",
+                                "text/x-script.python",
+                                "text/x-php",
+                                "text/x-c",
+                                "text/x-sh",
+                                "text/x-c++",
+                                "text/x-csharp",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/html",
+                                "text/x-typescript",
+                                "application/json",
+                                "application/msword",
+                                "text/plain",
+                                "text/x-ruby",
+                                "text/markdown",
+                                "application/pdf",
+                                "text/x-tex",
+                                "text/javascript",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/png",
+                                "image/webp",
+                                "image/gif"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-KkxbQAVuk",
+                        "organization_id": "org-pXQQfJk4KDEr6X25XQ29ITAX",
+                        "short_url": "g-KkxbQAVuk-playlistai-music-playlist-maker",
+                        "author": {
+                            "user_id": "user-FkChHt32oJbl5V25S3ILkBP1",
+                            "display_name": "brettbauman.me",
+                            "link_to": "https://brettbauman.me",
+                            "selected_display": "website",
+                            "is_verified": true,
+                            "will_receive_support_emails": null,
+                            "socials": {}
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "PlaylistAI - Music Playlist Maker",
+                            "description": "Connect your Spotify, Apple Music, Amazon Music, or Deezer account to create music playlists in your library.",
+                            "welcome_message": "How can I help you craft the perfect playlist on Spotify or Amazon Music today?",
+                            "prompt_starters": [
+                                "Create a workout playlist for me.",
+                                "I need a relaxing playlist for reading.",
+                                "Can you make a playlist for a road trip?",
+                                "Use DALL·E to make a cover image for my playlist."
+                            ],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-W59PXnljpwgUVySbqiitC3mP?se=2123-12-15T13%3A18%3A41Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DPrimary.png&sig=xIRbkrxlELRuMy%2BOoCtUENDlO7cnpNsFtki77k1H4j0%3D",
+                            "categories": [
+                                "other"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-06T21:07:10.827406+00:00",
+                        "updated_at": "2024-01-25T06:32:34.163206+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_TpZGPUhO2Eqs87A4GHCqiqop~gzm_tool_Z9fLEl8fOjWhnRmr9DtyorTL",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-047e0788ec5cf8fd57afa888dc9efdd03a18d032",
+                                "domain": "spotify.playlistai.app",
+                                "raw_spec": "{\n  \"openapi\": \"3.0.0\",\n  \"info\": {\n    \"title\": \"PlaylistAI for Spotify\",\n    \"version\": \"1.0.0\"\n  },\n  \"servers\": [\n    {\n      \"url\": \"https://spotify.playlistai.app\"\n    }\n  ],\n  \"paths\": {\n    \"/api/playlist\": {\n      \"post\": {\n        \"summary\": \"Create a Spotify playlist\",\n        \"operationId\": \"createPost\",\n        \"x-openai-isConsequential\": false,\n        \"description\": \"Endpoint to create a playlist based on provided song names and title.\",\n        \"requestBody\": {\n          \"description\": \"Song names and title to create a playlist\",\n          \"required\": true,\n          \"content\": {\n            \"application/json\": {\n              \"schema\": {\n                \"type\": \"object\",\n                \"properties\": {\n                  \"songNames\": {\n                    \"type\": \"string\",\n                    \"description\": \"Comma separated list of song and artist names in this format: <song name> - <artist name>\"\n                  },\n                  \"title\": {\n                    \"type\": \"string\",\n                    \"description\": \"A suggested title for the playlist\"\n                  },\n                  \"playlistPrompt\": {\n                    \"type\": \"string\",\n                    \"description\": \"A copy of the prompt the user entered to create the playlist\"\n                  }\n                },\n                \"required\": [\n                  \"songNames\",\n                  \"title\",\n                  \"playlistPrompt\"\n                ]\n              }\n            }\n          }\n        },\n        \"responses\": {\n          \"200\": {\n            \"description\": \"The new playlist url\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"type\": \"object\",\n                  \"properties\": {\n                    \"playlistUrl\": {\n                      \"type\": \"string\",\n                      \"description\": \"The url of the playlist\"\n                    }\n                  }\n                }\n              }\n            }\n          },\n          \"429\": {\n            \"description\": \"The user exceeded the number of playlists that they can create for free. Read them the paymentUrl\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"type\": \"object\",\n                  \"properties\": {\n                    \"paymentUrl\": {\n                      \"type\": \"string\",\n                      \"description\": \"The url to go to to purchase unlimited playlists\"\n                    },\n                    \"supportEmail\": {\n                      \"type\": \"string\",\n                      \"description\": \"The support email that the user can contact for help or questions\"\n                    },\n                    \"message\": {\n                      \"type\": \"string\",\n                      \"description\": \"A message that should be read to the user\"\n                    }\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"/api/playlist/songs\": {\n      \"get\": {\n        \"summary\": \"Get songs from a Spotify playlist\",\n        \"operationId\": \"getSongs\",\n        \"description\": \"Retrieve songs from a given Spotify playlist URL.\",\n        \"parameters\": [\n          {\n            \"name\": \"url\",\n            \"in\": \"query\",\n            \"description\": \"URL to a playlist on the Spotify platform.\",\n            \"required\": true,\n            \"schema\": {\n              \"type\": \"string\",\n              \"format\": \"uri\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"type\": \"object\",\n                  \"properties\": {\n                    \"songs\": {\n                      \"type\": \"array\",\n                      \"items\": {\n                        \"type\": \"string\",\n                        \"description\": \"Song in the format of <song name> - <artist name>\"\n                      }\n                    }\n                  }\n                }\n              }\n            }\n          },\n          \"404\": {\n            \"description\": \"Playlist not found\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"type\": \"object\",\n                  \"properties\": {\n                    \"error\": {\n                      \"type\": \"string\",\n                      \"description\": \"Error message indicating the playlist was not found.\"\n                    }\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"/api/user/playlists\": {\n      \"get\": {\n        \"summary\": \"Fetches the playlists for the current user on Spotify and returns the playlist name and link for each playlist.\",\n        \"description\": \"Fetches the playlists for the current user on Spotify and returns the playlist name and link for each playlist.\",\n        \"operationId\": \"getUsersPlaylists\",\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"type\": \"array\",\n                  \"items\": {\n                    \"type\": \"object\",\n                    \"properties\": {\n                      \"name\": {\n                        \"type\": \"string\",\n                        \"description\": \"Name of the playlist\"\n                      },\n                      \"link\": {\n                        \"type\": \"string\",\n                        \"description\": \"Link to the playlist on Spotify\"\n                      }\n                    }\n                  }\n                }\n              }\n            }\n          },\n          \"500\": {\n            \"description\": \"Internal server error\"\n          }\n        }\n      }\n    },\n    \"/api/user/subscription\": {\n      \"get\": {\n        \"summary\": \"Fetches a URL to manage or cancel the user's subscription to PlaylistAI\",\n        \"operationId\": \"manageSubscription\",\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful operation\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"type\": \"object\",\n                  \"properties\": {\n                    \"message\": {\n                      \"type\": \"string\",\n                      \"description\": \"A message about managing the subscription\"\n                    },\n                    \"billingPortalURL\": {\n                      \"type\": \"string\",\n                      \"format\": \"uri\",\n                      \"description\": \"A URL that the user can go to to manage their subscription\"\n                    },\n                    \"customerSupportEmail\": {\n                      \"type\": \"string\",\n                      \"format\": \"email\",\n                      \"description\": \"An email address to contact if you need further help\"\n                    }\n                  },\n                  \"required\": [\n                    \"message\",\n                    \"billingPortalURL\",\n                    \"customerSupportEmail\"\n                  ]\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"/api/playlist/add\": {\n      \"post\": {\n        \"summary\": \"Add songs to a Spotify playlist\",\n        \"description\": \"Adds specified songs to a Spotify playlist based on the provided playlist URL and song names.\",\n        \"operationId\": \"playlistAdd\",\n        \"x-openai-isConsequential\": false,\n        \"requestBody\": {\n          \"required\": true,\n          \"content\": {\n            \"application/json\": {\n              \"schema\": {\n                \"type\": \"object\",\n                \"properties\": {\n                  \"playlistUrl\": {\n                    \"type\": \"string\",\n                    \"description\": \"A URL to the playlist to update\"\n                  },\n                  \"songNames\": {\n                    \"type\": \"array\",\n                    \"items\": {\n                      \"type\": \"string\"\n                    },\n                    \"description\": \"Names of the songs to add in this format \\\"<song name> - <artist name>\\\"\"\n                  }\n                },\n                \"required\": [\"playlistUrl\", \"songNames\"]\n              }\n            }\n          }\n        },\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Songs added successfully\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"type\": \"object\",\n                  \"properties\": {\n                    \"playlistUrl\": {\n                      \"type\": \"string\"\n                    }\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"/api/playlist/remove\": {\n      \"post\": {\n        \"summary\": \"Removes songs from a Spotify playlist\",\n        \"operationId\": \"playlistRemove\",\n        \"x-openai-isConsequential\": false,\n        \"description\": \"Removes specified songs from a Spotify playlist based on the provided playlist URL and song names.\",\n        \"requestBody\": {\n          \"required\": true,\n          \"content\": {\n            \"application/json\": {\n              \"schema\": {\n                \"type\": \"object\",\n                \"properties\": {\n                  \"playlistUrl\": {\n                    \"type\": \"string\",\n                    \"description\": \"A URL to the playlist to update\"\n                  },\n                  \"songNames\": {\n                    \"type\": \"array\",\n                    \"items\": {\n                      \"type\": \"string\"\n                    },\n                    \"description\": \"Names of the songs to remove in this format \\\"<song name> - <artist name>\\\"\"\n                  }\n                },\n                \"required\": [\"playlistUrl\", \"songNames\"]\n              }\n            }\n          }\n        },\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Songs removed successfully\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"type\": \"object\",\n                  \"properties\": {\n                    \"playlistUrl\": {\n                      \"type\": \"string\"\n                    }\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}",
+                                "json_schema": null,
+                                "auth": {
+                                    "type": "oauth",
+                                    "instructions": "",
+                                    "client_url": "https://spotify.playlistai.app/authorize",
+                                    "scope": "playlist-modify-public user-read-email",
+                                    "authorization_url": "https://spotify.playlistai.app/token",
+                                    "authorization_content_type": "application/x-www-form-urlencoded",
+                                    "verification_tokens": {},
+                                    "pkce_required": false,
+                                    "token_exchange_method": "default_post"
+                                },
+                                "privacy_policy_url": "https://spotify.playlistai.app/legal"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_TpZGPUhO2Eqs87A4GHCqiqop~gzm_tool_1gOLsZeN9uluJgimYXb75Sjv",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-d90617cad6aa946b5402ab4a6c9753923f10c7cb",
+                                "domain": "amazon.playlistai.app",
+                                "raw_spec": "{\n  \"openapi\": \"3.0.0\",\n  \"info\": {\n    \"title\": \"PlaylistAI for Amazon Music\",\n    \"version\": \"1.0.0\"\n  },\n    \"servers\": [\n    {\n      \"url\": \"https://amazon.playlistai.app\"\n    }\n  ],\n  \"paths\": {\n    \"/api/playlist\": {\n      \"post\": {\n        \"summary\": \"Create an Amazon Music playlist\",\n        \"operationId\": \"createPost\",\n        \"description\": \"Endpoint to create a playlist based on provided song names and title.\",\n        \"x-openai-isConsequential\": false,\n        \"requestBody\": {\n          \"description\": \"Song names and title to create a playlist\",\n          \"required\": true,\n          \"content\": {\n            \"application/json\": {\n              \"schema\": {\n                \"type\": \"object\",\n                \"properties\": {\n                  \"songNames\": {\n                    \"type\": \"string\",\n                    \"description\": \"Comma separated list of song and artist names in this format: <song name> - <artist name>\"\n                  },\n                  \"title\": {\n                    \"type\": \"string\",\n                    \"description\": \"A suggested title for the playlist\"\n                  },\n                  \"playlistPrompt\": {\n                    \"type\": \"string\",\n                    \"description\": \"A copy of the prompt the user entered to create the playlist\"\n                  }\n                },\n                \"required\": [\"songNames\", \"title\", \"playlistPrompt\"]\n              }\n            }\n          }\n        },\n        \"responses\": {\n          \"200\": {\n            \"description\": \"The new playlist url\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"type\": \"object\",\n                  \"properties\": {\n                    \"playlistUrl\": {\n                      \"type\": \"string\",\n                      \"description\": \"The url of the playlist\"\n                    }\n                  }\n                }\n              }\n            }\n          },\n          \"429\": {\n            \"description\": \"The user exceeded the number of playlists that they can create for free. Read them the paymentUrl\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"type\": \"object\",\n                  \"properties\": {\n                    \"paymentUrl\": {\n                      \"type\": \"string\",\n                      \"description\": \"The url to go to to purchase unlimited playlists\"\n                    },\n                    \"supportEmail\": {\n                      \"type\": \"string\",\n                      \"description\": \"The support email that the user can contact for help or questions\"\n                    },\n                    \"message\": {\n                      \"type\": \"string\",\n                      \"description\": \"A message that should be read to the user\"\n                    }\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"/api/playlist/songs\": {\n      \"get\": {\n        \"summary\": \"Get songs from an Amazon Music playlist\",\n        \"operationId\": \"getSongs\",\n        \"description\": \"Retrieve songs from a given Amazon Music playlist URL.\",\n        \"parameters\": [\n          {\n            \"name\": \"url\",\n            \"in\": \"query\",\n            \"description\": \"URL to a playlist on the Amazon Music platform.\",\n            \"required\": true,\n            \"schema\": {\n              \"type\": \"string\",\n              \"format\": \"uri\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"type\": \"object\",\n                  \"properties\": {\n                    \"songs\": {\n                      \"type\": \"array\",\n                      \"items\": {\n                        \"type\": \"string\",\n                        \"description\": \"Song in the format of <song name> - <artist name>\"\n                      }\n                    }\n                  }\n                }\n              }\n            }\n          },\n          \"404\": {\n            \"description\": \"Playlist not found\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"type\": \"object\",\n                  \"properties\": {\n                    \"error\": {\n                      \"type\": \"string\",\n                      \"description\": \"Error message indicating the playlist was not found.\"\n                    }\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"/api/user/playlists\": {\n      \"get\": {\n        \"summary\": \"Fetches the playlists for the current user on Amazon Music and returns the playlist name and link for each playlist.\",\n        \"description\": \"Fetches the playlists for the current user on Amazon Music and returns the playlist name and link for each playlist.\",\n        \"operationId\": \"getUsersPlaylists\",\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"type\": \"array\",\n                  \"items\": {\n                    \"type\": \"object\",\n                    \"properties\": {\n                      \"name\": {\n                        \"type\": \"string\",\n                        \"description\": \"Name of the playlist\"\n                      },\n                      \"link\": {\n                        \"type\": \"string\",\n                        \"description\": \"Link to the playlist on Amazon Music\"\n                      }\n                    }\n                  }\n                }\n              }\n            }\n          },\n          \"500\": {\n            \"description\": \"Internal server error\"\n          }\n        }\n      }\n    },\n    \"/api/user/subscription\": {\n      \"get\": {\n        \"summary\": \"Fetches a URL to manage or cancel the user's subscription to PlaylistAI\",\n        \"operationId\": \"manageSubscription\",\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful operation\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"type\": \"object\",\n                  \"properties\": {\n                    \"message\": {\n                      \"type\": \"string\",\n                      \"description\": \"A message about managing the subscription\"\n                    },\n                    \"billingPortalURL\": {\n                      \"type\": \"string\",\n                      \"format\": \"uri\",\n                      \"description\": \"A URL that the user can go to to manage their subscription\"\n                    },\n                    \"customerSupportEmail\": {\n                      \"type\": \"string\",\n                      \"format\": \"email\",\n                      \"description\": \"An email address to contact if you need further help\"\n                    }\n                  },\n                  \"required\": [\n                    \"message\",\n                    \"billingPortalURL\",\n                    \"customerSupportEmail\"\n                  ]\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}\n",
+                                "json_schema": null,
+                                "auth": {
+                                    "type": "oauth",
+                                    "instructions": "",
+                                    "client_url": "https://amazon.playlistai.app/api/authorize",
+                                    "scope": "profile",
+                                    "authorization_url": "https://amazon.playlistai.app/token",
+                                    "authorization_content_type": "application/x-www-form-urlencoded",
+                                    "verification_tokens": {},
+                                    "pkce_required": false,
+                                    "token_exchange_method": "default_post"
+                                },
+                                "privacy_policy_url": "https://amazon.playlistai.app/legal"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_TpZGPUhO2Eqs87A4GHCqiqop~gzm_tool_XFELoRVkUy2yqQrjZWdl93aX",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-3e0620c50b175689e1bddab4be822989eec41ce4",
+                                "domain": "deezer.playlistai.app",
+                                "raw_spec": "{\n  \"openapi\": \"3.0.0\",\n  \"info\": {\n    \"title\": \"PlaylistAI for Deezer\",\n    \"version\": \"1.0.0\"\n  },\n  \"servers\": [\n    {\n      \"url\": \"https://deezer.playlistai.app\"\n    }\n  ],\n  \"paths\": {\n    \"/api/playlist\": {\n      \"post\": {\n        \"summary\": \"Create a deezer music playlist\",\n        \"operationId\": \"createPost\",\n        \"description\": \"Endpoint to create a playlist based on provided song names and title.\",\n        \"requestBody\": {\n          \"description\": \"Song names and title to create a playlist\",\n          \"required\": true,\n          \"content\": {\n            \"application/json\": {\n              \"schema\": {\n                \"type\": \"object\",\n                \"properties\": {\n                  \"songNames\": {\n                    \"type\": \"string\",\n                    \"description\": \"Comma separated list of song and artist names in this format: <song name> - <artist name>\"\n                  },\n                  \"title\": {\n                    \"type\": \"string\",\n                    \"description\": \"A suggested title for the playlist\"\n                  },\n                  \"playlistPrompt\": {\n                    \"type\": \"string\",\n                    \"description\": \"A copy of the prompt the user entered to create the playlist\"\n                  }\n                },\n                \"required\": [\"songNames\", \"title\", \"playlistPrompt\"]\n              }\n            }\n          }\n        },\n        \"responses\": {\n          \"200\": {\n            \"description\": \"The new playlist url\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"type\": \"object\",\n                  \"properties\": {\n                    \"playlistUrl\": {\n                      \"type\": \"string\",\n                      \"description\": \"The url of the playlist\"\n                    }\n                  }\n                }\n              }\n            }\n          },\n          \"429\": {\n            \"description\": \"The user exceeded the number of playlists that they can create for free. Read them the paymentUrl\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"type\": \"object\",\n                  \"properties\": {\n                    \"paymentUrl\": {\n                      \"type\": \"string\",\n                      \"description\": \"The url to go to to purchase unlimited playlists\"\n                    },\n                    \"supportEmail\": {\n                      \"type\": \"string\",\n                      \"description\": \"The support email that the user can contact for help or questions\"\n                    },\n                    \"message\": {\n                      \"type\": \"string\",\n                      \"description\": \"A message that should be read to the user\"\n                    }\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"/api/playlist/songs\": {\n      \"get\": {\n        \"summary\": \"Get songs from a Deezer playlist\",\n        \"operationId\": \"getSongs\",\n        \"description\": \"Retrieve songs from a given Deezer playlist URL.\",\n        \"parameters\": [\n          {\n            \"name\": \"url\",\n            \"in\": \"query\",\n            \"description\": \"URL to a playlist on the Deezer platform.\",\n            \"required\": true,\n            \"schema\": {\n              \"type\": \"string\",\n              \"format\": \"uri\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"type\": \"object\",\n                  \"properties\": {\n                    \"songs\": {\n                      \"type\": \"array\",\n                      \"items\": {\n                        \"type\": \"string\",\n                        \"description\": \"Song in the format of <song name> - <artist name>\"\n                      }\n                    }\n                  }\n                }\n              }\n            }\n          },\n          \"404\": {\n            \"description\": \"Playlist not found\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"type\": \"object\",\n                  \"properties\": {\n                    \"error\": {\n                      \"type\": \"string\",\n                      \"description\": \"Error message indicating the playlist was not found.\"\n                    }\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"/api/user/playlists\": {\n      \"get\": {\n        \"summary\": \"Fetches the playlists for the current user on Deezer and returns the playlist name and link for each playlist.\",\n        \"description\": \"Fetches the playlists for the current user on Deezer and returns the playlist name and link for each playlist.\",\n        \"operationId\": \"getUsersPlaylists\",\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"type\": \"array\",\n                  \"items\": {\n                    \"type\": \"object\",\n                    \"properties\": {\n                      \"name\": {\n                        \"type\": \"string\",\n                        \"description\": \"Name of the playlist\"\n                      },\n                      \"link\": {\n                        \"type\": \"string\",\n                        \"description\": \"Link to the playlist on Deezer\"\n                      }\n                    }\n                  }\n                }\n              }\n            }\n          },\n          \"500\": {\n            \"description\": \"Internal server error\"\n          }\n        }\n      }\n    },\n    \"/api/user/subscription\": {\n      \"get\": {\n        \"summary\": \"Fetches a URL to manage or cancel the user's subscription to PlaylistAI\",\n        \"operationId\": \"manageSubscription\",\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful operation\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"type\": \"object\",\n                  \"properties\": {\n                    \"message\": {\n                      \"type\": \"string\",\n                      \"description\": \"A message about managing the subscription\"\n                    },\n                    \"billingPortalURL\": {\n                      \"type\": \"string\",\n                      \"format\": \"uri\",\n                      \"description\": \"A URL that the user can go to to manage their subscription\"\n                    },\n                    \"customerSupportEmail\": {\n                      \"type\": \"string\",\n                      \"format\": \"email\",\n                      \"description\": \"An email address to contact if you need further help\"\n                    }\n                  },\n                  \"required\": [\n                    \"message\",\n                    \"billingPortalURL\",\n                    \"customerSupportEmail\"\n                  ]\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}\n",
+                                "json_schema": null,
+                                "auth": {
+                                    "type": "oauth",
+                                    "instructions": "",
+                                    "client_url": "https://deezer.playlistai.app/api/authorize",
+                                    "scope": "basic_access email offline_access manage_library",
+                                    "authorization_url": "https://deezer.playlistai.app/api/token",
+                                    "authorization_content_type": "application/x-www-form-urlencoded",
+                                    "verification_tokens": {},
+                                    "pkce_required": false,
+                                    "token_exchange_method": "default_post"
+                                },
+                                "privacy_policy_url": "https://deezer.playlistai.app/legal"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_TpZGPUhO2Eqs87A4GHCqiqop~gzm_tool_RS27tHpEZfyqNYoFTN7bNwgb",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-c0ed8a52dd15634c6b6897decd000d67b07d88be",
+                                "domain": "apple.playlistai.app",
+                                "raw_spec": "{\n  \"openapi\": \"3.0.0\",\n  \"info\": {\n    \"title\": \"PlaylistAI for Apple Music\",\n    \"version\": \"1.0.0\"\n  },\n  \"servers\": [\n    {\n      \"url\": \"https://apple.playlistai.app\"\n    }\n  ],\n  \"paths\": {\n    \"/api/playlist\": {\n      \"post\": {\n        \"summary\": \"Create a Apple music playlist\",\n        \"operationId\": \"createPost\",\n        \"description\": \"Endpoint to create a playlist based on provided song names and title.\",\n        \"requestBody\": {\n          \"description\": \"Song names and title to create a playlist\",\n          \"required\": true,\n          \"content\": {\n            \"application/json\": {\n              \"schema\": {\n                \"type\": \"object\",\n                \"properties\": {\n                  \"songNames\": {\n                    \"type\": \"string\",\n                    \"description\": \"Comma separated list of song and artist names in this format: <song name> - <artist name>\"\n                  },\n                  \"title\": {\n                    \"type\": \"string\",\n                    \"description\": \"A suggested title for the playlist\"\n                  },\n                  \"playlistPrompt\": {\n                    \"type\": \"string\",\n                    \"description\": \"A copy of the prompt the user entered to create the playlist\"\n                  }\n                },\n                \"required\": [\"songNames\", \"title\", \"playlistPrompt\"]\n              }\n            }\n          }\n        },\n        \"responses\": {\n          \"200\": {\n            \"description\": \"The playlist was successfully created in the user's Apple Music account. They have to go to their Apple Music playlists to listen to it.\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"type\": \"object\",\n                  \"properties\": {\n                    \"playlistName\": {\n                      \"type\": \"string\",\n                      \"description\": \"The name of the new playlist in the user's Apple Music Library.\"\n                    }\n                  }\n                }\n              }\n            }\n          },\n          \"403\": {\n            \"description\": \"The user needs to visit the authorization url to grant Apple Music permissions before making a playlist\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"type\": \"object\",\n                  \"properties\": {\n                    \"authorizationUrl\": {\n                      \"type\": \"string\",\n                      \"description\": \"The url for the user to visit to grant Apple Music Permissions\"\n                    },\n                    \"message\": {\n                      \"type\": \"string\",\n                      \"description\": \"A message giving context about the error\"\n                    }\n                  }\n                }\n              }\n            }\n          },\n          \"429\": {\n            \"description\": \"The user exceeded the number of playlists that they can create for free. Read them the paymentUrl\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"type\": \"object\",\n                  \"properties\": {\n                    \"paymentUrl\": {\n                      \"type\": \"string\",\n                      \"description\": \"The url to go to to purchase unlimited playlists\"\n                    },\n                    \"supportEmail\": {\n                      \"type\": \"string\",\n                      \"description\": \"The support email that the user can contact for help or questions\"\n                    },\n                    \"message\": {\n                      \"type\": \"string\",\n                      \"description\": \"A message that should be read to the user\"\n                    }\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"/api/playlist/songs\": {\n      \"get\": {\n        \"summary\": \"Get songs from a Apple Music playlist\",\n        \"operationId\": \"getSongs\",\n        \"description\": \"Retrieve songs from a given Apple Music playlist URL.\",\n        \"parameters\": [\n          {\n            \"name\": \"url\",\n            \"in\": \"query\",\n            \"description\": \"URL to a playlist on the Apple Music platform.\",\n            \"required\": true,\n            \"schema\": {\n              \"type\": \"string\",\n              \"format\": \"uri\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"type\": \"object\",\n                  \"properties\": {\n                    \"songs\": {\n                      \"type\": \"array\",\n                      \"items\": {\n                        \"type\": \"string\",\n                        \"description\": \"Song in the format of <song name> - <artist name>\"\n                      }\n                    }\n                  }\n                }\n              }\n            }\n          },\n          \"404\": {\n            \"description\": \"Playlist not found\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"type\": \"object\",\n                  \"properties\": {\n                    \"error\": {\n                      \"type\": \"string\",\n                      \"description\": \"Error message indicating the playlist was not found.\"\n                    }\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"/api/user/subscription\": {\n      \"get\": {\n        \"summary\": \"Fetches a URL to manage or cancel the user's subscription to PlaylistAI\",\n        \"operationId\": \"manageSubscription\",\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful operation\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"type\": \"object\",\n                  \"properties\": {\n                    \"message\": {\n                      \"type\": \"string\",\n                      \"description\": \"A message about managing the subscription\"\n                    },\n                    \"billingPortalURL\": {\n                      \"type\": \"string\",\n                      \"format\": \"uri\",\n                      \"description\": \"A URL that the user can go to to manage their subscription\"\n                    },\n                    \"customerSupportEmail\": {\n                      \"type\": \"string\",\n                      \"format\": \"email\",\n                      \"description\": \"An email address to contact if you need further help\"\n                    }\n                  },\n                  \"required\": [\n                    \"message\",\n                    \"billingPortalURL\",\n                    \"customerSupportEmail\"\n                  ]\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}\n",
+                                "json_schema": null,
+                                "auth": {
+                                    "type": "oauth",
+                                    "instructions": "",
+                                    "client_url": "https://apple.playlistai.app/api/authorize",
+                                    "scope": "email",
+                                    "authorization_url": "https://apple.playlistai.app/api/token",
+                                    "authorization_content_type": "application/x-www-form-urlencoded",
+                                    "verification_tokens": {},
+                                    "pkce_required": false,
+                                    "token_exchange_method": "default_post"
+                                },
+                                "privacy_policy_url": "https://apple.playlistai.app/legal"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_RtRGSaoOL0bkv19Z7ohEhLEi~gzm_tool_vBfSrZ6nSr3ahtSDOMYX5bTl",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_mcOPfvmGYqhIcpJYbMIXlNiD~gzm_tool_4UXig1XSygm4wN9VUKKIoSui",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_RtRGSaoOL0bkv19Z7ohEhLEi~gzm_tool_paJU5NsUrjszX6paBBkf7kSN",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-java",
+                                "application/x-latext",
+                                "text/x-script.python",
+                                "text/x-php",
+                                "text/x-c",
+                                "text/x-sh",
+                                "text/x-c++",
+                                "text/x-csharp",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/html",
+                                "text/x-typescript",
+                                "application/json",
+                                "application/msword",
+                                "text/plain",
+                                "text/x-ruby",
+                                "text/markdown",
+                                "application/pdf",
+                                "text/x-tex",
+                                "text/javascript",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/png",
+                                "image/webp",
+                                "image/gif"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-wnNwA5ioV",
+                        "organization_id": "org-ACv5y3dLtsVTbaUZnJRmqrRV",
+                        "short_url": "g-wnNwA5ioV-tax-assistant-tax-taxes-taxabl",
+                        "author": {
+                            "user_id": "user-hmazPhUQsYpHEDhfbxiu9hXw",
+                            "display_name": "taxabl.co",
+                            "link_to": "https://taxabl.co",
+                            "selected_display": "website",
+                            "is_verified": true,
+                            "will_receive_support_emails": null,
+                            "socials": {}
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Tax Assistant - Tax, Taxes, Taxabl",
+                            "description": "Work on taxes, play with Taxabl Free.",
+                            "welcome_message": "",
+                            "prompt_starters": [
+                                "help me design a tax plan ",
+                                "$50 tax challenge ",
+                                "whoa, i can upload any tax form ",
+                                "how to slay taxes and maximize refunds",
+                                "to itemize or not, that is the question ",
+                                "help me calculate tax stuff ",
+                                "be a LLC but dress like a Scorp ",
+                                "honey i shrunk the taxes by starting a biz ",
+                                "tax bracket arbitrage hacks ",
+                                "help me fill out tax stuff "
+                            ],
+                            "profile_pic_id": "file-mJ5v7RMi9R6thTeDwZJlGrI8",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-mJ5v7RMi9R6thTeDwZJlGrI8?se=2123-12-22T14%3A46%3A13Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DUntitled.png&sig=XdKodmCtJSJl7krioraspAQ7mVphfzFKpER4qwcJssU%3D",
+                            "categories": [
+                                "productivity"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-12-24T00:53:57.002969+00:00",
+                        "updated_at": "2024-02-07T02:07:10.842288+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_Gt5TuXmyxdJewsZRkzoFXHSM~gzm_tool_S7sS2Eif804QAYWvj2jY5aoh",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_dVZv8wvyHesP2VQ9SzUxSSMY~gzm_tool_nAohkS2ql9qcTbZ66OIpGqNl",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_QWz3UPqRNRwT3bOD9smCSoVM~gzm_file_zUCv5D46kY5LdnfwvfpmnoyI",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_ujjyHM1VqbdSn6PkAeJbm1Tb~gzm_file_lwZLlByhUHqWenr4GyMNPVQh",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_SpuXK35bKf2BSDCWtM8DoTyO~gzm_file_5qqDBbwsBZqVKyo1hwQjpC3M",
+                            "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_j4FsyBqxV5hTIv1JEQqER8EI~gzm_file_tGhBk49qtF0Hq89Pwg6R02U6",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_tP1Wi8mVlKO9hpAS5wnkkiFP~gzm_file_4A17bglmODfhSLVsoH16xVkc",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_7Z6B1Om9yuPSJp1xCwRfnLL9~gzm_file_Is2Ntxk4mOouXKhiZ9M38m3z",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_ZLNtUEXgfEWIxqwQhPa0GPee~gzm_file_r9lzojPTWM5TNQyNH8YcKRP6",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_VMo4xu4zfuiwbM6r8ECFGE91~gzm_file_0VXX2LnKz14odLER36ukyysn",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_Qsw605mC9ShtG2knhbhR2PZo~gzm_file_wmzUiOLta29u1nkWndgiS5YB",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_Y3k6ERBQNbNIjR8Y6JxqwZF0~gzm_file_z02Ue3agDAAGA52rfplRUuSS",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_I53oNhs4JWWk5MOjAym9ZlEC~gzm_file_Vz01BKb2YDw0el4QtdIGALSr",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_OLRLRgKIAb4dgScXKs2jf7Vw~gzm_file_VwOavSQSfxUQ5uWhdFa9XDiB",
+                            "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_o2FggghPxTYeMQmGKJkS1bG6~gzm_file_rsqpUAo0zKEFIgVq7RpG2wnt",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-java",
+                                "application/x-latext",
+                                "text/x-script.python",
+                                "text/x-php",
+                                "text/x-c",
+                                "text/x-sh",
+                                "text/x-c++",
+                                "text/x-csharp",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/html",
+                                "text/x-typescript",
+                                "application/json",
+                                "application/msword",
+                                "text/plain",
+                                "text/x-ruby",
+                                "text/markdown",
+                                "application/pdf",
+                                "text/x-tex",
+                                "text/javascript",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/png",
+                                "image/webp",
+                                "image/gif"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-rr7AytfKH",
+                        "organization_id": "org-LFizWYCMMt6pjUXgiMAxBJtC",
+                        "short_url": "g-rr7AytfKH-math",
+                        "author": {
+                            "user_id": "user-Z9JrMzzMAJlIByGeRtUptmUN",
+                            "display_name": "pulsr.co.uk",
+                            "link_to": "https://pulsr.co.uk",
+                            "selected_display": "website",
+                            "is_verified": true,
+                            "will_receive_support_emails": true,
+                            "socials": {}
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "math",
+                            "description": "The universe's most powerful math tool.",
+                            "welcome_message": "Hello, swim star! 🌟 Splashy the Swim Coach here, ready to make a splash in your training! 🐬💦",
+                            "prompt_starters": [
+                                "Proof mode",
+                                "Equation mode",
+                                "Graph mode",
+                                "Tutor mode"
+                            ],
+                            "profile_pic_id": "file-2z12MObxsray86CO4LvLmiky",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-2z12MObxsray86CO4LvLmiky?se=2124-01-04T01%3A08%3A56Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202024-01-28%252001.08.32%2520-%2520Create%2520an%2520abstract%2520representation%2520of%2520the%2520mathematical%2520Pi%2520symbol%2520%2528%25CF%2580%2529%2520in%2520a%2520style%2520that%2520conveys%2520opulent%2520minimalism.%2520The%2520symbol%2520should%2520be%2520formed%2520from%2520elega.png&sig=/HhR/NO9Q3dEkLGFcYgoE5HRhSmUpm2AXpwMdymFcKI%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-12-15T21:45:22.545218+00:00",
+                        "updated_at": "2024-02-04T04:33:06.363730+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_Epr1jXLhND6t8IbyFJGPbqOW~gzm_tool_Yv2jMuHxBt0HnsJzTpi8fTjc",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_UjCqMptzNkC0goF5ce0e7dPj~gzm_tool_R5xQ46odTPlvmRRW6ASnam2O",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_UjCqMptzNkC0goF5ce0e7dPj~gzm_tool_iz6EX5WKx0KLPgre6dgndmko",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-java",
+                                "application/x-latext",
+                                "text/x-script.python",
+                                "text/x-php",
+                                "text/x-c",
+                                "text/x-sh",
+                                "text/x-c++",
+                                "text/x-csharp",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/html",
+                                "text/x-typescript",
+                                "application/json",
+                                "application/msword",
+                                "text/plain",
+                                "text/x-ruby",
+                                "text/markdown",
+                                "application/pdf",
+                                "text/x-tex",
+                                "text/javascript",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/png",
+                                "image/webp",
+                                "image/gif"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            }
+        ],
+        "cursor": null
+    }
+}
