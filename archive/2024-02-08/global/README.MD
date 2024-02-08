@@ -1,29 +1,7 @@
-# GPT Store data backup
-
-This project daily scrapes and archives data from the official GPT Store. If you have other data requirements, please open an issue.
-
-<p align="center">
-Powered by
-</p>
-
-<p align="center">
-  <a target="_blank" href="https://gptshunter.com/?utm_source=gptstore-data-backup">
-    <img alt="GPTsHunter" src="https://gptshunter.com/full-logo.svg" width="300">
-  </a>
-</p>
-
-## Latest
-
-[2024-02-08.en.md](/archive/2024-02-08/en/README.MD)
-
-[2024-02-08.global.md](/archive/2024-02-08/global/README.MD)
-
-## Global GPT Leaderboard for 2024-02-08
+# 2024-02-08
 
 
-
-
-### Featured
+## Featured
 
 Curated top picks from this week
 
@@ -960,5 +938,3 @@ No.15
 [**math**](https://chat.openai.com/g/g-rr7AytfKH-math) \
 No.16  
         
-
-      
