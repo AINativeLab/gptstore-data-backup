@@ -15,7 +15,7 @@ No.1 / 1K+
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Drawn to Style" src="https://files.oaiusercontent.com/file-gP54nvFyK44hooUEvYMhJciy?se=2123-10-16T22%3A11%3A38Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dd0377191-2a44-4506-b90a-0e0f03465c0a.png&sig=%2BzFFaYI2Vkq5a/uJSvfamk5XER8EVlYeKQy0qn4lqCs%3D"/>](https://chat.openai.com/g/g-B8Jiuj0Dp-drawn-to-style)
 
 [**Drawn to Style**](https://chat.openai.com/g/g-B8Jiuj0Dp-drawn-to-style) \
-No.2 / 10K+
+No.2 / 25K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Tutor Me" src="https://files.oaiusercontent.com/file-kM163oDkrVnm7jsidA5WweOP?se=2123-11-18T17%3A08%3A03Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DKA_KhanmigoGPT_1_LearnerActivities.png&sig=zSZKBHM7UsdkEyM2CmiYpkdhVAJZWk0qJQle9lPEhdw%3D"/>](https://chat.openai.com/g/g-hRCqiqVlM-tutor-me)
@@ -139,97 +139,97 @@ GPTs created by the ChatGPT team
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="DALL·E" src="https://files.oaiusercontent.com/file-SxYQO0Fq1ZkPagkFtg67DRVb?se=2123-10-12T23%3A57%3A32Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dagent_3.webp&sig=pLlQh8oUktqQzhM09SDDxn5aakqFuM2FAPptuA0mbqc%3D"/>](https://chat.openai.com/g/g-2fkFE8rbu-dall-e)
 
 [**DALL·E**](https://chat.openai.com/g/g-2fkFE8rbu-dall-e) \
-No.1  undefined
+No.1  
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Data Analyst" src="https://files.oaiusercontent.com/file-id374Jq85g2WfDgpuOdAMTEk?se=2123-10-13T00%3A31%3A06Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dagent_2.png&sig=qFnFnFDVevdJL3xvtDE8vysDpTQmkSlF1zhYLAMiqmM%3D"/>](https://chat.openai.com/g/g-HMNcP6w7d-data-analyst)
 
 [**Data Analyst**](https://chat.openai.com/g/g-HMNcP6w7d-data-analyst) \
-No.2  undefined
+No.2  
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Hot Mods" src="https://files.oaiusercontent.com/file-wOlP7l6RXZJ4YvZq3pUAqLOY?se=2123-10-13T04%3A59%3A43Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3DHotMods.png&sig=eayebboHdkASOIpNoSeDCqC9o5/XYCmjaV/oYy2%2BsmQ%3D"/>](https://chat.openai.com/g/g-fTA4FQ7wj-hot-mods)
 
 [**Hot Mods**](https://chat.openai.com/g/g-fTA4FQ7wj-hot-mods) \
-No.3  undefined
+No.3  
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Creative Writing Coach" src="https://files.oaiusercontent.com/file-KSheuuQR8UjcxzFjjSfjfEOP?se=2123-10-13T00%3A52%3A56Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dcreative-writing.png&sig=MA3AFe4yhExdlgBje00y4%2BCLHpBkJ%2BUQKkiwknp46as%3D"/>](https://chat.openai.com/g/g-lN1gKFnvL-creative-writing-coach)
 
 [**Creative Writing Coach**](https://chat.openai.com/g/g-lN1gKFnvL-creative-writing-coach) \
-No.4  undefined
+No.4  
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Coloring Book Hero" src="https://files.oaiusercontent.com/file-MQvRHYzyhxlHQxjUk1bOIjaO?se=2123-10-13T17%3A23%3A32Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202023-10-08%252020.15.58%2520-%2520Line%2520art%2520depiction%2520of%2520ghost%2520squids%2520hovering%2520near%2520an%2520underwater%2520shipwreck.%2520Clownfish%2520wear%2520phantom%2520masks%252C%2520and%2520turtles%2520have%2520Dracula%2520capes.%2520The%2520compositio.png&sig=e5MMoyC9BRd0ui7hfDfueOH%2Bp2Lwyss24d1ahnZhHCQ%3D"/>](https://chat.openai.com/g/g-DerYxX7rA-coloring-book-hero)
 
 [**Coloring Book Hero**](https://chat.openai.com/g/g-DerYxX7rA-coloring-book-hero) \
-No.5  undefined
+No.5  
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Planty" src="https://files.oaiusercontent.com/file-mQg3Ip5yicSVcDciY7kPxnIc?se=2123-12-15T16%3A38%3A45Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dcf523198-c20a-4ca3-b18e-311bdcdd7127.png&sig=AknbZzhED5Wdtae6OAchwn5eBrCrQDTs/wu/M3jfBjU%3D"/>](https://chat.openai.com/g/g-6PKrcgTBL-planty)
 
 [**Planty**](https://chat.openai.com/g/g-6PKrcgTBL-planty) \
-No.6  undefined
+No.6  
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="ChatGPT Classic" src="https://files.oaiusercontent.com/file-i9IUxiJyRubSIOooY5XyfcmP?se=2123-10-13T01%3A11%3A31Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dgpt-4.jpg&sig=ZZP%2B7IWlgVpHrIdhD1C9wZqIvEPkTLfMIjx4PFezhfE%3D"/>](https://chat.openai.com/g/g-YyyyMT9XH-chatgpt-classic)
 
 [**ChatGPT Classic**](https://chat.openai.com/g/g-YyyyMT9XH-chatgpt-classic) \
-No.7  undefined
+No.7  
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Web Browser" src="https://files.oaiusercontent.com/file-3t4EXPvrgqocPOe7UtRwV5g0?se=2123-10-08T02%3A41%3A51Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dagent_1.png&sig=7Brxlagrbu8xb9dnLNJZzmKl24D8mgWo6yHeGgXGT%2B8%3D"/>](https://chat.openai.com/g/g-3w1rEXGE0-web-browser)
 
 [**Web Browser**](https://chat.openai.com/g/g-3w1rEXGE0-web-browser) \
-No.8  undefined
+No.8  
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Game Time" src="https://files.oaiusercontent.com/file-JxYoHzuJQ2TXHBYy6UGC4Xs8?se=2123-10-13T00%3A46%3A49Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dc0bba883-a507-42dd-acfd-211509efd97c.png&sig=jZeFDXgC4ZbNC8mVNuQK7zeKS7ssRCh5QTlqa81WJEM%3D"/>](https://chat.openai.com/g/g-Sug6mXozT-game-time)
 
 [**Game Time**](https://chat.openai.com/g/g-Sug6mXozT-game-time) \
-No.9  undefined
+No.9  
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="The Negotiator" src="https://files.oaiusercontent.com/file-MjvVb8L9Se5PdSC1gMLopCHh?se=2123-10-13T00%3A50%3A51Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dnegotiator.png&sig=GDq28k4lIHIZbvXfm9PjQerwO1kGUnkNn6a5aQD/7/M%3D"/>](https://chat.openai.com/g/g-TTTAK9GuS-the-negotiator)
 
 [**The Negotiator**](https://chat.openai.com/g/g-TTTAK9GuS-the-negotiator) \
-No.10  undefined
+No.10  
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Cosmic Dream" src="https://files.oaiusercontent.com/file-M12eDkWHmobmgj5mhcWkMMVI?se=2123-10-13T07%3A48%3A21Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D28de0bdd-4c74-45a4-8d52-0fac85aea31a.png&sig=KdG%2BVt6/480jvqtjdwa4DulLX7BRqVN6FQfuuS9QaVI%3D"/>](https://chat.openai.com/g/g-FdMHL1sNo-cosmic-dream)
 
 [**Cosmic Dream**](https://chat.openai.com/g/g-FdMHL1sNo-cosmic-dream) \
-No.11  undefined
+No.11  
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Tech Support Advisor" src="https://files.oaiusercontent.com/file-soqNFMszjoxK9d3BFD3rAGA5?se=2123-10-13T00%3A53%3A58Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3DTechSupport.jpg&sig=ztG5CVAIZeK5/C/wQkWdewTJVlXtRmmSRd5Z7XRsJ04%3D"/>](https://chat.openai.com/g/g-WKIaLGGem-tech-support-advisor)
 
 [**Tech Support Advisor**](https://chat.openai.com/g/g-WKIaLGGem-tech-support-advisor) \
-No.12  undefined
+No.12  
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Laundry Buddy" src="https://files.oaiusercontent.com/file-A2WHofOnsYQ8FF6nnlvOVXCv?se=2123-10-13T00%3A55%3A09Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dlaundry-buddy.png&sig=dKwxpIQ1PTMFGHqg72Yipf8HYFr8O2hmyu93VskBalM%3D"/>](https://chat.openai.com/g/g-QrGDSn90Q-laundry-buddy)
 
 [**Laundry Buddy**](https://chat.openai.com/g/g-QrGDSn90Q-laundry-buddy) \
-No.13  undefined
+No.13  
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Sous Chef" src="https://files.oaiusercontent.com/file-w4J3XQ5bnIbssMVHKXZskSJB?se=2123-10-13T00%3A56%3A45Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3DSousChef.jpg&sig=0SOuTgsd12ovY7zAHHfi84iLDi4wTFI0Qf%2Bv8nA%2B9No%3D"/>](https://chat.openai.com/g/g-3VrgJ1GpH-sous-chef)
 
 [**Sous Chef**](https://chat.openai.com/g/g-3VrgJ1GpH-sous-chef) \
-No.14  undefined
+No.14  
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Math Mentor" src="https://files.oaiusercontent.com/file-vRLKTttMrbx27eEJWEBVKJwt?se=2123-10-13T01%3A00%3A21Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dmath-mentor.png&sig=%2BS1FfwRE0ifFpK2QDAHtVLhsRzIBoFs/jqcjILyGYt8%3D"/>](https://chat.openai.com/g/g-ENhijiiwK-math-mentor)
 
 [**Math Mentor**](https://chat.openai.com/g/g-ENhijiiwK-math-mentor) \
-No.15  undefined
+No.15  
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Mocktail Mixologist" src="https://files.oaiusercontent.com/file-bRpq5C5YwRMtQGO7xFa3nT40?se=2123-10-13T19%3A41%3A29Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dmocktails.png&sig=8us63D/Hx%2BsAn8u99rsbW5BoihTQQD1eP/jFb6C1KNs%3D"/>](https://chat.openai.com/g/g-PXlrhc1MV-mocktail-mixologist)
 
 [**Mocktail Mixologist**](https://chat.openai.com/g/g-PXlrhc1MV-mocktail-mixologist) \
-No.16  undefined
+No.16  
         
 
 ## DALL·E
@@ -300,7 +300,7 @@ No.10 / 100K+
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Drawn to Style" src="https://files.oaiusercontent.com/file-gP54nvFyK44hooUEvYMhJciy?se=2123-10-16T22%3A11%3A38Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dd0377191-2a44-4506-b90a-0e0f03465c0a.png&sig=%2BzFFaYI2Vkq5a/uJSvfamk5XER8EVlYeKQy0qn4lqCs%3D"/>](https://chat.openai.com/g/g-B8Jiuj0Dp-drawn-to-style)
 
 [**Drawn to Style**](https://chat.openai.com/g/g-B8Jiuj0Dp-drawn-to-style) \
-No.11 / 10K+
+No.11 / 25K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="MJ Prompt Generator (V6)" src="https://files.oaiusercontent.com/file-KAtx8ne11BR9ODHC5MpovfD9?se=2123-12-04T08%3A13%3A41Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202023-12-28%252015.51.23%2520-%2520A%2520simplistic%252C%2520minimalist%2520vector%2520illustration%2520of%2520a%2520sailboat%2520with%2520a%2520single%2520sail%252C%2520gliding%2520on%2520gentle%2520waves.%2520The%2520sailboat%2520is%2520centered%2520in%2520the%2520composition%252C%2520w.png&sig=MPdUjbGgaqnfLg54wu76plXClwFEw2q6lU6cfbd3Hv4%3D"/>](https://chat.openai.com/g/g-tc0eHXdgb-mj-prompt-generator-v6)
