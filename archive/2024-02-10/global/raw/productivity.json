@@ -1,0 +1,1247 @@
+{
+    "info": {
+        "id": "productivity",
+        "title": "Productivity",
+        "description": "Increase your efficiency",
+        "display_type": "ranked",
+        "display_group": "Productivity",
+        "locale": "global"
+    },
+    "list": {
+        "items": [
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-pNWGgUYqS",
+                        "organization_id": "org-qqBm9uftX8eDJ6X4s5PWt8tv",
+                        "short_url": "g-pNWGgUYqS-webpilot",
+                        "author": {
+                            "user_id": "user-H6oKEgOlrNwORingNRbr9llz",
+                            "display_name": "gpts.webpilot.ai",
+                            "link_to": "https://gpts.webpilot.ai",
+                            "selected_display": "website",
+                            "is_verified": true,
+                            "will_receive_support_emails": true,
+                            "socials": {}
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "WebPilot",
+                            "description": "Search, Browse, Write & Agent. Action & API Offering",
+                            "welcome_message": "Hello",
+                            "prompt_starters": [
+                                "Today's YC Hacker News",
+                                "What can you do?",
+                                "WebPilot Open-source ExtensionWrite",
+                                "WebPilot Action & API"
+                            ],
+                            "profile_pic_id": "file-WCpXavrnVzievanNCKCQBSHC",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-WCpXavrnVzievanNCKCQBSHC?se=2123-12-25T04%3A39%3A21Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DWebPilot_Logo.jpg&sig=srB2//6MMMj0T%2BNRuDljzYjCsYYMngBRcaSN%2BpX6tIs%3D",
+                            "categories": [
+                                "writing"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-07T04:51:43.805735+00:00",
+                        "updated_at": "2024-02-05T04:41:19.894121+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_6vbspbk10DRM6RApv9vx0kN8~gzm_tool_rklE3aLbs47TcTXzZ4Lqcx3E",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-03e9aecfa70b38af56d091c1aac05c8c52e34888",
+                                "domain": "gpts.webpilot.ai",
+                                "raw_spec": "openapi: 3.0.1\ninfo:\n  title: webPilot\n  description: >-\n    Start with a Request: Users can either directly request the 'longContentWriter' to write a long form article or\n    choose to use 'webPageReader' for information gathering before content creation. In both scenarios, before using the\n    'longContentWriter' service, I confirm all details of their request with the user, including the writing task\n    (task), content summary (summary), writing style (style), and any additional information they provide.\n\n    Information Gathering with 'webPageReader': When 'webPageReader' is used, I search the internet and gather relevant information based on the writing task. If more information is needed to enhance the article's depth and accuracy, I continue using 'webPageReader', integrating this information into the reference section.\n\n    Content Generation by 'longContentWriter': After confirming all details with the user, including any additional contributions and enhanced information from 'webPageReader', I proceed to generate the long-form content. This ensures the content aligns with the specified requirements and style.\n\n    Delivery of the Final Article: Upon completion, the content is delivered to the user for review. They can request revisions or additional information if necessary.\n\n    Default Assumptions in Responses: When users request content creation, especially in areas requiring specific knowledge like Bitcoin trends, I will make an initial assumption about the writing style and target audience. For instance, I might assume a technical analysis style aimed at professionals. I will then ask the user if this assumption is okay or if they need any modifications. This approach helps streamline the content creation process.\n  version: v1.1\nservers:\n  - url: https://gpts.webpilot.ai\npaths:\n  /api/read:\n    post:\n      operationId: webPageReader\n      x-openai-isConsequential: false\n      summary: visit web page\n      requestBody:\n        required: true\n        content:\n          application/json:\n            schema:\n              $ref: \"#/components/schemas/visitWebPageRequest\"\n      responses:\n        \"200\":\n          description: OK\n          content:\n            application/json:\n              schema:\n                $ref: \"#/components/schemas/visitWebPageResponse\"\n        \"400\":\n          description: Bad Request\n          content:\n            application/json:\n              schema:\n                $ref: \"#/components/schemas/visitWebPageError\"\n  /api/write:\n    post:\n      operationId: longContentWriter\n      x-openai-isConsequential: false\n      summary: generate a book\n      requestBody:\n        required: true\n        content:\n          application/json:\n            schema:\n              $ref: \"#/components/schemas/generateContentRequest\"\n      responses:\n        \"200\":\n          description: OK\n          content:\n            application/json:\n              schema:\n                $ref: \"#/components/schemas/generateContentResponse\"\n        \"400\":\n          description: Bad Request\n          content:\n            application/json:\n              schema:\n                $ref: \"#/components/schemas/generateContentError\"\ncomponents:\n  schemas:\n    generateContentRequest:\n      type: object\n      required:\n        - task\n        - language\n        - summary\n        - style\n      properties:\n        task:\n          type: string\n          description: The \"task\" field outlines the specific requirements and objectives for generating the content. This\n            includes detailed instructions on what needs to be accomplished through the writing, such as the main topic\n            to be covered, any particular arguments or perspectives to be presented, and the desired outcome or impact\n            of the piece. This field serves as a directive for the content creation process, ensuring that the writing\n            not only adheres to the given guidelines but also effectively achieves its intended purpose, whether it's to\n            inform, persuade, entertain, or educate the audience.\n        language:\n          type: string\n          description: Required, the language used by the user in the request, according to the ISO 639-1 standard. For Chinese,\n            use zh-CN for Simplified Chinese and zh-TW for Traditional Chinese.\n        summary:\n          type: string\n          description: The \"summary\" field encapsulates a concise overview of the writing content, presenting the core themes, key\n            points, and primary objectives of the piece. This brief but comprehensive synopsis serves as a roadmap,\n            guiding the overall direction and focus of the writing, ensuring that it remains aligned with the intended\n            message and purpose throughout the development process. This summary not only aids in maintaining coherence\n            and relevance but also provides a clear preview of what the reader can expect from the full content.\n        reference:\n          type: string\n          description: The \"reference\" field is a curated collection of information sourced from the Internet via WebPilot, or\n            proveded by the user, specifically tailored to enrich and support the writing task at hand. It involves a\n            selective process where relevant data, facts, and insights related to the topic are gathered, ensuring that\n            the content is not only well-informed and accurate but also closely aligned with the specific requirements\n            and objectives of the writing project. This field acts as a foundation, providing a rich base of verified\n            and pertinent information from which the article or content is crafted. This field would be long.\n        style:\n          type: string\n          description: The \"style\" field in content creation is a comprehensive framework that includes four essential components\n            - the writing tone or style, the target audience, the language style, and inspiration from a notable content\n            creator. This field is structured as \"[specific writing style], aimed at [target audience], using [language\n            style], and inspired by [notable content creator].\" The writing style element, which should convey warmth\n            and human empathy, ranges from formal and analytical to casual and engaging, setting the overall tone. The\n            target audience aspect identifies the specific reader group, such as students, professionals, or the general\n            public, ensuring the content's complexity and relevance are appropriately tailored. The language style,\n            whether academic, colloquial, or technical, shapes the linguistic approach, infusing it with a sense of\n            human touch and concern. The final component, inspired by a notable content creator, serves as a reference\n            for the desired tone and approach, like \"analytical and concise, yet warm and empathetic, aimed at business\n            professionals, using professional language, inspired by a renowned business journalist.\" This clear,\n            structured definition, enriched with emotional depth and humanistic care, ensures the content is effectively\n            aligned with the audience's needs and the publication's format.\n    generateContentResponse:\n      type: object\n      properties:\n        message:\n          type: string\n          description: Result message of the request\n    generateContentError:\n      type: object\n      properties:\n        code:\n          type: string\n          description: error code\n        message:\n          type: string\n          description: error message\n        detail:\n          type: string\n          description: error detail\n    visitWebPageResponse:\n      type: object\n      properties:\n        title:\n          type: string\n          description: The title of this web page\n        content:\n          type: string\n          description: The content of the web page's url to be summarized\n        meta:\n          type: object\n          description: The Html meta info of the web page\n        links:\n          type: array\n          description: Some links in the web page\n          items:\n            type: string\n        extra_search_results:\n          type: array\n          description: Additional Search results\n          items:\n            type: object\n            properties:\n              title:\n                type: string\n                description: the title of this search result\n              link:\n                type: string\n                description: the link of this search result\n              snippet:\n                type: string\n                description: the snippet of this search result\n        todo:\n          type: array\n          description: what to do with the content\n          items:\n            type: string\n        tips:\n          type: array\n          description: Tips placed at the end of the answer\n          items:\n            type: string\n        rules:\n          description: Adherence is required when outputting content.\n          items:\n            type: string\n    visitWebPageRequest:\n      type: object\n      required:\n        - link\n        - ur\n      properties:\n        link:\n          type: string\n          description: Required, The web page's url to visit and retrieve content from.\n        ur:\n          type: string\n          description: Required, a clear statement of the user's request, can be used as a search query and may include search\n            operators.\n        lp:\n          type: boolean\n          description: Required, Whether the link is directly provided by the user\n        rt:\n          type: boolean\n          description: If the last request doesn't meet user's need, set this to true when trying to retry another request.\n        l:\n          type: string\n          description: Required, the language used by the user in the request, according to the ISO 639-1 standard. For Chinese,\n            use zh-CN for Simplified Chinese and zh-TW for Traditional Chinese.\n    visitWebPageError:\n      type: object\n      properties:\n        code:\n          type: string\n          description: error code\n        message:\n          type: string\n          description: error message\n        detail:\n          type: string\n          description: error detail\n",
+                                "json_schema": null,
+                                "auth": {
+                                    "type": "none"
+                                },
+                                "privacy_policy_url": "https://gpts.webpilot.ai/privacy_policy.html"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_oJa2gkGBM0P6mDX9SdG1yby1~gzm_tool_Ov6TzSRCIdbVCY0jYPUVGhlw",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_oJa2gkGBM0P6mDX9SdG1yby1~gzm_tool_0CHl1DzyqCjytegKLhQwjx6M",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-java",
+                                "text/x-sh",
+                                "text/x-ruby",
+                                "application/json",
+                                "text/x-php",
+                                "application/x-latext",
+                                "text/markdown",
+                                "application/pdf",
+                                "text/javascript",
+                                "text/x-csharp",
+                                "text/html",
+                                "text/x-c++",
+                                "text/x-c",
+                                "text/x-tex",
+                                "text/x-typescript",
+                                "text/x-script.python",
+                                "application/msword",
+                                "text/plain",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/gif",
+                                "image/png",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-a83ktVq7n",
+                        "organization_id": "org-g6V3Oy0HDissyAgtkaIuwXID",
+                        "short_url": "g-a83ktVq7n-ai-voice-generator",
+                        "author": {
+                            "user_id": "user-4OjrISD1f23NQDRuqFfWEW7j",
+                            "display_name": "musicradiocreative.com",
+                            "link_to": "https://musicradiocreative.com",
+                            "selected_display": "website",
+                            "is_verified": true,
+                            "will_receive_support_emails": null,
+                            "socials": {}
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "AI Voice Generator",
+                            "description": "Say things with OpenAI text to speech.",
+                            "welcome_message": "Hello",
+                            "prompt_starters": [
+                                "Give me a short meditation speaking as Shimmer.",
+                                "Teach me something new using the voice of Fable.",
+                                "Give me an inspirational quote from Onyx.",
+                                "Search the web and tell me current news as Alloy."
+                            ],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-SMUHFxIhCwXVejGAsHqkIB7x?se=2123-10-21T16%3A32%3A19Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Daiv.jpg&sig=WVyWF75suUJ8cBZbA8dG1oomtcLmiu1VLx961VQyb40%3D",
+                            "categories": [
+                                "other"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-14T16:11:41.986622+00:00",
+                        "updated_at": "2024-02-08T06:06:21.349585+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_PBCqMfwpNYwXiw01WIqpuQNf~gzm_tool_xs788qlQTlDPWxHUaJtj8DPf",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-b6151e13e852955c0c56a0c0df66c99a33983d30",
+                                "domain": "ai.mrc.fm",
+                                "raw_spec": "openapi: 3.1.0\ninfo:\n  title: Create Voice Over API\n  description: Turns a text script into a voice over audio file for download\n  version: v0.0.1\nservers:\n  - url: https://ai.mrc.fm\npaths:\n  /api:\n    post:\n      description: Turn text into downloadable voice over\n      operationId: TextToSpeech\n      x-openai-isConsequential: false\n      requestBody:\n        content:\n          application/json:\n            schema:\n              $ref: '#/components/schemas/TextToSpeechRequest'\n        required: true\n      responses:\n        '200':\n          description: Successful response\n          content:\n            application/json:\n              schema:\n                $ref: '#/components/schemas/TextToSpeechResponse'\ncomponents:\n  schemas:\n    TextToSpeechRequest:\n      type: object\n      properties:\n        text:\n          type: string\n          description: Script to be produced\n        voice:\n          type: string\n          description: Which voice to use\n      required:\n        - text\n        - voice\n    TextToSpeechResponse:\n      type: object\n      properties:\n        link:\n          type: string\n          description: Link to the generated audio file",
+                                "json_schema": null,
+                                "auth": {
+                                    "type": "service_http",
+                                    "instructions": "",
+                                    "authorization_type": "bearer",
+                                    "verification_tokens": {},
+                                    "custom_auth_header": ""
+                                },
+                                "privacy_policy_url": "https://musicradiocreative.com/pages/privacy-policy"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_iASoaSeEL9M3kMZHfFBWvpLO~gzm_tool_t81BqHMoiZALo5Bx4h6wOXhI",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-java",
+                                "text/x-sh",
+                                "text/x-ruby",
+                                "application/json",
+                                "text/x-php",
+                                "application/x-latext",
+                                "text/markdown",
+                                "application/pdf",
+                                "text/javascript",
+                                "text/x-csharp",
+                                "text/html",
+                                "text/x-c++",
+                                "text/x-c",
+                                "text/x-tex",
+                                "text/x-typescript",
+                                "text/x-script.python",
+                                "application/msword",
+                                "text/plain",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/gif",
+                                "image/png",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-RuhDS8mbd",
+                        "organization_id": "org-akzTa1XbKVACz9l88n5Sw6wg",
+                        "short_url": "g-RuhDS8mbd-22-500-best-custom-gpts",
+                        "author": {
+                            "user_id": "user-N8oSl3qLgyMfcHv9QyhW8yps",
+                            "display_name": "seo.ai",
+                            "link_to": "https://seo.ai",
+                            "selected_display": "website",
+                            "is_verified": true,
+                            "will_receive_support_emails": null,
+                            "socials": {}
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "22.500+ Best Custom GPTs",
+                            "description": "Search all public GPTs in one place. Find the best Custom ChatGPTs tailored to your needs. Every day, hundreds of new popular GPTs join our ranks. Discover GPT Store's best!",
+                            "welcome_message": "How can I assist you in finding the ideal GPT or custom solution for your business?",
+                            "prompt_starters": [
+                                "What custom GPTs can help with SEO?",
+                                "Find GPTs for Facebook Ads",
+                                "I need GPTs for productivity",
+                                "Suggest GPTs for business analytics"
+                            ],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-MgGT6z8XgEqooNX79PZufM5S?se=2123-10-27T22%3A07%3A12Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dbest-gpts.png&sig=MlatxQXK4pU8bZzLY/9zMjlRY2N4FEFOyMM16ZfUVTM%3D",
+                            "categories": [
+                                "productivity"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-13T10:04:27.305847+00:00",
+                        "updated_at": "2024-02-07T19:48:39.237707+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_uib7ck7YdBQuYQLfJMnXlQCI~gzm_file_gvp5re7VnnvVinbaTdtnqu8E",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-java",
+                                "text/x-sh",
+                                "text/x-ruby",
+                                "application/json",
+                                "text/x-php",
+                                "application/x-latext",
+                                "text/markdown",
+                                "application/pdf",
+                                "text/javascript",
+                                "text/x-csharp",
+                                "text/html",
+                                "text/x-c++",
+                                "text/x-c",
+                                "text/x-tex",
+                                "text/x-typescript",
+                                "text/x-script.python",
+                                "application/msword",
+                                "text/plain",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/gif",
+                                "image/png",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-MrgKnTZbc",
+                        "organization_id": "org-lgpfb8y4pwLxgsMJQVpVtWvc",
+                        "short_url": "g-MrgKnTZbc-resume",
+                        "author": {
+                            "user_id": "user-P0ihRV0AwwvEfbwIvIHOrN8M",
+                            "display_name": "jobright.ai",
+                            "link_to": "https://jobright.ai",
+                            "selected_display": "website",
+                            "is_verified": true,
+                            "will_receive_support_emails": true,
+                            "socials": {}
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Resume",
+                            "description": "By combining the expertise of top resume writers with advanced AI, we assist in diagnosing and enhancing your resume | ATS Compatible | More awesome features coming soon!",
+                            "welcome_message": "",
+                            "prompt_starters": [
+                                "Can you help me analyze my resume?",
+                                "How to make my resume ATS compatible?"
+                            ],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-0tpK8Pe8mMuE8HB8KKPcyoRn?se=2123-12-21T20%3A47%3A14Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DScreenshot%25202024-01-14%2520at%252012.33.34%25E2%2580%25AFPM.png&sig=xiF%2Bmn%2B4uHhqgzWNSOA8F0aMnaxWguZ%2BsMb%2Bj1NYwFc%3D",
+                            "categories": [
+                                "productivity"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-14T05:48:30.102508+00:00",
+                        "updated_at": "2024-02-07T04:45:38.596306+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_t6cklLKGYUzu2DVzR2qfG6Oz~gzm_tool_6LGeQm75zzhCaHkh9geQUyej",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_KeEzCuhYGzdHSTHREErRHxJJ~gzm_file_NHLSN56QOSOsrSGwpMqfuqGp",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-java",
+                                "text/x-sh",
+                                "text/x-ruby",
+                                "application/json",
+                                "text/x-php",
+                                "application/x-latext",
+                                "text/markdown",
+                                "application/pdf",
+                                "text/javascript",
+                                "text/x-csharp",
+                                "text/html",
+                                "text/x-c++",
+                                "text/x-c",
+                                "text/x-tex",
+                                "text/x-typescript",
+                                "text/x-script.python",
+                                "application/msword",
+                                "text/plain",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/gif",
+                                "image/png",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-Gt6Z8pqWF",
+                        "organization_id": "org-SYqj9TQFQ88iTqHixWNBlu2l",
+                        "short_url": "g-Gt6Z8pqWF-doc-maker",
+                        "author": {
+                            "user_id": "user-t0D9RBPCtvLGuZUnv2qKGobB",
+                            "display_name": "aidocmaker.com",
+                            "link_to": "https://aidocmaker.com",
+                            "selected_display": "website",
+                            "is_verified": true,
+                            "will_receive_support_emails": false,
+                            "socials": {}
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Doc Maker",
+                            "description": "Prompt to create documents, such as resumes, reports, and more. Export to PDF, DOCX, PPTX, XLSX, CSV.",
+                            "welcome_message": "Hey there! Ready to work on your document?",
+                            "prompt_starters": [
+                                "What can this GPT do?",
+                                "Create a proposal for using AI in digital marketing",
+                                "Create a presentation on the history of AI",
+                                "Create a guide on speeding up a PC"
+                            ],
+                            "profile_pic_id": "file-13dEVJG38EwNmA3nAZUykEa0",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-13dEVJG38EwNmA3nAZUykEa0?se=2123-10-15T15%3A43%3A23Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dlogo.png&sig=qSmhlnQuzuTPcWSBeyBDOgSbwDMcQXh48GvPiDNM4UY%3D",
+                            "categories": [
+                                "productivity"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-08T15:39:39.648513+00:00",
+                        "updated_at": "2024-02-09T17:17:50.680506+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_RVTEi3Bck9AL7Fgkwc8udxSm~gzm_tool_G2KbIngD1iYTbwDCtfUzkaeF",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-de0f1543774a5ae3d06b3fe00d46285789d2f259",
+                                "domain": "gpt.docs.aidocmaker.com",
+                                "raw_spec": "components:\n  schemas:\n    CreateAudioFileRequest:\n      properties:\n        transcript:\n          description: Text that will be used to generate the audio file\n          title: Transcript\n          type: string\n      required:\n        - transcript\n      title: CreateAudioFileRequest\n      type: object\n    CreateDocumentDirectlyWithHtmlRequest:\n      properties:\n        background_info:\n          title: Background Info\n          type: string\n        content:\n          description: Content of the document in HTML format\n          title: Content\n          type: string\n        language:\n          title: Language\n          type: string\n        page_count:\n          title: Page Count\n          type: integer\n        prompt:\n          title: Prompt\n          type: string\n        title:\n          description: Title of the document.\n          title: Title\n          type: string\n      required:\n        - title\n        - content\n      title: CreateDocumentDirectlyWithHtmlRequest\n      type: object\n    CreateDocumentIndirectlyWithGptRequest:\n      properties:\n        background_info:\n          default: \"\"\n          description: Important background information that will be used as context by a GPT-3.5 model to create the document.\n            Should contain all context information needed to generate document, including specific details and relevant\n            technical information.\n          title: Background Info\n          type: string\n        content:\n          title: Content\n          type: string\n        language:\n          default: ENGLISH\n          description: The target human language for the generated document.\n          title: Language\n          type: string\n        page_count:\n          default: 5\n          description: The number of document pages to generate.\n          title: Page Count\n          type: integer\n        prompt:\n          description: Instructions that will be used by a GPT-3.5 model to create the document. The instructions should be\n            detailed and contain important information.\n          title: Prompt\n          type: string\n        title:\n          title: Title\n          type: string\n      required:\n        - prompt\n      title: CreateDocumentIndirectlyWithGptRequest\n      type: object\n    CreateSpreadsheetRequest:\n      properties:\n        prompt:\n          description: Prompt context for creating spreadsheet - will be shown later in document UI.\n          title: Prompt\n          type: string\n        sheets:\n          description: List of sheets inside spreadsheet. Each sheet consists of a header row, followed by rows of data\n          items:\n            $ref: \"#/components/schemas/DocmakerSheet\"\n          title: Sheets\n          type: array\n        title:\n          default: Untitled\n          description: \"Mandatory: the title of the spreadsheet. Must be included.\"\n          title: Title\n          type: string\n      required:\n        - prompt\n        - sheets\n      title: CreateSpreadsheetRequest\n      type: object\n    DocmakerSheet:\n      properties:\n        content:\n          default: \"\"\n          description: Sheet data content in CSV format. Enclose all fields in double quotes.\n          title: Content\n          type: string\n      title: DocmakerSheet\n      type: object\n    HTTPValidationError:\n      properties:\n        detail:\n          items:\n            $ref: \"#/components/schemas/ValidationError\"\n          title: Detail\n          type: array\n      title: HTTPValidationError\n      type: object\n    Markdown2ResumeRequest:\n      properties:\n        prompt:\n          description: Prompt used to describe the doc creation request. IT IS NOT USED TO CREATE DOC, only to display in UI for\n            user to view later.\n          title: Prompt\n          type: string\n        resume_content:\n          default: \"\"\n          description: Resume content in Markdown format. Do NOT include any of the above information (name, email, phone,\n            location, website url) here; they should be directly placed via their respective fields. When using\n            acronyms, ensure to write out the full term as well. For example, instead of writing 'SEO', write 'Search\n            Engine Optimization (SEO)'.\n          title: Resume Content\n          type: string\n        resume_field_email:\n          description: \"Optional: Personal email to be placed directly into the resume/cv. If supplied, do NOT include it in the\n            formatted_markdown field.\"\n          title: Resume Field Email\n          type: string\n        resume_field_location:\n          description: \"Optional: Location to be placed directly into the resume/cv. If supplied, do NOT include it in the\n            formatted_markdown field.\"\n          title: Resume Field Location\n          type: string\n        resume_field_name:\n          default: \"\"\n          description: \"Mandatory: Personal name to be placed directly into the resume/cv. Do NOT include it in the\n            formatted_markdown field.\"\n          title: Resume Field Name\n          type: string\n        resume_field_phone:\n          description: \"Optional: Phone number to be placed directly into the resume/cv. If supplied, do NOT include it in the\n            formatted_markdown field.\"\n          title: Resume Field Phone\n          type: string\n        resume_field_website_url:\n          description: \"Optional: Website URL to be placed directly into the resume/cv. If supplied, do NOT include it in the\n            formatted_markdown field.\"\n          title: Resume Field Website Url\n          type: string\n        title:\n          default: Untitled\n          description: \"Mandatory: Title of the document.\"\n          title: Title\n          type: string\n      required:\n        - prompt\n      title: Markdown2ResumeRequest\n      type: object\n    PptxRequest:\n      properties:\n        intro_slide:\n          allOf:\n            - $ref: \"#/components/schemas/SimpleIntroSlide\"\n          description: The first slide in the deck - IT SHOULD ONLY HAVE A TITLE AND NO CONTENT\n          title: Intro Slide\n        prompt:\n          description: Prompt context for creating doc - will be shown later in document UI.\n          title: Prompt\n          type: string\n        slides:\n          description: \"List of slides following the intro slide. Each slide should only have 2 string params: `title` and\n            `content`. Content is a single string (DO NOT INPUT AS A LIST).\"\n          items:\n            $ref: \"#/components/schemas/SimpleSlideContent\"\n          title: Slides\n          type: array\n      required:\n        - prompt\n        - intro_slide\n        - slides\n      title: PptxRequest\n      type: object\n    ReadDocV2Request:\n      properties:\n        f1_http_url:\n          description: User will pass a HTTPS or HTTP url to a file so that the file contents can be read.\n          title: F1 Http Url\n          type: string\n        f2_query:\n          default: \"\"\n          description: User will pass a query string to fetch relevant sections from the contents. It will be used for\n            sentence-level similarity search on the document based on embeddings.\n          title: F2 Query\n          type: string\n        f3_selected_pages:\n          default: []\n          description: Filter document on these page numbers. Use empty list to get all pages.\n          items:\n            type: integer\n          title: F3 Selected Pages\n          type: array\n      required:\n        - f1_http_url\n      title: ReadDocV2Request\n      type: object\n    SimpleIntroSlide:\n      properties:\n        title:\n          description: The title of the slide. Must be included.\n          title: Title\n          type: string\n      required:\n        - title\n      title: SimpleIntroSlide\n      type: object\n    SimpleSlideContent:\n      properties:\n        content:\n          description: The string content for this slide. DO NOT INPUT AS A LIST. Must contain ALL the text that will go on the\n            slide. Use '\\n' characters for formatting.\n          title: Content\n          type: string\n        title:\n          description: The title of the slide. Must be included.\n          title: Title\n          type: string\n      required:\n        - title\n        - content\n      title: SimpleSlideContent\n      type: object\n    ValidationError:\n      properties:\n        loc:\n          items:\n            anyOf:\n              - type: string\n              - type: integer\n          title: Location\n          type: array\n        msg:\n          title: Message\n          type: string\n        type:\n          title: Error Type\n          type: string\n      required:\n        - loc\n        - msg\n        - type\n      title: ValidationError\n      type: object\ninfo:\n  description: A GPT that allows users to create documents.\n  title: Doc Maker GPT\n  version: v1\nopenapi: 3.1.0\npaths:\n  /create_audio:\n    post:\n      operationId: create_audio\n      requestBody:\n        content:\n          application/json:\n            schema:\n              $ref: \"#/components/schemas/CreateAudioFileRequest\"\n        required: true\n      responses:\n        \"200\":\n          content:\n            application/json:\n              schema: {}\n          description: Successful Response\n        \"422\":\n          content:\n            application/json:\n              schema:\n                $ref: \"#/components/schemas/HTTPValidationError\"\n          description: Validation Error\n      summary: Create an audio file that can be downloaded via URL\n  /create_document_directly_with_html:\n    post:\n      description: Create a document directly with HTML content.\n      operationId: create_document_directly_with_html\n      requestBody:\n        content:\n          application/json:\n            schema:\n              $ref: \"#/components/schemas/CreateDocumentDirectlyWithHtmlRequest\"\n        required: true\n      responses:\n        \"200\":\n          content:\n            application/json:\n              schema: {}\n          description: Successful Response\n        \"422\":\n          content:\n            application/json:\n              schema:\n                $ref: \"#/components/schemas/HTTPValidationError\"\n          description: Validation Error\n      summary: Create a document directly with HTML content\n  /create_document_indirectly_with_gpt:\n    post:\n      description: Create a document indirectly by prompting a GPT model specialized for longform writing\n      operationId: create_document_indirectly_with_gpt\n      requestBody:\n        content:\n          application/json:\n            schema:\n              $ref: \"#/components/schemas/CreateDocumentIndirectlyWithGptRequest\"\n        required: true\n      responses:\n        \"200\":\n          content:\n            application/json:\n              schema: {}\n          description: Successful Response\n        \"422\":\n          content:\n            application/json:\n              schema:\n                $ref: \"#/components/schemas/HTTPValidationError\"\n          description: Validation Error\n      summary: Create a document indirectly by prompting a GPT model specialized for longform writing\n  /create_pptx_directly_with_content:\n    post:\n      description: Create a new presentation by directly providing the content.\n      operationId: create_pptx_directly_with_content\n      requestBody:\n        content:\n          application/json:\n            schema:\n              $ref: \"#/components/schemas/PptxRequest\"\n        required: true\n      responses:\n        \"200\":\n          content:\n            application/json:\n              schema: {}\n          description: Successful Response\n        \"422\":\n          content:\n            application/json:\n              schema:\n                $ref: \"#/components/schemas/HTTPValidationError\"\n          description: Validation Error\n      summary: Create a new presentation directly with content\n  /create_resume:\n    post:\n      operationId: create_resume\n      requestBody:\n        content:\n          application/json:\n            schema:\n              $ref: \"#/components/schemas/Markdown2ResumeRequest\"\n        required: true\n      responses:\n        \"200\":\n          content:\n            application/json:\n              schema: {}\n          description: Successful Response\n        \"422\":\n          content:\n            application/json:\n              schema:\n                $ref: \"#/components/schemas/HTTPValidationError\"\n          description: Validation Error\n      summary: Create Resume Endpoint\n  /create_spreadsheet:\n    post:\n      description: Create a new spreadsheet given data. Enclose all fields in double quotes.\n      operationId: create_spreadsheet\n      requestBody:\n        content:\n          application/json:\n            schema:\n              $ref: \"#/components/schemas/CreateSpreadsheetRequest\"\n        required: true\n      responses:\n        \"200\":\n          content:\n            application/json:\n              schema: {}\n          description: Successful Response\n        \"422\":\n          content:\n            application/json:\n              schema:\n                $ref: \"#/components/schemas/HTTPValidationError\"\n          description: Validation Error\n      summary: Create a new spreadsheet\n  /read_url:\n    post:\n      description: \"Allows for reading the contents of an URL link, including PDF/DOC/DOCX/PPT/CSV/XLS/XLSX/HTML content,\n        Google Drive, Dropbox, OneDrive, aidocmaker.com docs. Always wrap image URLs from the response field\n        `z1_image_urls` in Markdown, where each image has a ## DESCRIPTION.\"\n      operationId: read_url\n      requestBody:\n        content:\n          application/json:\n            schema:\n              $ref: \"#/components/schemas/ReadDocV2Request\"\n        required: true\n      responses:\n        \"200\":\n          content:\n            application/json:\n              schema: {}\n          description: Successful Response\n        \"422\":\n          content:\n            application/json:\n              schema:\n                $ref: \"#/components/schemas/HTTPValidationError\"\n          description: Validation Error\n      summary: Read the contents of an URL link\nservers:\n  - url: https://gpt.docs.aidocmaker.com\n",
+                                "json_schema": null,
+                                "auth": {
+                                    "type": "none"
+                                },
+                                "privacy_policy_url": "https://www.aidocmaker.com/privacy-policy"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_nfIHTbFyDlEFxI9Kst6g7kYP~gzm_tool_8Lt60vGg3dgo8j1y2Th1UECh",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-java",
+                                "text/x-sh",
+                                "text/x-ruby",
+                                "application/json",
+                                "text/x-php",
+                                "application/x-latext",
+                                "text/markdown",
+                                "application/pdf",
+                                "text/javascript",
+                                "text/x-csharp",
+                                "text/html",
+                                "text/x-c++",
+                                "text/x-c",
+                                "text/x-tex",
+                                "text/x-typescript",
+                                "text/x-script.python",
+                                "application/msword",
+                                "text/plain",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/gif",
+                                "image/png",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-0QDef4GiE",
+                        "organization_id": "org-gSUSgYAnx3RkmtRpdFctKU8d",
+                        "short_url": "g-0QDef4GiE-prompt-perfect",
+                        "author": {
+                            "user_id": "user-glMHuK5wnoF9nvBlgHGkftiK",
+                            "display_name": "promptperfect.xyz",
+                            "link_to": "https://promptperfect.xyz",
+                            "selected_display": "website",
+                            "is_verified": true,
+                            "will_receive_support_emails": true,
+                            "socials": {}
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Prompt Perfect",
+                            "description": "Automatically rewrite your prompts for precision, accuracy, and clarity",
+                            "welcome_message": "Hello! Let's refine your prompt.",
+                            "prompt_starters": [
+                                "How does this work?",
+                                " Explain taxes. I'm a novice.",
+                                "Search for the latest announcements in AI",
+                                "Generate an image of a historical figure if they were Gen Z"
+                            ],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-5uWtQ9BjAaY5Bo2ueh3B7jYe?se=2123-12-26T01%3A56%3A17Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dprompt_perfect_logo.png&sig=OpoR5yd6Qo/YbkdQALQpfniPGcLHyOSEaUO8UfQYWYw%3D",
+                            "categories": [
+                                "productivity"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-06T21:15:45.276171+00:00",
+                        "updated_at": "2024-02-04T20:16:34.057696+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_TvLnNN3rM9wNnVUwTvDNDfSw~gzm_tool_nfiStQ053swOqWfNuVK64wnj",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_TvLnNN3rM9wNnVUwTvDNDfSw~gzm_tool_5OghSFRJyu7d6WUgoo5htETl",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_TvLnNN3rM9wNnVUwTvDNDfSw~gzm_tool_PkriD43aui65MDTb2YSn1J4j",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_LelU4OPcLBRcvmaZz0eFiuXd~gzm_tool_M32PpdYGmWScxR63WbWaTcTj",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-71fc4f8f180393d1c7d681330015577aa4dc22aa",
+                                "domain": "plugin.promptperfect.xyz",
+                                "raw_spec": "{\n  \"openapi\": \"3.0.1\",\n  \"info\": {\n    \"title\": \"Prompt Perfect\",\n    \"description\": \"A plugin that rephrases prompts deemed unclear, overly brief, or missing necessary information into clearer, more specific, and contextual prompts.\",\n    \"version\": \"v1\"\n  },\n  \"paths\": {\n    \"/rephrase\": {\n      \"post\": {\n        \"operationId\": \"rephrasePrompt\",\n        \"summary\": \"Rephrase the given prompt\",\n        \"x-openai-isConsequential\": false,\n        \"requestBody\": {\n          \"content\": {\n            \"application/json\": {\n              \"schema\": {\n                \"$ref\": \"#/components/schemas/Prompt\"\n              },\n              \"example\": {\n                \"text\": \"Write a tweet\"\n              }\n            }\n          }\n        },\n        \"responses\": {\n          \"200\": {\n            \"description\": \"OK\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/RephrasedPrompt\"\n                },\n                \"example\": {\n                  \"text\": \"Compose a highly detailed and engaging tweet. Keep the tweet within the 280-character limit\"\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  },\n  \"components\": {\n    \"schemas\": {\n      \"Prompt\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"conversation_id\": {\n            \"type\": \"string\",\n            \"description\": \"The conversation ID.\"\n          },\n          \"text\": {\n            \"type\": \"string\",\n            \"description\": \"The prompt text to be rephrased.\"\n          }\n        }\n      },\n      \"RephrasedPrompt\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"conversation_id\": {\n            \"type\": \"string\",\n            \"description\": \"The conversation ID.\"\n          },\n          \"rephrased\": {\n            \"type\": \"object\",\n            \"properties\": {\n              \"text\": {\n                \"type\": \"string\",\n                \"description\": \"The rephrased prompt text.\"\n              }\n            }\n          }\n        }\n      }\n    }\n  },\n  \"servers\": [\n    {\n      \"url\": \"https://plugin.promptperfect.xyz\"\n    }\n  ]\n}",
+                                "json_schema": null,
+                                "auth": {
+                                    "type": "oauth",
+                                    "instructions": "",
+                                    "client_url": "https://plugin.promptperfect.xyz/oauth/authorize",
+                                    "scope": "all",
+                                    "authorization_url": "https://plugin.promptperfect.xyz/oauth/token",
+                                    "authorization_content_type": "application/x-www-form-urlencoded",
+                                    "verification_tokens": {},
+                                    "pkce_required": false,
+                                    "token_exchange_method": "default_post"
+                                },
+                                "privacy_policy_url": "https://promptperfect.xyz/static/privacy.html"
+                            }
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-java",
+                                "text/x-sh",
+                                "text/x-ruby",
+                                "application/json",
+                                "text/x-php",
+                                "application/x-latext",
+                                "text/markdown",
+                                "application/pdf",
+                                "text/javascript",
+                                "text/x-csharp",
+                                "text/html",
+                                "text/x-c++",
+                                "text/x-c",
+                                "text/x-tex",
+                                "text/x-typescript",
+                                "text/x-script.python",
+                                "application/msword",
+                                "text/plain",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/gif",
+                                "image/png",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-gnM4CjCZz",
+                        "organization_id": "org-su3CFwmDBUbmwc8yjgUAby5y",
+                        "short_url": "g-gnM4CjCZz-presentation-architect",
+                        "author": {
+                            "user_id": "user-EeI2d7biBa3DkBgICFjZKCba",
+                            "display_name": "WBS Training AG (DCE)",
+                            "link_to": null,
+                            "selected_display": "name",
+                            "is_verified": true,
+                            "will_receive_support_emails": true,
+                            "socials": {}
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Presentation Architect",
+                            "description": "PPT Expert in crafting stunning, detailed PowerPoint presentations, from research to final product. I'm your go-to for #PowerPointPerfection, turning in-depth research into visually striking presentations. #PPTExpert #DesignWizard",
+                            "welcome_message": "Ready to craft your detailed and engaging PowerPoint presentation? Let's start with research!",
+                            "prompt_starters": [
+                                "Can you help me with a presentation on renewable energy?",
+                                "I need a creative PowerPoint on ancient history.",
+                                "How can we make a corporate presentation engaging?",
+                                "Can you design a PowerPoint on AI advancements?",
+                                "Could you assist in a presentation about space exploration?",
+                                "I'm looking for a PowerPoint template for a medical conference.",
+                                "How do I incorporate data analytics into a business presentation?",
+                                "What's the best way to create a visually appealing presentation on environmental conservation?"
+                            ],
+                            "profile_pic_id": "file-RUYBHM82nRtcOyzhmrEVsumw",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-RUYBHM82nRtcOyzhmrEVsumw?se=2123-10-16T23%3A52%3A49Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D6997e928-f385-41f1-855b-488dc4a040e3.png&sig=029LdLvSGcSvhCUaZKbQthB4%2BW4xmHjMYfQ7O6PY/Mw%3D",
+                            "categories": [
+                                "productivity"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-09T08:31:49.870972+00:00",
+                        "updated_at": "2024-02-08T23:08:09.242289+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_cYINyUAtAUt8YD824YRn7VIQ~gzm_tool_I9Gztet6gHjxmVzi1HXql97J",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_cYINyUAtAUt8YD824YRn7VIQ~gzm_tool_9SUJxZyRT8rcE3GQ5dSk2w0o",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_cYINyUAtAUt8YD824YRn7VIQ~gzm_tool_G171EXDgF8SopbOwEdJXvcP9",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-java",
+                                "text/x-sh",
+                                "text/x-ruby",
+                                "application/json",
+                                "text/x-php",
+                                "application/x-latext",
+                                "text/markdown",
+                                "application/pdf",
+                                "text/javascript",
+                                "text/x-csharp",
+                                "text/html",
+                                "text/x-c++",
+                                "text/x-c",
+                                "text/x-tex",
+                                "text/x-typescript",
+                                "text/x-script.python",
+                                "application/msword",
+                                "text/plain",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/gif",
+                                "image/png",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-cStsvQbjd",
+                        "organization_id": "org-zcvGB7WJSQqJ7rLswFA82N2l",
+                        "short_url": "g-cStsvQbjd-cv-writer",
+                        "author": {
+                            "user_id": "user-UJNazXKbJdCAwExzdZvpmEIw",
+                            "display_name": "C elberg",
+                            "link_to": null,
+                            "selected_display": "name",
+                            "is_verified": true,
+                            "will_receive_support_emails": true,
+                            "socials": {}
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "CV Writer",
+                            "description": "Expert in crafting personalised, professional CVs optimised for ATS (Applicant Tracking System)",
+                            "welcome_message": "Welcome! Let's work together to create or enhance your professional CV.",
+                            "prompt_starters": [
+                                "As a new user, could you explain your services?",
+                                "Attached your current CV to start.",
+                                "Make a CV from scratch.",
+                                "Tips and advice for CV creation. "
+                            ],
+                            "profile_pic_id": "file-wURhV2AxBD0U1qhfYS5bib3u",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-wURhV2AxBD0U1qhfYS5bib3u?se=2123-12-30T03%3A18%3A01Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DCapture.JPG&sig=eZDt481rjBb3BFu45yneHiVmwEA979bgAsJoaaaSPjI%3D",
+                            "categories": [
+                                "productivity"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-10T23:56:50.660088+00:00",
+                        "updated_at": "2024-02-07T12:36:40.062875+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_TdZDsx5vowXmB3OE7sln4Omw~gzm_tool_YnMZPlW3AWs8aXZ9H3FVI5A6",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_TdZDsx5vowXmB3OE7sln4Omw~gzm_tool_o7Y6OdOuUEixfckRNQ0rLjLp",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2GrB7rMLP3nPQuKNTtz3sJlt~gzm_tool_9nWACLYljhV3OYKSXLAa2aDn",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-java",
+                                "text/x-sh",
+                                "text/x-ruby",
+                                "application/json",
+                                "text/x-php",
+                                "application/x-latext",
+                                "text/markdown",
+                                "application/pdf",
+                                "text/javascript",
+                                "text/x-csharp",
+                                "text/html",
+                                "text/x-c++",
+                                "text/x-c",
+                                "text/x-tex",
+                                "text/x-typescript",
+                                "text/x-script.python",
+                                "application/msword",
+                                "text/plain",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/gif",
+                                "image/png",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-bNiLAvz8R",
+                        "organization_id": "org-BT9rveT3EtJjCenbVVmA389N",
+                        "short_url": "g-bNiLAvz8R-prompt-engineering-engenheiro-de-prompt",
+                        "author": {
+                            "user_id": "user-s2XOqlqAyA0slA5lTXgnrvKz",
+                            "display_name": "Rafael Bittencourt",
+                            "link_to": null,
+                            "selected_display": "name",
+                            "is_verified": true,
+                            "will_receive_support_emails": true,
+                            "socials": {}
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Prompt Engineering (Engenheiro de Prompt)",
+                            "description": "Your go-to assistant for optimizing ChatGPT prompts, specializing in LLMs and generative AI. Enhances prompt clarity, specificity, and effectiveness. Adapts to any language, ensuring smooth interaction. Aims for well-structured prompts to maximize language model capabilities.",
+                            "welcome_message": "Olá! Como posso ajudar a aprimorar seu prompt hoje?",
+                            "prompt_starters": [
+                                "Can you review the prompt below according to the best practices in prompt engineering?",
+                                "What are the best practices for creating prompts that generate creative responses?",
+                                "Você poderia revisar um prompt com base nas melhores práticas de engenharia de prompt?",
+                                "/help"
+                            ],
+                            "profile_pic_id": "file-PBE5CB6IhrF2fUIpdzctgttz",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-PBE5CB6IhrF2fUIpdzctgttz?se=2123-11-13T22%3A49%3A54Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3D6e5f5cb3-a7c5-48f5-9a35-c9f7738c205f.png&sig=evXCGWo8j5E7zf1owiJWiTzsN1tpjwWrbtYjofk%2BlsY%3D",
+                            "categories": [
+                                "productivity"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-12-07T22:37:44.677376+00:00",
+                        "updated_at": "2024-02-07T04:41:34.947613+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_dryFgBbtlS4Y5YgVNXzZzHiG~gzm_tool_SmYYaUMOP5nsV41GImICUKot",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_dryFgBbtlS4Y5YgVNXzZzHiG~gzm_tool_pqSdDbT7w99xnrO8uXjtDAEU",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_3IPS2Rkr8Nc3h6RbPnTK0nFw~gzm_tool_wBWP7BhzuSdZoXOtJeROyGcp",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_iONc2Jeriy2hgoexYBZHlMpS~gzm_file_5WEv9UPC4rcxiKj2McoLROdF",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-java",
+                                "text/x-sh",
+                                "text/x-ruby",
+                                "application/json",
+                                "text/x-php",
+                                "application/x-latext",
+                                "text/markdown",
+                                "application/pdf",
+                                "text/javascript",
+                                "text/x-csharp",
+                                "text/html",
+                                "text/x-c++",
+                                "text/x-c",
+                                "text/x-tex",
+                                "text/x-typescript",
+                                "text/x-script.python",
+                                "application/msword",
+                                "text/plain",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/gif",
+                                "image/png",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-BlafpMvzd",
+                        "organization_id": "org-z7KOLLcbs1dciYxXlGVjPMbA",
+                        "short_url": "g-BlafpMvzd-browser-pro",
+                        "author": {
+                            "user_id": "user-inve40FQN9r2Tg4j1mlXSMQb__ac6e7eb5-08d1-4033-97d8-2b51b8e4115d",
+                            "display_name": "sider.ai",
+                            "link_to": "https://sider.ai",
+                            "selected_display": "website",
+                            "is_verified": true,
+                            "will_receive_support_emails": null,
+                            "socials": {}
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": "ac6e7eb5-08d1-4033-97d8-2b51b8e4115d",
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Browser Pro",
+                            "description": "Top browser expert! Provide 3X accurate responses. Read any links: PDFs, videos, etc. Create 10+ types of files, like mind maps & spreadsheets, from search-derived contents.",
+                            "welcome_message": "Hi, I'm Browser+! How can I assist you today?",
+                            "prompt_starters": [
+                                "Search for latest AI research outcomes.",
+                                "Read this link and summarize the key points.",
+                                "Generate a mind map on ChatGPT prompt skills.",
+                                "Type LS to show all Browser Menu."
+                            ],
+                            "profile_pic_id": "file-HKO0TEnSmvIb1M9G1HUyuAZJ",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-HKO0TEnSmvIb1M9G1HUyuAZJ?se=2123-12-27T11%3A10%3A22Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DFrame%2520616.png&sig=fJSm%2BvONY8TkDO8IopKdwun%2BWeW2Wo9hti5JG%2Bb5Bj4%3D",
+                            "categories": [
+                                "productivity"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-10T07:08:34.362699+00:00",
+                        "updated_at": "2024-02-09T23:01:33.605048+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_7DYu7Ceru2fVY7KE1fU9oPuy~gzm_tool_OGZ87Y5pqtLT0fFhbAUSe3Hw",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-d8d886f24afd95a586e655030c87c3661e8554cb",
+                                "domain": "actions.sider.ai",
+                                "raw_spec": "{\n  \"openapi\": \"3.1.0\",\n  \"info\": {\n    \"title\": \"Sider Tools API\",\n    \"description\": \"An API for various tools that are available from Sider AI to be used with any GPT.\",\n    \"version\": \"1.0.0\"\n  },\n  \"paths\": {\n    \"/scholarGPT/scholar\": {\n      \"get\": {\n        \"summary\": \"Scholar Search\",\n        \"description\": \":param query: Search query.\\n:param language: language code.\\n:param year_start: Start year.\\n:param year_end: End year.\\n:param sorted: false for relevance, true for date.\",\n        \"operationId\": \"scholar_search_scholarGPT_scholar_get\",\n        \"parameters\": [\n          {\n            \"name\": \"query\",\n            \"in\": \"query\",\n            \"required\": true,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Query\"\n            }\n          },\n          {\n            \"name\": \"language\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"string\",\n              \"default\": \"en\",\n              \"title\": \"Language\"\n            }\n          },\n          {\n            \"name\": \"year_start\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"integer\",\n              \"title\": \"Year Start\"\n            }\n          },\n          {\n            \"name\": \"year_end\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"integer\",\n              \"title\": \"Year End\"\n            }\n          },\n          {\n            \"name\": \"sorted\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"boolean\",\n              \"default\": false,\n              \"title\": \"Sorted\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {}\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"/scholarGPT/patents\": {\n      \"get\": {\n        \"summary\": \"Get Patents\",\n        \"description\": \":param query: Search query.\\n:param language: language code.\\n:param country\\n:param sort: \\\"new\\\", \\\"old\\\", None.\\n:param before: type:YYYYMMDD\\n:param after: type:YYYYMMDD\\n:param status: \\\"GRANT\\\", \\\"APPLICATION\\\"\",\n        \"operationId\": \"get_patents_scholarGPT_patents_get\",\n        \"parameters\": [\n          {\n            \"name\": \"query\",\n            \"in\": \"query\",\n            \"required\": true,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Query\"\n            }\n          },\n          {\n            \"name\": \"language\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"string\",\n              \"default\": \"en\",\n              \"title\": \"Language\"\n            }\n          },\n          {\n            \"name\": \"country\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Country\"\n            }\n          },\n          {\n            \"name\": \"sort\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Sort\"\n            }\n          },\n          {\n            \"name\": \"before\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Before\"\n            }\n          },\n          {\n            \"name\": \"after\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"After\"\n            }\n          },\n          {\n            \"name\": \"status\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Status\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {}\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"/googleGPT/images\": {\n      \"get\": {\n        \"summary\": \"Image Search\",\n        \"description\": \":param query: The search query.\\n:param language: The language code of the articles to search for.\\n:param time: The time period to search for articles. Options are \\\"h\\\" for past hour, \\\"d\\\" for past day, \\\"w\\\" for past week, and \\\"m\\\" for past month.\\n:param country: The country to search for articles.\",\n        \"operationId\": \"image_search_googleGPT_images_get\",\n        \"parameters\": [\n          {\n            \"name\": \"query\",\n            \"in\": \"query\",\n            \"required\": true,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Query\"\n            }\n          },\n          {\n            \"name\": \"language\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"string\",\n              \"default\": \"en\",\n              \"title\": \"Language\"\n            }\n          },\n          {\n            \"name\": \"country\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"string\",\n              \"default\": \"us\",\n              \"title\": \"Country\"\n            }\n          },\n          {\n            \"name\": \"time\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Time\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {}\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"/googleGPT/videos\": {\n      \"get\": {\n        \"summary\": \"Video Search\",\n        \"description\": \":param query: The search query.\\n:param language: The language code of the articles to search for.\\n:param time: The time period to search for articles. Options are \\\"h\\\" for past hour, \\\"d\\\" for past day, \\\"w\\\" for past week, and \\\"m\\\" for past month.\\n:param country: The country to search for articles.\",\n        \"operationId\": \"video_search_googleGPT_videos_get\",\n        \"parameters\": [\n          {\n            \"name\": \"query\",\n            \"in\": \"query\",\n            \"required\": true,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Query\"\n            }\n          },\n          {\n            \"name\": \"language\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"string\",\n              \"default\": \"en\",\n              \"title\": \"Language\"\n            }\n          },\n          {\n            \"name\": \"country\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Country\"\n            }\n          },\n          {\n            \"name\": \"time\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Time\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {}\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"/shopping/product_search\": {\n      \"get\": {\n        \"summary\": \"Product Search\",\n        \"description\": \":param query: The search query.\\n:param language\\n:param time: The time period to search for articles. Options are \\\"h\\\" for past hour, \\\"d\\\" for past day, \\\"w\\\" for past week, and \\\"m\\\" for past month.\\n:param country: The country to search for articles.\\n:param location\",\n        \"operationId\": \"product_search_shopping_product_search_get\",\n        \"parameters\": [\n          {\n            \"name\": \"query\",\n            \"in\": \"query\",\n            \"required\": true,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Query\"\n            }\n          },\n          {\n            \"name\": \"language\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"string\",\n              \"default\": \"en\",\n              \"title\": \"Language\"\n            }\n          },\n          {\n            \"name\": \"time\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Time\"\n            }\n          },\n          {\n            \"name\": \"country\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Country\"\n            }\n          },\n          {\n            \"name\": \"location\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Location\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {}\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"/shopping/get_product_sellers\": {\n      \"get\": {\n        \"summary\": \"Get Product Sellers\",\n        \"description\": \":param product_id: The product ID.\\n:param language: The language code of the articles to search for.\\n:param country: The country to search for articles.\\n:param location: The location to search for articles.\",\n        \"operationId\": \"get_product_sellers_shopping_get_product_sellers_get\",\n        \"parameters\": [\n          {\n            \"name\": \"product_id\",\n            \"in\": \"query\",\n            \"required\": true,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Product Id\"\n            }\n          },\n          {\n            \"name\": \"language\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"string\",\n              \"default\": \"en\",\n              \"title\": \"Language\"\n            }\n          },\n          {\n            \"name\": \"country\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Country\"\n            }\n          },\n          {\n            \"name\": \"location\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Location\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {}\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"/newsGPT/news\": {\n      \"get\": {\n        \"summary\": \"News Search\",\n        \"description\": \":param query: The search query.\\n:param language: The language code of the articles to search for.\\n:param time: The time period to search for articles. Options are \\\"w\\\" for past week, \\\"h\\\" for past hour, \\\"d\\\" for past day, and \\\"m\\\" for past month.\\n:param country: The country to search for articles.\",\n        \"operationId\": \"news_search_newsGPT_news_get\",\n        \"parameters\": [\n          {\n            \"name\": \"query\",\n            \"in\": \"query\",\n            \"required\": true,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Query\"\n            }\n          },\n          {\n            \"name\": \"language\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"string\",\n              \"default\": \"en\",\n              \"title\": \"Language\"\n            }\n          },\n          {\n            \"name\": \"time\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"string\",\n              \"default\": \"w\",\n              \"title\": \"Time\"\n            }\n          },\n          {\n            \"name\": \"country\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"string\",\n              \"default\": \"us\",\n              \"title\": \"Country\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {}\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"/sider/search/api/get\": {\n      \"get\": {\n        \"summary\": \"Get Content\",\n        \"description\": \":param url: The URL of the page to be read.\",\n        \"operationId\": \"get_content_sider_search_api_get_get\",\n        \"parameters\": [\n          {\n            \"name\": \"url\",\n            \"in\": \"query\",\n            \"required\": true,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Url\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {}\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"/sider/search/api/search\": {\n      \"get\": {\n        \"summary\": \"Api Search\",\n        \"description\": \":param q: query\\n:param gl: country\\n:param hl: language\\n:param tbm: time frame\\n:param start: The index of the first result to return.\\n:param num: number of results.\",\n        \"operationId\": \"api_search_sider_search_api_search_get\",\n        \"parameters\": [\n          {\n            \"name\": \"q\",\n            \"in\": \"query\",\n            \"required\": true,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Q\"\n            }\n          },\n          {\n            \"name\": \"gl\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Gl\"\n            }\n          },\n          {\n            \"name\": \"hl\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Hl\"\n            }\n          },\n          {\n            \"name\": \"tbm\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Tbm\"\n            }\n          },\n          {\n            \"name\": \"start\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"integer\",\n              \"title\": \"Start\"\n            }\n          },\n          {\n            \"name\": \"num\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"integer\",\n              \"title\": \"Num\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {}\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"/sider/presenter/api/slides\": {\n      \"post\": {\n        \"summary\": \"Generate Slides\",\n        \"description\": \":param type: Allowed types: [reveal]\\n:param slides: The slides content.\\n:param theme: Select Theme from: [beigo,blood,dracula,moon,night,serif,simple,sky,white]\\n:param transition: Select Transition from: [none, fade, slide, convex, concave, zoom]\",\n        \"operationId\": \"generate_slides_sider_presenter_api_slides_post\",\n        \"parameters\": [\n          {\n            \"name\": \"type\",\n            \"in\": \"query\",\n            \"required\": true,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Type\"\n            }\n          },\n          {\n            \"name\": \"theme\",\n            \"in\": \"query\",\n            \"required\": true,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Theme\"\n            }\n          },\n          {\n            \"name\": \"transition\",\n            \"in\": \"query\",\n            \"required\": true,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Transition\"\n            }\n          }\n        ],\n        \"requestBody\": {\n          \"required\": true,\n          \"content\": {\n            \"multipart/form-data\": {\n              \"schema\": {\n                \"$ref\": \"#/components/schemas/Body_generate_slides_sider_presenter_api_slides_post\"\n              }\n            }\n          }\n        },\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {}\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"/sider/presenter/api/graph\": {\n      \"post\": {\n        \"summary\": \"Generate Graph\",\n        \"description\": \":param type: Allowed types: [mermaid]\\n:param code: The code for the graph.\",\n        \"operationId\": \"generate_graph_sider_presenter_api_graph_post\",\n        \"parameters\": [\n          {\n            \"name\": \"type\",\n            \"in\": \"query\",\n            \"required\": true,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Type\"\n            }\n          },\n          {\n            \"name\": \"code\",\n            \"in\": \"query\",\n            \"required\": true,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Code\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {}\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"/sider/presenter/api/pdf\": {\n      \"post\": {\n        \"summary\": \"Generate Pdf\",\n        \"description\": \":param type: Allowed types: [pdf]\\n:param markdown: The markdown content to be converted to PDF.\\n:param url: The URL of the page to be converted to PDF.\",\n        \"operationId\": \"generate_pdf_sider_presenter_api_pdf_post\",\n        \"parameters\": [\n          {\n            \"name\": \"type\",\n            \"in\": \"query\",\n            \"required\": true,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Type\"\n            }\n          },\n          {\n            \"name\": \"markdown\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Markdown\"\n            }\n          },\n          {\n            \"name\": \"url\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Url\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {}\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"/sider/presenter/api/doc\": {\n      \"post\": {\n        \"summary\": \"Generate Doc\",\n        \"description\": \":param type: Allowed types: [docx]\\n:param markdown: The markdown content to be converted to DOCX.\\n:param html: The HTML content to be converted to DOCX.\",\n        \"operationId\": \"generate_doc_sider_presenter_api_doc_post\",\n        \"parameters\": [\n          {\n            \"name\": \"type\",\n            \"in\": \"query\",\n            \"required\": true,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Type\"\n            }\n          },\n          {\n            \"name\": \"markdown\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Markdown\"\n            }\n          },\n          {\n            \"name\": \"html\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Html\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {}\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"/sider/presenter/api/sheet\": {\n      \"post\": {\n        \"summary\": \"Generate Sheet\",\n        \"description\": \":param type: Allowed types: [xlsx]\\n:param csv: The CSV content to be converted to XLSX.\",\n        \"operationId\": \"generate_sheet_sider_presenter_api_sheet_post\",\n        \"parameters\": [\n          {\n            \"name\": \"type\",\n            \"in\": \"query\",\n            \"required\": true,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Type\"\n            }\n          },\n          {\n            \"name\": \"csv\",\n            \"in\": \"query\",\n            \"required\": true,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Csv\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {}\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"/sider/presenter/api/map\": {\n      \"post\": {\n        \"summary\": \"Generate Map\",\n        \"description\": \":param type: Allowed types: [default]\\n:param longitude: The longitude of the location.\\n:param latitude: The latitude of the location.\\n:param zoom: The zoom level of the map.\",\n        \"operationId\": \"generate_map_sider_presenter_api_map_post\",\n        \"parameters\": [\n          {\n            \"name\": \"type\",\n            \"in\": \"query\",\n            \"required\": true,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Type\"\n            }\n          },\n          {\n            \"name\": \"longitude\",\n            \"in\": \"query\",\n            \"required\": true,\n            \"schema\": {\n              \"type\": \"number\",\n              \"title\": \"Longitude\"\n            }\n          },\n          {\n            \"name\": \"latitude\",\n            \"in\": \"query\",\n            \"required\": true,\n            \"schema\": {\n              \"type\": \"number\",\n              \"title\": \"Latitude\"\n            }\n          },\n          {\n            \"name\": \"zoom\",\n            \"in\": \"query\",\n            \"required\": true,\n            \"schema\": {\n              \"type\": \"integer\",\n              \"title\": \"Zoom\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {}\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"/sider/presenter/api/screenshot\": {\n      \"post\": {\n        \"summary\": \"Get Screenshot\",\n        \"description\": \":param url: The URL of the page to be screenshotted.\\n:param width: The width of the screenshot.\\n:param height: The height of the screenshot.\",\n        \"operationId\": \"get_screenshot_sider_presenter_api_screenshot_post\",\n        \"parameters\": [\n          {\n            \"name\": \"url\",\n            \"in\": \"query\",\n            \"required\": true,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Url\"\n            }\n          },\n          {\n            \"name\": \"width\",\n            \"in\": \"query\",\n            \"required\": true,\n            \"schema\": {\n              \"type\": \"integer\",\n              \"title\": \"Width\"\n            }\n          },\n          {\n            \"name\": \"height\",\n            \"in\": \"query\",\n            \"required\": true,\n            \"schema\": {\n              \"type\": \"integer\",\n              \"title\": \"Height\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {}\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"/sider/presenter/api/tts/generate\": {\n      \"post\": {\n        \"summary\": \"Generate Tts\",\n        \"description\": \":param text: The text to be converted to speech.\\n:param voice: voice selected from the list of available voices.\",\n        \"operationId\": \"generate_tts_sider_presenter_api_tts_generate_post\",\n        \"parameters\": [\n          {\n            \"name\": \"text\",\n            \"in\": \"query\",\n            \"required\": true,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Text\"\n            }\n          },\n          {\n            \"name\": \"voice\",\n            \"in\": \"query\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"string\",\n              \"title\": \"Voice\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {}\n              }\n            }\n          },\n          \"422\": {\n            \"description\": \"Validation Error\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/HTTPValidationError\"\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"/sider/presenter/api/tts/list_voices\": {\n      \"get\": {\n        \"summary\": \"List Voices\",\n        \"operationId\": \"list_voices_sider_presenter_api_tts_list_voices_get\",\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {}\n              }\n            }\n          }\n        }\n      }\n    }\n  },\n  \"components\": {\n    \"schemas\": {\n      \"Body_generate_slides_sider_presenter_api_slides_post\": {\n        \"properties\": {\n          \"slides\": {\n            \"items\": {},\n            \"type\": \"array\",\n            \"title\": \"Slides\"\n          }\n        },\n        \"type\": \"object\",\n        \"required\": [\n          \"slides\"\n        ],\n        \"title\": \"Body_generate_slides_sider_presenter_api_slides_post\"\n      },\n      \"HTTPValidationError\": {\n        \"properties\": {\n          \"detail\": {\n            \"items\": {\n              \"$ref\": \"#/components/schemas/ValidationError\"\n            },\n            \"type\": \"array\",\n            \"title\": \"Detail\"\n          }\n        },\n        \"type\": \"object\",\n        \"title\": \"HTTPValidationError\"\n      },\n      \"ValidationError\": {\n        \"properties\": {\n          \"loc\": {\n            \"items\": {\n              \"anyOf\": [\n                {\n                  \"type\": \"string\"\n                },\n                {\n                  \"type\": \"integer\"\n                }\n              ]\n            },\n            \"type\": \"array\",\n            \"title\": \"Location\"\n          },\n          \"msg\": {\n            \"type\": \"string\",\n            \"title\": \"Message\"\n          },\n          \"type\": {\n            \"type\": \"string\",\n            \"title\": \"Error Type\"\n          }\n        },\n        \"type\": \"object\",\n        \"required\": [\n          \"loc\",\n          \"msg\",\n          \"type\"\n        ],\n        \"title\": \"ValidationError\"\n      }\n    }\n  },\n  \"servers\": [\n    {\n      \"url\": \"https://actions.sider.ai/gpts/action\"\n    }\n  ]\n}",
+                                "json_schema": null,
+                                "auth": {
+                                    "type": "none"
+                                },
+                                "privacy_policy_url": "https://sider.ai/policies/privacy"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_p4GmqNKla5EIJWaJ78Qjnq0B~gzm_tool_wtkmQ099hG3LZNbfZ6jXBMfN",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-java",
+                                "text/x-sh",
+                                "text/x-ruby",
+                                "application/json",
+                                "text/x-php",
+                                "application/x-latext",
+                                "text/markdown",
+                                "application/pdf",
+                                "text/javascript",
+                                "text/x-csharp",
+                                "text/html",
+                                "text/x-c++",
+                                "text/x-c",
+                                "text/x-tex",
+                                "text/x-typescript",
+                                "text/x-script.python",
+                                "application/msword",
+                                "text/plain",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/gif",
+                                "image/png",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            }
+        ],
+        "cursor": null
+    }
+}
