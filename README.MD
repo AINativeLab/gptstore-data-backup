@@ -14,9 +14,9 @@ Powered by
 
 ## Latest
 
-[2024-02-11.en.md](/archive/2024-02-11/en/README.MD)
+[2024-02-11.en.md](/archive/2024-02-11/en)
 
-[2024-02-11.global.md](/archive/2024-02-11/global/README.MD)
+[2024-02-11.global.md](/archive/2024-02-11/global)
 
 ## Global GPT Leaderboard for 2024-02-11
 
