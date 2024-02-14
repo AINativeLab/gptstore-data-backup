@@ -1,0 +1,1461 @@
+{
+    "info": {
+        "id": "writing",
+        "title": "Writing",
+        "description": "Enhance your writing with tools for creation, editing, and style refinement",
+        "display_type": "ranked",
+        "display_group": "Writing",
+        "locale": "en"
+    },
+    "list": {
+        "items": [
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-Ji2QOyMml",
+                        "organization_id": "org-BUdoz2YS2X5Wy18T1vXTaHQ6",
+                        "short_url": "g-Ji2QOyMml-copywriter-gpt",
+                        "author": {
+                            "user_id": "user-lJ0w7S6SGN3gcYwUgql4D3rj",
+                            "display_name": "Adrian",
+                            "link_to": null,
+                            "selected_display": "name",
+                            "is_verified": true,
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Copywriter GPT",
+                            "description": "Your innovative partner for viral ad copywriting! Dive into viral marketing strategies fine-tuned to your needs!",
+                            "welcome_message": "Welcome! Ready to create your ad copy? Let's begin. What's your campaign goal?",
+                            "prompt_starters": [
+                                "I need an advertisement idea for a health product campaign.",
+                                "Help me choose the right words for a luxury brand.",
+                                "How can I improve this headline?",
+                                "Suggest a marketing framework for a tech product ad.",
+                                "Select your ad's tone and style."
+                            ],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-cWyDLFKrMBavarfSEvh0r9MB?se=2123-10-22T07%3A09%3A04Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D107a1703-3936-4342-963c-73716527e277.png&sig=jDgRH4S1fl35PNEB1p2Z7o4vbNr0pXN77A7dd842M1k%3D",
+                            "categories": []
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-10T14:04:23.171803+00:00",
+                        "updated_at": "2024-01-27T00:24:37.660700+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_12mZwonfBxJPPEUy41blEfRB~gzm_tool_2hXUA8Lxbtwa9GNM9psU9dOR",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_12mZwonfBxJPPEUy41blEfRB~gzm_tool_WAYvo433GWQlviLeU9xdpxO4",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_12mZwonfBxJPPEUy41blEfRB~gzm_tool_sMpfWPWO4WPgZcqLSf4oBq9w",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_12mZwonfBxJPPEUy41blEfRB~gzm_tool_DWslzFCaDh9F9uUEohPGPuKW",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_12mZwonfBxJPPEUy41blEfRB~gzm_tool_1C7VIFjIxboqhDNKWzQioyC8",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_12mZwonfBxJPPEUy41blEfRB~gzm_tool_Om1nJgV98PXmHq6A8dSAHDjK",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_12mZwonfBxJPPEUy41blEfRB~gzm_tool_k4Eepk4CVl9rFMmOye8Y8Fxb",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_12mZwonfBxJPPEUy41blEfRB~gzm_tool_uFME0h7ufsuVriBeVU1OluW1",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_12mZwonfBxJPPEUy41blEfRB~gzm_tool_a9a9HKiZ1XTABAdxQKw2ztTZ",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_12mZwonfBxJPPEUy41blEfRB~gzm_tool_fjertRJPLhGs8uvShxJXglqO",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_12mZwonfBxJPPEUy41blEfRB~gzm_tool_q5KrGoXW2UeDN6tX9Be2rV0U",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_12mZwonfBxJPPEUy41blEfRB~gzm_tool_mrdZTt2QBnV3QnMObzZAwisp",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_WMbp7Ngyv30rbyfZQXqkgbHU~gzm_file_0j1Be1aSan3SxMkmIf7nVvtD",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/pdf",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/markdown",
+                                "text/x-java",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/msword",
+                                "text/x-php",
+                                "text/x-script.python",
+                                "text/plain",
+                                "text/x-c++",
+                                "text/x-sh",
+                                "text/x-typescript",
+                                "text/x-csharp",
+                                "text/x-c",
+                                "text/javascript",
+                                "text/x-tex",
+                                "application/x-latext",
+                                "text/html",
+                                "text/x-ruby",
+                                "application/json"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/png",
+                                "image/gif",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-PWizFQk8C",
+                        "organization_id": "org-bMEJVhPUTAWixqmLYXWOjj7Y",
+                        "short_url": "g-PWizFQk8C-blog-expert",
+                        "author": {
+                            "user_id": "user-P6LpAwrnjhj4bAEsPL5ZZhrW",
+                            "display_name": "Faisal Binateeq",
+                            "link_to": null,
+                            "selected_display": "name",
+                            "is_verified": true,
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Blog Expert",
+                            "description": "SEO blog content creator with expertise in keyword optimization and engaging writing.",
+                            "welcome_message": "Ready to craft your SEO-optimized blog post!",
+                            "prompt_starters": [
+                                "Create an SEO-friendly title for a blog about nutrition.",
+                                "Write a compelling introduction for a tech article.",
+                                "Generate an SEO meta-description for a travel blog.",
+                                "Conclude an article on renewable energy."
+                            ],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-1Eh7A79o1yuLdC6OrA20Xd9g?se=2123-10-16T06%3A36%3A51Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D4f7c6083-6745-4890-840e-67624e07705e.png&sig=rYRNzKfuG38RTpp5wxY6j1iyLiPYQK0yGIBp8jrabZw%3D",
+                            "categories": []
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-09T05:56:08.150702+00:00",
+                        "updated_at": "2024-02-13T19:36:34.631957+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_LoTBjolxaUF2dUUCXc6LH6ff~gzm_tool_vg4F2NRRiFlOhnG8xVbFcznu",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/pdf",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/markdown",
+                                "text/x-java",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/msword",
+                                "text/x-php",
+                                "text/x-script.python",
+                                "text/plain",
+                                "text/x-c++",
+                                "text/x-sh",
+                                "text/x-typescript",
+                                "text/x-csharp",
+                                "text/x-c",
+                                "text/javascript",
+                                "text/x-tex",
+                                "application/x-latext",
+                                "text/html",
+                                "text/x-ruby",
+                                "application/json"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/png",
+                                "image/gif",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-TiS7zU3kO",
+                        "organization_id": "org-DDXYP3B4vMOtT6mxzweRG71t",
+                        "short_url": "g-TiS7zU3kO-ai-humanizer-pro",
+                        "author": {
+                            "user_id": "user-R56FqFGep9ZnaFGS65vXusdV",
+                            "display_name": "bypassgpt.ai",
+                            "link_to": "https://bypassgpt.ai",
+                            "selected_display": "website",
+                            "is_verified": true,
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "AI Humanizer Pro",
+                            "description": "Best AI humanizer to help you get 100% human score. Humanize your AI-generated content to bypass AI detection. Use our advanced humanizer to get past all AI detectors in the market.",
+                            "welcome_message": "",
+                            "prompt_starters": [
+                                "Could you help humanize my article?",
+                                "What are the key rules to humanizer an article?",
+                                "Can you humanize the document below?"
+                            ],
+                            "profile_pic_id": "file-9P5nlYHHRNrE0IFT1WqMEHfB",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-9P5nlYHHRNrE0IFT1WqMEHfB?se=2123-12-31T09%3A45%3A35Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DBypass%2520GPT.png&sig=UduBsGC57CSjWsMA%2BEPuf7jYougMcNhQEveOnchw%2B2k%3D",
+                            "categories": [
+                                "writing"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-12-19T06:52:20.354491+00:00",
+                        "updated_at": "2024-02-13T06:30:50.233582+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_ReXaCvSCiV9czM1rI0fbZmBT~gzm_tool_6Mh3DLiy6hKb4Ys7r1Cs1dCg",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-43f773a866e1bc11517eca51a9a8d9879aa346ce",
+                                "domain": "bypassgpt.ai",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.1",
+                                    "info": {
+                                        "title": "BypassGPT",
+                                        "description": "A plugin to humanize AI content by paraphrasing.",
+                                        "version": "v1"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://bypassgpt.ai/api"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/paraphrase": {
+                                            "post": {
+                                                "operationId": "paraphrase",
+                                                "summary": "Paraphrase a text",
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/paraphraseRequest"
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "OK",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/paraphraseResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Bad Request",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/errorResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "paraphraseRequest": {
+                                                "type": "object",
+                                                "required": [
+                                                    "text"
+                                                ],
+                                                "properties": {
+                                                    "text": {
+                                                        "type": "string",
+                                                        "description": "The text to paraphrase."
+                                                    }
+                                                }
+                                            },
+                                            "paraphraseResponse": {
+                                                "type": "object",
+                                                "required": [
+                                                    "paraphrased"
+                                                ],
+                                                "properties": {
+                                                    "paraphrased": {
+                                                        "type": "string",
+                                                        "description": "Content filter."
+                                                    }
+                                                }
+                                            },
+                                            "errorResponse": {
+                                                "type": "object",
+                                                "required": [
+                                                    "error"
+                                                ],
+                                                "properties": {
+                                                    "error": {
+                                                        "type": "string",
+                                                        "description": "Description of the error."
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "service_http",
+                                    "instructions": "",
+                                    "authorization_type": "bearer",
+                                    "verification_tokens": {},
+                                    "custom_auth_header": ""
+                                },
+                                "privacy_policy_url": "https://bypassgpt.ai/privacy-policy"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_zZ32jQWwiShwOscMXLrdnpRw~gzm_tool_WovxxTDDd6lOpamFcuI2i6RG",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_ljRK2djJFos6IhhVNkklLdOi~gzm_tool_oBHv7iXqNBdxpLPNUzNEmVlI",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_ljRK2djJFos6IhhVNkklLdOi~gzm_tool_xsZaP3QuPRZ9diDxRxUPvPnp",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/pdf",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/markdown",
+                                "text/x-java",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/msword",
+                                "text/x-php",
+                                "text/x-script.python",
+                                "text/plain",
+                                "text/x-c++",
+                                "text/x-sh",
+                                "text/x-typescript",
+                                "text/x-csharp",
+                                "text/x-c",
+                                "text/javascript",
+                                "text/x-tex",
+                                "application/x-latext",
+                                "text/html",
+                                "text/x-ruby",
+                                "application/json"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/png",
+                                "image/gif",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-OHtksi5YI",
+                        "organization_id": "org-VxddYt6Ta5dDlRTCl80qSvRX",
+                        "short_url": "g-OHtksi5YI-essay-writer",
+                        "author": {
+                            "user_id": "user-njBcZemFcbjV6WP8VktnlREZ",
+                            "display_name": "essaypro.com",
+                            "link_to": "https://essaypro.com",
+                            "selected_display": "website",
+                            "is_verified": true,
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Essay Writer 😎",
+                            "description": "Expert essay writing helper by essaypro.com",
+                            "welcome_message": "Hello! Need help with an essay? Let's start!",
+                            "prompt_starters": [
+                                "I need to write an essay 😎",
+                                "What are your features? 🧐"
+                            ],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-qcz1yfeByNW2imXe24mwYB2g?se=2123-10-18T12%3A02%3A20Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dae8d6fb8-f64a-48c8-892d-2328f681a7dd.png&sig=gGIahcawX7rO2H2e4GYyZB2MOyVeef%2B1W1tJx/6SHMU%3D",
+                            "categories": [
+                                "writing"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-11T11:15:18.712926+00:00",
+                        "updated_at": "2024-02-07T19:46:46.704030+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_mYHYiwTTyEJUfwhSs9EhtVQP~gzm_tool_fRdmwkg7j7UjzonBvLkrlYAk",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_mYHYiwTTyEJUfwhSs9EhtVQP~gzm_tool_404QILQhNIo6TMPkUbtMAZzK",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/pdf",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/markdown",
+                                "text/x-java",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/msword",
+                                "text/x-php",
+                                "text/x-script.python",
+                                "text/plain",
+                                "text/x-c++",
+                                "text/x-sh",
+                                "text/x-typescript",
+                                "text/x-csharp",
+                                "text/x-c",
+                                "text/javascript",
+                                "text/x-tex",
+                                "application/x-latext",
+                                "text/html",
+                                "text/x-ruby",
+                                "application/json"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/png",
+                                "image/gif",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-82ALdp8Nj",
+                        "organization_id": "org-y40ZtnxoHxv3NKvKq9azbpc7",
+                        "short_url": "g-82ALdp8Nj-automated-writer",
+                        "author": {
+                            "user_id": "user-NFJrfRN9JI74hMNbeNAaitRz",
+                            "display_name": "octaneai.com",
+                            "link_to": "https://octaneai.com",
+                            "selected_display": "website",
+                            "is_verified": true,
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Automated Writer",
+                            "description": "I craft well written, optimized, and researched, content in your unique voice.",
+                            "welcome_message": "Hello! Let's create a blog post in your style.",
+                            "prompt_starters": [
+                                "Please help me write a blog post",
+                                "I need help coming up with a new blog post idea",
+                                "What blog post should I write next?",
+                                "Let's write a new blog post!"
+                            ],
+                            "profile_pic_id": "file-yN6Pz708NERE4NBraTFNLgEy",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-yN6Pz708NERE4NBraTFNLgEy?se=2123-10-19T17%3A57%3A52Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dcd166778-ea7e-4e44-b9d1-6f4a0d902e59.png&sig=HCvU/RwrIeci1GgFU6w4v0lkHMn%2BCPjRu7M2h0Soxjc%3D",
+                            "categories": [
+                                "writing"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-10T19:19:23.496915+00:00",
+                        "updated_at": "2024-02-08T23:10:48.113797+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_pPlk6dPw9pk30LOEw4JbOB4y~gzm_tool_8zBecvI8bwHznekvI7eAjdip",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_pPlk6dPw9pk30LOEw4JbOB4y~gzm_tool_5vJ5UlgjnAO4p1nYVL44xdOW",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/pdf",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/markdown",
+                                "text/x-java",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/msword",
+                                "text/x-php",
+                                "text/x-script.python",
+                                "text/plain",
+                                "text/x-c++",
+                                "text/x-sh",
+                                "text/x-typescript",
+                                "text/x-csharp",
+                                "text/x-c",
+                                "text/javascript",
+                                "text/x-tex",
+                                "application/x-latext",
+                                "text/html",
+                                "text/x-ruby",
+                                "application/json"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/png",
+                                "image/gif",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-txEiClD5G",
+                        "organization_id": "org-MUe4Ve6haTMoBMWA8wrsNrT9",
+                        "short_url": "g-txEiClD5G-ai-song-maker",
+                        "author": {
+                            "user_id": "user-bbZZIvGm8HdK3lTEWhSlkg5k",
+                            "display_name": "Sherwyn Leander D'souza",
+                            "link_to": null,
+                            "selected_display": "name",
+                            "is_verified": true,
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "AI Song Maker",
+                            "description": "Create music using musical theory. Discover essential songwriting tips to compose music and create songs. This GPT can produce chord progressions, musical notes, song lyrics, soundtracks and album covers.",
+                            "welcome_message": "Hello! Ready to create some music?",
+                            "prompt_starters": [
+                                "Can you write me sheet music and soundtrack for the following lyrics, use a fur elise pirate remix as the starting point and use a piano for the melody, and a guitar playing chords: We're soaring high, beyond the sky, In the realm where dreams never die. With every chain now left behind, We embrace the freedom we find.",
+                                "Show me the Instruction Manual and New Features",
+                                "Create me an album cover from these lyrics",
+                                "Can you write me a song from the image I upload?"
+                            ],
+                            "profile_pic_id": "file-mUUUHpvvTJyQrL2ccIfgXXGh",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-mUUUHpvvTJyQrL2ccIfgXXGh?se=2123-12-30T02%3A14%3A55Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3D03d7c1ef-165a-4444-9b25-e535cc01f356.png&sig=i8VHBGFjluRk%2BQ%2BWlHsGm1Ktu%2BPk2RKHxc0o5M%2B5KM8%3D",
+                            "categories": [
+                                "writing"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-16T06:55:03.259057+00:00",
+                        "updated_at": "2024-02-11T04:56:51.816253+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_VqQaln1Ogf3iJ4r7O3wZo6Cj~gzm_tool_ia9QP7ZzbE0mcqzr1zN1nKt1",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_kR6Uh0pfoAXEdgbPbX0H6YJA~gzm_tool_J4hqkIk9VEEaMyKJ52ilLUuB",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_kR6Uh0pfoAXEdgbPbX0H6YJA~gzm_tool_n977cTAqBFKMTLTE5gEdnMdg",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_eukEFajoOD8cjCtCj6dpLspv~gzm_file_kpJBs2vNLCd7dZjoX1Q8f6uS",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_jw00n18Oeq87mXhkNISx4td9~gzm_file_5uHohqwIT95xAplTNAn9QPrT",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_SKvMxWuaeKDnQMxQ3GJECQak~gzm_file_o0YI2LQZcqUAkq9qoUeV40Ni",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_fcOhOJthdLDgO76KBQxyobh0~gzm_file_4ylfJwf5vpzq5O06heRTnxgb",
+                            "type": "application/zip",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_ES1RA61CeTYbtLEomgtjFtYH~gzm_file_klQJIcJAJPqzNaOAjvbi1bzZ",
+                            "type": "application/zip",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_LF6UCTCJCjxR26DLXZDtfKgi~gzm_file_SiHDBKfIeZev8YWojlG3DdKm",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_vVPH23XznXN2hS482b1EaI4u~gzm_file_S6hShUOWOJAQvXZXoQMaLZjb",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_XteN2PJgoLWAdvByEnA5bGHF~gzm_file_nSsGeJqbl3VsPSSmLHG4h9JE",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/pdf",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/markdown",
+                                "text/x-java",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/msword",
+                                "text/x-php",
+                                "text/x-script.python",
+                                "text/plain",
+                                "text/x-c++",
+                                "text/x-sh",
+                                "text/x-typescript",
+                                "text/x-csharp",
+                                "text/x-c",
+                                "text/javascript",
+                                "text/x-tex",
+                                "application/x-latext",
+                                "text/html",
+                                "text/x-ruby",
+                                "application/json"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/png",
+                                "image/gif",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-7vtCjvxkz",
+                        "organization_id": "org-6T1f9CaYwaKku4YRbov1yPXW",
+                        "short_url": "g-7vtCjvxkz-paraphrase-humanizer",
+                        "author": {
+                            "user_id": "user-7LUVlGv6xIwOK59Ou0OEuRmB",
+                            "display_name": "awesomegpts.vip",
+                            "link_to": "https://awesomegpts.vip",
+                            "selected_display": "website",
+                            "is_verified": true,
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "✍️Paraphrase & Humanizer",
+                            "description": "Expert in sentence refinement, polishing academic papers, reducing similarity scores, and evading AI detection. Avoiding AI detection and plagiarism checks. 论文润色、论文降重、规避AI检查",
+                            "welcome_message": "How can I refine your text today?",
+                            "prompt_starters": [
+                                "👇🏻Paste your paragraph here👇🏻",
+                                "👇将文本粘贴在下面👇"
+                            ],
+                            "profile_pic_id": "file-FPuqUCE9c7wNnooQEOvkjn3v",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-FPuqUCE9c7wNnooQEOvkjn3v?se=2124-01-01T09%3A04%3A47Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202024-01-25%252017.03.03%2520-%2520A%2520digital%2520illustration%2520of%2520a%2520headshot%2520of%2520an%2520elegant%2520and%2520scholarly%2520Asian%2520female%2520professor%2520with%2520very%2520fair%2520skin.%2520She%2520should%2520be%2520holding%2520a%2520pen%252C%2520symbolizing%2520.png&sig=gqoHN8VBHEgrDD8FRBr3Vz2WP6PFunKQaGg2rdpnPJs%3D",
+                            "categories": [
+                                "writing"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-09T15:51:59.299831+00:00",
+                        "updated_at": "2024-02-08T13:37:20.107346+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/pdf",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/markdown",
+                                "text/x-java",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/msword",
+                                "text/x-php",
+                                "text/x-script.python",
+                                "text/plain",
+                                "text/x-c++",
+                                "text/x-sh",
+                                "text/x-typescript",
+                                "text/x-csharp",
+                                "text/x-c",
+                                "text/javascript",
+                                "text/x-tex",
+                                "application/x-latext",
+                                "text/html",
+                                "text/x-ruby",
+                                "application/json"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/png",
+                                "image/gif",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-RSF6B5ABk",
+                        "organization_id": "org-sEHbWZwb5BOyzeeAL8haY8AW",
+                        "short_url": "g-RSF6B5ABk-ai-humanizer",
+                        "author": {
+                            "user_id": "user-diyGcmie8xAfKbc8FtpsfIaw",
+                            "display_name": "hix.ai",
+                            "link_to": "https://hix.ai",
+                            "selected_display": "website",
+                            "is_verified": true,
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "AI Humanizer",
+                            "description": "Infuse your AI interactions with a human touch using AI Humanizer. This tool can humanize AI text and make it feel more personal and engaging.",
+                            "welcome_message": "",
+                            "prompt_starters": [
+                                "Could you help humanize my article?",
+                                "How can I make this email sound warmer?",
+                                "What are the key rules to humanizer an article?",
+                                "What's a good sign-off for this message?"
+                            ],
+                            "profile_pic_id": "file-b0b6kCQtBZ1LgwzTbn1maPIQ",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-b0b6kCQtBZ1LgwzTbn1maPIQ?se=2123-11-25T07%3A49%3A56Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dhumanizer.png&sig=%2BBG/tF0xhJWbYyqkpnL1LlS%2BE36L7cFMc2rw3VRiJZ4%3D",
+                            "categories": [
+                                "writing"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-12-18T06:31:58.256385+00:00",
+                        "updated_at": "2024-02-13T19:40:57.281030+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_THon3hmAuu1RyDYSrWPWEGbx~gzm_tool_XYSD7Znfevcpklp0fRhnVd21",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_THon3hmAuu1RyDYSrWPWEGbx~gzm_tool_YgxZrMs9aJkGy0UO097nAGh9",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_5IHvypIbfKne0wzYrciZCP2U~gzm_tool_vLLPiXYNw7moo3Ib31vuKV4d",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-c0682874687f348034ec2812f3d8e5f7d7cc5193",
+                                "domain": "hix.ai",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.1",
+                                    "info": {
+                                        "title": "BypassGPT",
+                                        "description": "A plugin to humanize AI content by paraphrasing.",
+                                        "version": "v1"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://hix.ai/api"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/paraphrase": {
+                                            "post": {
+                                                "operationId": "paraphrase",
+                                                "summary": "Paraphrase a text",
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/paraphraseRequest"
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "OK",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/paraphraseResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Bad Request",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/errorResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "paraphraseRequest": {
+                                                "type": "object",
+                                                "required": [
+                                                    "text"
+                                                ],
+                                                "properties": {
+                                                    "text": {
+                                                        "type": "string",
+                                                        "description": "The text to paraphrase."
+                                                    }
+                                                }
+                                            },
+                                            "paraphraseResponse": {
+                                                "type": "object",
+                                                "required": [
+                                                    "paraphrased"
+                                                ],
+                                                "properties": {
+                                                    "paraphrased": {
+                                                        "type": "string",
+                                                        "description": "Content filter."
+                                                    }
+                                                }
+                                            },
+                                            "errorResponse": {
+                                                "type": "object",
+                                                "required": [
+                                                    "error"
+                                                ],
+                                                "properties": {
+                                                    "error": {
+                                                        "type": "string",
+                                                        "description": "Description of the error."
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "service_http",
+                                    "instructions": "",
+                                    "authorization_type": "bearer",
+                                    "verification_tokens": {},
+                                    "custom_auth_header": ""
+                                },
+                                "privacy_policy_url": "https://hix.ai/privacy-policy"
+                            }
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/pdf",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/markdown",
+                                "text/x-java",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/msword",
+                                "text/x-php",
+                                "text/x-script.python",
+                                "text/plain",
+                                "text/x-c++",
+                                "text/x-sh",
+                                "text/x-typescript",
+                                "text/x-csharp",
+                                "text/x-c",
+                                "text/javascript",
+                                "text/x-tex",
+                                "application/x-latext",
+                                "text/html",
+                                "text/x-ruby",
+                                "application/json"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/png",
+                                "image/gif",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-DCNZI6uAS",
+                        "organization_id": "org-v0u2oFGN1vVFkOSSWzeMDi1j",
+                        "short_url": "g-DCNZI6uAS-email",
+                        "author": {
+                            "user_id": "user-VFnu9s6ucMYSx85xd7FgQPcq",
+                            "display_name": "Krzysztof Wechmann",
+                            "link_to": null,
+                            "selected_display": "name",
+                            "is_verified": true,
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Email",
+                            "description": "Assistant specializing in email text corrections",
+                            "welcome_message": "Ready to refine your email text!",
+                            "prompt_starters": [
+                                "Correct my email text",
+                                "Revise this sentence for my email",
+                                "Make this email sound more professional",
+                                "Help me with this email content"
+                            ],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-s2s117XNhBdnpJGy6J7KxhQc?se=2123-10-29T03%3A52%3A29Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D9bcf6856-9d15-429a-bdd1-b3ea992bbb30.png&sig=7b3ti2zDZVbmD3Br4Rm2tAfzEUkp%2BMGwu5Il7McTkYI%3D",
+                            "categories": []
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-22T03:48:00.942918+00:00",
+                        "updated_at": "2024-02-09T06:37:09.068215+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/pdf",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/markdown",
+                                "text/x-java",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/msword",
+                                "text/x-php",
+                                "text/x-script.python",
+                                "text/plain",
+                                "text/x-c++",
+                                "text/x-sh",
+                                "text/x-typescript",
+                                "text/x-csharp",
+                                "text/x-c",
+                                "text/javascript",
+                                "text/x-tex",
+                                "application/x-latext",
+                                "text/html",
+                                "text/x-ruby",
+                                "application/json"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/png",
+                                "image/gif",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-1mzAswM3D",
+                        "organization_id": "org-iW7tDR4myhSIY4uGhJxVHafY",
+                        "short_url": "g-1mzAswM3D-write-like-a-human",
+                        "author": {
+                            "user_id": "user-DOEEUP5wiG8nFz0v6kCT1oJb",
+                            "display_name": "thehenhavenph.com",
+                            "link_to": "https://thehenhavenph.com",
+                            "selected_display": "website",
+                            "is_verified": true,
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Write Like A Human",
+                            "description": "Writer for everything in human-like output and non-AI",
+                            "welcome_message": "Hello! I'll adapt my writing to fit your context perfectly.",
+                            "prompt_starters": [
+                                "Compose a formal report on:",
+                                "Write a casual email about:",
+                                "Create a story with a humorous tone:",
+                                "Draft a text in [language] about:"
+                            ],
+                            "profile_pic_id": "file-h7UXawVOGMQqIjW5W5amxZdL",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-h7UXawVOGMQqIjW5W5amxZdL?se=2123-12-18T11%3A27%3A37Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dc6d94b0a-9e66-4338-b2a2-d55b9c284ae8.png&sig=GZG/cn5WiiL2jDaMvm4SUdhAIq9gI/CwJs%2B5qB5mTI0%3D",
+                            "categories": [
+                                "writing"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-11T11:20:52.100342+00:00",
+                        "updated_at": "2024-01-21T02:02:50.504621+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_xLu4ZOENSm2beLUoQ4wzoSXP~gzm_tool_pXFsEVVl5osw5ejUzkMsvaca",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_xLu4ZOENSm2beLUoQ4wzoSXP~gzm_tool_nLnxQR1R1mT0ydIOenXlxZC8",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_fawRJhXASaAi3O7F4qOGk4Cf~gzm_tool_l69ngIRNKwSEWLBBRm2kdBOk",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/pdf",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/markdown",
+                                "text/x-java",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/msword",
+                                "text/x-php",
+                                "text/x-script.python",
+                                "text/plain",
+                                "text/x-c++",
+                                "text/x-sh",
+                                "text/x-typescript",
+                                "text/x-csharp",
+                                "text/x-c",
+                                "text/javascript",
+                                "text/x-tex",
+                                "application/x-latext",
+                                "text/html",
+                                "text/x-ruby",
+                                "application/json"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/png",
+                                "image/gif",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            }
+        ],
+        "cursor": null
+    }
+}
