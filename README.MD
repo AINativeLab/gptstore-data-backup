@@ -2,6 +2,8 @@
 
 This project daily scrapes and archives data from the official GPT Store. If you have other data requirements, please open an issue.
 
+If you are interested in viewing and downloading the top 500 GPTs daily, please check out our another project: https://github.com/AINativeLab/top-500-best-gpts.
+
 <p align="center">
 Powered by
 </p>
