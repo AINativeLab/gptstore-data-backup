@@ -1,31 +1,7 @@
-# GPT Store data backup
-
-This project daily scrapes and archives data from the official GPT Store. If you have other data requirements, please open an issue.
-
-If you are interested in viewing and downloading the top 500 GPTs daily, please check out our another project: [AINativeLab/top-500-best-gpts](https://github.com/AINativeLab/top-500-best-gpts).
-
-<p align="center">
-Powered by
-</p>
-
-<p align="center">
-  <a target="_blank" href="https://gptshunter.com/?utm_source=gptstore-data-backup">
-    <img alt="GPTsHunter" src="https://gptshunter.com/full-logo.svg" width="300">
-  </a>
-</p>
-
-## Latest
-
-[2024-02-19.en.md](/archive/2024-02-19/en)
-
-[2024-02-19.global.md](/archive/2024-02-19/global)
-
-## Global GPT Leaderboard for 2024-02-19
+# 2024-02-19
 
 
-
-
-### Featured
+## Featured
 
 Curated top picks from this week
 
@@ -321,40 +297,40 @@ No.9 / 100K+
 No.10 / 100K+
         
 
-[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Artful Greeting AI Cards" src="https://files.oaiusercontent.com/file-5C25P2wcSkkHEkGZNFjUT0v9?se=2123-12-15T21%3A16%3A30Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3D766267ce-3c04-4e58-b468-7fb14ad1d825.png&sig=dxz%2BuyOR/RCCuAGvfrxXr%2BExmuCKKww5eyF57bN0dZ0%3D"/>](https://chat.openai.com/g/g-SnF78wo4p-artful-greeting-ai-cards)
-
-[**Artful Greeting AI Cards**](https://chat.openai.com/g/g-SnF78wo4p-artful-greeting-ai-cards) \
-No.11 / 25K+
-        
-
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="MJ Prompt Generator (V6)" src="https://files.oaiusercontent.com/file-KAtx8ne11BR9ODHC5MpovfD9?se=2123-12-04T08%3A13%3A41Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202023-12-28%252015.51.23%2520-%2520A%2520simplistic%252C%2520minimalist%2520vector%2520illustration%2520of%2520a%2520sailboat%2520with%2520a%2520single%2520sail%252C%2520gliding%2520on%2520gentle%2520waves.%2520The%2520sailboat%2520is%2520centered%2520in%2520the%2520composition%252C%2520w.png&sig=MPdUjbGgaqnfLg54wu76plXClwFEw2q6lU6cfbd3Hv4%3D"/>](https://chat.openai.com/g/g-tc0eHXdgb-mj-prompt-generator-v6)
 
 [**MJ Prompt Generator (V6)**](https://chat.openai.com/g/g-tc0eHXdgb-mj-prompt-generator-v6) \
-No.12 / 100K+
+No.11 / 100K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Midjourney" src="https://files.oaiusercontent.com/file-G2EfRqadIiASU86zknerDj8U?se=2123-10-17T03%3A52%3A57Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D6bfeb4de-edbe-4eb3-b72a-204ff083c88b.png&sig=qjvZj4sJq7vt37xiYZJ0boJGTyI9G/qadgqOZs9DukY%3D"/>](https://chat.openai.com/g/g-LpDlUu6oL-midjourney)
 
 [**Midjourney**](https://chat.openai.com/g/g-LpDlUu6oL-midjourney) \
-No.13 / 25K+
+No.12 / 25K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Image Copy Machine GPT" src="https://files.oaiusercontent.com/file-lPsK7MeMUA81zgwWsMzLMx7b?se=2123-12-22T20%3A17%3A28Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dimage-copy-machine-gpt-ai.png&sig=nJZ4hSn99lwHX%2BJBtbVmaL8wq0nhxBU9Ycapfd9zAYc%3D"/>](https://chat.openai.com/g/g-g0efUwWgG-image-copy-machine-gpt)
 
 [**Image Copy Machine GPT**](https://chat.openai.com/g/g-g0efUwWgG-image-copy-machine-gpt) \
-No.14 / 100K+
-        
-
-[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Video Maker" src="https://files.oaiusercontent.com/file-Yeqn19OXu08iF3uLMVYcAwjq?se=2123-12-19T21%3A15%3A06Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dc5a606a2-9928-4c03-abf5-3732fc8480d6.png&sig=vu12sJO9LPa1Um1sMhPMpoTOIprEjBicG8zL7SqQ7d0%3D"/>](https://chat.openai.com/g/g-2Wa44shWO-video-maker)
-
-[**Video Maker**](https://chat.openai.com/g/g-2Wa44shWO-video-maker) \
-No.15 / 1K+
+No.13 / 100K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="DALL·  3 Ultra" src="https://files.oaiusercontent.com/file-tHLG4a6bfOFSf9Ny7Njo3scP?se=2123-12-14T16%3A29%3A47Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Ddalle3_ultra.png&sig=lcelYRUZrZmm11lQ/rZaXHLSoJAzyE8DirzofskvKQc%3D"/>](https://chat.openai.com/g/g-odvZ36Y1H-dall-3-ultra)
 
 [**DALL·  3 Ultra**](https://chat.openai.com/g/g-odvZ36Y1H-dall-3-ultra) \
-No.16 / 10K+
+No.14 / 10K+
+        
+
+[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="DALL +" src="https://files.oaiusercontent.com/file-Ck1RjwCWfHXidYrhNWZdxSke?se=2123-12-18T01%3A47%3A21Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dfile-FssEqlyScbCfJQtO9mlwfKxU.jpg&sig=Vb83TMjjH3UqGnrDCZ34ggLm94wNoOw5jC1WxEQ/MtY%3D"/>](https://chat.openai.com/g/g-cs3yuZdPx-dall)
+
+[**DALL +**](https://chat.openai.com/g/g-cs3yuZdPx-dall) \
+No.15 / 5K+
+        
+
+[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="LogoGPT" src="https://files.oaiusercontent.com/file-MyVdpExI8Sb9c1QfQAJpDquU?se=2123-10-18T13%3A14%3A31Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Db318b967-f4b2-45ba-b4df-a3339568c704.png&sig=bwqre8q3NgwXOTH%2BzYJ9YcPp8A9jNYm2KdR0Rr6qV5M%3D"/>](https://chat.openai.com/g/g-z61XG6t54-logogpt)
+
+[**LogoGPT**](https://chat.openai.com/g/g-z61XG6t54-logogpt) \
+No.16 / 50K+
         
 
 ## Writing
@@ -434,28 +410,28 @@ No.11 / 50K+
 No.12 / 25K+
         
 
-[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Translate GPT" src="https://files.oaiusercontent.com/file-MkvwaZFerLLTL6z32mCcQQS3?se=2123-11-25T07%3A54%3A36Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dtranslate.png&sig=JjxKqWuX9jxdMPmWgL3koCb9ATS%2BeUKHJY1LCYWfn8M%3D"/>](https://chat.openai.com/g/g-5bNPpaVZy-translate-gpt)
-
-[**Translate GPT**](https://chat.openai.com/g/g-5bNPpaVZy-translate-gpt) \
-No.13 / 10K+
-        
-
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="✍️Paraphrase & Humanizer" src="https://files.oaiusercontent.com/file-FPuqUCE9c7wNnooQEOvkjn3v?se=2124-01-01T09%3A04%3A47Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202024-01-25%252017.03.03%2520-%2520A%2520digital%2520illustration%2520of%2520a%2520headshot%2520of%2520an%2520elegant%2520and%2520scholarly%2520Asian%2520female%2520professor%2520with%2520very%2520fair%2520skin.%2520She%2520should%2520be%2520holding%2520a%2520pen%252C%2520symbolizing%2520.png&sig=gqoHN8VBHEgrDD8FRBr3Vz2WP6PFunKQaGg2rdpnPJs%3D"/>](https://chat.openai.com/g/g-7vtCjvxkz-paraphrase-humanizer)
 
 [**✍️Paraphrase & Humanizer**](https://chat.openai.com/g/g-7vtCjvxkz-paraphrase-humanizer) \
-No.14 / 5K+
+No.13 / 5K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Humanize AI" src="https://files.oaiusercontent.com/file-G2dq0SJV4pOuJSWG4bM9v2XJ?se=2124-01-23T14%3A23%3A39Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DLogo%25208%2520%25282%2529.png&sig=2VfeOhvG3iM7/kTDVsS7A0qQWpOqKL51uazTStkcyKE%3D"/>](https://chat.openai.com/g/g-a6Fpz8NRb-humanize-ai)
 
 [**Humanize AI**](https://chat.openai.com/g/g-a6Fpz8NRb-humanize-ai) \
-No.15 / 10K+
+No.14 / 10K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="AI Humanizer" src="https://files.oaiusercontent.com/file-b0b6kCQtBZ1LgwzTbn1maPIQ?se=2123-11-25T07%3A49%3A56Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dhumanizer.png&sig=%2BBG/tF0xhJWbYyqkpnL1LlS%2BE36L7cFMc2rw3VRiJZ4%3D"/>](https://chat.openai.com/g/g-RSF6B5ABk-ai-humanizer)
 
 [**AI Humanizer**](https://chat.openai.com/g/g-RSF6B5ABk-ai-humanizer) \
-No.16 / 10K+
+No.15 / 10K+
+        
+
+[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Write Like A Human" src="https://files.oaiusercontent.com/file-h7UXawVOGMQqIjW5W5amxZdL?se=2123-12-18T11%3A27%3A37Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dc6d94b0a-9e66-4338-b2a2-d55b9c284ae8.png&sig=GZG/cn5WiiL2jDaMvm4SUdhAIq9gI/CwJs%2B5qB5mTI0%3D"/>](https://chat.openai.com/g/g-1mzAswM3D-write-like-a-human)
+
+[**Write Like A Human**](https://chat.openai.com/g/g-1mzAswM3D-write-like-a-human) \
+No.16 / 5K+
         
 
 ## Productivity
@@ -784,76 +760,82 @@ No.2 / 100K+
 No.3 / 100K+
         
 
-[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Video Summarizer" src="https://files.oaiusercontent.com/file-j03XK1qFCdQDjwVvA2NZfIlm?se=2123-12-30T21%3A04%3A16Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DVideo%2520Summarizer%2520logo%2520new.png&sig=sT081KZq91h24uibPRNkqLtdRWODjLGJmx6UGpwge7A%3D"/>](https://chat.openai.com/g/g-GvcYCKPIH-video-summarizer)
-
-[**Video Summarizer**](https://chat.openai.com/g/g-GvcYCKPIH-video-summarizer) \
-No.4 / 50K+
-        
-
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Voxscript" src="https://files.oaiusercontent.com/file-ccghiJe5RWLLuLXhKPl3XugL?se=2123-10-19T06%3A52%3A32Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3DVoxScript_logo_256x256.png&sig=gRuPppNbvJt3M3CMsjE8HiXRLm254zQxMCt5RRq%2BN3k%3D"/>](https://chat.openai.com/g/g-g24EzkDta-voxscript)
 
 [**Voxscript**](https://chat.openai.com/g/g-g24EzkDta-voxscript) \
-No.5 / 50K+
+No.4 / 50K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="AlphaNotes GPT" src="https://files.oaiusercontent.com/file-0puZS53HRUM93uhJ1w8ZRgf8?se=2123-10-15T15%3A14%3A02Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dalphanotes%2520cyberbrain%2520logo.png&sig=7t0/PntGh0KQRUNNDZQEy49hbx3sPzGgBNP8p9C5RFg%3D"/>](https://chat.openai.com/g/g-ZdfrSRAyo-alphanotes-gpt)
 
 [**AlphaNotes GPT**](https://chat.openai.com/g/g-ZdfrSRAyo-alphanotes-gpt) \
-No.6 / 50K+
+No.5 / 50K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Code Tutor" src="https://files.oaiusercontent.com/file-wT9OjtSlKWSliHQlnvDPbLnB?se=2123-11-06T22%3A36%3A37Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dkhanmigolite.png&sig=N18iwfrxqf8q664WbG5zlsN/EONc5asA9ODNrsUv1bs%3D"/>](https://chat.openai.com/g/g-HxPrv1p8v-code-tutor)
 
 [**Code Tutor**](https://chat.openai.com/g/g-HxPrv1p8v-code-tutor) \
-No.7 / 100K+
+No.6 / 100K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Prompt Professor" src="https://files.oaiusercontent.com/file-MsXTgHdeT8NqXvoz3yFp1DsA?se=2123-10-16T03%3A42%3A03Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D76811343-01fe-4316-b18f-12ed04c3af99.png&sig=OOcasgdAq%2BCscJ7raZMCDdYCZb00lsUNcOl%2BnNzEAY8%3D"/>](https://chat.openai.com/g/g-qfoOICq1l-prompt-professor)
 
 [**Prompt Professor**](https://chat.openai.com/g/g-qfoOICq1l-prompt-professor) \
-No.8 / 25K+
+No.7 / 25K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Physics Oracle" src="https://files.oaiusercontent.com/file-iEmwaPltlUSxp3RAhYdqN2fk?se=2123-12-17T00%3A21%3A47Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202024-01-10%252000.21.25%2520-%2520Create%2520a%2520sophisticated%2520and%2520minimalistic%2520image%2520of%2520a%2520sentient%2520orb%252C%2520characterized%2520by%2520a%2520cosmic%2520design.%2520The%2520orb%2520is%2520white%2520with%2520shades%2520of%2520blue%2520that%2520elegantly.png&sig=RgRLp3z4ZGlgZ%2BtYdAtT2nhkPVK6AOutYJ5BvPyap7o%3D"/>](https://chat.openai.com/g/g-odWlfAKWM-physics-oracle)
 
 [**Physics Oracle**](https://chat.openai.com/g/g-odWlfAKWM-physics-oracle) \
-No.9 / 10K+
-        
-
-[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Language Teacher | Ms. Smith" src="https://files.oaiusercontent.com/file-p7wjkbf2I2Am2p4jIy9OWKMP?se=2123-12-17T23%3A22%3A26Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DGroup%2520%2520%25285%2529.png&sig=EPMdiVmI4O717n8occd3AP4NPdhenDdypWYYLNcRf4c%3D"/>](https://chat.openai.com/g/g-RR3RCyK8N-language-teacher-ms-smith)
-
-[**Language Teacher | Ms. Smith**](https://chat.openai.com/g/g-RR3RCyK8N-language-teacher-ms-smith) \
-No.10 / 25K+
+No.8 / 10K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Math AI 🧮" src="https://files.oaiusercontent.com/file-M8nsx7ghuwfNiZ56MG9VJDAD?se=2123-11-03T04%3A28%3A37Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D572cd040-5844-4642-9c98-a33309e47032.png&sig=qWcx9tPqCE4ua6ezHZ2%2Blz7IgE24M/yqf8cYxbIfIrc%3D"/>](https://chat.openai.com/g/g-2OyX2ZiUk-math-ai)
 
 [**Math AI 🧮**](https://chat.openai.com/g/g-2OyX2ZiUk-math-ai) \
-No.11 / 25K+
+No.9 / 25K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Mr. Ranedeer" src="https://files.oaiusercontent.com/file-X9LAlo8N3fj2hfnxqm3JJwoc?se=2123-10-16T20%3A42%3A58Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202023-11-04%252000.39.52%2520-%2520Digital%2520sticker%2520design%2520of%2520a%2520chibi%2520reindeer%2520in%2520a%2520simplistic%2520style%252C%2520gripping%2520a%2520graphite%2520pencil%2520with%2520a%2520pink%2520eraser.%2520The%2520reindeer%2527s%2520glasses%2520give%2520it%2520a%2520stud.png&sig=G1xWfBMbjTegInXdu4jL%2BuGH038OrwnuG9c18KBnYUQ%3D"/>](https://chat.openai.com/g/g-9PKhaweyb-mr-ranedeer)
 
 [**Mr. Ranedeer**](https://chat.openai.com/g/g-9PKhaweyb-mr-ranedeer) \
-No.12 / 50K+
+No.10 / 50K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="CK-12 Flexi" src="https://files.oaiusercontent.com/file-XxWLso7pdl4sVXHg1ccMwEvq?se=2123-10-16T21%3A44%3A31Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3DFlexi_Confident-wPadding%2520%25281%2529.png&sig=TglhEYhMZfWQ56gvny8/0BrOOVh90Drxkc1RVI1UumA%3D"/>](https://chat.openai.com/g/g-cEEXd8Dpb-ck-12-flexi)
 
 [**CK-12 Flexi**](https://chat.openai.com/g/g-cEEXd8Dpb-ck-12-flexi) \
-No.13 / 50K+
+No.11 / 50K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Math Solver" src="https://files.oaiusercontent.com/file-anFeylhbsoIDhknAFuDirJWV?se=2123-10-25T10%3A10%3A26Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D09c2af62-b8bc-43cc-a8f9-23317ada2c21.png&sig=rCdmtt6E93yI5WTXiFOxb5W85bMj/1jadUarU2nY/M8%3D"/>](https://chat.openai.com/g/g-ktOkQRmvl-math-solver)
 
 [**Math Solver**](https://chat.openai.com/g/g-ktOkQRmvl-math-solver) \
-No.14 / 5K+
+No.12 / 5K+
         
 
-[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Language Learner" src="https://files.oaiusercontent.com/file-nYMLynD8DKsP6jrbX731ENZK?se=2123-12-20T21%3A23%3A52Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dlogo.webp&sig=6ynSagBXiuHlxkQKcHnIouYhYNPNCYKdjVTdktUPwjA%3D"/>](https://chat.openai.com/g/g-SrsGydMuG-language-learner)
+[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Machine Learning" src="https://files.oaiusercontent.com/file-79w3XiRGkbTiECoVNmkLzcKV?se=2123-10-24T07%3A23%3A14Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Da706c100-ff7e-48d7-8483-35754c66f8cd.png&sig=3aiA9n2Euf1Ri4dVkc2GF3GHBOqDb/oHQ9XHK0OyKys%3D"/>](https://chat.openai.com/g/g-TfiZbdLM0-machine-learning)
 
-[**Language Learner**](https://chat.openai.com/g/g-SrsGydMuG-language-learner) \
-No.15 / 10K+
+[**Machine Learning**](https://chat.openai.com/g/g-TfiZbdLM0-machine-learning) \
+No.13 / 5K+
+        
+
+[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Mathematical statistics" src="https://files.oaiusercontent.com/file-T1TmCJPp85JqetqbNxnwmq1w?se=2123-10-27T05%3A47%3A44Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dc40ef882-9f91-4328-9d21-188a9bc45188.png&sig=h%2B9hAy8cAWo1PRwWmh56RySze4SNcan4YYJlrJpGZP0%3D"/>](https://chat.openai.com/g/g-RlxGWrXEy-mathematical-statistics)
+
+[**Mathematical statistics**](https://chat.openai.com/g/g-RlxGWrXEy-mathematical-statistics) \
+No.14 / 1K+
+        
+
+[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Calculus Solver" src="https://files.oaiusercontent.com/file-jYBaGjfwjwvBE8q7uQNChi4v?se=2123-12-16T03%3A14%3A43Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3D5e5044a9-c7ce-4c08-8289-251de107f265.png&sig=BScBJ7fgGX/or5F4BhOVWnJ5EbokB2CafEL1WQr9mNQ%3D"/>](https://chat.openai.com/g/g-XSiAMfHRj-calculus-solver)
+
+[**Calculus Solver**](https://chat.openai.com/g/g-XSiAMfHRj-calculus-solver) \
+No.15 / 1K+
+        
+
+[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Probability and Statistics Professor" src="https://files.oaiusercontent.com/file-jBrcTirWYBkH3KbZ96rSGzwX?se=2123-12-17T02%3A59%3A38Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202024-01-09%252023.55.26%2520-%2520A%2520portrait%2520for%2520a%2520university%2520probability%2520and%2520statistics%2520tutor%2527s%2520profile%2520picture.%2520The%2520subject%2520should%2520be%2520an%2520elderly%2520gentleman%252C%2520appearing%2520scholarly%2520and%2520wi.png&sig=Juj3VVfd7JR3it2uBsHSkApieN8hFwZTqlM6lEsodto%3D"/>](https://chat.openai.com/g/g-adbSjT0zk-probability-and-statistics-professor)
+
+[**Probability and Statistics Professor**](https://chat.openai.com/g/g-adbSjT0zk-probability-and-statistics-professor) \
+No.16 / 1K+
         
 
 ## Lifestyle
@@ -956,5 +938,3 @@ No.15 / 1K+
 [**Tax Assistant - Tax, Taxes, Taxabl**](https://chat.openai.com/g/g-wnNwA5ioV-tax-assistant-tax-taxes-taxabl) \
 No.16 / 1K+
         
-
-      
