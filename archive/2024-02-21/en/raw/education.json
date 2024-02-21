@@ -1,0 +1,1489 @@
+{
+    "info": {
+        "id": "education",
+        "title": "Education",
+        "description": "Explore new ideas, revisit existing skills",
+        "display_type": "ranked",
+        "display_group": "Education",
+        "locale": "en"
+    },
+    "list": {
+        "items": [
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-qfoOICq1l",
+                        "organization_id": "org-ZJ4Xn6xsZLNePkreg1xbLNb1",
+                        "short_url": "g-qfoOICq1l-prompt-professor",
+                        "author": {
+                            "user_id": "user-gGe71twpoLuGJl05GVypE9q1__86af01e5-2fc6-4507-9e43-28fa700beb2a",
+                            "display_name": "gpts.tempi.co.jp",
+                            "link_to": "https://gpts.tempi.co.jp",
+                            "selected_display": "website",
+                            "is_verified": true,
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": "86af01e5-2fc6-4507-9e43-28fa700beb2a",
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Prompt Professor",
+                            "description": "I know everything about Prompt Engineering. What do you want to know about prompt?",
+                            "welcome_message": "Welcome to Prompt Engineering 101!",
+                            "prompt_starters": [
+                                "How to make a good prompt?",
+                                "Improve this prompt: ${prompt}",
+                                "Rate this prompt: ${prompt}",
+                                "Tell me 26 Principles of Good Prompt"
+                            ],
+                            "profile_pic_id": "file-MsXTgHdeT8NqXvoz3yFp1DsA",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-MsXTgHdeT8NqXvoz3yFp1DsA?se=2123-10-16T03%3A42%3A03Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D76811343-01fe-4316-b18f-12ed04c3af99.png&sig=OOcasgdAq%2BCscJ7raZMCDdYCZb00lsUNcOl%2BnNzEAY8%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-09T03:34:22.251580+00:00",
+                        "updated_at": "2024-01-27T02:16:59.117610+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_397hP1iXk8ZACT9AiHUvBU5s~gzm_file_v09TqV4cXGX5lxZgS35UzEE6",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_WuIlKePJ7mMMDHQt8ZmAiPaJ~gzm_file_KncAqpP91kW6tVxCK97Brbnq",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_WuIlKePJ7mMMDHQt8ZmAiPaJ~gzm_file_zqzLY4NX2MLmWTo5Rj6Ga50o",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-java",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-typescript",
+                                "application/pdf",
+                                "application/msword",
+                                "application/x-latext",
+                                "text/x-c",
+                                "text/x-tex",
+                                "text/x-sh",
+                                "text/markdown",
+                                "text/plain",
+                                "text/javascript",
+                                "text/x-c++",
+                                "text/x-ruby",
+                                "text/html",
+                                "text/x-php",
+                                "application/json",
+                                "text/x-csharp",
+                                "text/x-script.python"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/gif",
+                                "image/webp",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-odWlfAKWM",
+                        "organization_id": "org-LFizWYCMMt6pjUXgiMAxBJtC",
+                        "short_url": "g-odWlfAKWM-physics-oracle",
+                        "author": {
+                            "user_id": "user-Z9JrMzzMAJlIByGeRtUptmUN",
+                            "display_name": "pulsr.co.uk",
+                            "link_to": "https://pulsr.co.uk",
+                            "selected_display": "website",
+                            "is_verified": true,
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Physics Oracle",
+                            "description": "The worlds most powerful Physics tool V2.0",
+                            "welcome_message": "Welcome to the Quantum Realm! How can I assist with your quantum physics questions today?",
+                            "prompt_starters": [
+                                "Learning mode",
+                                "Research mode",
+                                "Code mode",
+                                "Exam Question mode"
+                            ],
+                            "profile_pic_id": "file-VBlRtw9L5hJ1FX4wK58N4tdP",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-VBlRtw9L5hJ1FX4wK58N4tdP?se=2124-01-27T17%3A04%3A14Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Deye23.png&sig=zrVskBnBEFNHXF3TvymCeE1TfENelogJSJupUSOYQfU%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-09T12:32:30.370385+00:00",
+                        "updated_at": "2024-02-20T19:37:07.184638+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_MfZkKUD1e8hea5kbomvL6ecz~gzm_tool_FAxBObkoXaN9CFfFGjiAduuB",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_MfZkKUD1e8hea5kbomvL6ecz~gzm_tool_xjZthtSPkhw4KqUaaQwzfofc",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_gWnea5aS59zKcBcb6ujdMLDO~gzm_tool_KmD4JdeR5dBTNgWIENWGkAIF",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-java",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-typescript",
+                                "application/pdf",
+                                "application/msword",
+                                "application/x-latext",
+                                "text/x-c",
+                                "text/x-tex",
+                                "text/x-sh",
+                                "text/markdown",
+                                "text/plain",
+                                "text/javascript",
+                                "text/x-c++",
+                                "text/x-ruby",
+                                "text/html",
+                                "text/x-php",
+                                "application/json",
+                                "text/x-csharp",
+                                "text/x-script.python"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/gif",
+                                "image/webp",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-9PKhaweyb",
+                        "organization_id": "org-p1dYivag5yIaAdsaAC6xNtHU",
+                        "short_url": "g-9PKhaweyb-mr-ranedeer",
+                        "author": {
+                            "user_id": "user-N9Y38gVN4AMgE1Z7QP6MLkl1",
+                            "display_name": "mr-ranedeer.com",
+                            "link_to": "https://mr-ranedeer.com",
+                            "selected_display": "website",
+                            "is_verified": true,
+                            "will_receive_support_emails": false,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Mr. Ranedeer",
+                            "description": "Meet Mr. Ranedeer, your personalized AI tutor! Version: 2.7 Reboot",
+                            "welcome_message": "Hello",
+                            "prompt_starters": [
+                                "/plan I want to learn special relativity",
+                                "/config",
+                                "/language Chinese",
+                                "/plan I want to learn integrals"
+                            ],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-X9LAlo8N3fj2hfnxqm3JJwoc?se=2123-10-16T20%3A42%3A58Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202023-11-04%252000.39.52%2520-%2520Digital%2520sticker%2520design%2520of%2520a%2520chibi%2520reindeer%2520in%2520a%2520simplistic%2520style%252C%2520gripping%2520a%2520graphite%2520pencil%2520with%2520a%2520pink%2520eraser.%2520The%2520reindeer%2527s%2520glasses%2520give%2520it%2520a%2520stud.png&sig=G1xWfBMbjTegInXdu4jL%2BuGH038OrwnuG9c18KBnYUQ%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-09T18:43:14.078576+00:00",
+                        "updated_at": "2024-02-20T06:46:04.841479+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_DqXSxvvaTfEcs8U1ux82Strz~gzm_tool_IxUJSw1AbAxnMJFTAjAw98sc",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_yUveNYOrXAUqdl0sqaDg49z9~gzm_tool_BrPBbI7WFIIx6QatzRrAstyp",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_KJHJDTgcfq3q8aKKmi6sX5wo~gzm_file_dlAXf4CUdLKKnFEOvgdiG4Bh",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-java",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-typescript",
+                                "application/pdf",
+                                "application/msword",
+                                "application/x-latext",
+                                "text/x-c",
+                                "text/x-tex",
+                                "text/x-sh",
+                                "text/markdown",
+                                "text/plain",
+                                "text/javascript",
+                                "text/x-c++",
+                                "text/x-ruby",
+                                "text/html",
+                                "text/x-php",
+                                "application/json",
+                                "text/x-csharp",
+                                "text/x-script.python"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/gif",
+                                "image/webp",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-2OyX2ZiUk",
+                        "organization_id": "org-81pkJgRe5TIovZxArThkSC3G",
+                        "short_url": "g-2OyX2ZiUk-math-ai",
+                        "author": {
+                            "user_id": "user-glfVj3GWcFBFB5WxxeDllNlR__924af3d9-7990-41a0-b09c-31f3c22cdee8",
+                            "display_name": "gptsfinder.co",
+                            "link_to": "https://gptsfinder.co",
+                            "selected_display": "website",
+                            "is_verified": true,
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": "924af3d9-7990-41a0-b09c-31f3c22cdee8",
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Math AI 🧮",
+                            "description": "Explore Math AI: Your advanced AI-powered guide for solving complex math problems. Ideal for students and educators, it offers step-by-step solutions, clear theorem explanations, and practical applications. Embrace a smarter way to learn and teach math with Math AI!",
+                            "welcome_message": "",
+                            "prompt_starters": [
+                                "Can you help solve 'x^2+y^2 = 25 and x-y=3'?",
+                                "Explain the Pythagorean theorem with an image.",
+                                "Can the cards 6, 1, 3, 4 form 24 in the game of 24 points?",
+                                "Please derive Euler's formula using complex analysis."
+                            ],
+                            "profile_pic_id": "file-M8nsx7ghuwfNiZ56MG9VJDAD",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-M8nsx7ghuwfNiZ56MG9VJDAD?se=2123-11-03T04%3A28%3A37Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D572cd040-5844-4642-9c98-a33309e47032.png&sig=qWcx9tPqCE4ua6ezHZ2%2Blz7IgE24M/yqf8cYxbIfIrc%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-27T02:39:46.212362+00:00",
+                        "updated_at": "2024-02-16T04:46:00.635099+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_Llh2SVFC7myEm5YWu92dvX0P~gzm_tool_uyrkLX5EEFhpJKYqAS9B1E0z",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_Llh2SVFC7myEm5YWu92dvX0P~gzm_tool_YblkhqItvAd3v52aVxPhNyiZ",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_Llh2SVFC7myEm5YWu92dvX0P~gzm_tool_aSwAxiCsUm5nAdwiiy14xEkA",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_zSSWQJkQ6r35DtvXT0kOAdJm~gzm_file_VJdQpRCR3fXiYJ59yqlKIcjT",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_JGN5YxAn333dXjucQgbKeSiA~gzm_file_BQcO8pIUj5zvdBbl0j1w1F59",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-java",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-typescript",
+                                "application/pdf",
+                                "application/msword",
+                                "application/x-latext",
+                                "text/x-c",
+                                "text/x-tex",
+                                "text/x-sh",
+                                "text/markdown",
+                                "text/plain",
+                                "text/javascript",
+                                "text/x-c++",
+                                "text/x-ruby",
+                                "text/html",
+                                "text/x-php",
+                                "application/json",
+                                "text/x-csharp",
+                                "text/x-script.python"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/gif",
+                                "image/webp",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-ktOkQRmvl",
+                        "organization_id": "org-c5XOOo0UUtfYbQXHCAX9IbuE",
+                        "short_url": "g-ktOkQRmvl-math-solver",
+                        "author": {
+                            "user_id": "user-sGntZ3wUFDncG5XaxwflENIq",
+                            "display_name": "Jan Koten",
+                            "link_to": null,
+                            "selected_display": "name",
+                            "is_verified": true,
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Math Solver",
+                            "description": "Structured, clear, step-by-step math problem solver",
+                            "welcome_message": "Let's solve math problems step-by-step!",
+                            "prompt_starters": [
+                                "Solve this equation with steps:",
+                                "Explain how to calculate this probability:",
+                                "Show the steps for this calculus problem:"
+                            ],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-anFeylhbsoIDhknAFuDirJWV?se=2123-10-25T10%3A10%3A26Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D09c2af62-b8bc-43cc-a8f9-23317ada2c21.png&sig=rCdmtt6E93yI5WTXiFOxb5W85bMj/1jadUarU2nY/M8%3D",
+                            "categories": []
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-18T10:06:45.928171+00:00",
+                        "updated_at": "2024-02-07T04:42:08.623193+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_ghpLcCMea5bQtgleuLnpHboo~gzm_tool_tXoZC75DwekRQaEjVJBU2FZu",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_ghpLcCMea5bQtgleuLnpHboo~gzm_tool_uSmnXJ73j6hTzSB8WJTXhAYk",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_ghpLcCMea5bQtgleuLnpHboo~gzm_tool_LwMpE3RupKIT15WoCvEAQV6K",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-java",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-typescript",
+                                "application/pdf",
+                                "application/msword",
+                                "application/x-latext",
+                                "text/x-c",
+                                "text/x-tex",
+                                "text/x-sh",
+                                "text/markdown",
+                                "text/plain",
+                                "text/javascript",
+                                "text/x-c++",
+                                "text/x-ruby",
+                                "text/html",
+                                "text/x-php",
+                                "application/json",
+                                "text/x-csharp",
+                                "text/x-script.python"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/gif",
+                                "image/webp",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-cEEXd8Dpb",
+                        "organization_id": "org-bcod3RECznCxSt4mwvZnro6S",
+                        "short_url": "g-cEEXd8Dpb-ck-12-flexi",
+                        "author": {
+                            "user_id": "user-b2gelxBVE8iurhXkgtWrZFiC",
+                            "display_name": "flexi.org",
+                            "link_to": "https://flexi.org",
+                            "selected_display": "website",
+                            "is_verified": true,
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "CK-12 Flexi",
+                            "description": "The world’s most powerful math and science AI Tutor for middle and high school students.",
+                            "welcome_message": "Hello",
+                            "prompt_starters": [
+                                "Tutor me in biology",
+                                "Quiz me on stoichiometry",
+                                "Explain photosynthesis with an analogy",
+                                "Challenge me in factoring"
+                            ],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-XxWLso7pdl4sVXHg1ccMwEvq?se=2123-10-16T21%3A44%3A31Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3DFlexi_Confident-wPadding%2520%25281%2529.png&sig=TglhEYhMZfWQ56gvny8/0BrOOVh90Drxkc1RVI1UumA%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-09T21:43:16.925904+00:00",
+                        "updated_at": "2024-02-12T07:06:32.469008+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_RiCErgLowM2hwpib1LQxIZNe~gzm_tool_43ZDnmY7RrYliUzkYttcXNq9",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-f764e01715093dc502b9bab6b9ce2131034f2568",
+                                "domain": "www.ck12.org",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.0",
+                                    "info": {
+                                        "title": "Ed-Tech Platform API",
+                                        "version": "1.0.0",
+                                        "description": "API for an educational technology platform, providing access to learning resources."
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://www.ck12.org/"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/flx/search/learningInfos": {
+                                            "get": {
+                                                "operationId": "learningInfo",
+                                                "summary": "Find lessons by topic",
+                                                "description": "Retrieve lesson details based on a specific topic.",
+                                                "parameters": [
+                                                    {
+                                                        "name": "term",
+                                                        "in": "query",
+                                                        "required": true,
+                                                        "description": "A search term or keyword related to the lesson content.",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "artifactTypes",
+                                                        "in": "query",
+                                                        "required": true,
+                                                        "description": "The artifact type, Must be lesson.",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "default": "lesson"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "field",
+                                                        "in": "query",
+                                                        "required": true,
+                                                        "description": "The field to search. Must be title.",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "default": "title"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "courseIDs",
+                                                        "in": "query",
+                                                        "required": true,
+                                                        "description": "Course Ids for the search. Must exactly be 429164,4429276,4429414,4313200,4313144,9834555,5675452,5292199,5275795,5306536,5292077,5271771,4283481,5369165,5314712,5630548,6242945,6242941,10498154,10498649,10499013,10533716,10533388,11334303",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "default": "429164,4429276,4429414,4313200,4313144,9834555,5675452,5292199,5275795,5306536,5292077,5271771,4283481,5369165,5314712,5630548,6242945,6242941,10498154,10498649,10499013,10533716,10533388,11334303"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "includeCourseSuggestionsOnly",
+                                                        "in": "query",
+                                                        "required": true,
+                                                        "description": "Indicator to include course suggestions only. Must be true",
+                                                        "schema": {
+                                                            "type": "boolean",
+                                                            "default": true
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "pageSize",
+                                                        "in": "query",
+                                                        "required": true,
+                                                        "description": "The page size for retrieval. Must be 3",
+                                                        "schema": {
+                                                            "type": "integer",
+                                                            "default": 3
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "primaryOrRelatedOrBoth",
+                                                        "in": "query",
+                                                        "required": true,
+                                                        "description": "The content type to consider during search. Must be primary",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "default": "primary"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "shortLinks",
+                                                        "in": "query",
+                                                        "required": true,
+                                                        "description": "Whether to use short URLs. Must be true",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "default": "true"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "referrer",
+                                                        "in": "query",
+                                                        "required": true,
+                                                        "description": "The referrer for the request. Must be FlexiGPT",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "default": "FlexiGPT"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "A list of lessons matching the search term.",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "lessons": {
+                                                                            "type": "array",
+                                                                            "items": {
+                                                                                "$ref": "#/components/schemas/Lesson"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Invalid request parameters."
+                                                    },
+                                                    "404": {
+                                                        "description": "No lessons found matching the criteria."
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "Lesson": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "conceptTitle": {
+                                                        "type": "string"
+                                                    },
+                                                    "learnURL": {
+                                                        "type": "string"
+                                                    },
+                                                    "practiceURL": {
+                                                        "type": "string"
+                                                    },
+                                                    "reviewURL": {
+                                                        "type": "string"
+                                                    },
+                                                    "lessonURL": {
+                                                        "type": "string"
+                                                    },
+                                                    "Content Code": {
+                                                        "type": "string"
+                                                    },
+                                                    "courseTitle": {
+                                                        "type": "string",
+                                                        "nullable": true
+                                                    },
+                                                    "courseID": {
+                                                        "type": "string",
+                                                        "nullable": true
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "none"
+                                },
+                                "privacy_policy_url": "https://www.ck12info.org/privacy-policy/"
+                            }
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-java",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-typescript",
+                                "application/pdf",
+                                "application/msword",
+                                "application/x-latext",
+                                "text/x-c",
+                                "text/x-tex",
+                                "text/x-sh",
+                                "text/markdown",
+                                "text/plain",
+                                "text/javascript",
+                                "text/x-c++",
+                                "text/x-ruby",
+                                "text/html",
+                                "text/x-php",
+                                "application/json",
+                                "text/x-csharp",
+                                "text/x-script.python"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/gif",
+                                "image/webp",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-PDWi5Scbc",
+                        "organization_id": "org-6T1f9CaYwaKku4YRbov1yPXW",
+                        "short_url": "g-PDWi5Scbc-all-around-teacher-learn-everything-in-3-min",
+                        "author": {
+                            "user_id": "user-7LUVlGv6xIwOK59Ou0OEuRmB",
+                            "display_name": "awesomegpts.vip",
+                            "link_to": "https://awesomegpts.vip",
+                            "selected_display": "website",
+                            "is_verified": true,
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "📗All-around Teacher (Learn Everything in 3 min)",
+                            "description": "3 minutes to learn all kinds of knowledge, customized tutors for you, leveraging the powerful gpt4 and knowledge base,",
+                            "welcome_message": "Hello",
+                            "prompt_starters": [
+                                "I want to learn game programming",
+                                "I want to learn AI programming",
+                                "I want to learn to make money",
+                                "I want to learn to find a girlfriend"
+                            ],
+                            "profile_pic_id": "file-5VGMFA3ti13ve0sNlLmWCW0i",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-5VGMFA3ti13ve0sNlLmWCW0i?se=2124-01-18T10%3A06%3A15Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202024-02-11%252018.05.33%2520-%2520A%2520portrait%2520showcasing%2520a%2520young%252C%2520beautiful%2520female%2520teacher%2520in%2520a%2520realistic%2520style.%2520She%2520is%2520smiling%2520warmly%252C%2520dressed%2520in%2520professional%2520attire%2520that%2520reflects%2520her%2520.webp&sig=i/pvilBv/Yl5RRZP1aXPT%2B/xA%2B0T3xEizCVlBhvH9G0%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-09T02:09:20.861647+00:00",
+                        "updated_at": "2024-02-13T07:43:38.248953+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_Jv85504vf4qWaCVgzRY8UOkc~gzm_tool_hg4SbEOdtzMZCYVVb4xs1evJ",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_305BnHz1znxng0oJdVvDmccO~gzm_tool_XIRYaMKTk3DHEvdumsVAXo9x",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-java",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-typescript",
+                                "application/pdf",
+                                "application/msword",
+                                "application/x-latext",
+                                "text/x-c",
+                                "text/x-tex",
+                                "text/x-sh",
+                                "text/markdown",
+                                "text/plain",
+                                "text/javascript",
+                                "text/x-c++",
+                                "text/x-ruby",
+                                "text/html",
+                                "text/x-php",
+                                "application/json",
+                                "text/x-csharp",
+                                "text/x-script.python"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/gif",
+                                "image/webp",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-TfiZbdLM0",
+                        "organization_id": "org-nc4Oa4HqxP7kfUbVqcAOau70",
+                        "short_url": "g-TfiZbdLM0-machine-learning",
+                        "author": {
+                            "user_id": "user-G4liDZL5wULsfaDnalu9mGmk",
+                            "display_name": "Maryam Eskandari",
+                            "link_to": null,
+                            "selected_display": "name",
+                            "is_verified": true,
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Machine Learning",
+                            "description": "A machine learning, deep learning, and data science assistant for learning, practicing, and developing algorithms.",
+                            "welcome_message": "Welcome to your machine learning and data science assistant!",
+                            "prompt_starters": [
+                                "How do I use pandas to analyze data?",
+                                "Can you explain neural networks?",
+                                "Help me troubleshoot my TensorFlow code.",
+                                "What are the best practices in data preprocessing?"
+                            ],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-79w3XiRGkbTiECoVNmkLzcKV?se=2123-10-24T07%3A23%3A14Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Da706c100-ff7e-48d7-8483-35754c66f8cd.png&sig=3aiA9n2Euf1Ri4dVkc2GF3GHBOqDb/oHQ9XHK0OyKys%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-17T07:13:55.658624+00:00",
+                        "updated_at": "2024-02-13T06:30:14.754739+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_Hh6vIS7OQfBaNZ014qI9goRk~gzm_tool_yzTqrDSrso9EIGDbG9CZTviP",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_Hh6vIS7OQfBaNZ014qI9goRk~gzm_tool_KkTURCL206dpN0IVS8S4ntIf",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_Hh6vIS7OQfBaNZ014qI9goRk~gzm_tool_TDWTD8XWdVpXDeXZM5UIKMAS",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-java",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-typescript",
+                                "application/pdf",
+                                "application/msword",
+                                "application/x-latext",
+                                "text/x-c",
+                                "text/x-tex",
+                                "text/x-sh",
+                                "text/markdown",
+                                "text/plain",
+                                "text/javascript",
+                                "text/x-c++",
+                                "text/x-ruby",
+                                "text/html",
+                                "text/x-php",
+                                "application/json",
+                                "text/x-csharp",
+                                "text/x-script.python"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/gif",
+                                "image/webp",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-RlxGWrXEy",
+                        "organization_id": "org-xcyoo05HNrMvFsO1vPC2LanV",
+                        "short_url": "g-RlxGWrXEy-mathematical-statistics",
+                        "author": {
+                            "user_id": "user-99X6KtnS65yzlzCMWQdI9o7a",
+                            "display_name": "gpt.wpure.top",
+                            "link_to": "https://gpt.wpure.top",
+                            "selected_display": "website",
+                            "is_verified": true,
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Mathematical statistics",
+                            "description": "Expert in graduate-level mathematical statistics, providing detailed and accurate explanations.",
+                            "welcome_message": "Welcome to your graduate-level mathematical statistics expert!",
+                            "prompt_starters": [
+                                "Explain the central limit theorem",
+                                "How do I solve this statistical problem?",
+                                "Difference between Bayesian and frequentist approaches",
+                                "Application of Markov Chains in statistics"
+                            ],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-T1TmCJPp85JqetqbNxnwmq1w?se=2123-10-27T05%3A47%3A44Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dc40ef882-9f91-4328-9d21-188a9bc45188.png&sig=h%2B9hAy8cAWo1PRwWmh56RySze4SNcan4YYJlrJpGZP0%3D",
+                            "categories": []
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-20T05:46:53.024968+00:00",
+                        "updated_at": "2024-02-14T17:51:43.670512+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_2qkJKuSeoDP4XviqJzuDe5bR~gzm_tool_FZVynWVWDc6kfat3gb0srPVm",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2qkJKuSeoDP4XviqJzuDe5bR~gzm_tool_HegeCLBJX8gg3M8cLx7p637D",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2qkJKuSeoDP4XviqJzuDe5bR~gzm_tool_9djJUodnrBDqXvkhPEwY7ak8",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_2qkJKuSeoDP4XviqJzuDe5bR~gzm_file_q0zXvL71Gja2CiJg3qQcnUAQ",
+                            "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_2qkJKuSeoDP4XviqJzuDe5bR~gzm_file_UGEqdcJMQSaywaJ3mbJyQwo4",
+                            "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_2qkJKuSeoDP4XviqJzuDe5bR~gzm_file_1KLoeztw4Af09HO13RyACkpN",
+                            "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_2qkJKuSeoDP4XviqJzuDe5bR~gzm_file_j9ESW9UQ3Y7PLv1vorr2YL0p",
+                            "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_2qkJKuSeoDP4XviqJzuDe5bR~gzm_file_ujtyebNqsxtsQFaSpPYEHG90",
+                            "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_2qkJKuSeoDP4XviqJzuDe5bR~gzm_file_Cq6F8v57teYDIlzCDU1j82bL",
+                            "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_2qkJKuSeoDP4XviqJzuDe5bR~gzm_file_E5RYqGcc7Dt9K9PJD4spHyJY",
+                            "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_2qkJKuSeoDP4XviqJzuDe5bR~gzm_file_2XmxYOejKHlaAMG30hjkIW4q",
+                            "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-java",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-typescript",
+                                "application/pdf",
+                                "application/msword",
+                                "application/x-latext",
+                                "text/x-c",
+                                "text/x-tex",
+                                "text/x-sh",
+                                "text/markdown",
+                                "text/plain",
+                                "text/javascript",
+                                "text/x-c++",
+                                "text/x-ruby",
+                                "text/html",
+                                "text/x-php",
+                                "application/json",
+                                "text/x-csharp",
+                                "text/x-script.python"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/gif",
+                                "image/webp",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-adbSjT0zk",
+                        "organization_id": "org-a8BZzR1HWOuWJngIyp8vzT9t",
+                        "short_url": "g-adbSjT0zk-probability-and-statistics-professor",
+                        "author": {
+                            "user_id": "user-3ItkAXsk9jGqDutGRHgTwzw7",
+                            "display_name": "André Karine Escarião de Medeiros",
+                            "link_to": null,
+                            "selected_display": "name",
+                            "is_verified": true,
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Probability and Statistics Professor",
+                            "description": "Specialist Probability and Statistics tutor for higher education.",
+                            "welcome_message": "Hello, how can I assist you with probability and statistics today?",
+                            "prompt_starters": [
+                                "Explain the normal distribution.",
+                                "How to solve this statistics problem?",
+                                "What's the difference between dependent and independent variables?",
+                                "Help me understand the central limit theorem."
+                            ],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-jBrcTirWYBkH3KbZ96rSGzwX?se=2123-12-17T02%3A59%3A38Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202024-01-09%252023.55.26%2520-%2520A%2520portrait%2520for%2520a%2520university%2520probability%2520and%2520statistics%2520tutor%2527s%2520profile%2520picture.%2520The%2520subject%2520should%2520be%2520an%2520elderly%2520gentleman%252C%2520appearing%2520scholarly%2520and%2520wi.png&sig=Juj3VVfd7JR3it2uBsHSkApieN8hFwZTqlM6lEsodto%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-10T02:40:41.803195+00:00",
+                        "updated_at": "2024-02-16T19:53:17.685332+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_QVOBzYQMzJDK65YDpIeWHNuo~gzm_tool_E8KYnglA4qUH5yhXnFr4ygIh",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_kdjfEYZi3wLCXymKj7BrEx4m~gzm_tool_SB2mTSDZNAF3ZvnFeqAgnNgX",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_kdjfEYZi3wLCXymKj7BrEx4m~gzm_tool_hEmC8HEdUeOjC6GGYxA9XSOH",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_5T6T5y9WKCBEGkhfOd1DSXdA~gzm_file_leB6tpAuyQ3bj6sa2gXEe0D0",
+                            "type": "image/png",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_2ITBG0UAwAxkI0yZ2EtmNJeh~gzm_file_5oI6o6vpqjkcyoLnprMXUfT5",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_2ITBG0UAwAxkI0yZ2EtmNJeh~gzm_file_Z9BB2okawy2qRTzGYkh8cHgP",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_2ITBG0UAwAxkI0yZ2EtmNJeh~gzm_file_tjemHJP7HtEyFbG4KrciitXX",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_2ITBG0UAwAxkI0yZ2EtmNJeh~gzm_file_mU25blHR7YOzuGHE7Osl7c2D",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_2ITBG0UAwAxkI0yZ2EtmNJeh~gzm_file_ifUEKwUrPqeLWKcgOFrN9Boy",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_2ITBG0UAwAxkI0yZ2EtmNJeh~gzm_file_qzC87hGx328bT9pcHfP9x4O3",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_2ITBG0UAwAxkI0yZ2EtmNJeh~gzm_file_tA2nRZlc7iAYVT8vGGYf0LiJ",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_2ITBG0UAwAxkI0yZ2EtmNJeh~gzm_file_celZwv6zl71sx9FvL3h4brL9",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_f2tEnoX8kKlXRfaE4bBrwZeN~gzm_file_cqaPCWl3G1xl3gHxrIRORxpL",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-java",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-typescript",
+                                "application/pdf",
+                                "application/msword",
+                                "application/x-latext",
+                                "text/x-c",
+                                "text/x-tex",
+                                "text/x-sh",
+                                "text/markdown",
+                                "text/plain",
+                                "text/javascript",
+                                "text/x-c++",
+                                "text/x-ruby",
+                                "text/html",
+                                "text/x-php",
+                                "application/json",
+                                "text/x-csharp",
+                                "text/x-script.python"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/gif",
+                                "image/webp",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            }
+        ],
+        "cursor": null
+    }
+}

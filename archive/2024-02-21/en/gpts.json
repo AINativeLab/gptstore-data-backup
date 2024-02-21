@@ -1,0 +1,452 @@
+[
+  {
+    "id": "featured",
+    "list": [
+      {
+        "index": 1,
+        "name": "ChatGPT Classic",
+        "id": "g-YyyyMT9XH",
+        "short_url": "g-YyyyMT9XH-chatgpt-classic",
+        "num_conversations_str": null
+      },
+      {
+        "index": 2,
+        "name": "Web Browser",
+        "id": "g-3w1rEXGE0",
+        "short_url": "g-3w1rEXGE0-web-browser",
+        "num_conversations_str": null
+      },
+      {
+        "index": 3,
+        "name": "Game Time",
+        "id": "g-Sug6mXozT",
+        "short_url": "g-Sug6mXozT-game-time",
+        "num_conversations_str": null
+      },
+      {
+        "index": 4,
+        "name": "The Negotiator",
+        "id": "g-TTTAK9GuS",
+        "short_url": "g-TTTAK9GuS-the-negotiator",
+        "num_conversations_str": null
+      },
+      {
+        "index": 5,
+        "name": "Cosmic Dream",
+        "id": "g-FdMHL1sNo",
+        "short_url": "g-FdMHL1sNo-cosmic-dream",
+        "num_conversations_str": null
+      },
+      {
+        "index": 6,
+        "name": "Tech Support Advisor",
+        "id": "g-WKIaLGGem",
+        "short_url": "g-WKIaLGGem-tech-support-advisor",
+        "num_conversations_str": null
+      },
+      {
+        "index": 7,
+        "name": "Laundry Buddy",
+        "id": "g-QrGDSn90Q",
+        "short_url": "g-QrGDSn90Q-laundry-buddy",
+        "num_conversations_str": null
+      },
+      {
+        "index": 8,
+        "name": "Sous Chef",
+        "id": "g-3VrgJ1GpH",
+        "short_url": "g-3VrgJ1GpH-sous-chef",
+        "num_conversations_str": null
+      },
+      {
+        "index": 9,
+        "name": "Math Mentor",
+        "id": "g-ENhijiiwK",
+        "short_url": "g-ENhijiiwK-math-mentor",
+        "num_conversations_str": null
+      },
+      {
+        "index": 10,
+        "name": "Mocktail Mixologist",
+        "id": "g-PXlrhc1MV",
+        "short_url": "g-PXlrhc1MV-mocktail-mixologist",
+        "num_conversations_str": null
+      }
+    ]
+  },
+  {
+    "id": "dalle",
+    "list": [
+      {
+        "index": 1,
+        "name": "LOGO",
+        "id": "g-pCq5xaCri",
+        "short_url": "g-pCq5xaCri-logo",
+        "num_conversations_str": "50K+"
+      },
+      {
+        "index": 2,
+        "name": "Super Describe",
+        "id": "g-9qWC0oyBd",
+        "short_url": "g-9qWC0oyBd-super-describe",
+        "num_conversations_str": "300K+"
+      },
+      {
+        "index": 3,
+        "name": "Midjourney",
+        "id": "g-LpDlUu6oL",
+        "short_url": "g-LpDlUu6oL-midjourney",
+        "num_conversations_str": "25K+"
+      },
+      {
+        "index": 4,
+        "name": "Image Edit, Recreate & Merge",
+        "id": "g-SIE5101qP",
+        "short_url": "g-SIE5101qP-image-edit-recreate-merge",
+        "num_conversations_str": "100K+"
+      },
+      {
+        "index": 5,
+        "name": "Glibatree Art Designer",
+        "id": "g-7CKojumSX",
+        "short_url": "g-7CKojumSX-glibatree-art-designer",
+        "num_conversations_str": "200K+"
+      },
+      {
+        "index": 6,
+        "name": "のMidjourney Prompt Generator (V6)",
+        "id": "g-tc0eHXdgb",
+        "short_url": "g-tc0eHXdgb-nomidjourney-prompt-generator-v6",
+        "num_conversations_str": "100K+"
+      },
+      {
+        "index": 7,
+        "name": "DALL +",
+        "id": "g-cs3yuZdPx",
+        "short_url": "g-cs3yuZdPx-dall",
+        "num_conversations_str": "5K+"
+      },
+      {
+        "index": 8,
+        "name": "website design",
+        "id": "g-0deevqxGL",
+        "short_url": "g-0deevqxGL-website-design",
+        "num_conversations_str": "1K+"
+      },
+      {
+        "index": 9,
+        "name": "LogoGPT",
+        "id": "g-z61XG6t54",
+        "short_url": "g-z61XG6t54-logogpt",
+        "num_conversations_str": "50K+"
+      },
+      {
+        "index": 10,
+        "name": "Music Video",
+        "id": "g-k2zRIfmsi",
+        "short_url": "g-k2zRIfmsi-music-video",
+        "num_conversations_str": "1K+"
+      }
+    ]
+  },
+  {
+    "id": "research",
+    "list": [
+      {
+        "index": 1,
+        "name": "Wolfram",
+        "id": "g-0S5FXLyFN",
+        "short_url": "g-0S5FXLyFN-wolfram",
+        "num_conversations_str": "100K+"
+      },
+      {
+        "index": 2,
+        "name": "SEO",
+        "id": "g-GrshPDvS3",
+        "short_url": "g-GrshPDvS3-seo",
+        "num_conversations_str": "50K+"
+      },
+      {
+        "index": 3,
+        "name": "SciSpace",
+        "id": "g-NgAcklHd8",
+        "short_url": "g-NgAcklHd8-scispace",
+        "num_conversations_str": "100K+"
+      },
+      {
+        "index": 4,
+        "name": "PDF Insight",
+        "id": "g-rsuRKk1MX",
+        "short_url": "g-rsuRKk1MX-pdf-insight",
+        "num_conversations_str": "10K+"
+      },
+      {
+        "index": 5,
+        "name": "Keymate.AI Search GPT",
+        "id": "g-veSrMmasJ",
+        "short_url": "g-veSrMmasJ-keymate-ai-search-gpt",
+        "num_conversations_str": "25K+"
+      },
+      {
+        "index": 6,
+        "name": "Video Insights: Summaries/Vision/Transcription",
+        "id": "g-HXZv0dg8w",
+        "short_url": "g-HXZv0dg8w-video-insights-summaries-vision-transcription",
+        "num_conversations_str": "25K+"
+      },
+      {
+        "index": 7,
+        "name": "AutoExpert (Academic)",
+        "id": "g-YAgNxPJEq",
+        "short_url": "g-YAgNxPJEq-autoexpert-academic",
+        "num_conversations_str": "50K+"
+      },
+      {
+        "index": 8,
+        "name": "Diagram Genius",
+        "id": "g-5Qx0mOEND",
+        "short_url": "g-5Qx0mOEND-diagram-genius",
+        "num_conversations_str": "5K+"
+      },
+      {
+        "index": 9,
+        "name": "MARKETING",
+        "id": "g-DtjWjSDiv",
+        "short_url": "g-DtjWjSDiv-marketing",
+        "num_conversations_str": "10K+"
+      },
+      {
+        "index": 10,
+        "name": "Stock Robo 🤖  AI Stock Analyst",
+        "id": "g-FvojGs7rD",
+        "short_url": "g-FvojGs7rD-stock-robo-ai-stock-analyst",
+        "num_conversations_str": "25K+"
+      }
+    ]
+  },
+  {
+    "id": "programming",
+    "list": [
+      {
+        "index": 1,
+        "name": "Code Copilot",
+        "id": "g-2DQzU5UZl",
+        "short_url": "g-2DQzU5UZl-code-copilot",
+        "num_conversations_str": "50K+"
+      },
+      {
+        "index": 2,
+        "name": "Website Generator",
+        "id": "g-iYSeH3EAI",
+        "short_url": "g-iYSeH3EAI-website-generator",
+        "num_conversations_str": "10K+"
+      },
+      {
+        "index": 3,
+        "name": "AutoExpert (Dev)",
+        "id": "g-pTF23RJ6f",
+        "short_url": "g-pTF23RJ6f-autoexpert-dev",
+        "num_conversations_str": "100K+"
+      },
+      {
+        "index": 4,
+        "name": "AskTheCode",
+        "id": "g-3s6SJ5V7S",
+        "short_url": "g-3s6SJ5V7S-askthecode",
+        "num_conversations_str": "50K+"
+      },
+      {
+        "index": 5,
+        "name": "API Docs",
+        "id": "g-I1XNbsyDK",
+        "short_url": "g-I1XNbsyDK-api-docs",
+        "num_conversations_str": "25K+"
+      },
+      {
+        "index": 6,
+        "name": "CrewAI Assistant",
+        "id": "g-qqTuUWsBY",
+        "short_url": "g-qqTuUWsBY-crewai-assistant",
+        "num_conversations_str": "50K+"
+      },
+      {
+        "index": 7,
+        "name": "SQL Expert",
+        "id": "g-m5lMeGifF",
+        "short_url": "g-m5lMeGifF-sql-expert",
+        "num_conversations_str": "10K+"
+      },
+      {
+        "index": 8,
+        "name": "React AI",
+        "id": "g-AVrfRPzod",
+        "short_url": "g-AVrfRPzod-react-ai",
+        "num_conversations_str": "5K+"
+      },
+      {
+        "index": 9,
+        "name": "R Wizard",
+        "id": "g-TgjKDuQwZ",
+        "short_url": "g-TgjKDuQwZ-r-wizard",
+        "num_conversations_str": "5K+"
+      },
+      {
+        "index": 10,
+        "name": "Unity Helper",
+        "id": "g-Uz8I8oK3R",
+        "short_url": "g-Uz8I8oK3R-unity-helper",
+        "num_conversations_str": "10K+"
+      }
+    ]
+  },
+  {
+    "id": "education",
+    "list": [
+      {
+        "index": 1,
+        "name": "Prompt Professor",
+        "id": "g-qfoOICq1l",
+        "short_url": "g-qfoOICq1l-prompt-professor",
+        "num_conversations_str": "25K+"
+      },
+      {
+        "index": 2,
+        "name": "Physics Oracle",
+        "id": "g-odWlfAKWM",
+        "short_url": "g-odWlfAKWM-physics-oracle",
+        "num_conversations_str": "10K+"
+      },
+      {
+        "index": 3,
+        "name": "Mr. Ranedeer",
+        "id": "g-9PKhaweyb",
+        "short_url": "g-9PKhaweyb-mr-ranedeer",
+        "num_conversations_str": "50K+"
+      },
+      {
+        "index": 4,
+        "name": "Math AI 🧮",
+        "id": "g-2OyX2ZiUk",
+        "short_url": "g-2OyX2ZiUk-math-ai",
+        "num_conversations_str": "25K+"
+      },
+      {
+        "index": 5,
+        "name": "Math Solver",
+        "id": "g-ktOkQRmvl",
+        "short_url": "g-ktOkQRmvl-math-solver",
+        "num_conversations_str": "5K+"
+      },
+      {
+        "index": 6,
+        "name": "CK-12 Flexi",
+        "id": "g-cEEXd8Dpb",
+        "short_url": "g-cEEXd8Dpb-ck-12-flexi",
+        "num_conversations_str": "50K+"
+      },
+      {
+        "index": 7,
+        "name": "📗All-around Teacher (Learn Everything in 3 min)",
+        "id": "g-PDWi5Scbc",
+        "short_url": "g-PDWi5Scbc-all-around-teacher-learn-everything-in-3-min",
+        "num_conversations_str": "10K+"
+      },
+      {
+        "index": 8,
+        "name": "Machine Learning",
+        "id": "g-TfiZbdLM0",
+        "short_url": "g-TfiZbdLM0-machine-learning",
+        "num_conversations_str": "5K+"
+      },
+      {
+        "index": 9,
+        "name": "Mathematical statistics",
+        "id": "g-RlxGWrXEy",
+        "short_url": "g-RlxGWrXEy-mathematical-statistics",
+        "num_conversations_str": "1K+"
+      },
+      {
+        "index": 10,
+        "name": "Probability and Statistics Professor",
+        "id": "g-adbSjT0zk",
+        "short_url": "g-adbSjT0zk-probability-and-statistics-professor",
+        "num_conversations_str": "1K+"
+      }
+    ]
+  },
+  {
+    "id": "lifestyle",
+    "list": [
+      {
+        "index": 1,
+        "name": "math",
+        "id": "g-rr7AytfKH",
+        "short_url": "g-rr7AytfKH-math",
+        "num_conversations_str": "25K+"
+      },
+      {
+        "index": 2,
+        "name": "Travel Guide",
+        "id": "g-E7eSRUHy6",
+        "short_url": "g-E7eSRUHy6-travel-guide",
+        "num_conversations_str": "10K+"
+      },
+      {
+        "index": 3,
+        "name": "Rizz GPT",
+        "id": "g-CsdwU23wt",
+        "short_url": "g-CsdwU23wt-rizz-gpt",
+        "num_conversations_str": "50K+"
+      },
+      {
+        "index": 4,
+        "name": "What should I watch?",
+        "id": "g-Gm9cCA5qg",
+        "short_url": "g-Gm9cCA5qg-what-should-i-watch",
+        "num_conversations_str": "50K+"
+      },
+      {
+        "index": 5,
+        "name": "Healthy Chef",
+        "id": "g-OdwKeQjDm",
+        "short_url": "g-OdwKeQjDm-healthy-chef",
+        "num_conversations_str": "25K+"
+      },
+      {
+        "index": 6,
+        "name": "Home Style Advisor",
+        "id": "g-JUPludygA",
+        "short_url": "g-JUPludygA-home-style-advisor",
+        "num_conversations_str": "25K+"
+      },
+      {
+        "index": 7,
+        "name": "Medical AI",
+        "id": "g-jd2p3UfVx",
+        "short_url": "g-jd2p3UfVx-medical-ai",
+        "num_conversations_str": "10K+"
+      },
+      {
+        "index": 8,
+        "name": "Tax Assistant - Tax, Taxes, Taxabl",
+        "id": "g-wnNwA5ioV",
+        "short_url": "g-wnNwA5ioV-tax-assistant-tax-taxes-taxabl",
+        "num_conversations_str": "5K+"
+      },
+      {
+        "index": 9,
+        "name": "DnD GPT",
+        "id": "g-EdqvwCQkF",
+        "short_url": "g-EdqvwCQkF-dnd-gpt",
+        "num_conversations_str": "10K+"
+      },
+      {
+        "index": 10,
+        "name": "PlaylistAI - Music Playlist Maker",
+        "id": "g-KkxbQAVuk",
+        "short_url": "g-KkxbQAVuk-playlistai-music-playlist-maker",
+        "num_conversations_str": "10K+"
+      }
+    ]
+  }
+]
