@@ -318,7 +318,7 @@ No.9 / 300K+
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Midjourney" src="https://files.oaiusercontent.com/file-G2EfRqadIiASU86zknerDj8U?se=2123-10-17T03%3A52%3A57Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D6bfeb4de-edbe-4eb3-b72a-204ff083c88b.png&sig=qjvZj4sJq7vt37xiYZJ0boJGTyI9G/qadgqOZs9DukY%3D"/>](https://chat.openai.com/g/g-LpDlUu6oL-midjourney)
 
 [**Midjourney**](https://chat.openai.com/g/g-LpDlUu6oL-midjourney) \
-No.10 / 25K+
+No.10 / 50K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Image Edit, Recreate & Merge" src="https://files.oaiusercontent.com/file-a8E62jfZIMHWiz7YARqtktfS?se=2123-12-30T02%3A00%3A49Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202023-11-16%252016.09.25%2520-%2520A%2520minimalistic%2520and%2520innovative%2520circle%2520logo%2520for%2520startups%252C%2520featuring%2520the%2520text%2520%2527img2img%2527%2520centered%2520within.%2520The%2520logo%2520should%2520be%2520white%2520on%2520a%2520black%2520background%252C%2520.png&sig=kYMqT8BhFouRn/E85mrmtDUmiAo4JpYzs6eABfyBwKU%3D"/>](https://chat.openai.com/g/g-SIE5101qP-image-edit-recreate-merge)
@@ -443,7 +443,7 @@ No.13 / 10K+
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="✍️Paraphrase & Humanizer" src="https://files.oaiusercontent.com/file-FPuqUCE9c7wNnooQEOvkjn3v?se=2124-01-01T09%3A04%3A47Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202024-01-25%252017.03.03%2520-%2520A%2520digital%2520illustration%2520of%2520a%2520headshot%2520of%2520an%2520elegant%2520and%2520scholarly%2520Asian%2520female%2520professor%2520with%2520very%2520fair%2520skin.%2520She%2520should%2520be%2520holding%2520a%2520pen%252C%2520symbolizing%2520.png&sig=gqoHN8VBHEgrDD8FRBr3Vz2WP6PFunKQaGg2rdpnPJs%3D"/>](https://chat.openai.com/g/g-7vtCjvxkz-paraphrase-humanizer)
 
 [**✍️Paraphrase & Humanizer**](https://chat.openai.com/g/g-7vtCjvxkz-paraphrase-humanizer) \
-No.14 / 5K+
+No.14 / 10K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Humanize AI" src="https://files.oaiusercontent.com/file-G2dq0SJV4pOuJSWG4bM9v2XJ?se=2124-01-23T14%3A23%3A39Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DLogo%25208%2520%25282%2529.png&sig=2VfeOhvG3iM7/kTDVsS7A0qQWpOqKL51uazTStkcyKE%3D"/>](https://chat.openai.com/g/g-a6Fpz8NRb-humanize-ai)
@@ -627,7 +627,7 @@ No.10 / 10K+
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Keymate.AI Search GPT" src="https://files.oaiusercontent.com/file-6XfNfOxaKnIX5U9WLR2GqkWg?se=2123-10-14T17%3A25%3A15Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3DTransparentFavicon%2520-%2520Copy%2520%2528Custom%2529.png&sig=JE1A3o58i8M6/SOhRg01SraCEqqg4aXnL4bHujtOga8%3D"/>](https://chat.openai.com/g/g-veSrMmasJ-keymate-ai-search-gpt)
 
 [**Keymate.AI Search GPT**](https://chat.openai.com/g/g-veSrMmasJ-keymate-ai-search-gpt) \
-No.11 / 25K+
+No.11 / 50K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Video Insights: Summaries/Vision/Transcription" src="https://files.oaiusercontent.com/file-XDTgDvDuiiu20qCqfBLSpQAm?se=2123-10-21T16%3A21%3A09Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3DVIDEO%2520INSIGHTS%2520%252821%2529.png&sig=8hxApFwhN4G89zQfxONQ9I%2BhGsqJWGuwaJyRA7k3qDE%3D"/>](https://chat.openai.com/g/g-HXZv0dg8w-video-insights-summaries-vision-transcription)
@@ -645,7 +645,7 @@ No.13 / 50K+
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Diagram Genius" src="https://files.oaiusercontent.com/file-LzJsonGJQh2qa0DPR1TgUluU?se=2123-10-31T03%3A04%3A54Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202023-11-23%252018.57.40%2520-%2520A%2520two-tone%2520logo%2520design%2520with%2520an%2520interlocking%2520diamond%2520pattern%252C%2520set%2520against%2520a%2520background%2520in%2520the%2520shade%2520of%2520%2527zinc%2520800%2527%252C%2520a%2520deep%2520gray%2520color.%2520The%2520logo%2520is%2520monoc.png&sig=W%2BZyGwa53t0J%2BVj7DtAHTOyNuSoMN6NIE7LRGw8fsig%3D"/>](https://chat.openai.com/g/g-5Qx0mOEND-diagram-genius)
 
 [**Diagram Genius**](https://chat.openai.com/g/g-5Qx0mOEND-diagram-genius) \
-No.14 / 5K+
+No.14 / 10K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="MARKETING" src="https://files.oaiusercontent.com/file-m4GlwY1VIc3ADwoMP9KlAZta?se=2123-12-12T03%3A34%3A34Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3D1a3ca873-e932-4dda-af7b-c1f8e5a0b35f.png&sig=DrTNZCq5RNevq/DGskuy7NOXJR5K%2BLGs4I93F8Lny8A%3D"/>](https://chat.openai.com/g/g-DtjWjSDiv-marketing)
@@ -894,7 +894,7 @@ No.4 / 50K+
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="GymStreak Workout Creator" src="https://files.oaiusercontent.com/file-TlYVmV4WalrrYp2lFIFcBl6P?se=2123-10-16T22%3A51%3A44Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dicon.png&sig=WaRvYHuXYHLsxgKPOSOUMb1L%2BZbE7s5XO/xuKECeFDc%3D"/>](https://chat.openai.com/g/g-TVDhLW5fm-gymstreak-workout-creator)
 
 [**GymStreak Workout Creator**](https://chat.openai.com/g/g-TVDhLW5fm-gymstreak-workout-creator) \
-No.5 / 25K+
+No.5 / 50K+
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Books" src="https://files.oaiusercontent.com/file-xgURwSlsrwE8Q0eGlNednv0c?se=2123-12-31T23%3A41%3A17Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3D4c345735-7a64-490e-8b30-547e99179964%2520%25281%2529.png&sig=hymSgepPRjJB4fzT9JEmRpGxJ77bq/56NgPtxnKVBwY%3D"/>](https://chat.openai.com/g/g-z77yDe7Vu-books)
