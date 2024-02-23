@@ -1,72 +1,147 @@
 [
   {
-    "id": "trending",
+    "id": "featured_store",
     "list": [
       {
         "index": 1,
+        "name": "Wolfram",
+        "id": "g-0S5FXLyFN",
+        "short_url": "g-0S5FXLyFN-wolfram",
+        "chats": "100K+"
+      },
+      {
+        "index": 2,
+        "name": "ElevenLabs Text To Speech",
+        "id": "g-h0lbLuFF1",
+        "short_url": "g-h0lbLuFF1-elevenlabs-text-to-speech",
+        "chats": "25K+"
+      },
+      {
+        "index": 3,
         "name": "Whimsical Diagrams",
         "id": "g-vI2kaiM9N",
         "short_url": "g-vI2kaiM9N-whimsical-diagrams",
         "chats": "100K+"
       },
       {
+        "index": 4,
+        "name": "Consensus",
+        "id": "g-bo0FiWLY7",
+        "short_url": "g-bo0FiWLY7-consensus",
+        "chats": "2M+"
+      }
+    ]
+  },
+  {
+    "id": "trending",
+    "list": [
+      {
+        "index": 1,
+        "name": "image generator",
+        "id": "g-pmuQfob8d",
+        "short_url": "g-pmuQfob8d-image-generator",
+        "chats": "1M+"
+      },
+      {
         "index": 2,
+        "name": "Logo Creator",
+        "id": "g-gFt1ghYJl",
+        "short_url": "g-gFt1ghYJl-logo-creator",
+        "chats": "1M+"
+      },
+      {
+        "index": 3,
+        "name": "Canva",
+        "id": "g-alKfVrz9K",
+        "short_url": "g-alKfVrz9K-canva",
+        "chats": "1M+"
+      },
+      {
+        "index": 4,
+        "name": "Cartoonize Yourself",
+        "id": "g-gFFsdkfMC",
+        "short_url": "g-gFFsdkfMC-cartoonize-yourself",
+        "chats": "700K+"
+      },
+      {
+        "index": 5,
+        "name": "Consensus",
+        "id": "g-bo0FiWLY7",
+        "short_url": "g-bo0FiWLY7-consensus",
+        "chats": "2M+"
+      },
+      {
+        "index": 6,
+        "name": "Write For Me",
+        "id": "g-B3hgivKK9",
+        "short_url": "g-B3hgivKK9-write-for-me",
+        "chats": "800K+"
+      },
+      {
+        "index": 7,
+        "name": "Whimsical Diagrams",
+        "id": "g-vI2kaiM9N",
+        "short_url": "g-vI2kaiM9N-whimsical-diagrams",
+        "chats": "100K+"
+      },
+      {
+        "index": 8,
         "name": "Video GPT by VEED",
         "id": "g-Hkqnd7mFT",
         "short_url": "g-Hkqnd7mFT-video-gpt-by-veed",
         "chats": "400K+"
       },
       {
-        "index": 3,
+        "index": 9,
         "name": "Humanizer Pro",
         "id": "g-2azCVmXdy",
         "short_url": "g-2azCVmXdy-humanizer-pro",
         "chats": "400K+"
       },
       {
-        "index": 4,
+        "index": 10,
         "name": "Photo Multiverse",
         "id": "g-ZctQCI6MG",
         "short_url": "g-ZctQCI6MG-photo-multiverse",
         "chats": "200K+"
       },
       {
-        "index": 5,
+        "index": 11,
         "name": "Scholar GPT",
         "id": "g-kZ0eYXlJe",
         "short_url": "g-kZ0eYXlJe-scholar-gpt",
         "chats": "300K+"
       },
       {
-        "index": 6,
+        "index": 12,
         "name": "Drawn to Style",
         "id": "g-B8Jiuj0Dp",
         "short_url": "g-B8Jiuj0Dp-drawn-to-style",
         "chats": "100K+"
       },
       {
-        "index": 7,
+        "index": 13,
         "name": "Diagrams: Show Me",
         "id": "g-5QhhdsfDj",
         "short_url": "g-5QhhdsfDj-diagrams-show-me",
         "chats": "500K+"
       },
       {
-        "index": 8,
+        "index": 14,
         "name": "Video Maker by invideo AI",
         "id": "g-h8l4uLHFQ",
         "short_url": "g-h8l4uLHFQ-video-maker-by-invideo-ai",
         "chats": "300K+"
       },
       {
-        "index": 9,
+        "index": 15,
         "name": "👌Academic Assistant Pro",
         "id": "g-Ej5zYQRIB",
         "short_url": "g-Ej5zYQRIB-academic-assistant-pro",
         "chats": "300K+"
       },
       {
-        "index": 10,
+        "index": 16,
         "name": "PDF Ai PDF",
         "id": "g-V2KIUZSj0",
         "short_url": "g-V2KIUZSj0-pdf-ai-pdf",
@@ -79,69 +154,111 @@
     "list": [
       {
         "index": 1,
+        "name": "DALL·E",
+        "id": "g-2fkFE8rbu",
+        "short_url": "g-2fkFE8rbu-dall-e",
+        "chats": null
+      },
+      {
+        "index": 2,
+        "name": "Data Analyst",
+        "id": "g-HMNcP6w7d",
+        "short_url": "g-HMNcP6w7d-data-analyst",
+        "chats": null
+      },
+      {
+        "index": 3,
+        "name": "Hot Mods",
+        "id": "g-fTA4FQ7wj",
+        "short_url": "g-fTA4FQ7wj-hot-mods",
+        "chats": null
+      },
+      {
+        "index": 4,
+        "name": "Creative Writing Coach",
+        "id": "g-lN1gKFnvL",
+        "short_url": "g-lN1gKFnvL-creative-writing-coach",
+        "chats": null
+      },
+      {
+        "index": 5,
+        "name": "Coloring Book Hero",
+        "id": "g-DerYxX7rA",
+        "short_url": "g-DerYxX7rA-coloring-book-hero",
+        "chats": null
+      },
+      {
+        "index": 6,
+        "name": "Planty",
+        "id": "g-6PKrcgTBL",
+        "short_url": "g-6PKrcgTBL-planty",
+        "chats": null
+      },
+      {
+        "index": 7,
         "name": "ChatGPT Classic",
         "id": "g-YyyyMT9XH",
         "short_url": "g-YyyyMT9XH-chatgpt-classic",
         "chats": null
       },
       {
-        "index": 2,
+        "index": 8,
         "name": "Web Browser",
         "id": "g-3w1rEXGE0",
         "short_url": "g-3w1rEXGE0-web-browser",
         "chats": null
       },
       {
-        "index": 3,
+        "index": 9,
         "name": "Game Time",
         "id": "g-Sug6mXozT",
         "short_url": "g-Sug6mXozT-game-time",
         "chats": null
       },
       {
-        "index": 4,
+        "index": 10,
         "name": "The Negotiator",
         "id": "g-TTTAK9GuS",
         "short_url": "g-TTTAK9GuS-the-negotiator",
         "chats": null
       },
       {
-        "index": 5,
+        "index": 11,
         "name": "Cosmic Dream",
         "id": "g-FdMHL1sNo",
         "short_url": "g-FdMHL1sNo-cosmic-dream",
         "chats": null
       },
       {
-        "index": 6,
+        "index": 12,
         "name": "Tech Support Advisor",
         "id": "g-WKIaLGGem",
         "short_url": "g-WKIaLGGem-tech-support-advisor",
         "chats": null
       },
       {
-        "index": 7,
+        "index": 13,
         "name": "Laundry Buddy",
         "id": "g-QrGDSn90Q",
         "short_url": "g-QrGDSn90Q-laundry-buddy",
         "chats": null
       },
       {
-        "index": 8,
+        "index": 14,
         "name": "Sous Chef",
         "id": "g-3VrgJ1GpH",
         "short_url": "g-3VrgJ1GpH-sous-chef",
         "chats": null
       },
       {
-        "index": 9,
+        "index": 15,
         "name": "Math Mentor",
         "id": "g-ENhijiiwK",
         "short_url": "g-ENhijiiwK-math-mentor",
         "chats": null
       },
       {
-        "index": 10,
+        "index": 16,
         "name": "Mocktail Mixologist",
         "id": "g-PXlrhc1MV",
         "short_url": "g-PXlrhc1MV-mocktail-mixologist",
@@ -150,73 +267,232 @@
     ]
   },
   {
+    "id": "dalle",
+    "list": [
+      {
+        "index": 1,
+        "name": "image generator",
+        "id": "g-pmuQfob8d",
+        "short_url": "g-pmuQfob8d-image-generator",
+        "chats": "1M+"
+      },
+      {
+        "index": 2,
+        "name": "Logo Creator",
+        "id": "g-gFt1ghYJl",
+        "short_url": "g-gFt1ghYJl-logo-creator",
+        "chats": "1M+"
+      },
+      {
+        "index": 3,
+        "name": "Cartoonize Yourself",
+        "id": "g-gFFsdkfMC",
+        "short_url": "g-gFFsdkfMC-cartoonize-yourself",
+        "chats": "700K+"
+      },
+      {
+        "index": 4,
+        "name": "Photo Multiverse",
+        "id": "g-ZctQCI6MG",
+        "short_url": "g-ZctQCI6MG-photo-multiverse",
+        "chats": "200K+"
+      },
+      {
+        "index": 5,
+        "name": "Drawn to Style",
+        "id": "g-B8Jiuj0Dp",
+        "short_url": "g-B8Jiuj0Dp-drawn-to-style",
+        "chats": "100K+"
+      },
+      {
+        "index": 6,
+        "name": "Consistent Character GPT👉🏼 Fast & High Quality⚡️",
+        "id": "g-a9JivI0y2",
+        "short_url": "g-a9JivI0y2-consistent-character-gpt-fast-high-quality",
+        "chats": "200K+"
+      },
+      {
+        "index": 7,
+        "name": "LOGO",
+        "id": "g-pCq5xaCri",
+        "short_url": "g-pCq5xaCri-logo",
+        "chats": "100K+"
+      },
+      {
+        "index": 8,
+        "name": "Midjourney",
+        "id": "g-LpDlUu6oL",
+        "short_url": "g-LpDlUu6oL-midjourney",
+        "chats": "50K+"
+      },
+      {
+        "index": 9,
+        "name": "Super Describe",
+        "id": "g-9qWC0oyBd",
+        "short_url": "g-9qWC0oyBd-super-describe",
+        "chats": "300K+"
+      },
+      {
+        "index": 10,
+        "name": "Tattoo GPT",
+        "id": "g-1zMekbWTA",
+        "short_url": "g-1zMekbWTA-tattoo-gpt",
+        "chats": "100K+"
+      },
+      {
+        "index": 11,
+        "name": "Image Edit, Recreate & Merge",
+        "id": "g-SIE5101qP",
+        "short_url": "g-SIE5101qP-image-edit-recreate-merge",
+        "chats": "100K+"
+      },
+      {
+        "index": 12,
+        "name": "Glibatree Art Designer",
+        "id": "g-7CKojumSX",
+        "short_url": "g-7CKojumSX-glibatree-art-designer",
+        "chats": "200K+"
+      },
+      {
+        "index": 13,
+        "name": "ロMidjourney Prompt Generator (V6)",
+        "id": "g-tc0eHXdgb",
+        "short_url": "g-tc0eHXdgb-romidjourney-prompt-generator-v6",
+        "chats": "100K+"
+      },
+      {
+        "index": 14,
+        "name": "Mid Journey V6 Prompt Creator",
+        "id": "g-vd364I1Zi",
+        "short_url": "g-vd364I1Zi-mid-journey-v6-prompt-creator",
+        "chats": "10K+"
+      },
+      {
+        "index": 15,
+        "name": "Image Copy Machine GPT",
+        "id": "g-g0efUwWgG",
+        "short_url": "g-g0efUwWgG-image-copy-machine-gpt",
+        "chats": "100K+"
+      },
+      {
+        "index": 16,
+        "name": "DALL +",
+        "id": "g-cs3yuZdPx",
+        "short_url": "g-cs3yuZdPx-dall",
+        "chats": "10K+"
+      }
+    ]
+  },
+  {
     "id": "writing",
     "list": [
       {
         "index": 1,
+        "name": "Write For Me",
+        "id": "g-B3hgivKK9",
+        "short_url": "g-B3hgivKK9-write-for-me",
+        "chats": "800K+"
+      },
+      {
+        "index": 2,
+        "name": "Humanizer Pro",
+        "id": "g-2azCVmXdy",
+        "short_url": "g-2azCVmXdy-humanizer-pro",
+        "chats": "400K+"
+      },
+      {
+        "index": 3,
+        "name": "👌Academic Assistant Pro",
+        "id": "g-Ej5zYQRIB",
+        "short_url": "g-Ej5zYQRIB-academic-assistant-pro",
+        "chats": "300K+"
+      },
+      {
+        "index": 4,
+        "name": "✏️All-around Writer (Professional Version)",
+        "id": "g-UbpNAGYL9",
+        "short_url": "g-UbpNAGYL9-all-around-writer-professional-version",
+        "chats": "200K+"
+      },
+      {
+        "index": 5,
+        "name": "Fully SEO Optimized Article including FAQ's",
+        "id": "g-ySbhcRtru",
+        "short_url": "g-ySbhcRtru-fully-seo-optimized-article-including-faq-s",
+        "chats": "100K+"
+      },
+      {
+        "index": 6,
+        "name": "AI Humanizer Pro",
+        "id": "g-TiS7zU3kO",
+        "short_url": "g-TiS7zU3kO-ai-humanizer-pro",
+        "chats": "25K+"
+      },
+      {
+        "index": 7,
         "name": "Copywriter GPT",
         "id": "g-Ji2QOyMml",
         "short_url": "g-Ji2QOyMml-copywriter-gpt",
         "chats": "50K+"
       },
       {
-        "index": 2,
+        "index": 8,
         "name": "Song Maker",
         "id": "g-txEiClD5G",
         "short_url": "g-txEiClD5G-song-maker",
         "chats": "25K+"
       },
       {
-        "index": 3,
+        "index": 9,
         "name": "Essay Writer 😎",
         "id": "g-OHtksi5YI",
         "short_url": "g-OHtksi5YI-essay-writer",
         "chats": "25K+"
       },
       {
-        "index": 4,
+        "index": 10,
         "name": "Blog Expert",
         "id": "g-PWizFQk8C",
         "short_url": "g-PWizFQk8C-blog-expert",
         "chats": "25K+"
       },
       {
-        "index": 5,
+        "index": 11,
         "name": "Automated Writer",
         "id": "g-82ALdp8Nj",
         "short_url": "g-82ALdp8Nj-automated-writer",
         "chats": "50K+"
       },
       {
-        "index": 6,
+        "index": 12,
         "name": "✍️Paraphrase & Humanizer",
         "id": "g-7vtCjvxkz",
         "short_url": "g-7vtCjvxkz-paraphrase-humanizer",
         "chats": "10K+"
       },
       {
-        "index": 7,
+        "index": 13,
         "name": "Humanize AI",
         "id": "g-a6Fpz8NRb",
         "short_url": "g-a6Fpz8NRb-humanize-ai",
         "chats": "10K+"
       },
       {
-        "index": 8,
+        "index": 14,
         "name": "Text to Video AI by Shimmer",
         "id": "g-kcpdFy5Rl",
         "short_url": "g-kcpdFy5Rl-text-to-video-ai-by-shimmer",
         "chats": "1K+"
       },
       {
-        "index": 9,
+        "index": 15,
         "name": "AI Humanizer",
         "id": "g-RSF6B5ABk",
         "short_url": "g-RSF6B5ABk-ai-humanizer",
         "chats": "10K+"
       },
       {
-        "index": 10,
+        "index": 16,
         "name": "Write Like A Human",
         "id": "g-1mzAswM3D",
         "short_url": "g-1mzAswM3D-write-like-a-human",
@@ -229,69 +505,111 @@
     "list": [
       {
         "index": 1,
+        "name": "Canva",
+        "id": "g-alKfVrz9K",
+        "short_url": "g-alKfVrz9K-canva",
+        "chats": "1M+"
+      },
+      {
+        "index": 2,
+        "name": "Video GPT by VEED",
+        "id": "g-Hkqnd7mFT",
+        "short_url": "g-Hkqnd7mFT-video-gpt-by-veed",
+        "chats": "400K+"
+      },
+      {
+        "index": 3,
+        "name": "Diagrams: Show Me",
+        "id": "g-5QhhdsfDj",
+        "short_url": "g-5QhhdsfDj-diagrams-show-me",
+        "chats": "500K+"
+      },
+      {
+        "index": 4,
+        "name": "Video Maker by invideo AI",
+        "id": "g-h8l4uLHFQ",
+        "short_url": "g-h8l4uLHFQ-video-maker-by-invideo-ai",
+        "chats": "300K+"
+      },
+      {
+        "index": 5,
+        "name": "PDF Ai PDF",
+        "id": "g-V2KIUZSj0",
+        "short_url": "g-V2KIUZSj0-pdf-ai-pdf",
+        "chats": "600K+"
+      },
+      {
+        "index": 6,
+        "name": "Slide Maker",
+        "id": "g-Vklr0BddT",
+        "short_url": "g-Vklr0BddT-slide-maker",
+        "chats": "200K+"
+      },
+      {
+        "index": 7,
         "name": "WebPilot",
         "id": "g-pNWGgUYqS",
         "short_url": "g-pNWGgUYqS-webpilot",
         "chats": "100K+"
       },
       {
-        "index": 2,
+        "index": 8,
         "name": "Resume",
         "id": "g-MrgKnTZbc",
         "short_url": "g-MrgKnTZbc-resume",
         "chats": "50K+"
       },
       {
-        "index": 3,
+        "index": 9,
         "name": "Browser Pro",
         "id": "g-BlafpMvzd",
         "short_url": "g-BlafpMvzd-browser-pro",
         "chats": "25K+"
       },
       {
-        "index": 4,
+        "index": 10,
         "name": "22.500+ Best Custom GPTs",
         "id": "g-RuhDS8mbd",
         "short_url": "g-RuhDS8mbd-22-500-best-custom-gpts",
         "chats": "100K+"
       },
       {
-        "index": 5,
+        "index": 11,
         "name": "Doc Maker",
         "id": "g-Gt6Z8pqWF",
         "short_url": "g-Gt6Z8pqWF-doc-maker",
         "chats": "50K+"
       },
       {
-        "index": 6,
+        "index": 12,
         "name": "PowerPoint",
         "id": "g-0gFt7qej4",
         "short_url": "g-0gFt7qej4-powerpoint",
         "chats": "10K+"
       },
       {
-        "index": 7,
+        "index": 13,
         "name": "NEO - Ultimate AI",
         "id": "g-jCYeXl5xh",
         "short_url": "g-jCYeXl5xh-neo-ultimate-ai",
         "chats": "200K+"
       },
       {
-        "index": 8,
+        "index": 14,
         "name": ".PPT Powerpoint Maker Bot",
         "id": "g-UshQCD23y",
         "short_url": "g-UshQCD23y-ppt-powerpoint-maker-bot",
         "chats": "10K+"
       },
       {
-        "index": 9,
+        "index": 15,
         "name": "Prompt Perfect",
         "id": "g-0QDef4GiE",
         "short_url": "g-0QDef4GiE-prompt-perfect",
         "chats": "50K+"
       },
       {
-        "index": 10,
+        "index": 16,
         "name": "CV Writer",
         "id": "g-cStsvQbjd",
         "short_url": "g-cStsvQbjd-cv-writer",
@@ -304,69 +622,111 @@
     "list": [
       {
         "index": 1,
+        "name": "Consensus",
+        "id": "g-bo0FiWLY7",
+        "short_url": "g-bo0FiWLY7-consensus",
+        "chats": "2M+"
+      },
+      {
+        "index": 2,
+        "name": "Whimsical Diagrams",
+        "id": "g-vI2kaiM9N",
+        "short_url": "g-vI2kaiM9N-whimsical-diagrams",
+        "chats": "100K+"
+      },
+      {
+        "index": 3,
+        "name": "Scholar GPT",
+        "id": "g-kZ0eYXlJe",
+        "short_url": "g-kZ0eYXlJe-scholar-gpt",
+        "chats": "300K+"
+      },
+      {
+        "index": 4,
+        "name": "AskYourPDF Research Assistant",
+        "id": "g-UfFxTDMxq",
+        "short_url": "g-UfFxTDMxq-askyourpdf-research-assistant",
+        "chats": "400K+"
+      },
+      {
+        "index": 5,
+        "name": "ScholarAI",
+        "id": "g-L2HknCZTC",
+        "short_url": "g-L2HknCZTC-scholarai",
+        "chats": "300K+"
+      },
+      {
+        "index": 6,
+        "name": "Finance Wizard",
+        "id": "g-szDdJUX9V",
+        "short_url": "g-szDdJUX9V-finance-wizard",
+        "chats": "100K+"
+      },
+      {
+        "index": 7,
         "name": "Wolfram",
         "id": "g-0S5FXLyFN",
         "short_url": "g-0S5FXLyFN-wolfram",
         "chats": "100K+"
       },
       {
-        "index": 2,
+        "index": 8,
         "name": "SEO",
         "id": "g-GrshPDvS3",
         "short_url": "g-GrshPDvS3-seo",
         "chats": "50K+"
       },
       {
-        "index": 3,
+        "index": 9,
         "name": "SciSpace",
         "id": "g-NgAcklHd8",
         "short_url": "g-NgAcklHd8-scispace",
         "chats": "100K+"
       },
       {
-        "index": 4,
+        "index": 10,
         "name": "PDF Insight",
         "id": "g-rsuRKk1MX",
         "short_url": "g-rsuRKk1MX-pdf-insight",
         "chats": "10K+"
       },
       {
-        "index": 5,
+        "index": 11,
         "name": "Keymate.AI Search GPT",
         "id": "g-veSrMmasJ",
         "short_url": "g-veSrMmasJ-keymate-ai-search-gpt",
         "chats": "50K+"
       },
       {
-        "index": 6,
+        "index": 12,
         "name": "Video Insights: Summaries/Vision/Transcription",
         "id": "g-HXZv0dg8w",
         "short_url": "g-HXZv0dg8w-video-insights-summaries-vision-transcription",
         "chats": "25K+"
       },
       {
-        "index": 7,
+        "index": 13,
         "name": "Diagram Genius",
         "id": "g-5Qx0mOEND",
         "short_url": "g-5Qx0mOEND-diagram-genius",
         "chats": "10K+"
       },
       {
-        "index": 8,
+        "index": 14,
         "name": "MARKETING",
         "id": "g-DtjWjSDiv",
         "short_url": "g-DtjWjSDiv-marketing",
         "chats": "10K+"
       },
       {
-        "index": 9,
+        "index": 15,
         "name": "AutoExpert (Academic)",
         "id": "g-YAgNxPJEq",
         "short_url": "g-YAgNxPJEq-autoexpert-academic",
         "chats": "50K+"
       },
       {
-        "index": 10,
+        "index": 16,
         "name": "PDF Reader",
         "id": "g-QSh6KHL3S",
         "short_url": "g-QSh6KHL3S-pdf-reader",
@@ -379,72 +739,231 @@
     "list": [
       {
         "index": 1,
+        "name": "Grimoire",
+        "id": "g-n7Rs0IK86",
+        "short_url": "g-n7Rs0IK86-grimoire",
+        "chats": "800K+"
+      },
+      {
+        "index": 2,
+        "name": "💻Professional Coder (Auto programming)",
+        "id": "g-HgZuFuuBK",
+        "short_url": "g-HgZuFuuBK-professional-coder-auto-programming",
+        "chats": "300K+"
+      },
+      {
+        "index": 3,
+        "name": "Python",
+        "id": "g-cKXjWStaE",
+        "short_url": "g-cKXjWStaE-python",
+        "chats": "100K+"
+      },
+      {
+        "index": 4,
+        "name": "DesignerGPT",
+        "id": "g-2Eo3NxuS7",
+        "short_url": "g-2Eo3NxuS7-designergpt",
+        "chats": "200K+"
+      },
+      {
+        "index": 5,
+        "name": "Screenshot To Code GPT",
+        "id": "g-hz8Pw1quF",
+        "short_url": "g-hz8Pw1quF-screenshot-to-code-gpt",
+        "chats": "50K+"
+      },
+      {
+        "index": 6,
+        "name": "Code Copilot",
+        "id": "g-2DQzU5UZl",
+        "short_url": "g-2DQzU5UZl-code-copilot",
+        "chats": "50K+"
+      },
+      {
+        "index": 7,
         "name": "Diagrams ⚡PRO BUILDER⚡",
         "id": "g-jBdvgesNC",
         "short_url": "g-jBdvgesNC-diagrams-pro-builder",
         "chats": "25K+"
       },
       {
-        "index": 2,
+        "index": 8,
         "name": "Website Generator",
         "id": "g-iYSeH3EAI",
         "short_url": "g-iYSeH3EAI-website-generator",
         "chats": "10K+"
       },
       {
-        "index": 3,
+        "index": 9,
         "name": "AutoExpert (Dev)",
         "id": "g-pTF23RJ6f",
         "short_url": "g-pTF23RJ6f-autoexpert-dev",
         "chats": "100K+"
       },
       {
-        "index": 4,
+        "index": 10,
         "name": "AskTheCode",
         "id": "g-3s6SJ5V7S",
         "short_url": "g-3s6SJ5V7S-askthecode",
         "chats": "50K+"
       },
       {
-        "index": 5,
+        "index": 11,
         "name": "API Docs",
         "id": "g-I1XNbsyDK",
         "short_url": "g-I1XNbsyDK-api-docs",
         "chats": "25K+"
       },
       {
-        "index": 6,
+        "index": 12,
         "name": "CrewAI Assistant",
         "id": "g-qqTuUWsBY",
         "short_url": "g-qqTuUWsBY-crewai-assistant",
         "chats": "50K+"
       },
       {
-        "index": 7,
+        "index": 13,
         "name": "SQL Expert",
         "id": "g-m5lMeGifF",
         "short_url": "g-m5lMeGifF-sql-expert",
         "chats": "10K+"
       },
       {
-        "index": 8,
+        "index": 14,
         "name": "R Wizard",
         "id": "g-TgjKDuQwZ",
         "short_url": "g-TgjKDuQwZ-r-wizard",
         "chats": "5K+"
       },
       {
-        "index": 9,
+        "index": 15,
         "name": "React AI",
         "id": "g-AVrfRPzod",
         "short_url": "g-AVrfRPzod-react-ai",
         "chats": "5K+"
       },
       {
-        "index": 10,
+        "index": 16,
         "name": "Unity Helper",
         "id": "g-Uz8I8oK3R",
         "short_url": "g-Uz8I8oK3R-unity-helper",
+        "chats": "10K+"
+      }
+    ]
+  },
+  {
+    "id": "education",
+    "list": [
+      {
+        "index": 1,
+        "name": "Tutor Me",
+        "id": "g-hRCqiqVlM",
+        "short_url": "g-hRCqiqVlM-tutor-me",
+        "chats": "100K+"
+      },
+      {
+        "index": 2,
+        "name": "Universal Primer",
+        "id": "g-GbLbctpPz",
+        "short_url": "g-GbLbctpPz-universal-primer",
+        "chats": "100K+"
+      },
+      {
+        "index": 3,
+        "name": "Math Solver",
+        "id": "g-9YeZz6m6k",
+        "short_url": "g-9YeZz6m6k-math-solver",
+        "chats": "100K+"
+      },
+      {
+        "index": 4,
+        "name": "Voxscript",
+        "id": "g-g24EzkDta",
+        "short_url": "g-g24EzkDta-voxscript",
+        "chats": "50K+"
+      },
+      {
+        "index": 5,
+        "name": "AlphaNotes",
+        "id": "g-ZdfrSRAyo",
+        "short_url": "g-ZdfrSRAyo-alphanotes",
+        "chats": "50K+"
+      },
+      {
+        "index": 6,
+        "name": "Code Tutor",
+        "id": "g-HxPrv1p8v",
+        "short_url": "g-HxPrv1p8v-code-tutor",
+        "chats": "100K+"
+      },
+      {
+        "index": 7,
+        "name": "Prompt Professor",
+        "id": "g-qfoOICq1l",
+        "short_url": "g-qfoOICq1l-prompt-professor",
+        "chats": "25K+"
+      },
+      {
+        "index": 8,
+        "name": "Physics Oracle",
+        "id": "g-odWlfAKWM",
+        "short_url": "g-odWlfAKWM-physics-oracle",
+        "chats": "10K+"
+      },
+      {
+        "index": 9,
+        "name": "Mr. Ranedeer",
+        "id": "g-9PKhaweyb",
+        "short_url": "g-9PKhaweyb-mr-ranedeer",
+        "chats": "50K+"
+      },
+      {
+        "index": 10,
+        "name": "Math AI 🧮",
+        "id": "g-2OyX2ZiUk",
+        "short_url": "g-2OyX2ZiUk-math-ai",
+        "chats": "25K+"
+      },
+      {
+        "index": 11,
+        "name": "📗All-around Teacher (Learn Everything in 3 min)",
+        "id": "g-PDWi5Scbc",
+        "short_url": "g-PDWi5Scbc-all-around-teacher-learn-everything-in-3-min",
+        "chats": "10K+"
+      },
+      {
+        "index": 12,
+        "name": "Math Solver",
+        "id": "g-ktOkQRmvl",
+        "short_url": "g-ktOkQRmvl-math-solver",
+        "chats": "5K+"
+      },
+      {
+        "index": 13,
+        "name": "CK-12 Flexi",
+        "id": "g-cEEXd8Dpb",
+        "short_url": "g-cEEXd8Dpb-ck-12-flexi",
+        "chats": "50K+"
+      },
+      {
+        "index": 14,
+        "name": "Machine Learning",
+        "id": "g-TfiZbdLM0",
+        "short_url": "g-TfiZbdLM0-machine-learning",
+        "chats": "5K+"
+      },
+      {
+        "index": 15,
+        "name": "Data Analytics",
+        "id": "g-ntyRhBUID",
+        "short_url": "g-ntyRhBUID-data-analytics",
+        "chats": "1K+"
+      },
+      {
+        "index": 16,
+        "name": "DnD GPT",
+        "id": "g-EdqvwCQkF",
+        "short_url": "g-EdqvwCQkF-dnd-gpt",
         "chats": "10K+"
       }
     ]
@@ -454,69 +973,111 @@
     "list": [
       {
         "index": 1,
+        "name": "KAYAK - Flights, Hotels & Cars",
+        "id": "g-hcqdAuSMv",
+        "short_url": "g-hcqdAuSMv-kayak-flights-hotels-cars",
+        "chats": "100K+"
+      },
+      {
+        "index": 2,
+        "name": "Astrology Birth Chart GPT",
+        "id": "g-WxckXARTP",
+        "short_url": "g-WxckXARTP-astrology-birth-chart-gpt",
+        "chats": "100K+"
+      },
+      {
+        "index": 3,
+        "name": "GymStreak Workout Creator",
+        "id": "g-TVDhLW5fm",
+        "short_url": "g-TVDhLW5fm-gymstreak-workout-creator",
+        "chats": "50K+"
+      },
+      {
+        "index": 4,
+        "name": "Mia AI, your Voice AI Companion",
+        "id": "g-l38NcMokB",
+        "short_url": "g-l38NcMokB-mia-ai-your-voice-ai-companion",
+        "chats": "100K+"
+      },
+      {
+        "index": 5,
+        "name": "GolfGPT",
+        "id": "g-MTjrTCeoU",
+        "short_url": "g-MTjrTCeoU-golfgpt",
+        "chats": "10K+"
+      },
+      {
+        "index": 6,
+        "name": "Books",
+        "id": "g-z77yDe7Vu",
+        "short_url": "g-z77yDe7Vu-books",
+        "chats": "100K+"
+      },
+      {
+        "index": 7,
         "name": "math",
         "id": "g-rr7AytfKH",
         "short_url": "g-rr7AytfKH-math",
         "chats": "25K+"
       },
       {
-        "index": 2,
+        "index": 8,
         "name": "Travel Guide",
         "id": "g-E7eSRUHy6",
         "short_url": "g-E7eSRUHy6-travel-guide",
         "chats": "10K+"
       },
       {
-        "index": 3,
+        "index": 9,
         "name": "Rizz GPT",
         "id": "g-CsdwU23wt",
         "short_url": "g-CsdwU23wt-rizz-gpt",
         "chats": "50K+"
       },
       {
-        "index": 4,
+        "index": 10,
         "name": "What should I watch?",
         "id": "g-Gm9cCA5qg",
         "short_url": "g-Gm9cCA5qg-what-should-i-watch",
         "chats": "50K+"
       },
       {
-        "index": 5,
+        "index": 11,
         "name": "Healthy Chef",
         "id": "g-OdwKeQjDm",
         "short_url": "g-OdwKeQjDm-healthy-chef",
         "chats": "25K+"
       },
       {
-        "index": 6,
+        "index": 12,
         "name": "Home Style Advisor",
         "id": "g-JUPludygA",
         "short_url": "g-JUPludygA-home-style-advisor",
         "chats": "25K+"
       },
       {
-        "index": 7,
+        "index": 13,
         "name": "MediSearch",
         "id": "g-jd2p3UfVx",
         "short_url": "g-jd2p3UfVx-medisearch",
         "chats": "10K+"
       },
       {
-        "index": 8,
+        "index": 14,
         "name": "Tax Assistant - Tax, Taxes & Taxabl 🐙",
         "id": "g-wnNwA5ioV",
         "short_url": "g-wnNwA5ioV-tax-assistant-tax-taxes-taxabl",
         "chats": "5K+"
       },
       {
-        "index": 9,
+        "index": 15,
         "name": "Fitness",
         "id": "g-GRKNS0r1Q",
         "short_url": "g-GRKNS0r1Q-fitness",
         "chats": "1K+"
       },
       {
-        "index": 10,
+        "index": 16,
         "name": "PlaylistAI - Music Playlist Maker",
         "id": "g-KkxbQAVuk",
         "short_url": "g-KkxbQAVuk-playlistai-music-playlist-maker",
