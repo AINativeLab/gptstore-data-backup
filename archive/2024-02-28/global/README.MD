@@ -1,31 +1,7 @@
-# GPT Store data backup
-
-This project daily scrapes and archives data from the official GPT Store. If you have other data requirements, please open an issue.
-
-If you are interested in viewing and downloading the top 500 GPTs daily, please check out our another project: [AINativeLab/top-500-best-gpts](https://github.com/AINativeLab/top-500-best-gpts).
-
-<p align="center">
-★ Powered by <a target="_blank" href="https://www.gptshunter.com/?utm_source=gptstore-data-backup">GPTsHunter.com</a> ★
-</p>
-
-<p align="center">
-  <a target="_blank" href="https://gptshunter.com/?utm_source=gptstore-data-backup">
-    <img alt="GPTsHunter" src="https://gptshunter.com/full-logo.svg" width="300">
-  </a>
-</p>
-
-## Latest
-
-[2024-02-28.en.md](/archive/2024-02-28/en)
-
-[2024-02-28.global.md](/archive/2024-02-28/global)
-
-## Global GPT Leaderboard for 2024-02-28
+# 2024-02-28
 
 
-
-
-### Featured
+## Featured
 
 Curated top picks from this week
 
@@ -962,5 +938,3 @@ No.15 / 5K+ / ★ 3.9 (52 Reviews)
 [**AI算命**](https://chat.openai.com/g/g-cbNeVpiuC-aisuan-ming) \
 No.16 / 25K+ / ★ 3.5 (33 Reviews)
         
-
-      
