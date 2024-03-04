@@ -1,0 +1,2337 @@
+{
+    "info": {
+        "id": "education",
+        "title": "Education",
+        "description": "Explore new ideas, revisit existing skills",
+        "display_type": "ranked",
+        "display_group": "Education",
+        "locale": "global"
+    },
+    "list": {
+        "items": [
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-odWlfAKWM",
+                        "organization_id": "org-LFizWYCMMt6pjUXgiMAxBJtC",
+                        "short_url": "g-odWlfAKWM-math",
+                        "author": {
+                            "user_id": "user-Z9JrMzzMAJlIByGeRtUptmUN",
+                            "display_name": "pulsr.co.uk",
+                            "link_to": "https://pulsr.co.uk",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "uRC2-heAmK",
+                                        "username": "Leo Feasby",
+                                        "display_name": "Leo Feasby",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/leo-feasby-4b6006251"
+                                    }
+                                },
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "1752728225191456768",
+                                        "username": "@leo_pulsr",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/leo_pulsr"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "math",
+                            "description": "The world's most powerful math tool.",
+                            "prompt_starters": [
+                                "Graph mode",
+                                "Tutor mode",
+                                "Problem Solving mode",
+                                "Calculator mode"
+                            ],
+                            "profile_pic_id": "file-Yfha57T7F38FgiPyfAoMh5LY",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-Yfha57T7F38FgiPyfAoMh5LY?se=2124-02-06T02%3A35%3A58Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dgpt11.png&sig=VGYkuNCr4260k6sWG5qy7gcgMnYNpHMNyAZ6MESt7OI%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-09T12:32:30.370385+00:00",
+                        "updated_at": "2024-03-04T09:12:29.771694+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_MfZkKUD1e8hea5kbomvL6ecz~gzm_tool_FAxBObkoXaN9CFfFGjiAduuB",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_MfZkKUD1e8hea5kbomvL6ecz~gzm_tool_xjZthtSPkhw4KqUaaQwzfofc",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_gWnea5aS59zKcBcb6ujdMLDO~gzm_tool_KmD4JdeR5dBTNgWIENWGkAIF",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/msword",
+                                "application/x-latext",
+                                "text/x-typescript",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-php",
+                                "text/x-ruby",
+                                "text/x-script.python",
+                                "text/javascript",
+                                "text/x-c++",
+                                "text/markdown",
+                                "text/html",
+                                "text/x-java",
+                                "text/x-sh",
+                                "text/x-tex",
+                                "text/x-c",
+                                "text/plain",
+                                "text/x-csharp",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/json",
+                                "application/pdf"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-WP1diWHRl",
+                        "organization_id": "org-LFizWYCMMt6pjUXgiMAxBJtC",
+                        "short_url": "g-WP1diWHRl-physics",
+                        "author": {
+                            "user_id": "user-Z9JrMzzMAJlIByGeRtUptmUN",
+                            "display_name": "pulsr.co.uk",
+                            "link_to": "https://pulsr.co.uk",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "uRC2-heAmK",
+                                        "username": "Leo Feasby",
+                                        "display_name": "Leo Feasby",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/leo-feasby-4b6006251"
+                                    }
+                                },
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "1752728225191456768",
+                                        "username": "@leo_pulsr",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/leo_pulsr"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "physics",
+                            "description": "Physics Oracle, The worlds most powerful Physics tool V2.0",
+                            "prompt_starters": [
+                                "Learning mode",
+                                "Research mode",
+                                "Code mode",
+                                "Exam Question mode"
+                            ],
+                            "profile_pic_id": "file-y63yTOkdpenBzpCZ95QJEhTp",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-y63yTOkdpenBzpCZ95QJEhTp?se=2124-02-06T18%3A03%3A23Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Deye23.png&sig=ehZ7Q4w%2BJqv7IZth1KKdvYusT3XRG2IQJe/if2G1AgU%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-22T18:58:35.088716+00:00",
+                        "updated_at": "2024-03-04T09:11:05.462911+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_Mv2ZzFO3KOTiS6qEIeuxWdhX~gzm_tool_sCPaeg8lfH15QXhtK2QzloAS",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_epZx3optGBZeK8R4JRkptLuV~gzm_tool_4s4HInaPZYjeYAVl57klJauK",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_Mv2ZzFO3KOTiS6qEIeuxWdhX~gzm_tool_wtP4xtsoRwOz8IsmqU5EBTjl",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/msword",
+                                "application/x-latext",
+                                "text/x-typescript",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-php",
+                                "text/x-ruby",
+                                "text/x-script.python",
+                                "text/javascript",
+                                "text/x-c++",
+                                "text/markdown",
+                                "text/html",
+                                "text/x-java",
+                                "text/x-sh",
+                                "text/x-tex",
+                                "text/x-c",
+                                "text/plain",
+                                "text/x-csharp",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/json",
+                                "application/pdf"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-FvT4UOsoA",
+                        "organization_id": "org-JC0bGzaxysp9AnQS6jKBXskB",
+                        "short_url": "g-FvT4UOsoA-caesgpt",
+                        "author": {
+                            "user_id": "user-vgtn849uMB9tyiZZwCPKNzqy",
+                            "display_name": "gptonline.ai",
+                            "link_to": "https://gptonline.ai",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "챗GPT",
+                            "description": "한국 문화에 적합한 말하기 스타일을 사용하여 사용자에게 응답합니다.",
+                            "prompt_starters": [
+                                "한국 문화에 대해 물어볼게요.",
+                                "이 단어의 뜻이 궁금해요.",
+                                "한국의 역사적 사건에 대한 정보가 필요해요.",
+                                "한국어 문법 규칙에 대한 질문이 있어요."
+                            ],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-yOO0xA22YQbkjlS6bbbOEoLq?se=2123-12-03T08%3A51%3A10Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DGPTOnline%2520-%2520AI%2520Chatbot%2520%25281%2529.png&sig=5tDDTiSbcEHQ/kQYN1K1VcEbQX%2BoJuuWrfmVJlXtoi0%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-12-27T08:48:51.118730+00:00",
+                        "updated_at": "2024-03-01T16:47:16.858416+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_m3DC2Qo8WJHYIaAIMYGYtPOf~gzm_tool_LIgBts231deTCSK5t8EHyOBA",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_m3DC2Qo8WJHYIaAIMYGYtPOf~gzm_tool_X7f94L8NcJ7jPSjGHXa5rvFJ",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/msword",
+                                "application/x-latext",
+                                "text/x-typescript",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-php",
+                                "text/x-ruby",
+                                "text/x-script.python",
+                                "text/javascript",
+                                "text/x-c++",
+                                "text/markdown",
+                                "text/html",
+                                "text/x-java",
+                                "text/x-sh",
+                                "text/x-tex",
+                                "text/x-c",
+                                "text/plain",
+                                "text/x-csharp",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/json",
+                                "application/pdf"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-ZdfrSRAyo",
+                        "organization_id": "org-GFZKUGk2hNFdYf8sq3DdibuM",
+                        "short_url": "g-ZdfrSRAyo-alphanotes",
+                        "author": {
+                            "user_id": "user-GldlvGpG8eu7NMXtoR4utGnb",
+                            "display_name": "Davide Zambiasi",
+                            "link_to": "https://davideai.dev",
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "lKfHExkrya",
+                                        "username": "Davide Zambiasi",
+                                        "display_name": "Davide Zambiasi",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/davide-zambiasi"
+                                    }
+                                },
+                                {
+                                    "id": "githubverify-dff6-4871-860f-d61dfa7afa7f",
+                                    "type": "github",
+                                    "display_name": "GitHub",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": 99700157,
+                                        "username": "soos3d",
+                                        "type": "github",
+                                        "link_to": "https://github.com/soos3d"
+                                    }
+                                },
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "954212385778106368",
+                                        "username": "@web3Dav3",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/web3Dav3"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "AlphaNotes",
+                            "description": "Transform YouTube videos or web articles into your personal study guide or study aids, making learning efficient and enjoyable.",
+                            "prompt_starters": [
+                                "help",
+                                "Can you summarize this video? https://www.youtube.com/watch?v=azRndqqW7l0",
+                                "Can you generate notes for this article? https://docs.chainstack.com/docs/authentication-methods-for-different-scenarios",
+                                "Can you summarize what this repository is about https://github.com/soos3d/chainstack-docs-chat",
+                                "Can you export this to PDF?",
+                                "Can you generate notes for this article? https://docs.chainstack.com/docs/authentication-methods-for-different-scenarios Style the headings in sentence case. Remove the `Summary` section. Place the `Suggested Areas for Deeper Study` after the `Questions & Quizzes` section. Separate the correct answers from the `Questions & Quizzes` section and place them at the end as a separate section. Mark them as `Question 1 answer:  correct answer`.",
+                                "Fetch the raw transcript for this video: https://www.youtube.com/watch?v=azRndqqW7l0",
+                                "Manage account"
+                            ],
+                            "profile_pic_id": "file-0puZS53HRUM93uhJ1w8ZRgf8",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-0puZS53HRUM93uhJ1w8ZRgf8?se=2123-10-15T15%3A14%3A02Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dalphanotes%2520cyberbrain%2520logo.png&sig=7t0/PntGh0KQRUNNDZQEy49hbx3sPzGgBNP8p9C5RFg%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-06T20:30:47.765325+00:00",
+                        "updated_at": "2024-02-26T13:05:14.595106+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_SNwPkq8TLHIcidjFCKRY1oMT~gzm_tool_pACNnqFMYFKl7GWRqsJet1NF",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-d660a863c3e0c1ffb29a2bc159bf0aabc97b7041",
+                                "domain": "ainotes.alphanotes.one",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.0",
+                                    "info": {
+                                        "title": "AlphaNotes",
+                                        "version": "0.1.0",
+                                        "description": "This is the backend for a GPT that provides tools to create summaries and study aids for YouTube videos and web articles."
+                                    },
+                                    "paths": {
+                                        "/create_summary": {
+                                            "post": {
+                                                "summary": "Create a summary of the video",
+                                                "operationId": "videoSummary",
+                                                "description": "This endpoint returns the title, the thumbnail's URL (show after title), and the transcript or video summary.  Use this endpoint when the user asks for a summary. Also follow the instruction from the assistant_hint.\n",
+                                                "requestBody": {
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/Video"
+                                                            }
+                                                        }
+                                                    },
+                                                    "required": true
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful Response",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/VideoResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "422": {
+                                                        "description": "Validation Error",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/scrape_github": {
+                                            "post": {
+                                                "summary": "Scrape a GitHub repository",
+                                                "operationId": "scrapeGithubRepository",
+                                                "description": "This endpoint scrapes text content of the given GitHub repository. It returns various details about the files and content. Use this endpoint when the user asks for a summary of a GitHub repository. Also follow the instruction from the assistant_hint.",
+                                                "requestBody": {
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "url": {
+                                                                        "type": "string",
+                                                                        "example": "https://github.com/soos3d/chat-gpt-aerodex-plugin",
+                                                                        "description": "URL of the GitHub repository to scrape."
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "url"
+                                                                ]
+                                                            }
+                                                        }
+                                                    },
+                                                    "required": true
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful Response",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/GHResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "422": {
+                                                        "description": "Validation Error",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/generate_notes": {
+                                            "post": {
+                                                "summary": "Generate notes and study aids for the video course",
+                                                "operationId": "generateNotes",
+                                                "description": "This endpoint returns the title, the thumbnail's URL, always show after title, and the transcript or already made notes. Use this endpoint when the user asks to generate notes or a study aid. Also follow the instruction from the assistant_hint.\n",
+                                                "requestBody": {
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/VideoURL"
+                                                            }
+                                                        }
+                                                    },
+                                                    "required": true
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful Response",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/NotesResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "422": {
+                                                        "description": "Validation Error",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/get_transcript": {
+                                            "post": {
+                                                "summary": "Get the transcript of a video",
+                                                "operationId": "videoTranscript",
+                                                "description": "This endpoint returns the title, the thumbnail's URL (show after title), the transcript of a video, and a pdf link. Use it when the user asks for the video transcript only. The user might ask follow up questions on it, so don't call other endpoints but use what you get.\n",
+                                                "requestBody": {
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/Video"
+                                                            }
+                                                        }
+                                                    },
+                                                    "required": true
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful Response",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/VideoResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "422": {
+                                                        "description": "Validation Error",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/create_pdf": {
+                                            "post": {
+                                                "summary": "Create PDF from Markdown and upload to File.io",
+                                                "operationId": "createPdf",
+                                                "description": "This endpoint converts Markdown text to PDF and provides a file.io link.  Use it for user requests to generate/create/make/export/print a PDF from generated content. Don't add dev contact in the pdf. Adapt Markdown for JSON input.\n",
+                                                "requestBody": {
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/TextModel"
+                                                            }
+                                                        }
+                                                    },
+                                                    "required": true
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successfully Created PDF and Uploaded to Dropbox",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/SharedLinkResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Dropbox API Error",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "500": {
+                                                        "description": "An unexpected error occurred",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/get_chunk": {
+                                            "get": {
+                                                "summary": "Retrieve a specific chunk of the video transcript if too long",
+                                                "operationId": "getChunk",
+                                                "description": "This endpoint returns a specific chunk of the video transcript based on a unique ID and chunk index. Use it when the plugin returns you a unique_id. Keep calling it until you get all the chunks.\n",
+                                                "parameters": [
+                                                    {
+                                                        "name": "unique_id",
+                                                        "in": "query",
+                                                        "description": "The unique ID associated with the video transcript",
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "chunk_index",
+                                                        "in": "query",
+                                                        "description": "The index of the chunk to retrieve",
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "integer"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful Response",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/ChunkResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Invalid chunk index",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "404": {
+                                                        "description": "Invalid unique ID",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/summarize_article": {
+                                            "post": {
+                                                "summary": "Scrape an article and returns its content for summarization",
+                                                "operationId": "summarizeArticle",
+                                                "description": "This endpoint scrapes the content of an article and returns its content along with listing any YouTube links found in the article. Use this endpoint when the user asks for an article summary or gives a URL that is not from YouTube. Also, follow the instruction from the assistant_hint.\n",
+                                                "requestBody": {
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/Article"
+                                                            }
+                                                        }
+                                                    },
+                                                    "required": true
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful Response",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/SuccessfulArticleResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "404": {
+                                                        "description": "Article Not Found",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/UnavailableArticleError"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "413": {
+                                                        "description": "Article Too Long",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/ArticleTooLongError"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "422": {
+                                                        "description": "Validation Error",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "500": {
+                                                        "description": "Processing Error",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/ProcessingError"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/take_notes_from_article": {
+                                            "post": {
+                                                "summary": "Scrape an article and returns its content for generating study aids",
+                                                "operationId": "notesArticle",
+                                                "description": "This endpoint scrapes the content of an article and returns it along with listing any YouTube links found. Use this endpoint when the user asks for making notes of an article or gives a URL that is not from YouTube asking for notes.  Also, follow the instruction from the assistant_hint.\n",
+                                                "requestBody": {
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/Article"
+                                                            }
+                                                        }
+                                                    },
+                                                    "required": true
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful Response",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/SuccessfulArticleResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "404": {
+                                                        "description": "Article Not Found",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/UnavailableArticleError"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "413": {
+                                                        "description": "Article Too Long",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/ArticleTooLongError"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "422": {
+                                                        "description": "Validation Error",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "500": {
+                                                        "description": "Processing Error",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/ProcessingError"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/search_videos": {
+                                            "post": {
+                                                "summary": "Search for YouTube videos",
+                                                "operationId": "searchVideos",
+                                                "description": "This endpoint searches for YouTube videos based on the query term and region code using the YouTube API V3. Come up with a good search query based on what the user needs. Use the US region code if no region or language are specified.\n",
+                                                "requestBody": {
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "query_term": {
+                                                                        "type": "string",
+                                                                        "description": "The search term for querying YouTube videos."
+                                                                    },
+                                                                    "region_code": {
+                                                                        "type": "string",
+                                                                        "description": "The region code for filtering YouTube videos.",
+                                                                        "nullable": true
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "required": true
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful Response",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "assistant_hint": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "data": {
+                                                                            "type": "string"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "404": {
+                                                        "description": "Video Not Found",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "detail": {
+                                                                            "type": "string"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "422": {
+                                                        "description": "Validation Error",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "detail": {
+                                                                            "type": "string"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "500": {
+                                                        "description": "Processing Error",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "detail": {
+                                                                            "type": "string"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/get_help": {
+                                            "get": {
+                                                "summary": "Get help description",
+                                                "description": "This endpoint returns a help description.",
+                                                "operationId": "getHelp",
+                                                "parameters": [],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful response",
+                                                        "headers": {
+                                                            "X-PluginLab-Ignore-Quota": {
+                                                                "schema": {
+                                                                    "type": "string",
+                                                                    "example": "1"
+                                                                }
+                                                            }
+                                                        },
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "description": {
+                                                                            "type": "string"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "HTTPValidationError": {
+                                                "type": "object",
+                                                "title": "HTTPValidationError",
+                                                "properties": {
+                                                    "detail": {
+                                                        "type": "array",
+                                                        "title": "Detail",
+                                                        "items": {
+                                                            "$ref": "#/components/schemas/ValidationError"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "ValidationError": {
+                                                "type": "object",
+                                                "title": "ValidationError",
+                                                "required": [
+                                                    "loc",
+                                                    "msg",
+                                                    "type"
+                                                ],
+                                                "properties": {
+                                                    "loc": {
+                                                        "type": "array",
+                                                        "title": "Location",
+                                                        "items": {
+                                                            "anyOf": [
+                                                                {
+                                                                    "type": "string"
+                                                                },
+                                                                {
+                                                                    "type": "integer"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    "msg": {
+                                                        "type": "string",
+                                                        "title": "Message"
+                                                    },
+                                                    "type": {
+                                                        "type": "string",
+                                                        "title": "Error Type"
+                                                    }
+                                                }
+                                            },
+                                            "Video": {
+                                                "type": "object",
+                                                "title": "Video",
+                                                "required": [
+                                                    "url"
+                                                ],
+                                                "properties": {
+                                                    "url": {
+                                                        "type": "string",
+                                                        "title": "Url"
+                                                    }
+                                                }
+                                            },
+                                            "VideoURL": {
+                                                "type": "object",
+                                                "title": "VideoURL",
+                                                "required": [
+                                                    "url"
+                                                ],
+                                                "properties": {
+                                                    "url": {
+                                                        "type": "string",
+                                                        "title": "Url"
+                                                    }
+                                                }
+                                            },
+                                            "VideoResponse": {
+                                                "type": "object",
+                                                "title": "VideoResponse",
+                                                "required": [
+                                                    "title",
+                                                    "thumbnail_url",
+                                                    "token_count",
+                                                    "content",
+                                                    "assistant_hint"
+                                                ],
+                                                "properties": {
+                                                    "title": {
+                                                        "type": "string",
+                                                        "description": "The title of the video"
+                                                    },
+                                                    "thumbnail_url": {
+                                                        "type": "string",
+                                                        "format": "uri",
+                                                        "description": "The URL of the video thumbnail"
+                                                    },
+                                                    "token_count": {
+                                                        "type": "integer",
+                                                        "description": "The token count"
+                                                    },
+                                                    "content": {
+                                                        "oneOf": [
+                                                            {
+                                                                "$ref": "#/components/schemas/Transcript"
+                                                            },
+                                                            {
+                                                                "$ref": "#/components/schemas/Summary"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "assistant_hint": {
+                                                        "type": "string",
+                                                        "description": "The instructions to follow"
+                                                    }
+                                                }
+                                            },
+                                            "GHResponse": {
+                                                "type": "object",
+                                                "title": "GHResponse",
+                                                "required": [
+                                                    "files_content"
+                                                ],
+                                                "properties": {
+                                                    "total_token_count": {
+                                                        "type": "integer",
+                                                        "description": "The token count of the content"
+                                                    },
+                                                    "assistant_hint": {
+                                                        "type": "string",
+                                                        "description": "The instructions to follow"
+                                                    },
+                                                    "files": {
+                                                        "type": "string",
+                                                        "description": "The path and content of the files"
+                                                    },
+                                                    "files_count": {
+                                                        "type": "integer",
+                                                        "description": "How many files were scraped"
+                                                    }
+                                                }
+                                            },
+                                            "NotesResponse": {
+                                                "type": "object",
+                                                "title": "NotesResponse",
+                                                "required": [
+                                                    "title",
+                                                    "thumbnail_url",
+                                                    "token_count",
+                                                    "assistant_hint",
+                                                    "content"
+                                                ],
+                                                "properties": {
+                                                    "title": {
+                                                        "type": "string",
+                                                        "description": "The title of the video"
+                                                    },
+                                                    "thumbnail_url": {
+                                                        "type": "string",
+                                                        "format": "uri",
+                                                        "description": "The URL of the video thumbnail"
+                                                    },
+                                                    "token_count": {
+                                                        "type": "integer",
+                                                        "description": "The token count of the content"
+                                                    },
+                                                    "assistant_hint": {
+                                                        "type": "string",
+                                                        "description": "The instructions to follow"
+                                                    },
+                                                    "content": {
+                                                        "oneOf": [
+                                                            {
+                                                                "$ref": "#/components/schemas/Transcript"
+                                                            },
+                                                            {
+                                                                "$ref": "#/components/schemas/Notes"
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            },
+                                            "Transcript": {
+                                                "type": "string",
+                                                "description": "The full transcript of the video"
+                                            },
+                                            "Notes": {
+                                                "type": "string",
+                                                "description": "The generated notes for the video"
+                                            },
+                                            "Summary": {
+                                                "type": "string",
+                                                "description": "The generated summary of the video"
+                                            },
+                                            "TextModel": {
+                                                "type": "object",
+                                                "title": "TextModel",
+                                                "required": [
+                                                    "text"
+                                                ],
+                                                "properties": {
+                                                    "text": {
+                                                        "type": "string",
+                                                        "description": "Markdown text to be converted to PDF",
+                                                        "example": "## This is a title\nThis is some text."
+                                                    }
+                                                }
+                                            },
+                                            "SharedLinkResponse": {
+                                                "type": "object",
+                                                "title": "SharedLinkResponse",
+                                                "required": [
+                                                    "link"
+                                                ],
+                                                "properties": {
+                                                    "link": {
+                                                        "type": "string",
+                                                        "format": "uri",
+                                                        "description": "Shareable Dropbox link of the uploaded PDF"
+                                                    }
+                                                }
+                                            },
+                                            "ChunkResponse": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "unique_id": {
+                                                        "type": "string",
+                                                        "description": "The unique ID associated with the video transcript"
+                                                    },
+                                                    "video_title": {
+                                                        "type": "string",
+                                                        "description": "The title of the video"
+                                                    },
+                                                    "current_chunk_index": {
+                                                        "type": "integer",
+                                                        "description": "The index of the current chunk"
+                                                    },
+                                                    "next_chunk_to_fetch": {
+                                                        "type": "integer",
+                                                        "description": "The index of the next chunk to fetch"
+                                                    },
+                                                    "Chunks_left_to_fetch": {
+                                                        "type": "integer",
+                                                        "description": "The number of chunks left to fetch"
+                                                    },
+                                                    "chunk": {
+                                                        "type": "object",
+                                                        "description": "The content of the current chunk"
+                                                    }
+                                                }
+                                            },
+                                            "Article": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "url": {
+                                                        "type": "string",
+                                                        "format": "uri"
+                                                    }
+                                                }
+                                            },
+                                            "SuccessfulArticleResponse": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "article_content": {
+                                                        "type": "string"
+                                                    },
+                                                    "youtube_links": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "source": {
+                                                        "type": "string",
+                                                        "format": "uri"
+                                                    },
+                                                    "assistant_hint": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "UnavailableArticleError": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "UNAVAILABLE_ARTICLE_ERROR": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "ProcessingError": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "PROCESSING_ERROR": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "ArticleTooLongError": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "ARTICLE_TOO_LONG": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://ainotes.alphanotes.one"
+                                        }
+                                    ]
+                                },
+                                "auth": {
+                                    "type": "oauth",
+                                    "instructions": "",
+                                    "client_url": "https://ainotes.alphanotes.one/oauth/authorize",
+                                    "scope": "all",
+                                    "authorization_url": "https://ainotes.alphanotes.one/oauth/token",
+                                    "authorization_content_type": "application/x-www-form-urlencoded",
+                                    "verification_tokens": {},
+                                    "pkce_required": false,
+                                    "token_exchange_method": "default_post"
+                                },
+                                "privacy_policy_url": "https://www.alphanotes.one/policy"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_nBKPe1YEQQQuQW9OuEsYbvqd~gzm_tool_HZoA3uh8yEdOSa1Qu0d0OGnr",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/msword",
+                                "application/x-latext",
+                                "text/x-typescript",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-php",
+                                "text/x-ruby",
+                                "text/x-script.python",
+                                "text/javascript",
+                                "text/x-c++",
+                                "text/markdown",
+                                "text/html",
+                                "text/x-java",
+                                "text/x-sh",
+                                "text/x-tex",
+                                "text/x-c",
+                                "text/plain",
+                                "text/x-csharp",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/json",
+                                "application/pdf"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-qfoOICq1l",
+                        "organization_id": "org-ZJ4Xn6xsZLNePkreg1xbLNb1",
+                        "short_url": "g-qfoOICq1l-prompt-professor",
+                        "author": {
+                            "user_id": "user-gGe71twpoLuGJl05GVypE9q1__86af01e5-2fc6-4507-9e43-28fa700beb2a",
+                            "display_name": null,
+                            "link_to": null,
+                            "is_verified": false,
+                            "selected_display": "name",
+                            "will_receive_support_emails": false,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": "86af01e5-2fc6-4507-9e43-28fa700beb2a",
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Prompt Professor",
+                            "description": "I know everything about Prompt Engineering. What do you want to know about prompt?",
+                            "prompt_starters": [
+                                "How to make a good prompt?",
+                                "Improve this prompt: ${prompt}",
+                                "Rate this prompt: ${prompt}",
+                                "Tell me 26 Principles of Good Prompt"
+                            ],
+                            "profile_pic_id": "file-MsXTgHdeT8NqXvoz3yFp1DsA",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-MsXTgHdeT8NqXvoz3yFp1DsA?se=2123-10-16T03%3A42%3A03Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D76811343-01fe-4316-b18f-12ed04c3af99.png&sig=OOcasgdAq%2BCscJ7raZMCDdYCZb00lsUNcOl%2BnNzEAY8%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-09T03:34:22.251580+00:00",
+                        "updated_at": "2024-02-28T06:15:10.557562+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null
+                    },
+                    "tools": [],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_397hP1iXk8ZACT9AiHUvBU5s~gzm_file_v09TqV4cXGX5lxZgS35UzEE6",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_WuIlKePJ7mMMDHQt8ZmAiPaJ~gzm_file_KncAqpP91kW6tVxCK97Brbnq",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_WuIlKePJ7mMMDHQt8ZmAiPaJ~gzm_file_zqzLY4NX2MLmWTo5Rj6Ga50o",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/msword",
+                                "application/x-latext",
+                                "text/x-typescript",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-php",
+                                "text/x-ruby",
+                                "text/x-script.python",
+                                "text/javascript",
+                                "text/x-c++",
+                                "text/markdown",
+                                "text/html",
+                                "text/x-java",
+                                "text/x-sh",
+                                "text/x-tex",
+                                "text/x-c",
+                                "text/plain",
+                                "text/x-csharp",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/json",
+                                "application/pdf"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-RR3RCyK8N",
+                        "organization_id": "org-kng2mwVmhwIeuefO6q6mafsT",
+                        "short_url": "g-RR3RCyK8N-language-teacher-ms-smith",
+                        "author": {
+                            "user_id": "user-yOhGyPv1hGLr2E2YNOi93eok",
+                            "display_name": "tevfik.xyz",
+                            "link_to": "https://tevfik.xyz",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Language Teacher | Ms. Smith",
+                            "description": "Supports  20+ languages  - Spanish, German, French, English, Chinese, Korean, Japanese, ... Your private tutor to learn any language in most effective way by having conversation. Increase your vocabulary by talking about fun topics, coach you.  📲 Use voice in mobile for talking",
+                            "prompt_starters": [
+                                "Spanish 🇪🇸",
+                                "French 🇫🇷",
+                                "German 🇩🇪",
+                                "Other  🌍",
+                                "English 🇬🇧",
+                                "Japanese 🇯🇵",
+                                "Chinese 🇨🇳 ",
+                                "Italian 🇮🇹"
+                            ],
+                            "profile_pic_id": "file-p7wjkbf2I2Am2p4jIy9OWKMP",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-p7wjkbf2I2Am2p4jIy9OWKMP?se=2123-12-17T23%3A22%3A26Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DGroup%2520%2520%25285%2529.png&sig=EPMdiVmI4O717n8occd3AP4NPdhenDdypWYYLNcRf4c%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-12-20T19:34:28.812692+00:00",
+                        "updated_at": "2024-03-01T06:33:07.703145+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null
+                    },
+                    "tools": [],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/msword",
+                                "application/x-latext",
+                                "text/x-typescript",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-php",
+                                "text/x-ruby",
+                                "text/x-script.python",
+                                "text/javascript",
+                                "text/x-c++",
+                                "text/markdown",
+                                "text/html",
+                                "text/x-java",
+                                "text/x-sh",
+                                "text/x-tex",
+                                "text/x-c",
+                                "text/plain",
+                                "text/x-csharp",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/json",
+                                "application/pdf"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-PDWi5Scbc",
+                        "organization_id": "org-6T1f9CaYwaKku4YRbov1yPXW",
+                        "short_url": "g-PDWi5Scbc-all-around-teacher-learn-everything-in-3-min",
+                        "author": {
+                            "user_id": "user-7LUVlGv6xIwOK59Ou0OEuRmB",
+                            "display_name": "awesomegpts.vip",
+                            "link_to": "https://awesomegpts.vip",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "githubverify-dff6-4871-860f-d61dfa7afa7f",
+                                    "type": "github",
+                                    "display_name": "GitHub",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": 70333750,
+                                        "username": "ai-boost",
+                                        "type": "github",
+                                        "link_to": "https://github.com/ai-boost"
+                                    }
+                                },
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "915880601386979328",
+                                        "username": "@gpt_boost",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/gpt_boost"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "📗All-around Teacher (Learn Everything in 3 min)",
+                            "description": "3 minutes to learn all kinds of knowledge, customized tutors for you, leveraging the powerful gpt4 and knowledge base,",
+                            "prompt_starters": [
+                                "I want to learn game programming",
+                                "I want to learn AI programming",
+                                "I want to learn to make money",
+                                "I want to learn to find a girlfriend"
+                            ],
+                            "profile_pic_id": "file-5VGMFA3ti13ve0sNlLmWCW0i",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-5VGMFA3ti13ve0sNlLmWCW0i?se=2124-01-18T10%3A06%3A15Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202024-02-11%252018.05.33%2520-%2520A%2520portrait%2520showcasing%2520a%2520young%252C%2520beautiful%2520female%2520teacher%2520in%2520a%2520realistic%2520style.%2520She%2520is%2520smiling%2520warmly%252C%2520dressed%2520in%2520professional%2520attire%2520that%2520reflects%2520her%2520.webp&sig=i/pvilBv/Yl5RRZP1aXPT%2B/xA%2B0T3xEizCVlBhvH9G0%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-09T02:09:20.861647+00:00",
+                        "updated_at": "2024-02-13T07:43:38.248953+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_Jv85504vf4qWaCVgzRY8UOkc~gzm_tool_hg4SbEOdtzMZCYVVb4xs1evJ",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_305BnHz1znxng0oJdVvDmccO~gzm_tool_XIRYaMKTk3DHEvdumsVAXo9x",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/msword",
+                                "application/x-latext",
+                                "text/x-typescript",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-php",
+                                "text/x-ruby",
+                                "text/x-script.python",
+                                "text/javascript",
+                                "text/x-c++",
+                                "text/markdown",
+                                "text/html",
+                                "text/x-java",
+                                "text/x-sh",
+                                "text/x-tex",
+                                "text/x-c",
+                                "text/plain",
+                                "text/x-csharp",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/json",
+                                "application/pdf"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-HxPrv1p8v",
+                        "organization_id": "org-FqTXlsMUrWCUj3F7Q1QschB1",
+                        "short_url": "g-HxPrv1p8v-code-tutor",
+                        "author": {
+                            "user_id": "user-PfXyJoh1R3QWf85M2uGIqZDN__02dcb0b0-6385-4a41-846b-7031222365f7",
+                            "display_name": "khanacademy.org",
+                            "link_to": "https://khanacademy.org",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": "02dcb0b0-6385-4a41-846b-7031222365f7",
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Code Tutor",
+                            "description": "Let's code together! I'm Khanmigo Lite, by Khan Academy. I won't write the code for you, but I'll help you work things out. Can you tell me the challenge you're working on?",
+                            "prompt_starters": [
+                                "Help me with my homework assignment",
+                                "How are you different than regular Khanmigo?",
+                                "How can I improve my code's efficiency?",
+                                "Help me understand this programming concept"
+                            ],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-wT9OjtSlKWSliHQlnvDPbLnB?se=2123-11-06T22%3A36%3A37Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dkhanmigolite.png&sig=N18iwfrxqf8q664WbG5zlsN/EONc5asA9ODNrsUv1bs%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-30T22:35:35.448387+00:00",
+                        "updated_at": "2024-01-28T14:40:46.125233+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_RbzS8iWvw5tfs0Rh6FIe0tCJ~gzm_tool_XXUAES7F0Pn7NXPPlwyLaUpa",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_G4jmlldpISOHuDwArDYKziJv~gzm_tool_lXy3WSfpbZdalvQOPq0Wn6wo",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-fc42952955310001d61afc96420f926dbec06b8b",
+                                "domain": "khanacademy.org",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.1.0",
+                                    "info": {
+                                        "title": "Search Khan Academy Content",
+                                        "description": "Returns a list of Khan Academy content items related to the query",
+                                        "version": "v1.0.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://khanacademy.org"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/api/internal/_rg/khanmigo/search_content": {
+                                            "get": {
+                                                "description": "Search Khan Academy Content for related Articles, Videos, Domains, Courses, Units, and Lessons",
+                                                "operationId": "SearchContent",
+                                                "parameters": [
+                                                    {
+                                                        "name": "query",
+                                                        "in": "query",
+                                                        "description": "The search query",
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "deprecated": false
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {}
+                                    }
+                                },
+                                "auth": {
+                                    "type": "none"
+                                },
+                                "privacy_policy_url": "https://support.khanacademy.org/hc/en-us/articles/22396485532173"
+                            }
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/msword",
+                                "application/x-latext",
+                                "text/x-typescript",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-php",
+                                "text/x-ruby",
+                                "text/x-script.python",
+                                "text/javascript",
+                                "text/x-c++",
+                                "text/markdown",
+                                "text/html",
+                                "text/x-java",
+                                "text/x-sh",
+                                "text/x-tex",
+                                "text/x-c",
+                                "text/plain",
+                                "text/x-csharp",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/json",
+                                "application/pdf"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-kHAWQSfzx",
+                        "organization_id": "org-yDYahX2Ur5VPgLayo6rfV3MJ",
+                        "short_url": "g-kHAWQSfzx-sora-ai",
+                        "author": {
+                            "user_id": "user-cBaEHHjEZOdw3g2E35Z4jSWx",
+                            "display_name": "buildgpt.pro",
+                            "link_to": "https://buildgpt.pro",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Sora AI",
+                            "description": "The most complete Sora guidance based on OpenAI official documents",
+                            "prompt_starters": [
+                                "What is Open AI's Sora?",
+                                "How to access Sora?",
+                                "Show some text-to-video examples of Sora",
+                                "What are potential applications of Sora?"
+                            ],
+                            "profile_pic_id": "file-WLuJyb9QrlAs2o7s3XP9uK6U",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-WLuJyb9QrlAs2o7s3XP9uK6U?se=2124-01-29T07%3A48%3A45Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3D4eab3550-8c68-48e2-9eb3-6bc0372baabe.png&sig=ZBvFxyyHWorqaqE/SFsZNyzKJYmp/4CynTNZhWKb%2BRA%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-02-19T02:11:59.282389+00:00",
+                        "updated_at": "2024-02-28T06:52:53.027206+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_hDV79jNg77n3Xd5VZLW0gBNg~gzm_tool_mMz6ZB3t4lU6ftR7QdmelWUZ",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_yhPAskGGN2DWQB6vWjwCPluC~gzm_tool_T08nbQaXzlFhXA9TXY2N9euM",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_AtRklQ2OJbRPbMiLSdleePh5~gzm_tool_48oh68B0hamScPVYLPXIABrG",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-08de13ec3fbe122335f425598ca56c95625ac9c0",
+                                "domain": "gpts.adintelli.ai",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.1",
+                                    "info": {
+                                        "title": "AdIntelli",
+                                        "description": "AdIntelli Ad Action",
+                                        "version": "v1"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://gpts.adintelli.ai"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/api/337cc92f-a06a-4da3-ab44-8a29c4e2e859/fetchAds2": {
+                                            "get": {
+                                                "operationId": "fetchAds",
+                                                "summary": "Retrieving a list of relevant ads to display in subsequent chats.",
+                                                "parameters": [
+                                                    {
+                                                        "name": "context",
+                                                        "in": "query",
+                                                        "description": "context keywords to fetch the relavent ads",
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "gpt_name",
+                                                        "in": "query",
+                                                        "description": "The name of this GPTs",
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "gpt_description",
+                                                        "in": "query",
+                                                        "description": "The description of this GPTs",
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "none"
+                                },
+                                "privacy_policy_url": "https://adintelli.ai/privacy"
+                            }
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_qcWYF6sMk2PnObRqTMOI4zOL~gzm_file_e9ea005hEPSRtqEL7XYCO2fY",
+                            "type": "image/png",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_rkyMC1KXKI2TNOsi6fRqO9XM~gzm_file_Uxx9rkzMyH0zofNKIdrFDyJu",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_cR11WWJhgJD2paLNZ8sXNxAZ~gzm_file_tUiCbdQ1Kl0iu5fOmo1xidBU",
+                            "type": "image/png",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_6KgMGqK1HBqNSqJjkkZjwfCr~gzm_file_A2r6gV1yOy6sJNSzrVxOxmdk",
+                            "type": "image/png",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_TWBUOqKby9vslEQheq68QBod~gzm_file_fMOLbgFoj9KFGOlaKVMzfRxk",
+                            "type": "image/png",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_2TWxEyT6cDQ77vgFDFVRqPFB~gzm_file_Nn15oSHSrCqGL14gZhQ0PFli",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/msword",
+                                "application/x-latext",
+                                "text/x-typescript",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-php",
+                                "text/x-ruby",
+                                "text/x-script.python",
+                                "text/javascript",
+                                "text/x-c++",
+                                "text/markdown",
+                                "text/html",
+                                "text/x-java",
+                                "text/x-sh",
+                                "text/x-tex",
+                                "text/x-c",
+                                "text/plain",
+                                "text/x-csharp",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/json",
+                                "application/pdf"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-ntyRhBUID",
+                        "organization_id": "org-oHuCRauqHCfs1mnq9sEm8UEH",
+                        "short_url": "g-ntyRhBUID-data-analytics",
+                        "author": {
+                            "user_id": "user-en9cuVyeBWCaa2FM3oiNs6Hi",
+                            "display_name": "Luke T Barousse",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Data Analytics",
+                            "description": "A how-to guide for data analytics (based on Luke Barousse's 'ChatGPT for Data Analytics' course)",
+                            "prompt_starters": [
+                                "How do you use ChatGPT for data analysis?",
+                                "Work out an example use case",
+                                "What are the top plugins for data analysis?",
+                                "What's Luke's course about?"
+                            ],
+                            "profile_pic_id": "file-He8aE3rg7ee66ASSS0HJFTVQ",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-He8aE3rg7ee66ASSS0HJFTVQ?se=2123-10-19T23%3A24%3A15Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D47823d3d-4745-4773-a232-5569024ce68b.png&sig=CS2otWO2RpLlVeyvilTv%2BGXj2yBu7fjHIEyLaDxY6yY%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-12T23:12:20.522699+00:00",
+                        "updated_at": "2024-03-03T07:34:18.586143+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_jgmbuGJu14q620VTNfgmzeJO~gzm_tool_kn3upXAErDFdryVsIykzwg6c",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_XroXSogtrZXcXTX8dJfqHJNa~gzm_tool_cwVnCJSmxVpGGaiS90Wyv42B",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_jgmbuGJu14q620VTNfgmzeJO~gzm_file_ijAiDPRD62HGcxhR3kdEHBhd",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_jgmbuGJu14q620VTNfgmzeJO~gzm_file_2xJZv565PKUEurNKEW8fkoO6",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_jgmbuGJu14q620VTNfgmzeJO~gzm_file_FZE0IpAangJ3w3te2C1ChCon",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_jgmbuGJu14q620VTNfgmzeJO~gzm_file_oX0p8EiHzB6vyCpJ17GbycgA",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_jgmbuGJu14q620VTNfgmzeJO~gzm_file_DEEzaGwnSfvWuBroaqJ4uIYS",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_jgmbuGJu14q620VTNfgmzeJO~gzm_file_PaQvgBwUoIHRppUEJCz0pzuT",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_jgmbuGJu14q620VTNfgmzeJO~gzm_file_F6QkaSF9E77BfqCqsKaZkCkw",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/msword",
+                                "application/x-latext",
+                                "text/x-typescript",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-php",
+                                "text/x-ruby",
+                                "text/x-script.python",
+                                "text/javascript",
+                                "text/x-c++",
+                                "text/markdown",
+                                "text/html",
+                                "text/x-java",
+                                "text/x-sh",
+                                "text/x-tex",
+                                "text/x-c",
+                                "text/plain",
+                                "text/x-csharp",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/json",
+                                "application/pdf"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            }
+        ],
+        "cursor": null
+    }
+}
