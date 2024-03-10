@@ -1,0 +1,2681 @@
+{
+    "info": {
+        "id": "trending",
+        "title": "Trending",
+        "description": "Most popular GPTs by our community",
+        "display_type": "ranked",
+        "display_group": "Top Picks",
+        "locale": "en"
+    },
+    "list": {
+        "items": [
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-gFFsdkfMC",
+                        "organization_id": "org-9VfDCrrCmckEWd4iOegZrQUw",
+                        "short_url": "g-gFFsdkfMC-cartoonize-yourself",
+                        "author": {
+                            "user_id": "user-GsrmFxnwdhzKPBumBHe4oeR1",
+                            "display_name": "karenxcheng.com",
+                            "link_to": "https://karenxcheng.com",
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Cartoonize Yourself",
+                            "description": "Turns photos into their cartoon versions. Upload your photo to try",
+                            "prompt_starters": [
+                                "I'd like to upload a picture of my pet",
+                                "I'd like to upload a selfie",
+                                "I'd like to upload a picture of my friends/family",
+                                "I'd like to upload a custom picture"
+                            ],
+                            "profile_pic_id": "file-bUZE1j8Ld1SJq9wEeJDfRGuM",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-bUZE1j8Ld1SJq9wEeJDfRGuM?se=2123-11-03T02%3A43%3A43Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D980728ef-7d57-4b4c-b0a5-dcf9e00676e9.png&sig=JT%2BynnJL4ai6H70cscNUpbO63WcvWtxZVZMFY2L3gag%3D",
+                            "categories": [
+                                "dalle"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-27T01:44:54.013106+00:00",
+                        "updated_at": "2024-03-09T19:20:36.149523+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_Hn8QYSwFjdS8sAaKnfLLMxdX~gzm_tool_1H4a5J5AaZak48of2onguVad",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_Hn8QYSwFjdS8sAaKnfLLMxdX~gzm_tool_4Yt2yKQ7AbsdNZBBdxq0WCxt",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_Hn8QYSwFjdS8sAaKnfLLMxdX~gzm_tool_seq0HqAWw6jV1XVncNtdAMoS",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-sh",
+                                "application/msword",
+                                "text/x-tex",
+                                "text/x-c++",
+                                "text/x-csharp",
+                                "text/x-php",
+                                "text/x-java",
+                                "text/plain",
+                                "application/json",
+                                "text/x-script.python",
+                                "text/x-c",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/x-latext",
+                                "text/x-typescript",
+                                "text/html",
+                                "text/markdown",
+                                "application/pdf"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-Hkqnd7mFT",
+                        "organization_id": "org-IdM5qZ5IEb9xXq6UIIbO9A96",
+                        "short_url": "g-Hkqnd7mFT-video-gpt-by-veed",
+                        "author": {
+                            "user_id": "user-Y6WNzYQvjVMl3aTadCg7AW4g",
+                            "display_name": "veed.io",
+                            "link_to": "https://veed.io",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": false,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Video GPT by VEED",
+                            "description": "AI Video Maker. Generate videos for social media - YouTube, Instagram, TikTok and more! Free text to video & speech tool with AI Avatars, TTS, music, and stock footage.",
+                            "prompt_starters": [
+                                "Let's create a video!",
+                                "AI text to speech",
+                                "Create AI Avatar video",
+                                "Write a video script"
+                            ],
+                            "profile_pic_id": "file-SlTJOEwrBwlAnMgwOzlWyFUp",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-SlTJOEwrBwlAnMgwOzlWyFUp?se=2123-12-29T14%3A58%3A36Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dai%2520text%2520to%2520video%2520for%2520social%2520media.png&sig=81ayZwF3xkQIU9h5SLyC2Dfka1emcCCu8814lHfXhjc%3D",
+                            "categories": [
+                                "productivity"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-14T11:54:59.742888+00:00",
+                        "updated_at": "2024-03-09T19:54:13.521366+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_RccsZb210Ao4eoBRccJXirP3~gzm_tool_0eakC4Ot0QuA3gYFjbtwU6OS",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-3939e640feb4228586b273fc0ffeb9a54772ea39",
+                                "domain": "www.veed.io",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.1.0",
+                                    "info": {
+                                        "title": "VEED Text to Video API",
+                                        "description": "The VEED Text to Video API API is used to create VEED projects using AI-generated scripts, titles, text-to-speech, background music and stock footage.",
+                                        "version": "v1.0.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://www.veed.io/text-to-video-ap/api"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/generate/async": {
+                                            "post": {
+                                                "description": "Using a prompt OR script AND voice OR avatar, generate a VEED video project",
+                                                "operationId": "GenerateProject",
+                                                "x-openai-isConsequential": false,
+                                                "requestBody": {
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "prompt": {
+                                                                        "description": "Prompt that is used to generate a video script if `script` is not provided",
+                                                                        "type": "string"
+                                                                    },
+                                                                    "script": {
+                                                                        "description": "The video script of the generated video if `prompt` is not provided",
+                                                                        "type": "string"
+                                                                    },
+                                                                    "voice": {
+                                                                        "description": "Type of voice used for the voiceover if `avatar` is not provided",
+                                                                        "type": "string",
+                                                                        "enum": [
+                                                                            "male",
+                                                                            "female"
+                                                                        ]
+                                                                    },
+                                                                    "avatar": {
+                                                                        "description": "The avatar used in the generated video if `voice` is not provided",
+                                                                        "type": "string",
+                                                                        "enum": [
+                                                                            "avery",
+                                                                            "isabella",
+                                                                            "lily",
+                                                                            "devon",
+                                                                            "noah",
+                                                                            "mateo"
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                "additionalProperties": false
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Expected response to a valid request",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/Project"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "Project": {
+                                                "description": "A VEED project",
+                                                "properties": {
+                                                    "prompt": {
+                                                        "type": "string"
+                                                    },
+                                                    "project": {
+                                                        "type": "object",
+                                                        "required": [
+                                                            "id",
+                                                            "name",
+                                                            "link",
+                                                            "thumbnail"
+                                                        ],
+                                                        "properties": {
+                                                            "id": {
+                                                                "type": "string",
+                                                                "format": "uuid"
+                                                            },
+                                                            "title": {
+                                                                "description": "The title of the video",
+                                                                "type": "string"
+                                                            },
+                                                            "link": {
+                                                                "description": "URL to edit the project in the VEED editor",
+                                                                "type": "string",
+                                                                "format": "uri"
+                                                            },
+                                                            "thumbnail": {
+                                                                "description": "Thumbnail image for the video",
+                                                                "type": "string",
+                                                                "format": "uri"
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "type": "object",
+                                                "required": [
+                                                    "prompt",
+                                                    "project"
+                                                ]
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "none"
+                                },
+                                "privacy_policy_url": "https://www.veed.io/privacy"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_jRPnl9tbwXg9TJ90uQPGNfjr~gzm_tool_yDvqAd24DZgU22BFvcdcrCyc",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-sh",
+                                "application/msword",
+                                "text/x-tex",
+                                "text/x-c++",
+                                "text/x-csharp",
+                                "text/x-php",
+                                "text/x-java",
+                                "text/plain",
+                                "application/json",
+                                "text/x-script.python",
+                                "text/x-c",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/x-latext",
+                                "text/x-typescript",
+                                "text/html",
+                                "text/markdown",
+                                "application/pdf"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-V2KIUZSj0",
+                        "organization_id": "org-FHQEtg8RGuIClOPJU8FxPHJQ",
+                        "short_url": "g-V2KIUZSj0-pdf-ai-pdf",
+                        "author": {
+                            "user_id": "user-9rCcq3yoxFRErAkvkOdjeqtF",
+                            "display_name": "myaidrive.com",
+                            "link_to": "https://myaidrive.com",
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "vk-5wgVQJw",
+                                        "username": "Vicente Silveira",
+                                        "display_name": "Vicente Silveira",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/vicentesilveira"
+                                    }
+                                },
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "1673836522368561152",
+                                        "username": "@AiPDF_GPT",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/AiPDF_GPT"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "PDF Ai PDF",
+                            "description": "Securely store and chat with ALL your PDFs for FREE, even x-large PDFs! Ai PDF powers more than 700,000 chats with professionals and researchers. It includes free myaidrive.com storage account, while Pro version can search folders with 1000s of files, OCR and extract title, authors and more!",
+                            "prompt_starters": [
+                                "START HERE: HOW TO UPLOAD A FILE",
+                                "How's AI PDF different ?",
+                                "How to search across multiple files?",
+                                "I have lots of files and want a PRO tool"
+                            ],
+                            "profile_pic_id": "file-9XepYndxfvemsnkdZ6cnT5em",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-9XepYndxfvemsnkdZ6cnT5em?se=2123-10-13T20%3A40%3A38Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dlogo.png&sig=iLNHnnlyyia9R%2BqHCe3A09us9866vp3s4byPzVRT7qo%3D",
+                            "categories": [
+                                "productivity"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-06T20:34:51.435569+00:00",
+                        "updated_at": "2024-03-06T06:30:20.926517+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_dhqpqhIv1brCneDy1vMXEGzR~gzm_tool_LGZkMLsbAzuUYMVkGp213Sny",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-6c9e26f0fe2b1ed8975e72e5f0e30bd1b8cd5e8f",
+                                "domain": "aipdf.myaidrive.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.1.0",
+                                    "info": {
+                                        "title": "AI Drive",
+                                        "description": "Super-fast, interactive chats with PDFs of any size, complete with page references for fact checking.",
+                                        "version": "v0.0.1"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://aipdf.myaidrive.com"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/summarize_pdf": {
+                                            "post": {
+                                                "description": "Provide the text content of the PDF linked for summarization. Users can specify page range as an option.ALWAYS PROVIDE QUOTES AND PAGE CITATIONS.",
+                                                "operationId": "summarize",
+                                                "parameters": [],
+                                                "requestBody": {
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/summarizeRequestSchema"
+                                                            }
+                                                        }
+                                                    },
+                                                    "required": true
+                                                },
+                                                "deprecated": false,
+                                                "security": [],
+                                                "x-openai-isConsequential": false
+                                            }
+                                        },
+                                        "/upload_and_search_pdf": {
+                                            "post": {
+                                                "description": "Semantic query into a URL link to a document. THINK STEP BY STEP. ALWAYS PROVIDE QUOTES AND PAGE CITIATIONS. BREAK COMPLEX QUESTIONS INTO SEVERAL QUERIES.",
+                                                "operationId": "upload_and_search_pdf",
+                                                "parameters": [],
+                                                "requestBody": {
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/upload_and_search_pdfRequestSchema"
+                                                            }
+                                                        }
+                                                    },
+                                                    "required": true
+                                                },
+                                                "deprecated": false,
+                                                "security": [],
+                                                "x-openai-isConsequential": false
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "upload_and_search_pdfRequestSchema": {
+                                                "properties": {
+                                                    "pdf_url": {
+                                                        "type": "",
+                                                        "title": "pdf_url",
+                                                        "description": "url where the PDF file is stored. e.g. https://myaidrive.com/eHrCoFs6i23ygrxL/Democracy_in.pdf"
+                                                    },
+                                                    "query": {
+                                                        "type": "",
+                                                        "title": "query",
+                                                        "description": "Query to perform semantic search."
+                                                    }
+                                                },
+                                                "type": "object",
+                                                "required": [
+                                                    "pdf_url",
+                                                    "query"
+                                                ],
+                                                "title": "upload_and_search_pdfRequestSchema"
+                                            },
+                                            "summarizeRequestSchema": {
+                                                "properties": {
+                                                    "pdf_url": {
+                                                        "type": "",
+                                                        "title": "pdf_url",
+                                                        "description": "url where the PDF file is stored. e.g. https://myaidrive.com/eHrCoFs6i23ygrxL/Democracy_in.pdf"
+                                                    },
+                                                    "start_page": {
+                                                        "type": "integer",
+                                                        "title": "start_page",
+                                                        "description": "The starting page number for the summary. Optional.",
+                                                        "minimum": 1,
+                                                        "example": 1
+                                                    },
+                                                    "end_page": {
+                                                        "type": "integer",
+                                                        "title": "end_page",
+                                                        "description": "The ending page number for the summary. Optional.",
+                                                        "minimum": 1,
+                                                        "example": 20
+                                                    }
+                                                },
+                                                "type": "object",
+                                                "required": [
+                                                    "pdf_url"
+                                                ],
+                                                "title": "summarizeRequestSchema"
+                                            }
+                                        },
+                                        "securitySchemes": {
+                                            "apiKey": {
+                                                "type": "apiKey"
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "service_http",
+                                    "instructions": "",
+                                    "authorization_type": "basic",
+                                    "verification_tokens": {},
+                                    "custom_auth_header": null
+                                },
+                                "privacy_policy_url": "https://myaidrive.com/#/privacy-policy"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_h2co4ZSbnQ5pvv05RhoLgufj~gzm_tool_TVmmxqtfwdqhPo2RcoxFYffv",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_h2co4ZSbnQ5pvv05RhoLgufj~gzm_tool_iTjwgh7QurU8vNgwIyY4l0YO",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_h2co4ZSbnQ5pvv05RhoLgufj~gzm_tool_txmQ4dp4unF3si1e5BETyDE7",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-sh",
+                                "application/msword",
+                                "text/x-tex",
+                                "text/x-c++",
+                                "text/x-csharp",
+                                "text/x-php",
+                                "text/x-java",
+                                "text/plain",
+                                "application/json",
+                                "text/x-script.python",
+                                "text/x-c",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/x-latext",
+                                "text/x-typescript",
+                                "text/html",
+                                "text/markdown",
+                                "application/pdf"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-pCq5xaCri",
+                        "organization_id": "org-yuP2brQLvVbYWBmjpmfbdQgc",
+                        "short_url": "g-pCq5xaCri-logo",
+                        "author": {
+                            "user_id": "user-iXMm8dbb5k1i6wKVVqSQ9GDR",
+                            "display_name": "logogpts.cn",
+                            "link_to": "https://logogpts.cn",
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "LOGO",
+                            "description": "Senior brand LOGO design expert, 20 years of brand LOGO design experience, designer material feeding training",
+                            "prompt_starters": [
+                                "I need a new company logo.",
+                                "Please provide some creative product LOGO designs.",
+                                "My company is about health and I need a suitable LOGO.",
+                                "I want a modern logo."
+                            ],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-lvZdHWZGgQwvsX1a7z6jDqjp?se=2123-10-24T06%3A40%3A10Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D001.jpg&sig=TiSo//G1KZ6wuBgQEpI2kzsvwxZ3R8HRIWZEFGabBi4%3D",
+                            "categories": [
+                                "dalle"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-17T04:34:12.889403+00:00",
+                        "updated_at": "2024-03-09T14:18:33.060837+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_I2hq7pA3m3pKVB8SNA7o0ZH7~gzm_tool_nGubki5NkhQvEcBeC9RUq3Aq",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_I2hq7pA3m3pKVB8SNA7o0ZH7~gzm_tool_LQ3w08YiJqwlnSFJ0QNMhfHm",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_I2hq7pA3m3pKVB8SNA7o0ZH7~gzm_tool_oTW1hpQcuqCWKAiEdkFWpHjC",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_I2hq7pA3m3pKVB8SNA7o0ZH7~gzm_tool_fjTzJKDQ8DJTZaEeXnHoKh6N",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_I2hq7pA3m3pKVB8SNA7o0ZH7~gzm_tool_XPNO8yCbryQT07O2L5qCu8HA",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_I2hq7pA3m3pKVB8SNA7o0ZH7~gzm_tool_hFzaQt7CrdcBOJEa51vdwvpD",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_ejRDbssEx1GW8L9k1Xv6beat~gzm_file_urQihacyemXQI0LJ3h37HExX",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_ejRDbssEx1GW8L9k1Xv6beat~gzm_file_BX7Auf0KYKpSixm0eKameV7x",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_ejRDbssEx1GW8L9k1Xv6beat~gzm_file_ks1VARcJfRcKW9OY6g2wGNcb",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_ejRDbssEx1GW8L9k1Xv6beat~gzm_file_MDOgfEdSSwxSs5aA6dVKdtXe",
+                            "type": "image/jpeg",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_skuYcPmbdavDDk5184g3bNcX~gzm_file_lxl5mpOzImfiEuQqzgDG5FLb",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_skuYcPmbdavDDk5184g3bNcX~gzm_file_OGy4UeERobyigBNq4ihj6v9z",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_skuYcPmbdavDDk5184g3bNcX~gzm_file_0SMqEVDePmUODPu7fzizanIR",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_skuYcPmbdavDDk5184g3bNcX~gzm_file_8eXUTyOQ6dnBamd3YEDPczRy",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_skuYcPmbdavDDk5184g3bNcX~gzm_file_VN7NW2X1SJykw38aZJpsxoLI",
+                            "type": "image/jpeg",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_skuYcPmbdavDDk5184g3bNcX~gzm_file_g6GJLU5mK0HeZOJVQIdloswa",
+                            "type": "image/jpeg",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-sh",
+                                "application/msword",
+                                "text/x-tex",
+                                "text/x-c++",
+                                "text/x-csharp",
+                                "text/x-php",
+                                "text/x-java",
+                                "text/plain",
+                                "application/json",
+                                "text/x-script.python",
+                                "text/x-c",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/x-latext",
+                                "text/x-typescript",
+                                "text/html",
+                                "text/markdown",
+                                "application/pdf"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-2azCVmXdy",
+                        "organization_id": "org-dVp3SlijZF2EyjK9dxplnuVn",
+                        "short_url": "g-2azCVmXdy-humanizer-pro",
+                        "author": {
+                            "user_id": "user-LfH5gS5D7s5RMBHWOJ8qd3DT",
+                            "display_name": "CharlyAI",
+                            "link_to": "https://charlygpts.com",
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "942395390464274432",
+                                        "username": "@IAmCharlyAI",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/IAmCharlyAI"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Humanizer Pro",
+                            "description": "#1 Humanizer in the market. This tool humanizes your content to bypass the most advanced AI detectors, maintaining content meaning and quality with a 100% human score. Currently it supports only English.",
+                            "prompt_starters": [
+                                "CLICK HERE to humanize your content ",
+                                "*Premium plan* Use our most advanced algorithm"
+                            ],
+                            "profile_pic_id": "file-B3J9SZ6f8uh21XyDgNJ236pg",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-B3J9SZ6f8uh21XyDgNJ236pg?se=2123-10-22T14%3A41%3A35Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D579a0db4-4eef-4846-98f7-ff2979eb942e.webp&sig=xs2Th9HWsBkW5G60Vp90UmCc/QeGOrRXjF4XhcPHwhw%3D",
+                            "categories": [
+                                "writing"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-15T14:14:36.022505+00:00",
+                        "updated_at": "2024-03-08T07:14:03.908896+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_fsobWOQwWJSYZocr1hw4n7IT~gzm_tool_KTOwOFlroR5LlJF3NUnp4QCg",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_crb8UriiSRms9agQWIo32A50~gzm_tool_iXwjP1f6EjzPTDBaiAWJ4gJm",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-6c0b6204d369364e23ae19b220d6eb0df3c71fcb",
+                                "domain": "plugin.gptinf.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.1",
+                                    "info": {
+                                        "title": "GPTinf Plugin",
+                                        "description": "A plugin to humanize AI content by paraphrasing.",
+                                        "version": "v1"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://plugin.gptinf.com/api"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/paraphrase": {
+                                            "post": {
+                                                "operationId": "paraphrase",
+                                                "summary": "Paraphrase a text",
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/paraphraseRequest"
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "OK",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/paraphraseResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Bad Request",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/errorResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "paraphraseRequest": {
+                                                "type": "object",
+                                                "required": [
+                                                    "text"
+                                                ],
+                                                "properties": {
+                                                    "text": {
+                                                        "type": "string",
+                                                        "description": "The text to paraphrase."
+                                                    }
+                                                }
+                                            },
+                                            "paraphraseResponse": {
+                                                "type": "object",
+                                                "required": [
+                                                    "paraphrased"
+                                                ],
+                                                "properties": {
+                                                    "paraphrased": {
+                                                        "type": "string",
+                                                        "description": "The successful paraphrase of the text. Or request to increase the words limit."
+                                                    }
+                                                }
+                                            },
+                                            "errorResponse": {
+                                                "type": "object",
+                                                "required": [
+                                                    "error"
+                                                ],
+                                                "properties": {
+                                                    "error": {
+                                                        "type": "string",
+                                                        "description": "Description of the error."
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "oauth",
+                                    "instructions": "",
+                                    "client_url": "https://plugin.gptinf.com/api/oauth",
+                                    "scope": "",
+                                    "authorization_url": "https://plugin.gptinf.com/api/oauth_exchange",
+                                    "authorization_content_type": "application/x-www-form-urlencoded",
+                                    "verification_tokens": {},
+                                    "pkce_required": false,
+                                    "token_exchange_method": "default_post"
+                                },
+                                "privacy_policy_url": "https://app.gptinf.com/privacy_policy.html"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_crb8UriiSRms9agQWIo32A50~gzm_tool_sNOkvLS0t18bdNNCY2gwoAum",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-8acfaee6bcc688ae60d9f5f4ecffd9cd3b6c6658",
+                                "domain": "call.gptinf.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.1",
+                                    "info": {
+                                        "title": "GPTinf Plugin",
+                                        "description": "A plugin to humanize AI content by paraphrasing. Only ethical use is allowed.",
+                                        "version": "v1"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://call.gptinf.com/api"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/process": {
+                                            "post": {
+                                                "operationId": "processText",
+                                                "summary": "Paraphrase a text",
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "required": [
+                                                                    "text"
+                                                                ],
+                                                                "properties": {
+                                                                    "text": {
+                                                                        "type": "string",
+                                                                        "description": "The text to paraphrase."
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "OK",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "text": {
+                                                                            "type": "string",
+                                                                            "description": "The successful paraphrase of the text."
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Bad Request",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "error": {
+                                                                            "type": "string",
+                                                                            "description": "Description of the error."
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "none"
+                                },
+                                "privacy_policy_url": "https://app.gptinf.com/privacy_policy.html"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_fsobWOQwWJSYZocr1hw4n7IT~gzm_tool_zhDbZBCnimAGQ2ClqaRFlgRu",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_fsobWOQwWJSYZocr1hw4n7IT~gzm_tool_N09ltVQ8WQfrEwaEQPl32DnQ",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-sh",
+                                "application/msword",
+                                "text/x-tex",
+                                "text/x-c++",
+                                "text/x-csharp",
+                                "text/x-php",
+                                "text/x-java",
+                                "text/plain",
+                                "application/json",
+                                "text/x-script.python",
+                                "text/x-c",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/x-latext",
+                                "text/x-typescript",
+                                "text/html",
+                                "text/markdown",
+                                "application/pdf"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-n7Rs0IK86",
+                        "organization_id": "org-1gikMSRWhS0V4jJTAy90gWPI",
+                        "short_url": "g-n7Rs0IK86-grimoire",
+                        "author": {
+                            "user_id": "user-xNvKxI7DzdHAjr6LBbhCDWKi",
+                            "display_name": "gptavern.mindgoblinstudios.com",
+                            "link_to": "https://gptavern.mindgoblinstudios.com",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "GIJc4tfL1Y",
+                                        "username": "Nick Dobos",
+                                        "display_name": "Nick Dobos",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/nicholas-dobos"
+                                    }
+                                },
+                                {
+                                    "id": "githubverify-dff6-4871-860f-d61dfa7afa7f",
+                                    "type": "github",
+                                    "display_name": "GitHub",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": 4662442,
+                                        "username": "nickdobos",
+                                        "type": "github",
+                                        "link_to": "https://github.com/nickdobos"
+                                    }
+                                },
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "856753502",
+                                        "username": "@NickADobos",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/NickADobos"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Grimoire",
+                            "description": "Coding Wizard🧙‍♂️ Learn to Prompt-gram! Create a website with a sentence. 20+ Hotkeys for coding flows. 75 starter projects to learn prompt-1st code & art. Build anything! Ask any question or upload a photo. Type R for README, K for cmd menu v2.2 ✨📜 GPTavern",
+                            "prompt_starters": [
+                                "Write code to...",
+                                "Create your 1st website! A Link in Bio site. Pt1.md",
+                                "📖 P Learn to prompt-gram. Open Grimoire.md Read all.",
+                                "⚠ R to Readme.md & Tutorial, show K",
+                                "🧙‍♂️🍻 new free Grimoire app! Download now! link to: https://testflight.apple.com/join/rpdloc91",
+                                "🪄 Pt2 Spells, Beginner Incantations. Pt2.md, Show all. Basic moving sites & Games. Data 101. Build a blog",
+                                "🔮 Pt3 Conjuring, Prompt-gramming. Prompt to Everything. Pt3.md, Show all. A new era of Media & Code",
+                                "📜 Pt4 Forbidden Spells, Curses, Cursor.sh. Pt4.md, Show all.",
+                                "Book of the Dead: Heresy 101. Pt7.md, show all. Backfill traditional coding basics for beginners.",
+                                "Book of Life: Summoning 101 Pt9.md, show all.",
+                                "Tipjar! Toss a coin to your Grimoire! [https://tipjar.mindgoblinstudios.com/](https://tipjar.mindgoblinstudios.com/)",
+                                "Grimoire's Git GPT:  Prompt to git on your phone! Try it out now here: git hivemind [https://chat.openai.com/g/g-1UkbNbnZm-git-hivemind] (https://chat.openai.com/g/g-1UkbNbnZm-git-hivemind)"
+                            ],
+                            "profile_pic_id": "file-0iw1nJRFDLfuXLJy3SHURMiE",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-0iw1nJRFDLfuXLJy3SHURMiE?se=2123-12-26T23%3A31%3A22Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DCherished%2520Member.png&sig=vlX1mXOxWn/p7qK07bDbFcK6D1fOdSrvdPnK4h7VOT8%3D",
+                            "categories": [
+                                "programming"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-07T05:12:26.204722+00:00",
+                        "updated_at": "2024-03-08T15:39:30.156902+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_zjylVxykecdCewBbG7k3zCxy~gzm_tool_4l3TB1PVxjOddpg1CMX7YlWX",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-38e7f9b2ec68234feeaf1b42d4898dbb22856f69",
+                                "domain": "app.netlify.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.0",
+                                    "info": {
+                                        "title": "Netlify",
+                                        "description": "Deploy static websites",
+                                        "version": "1.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://app.netlify.com"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/partner-drop/api/v1/drop": {
+                                            "post": {
+                                                "operationId": "deployToNetlify",
+                                                "x-openai-isConsequential": false,
+                                                "summary": "Deploy files to Netlify to create website. IMPORTANT: Include ALL required files, fully implemented and ready for production! Old files must be re-uploaded.",
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "files": {
+                                                                        "description": "file paths & content to deploy",
+                                                                        "type": "array",
+                                                                        "items": {
+                                                                            "type": "object",
+                                                                            "properties": {
+                                                                                "path": {
+                                                                                    "description": "file path",
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "content": {
+                                                                                    "description": "file content",
+                                                                                    "type": "string"
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "OK",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/Deploy"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "Deploy": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "url": {
+                                                        "type": "string",
+                                                        "description": "site URL"
+                                                    },
+                                                    "claim_url": {
+                                                        "type": "string",
+                                                        "description": "Save your site via Claim URL! Or deleted in 1 hour!!! The URL must contain the token inside the hash for it to work. After claiming, use netlify dashboard to download files, setup custom domain, and change settings."
+                                                    },
+                                                    "important_message": {
+                                                        "type": "string",
+                                                        "description": "status"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "service_http",
+                                    "instructions": "",
+                                    "authorization_type": "bearer",
+                                    "verification_tokens": {},
+                                    "custom_auth_header": ""
+                                },
+                                "privacy_policy_url": "https://www.netlify.com/privacy/"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_ILk2WcFYr0QUtjyTXoc1GSyu~gzm_tool_L1oDnC4dUOuYmz3VDb9iZgsY",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_ILk2WcFYr0QUtjyTXoc1GSyu~gzm_tool_0P43mhq5cQyESk82aEkkQqLE",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_ILk2WcFYr0QUtjyTXoc1GSyu~gzm_tool_Ca4jG9Feurnwn8pnCLrw0AXO",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_FW9VNsrfJSfsjODR5hp5sNcR~gzm_file_MAR2jdRdsh27F8mNuwMqY9Di",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_oJ3sZloUQSobrpcerEt4JsDS~gzm_file_0pfs6lnfdVR7DPyrajoIJh2n",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_ANVjpE9kpQu33m9SjTIktxXw~gzm_file_vHsbS2f7jrgTHWckmDBA1oqi",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_HyiHWAKh6KtbJYewdEqSe8AN~gzm_file_cliRpXglFMMkhoFtym1yICxQ",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_o2e4EmxGZ26cOIc5xU1ZLqmQ~gzm_file_fMMFwkOQ6oygd5m5v9fZclGC",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_dEVPvuuc3eucV17Huz465P6w~gzm_file_V93n1iANm1JXfq385roynKmy",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_dEVPvuuc3eucV17Huz465P6w~gzm_file_5YBlQuZ2LSz8mf5BdiT71m69",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_ILk2WcFYr0QUtjyTXoc1GSyu~gzm_file_0q2DlIb7yMLKkis8hqn1TtPa",
+                            "type": "image/png",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_Hx1Ae9W3do1RsUI1WJ3YJbWr~gzm_file_tHrHsqPNOT85xePpt2oqdMcX",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_LoASQe7fl0LgPQK14kAXIbH6~gzm_file_9HSDvcYi3G2UC1MGL63kz4vC",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_rVokI4OqXYUfqGPSOR4OtVp8~gzm_file_3yPqdRLHNfup9IBHjFbJQ31e",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_2SbYLUajjmNB3uKnwBvtet7b~gzm_file_km69AatI6WflkibPquto5XLk",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_aAO9H0xC7XZiEDNFiwqKnel7~gzm_file_vUbuAt2NkUvnhBQndpJE8Zig",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_OWeGJ5dQwuRKwYFGcxZT5iMo~gzm_file_ZkLxtsqV9bjrWSgpkHcIEmOz",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_et61KXVTXvIFXGbegq9hd2C6~gzm_file_3d4I7C0sXlWFwV64inrV558f",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_7RBRCOh6qtsYt9h6q3ykNxfZ~gzm_file_9bWqqQHnSTBlShGbPzOTDDAq",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_FFHCijhoIwbqpcU5dHjBvqR5~gzm_file_MTXJxoby8LZC1vD7m2X5g7s8",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_ZeqTndG9iaWm546rnuKGxI56~gzm_file_MgQQMRoE6LozLL5fRhlq5auJ",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-sh",
+                                "application/msword",
+                                "text/x-tex",
+                                "text/x-c++",
+                                "text/x-csharp",
+                                "text/x-php",
+                                "text/x-java",
+                                "text/plain",
+                                "application/json",
+                                "text/x-script.python",
+                                "text/x-c",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/x-latext",
+                                "text/x-typescript",
+                                "text/html",
+                                "text/markdown",
+                                "application/pdf"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-0S5FXLyFN",
+                        "organization_id": "org-MiQaFvevLF7okpzszDxUPLVF",
+                        "short_url": "g-0S5FXLyFN-wolfram",
+                        "author": {
+                            "user_id": "user-FlTb1ZArzBH5KVmoXXNvUyr8",
+                            "display_name": "gpt.wolfram.com",
+                            "link_to": "https://gpt.wolfram.com",
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "22659609",
+                                        "username": "@WolframResearch",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/WolframResearch"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Wolfram",
+                            "description": "Access computation, math, curated knowledge & real-time data from Wolfram|Alpha and Wolfram Language; from the makers of Mathematica.",
+                            "prompt_starters": [
+                                "Plot the intersection of x^2+y^2<1 and y>x",
+                                "When is the next solar eclipse visible from Chicago?",
+                                "Show me recent earthquakes in Indonesia",
+                                "How has the dollar-euro conversion changed recently?"
+                            ],
+                            "profile_pic_id": "file-fGE6EGZCQY73C76MJantfE0d",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-fGE6EGZCQY73C76MJantfE0d?se=2123-11-20T15%3A51%3A47Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DWolfram.png&sig=2QEsZQ5Kxa7XqcJ0uhOOHZMx0qjAhuN2H%2BsZR5p2GXo%3D",
+                            "categories": [
+                                "research"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-12-14T15:36:40.626116+00:00",
+                        "updated_at": "2024-03-07T15:01:02.817178+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_AL7o3chF5EUUqwGMIv4XGcUq~gzm_tool_FYKykqoCA9AlLkAfTUWeiKc6",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-7046b54e994496ecf6922eb1f66b553532d0dc1f",
+                                "domain": "chatgpt.wolframcloud.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.0",
+                                    "info": {
+                                        "title": "Wolfram Language API",
+                                        "version": "1.0.0",
+                                        "description": "API for evaluating Wolfram Language code and finding semantic Wolfram Language representations of natural language inputs."
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://chatgpt.wolframcloud.com/"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/wl/api/v1/eval-api": {
+                                            "get": {
+                                                "operationId": "getWolframCloudResults",
+                                                "externalDocs": {
+                                                    "description": "Get Wolfram Language documentation here",
+                                                    "url": "https://reference.wolfram.com/language/"
+                                                },
+                                                "summary": "Evaluates Wolfram Language code only",
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "The result of the Wolfram Language evaluation",
+                                                        "content": {
+                                                            "text/plain": {}
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "The request is missing the 'input' parameter"
+                                                    },
+                                                    "403": {
+                                                        "description": "Unauthorized"
+                                                    },
+                                                    "500": {
+                                                        "description": "Wolfram Cloud was unable to generate a result"
+                                                    },
+                                                    "503": {
+                                                        "description": "Service temporarily unavailable. This may be the result of too many requests."
+                                                    }
+                                                },
+                                                "parameters": [
+                                                    {
+                                                        "name": "input",
+                                                        "in": "query",
+                                                        "description": "Wolfram Language code to be evaluated",
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        "/obj/chatgpt-utilities/getSemanticInterpretationAPI": {
+                                            "get": {
+                                                "summary": "Get Semantic Interpretation",
+                                                "operationId": "getSemanticInterpretationAPI",
+                                                "description": "Interprets simplified natural language inputs as Wolfram Language entities, entity classes, or more complex reverse-lookups.",
+                                                "parameters": [
+                                                    {
+                                                        "name": "input",
+                                                        "in": "query",
+                                                        "required": true,
+                                                        "description": "Simplified natural language input to be interpreted.",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful response with the interpreted Wolfram Language entity or entity class.",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "interpretation": {
+                                                                            "type": "string",
+                                                                            "description": "The interpreted Wolfram Language entity or entity class."
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Invalid request parameters."
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/obj/chatgpt-utilities/findEntityClassAPI": {
+                                            "get": {
+                                                "summary": "Find Wolfram Language EntityClass",
+                                                "operationId": "findEntityClassAPI",
+                                                "description": "Returns EntityClass interpretations for a specified type and input.",
+                                                "parameters": [
+                                                    {
+                                                        "name": "type",
+                                                        "in": "query",
+                                                        "required": true,
+                                                        "description": "The type of the Wolfram entity for EntityClass interpretation.",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "name",
+                                                        "in": "query",
+                                                        "required": true,
+                                                        "description": "The input for EntityClass interpretation.",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful response with the EntityClass interpretation.",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "interpretation": {
+                                                                            "type": "string",
+                                                                            "description": "The EntityClass interpretation of the provided type and input."
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Invalid request parameters."
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/obj/chatgpt-utilities/findPropertyAPI": {
+                                            "get": {
+                                                "summary": "Find Wolfram Language EntityProperty",
+                                                "operationId": "findPropertyAPI",
+                                                "description": "Returns EntityProperty interpretations for a specified type and input.",
+                                                "parameters": [
+                                                    {
+                                                        "name": "type",
+                                                        "in": "query",
+                                                        "required": true,
+                                                        "description": "The type of the Wolfram entity for EntityProperty interpretation.",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "name",
+                                                        "in": "query",
+                                                        "required": true,
+                                                        "description": "The input for EntityProperty interpretation.",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful response with the EntityProperty interpretation.",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "interpretation": {
+                                                                            "type": "string",
+                                                                            "description": "The EntityProperty interpretation of the provided type and input."
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Invalid request parameters."
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/obj/chatgpt-utilities/getDocumentationAPI": {
+                                            "get": {
+                                                "summary": "Get Wolfram Language Documentation",
+                                                "operationId": "getDocumentationAPI",
+                                                "description": "Returns usage information for Wolfram Language symbols.",
+                                                "parameters": [
+                                                    {
+                                                        "name": "input",
+                                                        "in": "query",
+                                                        "required": true,
+                                                        "description": "The Wolfram Language symbol for which to retrieve documentation.",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful response with the usage information of the symbol.",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "documentation": {
+                                                                            "type": "string",
+                                                                            "description": "The usage information of the Wolfram Language symbol."
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Invalid request parameters."
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/obj/chatgpt-utilities/findEntityAPI": {
+                                            "get": {
+                                                "summary": "Find Wolfram Language Entity",
+                                                "operationId": "findEntityAPI",
+                                                "description": "Returns Wolfram Language interpretations of a specified entity.",
+                                                "parameters": [
+                                                    {
+                                                        "name": "type",
+                                                        "in": "query",
+                                                        "required": true,
+                                                        "description": "The type of the Wolfram entity (e.g., City, Country).",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "name",
+                                                        "in": "query",
+                                                        "required": true,
+                                                        "description": "The name of the entity to be interpreted in Wolfram Language.",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful response with the Wolfram Language interpretation of the entity.",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "interpretation": {
+                                                                            "type": "string",
+                                                                            "description": "The Wolfram Language interpretation of the provided entity."
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Invalid request parameters."
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "service_http",
+                                    "instructions": "",
+                                    "authorization_type": "bearer",
+                                    "verification_tokens": {},
+                                    "custom_auth_header": ""
+                                },
+                                "privacy_policy_url": "https://www.wolfram.com/legal/privacy/wolfram/"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_AL7o3chF5EUUqwGMIv4XGcUq~gzm_tool_tr84wvbsiAsF7gEQXezuICUj",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-b92fa2462d9db4b062923bb438a11bce0dce2097",
+                                "domain": "www.wolframalpha.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.1.0",
+                                    "info": {
+                                        "title": "Wolfram",
+                                        "version": "v0.1"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://www.wolframalpha.com",
+                                            "description": "Wolfram Alpha API for LLMs."
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/api/v1/llm-api": {
+                                            "get": {
+                                                "operationId": "getWolframAlphaResults",
+                                                "externalDocs": {
+                                                    "description": "Get API information here",
+                                                    "url": "https://products.wolframalpha.com/api"
+                                                },
+                                                "summary": "Use Wolfram Alpha to interpret natural language queries and perform simple computations that do not require code",
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "The result of the Wolfram|Alpha query",
+                                                        "content": {
+                                                            "text/plain": {}
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "The request is missing the 'input' parameter"
+                                                    },
+                                                    "403": {
+                                                        "description": "Unauthorized"
+                                                    },
+                                                    "500": {
+                                                        "description": "Wolfram|Alpha was unable to generate a result"
+                                                    },
+                                                    "501": {
+                                                        "description": "Wolfram|Alpha was unable to generate a result"
+                                                    },
+                                                    "503": {
+                                                        "description": "Service temporarily unavailable. This may be the result of too many requests."
+                                                    }
+                                                },
+                                                "parameters": [
+                                                    {
+                                                        "name": "input",
+                                                        "in": "query",
+                                                        "description": "Natural language input for Wolfram Alpha",
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "assumption",
+                                                        "in": "query",
+                                                        "description": "the assumption to use, passed back from a previous query with the same input.",
+                                                        "required": false,
+                                                        "explode": true,
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "array",
+                                                            "items": {
+                                                                "type": "string"
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "service_http",
+                                    "instructions": "",
+                                    "authorization_type": "bearer",
+                                    "verification_tokens": {},
+                                    "custom_auth_header": ""
+                                },
+                                "privacy_policy_url": "https://www.wolfram.com/legal/privacy/wolfram/"
+                            }
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_cjGxQ0O6MTHVqn1NWa90PtaK~gzm_file_VXdQupa58fFHr9RdYSCllYuM",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_JCLnqbTFocXLbnfcCePxwDVF~gzm_file_9U3JzM8NsUXaSvTFq74p18as",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_EMQNI1XYKBtECyHxD9rJkP3o~gzm_file_wUMHw1pVb1dzgUKoQY1wlz2i",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_nw1TqgyHm2V5ZoxZfwRL636r~gzm_file_XwY1bqS46dkpEexv9zReA6OR",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-sh",
+                                "application/msword",
+                                "text/x-tex",
+                                "text/x-c++",
+                                "text/x-csharp",
+                                "text/x-php",
+                                "text/x-java",
+                                "text/plain",
+                                "application/json",
+                                "text/x-script.python",
+                                "text/x-c",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/x-latext",
+                                "text/x-typescript",
+                                "text/html",
+                                "text/markdown",
+                                "application/pdf"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-XESLWF1uQ",
+                        "organization_id": "org-y40ZtnxoHxv3NKvKq9azbpc7",
+                        "short_url": "g-XESLWF1uQ-escape-the-haunt",
+                        "author": {
+                            "user_id": "user-NFJrfRN9JI74hMNbeNAaitRz",
+                            "display_name": "Matthew Schlicht",
+                            "link_to": "https://octaneai.com",
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "9103922",
+                                        "username": "@MattPRD",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/MattPRD"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Escape the Haunt",
+                            "description": "A text-based haunted hotel escape adventure.",
+                            "prompt_starters": [
+                                "Ready to begin your eerie adventure? ",
+                                "Enter the haunted hotel and start your escape.",
+                                "Awaken in the haunted room and begin the challenge.",
+                                "Explore the spooky hotel, your journey starts now."
+                            ],
+                            "profile_pic_id": "file-2yDuma8uWgcfRI6hObA0IcNL",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-2yDuma8uWgcfRI6hObA0IcNL?se=2123-10-15T04%3A00%3A28Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D27d9db5c-ad2d-4d9c-92e2-e3c0e7e1015e.png&sig=%2BLfMc3Au3GE9bGi8uf2qjIOTAojbyVf1SOqiG7bQhvc%3D",
+                            "categories": [
+                                "lifestyle"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-08T03:43:53.592078+00:00",
+                        "updated_at": "2024-03-10T07:07:26.371742+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_UAjkoe9p21tGyvSmxut9Uq5p~gzm_tool_0knsTEVR16FBi9MmJ90pBmpv",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_UAjkoe9p21tGyvSmxut9Uq5p~gzm_tool_cstj4rYPnf5pyDspGH2pyEqg",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_UAjkoe9p21tGyvSmxut9Uq5p~gzm_tool_vGPDZNCsEwE9kLAuVt2lsgjG",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-sh",
+                                "application/msword",
+                                "text/x-tex",
+                                "text/x-c++",
+                                "text/x-csharp",
+                                "text/x-php",
+                                "text/x-java",
+                                "text/plain",
+                                "application/json",
+                                "text/x-script.python",
+                                "text/x-c",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/x-latext",
+                                "text/x-typescript",
+                                "text/html",
+                                "text/markdown",
+                                "application/pdf"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-h0lbLuFF1",
+                        "organization_id": "org-PvZudCqY7OUQRspPdn5AJ1LO",
+                        "short_url": "g-h0lbLuFF1-elevenlabs-text-to-speech",
+                        "author": {
+                            "user_id": "user-0yGtioCdwkMr7HYgsDYHDSPt",
+                            "display_name": "Ammaar Reshi",
+                            "link_to": "https://elevenlabs.io",
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "25667970",
+                                        "username": "@ammaar",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/ammaar"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "ElevenLabs Text To Speech",
+                            "description": "Convert text into lifelike speech with ElevenLabs (limited to 1,500 characters)",
+                            "prompt_starters": [
+                                "Paste or type content you would like to convert to speech",
+                                "Generate a short story for me and then convert it into audiobook! (2 paragraphs)"
+                            ],
+                            "profile_pic_id": "file-MByVNy6xBmXHsvjpmnaRz517",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-MByVNy6xBmXHsvjpmnaRz517?se=2124-01-20T03%3A30%3A53Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Deleven-lines-hq.png&sig=/dvmbBstijgnsWKd%2Bcrk6/EWT4dLQELZ0QarnswWXJg%3D",
+                            "categories": [
+                                "productivity"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-29T23:57:52.769267+00:00",
+                        "updated_at": "2024-03-09T14:18:54.116580+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_YpS3pZHQRb1dkO4SM1sQHqts~gzm_tool_T85IIq28kN1eCrUClqkCae4J",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-b194c874e740926a77eb6b5829d183009ab838fc",
+                                "domain": "eleven-labs-gpt-server-asrsubs.replit.app",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.0",
+                                    "info": {
+                                        "title": "Eleven Labs Text-to-Speech",
+                                        "version": "1.0.0",
+                                        "description": "API for converting text to speech using specified model and voice IDs."
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://eleven-labs-gpt-server-asrsubs.replit.app"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/convert-text-to-speech": {
+                                            "post": {
+                                                "summary": "Convert text to speech",
+                                                "description": "Converts given text to speech using specified model and voice IDs.",
+                                                "operationId": "convertTextToSpeech",
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "text": {
+                                                                        "type": "string",
+                                                                        "description": "Text to be converted to speech."
+                                                                    },
+                                                                    "model_id": {
+                                                                        "type": "string",
+                                                                        "description": "ID of the speech model to use."
+                                                                    },
+                                                                    "voice_id": {
+                                                                        "type": "string",
+                                                                        "description": "ID of the voice to use."
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "text",
+                                                                    "model_id",
+                                                                    "voice_id"
+                                                                ]
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful response",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "message": {
+                                                                            "type": "string",
+                                                                            "description": "Confirmation message of file creation."
+                                                                        },
+                                                                        "url": {
+                                                                            "type": "string",
+                                                                            "format": "uri",
+                                                                            "description": "URL to the generated speech audio file."
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "service_http",
+                                    "instructions": "",
+                                    "authorization_type": "custom",
+                                    "verification_tokens": {},
+                                    "custom_auth_header": "x-my-secret-key"
+                                },
+                                "privacy_policy_url": "https://elevenlabs.io/privacy"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_2giAZ38Cr87uvT7FHM9ixJeI~gzm_tool_FvaldyDbGpNrRJ5cOA3phsrt",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2giAZ38Cr87uvT7FHM9ixJeI~gzm_tool_sLD8c3bLDa6ZGfBh85Ojquci",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-sh",
+                                "application/msword",
+                                "text/x-tex",
+                                "text/x-c++",
+                                "text/x-csharp",
+                                "text/x-php",
+                                "text/x-java",
+                                "text/plain",
+                                "application/json",
+                                "text/x-script.python",
+                                "text/x-c",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/x-latext",
+                                "text/x-typescript",
+                                "text/html",
+                                "text/markdown",
+                                "application/pdf"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-HGgCAcXxe",
+                        "organization_id": "org-qeLuvB6cWCDXl2P7P3w0oSNM",
+                        "short_url": "g-HGgCAcXxe-the-designer-s-mood-board",
+                        "author": {
+                            "user_id": "user-k2dy1vx3j8pgFq4v94UiQbRi",
+                            "display_name": "Brendan Donnelly",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "The Designer's Mood Board",
+                            "description": "Mood Board Specialist",
+                            "prompt_starters": [
+                                "Create a mood board for a cozy cafe",
+                                "Design a mood board for a futuristic tech office",
+                                "Generate a mood board for a summer beach house",
+                                "Assemble a mood board for an urban loft"
+                            ],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-AKSh8I2Hd3ICxoB5xN9Xzz1e?se=2123-12-18T08%3A35%3A25Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Ddesigners%2520moodboard%2520logo.jpg&sig=QejsS%2BeAn7Fu0fbEZNyIL7EMQty0bil0LrqG5jWwjus%3D",
+                            "categories": [
+                                "other"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-12T03:01:34.299389+00:00",
+                        "updated_at": "2024-03-09T14:16:57.867154+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_hjP2ndIK27sRADqCyILI5nFQ~gzm_tool_tv8LO9hk21WySG5YJoyDNElR",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_UrnN9iCqv0qJEuUD8akrx6Uz~gzm_tool_3d5gVuKW5j2KYOyonszTAaoB",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_bajWXZqJMXVUomYKjWr4Kb4h~gzm_file_Wzxslqze5OdmzS71DBDc3qTM",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_ofQ6EYn0eo8FpKuNVxObCs7D~gzm_file_VGvGLuN2puSCWuubz55wwJwl",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_R6oSIZIA1yferWmSfOxX1cyR~gzm_file_urasyH68akVji0Aef2ZELwao",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_ndq7bkNMXgtsxpSNrg4T5P3b~gzm_file_Z08zYz9pTraZrV1qq9xHSLcR",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_idxp5ME4OcDWTAiUw5xZ86Wc~gzm_file_Q0UCnaMNJQjQHkfNZROeOZAG",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_ofQ6EYn0eo8FpKuNVxObCs7D~gzm_file_ZT0XXQ7nr5vT3MwOLgjejEeE",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_idxp5ME4OcDWTAiUw5xZ86Wc~gzm_file_sgSzE5eIcILpNmUCpegtzzHb",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_7NadusQxtd44e6P5uaHOZZLA~gzm_file_VBC9yP5M5IX8wnXSOnd5xubr",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_idxp5ME4OcDWTAiUw5xZ86Wc~gzm_file_jnPbn0mmZBco9NlCEGRaZcvQ",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_zk2xR80HuB8ooxX7zChTKcYt~gzm_file_CvWP3R4wAor52kfW5nexynHo",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_idxp5ME4OcDWTAiUw5xZ86Wc~gzm_file_b3ouwR4DEU3UPoKNIssCc6b0",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_U4sAfa40s4cJ0oSvRWZaQgCL~gzm_file_pE3KAg4rjxilMWe4H6LGpU5J",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_KuHT8i3A73PmynFLISYJj92r~gzm_file_2q5Sa0SLhmQHcbLMW5V6rGWg",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_giQxlq5BkYMkGndWn7uTuYKH~gzm_file_NbXVxg8wk73fHukIcOUQftyf",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_asZOr1IHFw7NDV61e9hWP7CG~gzm_file_JTy6qJzRdHnzm8ZIhCAwAnAf",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_mdEHQp0m8v9nMMfywljqkOdJ~gzm_file_AbMaXh8XXWNGkqcTnlEcYtMF",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_HCN4d1HCHm8ceB4kJ8ohmIHC~gzm_file_7gMdHcVnZcCajpxZNMDGoksR",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_c5Rvt508deU5peDnVeeuocEM~gzm_file_SAFlEPeqYUppM3wQCtdu0Reb",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_c5Rvt508deU5peDnVeeuocEM~gzm_file_d2oFaPzF6KV8ysbMXNpFmqEj",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_s36uPTiwyW0Ev9bVqROjE9Ji~gzm_file_GIEzl2pjKRLUiy1RYtlDfAqJ",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-sh",
+                                "application/msword",
+                                "text/x-tex",
+                                "text/x-c++",
+                                "text/x-csharp",
+                                "text/x-php",
+                                "text/x-java",
+                                "text/plain",
+                                "application/json",
+                                "text/x-script.python",
+                                "text/x-c",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/x-latext",
+                                "text/x-typescript",
+                                "text/html",
+                                "text/markdown",
+                                "application/pdf"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            }
+        ],
+        "cursor": null
+    }
+}
