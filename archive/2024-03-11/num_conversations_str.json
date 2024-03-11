@@ -1276,5 +1276,23 @@
     "review_total": 346,
     "review_count": 90,
     "review_average": "3.8"
+  },
+  {
+    "id": "g-KkxbQAVuk",
+    "name": "PlaylistAI - Music Playlist Maker",
+    "short_url": "g-KkxbQAVuk-playlistai-music-playlist-maker",
+    "num_conversations_str": "10K+",
+    "review_total": 656,
+    "review_count": 166,
+    "review_average": "4.0"
+  },
+  {
+    "id": "g-Gm9cCA5qg",
+    "name": "What should I watch?",
+    "short_url": "g-Gm9cCA5qg-what-should-i-watch",
+    "num_conversations_str": "50K+",
+    "review_total": 449,
+    "review_count": 119,
+    "review_average": "3.8"
   }
 ]
