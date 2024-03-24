@@ -1,0 +1,1443 @@
+{
+    "info": {
+        "id": "dalle",
+        "title": "DALL·E",
+        "description": "Transform your ideas into amazing images",
+        "display_type": "ranked",
+        "display_group": "DALL·E",
+        "locale": "en"
+    },
+    "list": {
+        "items": [
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-I9f8LxD5P",
+                        "organization_id": "org-JToQ2iZ9DfqJWMFnMmTNHfOh",
+                        "short_url": "g-I9f8LxD5P-video-maker",
+                        "author": {
+                            "user_id": "user-kIMFY1sJZabvl2GhAPlhLGYh",
+                            "display_name": "changeblogger.org",
+                            "link_to": "https://changeblogger.org",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Video Maker",
+                            "description": "Friendly video creator with animation effects",
+                            "prompt_starters": [
+                                "Generate animated images on nature",
+                                "Create a video with dynamic transitions",
+                                "Synchronize a narrative video with engaging animations",
+                                "Add creative animation effects between historical images"
+                            ],
+                            "profile_pic_id": "file-9ki8WhRhSxU7ScmbBPaw8wQV",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-9ki8WhRhSxU7ScmbBPaw8wQV?se=2123-10-27T23%3A49%3A11Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Df35efe32-a9c5-48af-9bbd-dd68b842139f.png&sig=BCOPeMRfK/6CjCnpobbvOG8oLeok%2B9qHQ1Sm4ZVRm7Q%3D",
+                            "categories": [
+                                "dalle"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-20T23:41:08.331468+00:00",
+                        "updated_at": "2024-03-13T20:17:08.637625+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_j1FKH1F6AGeDWG1yWMNaFgVY~gzm_tool_uqeeroETGTo8mcZFFxjaMpm1",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_j1FKH1F6AGeDWG1yWMNaFgVY~gzm_tool_Meb5QqZp4lRtXUmYxsy4nKam",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_j1FKH1F6AGeDWG1yWMNaFgVY~gzm_tool_9jzWmgkbf3sKGYAgil8PNLuv",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/html",
+                                "text/x-tex",
+                                "text/javascript",
+                                "text/x-php",
+                                "text/x-script.python",
+                                "text/markdown",
+                                "application/msword",
+                                "text/plain",
+                                "text/x-sh",
+                                "application/json",
+                                "text/x-c++",
+                                "text/x-ruby",
+                                "text/x-c",
+                                "text/x-java",
+                                "application/x-latext",
+                                "application/pdf",
+                                "text/x-typescript",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-csharp",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/webp",
+                                "image/jpeg",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-9qWC0oyBd",
+                        "organization_id": "org-6kcpSj1511liWYCDaWFbji8C",
+                        "short_url": "g-9qWC0oyBd-super-describe",
+                        "author": {
+                            "user_id": "user-lbhQe30VmowqCITgzB6ROpQo",
+                            "display_name": "bestaiprompts.art",
+                            "link_to": "https://bestaiprompts.art",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Super Describe",
+                            "description": "Upload any image to get a similar one using DALL·E 3 along with the detailed prompt!",
+                            "prompt_starters": [],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-wSYkolaw1qEQ3s5gA0Z9i0x8?se=2123-10-20T17%3A29%3A43Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D5bb5263b-c53b-4ac2-8bf5-0d4d5eb2f246.png&sig=2u8YEYxkfBBfVNFE2qicuaNpJkyCf9J7tqMzhHZKHHE%3D",
+                            "categories": [
+                                "dalle"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-10T08:39:12.349054+00:00",
+                        "updated_at": "2024-03-12T06:31:39.597521+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_dJqyY4cAaTUC5sR6zNFmK79y~gzm_tool_minM3TAqmL1fUdon6Ib26Q3t",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_dJqyY4cAaTUC5sR6zNFmK79y~gzm_tool_ecueec62NDvH0KTOkLVFGW1p",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_dJqyY4cAaTUC5sR6zNFmK79y~gzm_tool_ETXEuNg3EY9oXZCnLbRNz26E",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_dJqyY4cAaTUC5sR6zNFmK79y~gzm_tool_OgCSlteGzLYX6ZS14OkVNwgr",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_dJqyY4cAaTUC5sR6zNFmK79y~gzm_tool_vBk8pXFf6dwzYCGN6Bs44Ult",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_dJqyY4cAaTUC5sR6zNFmK79y~gzm_tool_JdUKdSlreHb2JgtzFkVGRbge",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_dJqyY4cAaTUC5sR6zNFmK79y~gzm_tool_Dr6t3Ti4TES8pBPcrtGyYyww",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_dJqyY4cAaTUC5sR6zNFmK79y~gzm_tool_xyt6qRxbLxFApJbohnZxQcP8",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_dJqyY4cAaTUC5sR6zNFmK79y~gzm_tool_IXtb9yabilrIScdDXj8zpMtl",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/html",
+                                "text/x-tex",
+                                "text/javascript",
+                                "text/x-php",
+                                "text/x-script.python",
+                                "text/markdown",
+                                "application/msword",
+                                "text/plain",
+                                "text/x-sh",
+                                "application/json",
+                                "text/x-c++",
+                                "text/x-ruby",
+                                "text/x-c",
+                                "text/x-java",
+                                "application/x-latext",
+                                "application/pdf",
+                                "text/x-typescript",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-csharp",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/webp",
+                                "image/jpeg",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-tc0eHXdgb",
+                        "organization_id": "org-K3KRcn4uKf2VxukWHfOPRJKh",
+                        "short_url": "g-tc0eHXdgb-mj-prompt-generator-v6",
+                        "author": {
+                            "user_id": "user-d3RZJsMOIJWqdmGnIIPUh2pa",
+                            "display_name": "featuredgpts.com",
+                            "link_to": "https://featuredgpts.com",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "MJ Prompt Generator (V6)",
+                            "description": "Generate 5 detailed, creative, optimized prompts that are ready to create awesome images in Midjourney V6. Mention \"niji\" if you need ending with \"--niji 6\"",
+                            "prompt_starters": [
+                                "💡 Start outlining my desired artwork...",
+                                "Digital art of a futuristic cityscape at night.",
+                                "Portrait of a woman in 1920s fashion.",
+                                "Where clouds deepen unseen, Niji."
+                            ],
+                            "profile_pic_id": "file-KAtx8ne11BR9ODHC5MpovfD9",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-KAtx8ne11BR9ODHC5MpovfD9?se=2123-12-04T08%3A13%3A41Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202023-12-28%252015.51.23%2520-%2520A%2520simplistic%252C%2520minimalist%2520vector%2520illustration%2520of%2520a%2520sailboat%2520with%2520a%2520single%2520sail%252C%2520gliding%2520on%2520gentle%2520waves.%2520The%2520sailboat%2520is%2520centered%2520in%2520the%2520composition%252C%2520w.png&sig=MPdUjbGgaqnfLg54wu76plXClwFEw2q6lU6cfbd3Hv4%3D",
+                            "categories": [
+                                "dalle"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-12-28T07:42:35.235994+00:00",
+                        "updated_at": "2024-03-18T07:31:25.111382+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_XVQ274i3JHWzVVCfUpAc6cu9~gzm_tool_GCSarJneuNS14xjvn6SvH2Uz",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_VsH3vKCLmJULwlP7JwNoVibU~gzm_tool_iUe8epgdnw8Nvqve3stYwxQ5",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/html",
+                                "text/x-tex",
+                                "text/javascript",
+                                "text/x-php",
+                                "text/x-script.python",
+                                "text/markdown",
+                                "application/msword",
+                                "text/plain",
+                                "text/x-sh",
+                                "application/json",
+                                "text/x-c++",
+                                "text/x-ruby",
+                                "text/x-c",
+                                "text/x-java",
+                                "application/x-latext",
+                                "application/pdf",
+                                "text/x-typescript",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-csharp",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/webp",
+                                "image/jpeg",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-a9JivI0y2",
+                        "organization_id": "org-J8s7k6ldlWQgIPn5qCTGXGRg",
+                        "short_url": "g-a9JivI0y2-consistent-character-gpt-fast-high-quality",
+                        "author": {
+                            "user_id": "user-bpmApMbymAlBeGAkig32juCU",
+                            "display_name": "Sachin Kamath",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "_m76jWdapw",
+                                        "username": "Sachin Kamath↗️",
+                                        "display_name": "Sachin Kamath↗️",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/sachinkamathai"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Consistent Character GPT👉🏼 Fast & High Quality⚡️",
+                            "description": "Your creative partner for generating characters in different poses, expressions, and scenes. No prompt needed, just start with 'CLICK HERE' and follow the steps.",
+                            "prompt_starters": [
+                                "CLICK HERE to start creating character designs!"
+                            ],
+                            "profile_pic_id": "file-yUZ6QSWZ2ZNFL0kOmPkvBWiS",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-yUZ6QSWZ2ZNFL0kOmPkvBWiS?se=2124-02-01T23%3A41%3A15Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DFlawless%2520Consistent%2520Characters%2520GPT%2520by%2520AI%2520Lemon%2520Academy%2520%25285%2529.png&sig=GDc4pJsFdYUFyOlH7NC8KqYTMTpuJuNie12qqgX8c8g%3D",
+                            "categories": [
+                                "dalle"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-12T17:04:33.107384+00:00",
+                        "updated_at": "2024-03-01T06:42:44.587553+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_BFCJ7V5ngvZU8gbEiRIO5H59~gzm_tool_2SprtTQyCKXFSzrjNZWNFAOC",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_BFCJ7V5ngvZU8gbEiRIO5H59~gzm_tool_1OgNpOEMd3Zwdp3kyCeRjfEg",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_BFCJ7V5ngvZU8gbEiRIO5H59~gzm_file_F2ZgcC0b6F2KPfDh6fxNp0a4",
+                            "type": "image/png",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/html",
+                                "text/x-tex",
+                                "text/javascript",
+                                "text/x-php",
+                                "text/x-script.python",
+                                "text/markdown",
+                                "application/msword",
+                                "text/plain",
+                                "text/x-sh",
+                                "application/json",
+                                "text/x-c++",
+                                "text/x-ruby",
+                                "text/x-c",
+                                "text/x-java",
+                                "application/x-latext",
+                                "application/pdf",
+                                "text/x-typescript",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-csharp",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/webp",
+                                "image/jpeg",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-HGgCAcXxe",
+                        "organization_id": "org-qeLuvB6cWCDXl2P7P3w0oSNM",
+                        "short_url": "g-HGgCAcXxe-the-designer-s-mood-board",
+                        "author": {
+                            "user_id": "user-k2dy1vx3j8pgFq4v94UiQbRi",
+                            "display_name": "Brendan Donnelly",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "The Designer's Mood Board",
+                            "description": "Mood Board specialist for inspiring creativity",
+                            "prompt_starters": [
+                                "Create a mood board for a cozy cafe",
+                                "Design a mood board for a futuristic tech office",
+                                "Generate a mood board for a summer beach house",
+                                "Assemble a mood board for an urban loft"
+                            ],
+                            "profile_pic_id": "file-AKSh8I2Hd3ICxoB5xN9Xzz1e",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-AKSh8I2Hd3ICxoB5xN9Xzz1e?se=2123-12-18T08%3A35%3A25Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Ddesigners%2520moodboard%2520logo.jpg&sig=QejsS%2BeAn7Fu0fbEZNyIL7EMQty0bil0LrqG5jWwjus%3D",
+                            "categories": [
+                                "dalle"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-12T03:01:34.299389+00:00",
+                        "updated_at": "2024-03-18T20:32:02.828566+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_hjP2ndIK27sRADqCyILI5nFQ~gzm_tool_tv8LO9hk21WySG5YJoyDNElR",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_UrnN9iCqv0qJEuUD8akrx6Uz~gzm_tool_3d5gVuKW5j2KYOyonszTAaoB",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_giQxlq5BkYMkGndWn7uTuYKH~gzm_file_NbXVxg8wk73fHukIcOUQftyf",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_bajWXZqJMXVUomYKjWr4Kb4h~gzm_file_Wzxslqze5OdmzS71DBDc3qTM",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_asZOr1IHFw7NDV61e9hWP7CG~gzm_file_JTy6qJzRdHnzm8ZIhCAwAnAf",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_ofQ6EYn0eo8FpKuNVxObCs7D~gzm_file_ZT0XXQ7nr5vT3MwOLgjejEeE",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_idxp5ME4OcDWTAiUw5xZ86Wc~gzm_file_b3ouwR4DEU3UPoKNIssCc6b0",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_R6oSIZIA1yferWmSfOxX1cyR~gzm_file_urasyH68akVji0Aef2ZELwao",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_ofQ6EYn0eo8FpKuNVxObCs7D~gzm_file_VGvGLuN2puSCWuubz55wwJwl",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_idxp5ME4OcDWTAiUw5xZ86Wc~gzm_file_jnPbn0mmZBco9NlCEGRaZcvQ",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_idxp5ME4OcDWTAiUw5xZ86Wc~gzm_file_sgSzE5eIcILpNmUCpegtzzHb",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_idxp5ME4OcDWTAiUw5xZ86Wc~gzm_file_Q0UCnaMNJQjQHkfNZROeOZAG",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_ndq7bkNMXgtsxpSNrg4T5P3b~gzm_file_Z08zYz9pTraZrV1qq9xHSLcR",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_7NadusQxtd44e6P5uaHOZZLA~gzm_file_VBC9yP5M5IX8wnXSOnd5xubr",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_s36uPTiwyW0Ev9bVqROjE9Ji~gzm_file_GIEzl2pjKRLUiy1RYtlDfAqJ",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_zk2xR80HuB8ooxX7zChTKcYt~gzm_file_CvWP3R4wAor52kfW5nexynHo",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_HCN4d1HCHm8ceB4kJ8ohmIHC~gzm_file_7gMdHcVnZcCajpxZNMDGoksR",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_KuHT8i3A73PmynFLISYJj92r~gzm_file_2q5Sa0SLhmQHcbLMW5V6rGWg",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_mdEHQp0m8v9nMMfywljqkOdJ~gzm_file_AbMaXh8XXWNGkqcTnlEcYtMF",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_c5Rvt508deU5peDnVeeuocEM~gzm_file_SAFlEPeqYUppM3wQCtdu0Reb",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_U4sAfa40s4cJ0oSvRWZaQgCL~gzm_file_pE3KAg4rjxilMWe4H6LGpU5J",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_c5Rvt508deU5peDnVeeuocEM~gzm_file_d2oFaPzF6KV8ysbMXNpFmqEj",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/html",
+                                "text/x-tex",
+                                "text/javascript",
+                                "text/x-php",
+                                "text/x-script.python",
+                                "text/markdown",
+                                "application/msword",
+                                "text/plain",
+                                "text/x-sh",
+                                "application/json",
+                                "text/x-c++",
+                                "text/x-ruby",
+                                "text/x-c",
+                                "text/x-java",
+                                "application/x-latext",
+                                "application/pdf",
+                                "text/x-typescript",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-csharp",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/webp",
+                                "image/jpeg",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-7CKojumSX",
+                        "organization_id": "org-3o4hCIw3brgnd9bq3FFrdFjd",
+                        "short_url": "g-7CKojumSX-glibatree-art-designer",
+                        "author": {
+                            "user_id": "user-tFuhCf1rKDjhInqJPfFv1UeI",
+                            "display_name": "glibatree.com",
+                            "link_to": "https://glibatree.com",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Glibatree Art Designer",
+                            "description": "Art Generation Made Easy! This GPT will fill in details about your idea and make four images, each better than you imagined.",
+                            "prompt_starters": [
+                                "An aerial view of an eagle flying over a river.",
+                                "Macro photography of jewelry under colored lights.",
+                                "Generate images with an unusual blend of  two styles.",
+                                "Cute photos of invented magical creatures,  large eyes."
+                            ],
+                            "profile_pic_id": "file-2s8d93PGClqsJb4QuOGNXUxM",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-2s8d93PGClqsJb4QuOGNXUxM?se=2123-12-20T04%3A00%3A23Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DGlibatree2.png&sig=LS3Y7mkUb3stlknWeYTNXUNy/1Horhe%2BjuwYOZiApvI%3D",
+                            "categories": [
+                                "dalle"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-09T16:56:47.040443+00:00",
+                        "updated_at": "2024-03-12T20:03:15.704994+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_7SpUQkch9qAcrHBeBkGDncVx~gzm_tool_ZxRmbt6kfnDbTtN1dt2sXrRE",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/html",
+                                "text/x-tex",
+                                "text/javascript",
+                                "text/x-php",
+                                "text/x-script.python",
+                                "text/markdown",
+                                "application/msword",
+                                "text/plain",
+                                "text/x-sh",
+                                "application/json",
+                                "text/x-c++",
+                                "text/x-ruby",
+                                "text/x-c",
+                                "text/x-java",
+                                "application/x-latext",
+                                "application/pdf",
+                                "text/x-typescript",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-csharp",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/webp",
+                                "image/jpeg",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-vd364I1Zi",
+                        "organization_id": "org-OMJaKTtLVxqrqMp8YPK6sr26",
+                        "short_url": "g-vd364I1Zi-mid-journey-v6-prompt-creator",
+                        "author": {
+                            "user_id": "user-02Gbx2CPAJibnyWZJIuomGoT",
+                            "display_name": "jandthebots.com",
+                            "link_to": "https://jandthebots.com",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Mid Journey V6 Prompt Creator",
+                            "description": "Over 20 hours of training went into developing the BEST Midjourney V6 image prompt creator tool on the planet...",
+                            "prompt_starters": [
+                                "Help me create a Midjourney Prompt!"
+                            ],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-tjD7Jql9nC8FmJsK7yzY51Bv?se=2123-12-15T13%3A11%3A24Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dpeace.good.vibes.only_a_logo_for_a_AI_art_tool_with_a_logo_that_7cfb6158-a13b-46a9-9e41-c93087a1cb36.png&sig=Otz5YOeDB876CJy0VigLOfo7GCceUXWqnpGLi/fKUPM%3D",
+                            "categories": [
+                                "dalle"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-12-27T19:03:14.516144+00:00",
+                        "updated_at": "2024-01-28T20:17:09.931647+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_wB8MhrZ2T6gsOjpuleOWM5EB~gzm_tool_FltIlak0Rq5KGfUpo3SsULqM",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_3GzFStwWj5EELm6UBDos8ZfI~gzm_tool_MzHnj8v3M2B9G4hReCt2nggF",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_wB8MhrZ2T6gsOjpuleOWM5EB~gzm_tool_gDsj3Y8XHf1OIpOQO5MEbhuE",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_eizTp7oPi2K41r9GIleZHlnh~gzm_file_10yNCjbV7qjyyt4mTajGPU3h",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_TcRD46cjIuzjUEeLY1PrEy7S~gzm_file_Kt8cpTo4S895uu75bYqoBR1Q",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_8PcsqD4Le2KPZPhArIvnBYCG~gzm_file_BdhiwlUAERM0uxSb83mfSKeD",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/html",
+                                "text/x-tex",
+                                "text/javascript",
+                                "text/x-php",
+                                "text/x-script.python",
+                                "text/markdown",
+                                "application/msword",
+                                "text/plain",
+                                "text/x-sh",
+                                "application/json",
+                                "text/x-c++",
+                                "text/x-ruby",
+                                "text/x-c",
+                                "text/x-java",
+                                "application/x-latext",
+                                "application/pdf",
+                                "text/x-typescript",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-csharp",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/webp",
+                                "image/jpeg",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-R6VqLNHFM",
+                        "organization_id": "org-LFizWYCMMt6pjUXgiMAxBJtC",
+                        "short_url": "g-R6VqLNHFM-dall-image",
+                        "author": {
+                            "user_id": "user-Z9JrMzzMAJlIByGeRtUptmUN",
+                            "display_name": "pulsr.co.uk",
+                            "link_to": "https://pulsr.co.uk",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "uRC2-heAmK",
+                                        "username": "Leo Feasby",
+                                        "display_name": "Leo Feasby",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/leo-feasby-4b6006251"
+                                    }
+                                },
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "1752728225191456768",
+                                        "username": "@leo_pulsr",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/leo_pulsr"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "dall image",
+                            "description": "The world's most powerful DALL-E image generator.",
+                            "prompt_starters": [
+                                "Default mode 🖼️",
+                                "Logo mode 💡",
+                                "Art mode 🎨",
+                                "Asset Creation mode 🏗️"
+                            ],
+                            "profile_pic_id": "file-qCQRTAmvZz0Uxm1XIjFAgizE",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-qCQRTAmvZz0Uxm1XIjFAgizE?se=2124-01-02T12%3A40%3A09Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202024-01-17%252013.57.59%2520-%2520An%2520abstract%2520and%2520sophisticated%2520image%2520of%2520a%2520sentient%2520paintbrush%252C%2520designed%2520with%2520a%2520minimalist%2520yet%2520opulent%2520aesthetic.%2520The%2520paintbrush%2520is%2520depicted%2520with%2520flowin.png&sig=7gd1y3DylCI/6fvY/B1sBAljcecFui97vEcxfYfhgjI%3D",
+                            "categories": [
+                                "dalle"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-17T20:36:34.939196+00:00",
+                        "updated_at": "2024-03-22T14:17:10.681788+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_6KAimqkA7sNK9GrnXwun6pMz~gzm_tool_SA8pZmwOWugohGKJkn89yGqu",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_6KAimqkA7sNK9GrnXwun6pMz~gzm_tool_2yRHKkh0o4OT1EDuHSjpTWP2",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/html",
+                                "text/x-tex",
+                                "text/javascript",
+                                "text/x-php",
+                                "text/x-script.python",
+                                "text/markdown",
+                                "application/msword",
+                                "text/plain",
+                                "text/x-sh",
+                                "application/json",
+                                "text/x-c++",
+                                "text/x-ruby",
+                                "text/x-c",
+                                "text/x-java",
+                                "application/x-latext",
+                                "application/pdf",
+                                "text/x-typescript",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-csharp",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/webp",
+                                "image/jpeg",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-odvZ36Y1H",
+                        "organization_id": "org-kk6UgqMtgyeXJcS8vTNc5X4y",
+                        "short_url": "g-odvZ36Y1H-dall-3-ultra",
+                        "author": {
+                            "user_id": "user-mxWOzoWoJZw9CMnsrOn81Xra",
+                            "display_name": "ethangpts.com",
+                            "link_to": "https://ethangpts.com",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "IZlyQoJGOV",
+                                        "username": "Ethan Safar",
+                                        "display_name": "Ethan Safar",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/ethan-safar"
+                                    }
+                                },
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "3331756420",
+                                        "username": "@eth_4n_",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/eth_4n_"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "DALL·  3 Ultra",
+                            "description": "Advanced Dalle-3 engine for image creation. Generate 1 to 4 images using the command \"/number your-image-request\". Enter \"/guideme your-image-request\" to generate with guided prompt craft. v3.5",
+                            "prompt_starters": [
+                                "/1 Surrealist landscape for \"Our world is an illusion\".",
+                                "/2 Pixar style dog made of paper, walking on the moon.",
+                                "/3 Greek statue, pop art style.",
+                                "/guideme Egyptian sphinx set in a surreal landscape inspired by Salvador Dalí's style."
+                            ],
+                            "profile_pic_id": "file-tHLG4a6bfOFSf9Ny7Njo3scP",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-tHLG4a6bfOFSf9Ny7Njo3scP?se=2123-12-14T16%3A29%3A47Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Ddalle3_ultra.png&sig=lcelYRUZrZmm11lQ/rZaXHLSoJAzyE8DirzofskvKQc%3D",
+                            "categories": [
+                                "dalle"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-07T16:15:38.513308+00:00",
+                        "updated_at": "2024-03-22T16:37:10.643369+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_MY0EokDwFLx4DN6WAqiOnyDZ~gzm_tool_vX9Dtp1hnqzPP9NQgX6AxMNR",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_MY0EokDwFLx4DN6WAqiOnyDZ~gzm_tool_efDqw7tWrvO7L9I8utmvHoLw",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_UqbS3eUqVd12IWiJ6GWYcAL7~gzm_file_M5nkEWcNW5qlRoyo2bLMha8H",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_UqbS3eUqVd12IWiJ6GWYcAL7~gzm_file_nGF8fyfBzCF6Jvy6CDdD6AZn",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_UqbS3eUqVd12IWiJ6GWYcAL7~gzm_file_Db8S0QOiJn5y6ePitIhsgBuQ",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_hspoafGE26h1uTDIioFfjN0M~gzm_file_vpTbfcuBAOUUTk0e49h1RkfB",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_jABycXV3GQs3wkRnX4sRdeIA~gzm_file_OcYNrCd6vOnsZLoQ41E4WuZ6",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/html",
+                                "text/x-tex",
+                                "text/javascript",
+                                "text/x-php",
+                                "text/x-script.python",
+                                "text/markdown",
+                                "application/msword",
+                                "text/plain",
+                                "text/x-sh",
+                                "application/json",
+                                "text/x-c++",
+                                "text/x-ruby",
+                                "text/x-c",
+                                "text/x-java",
+                                "application/x-latext",
+                                "application/pdf",
+                                "text/x-typescript",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-csharp",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/webp",
+                                "image/jpeg",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-QaIyMs9SM",
+                        "organization_id": "org-KTP7bLbOpTDyJ6BZCiSNtkUe",
+                        "short_url": "g-QaIyMs9SM-logo-generator",
+                        "author": {
+                            "user_id": "user-6VU9rT4peNvRFa0CfMdtZvBN",
+                            "display_name": "mehmetali.co",
+                            "link_to": "https://mehmetali.co",
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": false,
+                            "display_socials": [
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "3129607158",
+                                        "username": "@mehmetalidev",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/mehmetalidev"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Logo Generator",
+                            "description": "Your Ai Logo Creator",
+                            "prompt_starters": [
+                                "Let's create your new logo!",
+                                "Can you describe your brand in a few words?",
+                                "What style of logo are you envisioning?",
+                                "Let's get creative!"
+                            ],
+                            "profile_pic_id": "file-FPPlpwuEVaI5kbHy5AMNtJW3",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-FPPlpwuEVaI5kbHy5AMNtJW3?se=2123-12-18T08%3A13%3A33Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3D_29abb3e8-d278-491d-bc82-6edbecb3314a.jpeg&sig=nffflFAjo7KXFXjfC42woZOcQJ2iiCBlVwGtXEB0pTQ%3D",
+                            "categories": [
+                                "dalle"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-09T07:18:11.445584+00:00",
+                        "updated_at": "2024-02-14T17:50:16.684099+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_UaHcae1wFACHNxZJQ9U3vb5n~gzm_tool_hS5NLpfGStWOln3Jqo1MZ9Tp",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/html",
+                                "text/x-tex",
+                                "text/javascript",
+                                "text/x-php",
+                                "text/x-script.python",
+                                "text/markdown",
+                                "application/msword",
+                                "text/plain",
+                                "text/x-sh",
+                                "application/json",
+                                "text/x-c++",
+                                "text/x-ruby",
+                                "text/x-c",
+                                "text/x-java",
+                                "application/x-latext",
+                                "application/pdf",
+                                "text/x-typescript",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-csharp",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/webp",
+                                "image/jpeg",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            }
+        ],
+        "cursor": null
+    }
+}
