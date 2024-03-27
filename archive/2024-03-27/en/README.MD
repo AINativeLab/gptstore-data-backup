@@ -1,31 +1,7 @@
-# GPT Store data backup
-
-This project daily scrapes and archives data from the official GPT Store. If you have other data requirements, please open an issue.
-
-If you are interested in viewing and downloading the top 500 GPTs daily, please check out our another project: [AINativeLab/top-500-best-gpts](https://github.com/AINativeLab/top-500-best-gpts).
-
-<p align="center">
-★ Powered by <a target="_blank" href="https://www.gptshunter.com/?utm_source=gptstore-data-backup">GPTsHunter.com</a> ★
-</p>
-
-<p align="center">
-  <a target="_blank" href="https://gptshunter.com/?utm_source=gptstore-data-backup">
-    <img alt="GPTsHunter" src="https://gptshunter.com/full-logo.svg" width="300">
-  </a>
-</p>
-
-## Latest
-
-[2024-03-27.en.md](/archive/2024-03-27/en)
-
-[2024-03-27.global.md](/archive/2024-03-27/global)
-
-## Global GPT Leaderboard for 2024-03-27
+# 2024-03-27
 
 
-
-
-### Featured
+## Featured
 
 Curated top picks from this week
 
@@ -363,10 +339,10 @@ No.14 / 25K+ / ★ 3.9 (1223 Reviews)
 No.15 / 10K+ / ★ 3.3 (671 Reviews)
         
 
-[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Photo Realistic" src="https://files.oaiusercontent.com/file-COYK9gqdpJrpaxOW6mXgVQm8?se=2123-12-19T16%3A57%3A52Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3D7342afe2-d54c-4826-8c1b-2742c8b0e3fe.png&sig=DS9OwNMVpakyUiYLggKUvy%2B1mTPaHSrBaGrY2Zn4Das%3D"/>](https://chat.openai.com/g/g-jAXSkQEmH-photo-realistic)
+[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Image Recreate | img2img" src="https://files.oaiusercontent.com/file-e2UFb7EnHmsRycgWhku56ktN?se=2124-02-19T20%3A17%3A24Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202023-11-16%252016.09.25%2520-%2520A%2520minimalistic%2520and%2520innovative%2520circle%2520logo%2520for%2520startups%252C%2520featuring%2520the%2520text%2520%2527img2img%2527%2520centered%2520within.%2520The%2520logo%2520should%2520be%2520white%2520on%2520a%2520black%2520background%252C%2520%2520%25281%2529.png&sig=gISS81NrlwW9G3O%2BUoNEVnPRY3pkkWQlNsipOW6lEYo%3D"/>](https://chat.openai.com/g/g-SIE5101qP-image-recreate-img2img)
 
-[**Photo Realistic**](https://chat.openai.com/g/g-jAXSkQEmH-photo-realistic) \
-No.16 / 10K+ / ★ 3.7 (455 Reviews)
+[**Image Recreate | img2img**](https://chat.openai.com/g/g-SIE5101qP-image-recreate-img2img) \
+No.16 / 200K+ / ★ 3.5 (1107 Reviews)
         
 
 ## Writing
@@ -428,46 +404,46 @@ No.8 / 100K+ / ★ 4.1 (2473 Reviews)
 No.9 / 50K+ / ★ 4.0 (1669 Reviews)
         
 
-[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Translate GPT" src="https://files.oaiusercontent.com/file-MkvwaZFerLLTL6z32mCcQQS3?se=2123-11-25T07%3A54%3A36Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dtranslate.png&sig=JjxKqWuX9jxdMPmWgL3koCb9ATS%2BeUKHJY1LCYWfn8M%3D"/>](https://chat.openai.com/g/g-5bNPpaVZy-translate-gpt)
-
-[**Translate GPT**](https://chat.openai.com/g/g-5bNPpaVZy-translate-gpt) \
-No.10 / 50K+ / ★ 4.3 (1251 Reviews)
-        
-
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Fully SEO Optimized Article including FAQ's" src="https://files.oaiusercontent.com/file-9FJw9NckvXfmBgxuhJQBTok7?se=2123-10-26T10%3A42%3A46Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D4f1cb97d-65f2-4da2-9f15-7ccaed91260d.png&sig=%2BGRlPVIKfj/KCzzuBEdkwnVyDVK8w/gRaVscTrY9xOk%3D"/>](https://chat.openai.com/g/g-ySbhcRtru-fully-seo-optimized-article-including-faq-s)
 
 [**Fully SEO Optimized Article including FAQ's**](https://chat.openai.com/g/g-ySbhcRtru-fully-seo-optimized-article-including-faq-s) \
-No.11 / 100K+ / ★ 4.2 (1681 Reviews)
+No.10 / 100K+ / ★ 4.2 (1681 Reviews)
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Blog Expert" src="https://files.oaiusercontent.com/file-1Eh7A79o1yuLdC6OrA20Xd9g?se=2123-10-16T06%3A36%3A51Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D4f7c6083-6745-4890-840e-67624e07705e.png&sig=rYRNzKfuG38RTpp5wxY6j1iyLiPYQK0yGIBp8jrabZw%3D"/>](https://chat.openai.com/g/g-PWizFQk8C-blog-expert)
 
 [**Blog Expert**](https://chat.openai.com/g/g-PWizFQk8C-blog-expert) \
-No.12 / 50K+ / ★ 4.3 (1817 Reviews)
+No.11 / 50K+ / ★ 4.3 (1817 Reviews)
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Humanize AI" src="https://files.oaiusercontent.com/file-G2dq0SJV4pOuJSWG4bM9v2XJ?se=2124-01-23T14%3A23%3A39Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DLogo%25208%2520%25282%2529.png&sig=2VfeOhvG3iM7/kTDVsS7A0qQWpOqKL51uazTStkcyKE%3D"/>](https://chat.openai.com/g/g-a6Fpz8NRb-humanize-ai)
 
 [**Humanize AI**](https://chat.openai.com/g/g-a6Fpz8NRb-humanize-ai) \
-No.13 / 25K+ / ★ 3.9 (866 Reviews)
+No.12 / 25K+ / ★ 3.9 (866 Reviews)
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Cover Letter" src="https://files.oaiusercontent.com/file-9itEgFrCozgJhvGbQEvHrwZ7?se=2123-12-31T05%3A42%3A42Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dcover-letter%2520%25281%2529.png&sig=w6OG6GZdSoWyvLE32Oa9ryLS51nq7opSw8FsdcaiEYE%3D"/>](https://chat.openai.com/g/g-tb2UpZTEH-cover-letter)
 
 [**Cover Letter**](https://chat.openai.com/g/g-tb2UpZTEH-cover-letter) \
-No.14 / 50K+ / ★ 4.1 (1055 Reviews)
-        
-
-[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Logo" src="https://files.oaiusercontent.com/file-ux4vxGkrQo8L8xERHiFP5loj?se=2124-02-28T14%3A26%3A47Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3D26e8d6dd-0dd0-4250-86f6-7f4d7f430c3a.png&sig=6yi%2BMOCKg9PbjBju26BDUkJwlFs5YL10oQXVyMIoFfI%3D"/>](https://chat.openai.com/g/g-M37VtMJXL-logo)
-
-[**Logo**](https://chat.openai.com/g/g-M37VtMJXL-logo) \
-No.15 / 10K+ / ★ 3.4 (155 Reviews)
+No.13 / 50K+ / ★ 4.1 (1055 Reviews)
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="CV Writer - the CV Expert" src="https://files.oaiusercontent.com/file-wURhV2AxBD0U1qhfYS5bib3u?se=2123-12-30T03%3A18%3A01Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DCapture.JPG&sig=eZDt481rjBb3BFu45yneHiVmwEA979bgAsJoaaaSPjI%3D"/>](https://chat.openai.com/g/g-cStsvQbjd-cv-writer-the-cv-expert)
 
 [**CV Writer - the CV Expert**](https://chat.openai.com/g/g-cStsvQbjd-cv-writer-the-cv-expert) \
-No.16 / 25K+ / ★ 4.1 (1110 Reviews)
+No.14 / 25K+ / ★ 4.1 (1110 Reviews)
+        
+
+[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Video GPT" src="null"/>](https://chat.openai.com/g/g-MJM52gB3D-video-gpt)
+
+[**Video GPT**](https://chat.openai.com/g/g-MJM52gB3D-video-gpt) \
+No.15 / 25K+ / ★ 3.7 (248 Reviews)
+        
+
+[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Viral Linkedin Post Formatter" src="https://files.oaiusercontent.com/file-5W8GPaTN5NP9jCFXNtgEtglA?se=2123-12-14T23%3A21%3A57Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DScreenshot%25202024-01-07%2520at%25205.15.47%2520PM.png&sig=YjPzJoBOA6H7DIGnZApDhY/uh/pSd7mL5a87fAhpiyw%3D"/>](https://chat.openai.com/g/g-hYB5bT7ZL-viral-linkedin-post-formatter)
+
+[**Viral Linkedin Post Formatter**](https://chat.openai.com/g/g-hYB5bT7ZL-viral-linkedin-post-formatter) \
+No.16 / 25K+ / ★ 4.0 (547 Reviews)
         
 
 ## Productivity
@@ -529,46 +505,46 @@ No.8 / 50K+ / ★ 4.0 (4236 Reviews)
 No.9 / 300K+ / ★ 3.5 (4531 Reviews)
         
 
-[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Browser Pro" src="https://files.oaiusercontent.com/file-HKO0TEnSmvIb1M9G1HUyuAZJ?se=2123-12-27T11%3A10%3A22Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DFrame%2520616.png&sig=fJSm%2BvONY8TkDO8IopKdwun%2BWeW2Wo9hti5JG%2Bb5Bj4%3D"/>](https://chat.openai.com/g/g-BlafpMvzd-browser-pro)
-
-[**Browser Pro**](https://chat.openai.com/g/g-BlafpMvzd-browser-pro) \
-No.10 / 100K+ / ★ 4.1 (3632 Reviews)
-        
-
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Resume" src="https://files.oaiusercontent.com/file-0tpK8Pe8mMuE8HB8KKPcyoRn?se=2123-12-21T20%3A47%3A14Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DScreenshot%25202024-01-14%2520at%252012.33.34%25E2%2580%25AFPM.png&sig=xiF%2Bmn%2B4uHhqgzWNSOA8F0aMnaxWguZ%2BsMb%2Bj1NYwFc%3D"/>](https://chat.openai.com/g/g-MrgKnTZbc-resume)
 
 [**Resume**](https://chat.openai.com/g/g-MrgKnTZbc-resume) \
-No.11 / 100K+ / ★ 4.4 (5345 Reviews)
+No.10 / 100K+ / ★ 4.4 (5345 Reviews)
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Presentation Slides" src="https://files.oaiusercontent.com/file-PZ4AAfjYZgcOkUaaSfzI0QX8?se=2124-02-19T02%3A46%3A14Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202024-03-13%252022.45.57%2520-%2520Create%2520an%2520icon%2520of%2520a%2520presentation%2520board%2520with%2520a%2520pie%2520chart%252C%2520similar%2520to%2520the%2520uploaded%2520reference%2520image.%2520The%2520icon%2520should%2520be%2520simplistic%2520and%2520feature%2520clean%2520line.webp&sig=qRnri72rX%2Bb3UibANZiFT1GShp9Z4avI9zvZgoaedSI%3D"/>](https://chat.openai.com/g/g-0gFt7qej4-presentation-slides)
 
 [**Presentation Slides**](https://chat.openai.com/g/g-0gFt7qej4-presentation-slides) \
-No.12 / 50K+ / ★ 3.8 (1742 Reviews)
+No.11 / 50K+ / ★ 3.8 (1742 Reviews)
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="DIAGRAM ⚡PRO⚡" src="https://files.oaiusercontent.com/file-6vjTWRi5ieMjY0R471ODlg8y?se=2124-02-18T19%3A06%3A56Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dvar6.jpg&sig=RFeTQKCqFVqsIuGE5gNzQcNUbc0nR2eIyr9larGvOXU%3D"/>](https://chat.openai.com/g/g-jBdvgesNC-diagram-pro)
 
 [**DIAGRAM ⚡PRO⚡**](https://chat.openai.com/g/g-jBdvgesNC-diagram-pro) \
-No.13 / 50K+ / ★ 3.7 (977 Reviews)
+No.12 / 50K+ / ★ 3.7 (977 Reviews)
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="ElevenLabs Text To Speech" src="https://files.oaiusercontent.com/file-MByVNy6xBmXHsvjpmnaRz517?se=2124-01-20T03%3A30%3A53Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Deleven-lines-hq.png&sig=/dvmbBstijgnsWKd%2Bcrk6/EWT4dLQELZ0QarnswWXJg%3D"/>](https://chat.openai.com/g/g-h0lbLuFF1-elevenlabs-text-to-speech)
 
 [**ElevenLabs Text To Speech**](https://chat.openai.com/g/g-h0lbLuFF1-elevenlabs-text-to-speech) \
-No.14 / 100K+ / ★ 4.1 (4924 Reviews)
+No.13 / 100K+ / ★ 4.1 (4924 Reviews)
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="NEO - Ultimate AI" src="https://files.oaiusercontent.com/file-T9MGBx5EuTAM4DOiwMDxZFvC?se=2123-12-22T07%3A09%3A21Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D7e9e4a7b-b49e-4811-8fcb-f51ea9663fda.webp&sig=RwXAvAqmFKGz3LgWjMEEFol2y%2BJI7NETZFcw42e1UVU%3D"/>](https://chat.openai.com/g/g-jCYeXl5xh-neo-ultimate-ai)
 
 [**NEO - Ultimate AI**](https://chat.openai.com/g/g-jCYeXl5xh-neo-ultimate-ai) \
-No.15 / 300K+ / ★ 4.3 (1334 Reviews)
+No.14 / 300K+ / ★ 4.3 (1334 Reviews)
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Slide Creator" src="https://files.oaiusercontent.com/file-vOacU173nGHAMRppZBLv5A3M?se=2124-02-25T08%3A20%3A34Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dnoun-powerpoint-presentation-6187353-FFFFFF%25201.png&sig=nObHV%2BKhZ6tx4b0PbgqRVb5zsMFhPfV3AnKop6Y9DNQ%3D"/>](https://chat.openai.com/g/g-cJtHaGnyo-slide-creator)
 
 [**Slide Creator**](https://chat.openai.com/g/g-cJtHaGnyo-slide-creator) \
-No.16 / 100K+ / ★ 3.9 (2864 Reviews)
+No.15 / 100K+ / ★ 3.9 (2864 Reviews)
+        
+
+[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Prompt Engineering" src="https://files.oaiusercontent.com/file-PBE5CB6IhrF2fUIpdzctgttz?se=2123-11-13T22%3A49%3A54Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3D6e5f5cb3-a7c5-48f5-9a35-c9f7738c205f.png&sig=evXCGWo8j5E7zf1owiJWiTzsN1tpjwWrbtYjofk%2BlsY%3D"/>](https://chat.openai.com/g/g-bNiLAvz8R-prompt-engineering)
+
+[**Prompt Engineering**](https://chat.openai.com/g/g-bNiLAvz8R-prompt-engineering) \
+No.16 / 25K+ / ★ 4.2 (904 Reviews)
         
 
 ## Research & Analysis
@@ -648,28 +624,28 @@ No.11 / 50K+ / ★ 4.0 (1881 Reviews)
 No.12 / 25K+ / ★ 3.6 (951 Reviews)
         
 
-[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="一YouTube Summarizer 一" src="https://files.oaiusercontent.com/file-CiTT1UqB60WDRULvrdBKwhYL?se=2124-02-02T01%3A09%3A06Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dimage.png&sig=kRwY5nDxo4IpsDNT1TVOLeXp9fFn4A4a1873MN%2B3QKE%3D"/>](https://chat.openai.com/g/g-4MDJvo2TJ-yi-youtube-summarizer-yi)
-
-[**一YouTube Summarizer 一**](https://chat.openai.com/g/g-4MDJvo2TJ-yi-youtube-summarizer-yi) \
-No.13 / 100K+ / ★ 3.9 (1002 Reviews)
-        
-
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Business Consultant" src="https://files.oaiusercontent.com/file-ueTknXbT9fTTgEJTKIoaIZfH?se=2123-10-21T03%3A17%3A09Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dee50ef4c-b1cc-466f-a3ba-4e12126421cc.png&sig=MqmGJFP96BtiB324p/RiKQFHJGEfG5G66TS19n10JZ0%3D"/>](https://chat.openai.com/g/g-r20wcaSFn-business-consultant)
 
 [**Business Consultant**](https://chat.openai.com/g/g-r20wcaSFn-business-consultant) \
-No.14 / 25K+ / ★ 4.3 (891 Reviews)
+No.13 / 25K+ / ★ 4.3 (891 Reviews)
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="PDF Keymate.AI Search" src="https://files.oaiusercontent.com/file-6XfNfOxaKnIX5U9WLR2GqkWg?se=2123-10-14T17%3A25%3A15Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3DTransparentFavicon%2520-%2520Copy%2520%2528Custom%2529.png&sig=JE1A3o58i8M6/SOhRg01SraCEqqg4aXnL4bHujtOga8%3D"/>](https://chat.openai.com/g/g-veSrMmasJ-pdf-keymate-ai-search)
 
 [**PDF Keymate.AI Search**](https://chat.openai.com/g/g-veSrMmasJ-pdf-keymate-ai-search) \
-No.15 / 50K+ / ★ 4.1 (960 Reviews)
+No.14 / 50K+ / ★ 4.1 (960 Reviews)
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Video Insights: Summaries/Vision/Transcription" src="https://files.oaiusercontent.com/file-XDTgDvDuiiu20qCqfBLSpQAm?se=2123-10-21T16%3A21%3A09Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3DVIDEO%2520INSIGHTS%2520%252821%2529.png&sig=8hxApFwhN4G89zQfxONQ9I%2BhGsqJWGuwaJyRA7k3qDE%3D"/>](https://chat.openai.com/g/g-HXZv0dg8w-video-insights-summaries-vision-transcription)
 
 [**Video Insights: Summaries/Vision/Transcription**](https://chat.openai.com/g/g-HXZv0dg8w-video-insights-summaries-vision-transcription) \
-No.16 / 50K+ / ★ 4.2 (657 Reviews)
+No.15 / 50K+ / ★ 4.2 (657 Reviews)
+        
+
+[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Stock Robo 🤖  AI Stock Analyst" src="https://files.oaiusercontent.com/file-xeia14QOjSUgEAyEtAtxTWNr?se=2123-12-03T07%3A40%3A36Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Drobo12.png&sig=UmUKTMw1hTKpz5D5IXs3SGm%2BhrQmewYEcXHCv%2BUbdXc%3D"/>](https://chat.openai.com/g/g-FvojGs7rD-stock-robo-ai-stock-analyst)
+
+[**Stock Robo 🤖  AI Stock Analyst**](https://chat.openai.com/g/g-FvojGs7rD-stock-robo-ai-stock-analyst) \
+No.16 / 50K+ / ★ 3.6 (591 Reviews)
         
 
 ## Programming
@@ -784,94 +760,94 @@ Explore new ideas, revisit existing skills
 No.1 / 100K+ / ★ 4.2 (5198 Reviews)
         
 
-[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="YouTube∑✏️" src="https://files.oaiusercontent.com/file-j03XK1qFCdQDjwVvA2NZfIlm?se=2123-12-30T21%3A04%3A16Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DVideo%2520Summarizer%2520logo%2520new.png&sig=sT081KZq91h24uibPRNkqLtdRWODjLGJmx6UGpwge7A%3D"/>](https://chat.openai.com/g/g-GvcYCKPIH-youtube)
-
-[**YouTube∑✏️**](https://chat.openai.com/g/g-GvcYCKPIH-youtube) \
-No.2 / 100K+ / ★ 4.5 (3530 Reviews)
-        
-
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Tutor Me" src="https://files.oaiusercontent.com/file-kM163oDkrVnm7jsidA5WweOP?se=2123-11-18T17%3A08%3A03Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DKA_KhanmigoGPT_1_LearnerActivities.png&sig=zSZKBHM7UsdkEyM2CmiYpkdhVAJZWk0qJQle9lPEhdw%3D"/>](https://chat.openai.com/g/g-hRCqiqVlM-tutor-me)
 
 [**Tutor Me**](https://chat.openai.com/g/g-hRCqiqVlM-tutor-me) \
-No.3 / 200K+ / ★ 4.4 (6711 Reviews)
+No.2 / 200K+ / ★ 4.4 (6711 Reviews)
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Universal Primer" src="https://files.oaiusercontent.com/file-thqJUpDWcYAMxgKhiwNYZFj0?se=2123-10-17T10%3A02%3A59Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D1fb91f30-1519-4f62-81f7-e141fa19f099.png&sig=UljckMV40AarnEvasy2Z2yiDGjVV1UFD/e0dtZkyETI%3D"/>](https://chat.openai.com/g/g-GbLbctpPz-universal-primer)
 
 [**Universal Primer**](https://chat.openai.com/g/g-GbLbctpPz-universal-primer) \
-No.4 / 200K+ / ★ 4.5 (4073 Reviews)
+No.3 / 200K+ / ★ 4.5 (4073 Reviews)
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Math Solver" src="https://files.oaiusercontent.com/file-tSZCMmjyqOBMHOnHPUxKQH8t?se=2123-10-21T09%3A02%3A36Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D7e1dfc13-782c-4d41-843f-6908894cf8d7.png&sig=8FWfLPP5oiPa515w7A4jjhjs9qYqy2kgAdjmTWuHCuI%3D"/>](https://chat.openai.com/g/g-9YeZz6m6k-math-solver)
 
 [**Math Solver**](https://chat.openai.com/g/g-9YeZz6m6k-math-solver) \
-No.5 / 200K+ / ★ 4.1 (2975 Reviews)
+No.4 / 200K+ / ★ 4.1 (2975 Reviews)
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Voxscript" src="https://files.oaiusercontent.com/file-ccghiJe5RWLLuLXhKPl3XugL?se=2123-10-19T06%3A52%3A32Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3DVoxScript_logo_256x256.png&sig=gRuPppNbvJt3M3CMsjE8HiXRLm254zQxMCt5RRq%2BN3k%3D"/>](https://chat.openai.com/g/g-g24EzkDta-voxscript)
 
 [**Voxscript**](https://chat.openai.com/g/g-g24EzkDta-voxscript) \
-No.6 / 100K+ / ★ 4.3 (2234 Reviews)
-        
-
-[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="チャットGPT" src="https://files.oaiusercontent.com/file-kmM4eFFNZIYsZyoSRDGJiBXD?se=2123-12-03T10%3A13%3A08Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dbanner-gpt-jp-e1695105162857.png&sig=tYtZMFXvra3EY1aE0X2oNe8WxypfBFmdgJAjlHsQ%2BMg%3D"/>](https://chat.openai.com/g/g-8sPlJ64Gn-tiyatutogpt)
-
-[**チャットGPT**](https://chat.openai.com/g/g-8sPlJ64Gn-tiyatutogpt) \
-No.7 / 50K+ / ★ 4.0 (1332 Reviews)
+No.5 / 100K+ / ★ 4.3 (2234 Reviews)
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="physics" src="https://files.oaiusercontent.com/file-y63yTOkdpenBzpCZ95QJEhTp?se=2124-02-06T18%3A03%3A23Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Deye23.png&sig=ehZ7Q4w%2BJqv7IZth1KKdvYusT3XRG2IQJe/if2G1AgU%3D"/>](https://chat.openai.com/g/g-WP1diWHRl-physics)
 
 [**physics**](https://chat.openai.com/g/g-WP1diWHRl-physics) \
-No.8 / 50K+ / ★ 4.2 (1934 Reviews)
+No.6 / 50K+ / ★ 4.2 (1934 Reviews)
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Data Analytics" src="https://files.oaiusercontent.com/file-He8aE3rg7ee66ASSS0HJFTVQ?se=2123-10-19T23%3A24%3A15Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D47823d3d-4745-4773-a232-5569024ce68b.png&sig=CS2otWO2RpLlVeyvilTv%2BGXj2yBu7fjHIEyLaDxY6yY%3D"/>](https://chat.openai.com/g/g-ntyRhBUID-data-analytics)
 
 [**Data Analytics**](https://chat.openai.com/g/g-ntyRhBUID-data-analytics) \
-No.9 / 25K+ / ★ 4.0 (1052 Reviews)
+No.7 / 25K+ / ★ 4.0 (1052 Reviews)
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Language Teacher | Ms. Smith" src="https://files.oaiusercontent.com/file-p7wjkbf2I2Am2p4jIy9OWKMP?se=2123-12-17T23%3A22%3A26Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DGroup%2520%2520%25285%2529.png&sig=EPMdiVmI4O717n8occd3AP4NPdhenDdypWYYLNcRf4c%3D"/>](https://chat.openai.com/g/g-RR3RCyK8N-language-teacher-ms-smith)
 
 [**Language Teacher | Ms. Smith**](https://chat.openai.com/g/g-RR3RCyK8N-language-teacher-ms-smith) \
-No.10 / 50K+ / ★ 4.3 (1218 Reviews)
+No.8 / 50K+ / ★ 4.3 (1218 Reviews)
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Prompt Professor" src="https://files.oaiusercontent.com/file-MsXTgHdeT8NqXvoz3yFp1DsA?se=2123-10-16T03%3A42%3A03Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D76811343-01fe-4316-b18f-12ed04c3af99.png&sig=OOcasgdAq%2BCscJ7raZMCDdYCZb00lsUNcOl%2BnNzEAY8%3D"/>](https://chat.openai.com/g/g-qfoOICq1l-prompt-professor)
 
 [**Prompt Professor**](https://chat.openai.com/g/g-qfoOICq1l-prompt-professor) \
-No.11 / 50K+ / ★ 4.3 (742 Reviews)
-        
-
-[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="챗GPT" src="https://files.oaiusercontent.com/file-yOO0xA22YQbkjlS6bbbOEoLq?se=2123-12-03T08%3A51%3A10Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DGPTOnline%2520-%2520AI%2520Chatbot%2520%25281%2529.png&sig=5tDDTiSbcEHQ/kQYN1K1VcEbQX%2BoJuuWrfmVJlXtoi0%3D"/>](https://chat.openai.com/g/g-FvT4UOsoA-caesgpt)
-
-[**챗GPT**](https://chat.openai.com/g/g-FvT4UOsoA-caesgpt) \
-No.12 / 50K+ / ★ 4.2 (1112 Reviews)
+No.9 / 50K+ / ★ 4.3 (742 Reviews)
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Machine Learning" src="https://files.oaiusercontent.com/file-79w3XiRGkbTiECoVNmkLzcKV?se=2123-10-24T07%3A23%3A14Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Da706c100-ff7e-48d7-8483-35754c66f8cd.png&sig=3aiA9n2Euf1Ri4dVkc2GF3GHBOqDb/oHQ9XHK0OyKys%3D"/>](https://chat.openai.com/g/g-TfiZbdLM0-machine-learning)
 
 [**Machine Learning**](https://chat.openai.com/g/g-TfiZbdLM0-machine-learning) \
-No.13 / 25K+ / ★ 4.2 (865 Reviews)
+No.10 / 25K+ / ★ 4.2 (865 Reviews)
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Code Tutor" src="https://files.oaiusercontent.com/file-wT9OjtSlKWSliHQlnvDPbLnB?se=2123-11-06T22%3A36%3A37Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dkhanmigolite.png&sig=N18iwfrxqf8q664WbG5zlsN/EONc5asA9ODNrsUv1bs%3D"/>](https://chat.openai.com/g/g-HxPrv1p8v-code-tutor)
 
 [**Code Tutor**](https://chat.openai.com/g/g-HxPrv1p8v-code-tutor) \
-No.14 / 100K+ / ★ 4.4 (1276 Reviews)
+No.11 / 100K+ / ★ 4.4 (1276 Reviews)
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Mr. Ranedeer" src="https://files.oaiusercontent.com/file-X9LAlo8N3fj2hfnxqm3JJwoc?se=2123-10-16T20%3A42%3A58Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202023-11-04%252000.39.52%2520-%2520Digital%2520sticker%2520design%2520of%2520a%2520chibi%2520reindeer%2520in%2520a%2520simplistic%2520style%252C%2520gripping%2520a%2520graphite%2520pencil%2520with%2520a%2520pink%2520eraser.%2520The%2520reindeer%2527s%2520glasses%2520give%2520it%2520a%2520stud.png&sig=G1xWfBMbjTegInXdu4jL%2BuGH038OrwnuG9c18KBnYUQ%3D"/>](https://chat.openai.com/g/g-9PKhaweyb-mr-ranedeer)
 
 [**Mr. Ranedeer**](https://chat.openai.com/g/g-9PKhaweyb-mr-ranedeer) \
-No.15 / 50K+ / ★ 4.5 (1079 Reviews)
+No.12 / 50K+ / ★ 4.5 (1079 Reviews)
         
 
 [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Matlab Tutor" src="https://files.oaiusercontent.com/file-Un2nkBa0KAm5nr4Eu5RXpOhQ?se=2123-10-28T09%3A29%3A32Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D34fdd443-1cb9-4fae-8fcf-efdc54c0f29c.png&sig=h9V4dS2ABnrAweIY9lSbbLAZjTBgYExlVWKzEjV6kXg%3D"/>](https://chat.openai.com/g/g-GDLcaFXil-matlab-tutor)
 
 [**Matlab Tutor**](https://chat.openai.com/g/g-GDLcaFXil-matlab-tutor) \
-No.16 / 10K+ / ★ 4.3 (556 Reviews)
+No.13 / 10K+ / ★ 4.3 (556 Reviews)
+        
+
+[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Interview" src="https://files.oaiusercontent.com/file-t9skKTxgQNp5wkfSechitTel?se=2123-12-29T21%3A37%3A40Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Davatar4.png&sig=rEZ81lrT1YIQt9Ew0KCIaPzAecGaM71xOWaPq7lMI/s%3D"/>](https://chat.openai.com/g/g-OhCVT2jDy-interview)
+
+[**Interview**](https://chat.openai.com/g/g-OhCVT2jDy-interview) \
+No.14 / 25K+ / ★ 4.1 (428 Reviews)
+        
+
+[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Crypto" src="https://files.oaiusercontent.com/file-aHbdoyxH91vY3CspJgZEXcmM?se=2124-02-15T15%3A53%3A04Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dc.png&sig=EGsP2YMhGnA%2B4h2rc2DdMHqWHBwaZkkWKDm85aGHBKk%3D"/>](https://chat.openai.com/g/g-ddgmCu3At-crypto)
+
+[**Crypto**](https://chat.openai.com/g/g-ddgmCu3At-crypto) \
+No.15 / 10K+ / ★ 4.0 (188 Reviews)
+        
+
+[<img align="left" height="48px" width="48px" style="border-radius:50%" alt="DnD GPT" src="https://files.oaiusercontent.com/file-idIi41BZpmq0xgPEgmcTsFpB?se=2123-10-17T11%3A34%3A47Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D6fda6282-4d9c-4160-839d-e4eccd798289.png&sig=zXjZn3B0WBn//8hCYuTPE3W17Zie2a/ALCFD7PkRf7k%3D"/>](https://chat.openai.com/g/g-EdqvwCQkF-dnd-gpt)
+
+[**DnD GPT**](https://chat.openai.com/g/g-EdqvwCQkF-dnd-gpt) \
+No.16 / 10K+ / ★ 4.5 (464 Reviews)
         
 
 ## Lifestyle
@@ -974,5 +950,3 @@ No.15 / 100K+ / ★ 4.5 (557 Reviews)
 [**Home Style Advisor**](https://chat.openai.com/g/g-JUPludygA-home-style-advisor) \
 No.16 / 25K+ / ★ 3.8 (369 Reviews)
         
-
-      

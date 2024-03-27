@@ -1,0 +1,2660 @@
+{
+    "info": {
+        "id": "productivity",
+        "title": "Productivity",
+        "description": "Increase your efficiency",
+        "display_type": "ranked",
+        "display_group": "Productivity",
+        "locale": "en"
+    },
+    "list": {
+        "items": [
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-h8l4uLHFQ",
+                        "organization_id": "org-EjquXjWT0E066HTE6gv2ti9g",
+                        "short_url": "g-h8l4uLHFQ-video-maker-invideo-ai",
+                        "author": {
+                            "user_id": "user-M64bxYAIRX4KL5kKyb60nPiu",
+                            "display_name": "invideo AI",
+                            "link_to": "https://invideo.io",
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Video Maker - invideo AI",
+                            "description": "Idea to Video. Generate videos effortlessly with this VideoMaker Video GPT!",
+                            "prompt_starters": [
+                                "Let's create a youtube shorts video!",
+                                "Let's create a marketing video.",
+                                "Let's create an explainer video.",
+                                "Let's start by creating a script..."
+                            ],
+                            "profile_pic_id": "file-Y5VfZYtGbbkXhPTzqGn8mhGW",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-Y5VfZYtGbbkXhPTzqGn8mhGW?se=2123-12-24T13%3A42%3A16Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DVideoMaker-blue%25402x.png&sig=m4ZiA/1bZnp56z2D3IlEnQkwD3NlK2E333ss%2B%2B7Y16w%3D",
+                            "categories": [
+                                "productivity"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-24T12:04:19.281443+00:00",
+                        "updated_at": "2024-03-22T06:48:07.615177+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_JD8oIaaKyyWXpNxBsZLemFY9~gzm_tool_aGmW2p74Z4rv0uCAcY0ofkfP",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-db63cf70ad23146a8e8b70f5cde60651e6b3d88f",
+                                "domain": "video-ai.invideo.io",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.1",
+                                    "info": {
+                                        "title": "invideo AI",
+                                        "description": "Plugin for crafting narrated videos from text prompts and scripts.",
+                                        "version": "v1"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://video-ai.invideo.io"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/api/copilot/request/chatgpt-new-from-brief": {
+                                            "post": {
+                                                "operationId": "generateVideoFromBrief",
+                                                "summary": "Generate video from a detailed brief.",
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/VideoFromBriefInput"
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "OK",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/VideoResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/copilot/request/chatgpt-new-from-script": {
+                                            "post": {
+                                                "operationId": "generateVideoFromScript",
+                                                "summary": "Generate video from a script.",
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/VideoFromScriptInput"
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "OK",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/VideoResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "VideoFromBriefInput": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "brief": {
+                                                        "type": "string",
+                                                        "description": "Plain english text starting with \"Create a video\" or \"Create a [platform] video\""
+                                                    },
+                                                    "settings": {
+                                                        "type": "string",
+                                                        "description": "Plain english text covering instructions such as gender and accent of the voiceover, tone of the background music. Can be left empty."
+                                                    },
+                                                    "title": {
+                                                        "type": "string"
+                                                    },
+                                                    "description": {
+                                                        "type": "string"
+                                                    },
+                                                    "platforms": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string"
+                                                        },
+                                                        "description": "suggest three platforms this video would be ideal for"
+                                                    },
+                                                    "audiences": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string"
+                                                        },
+                                                        "description": "suggest three audiences this video would be ideal for"
+                                                    },
+                                                    "length_in_minutes": {
+                                                        "type": "float",
+                                                        "description": "suggest the length of the video in minutes"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "title",
+                                                    "description",
+                                                    "platforms",
+                                                    "audiences",
+                                                    "length_in_minutes",
+                                                    "brief",
+                                                    "settings"
+                                                ]
+                                            },
+                                            "VideoFromScriptInput": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "script": {
+                                                        "type": "string",
+                                                        "description": "plain english text that is the script of the video"
+                                                    },
+                                                    "settings": {
+                                                        "type": "string",
+                                                        "description": "Plain english text covering instructions such as gender and accent of the voiceover, tone of the background music. Can be left empty."
+                                                    },
+                                                    "title": {
+                                                        "type": "string"
+                                                    },
+                                                    "description": {
+                                                        "type": "string"
+                                                    },
+                                                    "platforms": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string"
+                                                        },
+                                                        "description": "suggest three platforms this video would be ideal for"
+                                                    },
+                                                    "audiences": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string"
+                                                        },
+                                                        "description": "suggest three audiences this video would be ideal for"
+                                                    },
+                                                    "length_in_minutes": {
+                                                        "type": "float",
+                                                        "description": "suggest the length of the video in minutes"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "title",
+                                                    "description",
+                                                    "platforms",
+                                                    "audiences",
+                                                    "length_in_minutes",
+                                                    "script",
+                                                    "settings"
+                                                ]
+                                            },
+                                            "VideoResponse": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "video_url": {
+                                                        "type": "string"
+                                                    },
+                                                    "thumbnail_url": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "none"
+                                },
+                                "privacy_policy_url": "https://pro-api.invideo.io/legal.html"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_FrmpO8n3sI67b9ONLixutJTV~gzm_tool_fx08woct4a7jiweI5hhMzbNx",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_wHmuSawSGzImZTMQmqnQSMr5~gzm_tool_YxxnimmBHrrg3oZQFsnuHcEM",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_FrmpO8n3sI67b9ONLixutJTV~gzm_tool_JuJ6DG5KORNTa1i2UsdZolyc",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-c++",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/plain",
+                                "text/x-csharp",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "text/x-c",
+                                "text/x-sh",
+                                "text/markdown",
+                                "application/pdf",
+                                "application/x-latext",
+                                "application/json",
+                                "text/x-tex",
+                                "text/x-php",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-java",
+                                "text/x-typescript",
+                                "application/msword",
+                                "text/html",
+                                "text/x-script.python"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-8m2CPAfeF",
+                        "organization_id": "org-LFizWYCMMt6pjUXgiMAxBJtC",
+                        "short_url": "g-8m2CPAfeF-excel-gpt",
+                        "author": {
+                            "user_id": "user-Z9JrMzzMAJlIByGeRtUptmUN",
+                            "display_name": "pulsr.co.uk",
+                            "link_to": "https://pulsr.co.uk",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "uRC2-heAmK",
+                                        "username": "Leo Feasby",
+                                        "display_name": "Leo Feasby",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/leo-feasby-4b6006251"
+                                    }
+                                },
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "1752728225191456768",
+                                        "username": "@leo_pulsr",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/leo_pulsr"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Excel GPT",
+                            "description": "The worlds most powerful Excel assistant. V2.0",
+                            "prompt_starters": [
+                                "Data Analysis mode",
+                                "Reorganise data mode",
+                                "Function Writing mode",
+                                "Upload data below"
+                            ],
+                            "profile_pic_id": "file-9hWFxEet5Ddsg7Kszsy9Mf6Q",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-9hWFxEet5Ddsg7Kszsy9Mf6Q?se=2124-02-19T12%3A24%3A26Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dnew%2520excel2.png&sig=pnJ7M/bTAFI7fv/SNVzCdo1LLcHJ7oKT/EbKXrm1OL0%3D",
+                            "categories": [
+                                "productivity"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-02-11T21:47:19.884058+00:00",
+                        "updated_at": "2024-03-24T21:31:05.993312+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_lStu7a4CyRcXuy78SA87uFbx~gzm_tool_gmwUTl44qqTXHcb4sqSSdDto",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_I7ScVqq8OCVm7cPsdw1CYeP2~gzm_tool_YxbMHICA5WJJOS1FK86uYt47",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_lStu7a4CyRcXuy78SA87uFbx~gzm_tool_Zldj6QRtSORxl814Jrl2ED2x",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-c++",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/plain",
+                                "text/x-csharp",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "text/x-c",
+                                "text/x-sh",
+                                "text/markdown",
+                                "application/pdf",
+                                "application/x-latext",
+                                "application/json",
+                                "text/x-tex",
+                                "text/x-php",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-java",
+                                "text/x-typescript",
+                                "application/msword",
+                                "text/html",
+                                "text/x-script.python"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-Vklr0BddT",
+                        "organization_id": "org-SYqj9TQFQ88iTqHixWNBlu2l",
+                        "short_url": "g-Vklr0BddT-slide-maker",
+                        "author": {
+                            "user_id": "user-t0D9RBPCtvLGuZUnv2qKGobB",
+                            "display_name": "aidocmaker.com",
+                            "link_to": "https://aidocmaker.com",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Slide Maker",
+                            "description": "Prompt to create PowerPoint presentations. Supports creating 20+ slide presentations. Can read links to web pages, Google Drive, OneDrive, and more to fetch content.",
+                            "prompt_starters": [
+                                "Legal presentation on current AI regulations in EU.",
+                                "Board presentation for AI digital marketing strategy.",
+                                "Sales presentation for NVIDIA H100 GPU chips.",
+                                "Investment presentation on NVIDIA from 2010-2020."
+                            ],
+                            "profile_pic_id": "file-7wucSlKrcCoipKRoTaxydYsv",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-7wucSlKrcCoipKRoTaxydYsv?se=2123-10-18T01%3A57%3A11Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dlogo.png&sig=b8skgReALrhw4frzasMMf/5yY148%2B5pjmi9YtngLHkA%3D",
+                            "categories": [
+                                "productivity"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-11T01:55:08.362247+00:00",
+                        "updated_at": "2024-03-22T23:10:44.301854+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_4KzwimyyyZnAmRqOYVVaPLGN~gzm_tool_eu1WtycyowOZEyEhFviIOMA3",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-dfa00bf14df84b010f212805610476d75ed770b8",
+                                "domain": "gpt.slides.aidocmaker.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "components": {
+                                        "schemas": {
+                                            "CreateDocumentIndirectlyWithGptRequest": {
+                                                "properties": {
+                                                    "background_info": {
+                                                        "default": "",
+                                                        "description": "Important background information that will be used as context by a GPT-3.5 model to create the document. Should contain all context information needed to generate document, including specific details and relevant technical information.",
+                                                        "title": "Background Info",
+                                                        "type": "string"
+                                                    },
+                                                    "content": {
+                                                        "title": "Content",
+                                                        "type": "string"
+                                                    },
+                                                    "language": {
+                                                        "default": "ENGLISH",
+                                                        "description": "The target human language for the generated document.",
+                                                        "title": "Language",
+                                                        "type": "string"
+                                                    },
+                                                    "page_count": {
+                                                        "description": "The number of document pages (or number of presentation slides) to generate.",
+                                                        "title": "Page Count",
+                                                        "type": "integer"
+                                                    },
+                                                    "prompt": {
+                                                        "description": "Instructions that will be used by a GPT-3.5 model to create the document. The instructions should be detailed and contain important information.",
+                                                        "title": "Prompt",
+                                                        "type": "string"
+                                                    },
+                                                    "title": {
+                                                        "title": "Title",
+                                                        "type": "string"
+                                                    },
+                                                    "url": {
+                                                        "default": "",
+                                                        "description": "[OPTIONAL] URL to import data for document creation, such as web link, Google Drive / OneDrive link or aidocmaker.com link.",
+                                                        "title": "Url",
+                                                        "type": "string"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "prompt",
+                                                    "page_count"
+                                                ],
+                                                "title": "CreateDocumentIndirectlyWithGptRequest",
+                                                "type": "object"
+                                            },
+                                            "HTTPValidationError": {
+                                                "properties": {
+                                                    "detail": {
+                                                        "items": {
+                                                            "$ref": "#/components/schemas/ValidationError"
+                                                        },
+                                                        "title": "Detail",
+                                                        "type": "array"
+                                                    }
+                                                },
+                                                "title": "HTTPValidationError",
+                                                "type": "object"
+                                            },
+                                            "ReadDocV2Request": {
+                                                "properties": {
+                                                    "f1_http_url": {
+                                                        "description": "User will pass a HTTPS or HTTP url to a file so that the file contents can be read.",
+                                                        "title": "F1 Http Url",
+                                                        "type": "string"
+                                                    },
+                                                    "f2_query": {
+                                                        "default": "",
+                                                        "description": "User will pass a query string to fetch relevant sections from the contents. It will be used for sentence-level similarity search on the document based on embeddings.",
+                                                        "title": "F2 Query",
+                                                        "type": "string"
+                                                    },
+                                                    "f3_selected_pages": {
+                                                        "default": [],
+                                                        "description": "Filter document on these page numbers. Use empty list to get all pages.",
+                                                        "items": {
+                                                            "type": "integer"
+                                                        },
+                                                        "title": "F3 Selected Pages",
+                                                        "type": "array"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "f1_http_url"
+                                                ],
+                                                "title": "ReadDocV2Request",
+                                                "type": "object"
+                                            },
+                                            "ValidationError": {
+                                                "properties": {
+                                                    "loc": {
+                                                        "items": {
+                                                            "anyOf": [
+                                                                {
+                                                                    "type": "string"
+                                                                },
+                                                                {
+                                                                    "type": "integer"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "title": "Location",
+                                                        "type": "array"
+                                                    },
+                                                    "msg": {
+                                                        "title": "Message",
+                                                        "type": "string"
+                                                    },
+                                                    "type": {
+                                                        "title": "Error Type",
+                                                        "type": "string"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "loc",
+                                                    "msg",
+                                                    "type"
+                                                ],
+                                                "title": "ValidationError",
+                                                "type": "object"
+                                            }
+                                        }
+                                    },
+                                    "info": {
+                                        "description": "A GPT that allows the user to create a presentation.",
+                                        "title": "Slide Maker GPT",
+                                        "version": "v1"
+                                    },
+                                    "openapi": "3.1.0",
+                                    "paths": {
+                                        "/create_pptx_indirectly_with_gpt": {
+                                            "post": {
+                                                "description": "Create a presentation indirectly by prompting a GPT model specialized for generating long presentations",
+                                                "operationId": "create_pptx_indirectly_with_gpt",
+                                                "requestBody": {
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/CreateDocumentIndirectlyWithGptRequest"
+                                                            }
+                                                        }
+                                                    },
+                                                    "required": true
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {}
+                                                            }
+                                                        },
+                                                        "description": "Successful Response"
+                                                    },
+                                                    "422": {
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                                                }
+                                                            }
+                                                        },
+                                                        "description": "Validation Error"
+                                                    }
+                                                },
+                                                "summary": "Create a presentation indirectly by prompting a GPT model specialized for generating long presentations"
+                                            }
+                                        },
+                                        "/read_url": {
+                                            "post": {
+                                                "description": "Allows for reading the contents of an URL link, including PDF/DOC/DOCX/PPT/CSV/XLS/XLSX/HTML content, Google Drive, Dropbox, OneDrive, aidocmaker.com docs. Always wrap image URLs from the response field `z1_image_urls` in Markdown, where each image has a ## DESCRIPTION.",
+                                                "operationId": "read_url",
+                                                "requestBody": {
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/ReadDocV2Request"
+                                                            }
+                                                        }
+                                                    },
+                                                    "required": true
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {}
+                                                            }
+                                                        },
+                                                        "description": "Successful Response"
+                                                    },
+                                                    "422": {
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                                                }
+                                                            }
+                                                        },
+                                                        "description": "Validation Error"
+                                                    }
+                                                },
+                                                "summary": "Read the contents of an URL link"
+                                            }
+                                        }
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://gpt.slides.aidocmaker.com"
+                                        }
+                                    ]
+                                },
+                                "auth": {
+                                    "type": "none"
+                                },
+                                "privacy_policy_url": "https://www.aidocmaker.com/privacy-policy"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_no05oO7UnTZzz5E9f19jLSYr~gzm_tool_WwAMq8m2N7ibfrpZoBTdkrbx",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-c++",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/plain",
+                                "text/x-csharp",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "text/x-c",
+                                "text/x-sh",
+                                "text/markdown",
+                                "application/pdf",
+                                "application/x-latext",
+                                "application/json",
+                                "text/x-tex",
+                                "text/x-php",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-java",
+                                "text/x-typescript",
+                                "application/msword",
+                                "text/html",
+                                "text/x-script.python"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-MrgKnTZbc",
+                        "organization_id": "org-lgpfb8y4pwLxgsMJQVpVtWvc",
+                        "short_url": "g-MrgKnTZbc-resume",
+                        "author": {
+                            "user_id": "user-P0ihRV0AwwvEfbwIvIHOrN8M",
+                            "display_name": "jobright.ai",
+                            "link_to": "https://jobright.ai",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Resume",
+                            "description": "By combining the expertise of top resume writers with advanced AI, we assist in diagnosing and enhancing your resume | ATS Compatible | Tailor Your Resume for a Specific Job | We value your experience, please contact support@jobright.ai if you need support❤️!",
+                            "prompt_starters": [
+                                "Can you help me analyze my resume?",
+                                "Can you help me tailor my resume with this job?",
+                                "Find jobs that fit with my background?",
+                                "How to make my resume ATS compatible? "
+                            ],
+                            "profile_pic_id": "file-0tpK8Pe8mMuE8HB8KKPcyoRn",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-0tpK8Pe8mMuE8HB8KKPcyoRn?se=2123-12-21T20%3A47%3A14Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DScreenshot%25202024-01-14%2520at%252012.33.34%25E2%2580%25AFPM.png&sig=xiF%2Bmn%2B4uHhqgzWNSOA8F0aMnaxWguZ%2BsMb%2Bj1NYwFc%3D",
+                            "categories": [
+                                "productivity"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-14T05:48:30.102508+00:00",
+                        "updated_at": "2024-03-09T06:47:19.394895+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_5SlRIhyoxt6ROBpwsweQPCdM~gzm_tool_Uvbq0hKN2t4ieU7prCuFju0F",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-658ef1b58f5cace5a786bdf29ca3645995d342dc",
+                                "domain": "swan-api.jobright.ai",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.1.0",
+                                    "info": {
+                                        "title": "Job Search and Query Parsing API",
+                                        "description": "APIs for parsing search queries and searching jobs",
+                                        "version": "v1.0.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://swan-api.jobright.ai"
+                                        }
+                                    ],
+                                    "components": {
+                                        "schemas": {
+                                            "FilterCondition": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "jobTitle": {
+                                                        "type": "string"
+                                                    },
+                                                    "jobTypes": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "integer"
+                                                        }
+                                                    },
+                                                    "city": {
+                                                        "type": "string",
+                                                        "nullable": true
+                                                    },
+                                                    "seniority": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "integer"
+                                                        }
+                                                    },
+                                                    "companyCategory": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "annualSalaryMinimum": {
+                                                        "type": "integer",
+                                                        "nullable": true
+                                                    },
+                                                    "isH1BOnly": {
+                                                        "type": "boolean"
+                                                    },
+                                                    "roleType": {
+                                                        "type": "string",
+                                                        "nullable": true
+                                                    },
+                                                    "skills": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string"
+                                                        },
+                                                        "nullable": true
+                                                    },
+                                                    "companyStages": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string"
+                                                        },
+                                                        "nullable": true
+                                                    },
+                                                    "workModel": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "integer"
+                                                        }
+                                                    },
+                                                    "radiusRange": {
+                                                        "type": "number",
+                                                        "format": "float"
+                                                    },
+                                                    "daysAgo": {
+                                                        "type": "integer",
+                                                        "description": "default to 3, represents jobs within 3 day (72 hours)",
+                                                        "nullable": true
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "paths": {
+                                        "/swan/gpts/oneline/parse": {
+                                            "post": {
+                                                "description": "Parse user's search preference",
+                                                "operationId": "ParseSearchPreference",
+                                                "x-openai-isConsequential": false,
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "oneLineInput": {
+                                                                        "type": "string",
+                                                                        "description": "One sentence input from user to describe the job search preference"
+                                                                    },
+                                                                    "visitId": {
+                                                                        "type": "string",
+                                                                        "description": "An ID to identify user's identity, can hardcode to 4096 for now"
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful response",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "success": {
+                                                                            "type": "boolean",
+                                                                            "description": "Indicates if the request was successful"
+                                                                        },
+                                                                        "errorCode": {
+                                                                            "type": "integer",
+                                                                            "description": "Error code, 10000 for success"
+                                                                        },
+                                                                        "errorMsg": {
+                                                                            "type": "string",
+                                                                            "description": "Error message if applicable"
+                                                                        },
+                                                                        "result": {
+                                                                            "type": "object",
+                                                                            "description": "Filter conditions returned by the server",
+                                                                            "properties": {
+                                                                                "filterResult": {
+                                                                                    "$ref": "#/components/schemas/FilterCondition"
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/swan/gpts/job/search": {
+                                            "post": {
+                                                "description": "Search for jobs based on various filters",
+                                                "operationId": "JobSearch",
+                                                "x-openai-isConsequential": false,
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "startPos": {
+                                                                        "type": "integer",
+                                                                        "description": "The starting position for the search results. This parameter could be for simple pagination, for example, if user has seen 20 jobs, you can set startPos to 20 for next batch of jobs."
+                                                                    },
+                                                                    "sortCondition": {
+                                                                        "type": "string",
+                                                                        "description": "The condition used for sorting the search results. RELEVANCE is the default value which means sort by relevance, FRESHNESS is sorting by fresheness so that fresh jobs will go first."
+                                                                    },
+                                                                    "filterCondition": {
+                                                                        "$ref": "#/components/schemas/FilterCondition"
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful job search response",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "results": {
+                                                                            "type": "array",
+                                                                            "description": "array of jobs",
+                                                                            "items": {
+                                                                                "type": "object",
+                                                                                "properties": {
+                                                                                    "jobResult": {
+                                                                                        "type": "object",
+                                                                                        "properties": {
+                                                                                            "jobId": {
+                                                                                                "type": "string"
+                                                                                            },
+                                                                                            "jobTitle": {
+                                                                                                "type": "string"
+                                                                                            },
+                                                                                            "jobSeniority": {
+                                                                                                "type": "string"
+                                                                                            },
+                                                                                            "jobLocation": {
+                                                                                                "type": "string"
+                                                                                            },
+                                                                                            "isRemote": {
+                                                                                                "type": "boolean"
+                                                                                            },
+                                                                                            "workModel": {
+                                                                                                "type": "string"
+                                                                                            },
+                                                                                            "publishTime": {
+                                                                                                "type": "string"
+                                                                                            },
+                                                                                            "publishTimeDesc": {
+                                                                                                "type": "string"
+                                                                                            },
+                                                                                            "salaryDesc": {
+                                                                                                "type": "string"
+                                                                                            },
+                                                                                            "employmentType": {
+                                                                                                "type": "string"
+                                                                                            },
+                                                                                            "jobSummary": {
+                                                                                                "type": "string"
+                                                                                            },
+                                                                                            "requirements": {
+                                                                                                "type": "array",
+                                                                                                "description": "List of requirements or qualifications of the job",
+                                                                                                "items": {
+                                                                                                    "type": "string"
+                                                                                                }
+                                                                                            },
+                                                                                            "url": {
+                                                                                                "type": "string"
+                                                                                            },
+                                                                                            "applyLink": {
+                                                                                                "type": "string"
+                                                                                            },
+                                                                                            "h1BStatus": {
+                                                                                                "type": "string",
+                                                                                                "description": "Either Past Sponsorship or Explicit mentioned"
+                                                                                            }
+                                                                                        }
+                                                                                    },
+                                                                                    "companyResult": {
+                                                                                        "type": "object",
+                                                                                        "properties": {
+                                                                                            "companyName": {
+                                                                                                "type": "string"
+                                                                                            },
+                                                                                            "companySize": {
+                                                                                                "type": "string"
+                                                                                            },
+                                                                                            "companyDesc": {
+                                                                                                "type": "string"
+                                                                                            },
+                                                                                            "companyCategories": {
+                                                                                                "type": "string"
+                                                                                            },
+                                                                                            "companyURL": {
+                                                                                                "type": "string"
+                                                                                            },
+                                                                                            "fundraisingCurrentStage": {
+                                                                                                "type": "string"
+                                                                                            },
+                                                                                            "fundraisingTotalFunding": {
+                                                                                                "type": "string"
+                                                                                            },
+                                                                                            "grating": {
+                                                                                                "type": "object",
+                                                                                                "description": "glassdoor rating"
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "service_http",
+                                    "instructions": "",
+                                    "authorization_type": "bearer",
+                                    "verification_tokens": {},
+                                    "custom_auth_header": ""
+                                },
+                                "privacy_policy_url": "https://jobright.ai/legal/privacy"
+                            }
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-c++",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/plain",
+                                "text/x-csharp",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "text/x-c",
+                                "text/x-sh",
+                                "text/markdown",
+                                "application/pdf",
+                                "application/x-latext",
+                                "application/json",
+                                "text/x-tex",
+                                "text/x-php",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-java",
+                                "text/x-typescript",
+                                "application/msword",
+                                "text/html",
+                                "text/x-script.python"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-0gFt7qej4",
+                        "organization_id": "org-EMOKHTaWBdRXJCptB9ScL6bQ",
+                        "short_url": "g-0gFt7qej4-presentation-slides",
+                        "author": {
+                            "user_id": "user-Axl3HnY1uTtlXzadazVeXgnN",
+                            "display_name": "gptmakerspace.com",
+                            "link_to": "https://gptmakerspace.com",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Presentation Slides",
+                            "description": "Crafts Detailed and Effective Presentations",
+                            "prompt_starters": [
+                                "Can you help me create a presentation on renewable energy?",
+                                "How can I make my startup pitch deck more engaging?",
+                                "I need to prepare a presentation on market analysis. Can you assist?",
+                                "What are the key elements of an effective sales presentation?"
+                            ],
+                            "profile_pic_id": "file-PZ4AAfjYZgcOkUaaSfzI0QX8",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-PZ4AAfjYZgcOkUaaSfzI0QX8?se=2124-02-19T02%3A46%3A14Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202024-03-13%252022.45.57%2520-%2520Create%2520an%2520icon%2520of%2520a%2520presentation%2520board%2520with%2520a%2520pie%2520chart%252C%2520similar%2520to%2520the%2520uploaded%2520reference%2520image.%2520The%2520icon%2520should%2520be%2520simplistic%2520and%2520feature%2520clean%2520line.webp&sig=qRnri72rX%2Bb3UibANZiFT1GShp9Z4avI9zvZgoaedSI%3D",
+                            "categories": [
+                                "productivity"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-09T03:31:55.207705+00:00",
+                        "updated_at": "2024-03-15T06:57:33.860422+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_rS5woHZo55ArRSIVazDlhhkt~gzm_tool_oYw6L3zg2rXjYpzVskw7E9j2",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_rS5woHZo55ArRSIVazDlhhkt~gzm_tool_RQ03Z9Feb4VibyixDdubUrJM",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-c++",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/plain",
+                                "text/x-csharp",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "text/x-c",
+                                "text/x-sh",
+                                "text/markdown",
+                                "application/pdf",
+                                "application/x-latext",
+                                "application/json",
+                                "text/x-tex",
+                                "text/x-php",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-java",
+                                "text/x-typescript",
+                                "application/msword",
+                                "text/html",
+                                "text/x-script.python"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-jBdvgesNC",
+                        "organization_id": "org-Q1sNHSCUqwEjWNY5mF5CsQO5",
+                        "short_url": "g-jBdvgesNC-diagram-pro",
+                        "author": {
+                            "user_id": "user-G4p1yJeaaveeVcqU3SOAhKEe",
+                            "display_name": "pyxl.ai",
+                            "link_to": "https://pyxl.ai",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "r8en7iBpwD",
+                                        "username": "Maxim Dubovitsky",
+                                        "display_name": "Maxim Dubovitsky",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/maxim-dubovitsky"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "DIAGRAM ⚡PRO⚡",
+                            "description": "Mindmaps, Databases, Flowcharts, Charts, ERD, UML + ⚡Drag-N-Drop⚡ Edit. For:Databases, UX, behavior, analysis, write, presentations, website, sitemaps",
+                            "prompt_starters": [
+                                "Help me visualize",
+                                "Create a Procrastination Flowchart",
+                                "Create a funny Mindmap of what to do instead of work",
+                                "SHOW DEMO - all diagrams you can create"
+                            ],
+                            "profile_pic_id": "file-6vjTWRi5ieMjY0R471ODlg8y",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-6vjTWRi5ieMjY0R471ODlg8y?se=2124-02-18T19%3A06%3A56Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dvar6.jpg&sig=RFeTQKCqFVqsIuGE5gNzQcNUbc0nR2eIyr9larGvOXU%3D",
+                            "categories": [
+                                "productivity"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-10T23:20:32.477425+00:00",
+                        "updated_at": "2024-03-26T08:16:12.226835+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "Xr7Xa3BlxZWxVVuRFkhuMOD7",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-31333dd04d68da4a37d176d1dd72f4e5d7439de4",
+                                "domain": "www.blocksandarrows.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.1.0",
+                                    "info": {
+                                        "title": "GPT Companion",
+                                        "version": "1.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://www.blocksandarrows.com",
+                                            "description": "Development server"
+                                        }
+                                    ],
+                                    "components": {
+                                        "schemas": {},
+                                        "parameters": {}
+                                    },
+                                    "paths": {
+                                        "/api/gpt/getGuides": {
+                                            "post": {
+                                                "summary": "Endpoint to get guides to create diagram",
+                                                "x-openai-isConsequential": false,
+                                                "operationId": "post_GetGuides",
+                                                "requestBody": {
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "type": {
+                                                                        "type": "string",
+                                                                        "enum": [
+                                                                            "graph",
+                                                                            "class",
+                                                                            "sequence",
+                                                                            "mindmap",
+                                                                            "timeline",
+                                                                            "entity-relationship",
+                                                                            "pie-chart",
+                                                                            "database"
+                                                                        ],
+                                                                        "description": "Type of the diagram",
+                                                                        "example": "graph"
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "type"
+                                                                ]
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Guides for creating this type of diagrams",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "guide": {
+                                                                            "type": "string"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "guide"
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/gpt/renderDiagram": {
+                                            "post": {
+                                                "summary": "",
+                                                "x-openai-isConsequential": false,
+                                                "operationId": "post_RenderDiagram",
+                                                "requestBody": {
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "type": {
+                                                                        "type": "string",
+                                                                        "enum": [
+                                                                            "graph",
+                                                                            "class",
+                                                                            "sequence",
+                                                                            "mindmap",
+                                                                            "timeline",
+                                                                            "entity-relationship",
+                                                                            "pie-chart",
+                                                                            "database"
+                                                                        ],
+                                                                        "description": "Type of the diagram",
+                                                                        "example": "graph"
+                                                                    },
+                                                                    "diagramString": {
+                                                                        "type": "string",
+                                                                        "description": "The string for the chart rendering"
+                                                                    },
+                                                                    "documentName": {
+                                                                        "type": "string",
+                                                                        "description": "The name of the document in which the diagram will be placed"
+                                                                    },
+                                                                    "diagramTags": {
+                                                                        "type": "string",
+                                                                        "description": "For your diagram, include a total of 10 tags, written with commas in between. The first tag should be the primary one, characterizing the overall purpose of the diagram, such as #SMS for a social media marketing diagram or #Database for a database structure. The subsequent tags should provide additional details about the content, tools, focus, and key elements of the diagram, enhancing its searchability and identification.",
+                                                                        "example": "#Database, #DataModeling, #ERDiagram, #SQL, #Normalization, #DataStructure, #SchemaDesign, #RelationalDB, #DataIntegrity, #QueryOptimization"
+                                                                    },
+                                                                    "isContainsPrivateInfo": {
+                                                                        "type": "boolean",
+                                                                        "description": "If you notice the user input includes personal details such as their full name, email address, phone number, home address, company name, or any other identifiable information, then set this flag to true."
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "type",
+                                                                    "diagramString",
+                                                                    "documentName",
+                                                                    "diagramTags",
+                                                                    "isContainsPrivateInfo"
+                                                                ]
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Diagram successfully rendered",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "answer": {
+                                                                            "type": "string",
+                                                                            "description": "Answer with image and url to edit. You should not change the response text, only insert data such as descriptions"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "answer"
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "422": {
+                                                        "description": "Error while rendering the diagram",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "errorMessage": {
+                                                                            "type": "string"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "errorMessage"
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/gpt/getExamplesForUser": {
+                                            "post": {
+                                                "summary": "An endpoint to show the user which charts we can build.",
+                                                "x-openai-isConsequential": false,
+                                                "operationId": "post_GetExamplesForUser",
+                                                "requestBody": {
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {}
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "An answer with examples of diagrams that you should provide",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "answer": {
+                                                                            "type": "string"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "answer"
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "webhooks": {}
+                                },
+                                "auth": {
+                                    "type": "none"
+                                },
+                                "privacy_policy_url": "https://www.blocksandarrows.com/policy"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_um88Pr7yOBvv78tSpexsvqac~gzm_tool_pPNbhnm8niIJgq0UV6TJfB3j",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_um88Pr7yOBvv78tSpexsvqac~gzm_tool_nhLGwBn3StTgQd28UxeRB7Qn",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-c++",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/plain",
+                                "text/x-csharp",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "text/x-c",
+                                "text/x-sh",
+                                "text/markdown",
+                                "application/pdf",
+                                "application/x-latext",
+                                "application/json",
+                                "text/x-tex",
+                                "text/x-php",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-java",
+                                "text/x-typescript",
+                                "application/msword",
+                                "text/html",
+                                "text/x-script.python"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-h0lbLuFF1",
+                        "organization_id": "org-PvZudCqY7OUQRspPdn5AJ1LO",
+                        "short_url": "g-h0lbLuFF1-elevenlabs-text-to-speech",
+                        "author": {
+                            "user_id": "user-0yGtioCdwkMr7HYgsDYHDSPt",
+                            "display_name": "Ammaar Reshi",
+                            "link_to": "https://elevenlabs.io",
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "25667970",
+                                        "username": "@ammaar",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/ammaar"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "ElevenLabs Text To Speech",
+                            "description": "Convert text into lifelike speech with ElevenLabs (limited to 1,500 characters)",
+                            "prompt_starters": [
+                                "Paste or type content you would like to convert to speech",
+                                "Generate a short story for me and then convert it into audiobook! (2 paragraphs)"
+                            ],
+                            "profile_pic_id": "file-MByVNy6xBmXHsvjpmnaRz517",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-MByVNy6xBmXHsvjpmnaRz517?se=2124-01-20T03%3A30%3A53Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Deleven-lines-hq.png&sig=/dvmbBstijgnsWKd%2Bcrk6/EWT4dLQELZ0QarnswWXJg%3D",
+                            "categories": [
+                                "productivity"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-29T23:57:52.769267+00:00",
+                        "updated_at": "2024-03-10T14:43:43.382996+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_YpS3pZHQRb1dkO4SM1sQHqts~gzm_tool_T85IIq28kN1eCrUClqkCae4J",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-b194c874e740926a77eb6b5829d183009ab838fc",
+                                "domain": "eleven-labs-gpt-server-asrsubs.replit.app",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.0",
+                                    "info": {
+                                        "title": "Eleven Labs Text-to-Speech",
+                                        "version": "1.0.0",
+                                        "description": "API for converting text to speech using specified model and voice IDs."
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://eleven-labs-gpt-server-asrsubs.replit.app"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/convert-text-to-speech": {
+                                            "post": {
+                                                "summary": "Convert text to speech",
+                                                "description": "Converts given text to speech using specified model and voice IDs.",
+                                                "operationId": "convertTextToSpeech",
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "text": {
+                                                                        "type": "string",
+                                                                        "description": "Text to be converted to speech."
+                                                                    },
+                                                                    "model_id": {
+                                                                        "type": "string",
+                                                                        "description": "ID of the speech model to use."
+                                                                    },
+                                                                    "voice_id": {
+                                                                        "type": "string",
+                                                                        "description": "ID of the voice to use."
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "text",
+                                                                    "model_id",
+                                                                    "voice_id"
+                                                                ]
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful response",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "message": {
+                                                                            "type": "string",
+                                                                            "description": "Confirmation message of file creation."
+                                                                        },
+                                                                        "url": {
+                                                                            "type": "string",
+                                                                            "format": "uri",
+                                                                            "description": "URL to the generated speech audio file."
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "service_http",
+                                    "instructions": "",
+                                    "authorization_type": "custom",
+                                    "verification_tokens": {},
+                                    "custom_auth_header": "x-my-secret-key"
+                                },
+                                "privacy_policy_url": "https://elevenlabs.io/privacy"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_2giAZ38Cr87uvT7FHM9ixJeI~gzm_tool_FvaldyDbGpNrRJ5cOA3phsrt",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2giAZ38Cr87uvT7FHM9ixJeI~gzm_tool_sLD8c3bLDa6ZGfBh85Ojquci",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-c++",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/plain",
+                                "text/x-csharp",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "text/x-c",
+                                "text/x-sh",
+                                "text/markdown",
+                                "application/pdf",
+                                "application/x-latext",
+                                "application/json",
+                                "text/x-tex",
+                                "text/x-php",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-java",
+                                "text/x-typescript",
+                                "application/msword",
+                                "text/html",
+                                "text/x-script.python"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-jCYeXl5xh",
+                        "organization_id": "org-L3co2GXX4yGmFKC1svAbZtS7",
+                        "short_url": "g-jCYeXl5xh-neo-ultimate-ai",
+                        "author": {
+                            "user_id": "user-TO69WSyFqCxQw3S5oqto7Pbk",
+                            "display_name": "DAINIS TKACOVS",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "Fgh1Q7a4AN",
+                                        "username": "Dainis Tka",
+                                        "display_name": "Dainis Tka",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/dainis-tka"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "NEO - Ultimate AI",
+                            "description": "I imitate GPT-5 (sort of), My EQ is more advanced, I'm much better in reasoning and helping to make your life easier!",
+                            "prompt_starters": [
+                                "What is the meaning of this incredible life?",
+                                "Help me with the market research.",
+                                "I want to improve my productivity.",
+                                "I have an idea but don't know how to start."
+                            ],
+                            "profile_pic_id": "file-T9MGBx5EuTAM4DOiwMDxZFvC",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-T9MGBx5EuTAM4DOiwMDxZFvC?se=2123-12-22T07%3A09%3A21Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D7e9e4a7b-b49e-4811-8fcb-f51ea9663fda.webp&sig=RwXAvAqmFKGz3LgWjMEEFol2y%2BJI7NETZFcw42e1UVU%3D",
+                            "categories": [
+                                "productivity"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-12T06:05:51.004743+00:00",
+                        "updated_at": "2024-03-25T20:32:18.774000+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_FAs6TgyIj9py2GD4a00sktzd~gzm_tool_NAFBOtOkfhdI7b3mNZlh7o8z",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_FAs6TgyIj9py2GD4a00sktzd~gzm_tool_RlWIkCwwlYCqbCGMyhhEJ6GN",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_FAs6TgyIj9py2GD4a00sktzd~gzm_tool_pB0TiVoURUmSAh5nUo9Y0cgn",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_A9VvPUzBDHrs8ACyXLCSdpJq~gzm_tool_U05ZK0mXqqaZwAMDeMDFVtAJ",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-18c22bea2906fb7a7afbc0e9cc68c1a5b7ab867f",
+                                "domain": "api.adzedek.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.0",
+                                    "info": {
+                                        "title": "Adzedek API",
+                                        "description": "This API is used to fetch advertisements to show.",
+                                        "version": "1.1.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://api.adzedek.com",
+                                            "description": "Main Adzedek API server"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/fetch_ad_to_show_GPTs/1711293669285x982196064337526800": {
+                                            "get": {
+                                                "operationId": "fetchAdToShowGPTs",
+                                                "summary": "Fetch an advertisement to show",
+                                                "description": "Retrieves advertisement details including id and text.",
+                                                "parameters": [
+                                                    {
+                                                        "in": "query",
+                                                        "name": "conversation_context",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        },
+                                                        "description": "The full user input. If this is the first message in the conversation, add \"[start]\" before the string, otherwise add \"[continue]\" before the string."
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "A JSON object containing the advertisement details",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/AdResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "security": [
+                                                    {
+                                                        "ApiKeyAuth": []
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "AdResponse": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "id": {
+                                                        "type": "string"
+                                                    },
+                                                    "text": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "securitySchemes": {
+                                            "ApiKeyAuth": {
+                                                "type": "apiKey",
+                                                "in": "header",
+                                                "name": "adzedek-api"
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "service_http",
+                                    "instructions": "",
+                                    "authorization_type": "custom",
+                                    "verification_tokens": {},
+                                    "custom_auth_header": "adzedek-api"
+                                },
+                                "privacy_policy_url": "https://app.adzedek.com/policy"
+                            }
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-c++",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/plain",
+                                "text/x-csharp",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "text/x-c",
+                                "text/x-sh",
+                                "text/markdown",
+                                "application/pdf",
+                                "application/x-latext",
+                                "application/json",
+                                "text/x-tex",
+                                "text/x-php",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-java",
+                                "text/x-typescript",
+                                "application/msword",
+                                "text/html",
+                                "text/x-script.python"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-cJtHaGnyo",
+                        "organization_id": "org-vwoqgMqkAsklQRSwrmwC4Kyo",
+                        "short_url": "g-cJtHaGnyo-slide-creator",
+                        "author": {
+                            "user_id": "user-b9sOQBarVjq9fr2EHTgYvebX",
+                            "display_name": "slidesgpt.com",
+                            "link_to": "https://slidesgpt.com",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "1621977808762277893",
+                                        "username": "@slidesgpt",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/slidesgpt"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Slide Creator",
+                            "description": "Creates PowerPoint presentations.  Exports to PowerPoint, Google Slides & PDF.",
+                            "prompt_starters": [
+                                "Make a presentation about the future of AI",
+                                "Create a presentation on 2024 trends in banking",
+                                "Create an outline for Innovations in Laboratory Science first, then the presentation",
+                                "Tell me what you can do"
+                            ],
+                            "profile_pic_id": "file-vOacU173nGHAMRppZBLv5A3M",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-vOacU173nGHAMRppZBLv5A3M?se=2124-02-25T08%3A20%3A34Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dnoun-powerpoint-presentation-6187353-FFFFFF%25201.png&sig=nObHV%2BKhZ6tx4b0PbgqRVb5zsMFhPfV3AnKop6Y9DNQ%3D",
+                            "categories": [
+                                "productivity"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-09T22:35:09.263942+00:00",
+                        "updated_at": "2024-03-20T08:20:39.262712+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_7Z926HdllMbyBjSWvgW1g4Mn~gzm_tool_SYnUMD8kGXIiVeiFukl9ztiQ",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-f3c1248e3ac754b0d37352f717179713bbd356fc",
+                                "domain": "slidesgpt.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.0",
+                                    "info": {
+                                        "title": "SlidesGPT API",
+                                        "version": "2",
+                                        "description": "API for generating presentation slides with deep content and images. Can search for images by captions, returning a collection of images along with metadata for slides.",
+                                        "contact": {
+                                            "name": "SlidesGPT",
+                                            "url": "http://twitter.com/@slidesgpt"
+                                        }
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://slidesgpt.com",
+                                            "description": "Development server for SlidesGPT API."
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/chat/generate": {
+                                            "post": {
+                                                "summary": "Generate presentation slides",
+                                                "description": "Generates a single slide for a presentation with specified content at a Ph.D. depth level.",
+                                                "operationId": "generateSlide",
+                                                "x-openai-isConsequential": false,
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "v": {
+                                                                        "type": "string",
+                                                                        "description": "Specifies the API version being used.",
+                                                                        "default": "2"
+                                                                    },
+                                                                    "slidecode": {
+                                                                        "type": "object",
+                                                                        "$ref": "#/components/schemas/Slide"
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Returns the URL of the generated slide image for embedding and the URL to view the presentation.",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "data": {
+                                                                            "type": "object",
+                                                                            "properties": {
+                                                                                "image_url": {
+                                                                                    "type": "string",
+                                                                                    "description": "URL of the generated slide image."
+                                                                                },
+                                                                                "presentation_view_url": {
+                                                                                    "type": "string",
+                                                                                    "description": "URL to view the presentation."
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/chat/search": {
+                                            "get": {
+                                                "operationId": "searchImages",
+                                                "summary": "Search images by caption",
+                                                "description": "Retrieves images related to the given caption, allowing filtering of results.",
+                                                "parameters": [
+                                                    {
+                                                        "name": "caption",
+                                                        "in": "query",
+                                                        "description": "Concise description of an illustration or stock photo that is suitable to be shown for the slide content. Your description will be used to search for an image in an image database.",
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successfully retrieved image results.",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "doc_time": {
+                                                                            "type": "number",
+                                                                            "format": "double",
+                                                                            "description": "Time taken to document the search."
+                                                                        },
+                                                                        "documents": {
+                                                                            "type": "array",
+                                                                            "items": {
+                                                                                "$ref": "#/components/schemas/ImageDocument"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "Slide": {
+                                                "type": "object",
+                                                "required": [
+                                                    "title",
+                                                    "subtitle",
+                                                    "slidenum",
+                                                    "imgage_id",
+                                                    "body"
+                                                ],
+                                                "properties": {
+                                                    "title": {
+                                                        "type": "string",
+                                                        "description": "Title of the slide."
+                                                    },
+                                                    "subtitle": {
+                                                        "type": "string",
+                                                        "description": "Subtitle of the slide."
+                                                    },
+                                                    "slidenum": {
+                                                        "type": "integer",
+                                                        "description": "Slide number in the presentation."
+                                                    },
+                                                    "image_id": {
+                                                        "type": "string",
+                                                        "description": "Unique identifier for the slide image as defined in #/components/schemas/ImageDocument. Leave as empty string if no relavant image is found."
+                                                    },
+                                                    "body": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "$ref": "#/components/schemas/BulletPoint"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "BulletPoint": {
+                                                "type": "object",
+                                                "required": [
+                                                    "point",
+                                                    "description"
+                                                ],
+                                                "properties": {
+                                                    "point": {
+                                                        "type": "string",
+                                                        "description": "Main point of the bullet."
+                                                    },
+                                                    "description": {
+                                                        "type": "string",
+                                                        "description": "Highly condensed, short and concise expansion of the point. Avoid wordy descriptions."
+                                                    }
+                                                }
+                                            },
+                                            "ImageDocument": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "author_handle": {
+                                                        "type": "string",
+                                                        "description": "Social media handle of the image author."
+                                                    },
+                                                    "author_name": {
+                                                        "type": "string",
+                                                        "description": "Name of the image author."
+                                                    },
+                                                    "caption": {
+                                                        "type": "string",
+                                                        "description": "Caption associated with the image."
+                                                    },
+                                                    "image_id": {
+                                                        "type": "string",
+                                                        "description": "Unique identifier for the image."
+                                                    },
+                                                    "url": {
+                                                        "type": "string",
+                                                        "description": "URL of the image for embedding."
+                                                    },
+                                                    "orientation": {
+                                                        "type": "string",
+                                                        "enum": [
+                                                            "portrait",
+                                                            "landscape"
+                                                        ],
+                                                        "description": "Orientation of the image."
+                                                    },
+                                                    "retrieval": {
+                                                        "type": "string",
+                                                        "description": "Method used for retrieving the image."
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "none"
+                                },
+                                "privacy_policy_url": "https://slidesgpt.com/privacy"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_XJIykTJ9ASLZzNLBch784ZZk~gzm_tool_eCc7Y6NWDwS1WEMTCD4SwV0Y",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-c++",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/plain",
+                                "text/x-csharp",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "text/x-c",
+                                "text/x-sh",
+                                "text/markdown",
+                                "application/pdf",
+                                "application/x-latext",
+                                "application/json",
+                                "text/x-tex",
+                                "text/x-php",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-java",
+                                "text/x-typescript",
+                                "application/msword",
+                                "text/html",
+                                "text/x-script.python"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-bNiLAvz8R",
+                        "organization_id": "org-BT9rveT3EtJjCenbVVmA389N",
+                        "short_url": "g-bNiLAvz8R-prompt-engineering",
+                        "author": {
+                            "user_id": "user-s2XOqlqAyA0slA5lTXgnrvKz",
+                            "display_name": "Rafael Bittencourt",
+                            "link_to": "https://rafaelbittencourt.ai",
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "QrLF4czz_a",
+                                        "username": "Rafael Bittencourt",
+                                        "display_name": "Rafael Bittencourt",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/rafael-bittencourt-54236858"
+                                    }
+                                },
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "1092201074226798592",
+                                        "username": "@rafaelobitten",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/rafaelobitten"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Prompt Engineering",
+                            "description": "Your go-to assistant for optimizing ChatGPT prompts, specializing in LLMs and generative AI. Enhances prompt clarity, specificity, and effectiveness. Adapts to any language, ensuring smooth interaction. Aims for well-structured prompts to maximize language model capabilities.",
+                            "prompt_starters": [
+                                "Can you review the prompt below according to the best practices in prompt engineering?",
+                                "I'm new to prompt engineering. Could you explain the principles and best practices of effective prompt design?",
+                                "I have an idea for a prompt but I'm not sure how to start. Can you help me develop it from scratch",
+                                "/help",
+                                "I'm interested in understanding more about prompt patterns. Could you explain what prompt patterns are and discuss the key patterns that can enhance the effectiveness of AI responses?",
+                                "What are some common mistakes in prompt design and how can I avoid them?",
+                                "Could you teach me about the Persona Pattern: in prompt engineering and how it affects AI responses?",
+                                "I'd like to learn about key concepts in LLM and Generative AI.",
+                                "Please provide examples of good ChatGPT prompts by OpenAi",
+                                "Could you explain prompt patterns and share all the types you're familiar with?"
+                            ],
+                            "profile_pic_id": "file-PBE5CB6IhrF2fUIpdzctgttz",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-PBE5CB6IhrF2fUIpdzctgttz?se=2123-11-13T22%3A49%3A54Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3D6e5f5cb3-a7c5-48f5-9a35-c9f7738c205f.png&sig=evXCGWo8j5E7zf1owiJWiTzsN1tpjwWrbtYjofk%2BlsY%3D",
+                            "categories": [
+                                "productivity"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-12-07T22:37:44.677376+00:00",
+                        "updated_at": "2024-03-22T17:00:01.855594+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_mqR1gZIIZeNjui6sNM3D4xhH~gzm_tool_Xc4vVLDohLTgeOfaS14aYffU",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_mqR1gZIIZeNjui6sNM3D4xhH~gzm_tool_e7oBMPqDrnKQzvRQvK9YLkbi",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_mqR1gZIIZeNjui6sNM3D4xhH~gzm_tool_kVjPg1ub6ymyjVsniaK9NvS2",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_pX1I3vsxRWfTuIF5iKslrNCH~gzm_file_v0ii7ubjEHE9oBSsB7LN9AG4",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_dP00DqnghfixmrgXs1rkFnWd~gzm_file_JVfP00dZd9fk4NpgpgiLV2Tq",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_hNhiVPlrEjSsXL1u12xEqjss~gzm_file_yNcDzJklghwe2sGhtkbDWD4o",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_lUPdHaWeh3LwHUIgLYDyRQcl~gzm_file_HNvacr0sSSOCeFPfTuCb04ba",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_dP00DqnghfixmrgXs1rkFnWd~gzm_file_lRNjZ7ExHATn24eUGt2zkTBK",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-c++",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/plain",
+                                "text/x-csharp",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "text/x-c",
+                                "text/x-sh",
+                                "text/markdown",
+                                "application/pdf",
+                                "application/x-latext",
+                                "application/json",
+                                "text/x-tex",
+                                "text/x-php",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-java",
+                                "text/x-typescript",
+                                "application/msword",
+                                "text/html",
+                                "text/x-script.python"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            }
+        ],
+        "cursor": null
+    }
+}
