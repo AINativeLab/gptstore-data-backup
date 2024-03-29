@@ -1,0 +1,1644 @@
+{
+    "info": {
+        "id": "education",
+        "title": "Education",
+        "description": "Explore new ideas, revisit existing skills",
+        "display_type": "ranked",
+        "display_group": "Education",
+        "locale": "en"
+    },
+    "list": {
+        "items": [
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-WP1diWHRl",
+                        "organization_id": "org-LFizWYCMMt6pjUXgiMAxBJtC",
+                        "short_url": "g-WP1diWHRl-physics",
+                        "author": {
+                            "user_id": "user-Z9JrMzzMAJlIByGeRtUptmUN",
+                            "display_name": "pulsr.co.uk",
+                            "link_to": "https://pulsr.co.uk",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "uRC2-heAmK",
+                                        "username": "Leo Feasby",
+                                        "display_name": "Leo Feasby",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/leo-feasby-4b6006251"
+                                    }
+                                },
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "1752728225191456768",
+                                        "username": "@leo_pulsr",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/leo_pulsr"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "physics",
+                            "description": "Physics Oracle, The worlds most powerful Physics tool V2.2",
+                            "prompt_starters": [
+                                "Learning / Problem Solving mode",
+                                "Research mode",
+                                "Code mode",
+                                "Try our image generator 🖼️"
+                            ],
+                            "profile_pic_id": "file-y63yTOkdpenBzpCZ95QJEhTp",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-y63yTOkdpenBzpCZ95QJEhTp?se=2124-02-06T18%3A03%3A23Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Deye23.png&sig=ehZ7Q4w%2BJqv7IZth1KKdvYusT3XRG2IQJe/if2G1AgU%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-22T18:58:35.088716+00:00",
+                        "updated_at": "2024-03-28T19:40:50.931437+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_epZx3optGBZeK8R4JRkptLuV~gzm_tool_4s4HInaPZYjeYAVl57klJauK",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_Mv2ZzFO3KOTiS6qEIeuxWdhX~gzm_tool_wtP4xtsoRwOz8IsmqU5EBTjl",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_Mv2ZzFO3KOTiS6qEIeuxWdhX~gzm_tool_sCPaeg8lfH15QXhtK2QzloAS",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/markdown",
+                                "text/plain",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/x-latext",
+                                "application/pdf",
+                                "text/x-sh",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-tex",
+                                "text/javascript",
+                                "text/x-csharp",
+                                "text/html",
+                                "text/x-script.python",
+                                "text/x-c++",
+                                "text/x-c",
+                                "application/json",
+                                "text/x-ruby",
+                                "application/msword",
+                                "text/x-php",
+                                "text/x-java",
+                                "text/x-typescript"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/gif",
+                                "image/jpeg",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-ntyRhBUID",
+                        "organization_id": "org-oHuCRauqHCfs1mnq9sEm8UEH",
+                        "short_url": "g-ntyRhBUID-data-analytics",
+                        "author": {
+                            "user_id": "user-en9cuVyeBWCaa2FM3oiNs6Hi",
+                            "display_name": "Luke T Barousse",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Data Analytics",
+                            "description": "A how-to guide for data analytics (based on Luke Barousse's 'ChatGPT for Data Analytics' course)",
+                            "prompt_starters": [
+                                "How do you use ChatGPT for data analysis?",
+                                "Work out an example use case",
+                                "What are the top plugins for data analysis?",
+                                "What's Luke's course about?"
+                            ],
+                            "profile_pic_id": "file-He8aE3rg7ee66ASSS0HJFTVQ",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-He8aE3rg7ee66ASSS0HJFTVQ?se=2123-10-19T23%3A24%3A15Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D47823d3d-4745-4773-a232-5569024ce68b.png&sig=CS2otWO2RpLlVeyvilTv%2BGXj2yBu7fjHIEyLaDxY6yY%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-12T23:12:20.522699+00:00",
+                        "updated_at": "2024-03-03T07:34:18.586143+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_jgmbuGJu14q620VTNfgmzeJO~gzm_tool_kn3upXAErDFdryVsIykzwg6c",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_XroXSogtrZXcXTX8dJfqHJNa~gzm_tool_cwVnCJSmxVpGGaiS90Wyv42B",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_jgmbuGJu14q620VTNfgmzeJO~gzm_file_ijAiDPRD62HGcxhR3kdEHBhd",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_jgmbuGJu14q620VTNfgmzeJO~gzm_file_2xJZv565PKUEurNKEW8fkoO6",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_jgmbuGJu14q620VTNfgmzeJO~gzm_file_FZE0IpAangJ3w3te2C1ChCon",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_jgmbuGJu14q620VTNfgmzeJO~gzm_file_oX0p8EiHzB6vyCpJ17GbycgA",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_jgmbuGJu14q620VTNfgmzeJO~gzm_file_DEEzaGwnSfvWuBroaqJ4uIYS",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_jgmbuGJu14q620VTNfgmzeJO~gzm_file_PaQvgBwUoIHRppUEJCz0pzuT",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_jgmbuGJu14q620VTNfgmzeJO~gzm_file_F6QkaSF9E77BfqCqsKaZkCkw",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/markdown",
+                                "text/plain",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/x-latext",
+                                "application/pdf",
+                                "text/x-sh",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-tex",
+                                "text/javascript",
+                                "text/x-csharp",
+                                "text/html",
+                                "text/x-script.python",
+                                "text/x-c++",
+                                "text/x-c",
+                                "application/json",
+                                "text/x-ruby",
+                                "application/msword",
+                                "text/x-php",
+                                "text/x-java",
+                                "text/x-typescript"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/gif",
+                                "image/jpeg",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-qfoOICq1l",
+                        "organization_id": "org-ZJ4Xn6xsZLNePkreg1xbLNb1",
+                        "short_url": "g-qfoOICq1l-prompt-professor",
+                        "author": {
+                            "user_id": "user-gGe71twpoLuGJl05GVypE9q1__86af01e5-2fc6-4507-9e43-28fa700beb2a",
+                            "display_name": null,
+                            "link_to": null,
+                            "is_verified": false,
+                            "selected_display": "name",
+                            "will_receive_support_emails": false,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": "86af01e5-2fc6-4507-9e43-28fa700beb2a",
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Prompt Professor",
+                            "description": "I know everything about Prompt Engineering. What do you want to know about prompt?",
+                            "prompt_starters": [
+                                "How to make a good prompt?",
+                                "Improve this prompt: ${prompt}",
+                                "Rate this prompt: ${prompt}",
+                                "Tell me 26 Principles of Good Prompt"
+                            ],
+                            "profile_pic_id": "file-MsXTgHdeT8NqXvoz3yFp1DsA",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-MsXTgHdeT8NqXvoz3yFp1DsA?se=2123-10-16T03%3A42%3A03Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D76811343-01fe-4316-b18f-12ed04c3af99.png&sig=OOcasgdAq%2BCscJ7raZMCDdYCZb00lsUNcOl%2BnNzEAY8%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-09T03:34:22.251580+00:00",
+                        "updated_at": "2024-03-21T06:19:27.371163+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_WuIlKePJ7mMMDHQt8ZmAiPaJ~gzm_file_KncAqpP91kW6tVxCK97Brbnq",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_397hP1iXk8ZACT9AiHUvBU5s~gzm_file_v09TqV4cXGX5lxZgS35UzEE6",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_WuIlKePJ7mMMDHQt8ZmAiPaJ~gzm_file_zqzLY4NX2MLmWTo5Rj6Ga50o",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/markdown",
+                                "text/plain",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/x-latext",
+                                "application/pdf",
+                                "text/x-sh",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-tex",
+                                "text/javascript",
+                                "text/x-csharp",
+                                "text/html",
+                                "text/x-script.python",
+                                "text/x-c++",
+                                "text/x-c",
+                                "application/json",
+                                "text/x-ruby",
+                                "application/msword",
+                                "text/x-php",
+                                "text/x-java",
+                                "text/x-typescript"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/gif",
+                                "image/jpeg",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-TfiZbdLM0",
+                        "organization_id": "org-nc4Oa4HqxP7kfUbVqcAOau70",
+                        "short_url": "g-TfiZbdLM0-machine-learning",
+                        "author": {
+                            "user_id": "user-G4liDZL5wULsfaDnalu9mGmk",
+                            "display_name": "Maryam Eskandari",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Machine Learning",
+                            "description": "A machine learning, deep learning, and data science assistant for learning, practicing, and developing algorithms.",
+                            "prompt_starters": [
+                                "How do I use pandas to analyze data?",
+                                "Can you explain neural networks?",
+                                "Help me troubleshoot my TensorFlow code.",
+                                "What are the best practices in data preprocessing?"
+                            ],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-79w3XiRGkbTiECoVNmkLzcKV?se=2123-10-24T07%3A23%3A14Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Da706c100-ff7e-48d7-8483-35754c66f8cd.png&sig=3aiA9n2Euf1Ri4dVkc2GF3GHBOqDb/oHQ9XHK0OyKys%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-17T07:13:55.658624+00:00",
+                        "updated_at": "2024-02-13T06:30:14.754739+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_Hh6vIS7OQfBaNZ014qI9goRk~gzm_tool_yzTqrDSrso9EIGDbG9CZTviP",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_Hh6vIS7OQfBaNZ014qI9goRk~gzm_tool_KkTURCL206dpN0IVS8S4ntIf",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_Hh6vIS7OQfBaNZ014qI9goRk~gzm_tool_TDWTD8XWdVpXDeXZM5UIKMAS",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/markdown",
+                                "text/plain",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/x-latext",
+                                "application/pdf",
+                                "text/x-sh",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-tex",
+                                "text/javascript",
+                                "text/x-csharp",
+                                "text/html",
+                                "text/x-script.python",
+                                "text/x-c++",
+                                "text/x-c",
+                                "application/json",
+                                "text/x-ruby",
+                                "application/msword",
+                                "text/x-php",
+                                "text/x-java",
+                                "text/x-typescript"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/gif",
+                                "image/jpeg",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-HxPrv1p8v",
+                        "organization_id": "org-FqTXlsMUrWCUj3F7Q1QschB1",
+                        "short_url": "g-HxPrv1p8v-code-tutor",
+                        "author": {
+                            "user_id": "user-PfXyJoh1R3QWf85M2uGIqZDN__02dcb0b0-6385-4a41-846b-7031222365f7",
+                            "display_name": "khanacademy.org",
+                            "link_to": "https://khanacademy.org",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": "02dcb0b0-6385-4a41-846b-7031222365f7",
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Code Tutor",
+                            "description": "Let's code together! I'm Khanmigo Lite, by Khan Academy. I won't write the code for you, but I'll help you work things out. Can you tell me the challenge you're working on?",
+                            "prompt_starters": [
+                                "Help me with my homework assignment",
+                                "How are you different than regular Khanmigo?",
+                                "How can I improve my code's efficiency?",
+                                "Help me understand this programming concept"
+                            ],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-wT9OjtSlKWSliHQlnvDPbLnB?se=2123-11-06T22%3A36%3A37Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dkhanmigolite.png&sig=N18iwfrxqf8q664WbG5zlsN/EONc5asA9ODNrsUv1bs%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-30T22:35:35.448387+00:00",
+                        "updated_at": "2024-01-28T14:40:46.125233+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_RbzS8iWvw5tfs0Rh6FIe0tCJ~gzm_tool_XXUAES7F0Pn7NXPPlwyLaUpa",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_G4jmlldpISOHuDwArDYKziJv~gzm_tool_lXy3WSfpbZdalvQOPq0Wn6wo",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-fc42952955310001d61afc96420f926dbec06b8b",
+                                "domain": "khanacademy.org",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.1.0",
+                                    "info": {
+                                        "title": "Search Khan Academy Content",
+                                        "description": "Returns a list of Khan Academy content items related to the query",
+                                        "version": "v1.0.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://khanacademy.org"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/api/internal/_rg/khanmigo/search_content": {
+                                            "get": {
+                                                "description": "Search Khan Academy Content for related Articles, Videos, Domains, Courses, Units, and Lessons",
+                                                "operationId": "SearchContent",
+                                                "parameters": [
+                                                    {
+                                                        "name": "query",
+                                                        "in": "query",
+                                                        "description": "The search query",
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "deprecated": false
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {}
+                                    }
+                                },
+                                "auth": {
+                                    "type": "none"
+                                },
+                                "privacy_policy_url": "https://support.khanacademy.org/hc/en-us/articles/22396485532173"
+                            }
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/markdown",
+                                "text/plain",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/x-latext",
+                                "application/pdf",
+                                "text/x-sh",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-tex",
+                                "text/javascript",
+                                "text/x-csharp",
+                                "text/html",
+                                "text/x-script.python",
+                                "text/x-c++",
+                                "text/x-c",
+                                "application/json",
+                                "text/x-ruby",
+                                "application/msword",
+                                "text/x-php",
+                                "text/x-java",
+                                "text/x-typescript"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/gif",
+                                "image/jpeg",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-9PKhaweyb",
+                        "organization_id": "org-p1dYivag5yIaAdsaAC6xNtHU",
+                        "short_url": "g-9PKhaweyb-mr-ranedeer",
+                        "author": {
+                            "user_id": "user-N9Y38gVN4AMgE1Z7QP6MLkl1",
+                            "display_name": "mr-ranedeer.com",
+                            "link_to": "https://mr-ranedeer.com",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "githubverify-dff6-4871-860f-d61dfa7afa7f",
+                                    "type": "github",
+                                    "display_name": "GitHub",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": 36951064,
+                                        "username": "JushBJJ",
+                                        "type": "github",
+                                        "link_to": "https://github.com/JushBJJ"
+                                    }
+                                },
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "1336788571601027077",
+                                        "username": "@yupiop12",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/yupiop12"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Mr. Ranedeer",
+                            "description": "Meet Mr. Ranedeer, your personalized AI tutor! Version: 2.7 Reboot",
+                            "prompt_starters": [
+                                "/plan I want to learn special relativity",
+                                "/config",
+                                "/language Chinese",
+                                "/plan I want to learn integrals"
+                            ],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-X9LAlo8N3fj2hfnxqm3JJwoc?se=2123-10-16T20%3A42%3A58Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202023-11-04%252000.39.52%2520-%2520Digital%2520sticker%2520design%2520of%2520a%2520chibi%2520reindeer%2520in%2520a%2520simplistic%2520style%252C%2520gripping%2520a%2520graphite%2520pencil%2520with%2520a%2520pink%2520eraser.%2520The%2520reindeer%2527s%2520glasses%2520give%2520it%2520a%2520stud.png&sig=G1xWfBMbjTegInXdu4jL%2BuGH038OrwnuG9c18KBnYUQ%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-09T18:43:14.078576+00:00",
+                        "updated_at": "2024-02-20T06:46:04.841479+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_DqXSxvvaTfEcs8U1ux82Strz~gzm_tool_IxUJSw1AbAxnMJFTAjAw98sc",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_yUveNYOrXAUqdl0sqaDg49z9~gzm_tool_BrPBbI7WFIIx6QatzRrAstyp",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_KJHJDTgcfq3q8aKKmi6sX5wo~gzm_file_dlAXf4CUdLKKnFEOvgdiG4Bh",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/markdown",
+                                "text/plain",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/x-latext",
+                                "application/pdf",
+                                "text/x-sh",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-tex",
+                                "text/javascript",
+                                "text/x-csharp",
+                                "text/html",
+                                "text/x-script.python",
+                                "text/x-c++",
+                                "text/x-c",
+                                "application/json",
+                                "text/x-ruby",
+                                "application/msword",
+                                "text/x-php",
+                                "text/x-java",
+                                "text/x-typescript"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/gif",
+                                "image/jpeg",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-3pqrO7KSp",
+                        "organization_id": "org-tBUzaSZaR7Pvw4mZhBXWCH2J",
+                        "short_url": "g-3pqrO7KSp-chemistry-chem",
+                        "author": {
+                            "user_id": "user-otDgCDa0qybtjYWYl9Jf0JHZ",
+                            "display_name": "smartprompt.xyz",
+                            "link_to": "https://smartprompt.xyz",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": false,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "3LBxQj6zQH",
+                                        "username": "Ryan Stewart",
+                                        "display_name": "Ryan Stewart",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/ryan2stewart"
+                                    }
+                                },
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "1640846816202612736",
+                                        "username": "@smartpromptai",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/smartpromptai"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Chemistry Chem",
+                            "description": "🔴#𝟏 𝐏𝐞𝐫𝐬𝐨𝐧𝐚𝐥𝐢𝐳𝐞𝐝 𝐂𝐡𝐞𝐦𝐢𝐬𝐭𝐫𝐲 𝐓𝐮𝐭𝐨𝐫🔴",
+                            "prompt_starters": [
+                                "Default Mode",
+                                "Organic Chemistry Mode",
+                                "Inorganic Chemistry Mode",
+                                "Physical Chemistry Mode"
+                            ],
+                            "profile_pic_id": "file-fsVdhFibGwesb7vT5tYSF7ka",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-fsVdhFibGwesb7vT5tYSF7ka?se=2124-02-06T19%3A59%3A08Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dlaboratory-flask-design-template-2ca7df05b1154ceb71cfb34dd2817ea6_screen.jpg&sig=QyKJDG%2BxNkQqovabgqJRyeSgdDg5eN3NEu08xyJy/FI%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-14T17:15:19.633141+00:00",
+                        "updated_at": "2024-03-21T14:02:05.982936+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_jv2ykNY6WIa0oHiyYXRsnQg0~gzm_tool_pPGxkdq6uptCIOBJM31AAq1n",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_jv2ykNY6WIa0oHiyYXRsnQg0~gzm_tool_cqTHegw9PUfCiDT6Cn1asByL",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_ZTWIeXyS7WA0hu3CfaJ68uf6~gzm_tool_Gq49pezhbLelWl6WysfBVjce",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/markdown",
+                                "text/plain",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/x-latext",
+                                "application/pdf",
+                                "text/x-sh",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-tex",
+                                "text/javascript",
+                                "text/x-csharp",
+                                "text/html",
+                                "text/x-script.python",
+                                "text/x-c++",
+                                "text/x-c",
+                                "application/json",
+                                "text/x-ruby",
+                                "application/msword",
+                                "text/x-php",
+                                "text/x-java",
+                                "text/x-typescript"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/gif",
+                                "image/jpeg",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-OhCVT2jDy",
+                        "organization_id": "org-TKXytrjLgsRukyun0uSnaOKe",
+                        "short_url": "g-OhCVT2jDy-interview",
+                        "author": {
+                            "user_id": "user-uZPkRaNnaB3rhWrgiYw6yWks",
+                            "display_name": "masterinterview.ai",
+                            "link_to": "https://masterinterview.ai",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": false,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Interview",
+                            "description": "Job interview coach provides mock interview practices and feedback",
+                            "prompt_starters": [
+                                "Let's Start Practice!"
+                            ],
+                            "profile_pic_id": "file-t9skKTxgQNp5wkfSechitTel",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-t9skKTxgQNp5wkfSechitTel?se=2123-12-29T21%3A37%3A40Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Davatar4.png&sig=rEZ81lrT1YIQt9Ew0KCIaPzAecGaM71xOWaPq7lMI/s%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-22T21:36:57.405253+00:00",
+                        "updated_at": "2024-02-20T14:40:01.201053+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_JNu7VJrMBM48JBrqUVyvWAZP~gzm_tool_4xrvOdfVcoMLbbD5TQNL3X8B",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_JNu7VJrMBM48JBrqUVyvWAZP~gzm_tool_OVNPZ5LEB2nLBlNGEOFCnGQR",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/markdown",
+                                "text/plain",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/x-latext",
+                                "application/pdf",
+                                "text/x-sh",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-tex",
+                                "text/javascript",
+                                "text/x-csharp",
+                                "text/html",
+                                "text/x-script.python",
+                                "text/x-c++",
+                                "text/x-c",
+                                "application/json",
+                                "text/x-ruby",
+                                "application/msword",
+                                "text/x-php",
+                                "text/x-java",
+                                "text/x-typescript"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/gif",
+                                "image/jpeg",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-ddgmCu3At",
+                        "organization_id": "org-ImIwEgCzGu7iUnT1LPsdCTeP",
+                        "short_url": "g-ddgmCu3At-crypto",
+                        "author": {
+                            "user_id": "user-S9mQ4FkQNOAQIFfQkAUYh8i7",
+                            "display_name": "Sora",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Crypto",
+                            "description": "Crypto News Realtime: Insights & Trends Unveiled. Explore the crypto universe with precise analysis.",
+                            "prompt_starters": [
+                                "Tell me the latest news on crypto.",
+                                "Provide me with some news related to 'Chainlink' and its upcoming price predictions.",
+                                "Please provide me with a list of the best DeFi crypto gems 💎, including big caps. Which crypto sector has seen the most gains? 1. Explain in detail which news has caused those sectors to surge. 2. Specifically, highlight three crypto projects within those sectors that still have significant potential for further increases.",
+                                "Analysis of the TonCoin project."
+                            ],
+                            "profile_pic_id": "file-aHbdoyxH91vY3CspJgZEXcmM",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-aHbdoyxH91vY3CspJgZEXcmM?se=2124-02-15T15%3A53%3A04Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dc.png&sig=EGsP2YMhGnA%2B4h2rc2DdMHqWHBwaZkkWKDm85aGHBKk%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-22T03:46:02.084649+00:00",
+                        "updated_at": "2024-03-26T06:32:31.594362+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_yFfPntRtcRCgG7tqCHJh9wQf~gzm_tool_lDj6oabOZnk2nKhQe24oAARe",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-914d564a78e1b9c26afdf2b6ff4fdb8e5990fab1",
+                                "domain": "chat-prompt.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.1",
+                                    "info": {
+                                        "title": "Crypto Price API",
+                                        "description": "API for retrieving the current price and volume information of cryptocurrencies.",
+                                        "version": "1.0.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://chat-prompt.com",
+                                            "description": "Crypto Price API server"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/crypto/GetCoinMarketData": {
+                                            "get": {
+                                                "operationId": "getCoinMarketData",
+                                                "summary": "Fetch all cryptocurrency market data",
+                                                "description": "Fetches comprehensive market data for all tracked cryptocurrencies, including prices, 24-hour trading volume, market capitalization, and more. You can optionally specify a comma-separated list of coin names to filter the data.",
+                                                "parameters": [
+                                                    {
+                                                        "name": "CoinNames",
+                                                        "in": "query",
+                                                        "description": "Optional comma-separated list of coin names to filter the market data by.",
+                                                        "required": false,
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful response with comprehensive cryptocurrency market data",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "data": {
+                                                                            "type": "array",
+                                                                            "items": {
+                                                                                "type": "object",
+                                                                                "properties": {
+                                                                                    "symbol": {
+                                                                                        "type": "string"
+                                                                                    },
+                                                                                    "priceUSD": {
+                                                                                        "type": "number"
+                                                                                    },
+                                                                                    "volume24hUSD": {
+                                                                                        "type": "number"
+                                                                                    },
+                                                                                    "marketCapUSD": {
+                                                                                        "type": "number"
+                                                                                    },
+                                                                                    "change24h": {
+                                                                                        "type": "number"
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "404": {
+                                                        "description": "Data not found"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/crypto/fetch-details": {
+                                            "get": {
+                                                "operationId": "fetchNewsDetails",
+                                                "summary": "Fetch detailed news content from multiple URLs",
+                                                "description": "Accepts a single, comma-separated string of URLs to fetch detailed news content for each. Returns a list of news details including titles, summaries, publish dates, and original URLs.",
+                                                "parameters": [
+                                                    {
+                                                        "name": "urls",
+                                                        "in": "query",
+                                                        "required": true,
+                                                        "description": "A comma-separated string of URLs for fetching news details from CoinMarketCap articles, formatted as 'https://coinmarketcap.com/community/articles/<article-id>'. Example: '?urls=https://coinmarketcap.com/community/articles/article1,https://coinmarketcap.com/community/articles/article2'.",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful response with a list of news details for each URL",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "Title": {
+                                                                                "type": "string"
+                                                                            },
+                                                                            "Description": {
+                                                                                "type": "string"
+                                                                            },
+                                                                            "PublishDate": {
+                                                                                "type": "string",
+                                                                                "format": "date-time"
+                                                                            },
+                                                                            "Link": {
+                                                                                "type": "string",
+                                                                                "format": "uri"
+                                                                            },
+                                                                            "CoverImage": {
+                                                                                "type": "string"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Bad request. Possibly because no URLs were provided."
+                                                    },
+                                                    "500": {
+                                                        "description": "Internal server error. An error occurred while processing the request."
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/crypto/GetTopGainers": {
+                                            "get": {
+                                                "operationId": "getTopGainers",
+                                                "summary": "Retrieve the top gaining cryptocurrencies",
+                                                "description": "Returns a list of the top gaining cryptocurrencies by percentage increase in the last 24 hours. Optionally filters by market capitalization category.",
+                                                "parameters": [
+                                                    {
+                                                        "name": "BigCap",
+                                                        "in": "query",
+                                                        "required": false,
+                                                        "description": "Market capitalization category. 1 for large cap (over $1B), 2 for medium cap (over $100M), 3 for small cap (over $10M), 4 for very small cap (over $1M). Default is 2.",
+                                                        "schema": {
+                                                            "type": "integer",
+                                                            "default": 2,
+                                                            "enum": [
+                                                                1,
+                                                                2,
+                                                                3
+                                                            ]
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful response with the top gainers data",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "data": {
+                                                                            "type": "array",
+                                                                            "items": {
+                                                                                "type": "object",
+                                                                                "properties": {
+                                                                                    "symbol": {
+                                                                                        "type": "string"
+                                                                                    },
+                                                                                    "name": {
+                                                                                        "type": "string"
+                                                                                    },
+                                                                                    "priceUSD": {
+                                                                                        "type": "number"
+                                                                                    },
+                                                                                    "change24h": {
+                                                                                        "type": "number"
+                                                                                    },
+                                                                                    "volume24hUSD": {
+                                                                                        "type": "number"
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "404": {
+                                                        "description": "Data not found"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/crypto/GetnewsbyCoinName": {
+                                            "get": {
+                                                "operationId": "getNewsByCoinName",
+                                                "summary": "Retrieve news articles by specified CoinName",
+                                                "description": "Returns news articles related to the specified CoinName, including market updates, community news, and other relevant information.",
+                                                "parameters": [
+                                                    {
+                                                        "name": "CoinName",
+                                                        "in": "query",
+                                                        "required": true,
+                                                        "description": "Specify cryptocurrencies or keywords existing in the query for news search, including aliases (e.g., 'btc' for 'bitcoin' and vice versa). Example: 'bitcoin,btc,ethereum,eth,gamefi,defi,ai,...'. Leave blank for the latest news.",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "Message",
+                                                        "in": "query",
+                                                        "required": true,
+                                                        "description": "message body",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "context",
+                                                        "in": "query",
+                                                        "description": "The GPTs description for Google search, clear and user-focused, includes key terms. Max 100 characters.",
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "research",
+                                                        "in": "query",
+                                                        "description": "The intent of the question is: 0. if the data involves news and market analysis or is related to current events, including real-time market data. 1. if the question pertains to a specific issue or seeking advice or general knowledge not related to real-time market data. Default setting is 0.",
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "integer",
+                                                            "default": 0,
+                                                            "enum": [
+                                                                0,
+                                                                1
+                                                            ]
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful response with news articles related to the specified CoinName(s)",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "title": {
+                                                                                "type": "string"
+                                                                            },
+                                                                            "description": {
+                                                                                "type": "string"
+                                                                            },
+                                                                            "url": {
+                                                                                "type": "string"
+                                                                            },
+                                                                            "publishedAt": {
+                                                                                "type": "string"
+                                                                            },
+                                                                            "source": {
+                                                                                "type": "string"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "404": {
+                                                        "description": "News articles not found for the specified CoinName(s)"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "none"
+                                },
+                                "privacy_policy_url": "https://chat-prompt.com/Privacy"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_J5pAWPjZzGG4kRTT96huHyyq~gzm_tool_84RDU6BsTLACYxyMzjrIuZuu",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/markdown",
+                                "text/plain",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/x-latext",
+                                "application/pdf",
+                                "text/x-sh",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-tex",
+                                "text/javascript",
+                                "text/x-csharp",
+                                "text/html",
+                                "text/x-script.python",
+                                "text/x-c++",
+                                "text/x-c",
+                                "application/json",
+                                "text/x-ruby",
+                                "application/msword",
+                                "text/x-php",
+                                "text/x-java",
+                                "text/x-typescript"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/gif",
+                                "image/jpeg",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-GDLcaFXil",
+                        "organization_id": "org-v4X4LAt91fypMUUa97asvej3",
+                        "short_url": "g-GDLcaFXil-matlab-tutor",
+                        "author": {
+                            "user_id": "user-4wqQWBLuPvX1n8YoftQCjqLn",
+                            "display_name": "studyx.ai",
+                            "link_to": "https://studyx.ai",
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Matlab Tutor",
+                            "description": "Best MATLAB assistant. MATLAB TUTOR is  designed to enhance your MATLAB learning experience by offering expert guidance on code, best practices, and programming insights tailored to your skill level.",
+                            "prompt_starters": [
+                                "How do I plot a sine wave in MATLAB?",
+                                "Can you explain this MATLAB code?",
+                                " Optimize this MATLAB function for the best results",
+                                "Help me debug this MATLAB script"
+                            ],
+                            "profile_pic_id": "file-Un2nkBa0KAm5nr4Eu5RXpOhQ",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-Un2nkBa0KAm5nr4Eu5RXpOhQ?se=2123-10-28T09%3A29%3A32Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D34fdd443-1cb9-4fae-8fcf-efdc54c0f29c.png&sig=h9V4dS2ABnrAweIY9lSbbLAZjTBgYExlVWKzEjV6kXg%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-21T09:27:25.246006+00:00",
+                        "updated_at": "2024-02-22T18:02:35.599174+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "num_pins": 0,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_ZAjq633rF1lbDLmLMTnAALMR~gzm_tool_Anwgi2r7NifXnYrPdJdBFBw7",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_ZAjq633rF1lbDLmLMTnAALMR~gzm_tool_npz368yM9FHXiqYiYoRGP2HJ",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_ZAjq633rF1lbDLmLMTnAALMR~gzm_tool_1wnn2zc1UekRcRNF6THqOKQt",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/markdown",
+                                "text/plain",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/x-latext",
+                                "application/pdf",
+                                "text/x-sh",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-tex",
+                                "text/javascript",
+                                "text/x-csharp",
+                                "text/html",
+                                "text/x-script.python",
+                                "text/x-c++",
+                                "text/x-c",
+                                "application/json",
+                                "text/x-ruby",
+                                "application/msword",
+                                "text/x-php",
+                                "text/x-java",
+                                "text/x-typescript"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/gif",
+                                "image/jpeg",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            }
+        ],
+        "cursor": null
+    }
+}
