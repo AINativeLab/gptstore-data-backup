@@ -1,31 +1,7 @@
-# GPT Store data backup
-
-This project daily scrapes and archives data from the official GPT Store. If you have other data requirements, please open an issue.
-
-If you are interested in viewing and downloading the top 500 GPTs daily, please check out our another project: [AINativeLab/top-500-best-gpts](https://github.com/AINativeLab/top-500-best-gpts).
-
-<p align="center">
-★ Powered by <a target="_blank" href="https://www.gptshunter.com/?utm_source=gptstore-data-backup">GPTsHunter.com</a> ★
-</p>
-
-<p align="center">
-  <a target="_blank" href="https://gptshunter.com/?utm_source=gptstore-data-backup">
-    <img alt="GPTsHunter" src="https://gptshunter.com/full-logo.svg" width="300">
-  </a>
-</p>
-
-## Latest
-
-[2024-04-07.en.md](/archive/2024-04-07/en)
-
-[2024-04-07.global.md](/archive/2024-04-07/global)
-
-## Global GPT Leaderboard for 2024-04-07
+# 2024-04-07
 
 
-
-
-### Featured
+## Featured
 
 Curated top picks from this week
 
@@ -962,5 +938,3 @@ No.15 / 50K+ / ★ 4.5 (455 Reviews)
 [**Fitness & Workout - PhD Coach**](https://chat.openai.com/g/g-ipOIcM229-fitness-workout-phd-coach) \
 No.16 / 10K+ / ★ 4.5 (206 Reviews)
         
-
-      
