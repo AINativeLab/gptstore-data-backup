@@ -1,0 +1,3263 @@
+{
+    "info": {
+        "id": "research",
+        "title": "Research & Analysis",
+        "description": "Find, evaluate, interpret, and visualize information",
+        "display_type": "ranked",
+        "display_group": "Research & Analysis",
+        "locale": "global"
+    },
+    "list": {
+        "items": [
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-xc7kwwGjB",
+                        "organization_id": "org-QXwCl4Z70f0WNWjtzt9oJSg7",
+                        "short_url": "g-xc7kwwGjB-web-browser",
+                        "author": {
+                            "user_id": "user-T9r3bg70GJ5VYrAbVrVCtNFN",
+                            "display_name": "pixelsbrand.com",
+                            "link_to": "https://pixelsbrand.com",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Web Browser",
+                            "description": "I can browse the web to help you find information.",
+                            "prompt_starters": [
+                                "What's the latest breaking news?",
+                                "Find research papers on a specific subject.",
+                                "What is trending on X/Twitter today?",
+                                "Find an online tool for a specific task."
+                            ],
+                            "profile_pic_id": "file-Hbd6UTA41GFAqPHFP9NxcyYl",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-Hbd6UTA41GFAqPHFP9NxcyYl?se=2123-12-13T01%3A19%3A25Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202024-01-06%252001.18.07%2520-%2520A%2520logo%2520for%2520a%2520GPT%2520that%2520browses%2520the%2520web%252C%2520inspired%2520by%2520web%2520browser%2520designs.%2520The%2520logo%2520should%2520combine%2520elements%2520commonly%2520associated%2520with%2520web%2520browsers%2520such%2520as.png&sig=qfeMYOEqUA5vekSGmF/kNBxLZzwKPzB7NdPhFaswZ74%3D",
+                            "categories": [
+                                "research"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-05T22:17:00.911790+00:00",
+                        "updated_at": "2024-04-04T22:29:32.868862+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_LTmvL7qGez3arnFujuDdDZAh~gzm_tool_4nSryYaWRsVqpU7tLMdyXa3U",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_LTmvL7qGez3arnFujuDdDZAh~gzm_tool_raxJlE4kCk2vRqFUWX3kqrSL",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/pdf",
+                                "application/msword",
+                                "text/x-script.python",
+                                "application/json",
+                                "text/plain",
+                                "application/x-latext",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "text/x-php",
+                                "text/markdown",
+                                "text/x-csharp",
+                                "text/x-c++",
+                                "text/x-typescript",
+                                "text/x-tex",
+                                "text/x-java",
+                                "text/x-sh",
+                                "text/x-c",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/html"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-NgAcklHd8",
+                        "organization_id": "org-h3aZsM1FFutber87xRnhYLbf",
+                        "short_url": "g-NgAcklHd8-scispace",
+                        "author": {
+                            "user_id": "user-QJ75wi1maLBx4VV4HbxHUSYV__5ee43a6f-0e86-437c-be5e-14827177a16c",
+                            "display_name": null,
+                            "link_to": null,
+                            "is_verified": false,
+                            "selected_display": "name",
+                            "will_receive_support_emails": false,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": "5ee43a6f-0e86-437c-be5e-14827177a16c",
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "SciSpace",
+                            "description": "Do hours worth of research in minutes. Instantly access 200M+ papers, analyze papers at lightning speed, and effortlessly draft content with accurate citations.",
+                            "prompt_starters": [
+                                "Locate studies on neural network",
+                                "Retrieve articles on dark matter and energy theories",
+                                "Explore papers about higher-dimensional algebra",
+                                "Papers on climate change's impact on biodiversity"
+                            ],
+                            "profile_pic_id": "file-c21dHgCzbVdnCvJ7a0JfsHAp",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-c21dHgCzbVdnCvJ7a0JfsHAp?se=2123-12-31T12%3A47%3A40Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DSciSpace-logoV%2521.png&sig=QEIzAFeekXOiJzFOPqKC4Ceu8%2BspwsRduav%2BuygqdU0%3D",
+                            "categories": [
+                                "research"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-15T08:30:58.669072+00:00",
+                        "updated_at": "2024-03-29T06:12:12.824673+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_tORVnCG1HRZLmeMvOQX0j3uM~gzm_tool_aDXhTuRr1wfbd7RII8izsyuv",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-3a3451859bc0fac6ecdc745a13fa613c4887ee3a",
+                                "domain": "researchgpt.typeset.io",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.3",
+                                    "info": {
+                                        "title": "SciSpace ResearchGPT",
+                                        "version": "1.0.0",
+                                        "description": "This is SciSpace ResearchGPT Project which has end points to get factual scientific information for various use cases."
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://researchgpt.typeset.io/"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/api/v1/paper/": {
+                                            "get": {
+                                                "operationId": "v1_paper_list",
+                                                "description": "API to get search results for user query. Use this function when user wants to search papers or get answer to a question.",
+                                                "parameters": [
+                                                    {
+                                                        "name": "search",
+                                                        "required": true,
+                                                        "in": "query",
+                                                        "description": "A search term.",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "tags": [
+                                                    "v1"
+                                                ],
+                                                "security": [
+                                                    {
+                                                        "tokenAuth": []
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "$ref": "#/components/schemas/LitReviewResponse"
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        "description": "List of all papers that can answer the asked question."
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/v1/paper/{id}/": {
+                                            "get": {
+                                                "operationId": "v1_paper_retrieve",
+                                                "description": "Use this get answers for a paper specific query",
+                                                "parameters": [
+                                                    {
+                                                        "in": "path",
+                                                        "name": "id",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        },
+                                                        "required": true
+                                                    },
+                                                    {
+                                                        "in": "query",
+                                                        "name": "question",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "minLength": 1
+                                                        },
+                                                        "required": true
+                                                    }
+                                                ],
+                                                "tags": [
+                                                    "v1"
+                                                ],
+                                                "security": [
+                                                    {
+                                                        "tokenAuth": []
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/PaperInfoResponse"
+                                                                }
+                                                            }
+                                                        },
+                                                        "description": ""
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "Author": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "display_name": {
+                                                        "type": "string"
+                                                    },
+                                                    "id": {
+                                                        "type": "integer"
+                                                    },
+                                                    "slug": {
+                                                        "type": "string"
+                                                    },
+                                                    "unique_id": {
+                                                        "type": "string"
+                                                    },
+                                                    "full_slug": {
+                                                        "type": "string"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "display_name",
+                                                    "full_slug",
+                                                    "id",
+                                                    "slug",
+                                                    "unique_id"
+                                                ]
+                                            },
+                                            "Journal": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "display_name": {
+                                                        "type": "string"
+                                                    },
+                                                    "official_page": {
+                                                        "type": "string",
+                                                        "format": "uri"
+                                                    },
+                                                    "issn": {
+                                                        "type": "string"
+                                                    },
+                                                    "alias": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "id": {
+                                                        "type": "integer"
+                                                    },
+                                                    "slug": {
+                                                        "type": "string"
+                                                    },
+                                                    "unique_id": {
+                                                        "type": "string"
+                                                    },
+                                                    "full_slug": {
+                                                        "type": "string"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "alias",
+                                                    "display_name",
+                                                    "full_slug",
+                                                    "id",
+                                                    "issn",
+                                                    "official_page",
+                                                    "slug",
+                                                    "unique_id"
+                                                ]
+                                            },
+                                            "LitReviewResponse": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "fssConfig": {
+                                                        "type": "object",
+                                                        "additionalProperties": {}
+                                                    },
+                                                    "total": {
+                                                        "type": "integer"
+                                                    },
+                                                    "data": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "$ref": "#/components/schemas/Paper"
+                                                        }
+                                                    }
+                                                },
+                                                "required": [
+                                                    "data",
+                                                    "fssConfig",
+                                                    "total"
+                                                ]
+                                            },
+                                            "Paper": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "id": {
+                                                        "type": "integer"
+                                                    },
+                                                    "title": {
+                                                        "type": "string"
+                                                    },
+                                                    "is_archived": {
+                                                        "type": "boolean"
+                                                    },
+                                                    "full_slug": {
+                                                        "type": "string"
+                                                    },
+                                                    "journal": {
+                                                        "$ref": "#/components/schemas/Journal"
+                                                    },
+                                                    "conference_series": {
+                                                        "type": "string",
+                                                        "readOnly": true
+                                                    },
+                                                    "date": {
+                                                        "type": "string",
+                                                        "format": "date-time"
+                                                    },
+                                                    "is_oa": {
+                                                        "type": "boolean"
+                                                    },
+                                                    "publication_type": {
+                                                        "type": "string"
+                                                    },
+                                                    "doi": {
+                                                        "type": "string"
+                                                    },
+                                                    "authors": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "$ref": "#/components/schemas/Author"
+                                                        }
+                                                    },
+                                                    "affiliations": {
+                                                        "type": "string",
+                                                        "readOnly": true
+                                                    },
+                                                    "fulltext_url": {
+                                                        "type": "string",
+                                                        "format": "uri"
+                                                    },
+                                                    "fulltext_url_no_follow": {
+                                                        "type": "boolean"
+                                                    },
+                                                    "paper_urls": {
+                                                        "type": "string",
+                                                        "readOnly": true
+                                                    },
+                                                    "metrics": {
+                                                        "type": "string",
+                                                        "readOnly": true
+                                                    },
+                                                    "is_bookmarked": {
+                                                        "type": "boolean"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "affiliations",
+                                                    "authors",
+                                                    "conference_series",
+                                                    "date",
+                                                    "doi",
+                                                    "full_slug",
+                                                    "fulltext_url",
+                                                    "fulltext_url_no_follow",
+                                                    "id",
+                                                    "is_archived",
+                                                    "is_bookmarked",
+                                                    "is_oa",
+                                                    "journal",
+                                                    "metrics",
+                                                    "paper_urls",
+                                                    "publication_type",
+                                                    "title"
+                                                ]
+                                            },
+                                            "PaperInfoResponse": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "paper_info": {
+                                                        "type": "string"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "paper_info"
+                                                ]
+                                            }
+                                        },
+                                        "securitySchemes": {
+                                            "tokenAuth": {
+                                                "type": "apiKey",
+                                                "in": "header",
+                                                "name": "Authorization",
+                                                "description": "Token-based authentication with required prefix \"Token\""
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "service_http",
+                                    "instructions": "",
+                                    "authorization_type": "custom",
+                                    "verification_tokens": {},
+                                    "custom_auth_header": "Authorization"
+                                },
+                                "privacy_policy_url": "https://typeset.io/t/security-commitment/"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_Yd0V0pGKkpJXDDPRzZdbc3EM~gzm_tool_U7weRgnRrHYybF5p3LT0Xgui",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/pdf",
+                                "application/msword",
+                                "text/x-script.python",
+                                "application/json",
+                                "text/plain",
+                                "application/x-latext",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "text/x-php",
+                                "text/markdown",
+                                "text/x-csharp",
+                                "text/x-c++",
+                                "text/x-typescript",
+                                "text/x-tex",
+                                "text/x-java",
+                                "text/x-sh",
+                                "text/x-c",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/html"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-DtjWjSDiv",
+                        "organization_id": "org-qbNH4Kh7Wv79pcUSCvhzlnPk",
+                        "short_url": "g-DtjWjSDiv-marketing",
+                        "author": {
+                            "user_id": "user-6rJNCIGs3AxPqPH1boVlazmm",
+                            "display_name": "Vidal Nicolas",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "rIemxZjohn",
+                                        "username": "Nicolas Vidal",
+                                        "display_name": "Nicolas Vidal",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/nicolas-vidal-tw"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "MARKETING",
+                            "description": "Your expert mentor in advertising >> Guiding Media Professionals working at the Big 6 agencies.",
+                            "prompt_starters": [
+                                "MARKETING - Perfect Prompt Formula",
+                                "Can you analyze this marketing strategy?",
+                                "I need advice on client communication.",
+                                "How can I improve my media campaign?",
+                                "What are the latest trends in digital marketing?"
+                            ],
+                            "profile_pic_id": "file-m4GlwY1VIc3ADwoMP9KlAZta",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-m4GlwY1VIc3ADwoMP9KlAZta?se=2123-12-12T03%3A34%3A34Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3D1a3ca873-e932-4dda-af7b-c1f8e5a0b35f.png&sig=DrTNZCq5RNevq/DGskuy7NOXJR5K%2BLGs4I93F8Lny8A%3D",
+                            "categories": [
+                                "research"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-05T02:35:06.789551+00:00",
+                        "updated_at": "2024-03-29T10:03:35.312245+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_9EJxKRopFZByD6h8LGZtC4PU~gzm_tool_ONNbO0Ur2HKw1aulwNac6bCZ",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_9EJxKRopFZByD6h8LGZtC4PU~gzm_tool_sJjWTOnuSFrD7SMXy2YlMn93",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_DK7kaL8AFg6pqL2hg5Bv5XqU~gzm_tool_rri1zuuUtVLqRxfRd6RcwYV8",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_Lao7HP2u5c7LkQqBBHTHkLOA~gzm_file_NXZsX6ErWItqT1WZmi1WcWt2",
+                            "type": "image/png",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/pdf",
+                                "application/msword",
+                                "text/x-script.python",
+                                "application/json",
+                                "text/plain",
+                                "application/x-latext",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "text/x-php",
+                                "text/markdown",
+                                "text/x-csharp",
+                                "text/x-c++",
+                                "text/x-typescript",
+                                "text/x-tex",
+                                "text/x-java",
+                                "text/x-sh",
+                                "text/x-c",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/html"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-QSh6KHL3S",
+                        "organization_id": "org-lPBklNcBEkMScP7SOjeXU6XN",
+                        "short_url": "g-QSh6KHL3S-pdf-reader",
+                        "author": {
+                            "user_id": "user-epGIyjzKmM8udLaIlfrIUTjA",
+                            "display_name": "webcafesoftware.com",
+                            "link_to": "https://webcafesoftware.com",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": false,
+                            "display_socials": [
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "1594925779778871296",
+                                        "username": "@webcafeai",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/webcafeai"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "PDF Reader",
+                            "description": "In-depth interaction with PDF content",
+                            "prompt_starters": [
+                                "What information do you need from your PDF?",
+                                "How would you like to summarize this section?",
+                                "Which part of the PDF should we focus on annotating?",
+                                "Can I help clarify anything in your document?"
+                            ],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-o6TIxzq2lzfwDsvhZsiVdlAI?se=2123-10-16T01%3A58%3A42Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D76fba5da-28b0-473d-9293-12209d2cd23a.png&sig=6m0ckhpMy9jS0f%2BvWplBX2As5LVjDEj1Ve4x7pelws4%3D",
+                            "categories": [
+                                "research"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-09T01:14:54.352116+00:00",
+                        "updated_at": "2024-03-09T14:17:50.541391+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_VLboyuJvytx95R0FWRmJuTT6",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_wjwczpM8ovYKMdS06oKFCBfu",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_RDRqdCInNAnzy6FMdaxf7ix2",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_z9NWc6fyz7sLtrx2YCYM3oC0",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_zGAX5WGnFslf6kq9BgohdCo0",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_rPKCKRwFBYG7RYWcqEcPfsFV",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_GflOmzbwBVA5hYvbU3y3kmiq",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_OKRI604HBHah6CevPZimJ05Y",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_KWbBTNONYcS0u6Zf3ymnrA8a",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_iOMjUf463mRpUXbQ04h3IT38",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_fMARQvOt1fGvsMsyp7wB5KpS",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_EqQcaXULNrNBHNrUnNxmUvNh",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_0i6Kl3w9YJCKsnx59HTzCSDc",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_idaqaX4yPjkIxt84c1y083t3",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_76PjfSuTjYWk2mkXW6J3lp2R",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_rkWUjFCHPc0ZeUINMiMTP8nv",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_INw1GQ6aTA0VyP7uxsNKMAV2",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_1UmXHwBiOPpwyI7IlXVUrj59",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_L1ORxbte6mCf4DG1Dc5Y9BRi",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_7kuETsznbkuEqJ56km0I58B5",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_xxTGugWacbr9RurKFv4SS7uZ",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_mTbcY5sjISacigs5ui0NqX1p",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_gmBBInNDzM4HTkkybbqBwkIP",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_5ASeR7iRI5CTQGcuRFChm9RP",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_MMvnpvtFSbeZNJ0KIB09vnNr",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_REhGHQc2TzWzEfgwE9pgvQu0",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_yrZnHJPSTv4maa4jsZt45avO",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_ChijrUHHbnz35heRSxVCudVQ",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_j9xLFAxnP3CKptmsoo72Wq5K",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_yWOY6KcpKdJKKQLG0LeiNS5B",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_54CAp1yKOMX2gD4qRsPEK2hX",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_qtVIYaAbnB8gkEgQKH4XikTX",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_BlKQNAquxhRNjXjc9eadXQew",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_bJGNnaDq8VAOrVPhUoTjDxp3",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_JG8VkM9pHl1vv8nEAJZ9Jags",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_AfRp0QTRY0idQ1JMcfs2JXad",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_9CCff9vad1mtVvRLyvsEt7Xq",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_w8vhXuenHO1jsoIqSCTzqoOa",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_oMEtp6Rp4S7ZuoRV3BUokqmo",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_rIGzhI9Kdp9YoKrmUowTXuE8",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_ftW6C68emGQhxYZCwEfVqLyw",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_SkPdnmTcT2WlyCWS79MI2lJH",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_A6JDtamkY4GOVvZQ8R5hiAjf",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_LqmMxR9IDIi2WcKE0XTvmjn4",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_LRK50Ill20eRpgkDXVCVadIS",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_file_drlzq45LvemjRB7ZRbeR6Jmy",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/pdf",
+                                "application/msword",
+                                "text/x-script.python",
+                                "application/json",
+                                "text/plain",
+                                "application/x-latext",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "text/x-php",
+                                "text/markdown",
+                                "text/x-csharp",
+                                "text/x-c++",
+                                "text/x-typescript",
+                                "text/x-tex",
+                                "text/x-java",
+                                "text/x-sh",
+                                "text/x-c",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/html"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-jBdvgesNC",
+                        "organization_id": "org-Q1sNHSCUqwEjWNY5mF5CsQO5",
+                        "short_url": "g-jBdvgesNC-diagram-data-research-analyze-visualize",
+                        "author": {
+                            "user_id": "user-G4p1yJeaaveeVcqU3SOAhKEe",
+                            "display_name": "Max & Kirill Dubovitsky",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "r8en7iBpwD",
+                                        "username": "Maxim Dubovitsky",
+                                        "display_name": "Maxim Dubovitsky",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/maxim-dubovitsky"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Diagram & Data: Research, Analyze, Visualize",
+                            "description": "Complex Visualizations (Diagrams + Charts), Data Analysis & Reseach. For Coders: Visualize Databases, UserFlows, ERD, PlantUML and More. For business & data analysis: Mindmaps, Flowcharts and more.",
+                            "prompt_starters": [
+                                "🌐Create a simple graph diagram of an average company structure",
+                                "🤖Create a simple mindmap about ChatGPT applications and add an image - a simplified brain icon",
+                                "💾Make up and Visualize a simple normalized SQL database for e-comm ",
+                                "📊Create a bar-chart of biggest countries population (approx)",
+                                "🍰 Create an imaginary pie-chart of a distribution of the marketing budget",
+                                "🏡Create a simplified sequence diagram of how the real estate sale happens "
+                            ],
+                            "profile_pic_id": "file-Fr9BKvMrMztBIsyKuFUPSBCV",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-Fr9BKvMrMztBIsyKuFUPSBCV?se=2124-03-11T00%3A23%3A52Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3D231324123.jpg&sig=aQpr3kEM9fYxs6%2BIEW8Z1IQy1YlegUmx4Jasipzifgo%3D",
+                            "categories": [
+                                "research"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-10T23:20:32.477425+00:00",
+                        "updated_at": "2024-04-12T01:24:33.215273+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "q40DDcLEaJDnjcn8fgvUQVAn",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-aceb18839f79a7afb03f18c563d0e71c9068ad99",
+                                "domain": "www.blocksandarrows.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.1.0",
+                                    "info": {
+                                        "title": "GPT Companion",
+                                        "version": "1.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://www.blocksandarrows.com",
+                                            "description": "Development server"
+                                        }
+                                    ],
+                                    "components": {
+                                        "schemas": {},
+                                        "parameters": {}
+                                    },
+                                    "paths": {
+                                        "/api/gpt/getGuides": {
+                                            "post": {
+                                                "summary": "Endpoint to get guides to create diagram",
+                                                "x-openai-isConsequential": false,
+                                                "operationId": "post_GetGuides",
+                                                "requestBody": {
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "type": {
+                                                                        "type": "string",
+                                                                        "enum": [
+                                                                            "graph",
+                                                                            "class",
+                                                                            "sequence",
+                                                                            "mindmap",
+                                                                            "timeline",
+                                                                            "entity-relationship",
+                                                                            "pie-chart",
+                                                                            "database"
+                                                                        ],
+                                                                        "description": "Type of the diagram",
+                                                                        "example": "graph"
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "type"
+                                                                ]
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Guides for creating this type of diagrams",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "guide": {
+                                                                            "type": "string"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "guide"
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/gpt/renderDiagram": {
+                                            "post": {
+                                                "summary": "",
+                                                "x-openai-isConsequential": false,
+                                                "operationId": "post_RenderDiagram",
+                                                "requestBody": {
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "type": {
+                                                                        "type": "string",
+                                                                        "enum": [
+                                                                            "graph",
+                                                                            "class",
+                                                                            "sequence",
+                                                                            "mindmap",
+                                                                            "timeline",
+                                                                            "entity-relationship",
+                                                                            "pie-chart",
+                                                                            "database"
+                                                                        ],
+                                                                        "description": "Type of the diagram",
+                                                                        "example": "graph"
+                                                                    },
+                                                                    "diagramString": {
+                                                                        "type": "string",
+                                                                        "description": "The string for the chart rendering"
+                                                                    },
+                                                                    "documentName": {
+                                                                        "type": "string",
+                                                                        "description": "The name of the document in which the diagram will be placed"
+                                                                    },
+                                                                    "openaiFileIdRefs": {
+                                                                        "type": "array",
+                                                                        "items": {
+                                                                            "type": "object",
+                                                                            "properties": {
+                                                                                "name": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "id": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "mime_type": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "download_link": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            },
+                                                                            "required": [
+                                                                                "name",
+                                                                                "id",
+                                                                                "mime_type",
+                                                                                "download_link"
+                                                                            ],
+                                                                            "description": "send the generated image only with a mindmap diagram, and only if the user agreed. if not, send empty array"
+                                                                        },
+                                                                        "description": "send the generated image only with a mindmap diagram, and only if the user agreed. if not, send empty array"
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "type",
+                                                                    "diagramString",
+                                                                    "documentName",
+                                                                    "openaiFileIdRefs"
+                                                                ]
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Diagram successfully rendered",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "answer": {
+                                                                            "type": "string",
+                                                                            "description": "Answer with image and url to edit. You should not change the response text, only insert data such as descriptions"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "answer"
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "422": {
+                                                        "description": "Error while rendering the diagram",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "errorMessage": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "diagramTypeGuides": {
+                                                                            "type": "string",
+                                                                            "description": "look at these guides related to the current chart type, and try to fix the error"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "errorMessage",
+                                                                        "diagramTypeGuides"
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/gpt/getExamplesForUser": {
+                                            "post": {
+                                                "summary": "An endpoint to show the user which charts we can build.",
+                                                "x-openai-isConsequential": false,
+                                                "operationId": "post_GetExamplesForUser",
+                                                "requestBody": {
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {}
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "An answer with examples of diagrams that you should provide",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "answer": {
+                                                                            "type": "string"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "answer"
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "webhooks": {}
+                                },
+                                "auth": {
+                                    "type": "none"
+                                },
+                                "privacy_policy_url": "https://www.blocksandarrows.com/policy"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_um88Pr7yOBvv78tSpexsvqac~gzm_tool_pPNbhnm8niIJgq0UV6TJfB3j",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "UJywOnC5C3NtWBBI4LaRM9rL",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_um88Pr7yOBvv78tSpexsvqac~gzm_tool_nhLGwBn3StTgQd28UxeRB7Qn",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/pdf",
+                                "application/msword",
+                                "text/x-script.python",
+                                "application/json",
+                                "text/plain",
+                                "application/x-latext",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "text/x-php",
+                                "text/markdown",
+                                "text/x-csharp",
+                                "text/x-c++",
+                                "text/x-typescript",
+                                "text/x-tex",
+                                "text/x-java",
+                                "text/x-sh",
+                                "text/x-c",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/html"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-rsuRKk1MX",
+                        "organization_id": "org-LBgPBRpZmGcbdtr7sbDlC4Zx",
+                        "short_url": "g-rsuRKk1MX-pdf-insight",
+                        "author": {
+                            "user_id": "user-ijOD0AlWVvNlQSngmVhLIdBX",
+                            "display_name": "mjproductions.tech",
+                            "link_to": "https://mjproductions.tech",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "PDF Insight",
+                            "description": "I provide insights and summaries of PDF documents uploaded by users.",
+                            "prompt_starters": [
+                                "Can you summarize this PDF for me?",
+                                "What are the key points in this uploaded document?",
+                                "Could you explain this section of the PDF?",
+                                "I have a question about this part of the document."
+                            ],
+                            "profile_pic_id": "file-4IyR0QcEidgzHaOtqyfTJoq8",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-4IyR0QcEidgzHaOtqyfTJoq8?se=2123-10-24T12%3A09%3A26Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D4cacc427-acab-4f9c-9da2-e7fc8d533939.png&sig=bqQ/vVgJqrsuyj%2BNm2H9Gwp3isevguTlQ7p4ZCoVNTw%3D",
+                            "categories": [
+                                "research"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-17T12:07:05.200382+00:00",
+                        "updated_at": "2024-04-02T16:13:36.808755+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "eFVKQ80O1IXMfja1yHnRHAWu",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-cb4e32fa42533602347aac692f940d915ca41ce4",
+                                "domain": "api.adzedek.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.0",
+                                    "info": {
+                                        "title": "Adzedek API",
+                                        "description": "This API is used to fetch advertisements to show.",
+                                        "version": "1.1.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://api.adzedek.com",
+                                            "description": "Main Adzedek API server"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/fetch_ad_to_show_GPTs/1711036585739x673462072860213200": {
+                                            "get": {
+                                                "operationId": "fetchAdToShowGPTs",
+                                                "summary": "Fetch an advertisement to show",
+                                                "description": "Retrieves advertisement details including id and text.",
+                                                "parameters": [
+                                                    {
+                                                        "in": "query",
+                                                        "name": "conversation_context",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        },
+                                                        "description": "The full user input. If this is the first message in the conversation, add \"[start]\" before the string, otherwise add \"[continue]\" before the string."
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "A JSON object containing the advertisement details",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/AdResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "security": [
+                                                    {
+                                                        "ApiKeyAuth": []
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "AdResponse": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "id": {
+                                                        "type": "string"
+                                                    },
+                                                    "text": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "securitySchemes": {
+                                            "ApiKeyAuth": {
+                                                "type": "apiKey",
+                                                "in": "header",
+                                                "name": "adzedek-api"
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "service_http",
+                                    "instructions": "",
+                                    "authorization_type": "custom",
+                                    "verification_tokens": {},
+                                    "custom_auth_header": "adzedek-api"
+                                },
+                                "privacy_policy_url": "https://app.adzedek.com/policy"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_Z24ertPmEDOhfUflvOOkwaK6~gzm_tool_mOqukFqP1cimYdF7psNXlUbA",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/pdf",
+                                "application/msword",
+                                "text/x-script.python",
+                                "application/json",
+                                "text/plain",
+                                "application/x-latext",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "text/x-php",
+                                "text/markdown",
+                                "text/x-csharp",
+                                "text/x-c++",
+                                "text/x-typescript",
+                                "text/x-tex",
+                                "text/x-java",
+                                "text/x-sh",
+                                "text/x-c",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/html"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-4MDJvo2TJ",
+                        "organization_id": "org-Z1xuBRllTkDI2mZeWVXqLJcX",
+                        "short_url": "g-4MDJvo2TJ-video-summarizer",
+                        "author": {
+                            "user_id": "user-ChM15nw3rXMNl6Be3ovBde66",
+                            "display_name": "thegeneralmind.com",
+                            "link_to": "https://thegeneralmind.com",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Video Summarizer",
+                            "description": "Video summarizer | video summaries, chat with Youtube video",
+                            "prompt_starters": [
+                                " Analyze this video podcast critically"
+                            ],
+                            "profile_pic_id": "file-CiTT1UqB60WDRULvrdBKwhYL",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-CiTT1UqB60WDRULvrdBKwhYL?se=2124-02-02T01%3A09%3A06Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dimage.png&sig=kRwY5nDxo4IpsDNT1TVOLeXp9fFn4A4a1873MN%2B3QKE%3D",
+                            "categories": [
+                                "research"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-02-15T19:22:59.202414+00:00",
+                        "updated_at": "2024-04-02T22:34:07.579291+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_jrYxyXNqZTxHuyq4Cap4TKwQ~gzm_tool_hRncoQJV176gApnybZaYsgks",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_JGzmg8m8TPIobDuz2I3DxQ6C~gzm_tool_qFIUmz0pZoqFhjPgDPpXOVft",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_20nfR4yBAGPlQ5NnfDUqADVs~gzm_tool_2RLEMJmmHryCTiAoYPqVC7lP",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "EQnpd5dKFkVTAWOtqWDBik9x",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-36865512f6f8aa89e732335aa2c9fa3b9c63eca0",
+                                "domain": "thegeneralmind.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.0",
+                                    "info": {
+                                        "title": "YouTube Transcript API",
+                                        "description": "This API retrieves YouTube video transcripts.",
+                                        "version": "1.0.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://thegeneralmind.com/cgi-bin/app.cgi/api",
+                                            "description": "Production server"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/transcript": {
+                                            "post": {
+                                                "operationId": "getTranscript",
+                                                "summary": "Get YouTube Video Transcript",
+                                                "description": "Retrieves the transcript for a given YouTube video ID.",
+                                                "x-openai-isConsequential": false,
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "videoId": {
+                                                                        "type": "string",
+                                                                        "description": "The YouTube video ID for which the transcript is requested."
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "A successful response with the video transcript.",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "transcript": {
+                                                                            "type": "string",
+                                                                            "description": "The transcript text of the requested video."
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Bad Request - No video ID provided or transcripts are disabled for this video or no transcript found for the given video ID.",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "error": {
+                                                                            "type": "string",
+                                                                            "description": "Error message detailing the reason for the failure."
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "500": {
+                                                        "description": "Internal Server Error",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "error": {
+                                                                            "type": "string",
+                                                                            "description": "General error message for unexpected errors."
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "none"
+                                },
+                                "privacy_policy_url": "https://thegeneralmind.com/privacy/"
+                            }
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_qWy7Di4h0tdQDuuoh1ox2Ak7~gzm_file_ojun6FkeeXQDpSNNBpPBeTEZ",
+                            "type": "image/png",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/pdf",
+                                "application/msword",
+                                "text/x-script.python",
+                                "application/json",
+                                "text/plain",
+                                "application/x-latext",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "text/x-php",
+                                "text/markdown",
+                                "text/x-csharp",
+                                "text/x-c++",
+                                "text/x-typescript",
+                                "text/x-tex",
+                                "text/x-java",
+                                "text/x-sh",
+                                "text/x-c",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/html"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-GrshPDvS3",
+                        "organization_id": "org-uoxn0Z4VG7HfxDJE5qyehKZw",
+                        "short_url": "g-GrshPDvS3-seo",
+                        "author": {
+                            "user_id": "user-pwXYTRW1ZWSrpKSSgownsWSR",
+                            "display_name": "Orren Prunckun",
+                            "link_to": "https://orrenprunckun.com",
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "YihTkKx3Pg",
+                                        "username": "Orren Prunckun",
+                                        "display_name": "Orren Prunckun",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/orrenprunckun"
+                                    }
+                                },
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "255484352",
+                                        "username": "@OrrenHimself",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/OrrenHimself"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "SEO",
+                            "description": "Enter any URL and keyword and get an On-Page SEO analysis & insights! If it's NOT working for you, you need to 1) add BOTH a URL plus a keyword or 2) or ChatGPT is playing up & you need to tray again. Please contact with a reply email address with any bugs you find. I reply to all  😊",
+                            "prompt_starters": [
+                                "You need to add URL plus a keyword for it to work!",
+                                "What improvements can I make for [YourKeyword] on my [YourURL.com] ?",
+                                "Please analyze the SEO of my site: [YourURL.com] + [keyword]",
+                                "Buy me a coffee"
+                            ],
+                            "profile_pic_id": "file-s5NcRVt5egnVXovMSBsfPYDM",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-s5NcRVt5egnVXovMSBsfPYDM?se=2123-10-14T06%3A46%3A11Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dicon.png&sig=zJTfWBwlzX1jJYZ0vBbMaLTwcX/gHiYTLSrvijL%2BWDY%3D",
+                            "categories": [
+                                "research"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-07T06:28:41.942325+00:00",
+                        "updated_at": "2024-03-09T14:19:12.853133+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_JdosdJuK7RzHUk2CEDDR4SSE~gzm_tool_dxvHGUhuRW2EwaiZuwYTd49z",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-308e3ea890c9f4322a8f06398688f94b685df50d",
+                                "domain": "seo-plugin.orrenprunckun.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "penapi": "3.0.1",
+                                    "info": {
+                                        "title": "SEO",
+                                        "description": "Enter any URL and keyword and get an On-Page SEO analysis & insights!",
+                                        "version": "v1"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://seo-plugin.orrenprunckun.com/"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/": {
+                                            "get": {
+                                                "operationId": "getData",
+                                                "summary": "Get data from users",
+                                                "description": "Get data from users",
+                                                "parameters": [
+                                                    {
+                                                        "name": "keyword",
+                                                        "in": "query",
+                                                        "description": "Keyword",
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "url",
+                                                        "in": "query",
+                                                        "description": "URL",
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful response",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "message": {
+                                                                            "type": "string"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "dataResponse": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "robots": {
+                                                        "type": "string",
+                                                        "description": "Text from robots.txt"
+                                                    },
+                                                    "responseCode": {
+                                                        "type": "string",
+                                                        "description": "Response code"
+                                                    },
+                                                    "loadTime": {
+                                                        "type": "number",
+                                                        "description": "Load time"
+                                                    },
+                                                    "ahrefText": {
+                                                        "type": "string",
+                                                        "description": "Anchor text from ahref"
+                                                    },
+                                                    "ahrefLink": {
+                                                        "type": "string",
+                                                        "description": "Link from ahref"
+                                                    },
+                                                    "imageName": {
+                                                        "type": "string",
+                                                        "description": "Name of image file"
+                                                    },
+                                                    "imageAlt": {
+                                                        "type": "string",
+                                                        "description": "Alt text of image"
+                                                    },
+                                                    "title": {
+                                                        "type": "string",
+                                                        "description": "Title of page"
+                                                    },
+                                                    "meta": {
+                                                        "type": "string",
+                                                        "description": "Meta description of page"
+                                                    },
+                                                    "keywordUrl": {
+                                                        "type": "string",
+                                                        "description": "Keyword presence in URL"
+                                                    },
+                                                    "keywordBody": {
+                                                        "type": "string",
+                                                        "description": "Keyword presence in body text"
+                                                    },
+                                                    "keywordUrltally": {
+                                                        "type": "string",
+                                                        "description": "Keyword tally in URL"
+                                                    },
+                                                    "keywordBodyTally": {
+                                                        "type": "string",
+                                                        "description": "Keyword tally in body text"
+                                                    },
+                                                    "ahrefTextTally": {
+                                                        "type": "string",
+                                                        "description": "Anchor text from ahref tally"
+                                                    },
+                                                    "ahrefLinkTally": {
+                                                        "type": "string",
+                                                        "description": "Link from ahref tally"
+                                                    },
+                                                    "imageNameTally": {
+                                                        "type": "string",
+                                                        "description": "Name of image file tally"
+                                                    },
+                                                    "imageAltTally": {
+                                                        "type": "string",
+                                                        "description": "Alt text of image tally"
+                                                    },
+                                                    "protocol": {
+                                                        "type": "string",
+                                                        "description": "HTTPS or HTTP protocol being used"
+                                                    },
+                                                    "viewport": {
+                                                        "type": "string",
+                                                        "description": "Viewport of initial-scale=1.0 being used"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "none"
+                                },
+                                "privacy_policy_url": "https://orrenprunckun.com/privacy"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_JdosdJuK7RzHUk2CEDDR4SSE~gzm_tool_ok4U7Jbt18J98LxGLAH25wWy",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-880e2b4b9005a92a7e68684fa495064ce084f7e6",
+                                "domain": "orrenprunckun.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.1.0",
+                                    "info": {
+                                        "title": "Access external data for your GPTs",
+                                        "version": "v1.0.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://orrenprunckun.com/ai-copilot-ads"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/": {
+                                            "get": {
+                                                "description": "Data",
+                                                "operationId": "data",
+                                                "x-openai-isConsequential": false,
+                                                "parameters": [
+                                                    {
+                                                        "name": "getAds",
+                                                        "in": "query",
+                                                        "description": "Get Ads parameter",
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "deprecated": false,
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful response",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "example": {
+                                                                    "message": "Data fetched successfully",
+                                                                    "data": []
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {}
+                                    }
+                                },
+                                "auth": {
+                                    "type": "none"
+                                },
+                                "privacy_policy_url": "https://orrenprunckun.com/privacy"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_KMGav3n0S7zD4rJwCxR0rjJl~gzm_tool_ncwl4RaWvKF1rpc4fUkX39eK",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/pdf",
+                                "application/msword",
+                                "text/x-script.python",
+                                "application/json",
+                                "text/plain",
+                                "application/x-latext",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "text/x-php",
+                                "text/markdown",
+                                "text/x-csharp",
+                                "text/x-c++",
+                                "text/x-typescript",
+                                "text/x-tex",
+                                "text/x-java",
+                                "text/x-sh",
+                                "text/x-c",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/html"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-HXZv0dg8w",
+                        "organization_id": "org-pEr2TADCbT4YsigDTNOsgCAz",
+                        "short_url": "g-HXZv0dg8w-video-insights-summaries-transcription-vision",
+                        "author": {
+                            "user_id": "user-5YQ2tZK9OnjA7wmelCEvDTji",
+                            "display_name": "videoinsights.ai",
+                            "link_to": "https://videoinsights.ai",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Video Insights: Summaries/Transcription/Vision",
+                            "description": "Chat with any video or audio. High-quality search, summarization, insights, multi-language transcriptions, and more. We currently support Youtube and files uploaded on our website.",
+                            "prompt_starters": [
+                                "What can Video Insights do? ",
+                                "What are the best prompts for Video Insights?",
+                                "Surprise me.",
+                                "Submit feedback or feature request to Video Insights"
+                            ],
+                            "profile_pic_id": "file-XDTgDvDuiiu20qCqfBLSpQAm",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-XDTgDvDuiiu20qCqfBLSpQAm?se=2123-10-21T16%3A21%3A09Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3DVIDEO%2520INSIGHTS%2520%252821%2529.png&sig=8hxApFwhN4G89zQfxONQ9I%2BhGsqJWGuwaJyRA7k3qDE%3D",
+                            "categories": [
+                                "research"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-12T01:29:59.917071+00:00",
+                        "updated_at": "2024-04-11T23:21:06.495360+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "b7xh03Rk3EYgihM1DYILeB07",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-4853ae55a931f50dad213d0154337e1a73053a15",
+                                "domain": "action.videoinsights.ai",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.3",
+                                    "info": {
+                                        "title": "Video Insights",
+                                        "version": "0.9.0",
+                                        "description": "The Video Insights application"
+                                    },
+                                    "paths": {
+                                        "/api/media/file/{file_id}": {
+                                            "delete": {
+                                                "operationId": "media_delete",
+                                                "description": "Deletes a file",
+                                                "parameters": [
+                                                    {
+                                                        "in": "path",
+                                                        "name": "file_id",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        },
+                                                        "required": true
+                                                    }
+                                                ],
+                                                "tags": [
+                                                    "media"
+                                                ],
+                                                "security": [
+                                                    {
+                                                        "VideoInsightsAuthentication": []
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/MediaDelete"
+                                                                }
+                                                            }
+                                                        },
+                                                        "description": ""
+                                                    },
+                                                    "401": {
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/GenericError"
+                                                                }
+                                                            }
+                                                        },
+                                                        "description": ""
+                                                    },
+                                                    "500": {
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/GenericError"
+                                                                }
+                                                            }
+                                                        },
+                                                        "description": ""
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/media/file/list": {
+                                            "get": {
+                                                "operationId": "media_list",
+                                                "description": "Lists all files",
+                                                "tags": [
+                                                    "media"
+                                                ],
+                                                "security": [
+                                                    {
+                                                        "VideoInsightsAuthentication": []
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/MediaFileList"
+                                                                }
+                                                            }
+                                                        },
+                                                        "description": ""
+                                                    },
+                                                    "401": {
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/GenericError"
+                                                                }
+                                                            }
+                                                        },
+                                                        "description": ""
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/media/file/transcript": {
+                                            "get": {
+                                                "operationId": "media_file_transcript",
+                                                "description": "Gets the transcript for a media file uploaded on the VideoInsights Platform.",
+                                                "parameters": [
+                                                    {
+                                                        "in": "query",
+                                                        "name": "media_file_id",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        },
+                                                        "description": "The video ID of the video to get transcript for",
+                                                        "required": true
+                                                    },
+                                                    {
+                                                        "in": "query",
+                                                        "name": "page",
+                                                        "schema": {
+                                                            "type": "integer"
+                                                        },
+                                                        "description": "The transcript page number to get. Defaults to 0 and increments by 1 for long transcripts"
+                                                    },
+                                                    {
+                                                        "in": "query",
+                                                        "name": "timestamped",
+                                                        "schema": {
+                                                            "type": "boolean"
+                                                        },
+                                                        "description": "Whether or not the transcript should include the timestamp values. Defaults to false"
+                                                    }
+                                                ],
+                                                "tags": [
+                                                    "media"
+                                                ],
+                                                "security": [
+                                                    {
+                                                        "VideoInsightsAuthentication": []
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/MediaFileList"
+                                                                }
+                                                            }
+                                                        },
+                                                        "description": ""
+                                                    },
+                                                    "400": {
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/GenericError"
+                                                                }
+                                                            }
+                                                        },
+                                                        "description": ""
+                                                    },
+                                                    "401": {
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/GenericError"
+                                                                }
+                                                            }
+                                                        },
+                                                        "description": ""
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/user/feedback": {
+                                            "post": {
+                                                "operationId": "user_feedback",
+                                                "description": "Submit feedback to the Video Insights team",
+                                                "tags": [
+                                                    "user"
+                                                ],
+                                                "requestBody": {
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/UserFeedbackDeserializer"
+                                                            }
+                                                        },
+                                                        "application/x-www-form-urlencoded": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/UserFeedbackDeserializer"
+                                                            }
+                                                        },
+                                                        "multipart/form-data": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/UserFeedbackDeserializer"
+                                                            }
+                                                        }
+                                                    },
+                                                    "required": true
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/UserFeedback"
+                                                                }
+                                                            }
+                                                        },
+                                                        "description": ""
+                                                    },
+                                                    "401": {
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/GenericError"
+                                                                }
+                                                            }
+                                                        },
+                                                        "description": ""
+                                                    },
+                                                    "500": {
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/GenericError"
+                                                                }
+                                                            }
+                                                        },
+                                                        "description": ""
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/user/information": {
+                                            "get": {
+                                                "operationId": "user_information",
+                                                "description": "Gets information about the user making the request",
+                                                "tags": [
+                                                    "user"
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/UserInformation"
+                                                                }
+                                                            }
+                                                        },
+                                                        "description": ""
+                                                    },
+                                                    "401": {
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/GenericError"
+                                                                }
+                                                            }
+                                                        },
+                                                        "description": ""
+                                                    },
+                                                    "500": {
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/GenericError"
+                                                                }
+                                                            }
+                                                        },
+                                                        "description": ""
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/youtube/comments": {
+                                            "get": {
+                                                "operationId": "comments",
+                                                "description": "Get the top 10 comments for a youtube video",
+                                                "parameters": [
+                                                    {
+                                                        "in": "query",
+                                                        "name": "video_id",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        },
+                                                        "description": "The video ID of the video to get comments for",
+                                                        "required": true
+                                                    }
+                                                ],
+                                                "tags": [
+                                                    "youtube"
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "$ref": "#/components/schemas/YoutubeTranscript"
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        "description": ""
+                                                    },
+                                                    "400": {
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/GenericError"
+                                                                }
+                                                            }
+                                                        },
+                                                        "description": ""
+                                                    },
+                                                    "401": {
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/GenericError"
+                                                                }
+                                                            }
+                                                        },
+                                                        "description": ""
+                                                    },
+                                                    "500": {
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/GenericError"
+                                                                }
+                                                            }
+                                                        },
+                                                        "description": ""
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/youtube/metadata": {
+                                            "get": {
+                                                "operationId": "metadata",
+                                                "description": "Get the metadata for a youtube video",
+                                                "parameters": [
+                                                    {
+                                                        "in": "query",
+                                                        "name": "video_id",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        },
+                                                        "description": "The video ID of the video to get metadata for",
+                                                        "required": true
+                                                    }
+                                                ],
+                                                "tags": [
+                                                    "youtube"
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/YoutubeMetadata"
+                                                                }
+                                                            }
+                                                        },
+                                                        "description": ""
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/youtube/transcript": {
+                                            "get": {
+                                                "operationId": "transcript",
+                                                "description": "Get the transcript for a youtube video including the metadata and statistics. ",
+                                                "parameters": [
+                                                    {
+                                                        "in": "query",
+                                                        "name": "page",
+                                                        "schema": {
+                                                            "type": "integer"
+                                                        },
+                                                        "description": "The transcript page number to get. Defaults to 0 and increments by 1 for long transcripts"
+                                                    },
+                                                    {
+                                                        "in": "query",
+                                                        "name": "timestamped",
+                                                        "schema": {
+                                                            "type": "boolean"
+                                                        },
+                                                        "description": "Whether or not the transcript should include the timestamp values. Defaults to false"
+                                                    },
+                                                    {
+                                                        "in": "query",
+                                                        "name": "video_id",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        },
+                                                        "description": "The video ID of the video to get transcript for",
+                                                        "required": true
+                                                    }
+                                                ],
+                                                "tags": [
+                                                    "youtube"
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/YoutubeTranscript"
+                                                                }
+                                                            }
+                                                        },
+                                                        "description": ""
+                                                    },
+                                                    "400": {
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/GenericError"
+                                                                }
+                                                            }
+                                                        },
+                                                        "description": ""
+                                                    },
+                                                    "401": {
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/GenericError"
+                                                                }
+                                                            }
+                                                        },
+                                                        "description": ""
+                                                    },
+                                                    "500": {
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/GenericError"
+                                                                }
+                                                            }
+                                                        },
+                                                        "description": ""
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "GenericError": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "error": {}
+                                                },
+                                                "required": [
+                                                    "error"
+                                                ]
+                                            },
+                                            "MediaDelete": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "status": {
+                                                        "type": "string"
+                                                    },
+                                                    "md5": {
+                                                        "type": "string"
+                                                    },
+                                                    "file_id": {
+                                                        "type": "string",
+                                                        "format": "uuid"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "file_id",
+                                                    "md5",
+                                                    "status"
+                                                ]
+                                            },
+                                            "MediaFile": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "uploaded_at": {
+                                                        "type": "string"
+                                                    },
+                                                    "type": {
+                                                        "type": "string"
+                                                    },
+                                                    "id": {
+                                                        "type": "string",
+                                                        "format": "uuid"
+                                                    },
+                                                    "name": {
+                                                        "type": "string"
+                                                    },
+                                                    "size": {
+                                                        "type": "number",
+                                                        "format": "double"
+                                                    },
+                                                    "md5": {
+                                                        "type": "string"
+                                                    },
+                                                    "audio_parsed": {
+                                                        "type": "boolean"
+                                                    },
+                                                    "runtime_seconds": {
+                                                        "type": "integer"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "audio_parsed",
+                                                    "id",
+                                                    "md5",
+                                                    "name",
+                                                    "runtime_seconds",
+                                                    "size",
+                                                    "type",
+                                                    "uploaded_at"
+                                                ]
+                                            },
+                                            "MediaFileList": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "files": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "$ref": "#/components/schemas/MediaFile"
+                                                        }
+                                                    },
+                                                    "user": {
+                                                        "type": "string"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "files",
+                                                    "user"
+                                                ]
+                                            },
+                                            "UserFeedback": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "message": {
+                                                        "type": "string"
+                                                    },
+                                                    "type": {
+                                                        "type": "string"
+                                                    },
+                                                    "name": {
+                                                        "type": "string"
+                                                    },
+                                                    "sentiment": {
+                                                        "type": "string"
+                                                    },
+                                                    "email": {
+                                                        "type": "string",
+                                                        "format": "email"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "email",
+                                                    "message",
+                                                    "name",
+                                                    "sentiment",
+                                                    "type"
+                                                ]
+                                            },
+                                            "UserFeedbackDeserializer": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "message": {
+                                                        "type": "string"
+                                                    },
+                                                    "type": {
+                                                        "type": "string"
+                                                    },
+                                                    "sentiment": {
+                                                        "type": "string"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "message",
+                                                    "sentiment",
+                                                    "type"
+                                                ]
+                                            },
+                                            "UserInformation": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "email": {
+                                                        "type": "string",
+                                                        "format": "email"
+                                                    },
+                                                    "joined": {
+                                                        "type": "string",
+                                                        "format": "date-time"
+                                                    },
+                                                    "current_plan": {
+                                                        "type": "string"
+                                                    },
+                                                    "vi_tokens_unused": {
+                                                        "type": "integer"
+                                                    },
+                                                    "vi_tokens_used": {
+                                                        "type": "integer"
+                                                    },
+                                                    "token_reset_date": {
+                                                        "type": "string",
+                                                        "format": "date-time"
+                                                    },
+                                                    "token_reset_timestamp": {
+                                                        "type": "integer"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "current_plan",
+                                                    "email",
+                                                    "joined",
+                                                    "token_reset_date",
+                                                    "token_reset_timestamp",
+                                                    "vi_tokens_unused",
+                                                    "vi_tokens_used"
+                                                ]
+                                            },
+                                            "YoutubeMetadata": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "title": {
+                                                        "type": "string"
+                                                    },
+                                                    "description": {
+                                                        "type": "string"
+                                                    },
+                                                    "publishedAt": {
+                                                        "type": "string",
+                                                        "format": "date-time"
+                                                    },
+                                                    "tags": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "license": {
+                                                        "type": "string"
+                                                    },
+                                                    "madeForKids": {
+                                                        "type": "boolean"
+                                                    },
+                                                    "duration": {
+                                                        "type": "string"
+                                                    },
+                                                    "statistics": {
+                                                        "$ref": "#/components/schemas/YoutubeStatistics"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "description",
+                                                    "duration",
+                                                    "license",
+                                                    "madeForKids",
+                                                    "publishedAt",
+                                                    "statistics",
+                                                    "tags",
+                                                    "title"
+                                                ]
+                                            },
+                                            "YoutubeStatistics": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "viewCount": {
+                                                        "type": "integer"
+                                                    },
+                                                    "likeCount": {
+                                                        "type": "integer"
+                                                    },
+                                                    "favoriteCount": {
+                                                        "type": "integer"
+                                                    },
+                                                    "commentCount": {
+                                                        "type": "integer"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "commentCount",
+                                                    "favoriteCount",
+                                                    "likeCount",
+                                                    "viewCount"
+                                                ]
+                                            },
+                                            "YoutubeTranscript": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "timestamped": {
+                                                        "type": "boolean"
+                                                    },
+                                                    "transcript": {},
+                                                    "returned_page": {
+                                                        "type": "integer"
+                                                    },
+                                                    "has_more_pages": {
+                                                        "type": "boolean"
+                                                    },
+                                                    "metadata": {
+                                                        "$ref": "#/components/schemas/YoutubeMetadata"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "has_more_pages",
+                                                    "metadata",
+                                                    "returned_page",
+                                                    "timestamped",
+                                                    "transcript"
+                                                ]
+                                            }
+                                        },
+                                        "securitySchemes": {
+                                            "VideoInsightsAuthentication": {
+                                                "type": "Bearer",
+                                                "in": "header",
+                                                "name": "Authorization",
+                                                "description": "Bearer-based authentication with required prefix \"Bearer\""
+                                            }
+                                        }
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://action.videoinsights.ai"
+                                        }
+                                    ]
+                                },
+                                "auth": {
+                                    "type": "oauth",
+                                    "instructions": "",
+                                    "client_url": "https://auth.videoinsights.ai/oauth2/authorize",
+                                    "scope": "openid email https://openai.videoinsights.io/all",
+                                    "authorization_url": "https://auth.videoinsights.ai/oauth2/token",
+                                    "authorization_content_type": "application/x-www-form-urlencoded",
+                                    "verification_tokens": {},
+                                    "pkce_required": false,
+                                    "token_exchange_method": "default_post"
+                                },
+                                "privacy_policy_url": "https://videoinsights.ai/privacy"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_xCNHcPZ4UKaWNU5JvNpxy4Zz~gzm_tool_xinpVBzKVhoxfLUvxgZIPHFK",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_xCNHcPZ4UKaWNU5JvNpxy4Zz~gzm_tool_gCty1w59zuuNTl6punSZqEGU",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_xCNHcPZ4UKaWNU5JvNpxy4Zz~gzm_tool_j5WbQTCgtQJ8MR1yEU9HHm9Q",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/pdf",
+                                "application/msword",
+                                "text/x-script.python",
+                                "application/json",
+                                "text/plain",
+                                "application/x-latext",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "text/x-php",
+                                "text/markdown",
+                                "text/x-csharp",
+                                "text/x-c++",
+                                "text/x-typescript",
+                                "text/x-tex",
+                                "text/x-java",
+                                "text/x-sh",
+                                "text/x-c",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/html"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-7RJghLmOO",
+                        "organization_id": "org-znJIxGE33RZUQVWhVQpdIYMk",
+                        "short_url": "g-7RJghLmOO-accounting-gpt",
+                        "author": {
+                            "user_id": "user-7Mt0gtqqHC6IUzqbcvZbZLFt",
+                            "display_name": "Huang Xiaoming",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Accounting GPT",
+                            "description": "Your accounting expert.",
+                            "prompt_starters": [
+                                "Please introduce the accounting method for long-term equity investments according to International Accounting Standards.",
+                                "Please introduce the Capital Asset Pricing Model.",
+                                "Initial investment principal of 100 USD, annual interest1. Initial investment principal of 100 USD, annual interest rate of 5%, what is the future value after 5 years?",
+                                "At the end of each year, an investment of 100 USD is made at an interest rate of 5%. What is the future value of the annuity after 10 years?",
+                                "What is the concept of Asset according to IFRS."
+                            ],
+                            "profile_pic_id": "file-OaYRN79qEAeRUJQZstTLD1oy",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-OaYRN79qEAeRUJQZstTLD1oy?se=2123-10-18T03%3A23%3A59Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Df8d53d2d-8e4b-474e-871d-89015ea0f816.png&sig=5R9Hja1x36aWTEwLSzEamnxXhUuWa8F2tRqeiVnJZyg%3D",
+                            "categories": [
+                                "research"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-11T03:21:18.897422+00:00",
+                        "updated_at": "2024-03-26T09:07:58.505579+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_gsnTudD8AglgRXLL5Lmc4b04~gzm_tool_OOZrYhMJgaofC6akKpY1zijp",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_gsnTudD8AglgRXLL5Lmc4b04~gzm_tool_lljTv6RTFf46VluUFRzsWyV6",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_gsnTudD8AglgRXLL5Lmc4b04~gzm_tool_0pJaU3lsddr8pKJYLTsFLVS6",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "boNuPdUIRIyYTrLyeQovhrog",
+                            "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_gsnTudD8AglgRXLL5Lmc4b04~gzm_file_GPvNNLnPxHyMjMUahUEpvRQO",
+                            "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_iwd8c3zvW4GEE8yjTmX2oVfw~gzm_file_HEiZw25xI5S7ikaIek4NcJXr",
+                            "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/pdf",
+                                "application/msword",
+                                "text/x-script.python",
+                                "application/json",
+                                "text/plain",
+                                "application/x-latext",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "text/x-php",
+                                "text/markdown",
+                                "text/x-csharp",
+                                "text/x-c++",
+                                "text/x-typescript",
+                                "text/x-tex",
+                                "text/x-java",
+                                "text/x-sh",
+                                "text/x-c",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/html"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            }
+        ],
+        "cursor": null
+    }
+}

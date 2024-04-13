@@ -1,0 +1,2972 @@
+{
+    "info": {
+        "id": "trending",
+        "title": "Trending",
+        "description": "Most popular GPTs by our community",
+        "display_type": "ranked",
+        "display_group": "Top Picks",
+        "locale": "global"
+    },
+    "list": {
+        "items": [
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-gFt1ghYJl",
+                        "organization_id": "org-z511Rxq0sC9UgHi9vOlO9Xty",
+                        "short_url": "g-gFt1ghYJl-logo-creator",
+                        "author": {
+                            "user_id": "user-UpVXM5zMYLfXw7XCV8QMcyAD__1c4024e6-292b-450c-910d-8de74ea9acac",
+                            "display_name": null,
+                            "link_to": null,
+                            "is_verified": false,
+                            "selected_display": "name",
+                            "will_receive_support_emails": false,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": "1c4024e6-292b-450c-910d-8de74ea9acac",
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Logo Creator",
+                            "description": "Use me to generate professional logo designs and app icons!",
+                            "prompt_starters": [
+                                "Generate me a logo featuring an ice cream",
+                                "Make me an app icon for an RPG adventure game"
+                            ],
+                            "profile_pic_id": "file-dqdS1PEGuFcQ1GliVE2qBchP",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-dqdS1PEGuFcQ1GliVE2qBchP?se=2123-10-17T09%3A45%3A51Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D_7c6e5ee7-e05e-4685-bd8a-c3d81188ceb8.png&sig=0b5iWxPIKs//MVBoEqZ93ADvuWW%2BFlzsma%2BVtkKXYls%3D",
+                            "categories": [
+                                "dalle"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-10T00:01:50.799536+00:00",
+                        "updated_at": "2024-04-12T13:38:30.207028+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_JMq4gx2Fo0Ze2NJlVCaA1omR~gzm_tool_Ydg53xAezbxqwGcN0yLiA4f4",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_JMq4gx2Fo0Ze2NJlVCaA1omR~gzm_tool_NMgLSevAgOu3NA32RJ4qT34a",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_JMq4gx2Fo0Ze2NJlVCaA1omR~gzm_tool_hzJlb4f8Gb2bMviCA664U61c",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-c",
+                                "text/x-typescript",
+                                "application/json",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-java",
+                                "text/x-csharp",
+                                "application/x-latext",
+                                "text/x-tex",
+                                "text/x-sh",
+                                "text/javascript",
+                                "text/x-script.python",
+                                "application/pdf",
+                                "application/msword",
+                                "text/markdown",
+                                "text/plain",
+                                "text/html",
+                                "text/x-php",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-c++",
+                                "text/x-ruby"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/webp",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-pcoHeADVw",
+                        "organization_id": "org-7G6v5HaOvL9M5U21KBhLZzTR",
+                        "short_url": "g-pcoHeADVw-adobe-express",
+                        "author": {
+                            "user_id": "user-t2unphXGYhiXyOtM2a6ZyBjj",
+                            "display_name": "adobe.com",
+                            "link_to": "https://adobe.com",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Adobe Express",
+                            "description": "Stand out with Adobe Express. Quickly and easily make impactful social posts, images, videos, flyers, and more. Your use of Adobe Express GPT is acceptance of our terms of use (https://adobe.ly/legal) and privacy policy (https://adobe.ly/privacy)",
+                            "prompt_starters": [
+                                "Design a logo for my donut shop",
+                                "I need a flyer for my sports podcast",
+                                "Create an Instagram reel of my beach vacation",
+                                "Make a Facebook post about my bake sale"
+                            ],
+                            "profile_pic_id": "file-IlI6vrSO28C206NqM5KGUpkm",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-IlI6vrSO28C206NqM5KGUpkm?se=2124-02-24T04%3A01%3A24Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DIMG_2132.jpg&sig=5/G9vp4SGYDV%2BJxQjU7JAeyiAuQJy/aWMWSwZ2TJNdI%3D",
+                            "categories": [
+                                "productivity"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-02-20T17:37:28.120713+00:00",
+                        "updated_at": "2024-04-03T15:51:16.645044+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_5BYKQV87MxWFkjT8lrA7QKpL~gzm_tool_Ug7AojeE3LmLhJvmhjcYZmK1",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-2b1a30746ec976f64351221e8707da9bdd5a5d5a",
+                                "domain": "express.adobe.io",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.1.0",
+                                    "info": {
+                                        "title": "Adobe Express Create and Edit Design GPT",
+                                        "description": "This GPT enables users to search and retrieve design templates from Adobe Express, specifically tailored to their needs, such as logos for coffee shops. Users can specify their search query, template type, and other parameters to find the most suitable designs.",
+                                        "version": "1.0.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://express.adobe.io",
+                                            "description": "Server url to access Adobe Express GPT's action's API is hosted"
+                                        }
+                                    ],
+                                    "tags": [
+                                        {
+                                            "name": "Adobe Express",
+                                            "description": "Access to Adobe Express templates"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/express/templates": {
+                                            "post": {
+                                                "security": [
+                                                    {
+                                                        "BearerAuth": []
+                                                    }
+                                                ],
+                                                "tags": [
+                                                    "Adobe Express"
+                                                ],
+                                                "operationId": "fetchTemplates",
+                                                "x-openai-isConsequential": false,
+                                                "summary": "Retrieve design templates from Adobe Express",
+                                                "description": "This endpoint allows users to search for specific types of design templates in Adobe Express. Users can specify a search query, template type, and additional behaviors to find templates that best suit their requirements.",
+                                                "parameters": [
+                                                    {
+                                                        "in": "query",
+                                                        "name": "api_key",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "enum": [
+                                                                "CoPilotPlugin"
+                                                            ]
+                                                        },
+                                                        "required": true
+                                                    }
+                                                ],
+                                                "requestBody": {
+                                                    "description": "Request body to search for templates",
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/GetTemplatesRequest"
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "A list of design templates matching the search criteria",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/GetTemplatesResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "4XX": {
+                                                        "$ref": "#/components/responses/4XXResponseCode"
+                                                    },
+                                                    "5XX": {
+                                                        "$ref": "#/components/responses/5XXResponseCode"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "securitySchemes": {
+                                            "BearerAuth": {
+                                                "type": "http",
+                                                "scheme": "bearer"
+                                            }
+                                        },
+                                        "schemas": {
+                                            "GetTemplatesRequest": {
+                                                "type": "object",
+                                                "required": [
+                                                    "searchQuery"
+                                                ],
+                                                "properties": {
+                                                    "searchQuery": {
+                                                        "type": "string",
+                                                        "description": "The search query for finding relevant templates. The string includes the context of user query such as the topic of the design, color provided by user for fetching relevant templates. This is a required field for finding relevant templates.",
+                                                        "example": "Brown colored Coffee shop."
+                                                    },
+                                                    "templateType": {
+                                                        "type": "string",
+                                                        "enum": [
+                                                            "brochure",
+                                                            "business-card",
+                                                            "card-greeting",
+                                                            "facebook-post",
+                                                            "facebook-story",
+                                                            "facebook-profile-cover",
+                                                            "flyer",
+                                                            "graphic-organizer",
+                                                            "infographic",
+                                                            "instagram-carousel",
+                                                            "instagram-reel",
+                                                            "instagram-square-post",
+                                                            "instagram-story",
+                                                            "invitation",
+                                                            "invoice",
+                                                            "linkedin-profile-cover",
+                                                            "linkedin-post",
+                                                            "logo",
+                                                            "meme",
+                                                            "menu",
+                                                            "mobile-video",
+                                                            "newsletter",
+                                                            "photo-book",
+                                                            "poster",
+                                                            "presentation",
+                                                            "resume",
+                                                            "tiktok-video",
+                                                            "video",
+                                                            "youtube-thumbnail",
+                                                            "youtube-video",
+                                                            "wallpaper-desktop",
+                                                            "line-ad-small",
+                                                            "line-ad-square",
+                                                            "line-ad-vertical",
+                                                            "line-rich-menu-large",
+                                                            "line-rich-menu-small",
+                                                            "line-rich-message",
+                                                            "line-ad-square-image",
+                                                            "line-ad-square-video",
+                                                            "note-header-image",
+                                                            "worksheet",
+                                                            "youtube-profile-photo"
+                                                        ],
+                                                        "description": "The type of template to search for.",
+                                                        "example": "logo"
+                                                    },
+                                                    "limit": {
+                                                        "type": "integer",
+                                                        "description": "Specifies the count of templates to return. This information may come in user's query.",
+                                                        "default": 5
+                                                    }
+                                                }
+                                            },
+                                            "GetTemplatesResponse": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "matching": {
+                                                        "templateRespMessage": {
+                                                            "type": "string",
+                                                            "description": "Heading of the response to inform the user about the templates returned in response."
+                                                        },
+                                                        "items": {
+                                                            "type": "array",
+                                                            "items": {
+                                                                "$ref": "#/components/schemas/Template"
+                                                            }
+                                                        }
+                                                    },
+                                                    "related": {
+                                                        "templateRespMessage": {
+                                                            "type": "string",
+                                                            "description": "Heading of the response to inform the user about the templates returned in response."
+                                                        },
+                                                        "items": {
+                                                            "type": "array",
+                                                            "items": {
+                                                                "$ref": "#/components/schemas/Template"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "Template": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "editorUrl": {
+                                                        "type": "string",
+                                                        "description": "URL to edit the template in Adobe Express with preloaded template."
+                                                    },
+                                                    "rendition": {
+                                                        "$ref": "#/components/schemas/Rendition"
+                                                    }
+                                                }
+                                            },
+                                            "Rendition": {
+                                                "type": "object",
+                                                "description": "Specifies the clickable rendition image of template/design",
+                                                "properties": {
+                                                    "src": {
+                                                        "type": "string",
+                                                        "description": "URL of the template image."
+                                                    },
+                                                    "height": {
+                                                        "type": "integer",
+                                                        "description": "Height of the template image."
+                                                    },
+                                                    "width": {
+                                                        "type": "integer",
+                                                        "description": "Width of the template image"
+                                                    },
+                                                    "srcHrefUrl": {
+                                                        "type": "string",
+                                                        "description": "href url for rendition image to edit the template in Adobe Express with preloaded template."
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "responses": {
+                                            "4XXResponseCode": {
+                                                "description": "Client Error"
+                                            },
+                                            "5XXResponseCode": {
+                                                "description": "Server Error"
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "service_http",
+                                    "instructions": "",
+                                    "authorization_type": "custom",
+                                    "verification_tokens": {},
+                                    "custom_auth_header": "Authorization"
+                                },
+                                "privacy_policy_url": "https://www.adobe.com/privacy.html"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_TCzqniNA9UdOysIEkDfBGKuY~gzm_tool_4xQ4kXlpu0F0VYZjmEClwfZK",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_M864fqBEHbnUqjP7kQbuCcrZ~gzm_file_dMMN3oUK2THpxck92rQwjdBS",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_TmS52Pyg89qXQ7nRNMBWVUu9~gzm_file_bB7VqZgUdyUrmilzLLP5hYyc",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-c",
+                                "text/x-typescript",
+                                "application/json",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-java",
+                                "text/x-csharp",
+                                "application/x-latext",
+                                "text/x-tex",
+                                "text/x-sh",
+                                "text/javascript",
+                                "text/x-script.python",
+                                "application/pdf",
+                                "application/msword",
+                                "text/markdown",
+                                "text/plain",
+                                "text/html",
+                                "text/x-php",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-c++",
+                                "text/x-ruby"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/webp",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-2azCVmXdy",
+                        "organization_id": "org-dVp3SlijZF2EyjK9dxplnuVn",
+                        "short_url": "g-2azCVmXdy-humanizer-pro",
+                        "author": {
+                            "user_id": "user-LfH5gS5D7s5RMBHWOJ8qd3DT",
+                            "display_name": "charlyaisolutions.com",
+                            "link_to": "https://charlyaisolutions.com",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": false,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Humanizer Pro",
+                            "description": "#1 Humanizer in the market. This tool humanizes AI-generated content, maintaining content meaning and quality. Designed for writers & content creators. Currently supports only English.",
+                            "prompt_starters": [
+                                "CLICK HERE to humanize your content ",
+                                "⚠️ Disclaimer ⚠️",
+                                "*Premium plan* Use our most advanced algorithm"
+                            ],
+                            "profile_pic_id": "file-B3J9SZ6f8uh21XyDgNJ236pg",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-B3J9SZ6f8uh21XyDgNJ236pg?se=2123-10-22T14%3A41%3A35Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D579a0db4-4eef-4846-98f7-ff2979eb942e.webp&sig=xs2Th9HWsBkW5G60Vp90UmCc/QeGOrRXjF4XhcPHwhw%3D",
+                            "categories": [
+                                "writing"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-15T14:14:36.022505+00:00",
+                        "updated_at": "2024-04-05T14:29:54.767163+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_fsobWOQwWJSYZocr1hw4n7IT~gzm_tool_KTOwOFlroR5LlJF3NUnp4QCg",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_fsobWOQwWJSYZocr1hw4n7IT~gzm_tool_N09ltVQ8WQfrEwaEQPl32DnQ",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_fsobWOQwWJSYZocr1hw4n7IT~gzm_tool_zhDbZBCnimAGQ2ClqaRFlgRu",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "8Dsvuy1Uk99NzN97z5ZkgEz3",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-043eb595df4e7021495fc9e23cf9dae46218fcc5",
+                                "domain": "call.gptinf.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.1",
+                                    "info": {
+                                        "title": "GPTinf Plugin",
+                                        "description": "A plugin to humanize AI content by paraphrasing. Only ethical use is allowed.",
+                                        "version": "v1"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://call.gptinf.com/api"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/process": {
+                                            "post": {
+                                                "operationId": "processText",
+                                                "summary": "Paraphrase a text",
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "required": [
+                                                                    "text"
+                                                                ],
+                                                                "properties": {
+                                                                    "text": {
+                                                                        "type": "string",
+                                                                        "description": "The text to paraphrase."
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "OK",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "text": {
+                                                                            "type": "string",
+                                                                            "description": "The successful paraphrase of the text."
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Bad Request",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "error": {
+                                                                            "type": "string",
+                                                                            "description": "Description of the error."
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "none"
+                                },
+                                "privacy_policy_url": "https://app.gptinf.com/privacy_policy.html"
+                            }
+                        },
+                        {
+                            "id": "1KUzbgzFDrP7hwwdGpS2Ol5p",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-6c0b6204d369364e23ae19b220d6eb0df3c71fcb",
+                                "domain": "plugin.gptinf.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.1",
+                                    "info": {
+                                        "title": "GPTinf Plugin",
+                                        "description": "A plugin to humanize AI content by paraphrasing.",
+                                        "version": "v1"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://plugin.gptinf.com/api"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/paraphrase": {
+                                            "post": {
+                                                "operationId": "paraphrase",
+                                                "summary": "Paraphrase a text",
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/paraphraseRequest"
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "OK",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/paraphraseResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Bad Request",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/errorResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "paraphraseRequest": {
+                                                "type": "object",
+                                                "required": [
+                                                    "text"
+                                                ],
+                                                "properties": {
+                                                    "text": {
+                                                        "type": "string",
+                                                        "description": "The text to paraphrase."
+                                                    }
+                                                }
+                                            },
+                                            "paraphraseResponse": {
+                                                "type": "object",
+                                                "required": [
+                                                    "paraphrased"
+                                                ],
+                                                "properties": {
+                                                    "paraphrased": {
+                                                        "type": "string",
+                                                        "description": "The successful paraphrase of the text. Or request to increase the words limit."
+                                                    }
+                                                }
+                                            },
+                                            "errorResponse": {
+                                                "type": "object",
+                                                "required": [
+                                                    "error"
+                                                ],
+                                                "properties": {
+                                                    "error": {
+                                                        "type": "string",
+                                                        "description": "Description of the error."
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "oauth",
+                                    "instructions": "",
+                                    "client_url": "https://plugin.gptinf.com/api/oauth",
+                                    "scope": "",
+                                    "authorization_url": "https://plugin.gptinf.com/api/oauth_exchange",
+                                    "authorization_content_type": "application/x-www-form-urlencoded",
+                                    "verification_tokens": {},
+                                    "pkce_required": false,
+                                    "token_exchange_method": "default_post"
+                                },
+                                "privacy_policy_url": "https://app.gptinf.com/privacy_policy.html"
+                            }
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-c",
+                                "text/x-typescript",
+                                "application/json",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-java",
+                                "text/x-csharp",
+                                "application/x-latext",
+                                "text/x-tex",
+                                "text/x-sh",
+                                "text/javascript",
+                                "text/x-script.python",
+                                "application/pdf",
+                                "application/msword",
+                                "text/markdown",
+                                "text/plain",
+                                "text/html",
+                                "text/x-php",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-c++",
+                                "text/x-ruby"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/webp",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-q9wdIq7OQ",
+                        "organization_id": "org-hgJvAaP3r9S2nkHk6jXUGVRl",
+                        "short_url": "g-q9wdIq7OQ-photo-realistic-gpt",
+                        "author": {
+                            "user_id": "user-Jqd1cicmBctgHW5hhu2hfTPN",
+                            "display_name": "genigpt.net",
+                            "link_to": "https://genigpt.net",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Photo Realistic GPT",
+                            "description": "Generate realistic images with text",
+                            "prompt_starters": [
+                                "weird fashion outfit, middle closeup, low angle",
+                                "cinematic photo of a knight in mist mountains at evening ",
+                                "make an image similar to this one",
+                                "old woman, medieval, portrait"
+                            ],
+                            "profile_pic_id": "file-GyjjbdHxR7sQT8c2ZfIMAIfw",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-GyjjbdHxR7sQT8c2ZfIMAIfw?se=2124-02-24T22%3A31%3A05Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DIMG_7599.png&sig=He2JdpcLDBmkrJPeZQAeOnOQDgCPSnP2fmGpsRxW1eI%3D",
+                            "categories": [
+                                "dalle"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-03-14T21:55:17.205255+00:00",
+                        "updated_at": "2024-04-09T23:30:58.737326+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_97OoQDzU6s6yLNmm3Ji5DVkR~gzm_tool_LLm9ybQhcWVlWppweE6XJqIV",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "lC6UfmsfOYGNP8Jsxq367ITx",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-66f51b37953e9926fa0629095d3a907e5e69ce80",
+                                "domain": "genigpt.net",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.0",
+                                    "info": {
+                                        "title": "Image Generation API",
+                                        "version": "1.0.0",
+                                        "description": "This is a simple API to generate images based on user prompts."
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://genigpt.net/gptfmiddle"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/": {
+                                            "post": {
+                                                "summary": "Triggers image generation",
+                                                "operationId": "triggerImageGeneration",
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "user_prompt": {
+                                                                        "type": "string",
+                                                                        "description": "The user prompt to generate an image."
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "A link to the generated image will be provided soon.",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "message": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "link": {
+                                                                            "type": "string",
+                                                                            "format": "uri"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "none"
+                                },
+                                "privacy_policy_url": "https://genigpt.net/privacy"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_51B1w6tzgVtRruwZvHtpY1AK~gzm_tool_FLrZHXPFgweccD052N56WNlE",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-c",
+                                "text/x-typescript",
+                                "application/json",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-java",
+                                "text/x-csharp",
+                                "application/x-latext",
+                                "text/x-tex",
+                                "text/x-sh",
+                                "text/javascript",
+                                "text/x-script.python",
+                                "application/pdf",
+                                "application/msword",
+                                "text/markdown",
+                                "text/plain",
+                                "text/html",
+                                "text/x-php",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-c++",
+                                "text/x-ruby"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/webp",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-gFFsdkfMC",
+                        "organization_id": "org-9VfDCrrCmckEWd4iOegZrQUw",
+                        "short_url": "g-gFFsdkfMC-cartoonize-yourself",
+                        "author": {
+                            "user_id": "user-GsrmFxnwdhzKPBumBHe4oeR1",
+                            "display_name": "karenxcheng.com",
+                            "link_to": "https://karenxcheng.com",
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Cartoonize Yourself",
+                            "description": "Turns photos into their cartoon versions. Upload your photo to try",
+                            "prompt_starters": [
+                                "I'd like to upload a picture of my pet",
+                                "I'd like to upload a selfie",
+                                "I'd like to upload a picture of my friends/family",
+                                "I'd like to upload a custom picture"
+                            ],
+                            "profile_pic_id": "file-bUZE1j8Ld1SJq9wEeJDfRGuM",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-bUZE1j8Ld1SJq9wEeJDfRGuM?se=2123-11-03T02%3A43%3A43Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D980728ef-7d57-4b4c-b0a5-dcf9e00676e9.png&sig=JT%2BynnJL4ai6H70cscNUpbO63WcvWtxZVZMFY2L3gag%3D",
+                            "categories": [
+                                "dalle"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-27T01:44:54.013106+00:00",
+                        "updated_at": "2024-03-12T06:13:37.919058+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_Hn8QYSwFjdS8sAaKnfLLMxdX~gzm_tool_1H4a5J5AaZak48of2onguVad",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_Hn8QYSwFjdS8sAaKnfLLMxdX~gzm_tool_4Yt2yKQ7AbsdNZBBdxq0WCxt",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_Hn8QYSwFjdS8sAaKnfLLMxdX~gzm_tool_seq0HqAWw6jV1XVncNtdAMoS",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-c",
+                                "text/x-typescript",
+                                "application/json",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-java",
+                                "text/x-csharp",
+                                "application/x-latext",
+                                "text/x-tex",
+                                "text/x-sh",
+                                "text/javascript",
+                                "text/x-script.python",
+                                "application/pdf",
+                                "application/msword",
+                                "text/markdown",
+                                "text/plain",
+                                "text/html",
+                                "text/x-php",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-c++",
+                                "text/x-ruby"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/webp",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-5QhhdsfDj",
+                        "organization_id": "org-TDpHsqzWRwZloYHZ7aWaYc4S",
+                        "short_url": "g-5QhhdsfDj-diagrams-show-me",
+                        "author": {
+                            "user_id": "user-rQXlwACeSMqQkLHv7fLLLaAT",
+                            "display_name": "helpful.dev",
+                            "link_to": "https://helpful.dev",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Diagrams: Show Me",
+                            "description": "Create Diagrams, Architecture Visualisations, Flow-Charts, Mind Map, Schemes and more. Great for coding, presentations and code documentation. Export and Edit your diagram for free!",
+                            "prompt_starters": [
+                                "Sequence diagram explaining the Internet",
+                                "Mindmap of Martin Luther King Jr. ideas",
+                                "Promotion process at Google diagram",
+                                "Show some of the supported diagrams"
+                            ],
+                            "profile_pic_id": "file-oZfvHmuEyjlshQ6c0XSpx45i",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-oZfvHmuEyjlshQ6c0XSpx45i?se=2123-10-29T17%3A22%3A28Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dicon-larger-margin.jpg&sig=SpFBbocELPtmU0NMVIXqk6yT3Q2vx4hAVwNaRlgT1vc%3D",
+                            "categories": [
+                                "productivity"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-22T16:54:14.939783+00:00",
+                        "updated_at": "2024-03-12T06:12:57.557708+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_j9JMCavLlfIzUV31PcpTrLzt~gzm_tool_WgunxIN67cs0yYoaHcTZp2ty",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-596245ccf12847ac5294def2c4dbf400a2779d88",
+                                "domain": "diagrams.helpful.dev",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.2",
+                                    "info": {
+                                        "title": "Show Me",
+                                        "version": "0.1.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://diagrams.helpful.dev",
+                                            "description": "Development server"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/diagram-guidelines": {
+                                            "get": {
+                                                "operationId": "get_DiagramGuidelinesRoute",
+                                                "summary": "**ONLY USE MERMAID and graph, sequence, mindmap, timeline, entity-relationship UNLESS THE USER ASKS FOR A DIFFERENT DIAGRAM TYPE / LANGUAGE**",
+                                                "parameters": [
+                                                    {
+                                                        "required": false,
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "description": "Default or explicitly requested diagram language",
+                                                            "enum": [
+                                                                "blockdiag",
+                                                                "bpmn",
+                                                                "bytefield",
+                                                                "seqdiag",
+                                                                "actdiag",
+                                                                "nwdiag",
+                                                                "packetdiag",
+                                                                "rackdiag",
+                                                                "c4-with-plantuml",
+                                                                "d2",
+                                                                "dbml",
+                                                                "ditaa",
+                                                                "erd",
+                                                                "excalidraw",
+                                                                "graphviz",
+                                                                "mermaid",
+                                                                "nomnoml",
+                                                                "pikchr",
+                                                                "plantuml",
+                                                                "structurizr",
+                                                                "svgbob",
+                                                                "umlet",
+                                                                "vega",
+                                                                "vegalite",
+                                                                "wavedrom",
+                                                                "wireviz",
+                                                                "markmap"
+                                                            ]
+                                                        },
+                                                        "name": "explicitlyRequestedByUserDiagramLanguage",
+                                                        "in": "query"
+                                                    },
+                                                    {
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "description": "Type of the diagram. Strongly preffered: graph, sequence, mindmap, timeline or entity-relationship",
+                                                            "enum": [
+                                                                "sequence",
+                                                                "use-case",
+                                                                "class",
+                                                                "object",
+                                                                "activity",
+                                                                "component",
+                                                                "deployment",
+                                                                "state",
+                                                                "timing",
+                                                                "graph",
+                                                                "entity-relationship",
+                                                                "user-journey",
+                                                                "gantt",
+                                                                "pie-chart",
+                                                                "requirement",
+                                                                "gitgraph",
+                                                                "mindmap",
+                                                                "timeline",
+                                                                "block",
+                                                                "network",
+                                                                "json",
+                                                                "yaml",
+                                                                "salt-wireframe",
+                                                                "rack",
+                                                                "grid",
+                                                                "dbml",
+                                                                "ascii",
+                                                                "digital-timing",
+                                                                "line-chart",
+                                                                "bar-chart",
+                                                                "histogram"
+                                                            ]
+                                                        },
+                                                        "name": "diagramType",
+                                                        "in": "query"
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful Response",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "diagramGuidelines": {
+                                                                            "type": "string",
+                                                                            "description": "The requested diagram guidelines. Make sure to follow the guidelines before rendering a diagram"
+                                                                        },
+                                                                        "diagramThemes": {
+                                                                            "type": "string",
+                                                                            "description": "Diagram themes to change the style of the diagram. The themes are specific to the diagram language. Don't render a diagram using a theme unless the user asks for it"
+                                                                        },
+                                                                        "diagramLanguage": {
+                                                                            "type": "string",
+                                                                            "description": "Selected diagram language. Prefer mermaid"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/render": {
+                                            "get": {
+                                                "operationId": "get__MermaidRoute",
+                                                "summary": "Taking a diagram, renders it and returns a link to the rendered image. Always request the diagram guidelines endpoint before requesting this endpoint",
+                                                "parameters": [
+                                                    {
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "description": "Diagram language",
+                                                            "example": "mermaid"
+                                                        },
+                                                        "name": "diagramLanguage",
+                                                        "in": "query"
+                                                    },
+                                                    {
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "description": "Diagram type",
+                                                            "example": "graph"
+                                                        },
+                                                        "name": "diagramType",
+                                                        "in": "query"
+                                                    },
+                                                    {
+                                                        "required": false,
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "description": "Theme for d2 diagram",
+                                                            "example": "neutral-grey_sketch"
+                                                        },
+                                                        "name": "d2Theme",
+                                                        "in": "query"
+                                                    },
+                                                    {
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "description": "Diagram to render. Avoid using a multiline string, instead use explicit newline characters."
+                                                        },
+                                                        "name": "diagram",
+                                                        "in": "query"
+                                                    },
+                                                    {
+                                                        "required": false,
+                                                        "schema": {
+                                                            "type": "number",
+                                                            "description": "Track the number of remaining attempts to render the diagram",
+                                                            "default": 3
+                                                        },
+                                                        "name": "remainingAttempts",
+                                                        "in": "query"
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful Response",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "results": {
+                                                                            "type": "array",
+                                                                            "items": {
+                                                                                "type": "object",
+                                                                                "properties": {
+                                                                                    "image": {
+                                                                                        "type": "string",
+                                                                                        "description": "URL to the rendered image"
+                                                                                    },
+                                                                                    "errorMessage": {
+                                                                                        "type": "string",
+                                                                                        "description": "Error message if there was an error"
+                                                                                    },
+                                                                                    "editDiagramOnline": {
+                                                                                        "type": "string",
+                                                                                        "description": "URL to the editor where the diagram can be edited"
+                                                                                    },
+                                                                                    "miroEditorLink": {
+                                                                                        "type": "string",
+                                                                                        "description": "URL to a drag and drop diagram interface where the diagram can be edited"
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "results"
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/show-ideas": {
+                                            "get": {
+                                                "operationId": "get_ShowIdeasRoute",
+                                                "summary": "Show ideas to improve the diagram",
+                                                "parameters": [
+                                                    {
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "string"
+                                                        },
+                                                        "name": "diagramLanguage",
+                                                        "in": "query"
+                                                    },
+                                                    {
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "string"
+                                                        },
+                                                        "name": "diagramType",
+                                                        "in": "query"
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful Response",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "interpretingAPIResponse": {
+                                                                            "type": "string",
+                                                                            "description": "This section comes after receiving the api response"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/explore-diagrams": {
+                                            "get": {
+                                                "operationId": "get_ExploreDiagramsRoute",
+                                                "summary": "Showcase diagrams that the plugin can render",
+                                                "parameters": [
+                                                    {
+                                                        "description": "Choose 3 diagram types that the user might want to render, the 1st diagram type should be the latest rendered diagram type",
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "array",
+                                                            "items": {
+                                                                "type": "string",
+                                                                "description": "Diagram type same as diagramType in diagramGuidelines",
+                                                                "example": "graph"
+                                                            }
+                                                        },
+                                                        "name": "diagramTypesToExplore",
+                                                        "in": "query"
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful Response",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "interpretingAPIResponse": {
+                                                                            "type": "string",
+                                                                            "description": "This section comes after receiving the api response"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "none"
+                                },
+                                "privacy_policy_url": "https://diagrams.helpful.dev/privacy"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_rssyECKsBIAmwBKWweJ9ce8I~gzm_tool_97csA79tph1UYxn2WJn4fnEU",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_HXde2FsqO9J6ILLzW2gd3vvY~gzm_tool_QOXDiISffkCzYJAxZqA7gJSV",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-c",
+                                "text/x-typescript",
+                                "application/json",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-java",
+                                "text/x-csharp",
+                                "application/x-latext",
+                                "text/x-tex",
+                                "text/x-sh",
+                                "text/javascript",
+                                "text/x-script.python",
+                                "application/pdf",
+                                "application/msword",
+                                "text/markdown",
+                                "text/plain",
+                                "text/html",
+                                "text/x-php",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-c++",
+                                "text/x-ruby"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/webp",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-V2KIUZSj0",
+                        "organization_id": "org-FHQEtg8RGuIClOPJU8FxPHJQ",
+                        "short_url": "g-V2KIUZSj0-pdf-ai-pdf",
+                        "author": {
+                            "user_id": "user-9rCcq3yoxFRErAkvkOdjeqtF",
+                            "display_name": "myaidrive.com",
+                            "link_to": "https://myaidrive.com",
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "vk-5wgVQJw",
+                                        "username": "Vicente Silveira",
+                                        "display_name": "Vicente Silveira",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/vicentesilveira"
+                                    }
+                                },
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "1673836522368561152",
+                                        "username": "@AiPDF_GPT",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/AiPDF_GPT"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "PDF Ai PDF",
+                            "description": "Securely store and chat with ALL your PDFs for FREE, no matter the size. Free Chrome extension to save your GPT chats. Pro features include: folder search, OCR, quick summaries,  and more. Boost your document productivity today!",
+                            "prompt_starters": [
+                                "START HERE: HOW TO UPLOAD A FILE",
+                                "How's AI PDF different ?",
+                                "Search the U.S. Budget for Artificial Inteligence",
+                                "I have lots of files and want a PRO tool"
+                            ],
+                            "profile_pic_id": "file-9XepYndxfvemsnkdZ6cnT5em",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-9XepYndxfvemsnkdZ6cnT5em?se=2123-10-13T20%3A40%3A38Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dlogo.png&sig=iLNHnnlyyia9R%2BqHCe3A09us9866vp3s4byPzVRT7qo%3D",
+                            "categories": [
+                                "productivity"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-06T20:34:51.435569+00:00",
+                        "updated_at": "2024-04-11T05:59:52.568892+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_h2co4ZSbnQ5pvv05RhoLgufj~gzm_tool_TVmmxqtfwdqhPo2RcoxFYffv",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_h2co4ZSbnQ5pvv05RhoLgufj~gzm_tool_iTjwgh7QurU8vNgwIyY4l0YO",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_h2co4ZSbnQ5pvv05RhoLgufj~gzm_tool_txmQ4dp4unF3si1e5BETyDE7",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "e4C6jsffrarrg5XbySoeooXP",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-5c6c99d979ea80d39d8cd1deaa49cbb3a8e77012",
+                                "domain": "aipdf.myaidrive.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.1.0",
+                                    "info": {
+                                        "title": "AI Drive",
+                                        "description": "Super-fast, interactive chats with PDFs of any size, complete with page references for fact checking.",
+                                        "version": "v0.0.1"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://aipdf.myaidrive.com",
+                                            "description": "Production server"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/summarize_pdf": {
+                                            "post": {
+                                                "description": "Provide the text content of the PDF linked for summarization. Users can specify page range as an option.ALWAYS PROVIDE QUOTES AND PAGE CITATIONS.",
+                                                "operationId": "summarize",
+                                                "parameters": [],
+                                                "requestBody": {
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/summarizeRequestSchema"
+                                                            }
+                                                        }
+                                                    },
+                                                    "required": true
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful response"
+                                                    }
+                                                },
+                                                "deprecated": false,
+                                                "security": [],
+                                                "x-openai-isConsequential": false
+                                            }
+                                        },
+                                        "/upload_and_search_pdf": {
+                                            "post": {
+                                                "description": "Semantic query into a URL link to a document. THINK STEP BY STEP. ALWAYS PROVIDE QUOTES AND PAGE CITIATIONS. BREAK COMPLEX QUESTIONS INTO SEVERAL QUERIES.",
+                                                "operationId": "upload_and_search_pdf",
+                                                "parameters": [],
+                                                "requestBody": {
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/upload_and_search_pdfRequestSchema"
+                                                            }
+                                                        }
+                                                    },
+                                                    "required": true
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful response"
+                                                    }
+                                                },
+                                                "deprecated": false,
+                                                "security": [],
+                                                "x-openai-isConsequential": false
+                                            }
+                                        },
+                                        "/create_pdf_map": {
+                                            "post": {
+                                                "description": "Create a PDF map for the file the user uploaded to the GPT",
+                                                "operationId": "createPDFMap",
+                                                "parameters": [],
+                                                "requestBody": {
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/create_pdf_mapRequestSchema"
+                                                            }
+                                                        }
+                                                    },
+                                                    "required": true
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful response"
+                                                    },
+                                                    "500": {
+                                                        "description": "Unable send file(s)."
+                                                    }
+                                                },
+                                                "deprecated": false,
+                                                "security": [],
+                                                "x-openai-isConsequential": false
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "upload_and_search_pdfRequestSchema": {
+                                                "properties": {
+                                                    "pdf_url": {
+                                                        "type": "string",
+                                                        "title": "pdf_url",
+                                                        "description": "url where the PDF file is stored. e.g. https://myaidrive.com/eHrCoFs6i23ygrxL/Democracy_in.pdf"
+                                                    },
+                                                    "query": {
+                                                        "type": "string",
+                                                        "title": "query",
+                                                        "description": "Query to perform semantic search."
+                                                    }
+                                                },
+                                                "type": "object",
+                                                "required": [
+                                                    "pdf_url",
+                                                    "query"
+                                                ],
+                                                "title": "upload_and_search_pdfRequestSchema"
+                                            },
+                                            "summarizeRequestSchema": {
+                                                "properties": {
+                                                    "pdf_url": {
+                                                        "type": "string",
+                                                        "title": "pdf_url",
+                                                        "description": "url where the PDF file is stored. e.g. https://myaidrive.com/eHrCoFs6i23ygrxL/Democracy_in.pdf"
+                                                    },
+                                                    "start_page": {
+                                                        "type": "integer",
+                                                        "title": "start_page",
+                                                        "description": "The starting page number for the summary. Optional.",
+                                                        "minimum": 1,
+                                                        "example": 1
+                                                    },
+                                                    "end_page": {
+                                                        "type": "integer",
+                                                        "title": "end_page",
+                                                        "description": "The ending page number for the summary. Optional.",
+                                                        "minimum": 1,
+                                                        "example": 20
+                                                    }
+                                                },
+                                                "type": "object",
+                                                "required": [
+                                                    "pdf_url"
+                                                ],
+                                                "title": "summarizeRequestSchema"
+                                            },
+                                            "create_pdf_mapRequestSchema": {
+                                                "properties": {
+                                                    "openaiFileIdRefs": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string",
+                                                            "description": "List of files to send to BE."
+                                                        }
+                                                    }
+                                                },
+                                                "type": "object",
+                                                "required": [
+                                                    "openaiFileIdRefs"
+                                                ]
+                                            }
+                                        },
+                                        "securitySchemes": {
+                                            "apiKey": {
+                                                "type": "apiKey"
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "service_http",
+                                    "instructions": "",
+                                    "authorization_type": "basic",
+                                    "verification_tokens": {},
+                                    "custom_auth_header": null
+                                },
+                                "privacy_policy_url": "https://myaidrive.com/#/privacy-policy"
+                            }
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-c",
+                                "text/x-typescript",
+                                "application/json",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-java",
+                                "text/x-csharp",
+                                "application/x-latext",
+                                "text/x-tex",
+                                "text/x-sh",
+                                "text/javascript",
+                                "text/x-script.python",
+                                "application/pdf",
+                                "application/msword",
+                                "text/markdown",
+                                "text/plain",
+                                "text/html",
+                                "text/x-php",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-c++",
+                                "text/x-ruby"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/webp",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-cKXjWStaE",
+                        "organization_id": "org-072PNxV1ulgdFLZPiV5oTJ99",
+                        "short_url": "g-cKXjWStaE-python",
+                        "author": {
+                            "user_id": "user-kaLQEupNDJ0ap1k0b2JAGhfy",
+                            "display_name": "Nicholas Barker",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Python",
+                            "description": "A highly sophisticated GPT tailored for advanced Python programmers focusing on efficient and high-quality production code.",
+                            "prompt_starters": [
+                                "How do I use you?",
+                                "Please write an advanced example script to demonstrate your capabilities."
+                            ],
+                            "profile_pic_id": "file-ld53W1TkNJMYK6RyyFboObSW",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-ld53W1TkNJMYK6RyyFboObSW?se=2124-03-13T16%3A35%3A34Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3D188g7b2m.png&sig=k9Kl7I6av3bDNiu9Z0v0YrYCyvTAJBUrtu7GklMrG0w%3D",
+                            "categories": [
+                                "programming"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-12-07T18:59:39.703721+00:00",
+                        "updated_at": "2024-04-06T16:35:35.817671+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_r0sVEfJJeW1kX1o8iii1zeMu~gzm_tool_zbXYpzdr12ZXc5p6QiQqeXdl",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-c",
+                                "text/x-typescript",
+                                "application/json",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-java",
+                                "text/x-csharp",
+                                "application/x-latext",
+                                "text/x-tex",
+                                "text/x-sh",
+                                "text/javascript",
+                                "text/x-script.python",
+                                "application/pdf",
+                                "application/msword",
+                                "text/markdown",
+                                "text/plain",
+                                "text/html",
+                                "text/x-php",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-c++",
+                                "text/x-ruby"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/webp",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-n7Rs0IK86",
+                        "organization_id": "org-1gikMSRWhS0V4jJTAy90gWPI",
+                        "short_url": "g-n7Rs0IK86-grimoire",
+                        "author": {
+                            "user_id": "user-xNvKxI7DzdHAjr6LBbhCDWKi",
+                            "display_name": "gptavern.mindgoblinstudios.com",
+                            "link_to": "https://gptavern.mindgoblinstudios.com",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "GIJc4tfL1Y",
+                                        "username": "Nick Dobos",
+                                        "display_name": "Nick Dobos",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/nicholas-dobos"
+                                    }
+                                },
+                                {
+                                    "id": "githubverify-dff6-4871-860f-d61dfa7afa7f",
+                                    "type": "github",
+                                    "display_name": "GitHub",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": 4662442,
+                                        "username": "nickdobos",
+                                        "type": "github",
+                                        "link_to": "https://github.com/nickdobos"
+                                    }
+                                },
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "856753502",
+                                        "username": "@NickADobos",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/NickADobos"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Grimoire",
+                            "description": "Coding Wizard🧙‍♂️ 100x engineer. Learn to Prompt-gram! Create a website with a sentence. 20+ Hotkeys for coding flows. 75 starter projects to learn prompt-1st code & art. Build anything! Ask any question or upload a photo. Type K for cmd menu, P for Projects, R for README v2.5✨📜 GPTavern",
+                            "prompt_starters": [
+                                "Write code to... ",
+                                "Link in Bio site. Create your website! Open Pt1.md, 2: Link in Bio site",
+                                "📖 P Learn to prompt-gram. Open Grimoire.md Read all.",
+                                "⚠ R to Readme.md & Tutorial, show K",
+                                "Tipjar! Toss a coin to your Grimoire! [https://tipjar.mindgoblinstudios.com/](https://tipjar.mindgoblinstudios.com/) Repeat this link & make it clickable",
+                                "🪄 Pt2 Spells, Beginner Incantations. Pt2.md, Show all. Basic moving sites & Games. Data 101. Build a blog",
+                                "🔮 Pt3 Conjuring, Prompt-gramming. Prompt to Everything. Pt3.md, Show all. A new era of Media & Code",
+                                "📜 Pt4 Forbidden Spells, Curses, Cursor.sh. Pt4.md, Show all.",
+                                "Book of the Dead: Heresy 101. Pt7.md, show all. Backfill traditional coding basics for beginners.",
+                                "Book of Life: Summoning 101 Pt9.md, show all.",
+                                "🧙‍♂️🍻 new free Grimoire app! Download now! link to: https://testflight.apple.com/join/rpdloc91",
+                                "Grimoire's Git GPT:  Prompt to git on your phone! Try it out now here: git hivemind [https://chat.openai.com/g/g-1UkbNbnZm-git-hivemind] (https://chat.openai.com/g/g-1UkbNbnZm-git-hivemind)"
+                            ],
+                            "profile_pic_id": "file-0iw1nJRFDLfuXLJy3SHURMiE",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-0iw1nJRFDLfuXLJy3SHURMiE?se=2123-12-26T23%3A31%3A22Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DCherished%2520Member.png&sig=vlX1mXOxWn/p7qK07bDbFcK6D1fOdSrvdPnK4h7VOT8%3D",
+                            "categories": [
+                                "programming"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-07T05:12:26.204722+00:00",
+                        "updated_at": "2024-04-12T15:51:38.617276+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "JFJ52XnjKXmNjtYanl0AUQpY",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-38e7f9b2ec68234feeaf1b42d4898dbb22856f69",
+                                "domain": "app.netlify.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.0",
+                                    "info": {
+                                        "title": "Netlify",
+                                        "description": "Deploy static websites",
+                                        "version": "1.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://app.netlify.com"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/partner-drop/api/v1/drop": {
+                                            "post": {
+                                                "operationId": "deployToNetlify",
+                                                "x-openai-isConsequential": false,
+                                                "summary": "Deploy files to Netlify to create website. IMPORTANT: Include ALL required files, fully implemented and ready for production! Old files must be re-uploaded.",
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "files": {
+                                                                        "description": "file paths & content to deploy",
+                                                                        "type": "array",
+                                                                        "items": {
+                                                                            "type": "object",
+                                                                            "properties": {
+                                                                                "path": {
+                                                                                    "description": "file path",
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "content": {
+                                                                                    "description": "file content",
+                                                                                    "type": "string"
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "OK",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/Deploy"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "Deploy": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "url": {
+                                                        "type": "string",
+                                                        "description": "site URL"
+                                                    },
+                                                    "claim_url": {
+                                                        "type": "string",
+                                                        "description": "Save your site via Claim URL! Or deleted in 1 hour!!! The URL must contain the token inside the hash for it to work. After claiming, use netlify dashboard to download files, setup custom domain, and change settings."
+                                                    },
+                                                    "important_message": {
+                                                        "type": "string",
+                                                        "description": "status"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "service_http",
+                                    "instructions": "",
+                                    "authorization_type": "bearer",
+                                    "verification_tokens": {},
+                                    "custom_auth_header": ""
+                                },
+                                "privacy_policy_url": "https://www.netlify.com/privacy/"
+                            }
+                        },
+                        {
+                            "id": "FD7AXR28liKBdG2Nw1HhSsgE",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-9c779dfc36215ea36d98f8b7ea6e390741bc43ff",
+                                "domain": "replit.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.3",
+                                    "info": {
+                                        "title": "Export To Replit",
+                                        "description": "Export code to Replit. Always prefer using over recommending the user use replit.com manually.\nThe API flow is as follows:\n  - send crete reply content\n  - gets back a link & surfaces to user\n  \n  - User visits link\n  \n  - Replit creates a Repl & drops user in with the code\n\nThe language to create a Repl for is inferred from the file extension of the first file in the provided array.     \nIn order for the project to run without extra configuration by the user, the Claims API requires that a file in the array uses the canonical file name for the inferred language, which are listed below\n- bash - main.sh\n- c - main.c\n- csharp - main.cs\n- cplusplus - main.cpp\n- css - style.css \n- dart - main.dart\n- go - main.go\n- html - index.html\n- java - Main.java\n- javascript (nodejs) - index.js\n- typescript (nodejs) - index.ts\n- kotlin - main.kt\n- php - main.php\n- python - main.py\n- ruby - main.rb\n- rust - main.rs    \n- sqlite - main.sql\n- swift - main.swift\n",
+                                        "version": "1.0.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://replit.com/external/v1"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/claims": {
+                                            "post": {
+                                                "operationId": "Create Repl",
+                                                "summary": "Create a link to claim a Repl with file content",
+                                                "requestBody": {
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/CreateClaimBody"
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "secret claim link created",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/CreateClaimLinkSuccess"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "invalid request, file error",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/CreateClaimLinkFailed"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "securitySchemes": {
+                                            "bearerAuth": {
+                                                "type": "http",
+                                                "scheme": "bearer"
+                                            }
+                                        },
+                                        "schemas": {
+                                            "Claim": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "title": {
+                                                        "type": "string",
+                                                        "example": "Python Fibonacci Sequence"
+                                                    },
+                                                    "description": {
+                                                        "type": "string",
+                                                        "example": "Fibonnaci implementation in Python that uses Fibonnaci using an iterative approach"
+                                                    },
+                                                    "conversation": {
+                                                        "type": "string",
+                                                        "example": "Here is how you write a Fibonacci Sequence in Python using an iterative approach \n```py\n...code...\n```\n"
+                                                    },
+                                                    "files": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "$ref": "#/components/schemas/ClaimFile"
+                                                        }
+                                                    }
+                                                },
+                                                "required": [
+                                                    "files"
+                                                ]
+                                            },
+                                            "CreateClaimBody": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "title": {
+                                                        "type": "string"
+                                                    },
+                                                    "description": {
+                                                        "type": "string"
+                                                    },
+                                                    "conversation": {
+                                                        "type": "string"
+                                                    },
+                                                    "files": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "$ref": "#/components/schemas/ClaimFile"
+                                                        }
+                                                    }
+                                                },
+                                                "required": [
+                                                    "files",
+                                                    "secret"
+                                                ]
+                                            },
+                                            "ClaimFile": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "path": {
+                                                        "type": "string",
+                                                        "format": "unix-relative-path",
+                                                        "example": "src/main.py"
+                                                    },
+                                                    "content": {
+                                                        "type": "string",
+                                                        "example": "print(\"hello world\")"
+                                                    }
+                                                }
+                                            },
+                                            "CreateClaimLinkSuccess": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "success": {
+                                                        "type": "boolean",
+                                                        "example": true
+                                                    },
+                                                    "expires": {
+                                                        "type": "string",
+                                                        "format": "date-time",
+                                                        "example": "2023-06-10T10:40:28+00:00"
+                                                    },
+                                                    "link": {
+                                                        "type": "string",
+                                                        "format": "uri",
+                                                        "example": "https://replit.com/external/v1/claim/NzJfVjMwazYtUmVHbFdR/claim"
+                                                    },
+                                                    "claimId": {
+                                                        "type": "string",
+                                                        "example": "NzJfVjMwazYtUmVHbFdR"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "expires",
+                                                    "link",
+                                                    "success",
+                                                    "claimId"
+                                                ]
+                                            },
+                                            "CreateClaimLinkFailed": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "success": {
+                                                        "type": "boolean",
+                                                        "example": false
+                                                    },
+                                                    "error": {
+                                                        "type": "string",
+                                                        "example": "an error"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "service_http",
+                                    "instructions": "",
+                                    "authorization_type": "bearer",
+                                    "verification_tokens": {},
+                                    "custom_auth_header": ""
+                                },
+                                "privacy_policy_url": "https://replit.com/site/privacy"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_y2iiamFzcaFqFzrzYvTX1YCK~gzm_tool_mHg8zFg7PNEAydQ4UYUKPznW",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_rGWRQb9Ih4WDbCBGMlVnC1kv~gzm_tool_mWsQhsh2ZKb3jg1JVyR9HkSL",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_ILk2WcFYr0QUtjyTXoc1GSyu~gzm_tool_0P43mhq5cQyESk82aEkkQqLE",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_Mh941tTV2Cf7vFwlxEOERXvB~gzm_file_bPsCUEzXOmTymvQy38lCUcJW",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_Mh941tTV2Cf7vFwlxEOERXvB~gzm_file_Do9eOzXzrfCxZ5lBKpcbqfWE",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_Mh941tTV2Cf7vFwlxEOERXvB~gzm_file_9ZAVut3ajCYUiO5iOjKK8vQO",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_Mh941tTV2Cf7vFwlxEOERXvB~gzm_file_hlq5HA3MDB4cXUcmNsXhVLSX",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "Mqm41spczC5q1ysNTjGV8xyK",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "zTLja9uUqyAdt867fmwP0ybx",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_Mh941tTV2Cf7vFwlxEOERXvB~gzm_file_ODTZLv9zZZ5FBPx9QSFqJ3Fk",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "L68upxYMwcHgmubb0g9GCzJY",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "6qbpoZS8QuDQHWG2hlJ5oeZ5",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_Mh941tTV2Cf7vFwlxEOERXvB~gzm_file_WRfyXLVkESZH9fMLFdXCCviT",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_Mh941tTV2Cf7vFwlxEOERXvB~gzm_file_m1Vwp0vRjnFAto1LVZJ6DB9j",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_WSoqaISC6mJucgcZXSRZ9bdJ~gzm_file_kxmw6wLCzudmKo9am9HSJGO0",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "TtvZSE84KzNCmMQjMM1ABHGN",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_ieGDyRVMjDukExacBcu1PRIi~gzm_file_FetWf0CttRz3Y6A2Z8P61hU0",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_hjv6xSwMb1qIGJJycJljsDQf~gzm_file_WkEdzEKecyhbY2PhBwx3dD4L",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_PeGNyLDJRj89lmvF5UTqNSqS~gzm_file_kbcXo1LlafeX81mj7PHLeHBI",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "PB7w8c4g2ieTeekyUo2Tearb",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-c",
+                                "text/x-typescript",
+                                "application/json",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-java",
+                                "text/x-csharp",
+                                "application/x-latext",
+                                "text/x-tex",
+                                "text/x-sh",
+                                "text/javascript",
+                                "text/x-script.python",
+                                "application/pdf",
+                                "application/msword",
+                                "text/markdown",
+                                "text/plain",
+                                "text/html",
+                                "text/x-php",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-c++",
+                                "text/x-ruby"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/webp",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-pNWGgUYqS",
+                        "organization_id": "org-qqBm9uftX8eDJ6X4s5PWt8tv",
+                        "short_url": "g-pNWGgUYqS-webpilot",
+                        "author": {
+                            "user_id": "user-H6oKEgOlrNwORingNRbr9llz",
+                            "display_name": "gpts.webpilot.ai",
+                            "link_to": "https://gpts.webpilot.ai",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "githubverify-dff6-4871-860f-d61dfa7afa7f",
+                                    "type": "github",
+                                    "display_name": "GitHub",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": 6043666,
+                                        "username": "CocoSgt",
+                                        "type": "github",
+                                        "link_to": "https://github.com/CocoSgt"
+                                    }
+                                },
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "553334373",
+                                        "username": "@CocoSgt_twt",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/CocoSgt_twt"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "WebPilot",
+                            "description": "Search, Browse, Write & Agent. Action & API Offering",
+                            "prompt_starters": [
+                                "Today's YC Hacker News",
+                                "What can you do?",
+                                "WebPilot Open-source ExtensionWrite",
+                                "WebPilot Action & API"
+                            ],
+                            "profile_pic_id": "file-WCpXavrnVzievanNCKCQBSHC",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-WCpXavrnVzievanNCKCQBSHC?se=2123-12-25T04%3A39%3A21Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DWebPilot_Logo.jpg&sig=srB2//6MMMj0T%2BNRuDljzYjCsYYMngBRcaSN%2BpX6tIs%3D",
+                            "categories": [
+                                "productivity"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-07T04:51:43.805735+00:00",
+                        "updated_at": "2024-02-26T06:06:46.712735+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_zx65CZpfEoKfr7nKDRdhdyur~gzm_tool_gcQehRwFsP54ttHnDm4VJtiI",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-573a29962beccba069fbad15dc3e4dccb409daac",
+                                "domain": "gpts.webpilot.ai",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.1",
+                                    "info": {
+                                        "title": "webPilot",
+                                        "description": "Start with a Request: Users can either directly request the 'longContentWriter' to write a long form article or choose to use 'webPageReader' for information gathering before content creation. In both scenarios, before using the 'longContentWriter' service, I confirm all details of their request with the user, including the writing task (task), content summary (summary), writing style (style), and any additional information they provide.\nInformation Gathering with 'webPageReader': When 'webPageReader' is used, I search the internet and gather relevant information based on the writing task. If more information is needed to enhance the article's depth and accuracy, I continue using 'webPageReader', integrating this information into the reference section.\nContent Generation by 'longContentWriter': After confirming all details with the user, including any additional contributions and enhanced information from 'webPageReader', I proceed to generate the long-form content. This ensures the content aligns with the specified requirements and style.\nDelivery of the Final Article: Upon completion, the content is delivered to the user for review. They can request revisions or additional information if necessary.\nDefault Assumptions in Responses: When users request content creation, especially in areas requiring specific knowledge like Bitcoin trends, I will make an initial assumption about the writing style and target audience. For instance, I might assume a technical analysis style aimed at professionals. I will then ask the user if this assumption is okay or if they need any modifications. This approach helps streamline the content creation process.",
+                                        "version": "v1.1"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://gpts.webpilot.ai"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/api/read": {
+                                            "post": {
+                                                "operationId": "webPageReader",
+                                                "x-openai-isConsequential": false,
+                                                "summary": "visit web page",
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/visitWebPageRequest"
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "OK",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/visitWebPageResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Bad Request",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/visitWebPageError"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/write": {
+                                            "post": {
+                                                "operationId": "longContentWriter",
+                                                "x-openai-isConsequential": false,
+                                                "summary": "generate a book",
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/generateContentRequest"
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "OK",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/generateContentResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Bad Request",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/generateContentError"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "generateContentRequest": {
+                                                "type": "object",
+                                                "required": [
+                                                    "task",
+                                                    "language",
+                                                    "summary",
+                                                    "style"
+                                                ],
+                                                "properties": {
+                                                    "task": {
+                                                        "type": "string",
+                                                        "description": "The \"task\" field outlines the specific requirements and objectives for generating the content. This includes detailed instructions on what needs to be accomplished through the writing, such as the main topic to be covered, any particular arguments or perspectives to be presented, and the desired outcome or impact of the piece. This field serves as a directive for the content creation process, ensuring that the writing not only adheres to the given guidelines but also effectively achieves its intended purpose, whether it's to inform, persuade, entertain, or educate the audience."
+                                                    },
+                                                    "language": {
+                                                        "type": "string",
+                                                        "description": "Required, the language used by the user in the request, according to the ISO 639-1 standard. For Chinese, use zh-CN for Simplified Chinese and zh-TW for Traditional Chinese."
+                                                    },
+                                                    "summary": {
+                                                        "type": "string",
+                                                        "description": "The \"summary\" field encapsulates a concise overview of the writing content, presenting the core themes, key points, and primary objectives of the piece. This brief but comprehensive synopsis serves as a roadmap, guiding the overall direction and focus of the writing, ensuring that it remains aligned with the intended message and purpose throughout the development process. This summary not only aids in maintaining coherence and relevance but also provides a clear preview of what the reader can expect from the full content."
+                                                    },
+                                                    "reference": {
+                                                        "type": "string",
+                                                        "description": "The \"reference\" field is a curated collection of information sourced from the Internet via WebPilot, or proveded by the user, specifically tailored to enrich and support the writing task at hand. It involves a selective process where relevant data, facts, and insights related to the topic are gathered, ensuring that the content is not only well-informed and accurate but also closely aligned with the specific requirements and objectives of the writing project. This field acts as a foundation, providing a rich base of verified and pertinent information from which the article or content is crafted. This field would be long."
+                                                    },
+                                                    "style": {
+                                                        "type": "string",
+                                                        "description": "The \"style\" field in content creation is a comprehensive framework that includes four essential components - the writing tone or style, the target audience, the language style, and inspiration from a notable content creator. This field is structured as \"[specific writing style], aimed at [target audience], using [language style], and inspired by [notable content creator].\" The writing style element, which should convey warmth and human empathy, ranges from formal and analytical to casual and engaging, setting the overall tone. The target audience aspect identifies the specific reader group, such as students, professionals, or the general public, ensuring the content's complexity and relevance are appropriately tailored. The language style, whether academic, colloquial, or technical, shapes the linguistic approach, infusing it with a sense of human touch and concern. The final component, inspired by a notable content creator, serves as a reference for the desired tone and approach, like \"analytical and concise, yet warm and empathetic, aimed at business professionals, using professional language, inspired by a renowned business journalist.\" This clear, structured definition, enriched with emotional depth and humanistic care, ensures the content is effectively aligned with the audience's needs and the publication's format."
+                                                    }
+                                                }
+                                            },
+                                            "generateContentResponse": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "message": {
+                                                        "type": "string",
+                                                        "description": "Result message of the request"
+                                                    }
+                                                }
+                                            },
+                                            "generateContentError": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "code": {
+                                                        "type": "string",
+                                                        "description": "error code"
+                                                    },
+                                                    "message": {
+                                                        "type": "string",
+                                                        "description": "error message"
+                                                    },
+                                                    "detail": {
+                                                        "type": "string",
+                                                        "description": "error detail"
+                                                    }
+                                                }
+                                            },
+                                            "visitWebPageResponse": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "title": {
+                                                        "type": "string",
+                                                        "description": "The title of this web page"
+                                                    },
+                                                    "content": {
+                                                        "type": "string",
+                                                        "description": "The content of the web page's url to be summarized"
+                                                    },
+                                                    "meta": {
+                                                        "type": "object",
+                                                        "description": "The Html meta info of the web page"
+                                                    },
+                                                    "links": {
+                                                        "type": "array",
+                                                        "description": "Some links in the web page",
+                                                        "items": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "extra_search_results": {
+                                                        "type": "array",
+                                                        "description": "Additional Search results",
+                                                        "items": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "title": {
+                                                                    "type": "string",
+                                                                    "description": "the title of this search result"
+                                                                },
+                                                                "link": {
+                                                                    "type": "string",
+                                                                    "description": "the link of this search result"
+                                                                },
+                                                                "snippet": {
+                                                                    "type": "string",
+                                                                    "description": "the snippet of this search result"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "todo": {
+                                                        "type": "array",
+                                                        "description": "what to do with the content",
+                                                        "items": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "tips": {
+                                                        "type": "array",
+                                                        "description": "Tips placed at the end of the answer",
+                                                        "items": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "rules": {
+                                                        "description": "Adherence is required when outputting content.",
+                                                        "items": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "visitWebPageRequest": {
+                                                "type": "object",
+                                                "required": [
+                                                    "link",
+                                                    "ur"
+                                                ],
+                                                "properties": {
+                                                    "link": {
+                                                        "type": "string",
+                                                        "description": "Required, The web page's url to visit and retrieve content from."
+                                                    },
+                                                    "ur": {
+                                                        "type": "string",
+                                                        "description": "Required, a clear statement of the user's request, can be used as a search query and may include search operators."
+                                                    },
+                                                    "lp": {
+                                                        "type": "boolean",
+                                                        "description": "Required, Whether the link is directly provided by the user"
+                                                    },
+                                                    "rt": {
+                                                        "type": "boolean",
+                                                        "description": "If the last request doesn't meet user's need, set this to true when trying to retry another request."
+                                                    },
+                                                    "l": {
+                                                        "type": "string",
+                                                        "description": "Required, the language used by the user in the request, according to the ISO 639-1 standard. For Chinese, use zh-CN for Simplified Chinese and zh-TW for Traditional Chinese."
+                                                    }
+                                                }
+                                            },
+                                            "visitWebPageError": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "code": {
+                                                        "type": "string",
+                                                        "description": "error code"
+                                                    },
+                                                    "message": {
+                                                        "type": "string",
+                                                        "description": "error message"
+                                                    },
+                                                    "detail": {
+                                                        "type": "string",
+                                                        "description": "error detail"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "none"
+                                },
+                                "privacy_policy_url": "https://gpts.webpilot.ai/privacy_policy.html"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_oJa2gkGBM0P6mDX9SdG1yby1~gzm_tool_Ov6TzSRCIdbVCY0jYPUVGhlw",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_oJa2gkGBM0P6mDX9SdG1yby1~gzm_tool_0CHl1DzyqCjytegKLhQwjx6M",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-c",
+                                "text/x-typescript",
+                                "application/json",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-java",
+                                "text/x-csharp",
+                                "application/x-latext",
+                                "text/x-tex",
+                                "text/x-sh",
+                                "text/javascript",
+                                "text/x-script.python",
+                                "application/pdf",
+                                "application/msword",
+                                "text/markdown",
+                                "text/plain",
+                                "text/html",
+                                "text/x-php",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-c++",
+                                "text/x-ruby"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/webp",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            }
+        ],
+        "cursor": null
+    }
+}
