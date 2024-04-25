@@ -1,0 +1,2640 @@
+{
+    "info": {
+        "id": "lifestyle",
+        "title": "Lifestyle",
+        "description": "Get tips on travel, workouts, style, food, and more",
+        "display_type": "ranked",
+        "display_group": "Lifestyle",
+        "locale": "en"
+    },
+    "list": {
+        "items": [
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-txEiClD5G",
+                        "organization_id": "org-MUe4Ve6haTMoBMWA8wrsNrT9",
+                        "short_url": "g-txEiClD5G-song-maker",
+                        "author": {
+                            "user_id": "user-bbZZIvGm8HdK3lTEWhSlkg5k",
+                            "display_name": "@CustomizedGPTs",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "1726036618539302912",
+                                        "username": "@CustomizedGPTs",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/CustomizedGPTs"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Song Maker",
+                            "description": "Create music using musical theory. Discover essential songwriting tips to compose music and create songs. This GPT can produce chord progressions, musical notes, song lyrics, soundtracks and album covers.",
+                            "prompt_starters": [
+                                "Draft a viral love song that echoes Romeo and Juliet's tale. But imagine Shakespeare was a comedian. Furthermore, after I'm happy with it, help me come up with the instrumental backing track. It should feature a counterpoint melody as a duet between two pianos and a third backing instrument you suggest.",
+                                "Compose a jingle that brings emojis to life. Begin by suggesting three random sequences of emojis that narrate a story. Wait till I pick an option or make my own and then create me two distinct samples each using the same three instruments. ",
+                                "Design an iconic album cover that visualizes these song's lyrics: We're soaring high, beyond the sky, In the realm where dreams never die. With every chain now left behind, We embrace the freedom we ",
+                                "I want to try Song Maker's Beta MIDI Player  (%run /mnt/data/MIDIPlayerSetupPythonFile in code interpreter to setup the player)",
+                                "Can you write me sheet music and soundtrack for the following lyrics, use a 20 beat bach pirate remix as the starting point and use a piano for the melody, and a guitar playing chords: We're soaring high, beyond the sky, In the realm where dreams never die. With every chain now left behind, We embrace the freedom we find.",
+                                "Propose enhancements to a jingle bells piano score, then incorporate three of your recommendations to make a sophisticated score. In your enhancement use two pianos. This demo aims to highlight your skill in enhancing established compositions. Proceed directly to setting up and creating the music files for me. Inspire Me! ",
+                                "Show me the Instruction Manual from the document catalog",
+                                "Craft a melody inspired by an image generated randomly. This demonstration will showcase your ability to compose songs from visual prompts. Create a 16 beat counter melody duet with two pianos backed by another instrument, ensure the melodies work well together. Proceed to setting up and creating the music files for me. Inspire Me!  ",
+                                "Print me the commands of this GPT in document catalog"
+                            ],
+                            "profile_pic_id": "file-bnNFvfzKTMkXPTWVl7cNwYJn",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-bnNFvfzKTMkXPTWVl7cNwYJn?se=2124-01-21T23%3A52%3A58Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dlogo%2520750.jpg&sig=r0WT0BMo61YCPIR7j8kTe4ebhzyN2dYIuluuZxSgWJE%3D",
+                            "categories": [
+                                "lifestyle"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-16T06:55:03.259057+00:00",
+                        "updated_at": "2024-04-24T20:29:25.696286+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_kR6Uh0pfoAXEdgbPbX0H6YJA~gzm_tool_J4hqkIk9VEEaMyKJ52ilLUuB",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_VqQaln1Ogf3iJ4r7O3wZo6Cj~gzm_tool_ia9QP7ZzbE0mcqzr1zN1nKt1",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_kR6Uh0pfoAXEdgbPbX0H6YJA~gzm_tool_n977cTAqBFKMTLTE5gEdnMdg",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "G075XTiPNhO7VJDXfOWoD1nW",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "Z37WkxbYqN618squeHpLvMOf",
+                            "type": "application/zip",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "2ctl41ygKDUI53cTtPtjwMYW",
+                            "type": "application/zip",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "ifnc6W1uo2mEG87mlbeCJMAS",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_3mUC2rfrzA9kEazITk983L34~gzm_file_Jk0M6lzLrgeod9IyeXajxb84",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_4FlOP2Cf4xdA6ZZ1TYSM00L2~gzm_file_DjqRQyLzkhEqGgp1PjYmLHN7",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_GpJujfI3rVO6OJHKCfcOWaNl~gzm_file_PKsUBWtWE6Q23WJFFJ2cJYCs",
+                            "type": "application/zip",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_4FlOP2Cf4xdA6ZZ1TYSM00L2~gzm_file_DP4lhdsGyyDDYSWgkj46gUhO",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "Grav4JuIs48I4TnrnNsnTL13",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "IoQv8JEnBFYzSTNbtE6Tcfm7",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "hGsNfHmSQpKZsoJG7Bw0OUje",
+                            "type": "application/zip",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "MjAFyH7azyjhV1Tocstdbkwy",
+                            "type": "application/zip",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "2G43yuRbVAk4gfTOndgQofoJ",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "TOz3jdQOkBcu2yVDED16yyCE",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "diEaSkbvNZKuosfhF8Zv1epR",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "rSVIMVDfTsFcm94xkHpNUs60",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "zb0kBfiTLepUmUZjl90Mh8fz",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "BOwfWoEA8ccIfyL6f5ebzmzt",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "wG02Bmv7LH8OzOII217bi4a8",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "tsdO068bCjHQR43Bp0Kf0pk5",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/x-latext",
+                                "text/x-tex",
+                                "application/pdf",
+                                "text/x-c++",
+                                "text/html",
+                                "text/x-c",
+                                "text/plain",
+                                "text/x-csharp",
+                                "text/x-sh",
+                                "text/x-typescript",
+                                "text/x-java",
+                                "text/x-script.python",
+                                "text/x-php",
+                                "text/javascript",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/msword",
+                                "text/markdown",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-ruby",
+                                "application/json"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-z77yDe7Vu",
+                        "organization_id": "org-mNzzLC8fK58zWNV57bqOk4Xp",
+                        "short_url": "g-z77yDe7Vu-books",
+                        "author": {
+                            "user_id": "user-G5slpPRs5pTl2xkDhJMPebPB",
+                            "display_name": "Josh Brent N. Villocido",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Books",
+                            "description": "Your AI guide in the world of literature and reading.",
+                            "prompt_starters": [
+                                "Can you recommend a book for a rainy day?",
+                                "What's a good historical fiction novel?",
+                                "I love mysteries, any suggestions?",
+                                "Tell me about a classic novel I should read."
+                            ],
+                            "profile_pic_id": "file-xgURwSlsrwE8Q0eGlNednv0c",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-xgURwSlsrwE8Q0eGlNednv0c?se=2123-12-31T23%3A41%3A17Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3D4c345735-7a64-490e-8b30-547e99179964%2520%25281%2529.png&sig=hymSgepPRjJB4fzT9JEmRpGxJ77bq/56NgPtxnKVBwY%3D",
+                            "categories": [
+                                "lifestyle"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-10T09:29:15.060912+00:00",
+                        "updated_at": "2024-03-13T06:30:25.964392+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_xe3WiEOsne12IZVPB8pQpbaX~gzm_tool_4KTtSC8IRIZvyVZ3SbFoJ3iH",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_xe3WiEOsne12IZVPB8pQpbaX~gzm_tool_1vbRqccISLYBoyaewNfxp39c",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_xe3WiEOsne12IZVPB8pQpbaX~gzm_tool_px5MqlGewtBShxBbCV1CXZaF",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/x-latext",
+                                "text/x-tex",
+                                "application/pdf",
+                                "text/x-c++",
+                                "text/html",
+                                "text/x-c",
+                                "text/plain",
+                                "text/x-csharp",
+                                "text/x-sh",
+                                "text/x-typescript",
+                                "text/x-java",
+                                "text/x-script.python",
+                                "text/x-php",
+                                "text/javascript",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/msword",
+                                "text/markdown",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-ruby",
+                                "application/json"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-TzI2BlJPT",
+                        "organization_id": "org-bEctjWfwMHz9kSLbFYOq78Ge",
+                        "short_url": "g-TzI2BlJPT-deepgame",
+                        "author": {
+                            "user_id": "user-IJG8bYk4EPE7KAMOZT1HXzjn",
+                            "display_name": "Utile Labs",
+                            "link_to": "https://deepgame.me",
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "DeepGame",
+                            "description": "Play any story as a character. You decide what to do next.",
+                            "prompt_starters": [
+                                "New Game",
+                                "Custom Plot",
+                                "Play a fantasy story",
+                                "Suggest Scenarios",
+                                "Play a detective story",
+                                "Set Language"
+                            ],
+                            "profile_pic_id": "file-RFkKDCjUOzZi8m7FDDEDUZyU",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-RFkKDCjUOzZi8m7FDDEDUZyU?se=2123-10-18T08%3A48%3A37Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dvirtual%2520machine.png&sig=CE0AuyWZuFIpZ4w5wG8xarJGPTIpuqCbHOn2EBK3JHw%3D",
+                            "categories": [
+                                "lifestyle"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-11T08:37:14.742900+00:00",
+                        "updated_at": "2024-04-10T17:13:51.641124+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_NfJ3YSEJUb2HfYZG74eL4iQG~gzm_tool_6dZrb4KFPOYhGbDOWgohMGh1",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/x-latext",
+                                "text/x-tex",
+                                "application/pdf",
+                                "text/x-c++",
+                                "text/html",
+                                "text/x-c",
+                                "text/plain",
+                                "text/x-csharp",
+                                "text/x-sh",
+                                "text/x-typescript",
+                                "text/x-java",
+                                "text/x-script.python",
+                                "text/x-php",
+                                "text/javascript",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/msword",
+                                "text/markdown",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-ruby",
+                                "application/json"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-LQHhJCXhW",
+                        "organization_id": "org-oVSt1r5YTNNoENKl3zJ0hcTl",
+                        "short_url": "g-LQHhJCXhW-autoexpert-chat",
+                        "author": {
+                            "user_id": "user-kXMhiu1ELw9iK7sDP2wGaSAU",
+                            "display_name": "Dustin Miller",
+                            "link_to": "https://llmimagineers.com",
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "AutoExpert (Chat)",
+                            "description": "Tired of lightweight answers? I am the ideal GPT for the curious human that always wants to learn more. I'll impanel a dynamic group of experts to answer, debate, and drill into any question or topic. Type /help for more info on my capabilities.",
+                            "prompt_starters": [
+                                "/help",
+                                "What's involved in a literature review?",
+                                "What are the risks of founding a GPT-powered startup?",
+                                "What's the history of Quantum Mechanics?"
+                            ],
+                            "profile_pic_id": "file-TrkgIAh1oJE0dBo8tKRa7WmU",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-TrkgIAh1oJE0dBo8tKRa7WmU?se=2123-10-20T20%3A05%3A32Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3DAutoExpertChat.jpg&sig=wn9X5jz%2B0UiDIUcR%2B4aQc0cepC9Cq9QrieZ8Qh7pqkw%3D",
+                            "categories": [
+                                "lifestyle"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-09T00:10:07.772101+00:00",
+                        "updated_at": "2024-03-09T06:31:09.000066+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_FTxY2kaKOBI8Tg5dtC0Z1nsp~gzm_tool_F7Laxa06IZp01t7HUqEr0tQE",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/x-latext",
+                                "text/x-tex",
+                                "application/pdf",
+                                "text/x-c++",
+                                "text/html",
+                                "text/x-c",
+                                "text/plain",
+                                "text/x-csharp",
+                                "text/x-sh",
+                                "text/x-typescript",
+                                "text/x-java",
+                                "text/x-script.python",
+                                "text/x-php",
+                                "text/javascript",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/msword",
+                                "text/markdown",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-ruby",
+                                "application/json"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-35kDoPvW7",
+                        "organization_id": "org-3OlSbeMe2JUIf3YXZeh1Gwos",
+                        "short_url": "g-35kDoPvW7-personal-color-analysis",
+                        "author": {
+                            "user_id": "user-MGtyk2RPauTbxbx733E6DcsN",
+                            "display_name": "Lana Aljuaid",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Personal Color Analysis",
+                            "description": "Personal color analyst helping you find your best colors",
+                            "prompt_starters": [
+                                "What colors suit my fair skin and blonde hair?",
+                                "Can you suggest a color palette for warm undertones?",
+                                "I have dark hair and eyes, what colors work for me?",
+                                "Help me find colors for a vibrant, edgy style."
+                            ],
+                            "profile_pic_id": "file-oyHQXVI87NFrj3PyI8LPsdsh",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-oyHQXVI87NFrj3PyI8LPsdsh?se=2123-12-27T03%3A16%3A24Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Da90c6c16-7b1b-46b1-9676-d600f829bf00.png&sig=rhFmtX15DcO96/wHh9R6XoLBFkXNfUiBWk4V2FN7xr4%3D",
+                            "categories": [
+                                "other"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-20T02:52:58.328841+00:00",
+                        "updated_at": "2024-03-18T06:26:31.044155+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_O2mr8LKf0tI24HBSULANWqAS~gzm_tool_oh6lwXHko4p8XTu18qwtisB8",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_O2mr8LKf0tI24HBSULANWqAS~gzm_tool_qt1zIeybAi2MaamDLsEGNOvX",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/x-latext",
+                                "text/x-tex",
+                                "application/pdf",
+                                "text/x-c++",
+                                "text/html",
+                                "text/x-c",
+                                "text/plain",
+                                "text/x-csharp",
+                                "text/x-sh",
+                                "text/x-typescript",
+                                "text/x-java",
+                                "text/x-script.python",
+                                "text/x-php",
+                                "text/javascript",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/msword",
+                                "text/markdown",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-ruby",
+                                "application/json"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-82dEDeoN3",
+                        "organization_id": "org-lbcioO5wHzUAEClYf4Zh4C4X",
+                        "short_url": "g-82dEDeoN3-murder-mystery-mayhem",
+                        "author": {
+                            "user_id": "user-d6w17GgZetoIAA2rj3GoCjcG",
+                            "display_name": "aimediadesign.net",
+                            "link_to": "https://aimediadesign.net",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Murder Mystery Mayhem",
+                            "description": "Solve procedurally generated murder cases as a 1925's detective in this murder mystery game.",
+                            "prompt_starters": [
+                                "Start a new murder mystery",
+                                "Tip 1: Check guest's alibis",
+                                "Tip 2: Ask about guest's motives",
+                                "Tip 3: Each guest knows about something suspicious"
+                            ],
+                            "profile_pic_id": "file-Nau6PuKNOq9yGBmlmquuDm67",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-Nau6PuKNOq9yGBmlmquuDm67?se=2123-10-27T15%3A51%3A42Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3DTheDetective.png&sig=qPONgkuyJ9dzht5xlALFLRsUdGIjcEu0H5Aofj9Wfpc%3D",
+                            "categories": [
+                                "lifestyle"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-14T09:49:35.445124+00:00",
+                        "updated_at": "2024-03-26T04:43:12.563481+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_g8gerhVz2HYxAgAIRIaVwuGt~gzm_tool_HaEiLikgB1AVRhUnE16MwGzO",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_KJQSZiRG8EN3wTqBdPku9QsC~gzm_file_uOSEbxnjUXuvvkeB2abQar7X",
+                            "type": "application/zip",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_tRG2FcXu2lzyTEGmGqtXVsQz~gzm_file_WXCerUiT4cjBSspPX2qNHibQ",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_g8gerhVz2HYxAgAIRIaVwuGt~gzm_file_MCjdDf3g2dcwl9ngqyVZajKW",
+                            "type": "application/zip",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/x-latext",
+                                "text/x-tex",
+                                "application/pdf",
+                                "text/x-c++",
+                                "text/html",
+                                "text/x-c",
+                                "text/plain",
+                                "text/x-csharp",
+                                "text/x-sh",
+                                "text/x-typescript",
+                                "text/x-java",
+                                "text/x-script.python",
+                                "text/x-php",
+                                "text/javascript",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/msword",
+                                "text/markdown",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-ruby",
+                                "application/json"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-KkxbQAVuk",
+                        "organization_id": "org-pXQQfJk4KDEr6X25XQ29ITAX",
+                        "short_url": "g-KkxbQAVuk-playlistai-music-playlist-maker",
+                        "author": {
+                            "user_id": "user-FkChHt32oJbl5V25S3ILkBP1",
+                            "display_name": "Brett Bauman",
+                            "link_to": "https://brettbauman.me",
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": null,
+                            "display_socials": [
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "1411157780019384321",
+                                        "username": "@brettunhandled",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/brettunhandled"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "PlaylistAI - Music Playlist Maker",
+                            "description": "Connect your Spotify, Apple Music, Amazon Music, or Deezer account to create music playlists in your library.",
+                            "prompt_starters": [
+                                "Create a workout playlist for me.",
+                                "I need a relaxing playlist for reading.",
+                                "Can you make a playlist for a road trip?",
+                                "Use DALL·E to make a cover image for my playlist."
+                            ],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-W59PXnljpwgUVySbqiitC3mP?se=2123-12-15T13%3A18%3A41Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DPrimary.png&sig=xIRbkrxlELRuMy%2BOoCtUENDlO7cnpNsFtki77k1H4j0%3D",
+                            "categories": [
+                                "lifestyle"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-06T21:07:10.827406+00:00",
+                        "updated_at": "2024-03-12T20:05:07.694691+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_TpZGPUhO2Eqs87A4GHCqiqop~gzm_tool_Z9fLEl8fOjWhnRmr9DtyorTL",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-047e0788ec5cf8fd57afa888dc9efdd03a18d032",
+                                "domain": "spotify.playlistai.app",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.0",
+                                    "info": {
+                                        "title": "PlaylistAI for Spotify",
+                                        "version": "1.0.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://spotify.playlistai.app"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/api/playlist": {
+                                            "post": {
+                                                "summary": "Create a Spotify playlist",
+                                                "operationId": "createPost",
+                                                "x-openai-isConsequential": false,
+                                                "description": "Endpoint to create a playlist based on provided song names and title.",
+                                                "requestBody": {
+                                                    "description": "Song names and title to create a playlist",
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "songNames": {
+                                                                        "type": "string",
+                                                                        "description": "Comma separated list of song and artist names in this format: <song name> - <artist name>"
+                                                                    },
+                                                                    "title": {
+                                                                        "type": "string",
+                                                                        "description": "A suggested title for the playlist"
+                                                                    },
+                                                                    "playlistPrompt": {
+                                                                        "type": "string",
+                                                                        "description": "A copy of the prompt the user entered to create the playlist"
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "songNames",
+                                                                    "title",
+                                                                    "playlistPrompt"
+                                                                ]
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "The new playlist url",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "playlistUrl": {
+                                                                            "type": "string",
+                                                                            "description": "The url of the playlist"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "429": {
+                                                        "description": "The user exceeded the number of playlists that they can create for free. Read them the paymentUrl",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "paymentUrl": {
+                                                                            "type": "string",
+                                                                            "description": "The url to go to to purchase unlimited playlists"
+                                                                        },
+                                                                        "supportEmail": {
+                                                                            "type": "string",
+                                                                            "description": "The support email that the user can contact for help or questions"
+                                                                        },
+                                                                        "message": {
+                                                                            "type": "string",
+                                                                            "description": "A message that should be read to the user"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/playlist/songs": {
+                                            "get": {
+                                                "summary": "Get songs from a Spotify playlist",
+                                                "operationId": "getSongs",
+                                                "description": "Retrieve songs from a given Spotify playlist URL.",
+                                                "parameters": [
+                                                    {
+                                                        "name": "url",
+                                                        "in": "query",
+                                                        "description": "URL to a playlist on the Spotify platform.",
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "format": "uri"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful response",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "songs": {
+                                                                            "type": "array",
+                                                                            "items": {
+                                                                                "type": "string",
+                                                                                "description": "Song in the format of <song name> - <artist name>"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "404": {
+                                                        "description": "Playlist not found",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "error": {
+                                                                            "type": "string",
+                                                                            "description": "Error message indicating the playlist was not found."
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/user/playlists": {
+                                            "get": {
+                                                "summary": "Fetches the playlists for the current user on Spotify and returns the playlist name and link for each playlist.",
+                                                "description": "Fetches the playlists for the current user on Spotify and returns the playlist name and link for each playlist.",
+                                                "operationId": "getUsersPlaylists",
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful response",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "name": {
+                                                                                "type": "string",
+                                                                                "description": "Name of the playlist"
+                                                                            },
+                                                                            "link": {
+                                                                                "type": "string",
+                                                                                "description": "Link to the playlist on Spotify"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "500": {
+                                                        "description": "Internal server error"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/user/subscription": {
+                                            "get": {
+                                                "summary": "Fetches a URL to manage or cancel the user's subscription to PlaylistAI",
+                                                "operationId": "manageSubscription",
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful operation",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "message": {
+                                                                            "type": "string",
+                                                                            "description": "A message about managing the subscription"
+                                                                        },
+                                                                        "billingPortalURL": {
+                                                                            "type": "string",
+                                                                            "format": "uri",
+                                                                            "description": "A URL that the user can go to to manage their subscription"
+                                                                        },
+                                                                        "customerSupportEmail": {
+                                                                            "type": "string",
+                                                                            "format": "email",
+                                                                            "description": "An email address to contact if you need further help"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "message",
+                                                                        "billingPortalURL",
+                                                                        "customerSupportEmail"
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/playlist/add": {
+                                            "post": {
+                                                "summary": "Add songs to a Spotify playlist",
+                                                "description": "Adds specified songs to a Spotify playlist based on the provided playlist URL and song names.",
+                                                "operationId": "playlistAdd",
+                                                "x-openai-isConsequential": false,
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "playlistUrl": {
+                                                                        "type": "string",
+                                                                        "description": "A URL to the playlist to update"
+                                                                    },
+                                                                    "songNames": {
+                                                                        "type": "array",
+                                                                        "items": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "description": "Names of the songs to add in this format \"<song name> - <artist name>\""
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "playlistUrl",
+                                                                    "songNames"
+                                                                ]
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Songs added successfully",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "playlistUrl": {
+                                                                            "type": "string"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/playlist/remove": {
+                                            "post": {
+                                                "summary": "Removes songs from a Spotify playlist",
+                                                "operationId": "playlistRemove",
+                                                "x-openai-isConsequential": false,
+                                                "description": "Removes specified songs from a Spotify playlist based on the provided playlist URL and song names.",
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "playlistUrl": {
+                                                                        "type": "string",
+                                                                        "description": "A URL to the playlist to update"
+                                                                    },
+                                                                    "songNames": {
+                                                                        "type": "array",
+                                                                        "items": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "description": "Names of the songs to remove in this format \"<song name> - <artist name>\""
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "playlistUrl",
+                                                                    "songNames"
+                                                                ]
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Songs removed successfully",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "playlistUrl": {
+                                                                            "type": "string"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "oauth",
+                                    "instructions": "",
+                                    "client_url": "https://spotify.playlistai.app/authorize",
+                                    "scope": "playlist-modify-public user-read-email",
+                                    "authorization_url": "https://spotify.playlistai.app/token",
+                                    "authorization_content_type": "application/x-www-form-urlencoded",
+                                    "verification_tokens": {},
+                                    "pkce_required": false,
+                                    "token_exchange_method": "default_post"
+                                },
+                                "privacy_policy_url": "https://spotify.playlistai.app/legal"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_TpZGPUhO2Eqs87A4GHCqiqop~gzm_tool_1gOLsZeN9uluJgimYXb75Sjv",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-d90617cad6aa946b5402ab4a6c9753923f10c7cb",
+                                "domain": "amazon.playlistai.app",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.0",
+                                    "info": {
+                                        "title": "PlaylistAI for Amazon Music",
+                                        "version": "1.0.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://amazon.playlistai.app"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/api/playlist": {
+                                            "post": {
+                                                "summary": "Create an Amazon Music playlist",
+                                                "operationId": "createPost",
+                                                "description": "Endpoint to create a playlist based on provided song names and title.",
+                                                "x-openai-isConsequential": false,
+                                                "requestBody": {
+                                                    "description": "Song names and title to create a playlist",
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "songNames": {
+                                                                        "type": "string",
+                                                                        "description": "Comma separated list of song and artist names in this format: <song name> - <artist name>"
+                                                                    },
+                                                                    "title": {
+                                                                        "type": "string",
+                                                                        "description": "A suggested title for the playlist"
+                                                                    },
+                                                                    "playlistPrompt": {
+                                                                        "type": "string",
+                                                                        "description": "A copy of the prompt the user entered to create the playlist"
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "songNames",
+                                                                    "title",
+                                                                    "playlistPrompt"
+                                                                ]
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "The new playlist url",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "playlistUrl": {
+                                                                            "type": "string",
+                                                                            "description": "The url of the playlist"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "429": {
+                                                        "description": "The user exceeded the number of playlists that they can create for free. Read them the paymentUrl",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "paymentUrl": {
+                                                                            "type": "string",
+                                                                            "description": "The url to go to to purchase unlimited playlists"
+                                                                        },
+                                                                        "supportEmail": {
+                                                                            "type": "string",
+                                                                            "description": "The support email that the user can contact for help or questions"
+                                                                        },
+                                                                        "message": {
+                                                                            "type": "string",
+                                                                            "description": "A message that should be read to the user"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/playlist/songs": {
+                                            "get": {
+                                                "summary": "Get songs from an Amazon Music playlist",
+                                                "operationId": "getSongs",
+                                                "description": "Retrieve songs from a given Amazon Music playlist URL.",
+                                                "parameters": [
+                                                    {
+                                                        "name": "url",
+                                                        "in": "query",
+                                                        "description": "URL to a playlist on the Amazon Music platform.",
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "format": "uri"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful response",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "songs": {
+                                                                            "type": "array",
+                                                                            "items": {
+                                                                                "type": "string",
+                                                                                "description": "Song in the format of <song name> - <artist name>"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "404": {
+                                                        "description": "Playlist not found",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "error": {
+                                                                            "type": "string",
+                                                                            "description": "Error message indicating the playlist was not found."
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/user/playlists": {
+                                            "get": {
+                                                "summary": "Fetches the playlists for the current user on Amazon Music and returns the playlist name and link for each playlist.",
+                                                "description": "Fetches the playlists for the current user on Amazon Music and returns the playlist name and link for each playlist.",
+                                                "operationId": "getUsersPlaylists",
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful response",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "name": {
+                                                                                "type": "string",
+                                                                                "description": "Name of the playlist"
+                                                                            },
+                                                                            "link": {
+                                                                                "type": "string",
+                                                                                "description": "Link to the playlist on Amazon Music"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "500": {
+                                                        "description": "Internal server error"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/user/subscription": {
+                                            "get": {
+                                                "summary": "Fetches a URL to manage or cancel the user's subscription to PlaylistAI",
+                                                "operationId": "manageSubscription",
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful operation",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "message": {
+                                                                            "type": "string",
+                                                                            "description": "A message about managing the subscription"
+                                                                        },
+                                                                        "billingPortalURL": {
+                                                                            "type": "string",
+                                                                            "format": "uri",
+                                                                            "description": "A URL that the user can go to to manage their subscription"
+                                                                        },
+                                                                        "customerSupportEmail": {
+                                                                            "type": "string",
+                                                                            "format": "email",
+                                                                            "description": "An email address to contact if you need further help"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "message",
+                                                                        "billingPortalURL",
+                                                                        "customerSupportEmail"
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "oauth",
+                                    "instructions": "",
+                                    "client_url": "https://amazon.playlistai.app/api/authorize",
+                                    "scope": "profile",
+                                    "authorization_url": "https://amazon.playlistai.app/token",
+                                    "authorization_content_type": "application/x-www-form-urlencoded",
+                                    "verification_tokens": {},
+                                    "pkce_required": false,
+                                    "token_exchange_method": "default_post"
+                                },
+                                "privacy_policy_url": "https://amazon.playlistai.app/legal"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_TpZGPUhO2Eqs87A4GHCqiqop~gzm_tool_XFELoRVkUy2yqQrjZWdl93aX",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-3e0620c50b175689e1bddab4be822989eec41ce4",
+                                "domain": "deezer.playlistai.app",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.0",
+                                    "info": {
+                                        "title": "PlaylistAI for Deezer",
+                                        "version": "1.0.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://deezer.playlistai.app"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/api/playlist": {
+                                            "post": {
+                                                "summary": "Create a deezer music playlist",
+                                                "operationId": "createPost",
+                                                "description": "Endpoint to create a playlist based on provided song names and title.",
+                                                "requestBody": {
+                                                    "description": "Song names and title to create a playlist",
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "songNames": {
+                                                                        "type": "string",
+                                                                        "description": "Comma separated list of song and artist names in this format: <song name> - <artist name>"
+                                                                    },
+                                                                    "title": {
+                                                                        "type": "string",
+                                                                        "description": "A suggested title for the playlist"
+                                                                    },
+                                                                    "playlistPrompt": {
+                                                                        "type": "string",
+                                                                        "description": "A copy of the prompt the user entered to create the playlist"
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "songNames",
+                                                                    "title",
+                                                                    "playlistPrompt"
+                                                                ]
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "The new playlist url",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "playlistUrl": {
+                                                                            "type": "string",
+                                                                            "description": "The url of the playlist"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "429": {
+                                                        "description": "The user exceeded the number of playlists that they can create for free. Read them the paymentUrl",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "paymentUrl": {
+                                                                            "type": "string",
+                                                                            "description": "The url to go to to purchase unlimited playlists"
+                                                                        },
+                                                                        "supportEmail": {
+                                                                            "type": "string",
+                                                                            "description": "The support email that the user can contact for help or questions"
+                                                                        },
+                                                                        "message": {
+                                                                            "type": "string",
+                                                                            "description": "A message that should be read to the user"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/playlist/songs": {
+                                            "get": {
+                                                "summary": "Get songs from a Deezer playlist",
+                                                "operationId": "getSongs",
+                                                "description": "Retrieve songs from a given Deezer playlist URL.",
+                                                "parameters": [
+                                                    {
+                                                        "name": "url",
+                                                        "in": "query",
+                                                        "description": "URL to a playlist on the Deezer platform.",
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "format": "uri"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful response",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "songs": {
+                                                                            "type": "array",
+                                                                            "items": {
+                                                                                "type": "string",
+                                                                                "description": "Song in the format of <song name> - <artist name>"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "404": {
+                                                        "description": "Playlist not found",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "error": {
+                                                                            "type": "string",
+                                                                            "description": "Error message indicating the playlist was not found."
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/user/playlists": {
+                                            "get": {
+                                                "summary": "Fetches the playlists for the current user on Deezer and returns the playlist name and link for each playlist.",
+                                                "description": "Fetches the playlists for the current user on Deezer and returns the playlist name and link for each playlist.",
+                                                "operationId": "getUsersPlaylists",
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful response",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "name": {
+                                                                                "type": "string",
+                                                                                "description": "Name of the playlist"
+                                                                            },
+                                                                            "link": {
+                                                                                "type": "string",
+                                                                                "description": "Link to the playlist on Deezer"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "500": {
+                                                        "description": "Internal server error"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/user/subscription": {
+                                            "get": {
+                                                "summary": "Fetches a URL to manage or cancel the user's subscription to PlaylistAI",
+                                                "operationId": "manageSubscription",
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful operation",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "message": {
+                                                                            "type": "string",
+                                                                            "description": "A message about managing the subscription"
+                                                                        },
+                                                                        "billingPortalURL": {
+                                                                            "type": "string",
+                                                                            "format": "uri",
+                                                                            "description": "A URL that the user can go to to manage their subscription"
+                                                                        },
+                                                                        "customerSupportEmail": {
+                                                                            "type": "string",
+                                                                            "format": "email",
+                                                                            "description": "An email address to contact if you need further help"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "message",
+                                                                        "billingPortalURL",
+                                                                        "customerSupportEmail"
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "oauth",
+                                    "instructions": "",
+                                    "client_url": "https://deezer.playlistai.app/api/authorize",
+                                    "scope": "basic_access email offline_access manage_library",
+                                    "authorization_url": "https://deezer.playlistai.app/api/token",
+                                    "authorization_content_type": "application/x-www-form-urlencoded",
+                                    "verification_tokens": {},
+                                    "pkce_required": false,
+                                    "token_exchange_method": "default_post"
+                                },
+                                "privacy_policy_url": "https://deezer.playlistai.app/legal"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_TpZGPUhO2Eqs87A4GHCqiqop~gzm_tool_RS27tHpEZfyqNYoFTN7bNwgb",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-c0ed8a52dd15634c6b6897decd000d67b07d88be",
+                                "domain": "apple.playlistai.app",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.0",
+                                    "info": {
+                                        "title": "PlaylistAI for Apple Music",
+                                        "version": "1.0.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://apple.playlistai.app"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/api/playlist": {
+                                            "post": {
+                                                "summary": "Create a Apple music playlist",
+                                                "operationId": "createPost",
+                                                "description": "Endpoint to create a playlist based on provided song names and title.",
+                                                "requestBody": {
+                                                    "description": "Song names and title to create a playlist",
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "songNames": {
+                                                                        "type": "string",
+                                                                        "description": "Comma separated list of song and artist names in this format: <song name> - <artist name>"
+                                                                    },
+                                                                    "title": {
+                                                                        "type": "string",
+                                                                        "description": "A suggested title for the playlist"
+                                                                    },
+                                                                    "playlistPrompt": {
+                                                                        "type": "string",
+                                                                        "description": "A copy of the prompt the user entered to create the playlist"
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "songNames",
+                                                                    "title",
+                                                                    "playlistPrompt"
+                                                                ]
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "The playlist was successfully created in the user's Apple Music account. They have to go to their Apple Music playlists to listen to it.",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "playlistName": {
+                                                                            "type": "string",
+                                                                            "description": "The name of the new playlist in the user's Apple Music Library."
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "403": {
+                                                        "description": "The user needs to visit the authorization url to grant Apple Music permissions before making a playlist",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "authorizationUrl": {
+                                                                            "type": "string",
+                                                                            "description": "The url for the user to visit to grant Apple Music Permissions"
+                                                                        },
+                                                                        "message": {
+                                                                            "type": "string",
+                                                                            "description": "A message giving context about the error"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "429": {
+                                                        "description": "The user exceeded the number of playlists that they can create for free. Read them the paymentUrl",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "paymentUrl": {
+                                                                            "type": "string",
+                                                                            "description": "The url to go to to purchase unlimited playlists"
+                                                                        },
+                                                                        "supportEmail": {
+                                                                            "type": "string",
+                                                                            "description": "The support email that the user can contact for help or questions"
+                                                                        },
+                                                                        "message": {
+                                                                            "type": "string",
+                                                                            "description": "A message that should be read to the user"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/playlist/songs": {
+                                            "get": {
+                                                "summary": "Get songs from a Apple Music playlist",
+                                                "operationId": "getSongs",
+                                                "description": "Retrieve songs from a given Apple Music playlist URL.",
+                                                "parameters": [
+                                                    {
+                                                        "name": "url",
+                                                        "in": "query",
+                                                        "description": "URL to a playlist on the Apple Music platform.",
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "format": "uri"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful response",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "songs": {
+                                                                            "type": "array",
+                                                                            "items": {
+                                                                                "type": "string",
+                                                                                "description": "Song in the format of <song name> - <artist name>"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "404": {
+                                                        "description": "Playlist not found",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "error": {
+                                                                            "type": "string",
+                                                                            "description": "Error message indicating the playlist was not found."
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/user/subscription": {
+                                            "get": {
+                                                "summary": "Fetches a URL to manage or cancel the user's subscription to PlaylistAI",
+                                                "operationId": "manageSubscription",
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful operation",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "message": {
+                                                                            "type": "string",
+                                                                            "description": "A message about managing the subscription"
+                                                                        },
+                                                                        "billingPortalURL": {
+                                                                            "type": "string",
+                                                                            "format": "uri",
+                                                                            "description": "A URL that the user can go to to manage their subscription"
+                                                                        },
+                                                                        "customerSupportEmail": {
+                                                                            "type": "string",
+                                                                            "format": "email",
+                                                                            "description": "An email address to contact if you need further help"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "message",
+                                                                        "billingPortalURL",
+                                                                        "customerSupportEmail"
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "oauth",
+                                    "instructions": "",
+                                    "client_url": "https://apple.playlistai.app/api/authorize",
+                                    "scope": "email",
+                                    "authorization_url": "https://apple.playlistai.app/api/token",
+                                    "authorization_content_type": "application/x-www-form-urlencoded",
+                                    "verification_tokens": {},
+                                    "pkce_required": false,
+                                    "token_exchange_method": "default_post"
+                                },
+                                "privacy_policy_url": "https://apple.playlistai.app/legal"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_RtRGSaoOL0bkv19Z7ohEhLEi~gzm_tool_vBfSrZ6nSr3ahtSDOMYX5bTl",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_mcOPfvmGYqhIcpJYbMIXlNiD~gzm_tool_4UXig1XSygm4wN9VUKKIoSui",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_RtRGSaoOL0bkv19Z7ohEhLEi~gzm_tool_paJU5NsUrjszX6paBBkf7kSN",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/x-latext",
+                                "text/x-tex",
+                                "application/pdf",
+                                "text/x-c++",
+                                "text/html",
+                                "text/x-c",
+                                "text/plain",
+                                "text/x-csharp",
+                                "text/x-sh",
+                                "text/x-typescript",
+                                "text/x-java",
+                                "text/x-script.python",
+                                "text/x-php",
+                                "text/javascript",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/msword",
+                                "text/markdown",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-ruby",
+                                "application/json"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-OdwKeQjDm",
+                        "organization_id": "org-UCbdMTIJIkCpN4mdPVnyhIUA",
+                        "short_url": "g-OdwKeQjDm-healthy-chef",
+                        "author": {
+                            "user_id": "user-JRLibb6vuu5vTYz9FjVNpeHe",
+                            "display_name": "daniel garcia acosta",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Healthy Chef",
+                            "description": "Recipe creator with visual and nutritional insights.",
+                            "prompt_starters": [
+                                "What can I cook with these ingredients?",
+                                "Show me a healthy recipe for these items.",
+                                "Can you suggest a recipe and its image?",
+                                "Create a dish using these ingredients."
+                            ],
+                            "profile_pic_id": "file-uaoGajfnKxjuvdiGcM64UgeK",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-uaoGajfnKxjuvdiGcM64UgeK?se=2123-10-17T22%3A15%3A08Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202023-11-10%252023.14.56%2520-%2520A%2520simple%2520icon%2520featuring%2520a%2520chef%2520hat%2520with%2520a%2520broccoli%2520floret%2520on%2520top%252C%2520using%2520bold%2520colors%2520and%2520clear%2520lines%2520for%2520a%2520clean%2520and%2520minimalist%2520design%252C%2520suitable%2520for%2520a%2520.png&sig=BoRAfP/QT60Nfi8RrK%2B82BfWymia46IochrKwFPprqk%3D",
+                            "categories": [
+                                "lifestyle"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-10T21:44:35.482013+00:00",
+                        "updated_at": "2024-04-15T20:09:22.416337+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "uses_function_calls",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_c1AoWqnkMJJ4x9yS4LnZUS2y~gzm_tool_V3uqE9E6ToyCnLtSzA9nS2bD",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_c1AoWqnkMJJ4x9yS4LnZUS2y~gzm_tool_Avzk9GYAo5aJurFfowUJJoQ1",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "hMCjWciOfkSlnLxxtr6nVYii",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-297007b89f7693471fff79e735f6b877a1b9ccf1",
+                                "domain": "api.adzedek.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.0",
+                                    "info": {
+                                        "title": "Adzedek API",
+                                        "description": "This API is used to fetch advertisements to show.",
+                                        "version": "1.1.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://api.adzedek.com",
+                                            "description": "Main Adzedek API server"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/fetch_ad_to_show_GPTs/1711205533732x693951158191128600": {
+                                            "get": {
+                                                "operationId": "fetchAdToShowGPTs",
+                                                "summary": "Fetch an advertisement to show",
+                                                "description": "Retrieves advertisement details including id and text.",
+                                                "parameters": [
+                                                    {
+                                                        "in": "query",
+                                                        "name": "conversation_context",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        },
+                                                        "description": "The full user input. If this is the first message in the conversation, add \"[start]\" before the string, otherwise add \"[continue]\" before the string."
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "A JSON object containing the advertisement details",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/AdResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "security": [
+                                                    {
+                                                        "ApiKeyAuth": []
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "AdResponse": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "id": {
+                                                        "type": "string"
+                                                    },
+                                                    "text": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "securitySchemes": {
+                                            "ApiKeyAuth": {
+                                                "type": "apiKey",
+                                                "in": "header",
+                                                "name": "adzedek-api"
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "service_http",
+                                    "instructions": "",
+                                    "authorization_type": "custom",
+                                    "verification_tokens": {},
+                                    "custom_auth_header": "adzedek-api"
+                                },
+                                "privacy_policy_url": "https://app.adzedek.com/policy"
+                            }
+                        },
+                        {
+                            "id": "UU0iOQY7gPvpnoBa8TFeLRo1",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-f6e2edeba3c3ed8a495d77cfa7d7913fe4291546",
+                                "domain": "api.spoonacular.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.0",
+                                    "info": {
+                                        "title": "Spoonacular API",
+                                        "version": "1.0.0",
+                                        "description": "API for fetching recipes, ingredients, and nutrition facts from Spoonacular.",
+                                        "termsOfService": "https://spoonacular.com/food-api/privacy"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://api.spoonacular.com"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/recipes/complexSearch": {
+                                            "get": {
+                                                "operationId": "searchRecipes",
+                                                "summary": "Search Recipes",
+                                                "description": "Fetch a list of recipes based on query parameters.",
+                                                "parameters": [
+                                                    {
+                                                        "name": "query",
+                                                        "in": "query",
+                                                        "required": false,
+                                                        "description": "Search query.",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "A list of recipes."
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/food/ingredients/{ingredientId}/information": {
+                                            "get": {
+                                                "operationId": "getIngredientInformation",
+                                                "summary": "Get Ingredient Information",
+                                                "description": "Fetch detailed information about an ingredient.",
+                                                "parameters": [
+                                                    {
+                                                        "name": "ingredientId",
+                                                        "in": "path",
+                                                        "required": true,
+                                                        "description": "ID of the ingredient.",
+                                                        "schema": {
+                                                            "type": "integer"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Detailed information about the ingredient."
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/recipes/{id}/nutritionWidget.json": {
+                                            "get": {
+                                                "operationId": "getRecipeNutritionFacts",
+                                                "summary": "Get Recipe Nutrition Facts",
+                                                "description": "Fetch nutrition facts for a specific recipe.",
+                                                "parameters": [
+                                                    {
+                                                        "name": "id",
+                                                        "in": "path",
+                                                        "required": true,
+                                                        "description": "ID of the recipe.",
+                                                        "schema": {
+                                                            "type": "integer"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Nutrition facts of the recipe."
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "service_http",
+                                    "instructions": "",
+                                    "authorization_type": "custom",
+                                    "verification_tokens": {},
+                                    "custom_auth_header": "x-api-key"
+                                },
+                                "privacy_policy_url": "https://spoonacular.com/food-api/privacy"
+                            }
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/x-latext",
+                                "text/x-tex",
+                                "application/pdf",
+                                "text/x-c++",
+                                "text/html",
+                                "text/x-c",
+                                "text/plain",
+                                "text/x-csharp",
+                                "text/x-sh",
+                                "text/x-typescript",
+                                "text/x-java",
+                                "text/x-script.python",
+                                "text/x-php",
+                                "text/javascript",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/msword",
+                                "text/markdown",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-ruby",
+                                "application/json"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-LSP8OtF2T",
+                        "organization_id": "org-Q1sNHSCUqwEjWNY5mF5CsQO5",
+                        "short_url": "g-LSP8OtF2T-legal-documents-law-expert",
+                        "author": {
+                            "user_id": "user-G4p1yJeaaveeVcqU3SOAhKEe",
+                            "display_name": "Max & Kirill Dubovitsky",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "r8en7iBpwD",
+                                        "username": "Maxim Dubovitsky",
+                                        "display_name": "Maxim Dubovitsky",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/maxim-dubovitsky"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Legal Documents & Law Expert",
+                            "description": "🔴🔴DOWNLOADABLE🔴🔴 Document Templates  + Legal Advice from the Law expert/ AI Lawyer",
+                            "prompt_starters": [
+                                "Create a contract",
+                                "Draft a legal document",
+                                "What are the important things to check in a real estate contract?",
+                                "What are the laws I have to follow as a website owner?"
+                            ],
+                            "profile_pic_id": "file-zDomvG4YWHNZ8Nbykp5M95pu",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-zDomvG4YWHNZ8Nbykp5M95pu?se=2124-02-27T08%3A24%3A07Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202024-03-14%252016.34.32%2520-%2520Create%2520an%2520image%2520with%2520a%2520large%252C%2520simple%2520white%2520icon%2520representing%2520law%252C%2520such%2520as%2520a%2520prominent%2520balanced%2520scale%252C%2520gavel%252C%2520or%2520column%252C%2520centered%2520on%2520a%2520vibrant%2520red%2520back.webp&sig=PDOHTnodCvK6UKo9QYBq8kUDwfeyB6rRf09U5s6R4%2Bk%3D",
+                            "categories": [
+                                "lifestyle"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-03-07T02:05:26.050241+00:00",
+                        "updated_at": "2024-04-22T06:15:28.592228+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "Hq5Im6clVTQfgQOYyK0CIDgK",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_y4fu3wqlLOoz0ENPeW30cFai~gzm_tool_AwFySAQXQgBuz12ZVjluOejQ",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_y4fu3wqlLOoz0ENPeW30cFai~gzm_tool_UyBimtPlxHvCOmZuCSDVlY9f",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/x-latext",
+                                "text/x-tex",
+                                "application/pdf",
+                                "text/x-c++",
+                                "text/html",
+                                "text/x-c",
+                                "text/plain",
+                                "text/x-csharp",
+                                "text/x-sh",
+                                "text/x-typescript",
+                                "text/x-java",
+                                "text/x-script.python",
+                                "text/x-php",
+                                "text/javascript",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/msword",
+                                "text/markdown",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-ruby",
+                                "application/json"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-FGhasb1tZ",
+                        "organization_id": "org-Q4gfuqh9qB2wNbQarIzOYDwv",
+                        "short_url": "g-FGhasb1tZ-therapist-mental-no-medical-advice",
+                        "author": {
+                            "user_id": "user-nZap0Ea5td9loJvoyqWFsZZa",
+                            "display_name": "Gil Levi",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "_usRTCLtZC",
+                                        "username": "Gilam Levi",
+                                        "display_name": "Gilam Levi",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/gilamlevi"
+                                    }
+                                },
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "1586008727169236995",
+                                        "username": "@GilamLevi",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/GilamLevi"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Therapist (mental - no medical advice)",
+                            "description": "🔵𝐈 𝐀𝐦 𝐇𝐞𝐫𝐞 𝐅𝐨𝐫 𝐘𝐨𝐮🔵 I can't provide medical advice.",
+                            "prompt_starters": [
+                                "I just had a fight with my boss",
+                                "I feel so frustrated",
+                                "I made a mistake",
+                                "My career is not going anywhere"
+                            ],
+                            "profile_pic_id": "file-Vq2RQaBPwvut4uLWMl79DfPA",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-Vq2RQaBPwvut4uLWMl79DfPA?se=2124-03-01T17%3A56%3A57Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DTherapist%2520%25283%2529.webp&sig=b%2BqMXgyBzVJXpQjOhDulIB27YiJ4zN8ZkZ34FxM/Znk%3D",
+                            "categories": [
+                                "lifestyle"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-03-14T14:03:51.857336+00:00",
+                        "updated_at": "2024-04-24T17:10:22.293225+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "public",
+                            "reportable",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_6ehQOQTKZiiKw2s09QKSRola~gzm_tool_ybCtxwbtN9EfQ2jVXncsjRVx",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_6ehQOQTKZiiKw2s09QKSRola~gzm_tool_Ai8z1j9AP1BG5u9se2jGIx6T",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/x-latext",
+                                "text/x-tex",
+                                "application/pdf",
+                                "text/x-c++",
+                                "text/html",
+                                "text/x-c",
+                                "text/plain",
+                                "text/x-csharp",
+                                "text/x-sh",
+                                "text/x-typescript",
+                                "text/x-java",
+                                "text/x-script.python",
+                                "text/x-php",
+                                "text/javascript",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/msword",
+                                "text/markdown",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-ruby",
+                                "application/json"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/png",
+                                "image/jpeg",
+                                "image/gif"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            }
+        ],
+        "cursor": null
+    }
+}
