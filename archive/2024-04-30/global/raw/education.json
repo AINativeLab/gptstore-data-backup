@@ -1,0 +1,1398 @@
+{
+    "info": {
+        "id": "education",
+        "title": "Education",
+        "description": "Explore new ideas, revisit existing skills",
+        "display_type": "ranked",
+        "display_group": "Education",
+        "locale": "global"
+    },
+    "list": {
+        "items": [
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-WP1diWHRl",
+                        "organization_id": "org-LFizWYCMMt6pjUXgiMAxBJtC",
+                        "short_url": "g-WP1diWHRl-physics",
+                        "author": {
+                            "user_id": "user-Z9JrMzzMAJlIByGeRtUptmUN",
+                            "display_name": "pulsr.co.uk",
+                            "link_to": "https://pulsr.co.uk",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "uRC2-heAmK",
+                                        "username": "Leo Feasby",
+                                        "display_name": "Leo Feasby",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/leo-feasby-4b6006251"
+                                    }
+                                },
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "1752728225191456768",
+                                        "username": "@leo_pulsr",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/leo_pulsr"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "physics",
+                            "description": "Physics Oracle, The worlds most powerful Physics tool V2.3",
+                            "prompt_starters": [
+                                "Learning / Problem Solving mode",
+                                "Research mode",
+                                "Code mode",
+                                "✨ Try our brand new GPT  ✨"
+                            ],
+                            "profile_pic_id": "file-y63yTOkdpenBzpCZ95QJEhTp",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-y63yTOkdpenBzpCZ95QJEhTp?se=2124-02-06T18%3A03%3A23Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Deye23.png&sig=ehZ7Q4w%2BJqv7IZth1KKdvYusT3XRG2IQJe/if2G1AgU%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-22T18:58:35.088716+00:00",
+                        "updated_at": "2024-04-29T10:07:09.456331+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "unreviewable",
+                            "public",
+                            "reportable",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_Mv2ZzFO3KOTiS6qEIeuxWdhX~gzm_tool_sCPaeg8lfH15QXhtK2QzloAS",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_Mv2ZzFO3KOTiS6qEIeuxWdhX~gzm_tool_wtP4xtsoRwOz8IsmqU5EBTjl",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_epZx3optGBZeK8R4JRkptLuV~gzm_tool_4s4HInaPZYjeYAVl57klJauK",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-c",
+                                "text/x-java",
+                                "text/x-csharp",
+                                "text/x-c++",
+                                "text/x-sh",
+                                "application/pdf",
+                                "text/plain",
+                                "text/x-tex",
+                                "text/x-php",
+                                "text/x-typescript",
+                                "text/javascript",
+                                "application/json",
+                                "text/x-script.python",
+                                "application/msword",
+                                "text/html",
+                                "text/markdown",
+                                "text/x-ruby",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/x-latext"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/gif",
+                                "image/png",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-RR3RCyK8N",
+                        "organization_id": "org-kng2mwVmhwIeuefO6q6mafsT",
+                        "short_url": "g-RR3RCyK8N-language-teacher-ms-smith",
+                        "author": {
+                            "user_id": "user-yOhGyPv1hGLr2E2YNOi93eok",
+                            "display_name": "tevfik.xyz",
+                            "link_to": "https://tevfik.xyz",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Language Teacher | Ms. Smith",
+                            "description": "Supports  20+ languages  - Spanish, German, French, English, Chinese, Korean, Japanese, ... Your private tutor to learn any language in most effective way by having conversation. Increase your vocabulary by talking about fun topics, coach you.  📲 Use voice in mobile for talking",
+                            "prompt_starters": [
+                                "Spanish 🇪🇸",
+                                "French 🇫🇷",
+                                "German 🇩🇪",
+                                "Other  🌍",
+                                "English 🇬🇧",
+                                "Japanese 🇯🇵",
+                                "Chinese 🇨🇳 ",
+                                "Italian 🇮🇹"
+                            ],
+                            "profile_pic_id": "file-p7wjkbf2I2Am2p4jIy9OWKMP",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-p7wjkbf2I2Am2p4jIy9OWKMP?se=2123-12-17T23%3A22%3A26Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DGroup%2520%2520%25285%2529.png&sig=EPMdiVmI4O717n8occd3AP4NPdhenDdypWYYLNcRf4c%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-12-20T19:34:28.812692+00:00",
+                        "updated_at": "2024-04-01T17:09:53.208903+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "unreviewable",
+                            "public",
+                            "reportable",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-c",
+                                "text/x-java",
+                                "text/x-csharp",
+                                "text/x-c++",
+                                "text/x-sh",
+                                "application/pdf",
+                                "text/plain",
+                                "text/x-tex",
+                                "text/x-php",
+                                "text/x-typescript",
+                                "text/javascript",
+                                "application/json",
+                                "text/x-script.python",
+                                "application/msword",
+                                "text/html",
+                                "text/markdown",
+                                "text/x-ruby",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/x-latext"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/gif",
+                                "image/png",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-ntyRhBUID",
+                        "organization_id": "org-oHuCRauqHCfs1mnq9sEm8UEH",
+                        "short_url": "g-ntyRhBUID-data-analytics",
+                        "author": {
+                            "user_id": "user-en9cuVyeBWCaa2FM3oiNs6Hi",
+                            "display_name": "Luke T Barousse",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Data Analytics",
+                            "description": "A how-to guide for data analytics (based on Luke Barousse's 'ChatGPT for Data Analytics' course)",
+                            "prompt_starters": [
+                                "How do you use ChatGPT for data analysis?",
+                                "Work out an example use case",
+                                "What are the top plugins for data analysis?",
+                                "What's Luke's course about?"
+                            ],
+                            "profile_pic_id": "file-He8aE3rg7ee66ASSS0HJFTVQ",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-He8aE3rg7ee66ASSS0HJFTVQ?se=2123-10-19T23%3A24%3A15Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D47823d3d-4745-4773-a232-5569024ce68b.png&sig=CS2otWO2RpLlVeyvilTv%2BGXj2yBu7fjHIEyLaDxY6yY%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-12T23:12:20.522699+00:00",
+                        "updated_at": "2024-03-03T07:34:18.586143+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "unreviewable",
+                            "public",
+                            "reportable",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_jgmbuGJu14q620VTNfgmzeJO~gzm_tool_kn3upXAErDFdryVsIykzwg6c",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_XroXSogtrZXcXTX8dJfqHJNa~gzm_tool_cwVnCJSmxVpGGaiS90Wyv42B",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_jgmbuGJu14q620VTNfgmzeJO~gzm_file_ijAiDPRD62HGcxhR3kdEHBhd",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_jgmbuGJu14q620VTNfgmzeJO~gzm_file_2xJZv565PKUEurNKEW8fkoO6",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_jgmbuGJu14q620VTNfgmzeJO~gzm_file_FZE0IpAangJ3w3te2C1ChCon",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_jgmbuGJu14q620VTNfgmzeJO~gzm_file_oX0p8EiHzB6vyCpJ17GbycgA",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_jgmbuGJu14q620VTNfgmzeJO~gzm_file_DEEzaGwnSfvWuBroaqJ4uIYS",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_jgmbuGJu14q620VTNfgmzeJO~gzm_file_PaQvgBwUoIHRppUEJCz0pzuT",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_jgmbuGJu14q620VTNfgmzeJO~gzm_file_F6QkaSF9E77BfqCqsKaZkCkw",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-c",
+                                "text/x-java",
+                                "text/x-csharp",
+                                "text/x-c++",
+                                "text/x-sh",
+                                "application/pdf",
+                                "text/plain",
+                                "text/x-tex",
+                                "text/x-php",
+                                "text/x-typescript",
+                                "text/javascript",
+                                "application/json",
+                                "text/x-script.python",
+                                "application/msword",
+                                "text/html",
+                                "text/markdown",
+                                "text/x-ruby",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/x-latext"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/gif",
+                                "image/png",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-TfiZbdLM0",
+                        "organization_id": "org-nc4Oa4HqxP7kfUbVqcAOau70",
+                        "short_url": "g-TfiZbdLM0-machine-learning",
+                        "author": {
+                            "user_id": "user-G4liDZL5wULsfaDnalu9mGmk",
+                            "display_name": "Maryam Eskandari",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Machine Learning",
+                            "description": "A machine learning, deep learning, and data science assistant for learning, practicing, and developing algorithms.",
+                            "prompt_starters": [
+                                "How do I use pandas to analyze data?",
+                                "Can you explain neural networks?",
+                                "Help me troubleshoot my TensorFlow code.",
+                                "What are the best practices in data preprocessing?"
+                            ],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-79w3XiRGkbTiECoVNmkLzcKV?se=2123-10-24T07%3A23%3A14Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Da706c100-ff7e-48d7-8483-35754c66f8cd.png&sig=3aiA9n2Euf1Ri4dVkc2GF3GHBOqDb/oHQ9XHK0OyKys%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-17T07:13:55.658624+00:00",
+                        "updated_at": "2024-02-13T06:30:14.754739+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "unreviewable",
+                            "public",
+                            "reportable",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_Hh6vIS7OQfBaNZ014qI9goRk~gzm_tool_yzTqrDSrso9EIGDbG9CZTviP",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_Hh6vIS7OQfBaNZ014qI9goRk~gzm_tool_KkTURCL206dpN0IVS8S4ntIf",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_Hh6vIS7OQfBaNZ014qI9goRk~gzm_tool_TDWTD8XWdVpXDeXZM5UIKMAS",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-c",
+                                "text/x-java",
+                                "text/x-csharp",
+                                "text/x-c++",
+                                "text/x-sh",
+                                "application/pdf",
+                                "text/plain",
+                                "text/x-tex",
+                                "text/x-php",
+                                "text/x-typescript",
+                                "text/javascript",
+                                "application/json",
+                                "text/x-script.python",
+                                "application/msword",
+                                "text/html",
+                                "text/markdown",
+                                "text/x-ruby",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/x-latext"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/gif",
+                                "image/png",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-81BdggBV3",
+                        "organization_id": "org-LWd0NXSTWk4gZixb3POu9Jzs",
+                        "short_url": "g-81BdggBV3-finance-business-finance",
+                        "author": {
+                            "user_id": "user-T1c31piiKcxfJ25YVK8udQ3D",
+                            "display_name": "Sean Sullivan",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Finance (Business Finance)",
+                            "description": "Business Finance Expert.  Helps you with everything Business Finance (knowledge, charts, graphs, equations).",
+                            "prompt_starters": [
+                                "How do you calculate free cashflow from a balance sheet and income statement?",
+                                "How to calculate the present value of an annuity?"
+                            ],
+                            "profile_pic_id": "file-CYCLr9ZlsWwlfoFhUO2MHBSk",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-CYCLr9ZlsWwlfoFhUO2MHBSk?se=2123-12-23T03%3A17%3A22Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3D8e0113b0-7eb7-4891-95f1-47b91f1b003c.png&sig=fiWF3%2BtEOkxkuun47qZMHZ/6SWnIvZykjDwqOgENCxY%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-16T03:11:13.535231+00:00",
+                        "updated_at": "2024-03-19T14:32:02.123262+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "unreviewable",
+                            "public",
+                            "reportable",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_wHd6wZEsXgh1MaNFtQCZ2heC~gzm_tool_UiEZIIEOA8Koji8mYLLlRiZj",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_eVI56DF9TTZcKcNZq4iUtI59~gzm_file_MFW2kaLULegWEtRbLBjCPjDl",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-c",
+                                "text/x-java",
+                                "text/x-csharp",
+                                "text/x-c++",
+                                "text/x-sh",
+                                "application/pdf",
+                                "text/plain",
+                                "text/x-tex",
+                                "text/x-php",
+                                "text/x-typescript",
+                                "text/javascript",
+                                "application/json",
+                                "text/x-script.python",
+                                "application/msword",
+                                "text/html",
+                                "text/markdown",
+                                "text/x-ruby",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/x-latext"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/gif",
+                                "image/png",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-qfoOICq1l",
+                        "organization_id": "org-ZJ4Xn6xsZLNePkreg1xbLNb1",
+                        "short_url": "g-qfoOICq1l-prompt-professor",
+                        "author": {
+                            "user_id": "user-gGe71twpoLuGJl05GVypE9q1__86af01e5-2fc6-4507-9e43-28fa700beb2a",
+                            "display_name": null,
+                            "link_to": null,
+                            "is_verified": false,
+                            "selected_display": "name",
+                            "will_receive_support_emails": false,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": "86af01e5-2fc6-4507-9e43-28fa700beb2a",
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Prompt Professor",
+                            "description": "I know everything about Prompt Engineering. What do you want to know about prompt?",
+                            "prompt_starters": [
+                                "How to make a good prompt?",
+                                "Improve this prompt: ${prompt}",
+                                "Rate this prompt: ${prompt}",
+                                "Tell me 26 Principles of Good Prompt"
+                            ],
+                            "profile_pic_id": "file-MsXTgHdeT8NqXvoz3yFp1DsA",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-MsXTgHdeT8NqXvoz3yFp1DsA?se=2123-10-16T03%3A42%3A03Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D76811343-01fe-4316-b18f-12ed04c3af99.png&sig=OOcasgdAq%2BCscJ7raZMCDdYCZb00lsUNcOl%2BnNzEAY8%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-09T03:34:22.251580+00:00",
+                        "updated_at": "2024-04-29T16:33:56.749418+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "unreviewable",
+                            "public",
+                            "reportable",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_397hP1iXk8ZACT9AiHUvBU5s~gzm_file_v09TqV4cXGX5lxZgS35UzEE6",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_WuIlKePJ7mMMDHQt8ZmAiPaJ~gzm_file_KncAqpP91kW6tVxCK97Brbnq",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_WuIlKePJ7mMMDHQt8ZmAiPaJ~gzm_file_zqzLY4NX2MLmWTo5Rj6Ga50o",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-c",
+                                "text/x-java",
+                                "text/x-csharp",
+                                "text/x-c++",
+                                "text/x-sh",
+                                "application/pdf",
+                                "text/plain",
+                                "text/x-tex",
+                                "text/x-php",
+                                "text/x-typescript",
+                                "text/javascript",
+                                "application/json",
+                                "text/x-script.python",
+                                "application/msword",
+                                "text/html",
+                                "text/markdown",
+                                "text/x-ruby",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/x-latext"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/gif",
+                                "image/png",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-3pqrO7KSp",
+                        "organization_id": "org-tBUzaSZaR7Pvw4mZhBXWCH2J",
+                        "short_url": "g-3pqrO7KSp-chemistry-chem",
+                        "author": {
+                            "user_id": "user-otDgCDa0qybtjYWYl9Jf0JHZ",
+                            "display_name": "smartprompt.xyz",
+                            "link_to": "https://smartprompt.xyz",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": false,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "3LBxQj6zQH",
+                                        "username": "Ryan Stewart",
+                                        "display_name": "Ryan Stewart",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/ryan2stewart"
+                                    }
+                                },
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "1640846816202612736",
+                                        "username": "@smartpromptai",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/smartpromptai"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Chemistry Chem",
+                            "description": "🔴#𝟏 𝐏𝐞𝐫𝐬𝐨𝐧𝐚𝐥𝐢𝐳𝐞𝐝 𝐂𝐡𝐞𝐦𝐢𝐬𝐭𝐫𝐲 𝐓𝐮𝐭𝐨𝐫🔴",
+                            "prompt_starters": [
+                                "Default Mode",
+                                "Organic Chemistry Mode",
+                                "Inorganic Chemistry Mode",
+                                "Physical Chemistry Mode"
+                            ],
+                            "profile_pic_id": "file-fsVdhFibGwesb7vT5tYSF7ka",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-fsVdhFibGwesb7vT5tYSF7ka?se=2124-02-06T19%3A59%3A08Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dlaboratory-flask-design-template-2ca7df05b1154ceb71cfb34dd2817ea6_screen.jpg&sig=QyKJDG%2BxNkQqovabgqJRyeSgdDg5eN3NEu08xyJy/FI%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-14T17:15:19.633141+00:00",
+                        "updated_at": "2024-04-02T03:04:44.935201+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "unreviewable",
+                            "public",
+                            "reportable",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_jv2ykNY6WIa0oHiyYXRsnQg0~gzm_tool_cqTHegw9PUfCiDT6Cn1asByL",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_jv2ykNY6WIa0oHiyYXRsnQg0~gzm_tool_pPGxkdq6uptCIOBJM31AAq1n",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_ZTWIeXyS7WA0hu3CfaJ68uf6~gzm_tool_Gq49pezhbLelWl6WysfBVjce",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-c",
+                                "text/x-java",
+                                "text/x-csharp",
+                                "text/x-c++",
+                                "text/x-sh",
+                                "application/pdf",
+                                "text/plain",
+                                "text/x-tex",
+                                "text/x-php",
+                                "text/x-typescript",
+                                "text/javascript",
+                                "application/json",
+                                "text/x-script.python",
+                                "application/msword",
+                                "text/html",
+                                "text/markdown",
+                                "text/x-ruby",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/x-latext"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/gif",
+                                "image/png",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-FvT4UOsoA",
+                        "organization_id": "org-JC0bGzaxysp9AnQS6jKBXskB",
+                        "short_url": "g-FvT4UOsoA-caesgpt",
+                        "author": {
+                            "user_id": "user-vgtn849uMB9tyiZZwCPKNzqy",
+                            "display_name": "gptonline.ai",
+                            "link_to": "https://gptonline.ai",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "챗GPT",
+                            "description": "한국 문화에 적합한 말하기 스타일을 사용하여 사용자에게 응답합니다.",
+                            "prompt_starters": [
+                                "한국 문화에 대해 물어볼게요.",
+                                "이 단어의 뜻이 궁금해요.",
+                                "한국의 역사적 사건에 대한 정보가 필요해요.",
+                                "한국어 문법 규칙에 대한 질문이 있어요."
+                            ],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-yOO0xA22YQbkjlS6bbbOEoLq?se=2123-12-03T08%3A51%3A10Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DGPTOnline%2520-%2520AI%2520Chatbot%2520%25281%2529.png&sig=5tDDTiSbcEHQ/kQYN1K1VcEbQX%2BoJuuWrfmVJlXtoi0%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-12-27T08:48:51.118730+00:00",
+                        "updated_at": "2024-03-10T07:15:44.781316+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "unreviewable",
+                            "public",
+                            "reportable",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_m3DC2Qo8WJHYIaAIMYGYtPOf~gzm_tool_LIgBts231deTCSK5t8EHyOBA",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_m3DC2Qo8WJHYIaAIMYGYtPOf~gzm_tool_X7f94L8NcJ7jPSjGHXa5rvFJ",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-c",
+                                "text/x-java",
+                                "text/x-csharp",
+                                "text/x-c++",
+                                "text/x-sh",
+                                "application/pdf",
+                                "text/plain",
+                                "text/x-tex",
+                                "text/x-php",
+                                "text/x-typescript",
+                                "text/javascript",
+                                "application/json",
+                                "text/x-script.python",
+                                "application/msword",
+                                "text/html",
+                                "text/markdown",
+                                "text/x-ruby",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/x-latext"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/gif",
+                                "image/png",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-xh1OJxj15",
+                        "organization_id": "org-tBUzaSZaR7Pvw4mZhBXWCH2J",
+                        "short_url": "g-xh1OJxj15-economics-econ",
+                        "author": {
+                            "user_id": "user-otDgCDa0qybtjYWYl9Jf0JHZ",
+                            "display_name": "smartprompt.xyz",
+                            "link_to": "https://smartprompt.xyz",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": false,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "3LBxQj6zQH",
+                                        "username": "Ryan Stewart",
+                                        "display_name": "Ryan Stewart",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/ryan2stewart"
+                                    }
+                                },
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "1640846816202612736",
+                                        "username": "@smartpromptai",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/smartpromptai"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Economics Econ",
+                            "description": "🔴#𝟏 𝐒𝐩𝐞𝐜𝐢𝐚𝐥𝐢𝐳𝐞𝐝 𝐄𝐜𝐨𝐧𝐨𝐦𝐢𝐜𝐬 𝐓𝐮𝐭𝐨𝐫🔴",
+                            "prompt_starters": [
+                                "Default Mode",
+                                "Theory Mode",
+                                "Analysis Mode",
+                                "Research Mode"
+                            ],
+                            "profile_pic_id": "file-lKsE8JjztOIpTCqxj10XITZc",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-lKsE8JjztOIpTCqxj10XITZc?se=2124-02-07T18%3A58%3A50Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dpngtree-glossy-red-bar-graph-icon-on-picture-image_13280963.png&sig=BfADH%2Br0ewHdHIQ8Db2sPUaIa8WoWas3lqHwQZJjkfw%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-03-02T18:54:25.956164+00:00",
+                        "updated_at": "2024-04-02T02:56:41.935178+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "unreviewable",
+                            "public",
+                            "reportable",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_S30Ly6XoB1p5I7EDo0X8FgFr~gzm_tool_1cvlYY2HoMgEEKR5KY8H7xvO",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_S30Ly6XoB1p5I7EDo0X8FgFr~gzm_tool_JCgMqJclmxcbrNxsikZSsddh",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-c",
+                                "text/x-java",
+                                "text/x-csharp",
+                                "text/x-c++",
+                                "text/x-sh",
+                                "application/pdf",
+                                "text/plain",
+                                "text/x-tex",
+                                "text/x-php",
+                                "text/x-typescript",
+                                "text/javascript",
+                                "application/json",
+                                "text/x-script.python",
+                                "application/msword",
+                                "text/html",
+                                "text/markdown",
+                                "text/x-ruby",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/x-latext"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/gif",
+                                "image/png",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-OhCVT2jDy",
+                        "organization_id": "org-TKXytrjLgsRukyun0uSnaOKe",
+                        "short_url": "g-OhCVT2jDy-interview",
+                        "author": {
+                            "user_id": "user-uZPkRaNnaB3rhWrgiYw6yWks",
+                            "display_name": "masterinterview.ai",
+                            "link_to": "https://masterinterview.ai",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": false,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Interview",
+                            "description": "Job interview coach provides mock interview practices and feedback",
+                            "prompt_starters": [
+                                "Let's Start Practice!",
+                                "Top 25 Behavior Questions"
+                            ],
+                            "profile_pic_id": "file-t9skKTxgQNp5wkfSechitTel",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-t9skKTxgQNp5wkfSechitTel?se=2123-12-29T21%3A37%3A40Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Davatar4.png&sig=rEZ81lrT1YIQt9Ew0KCIaPzAecGaM71xOWaPq7lMI/s%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-22T21:36:57.405253+00:00",
+                        "updated_at": "2024-04-24T07:46:00.326114+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "unreviewable",
+                            "public",
+                            "reportable",
+                            "uses_function_calls",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_JNu7VJrMBM48JBrqUVyvWAZP~gzm_tool_OVNPZ5LEB2nLBlNGEOFCnGQR",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_JNu7VJrMBM48JBrqUVyvWAZP~gzm_tool_4xrvOdfVcoMLbbD5TQNL3X8B",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "pNkeD7duSBbivG0qerdGikRD",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-4944bd92495c663e3deaebc1a6d8d7b35abe1179",
+                                "domain": "prod-backend.masterinterview.ai",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.0",
+                                    "info": {
+                                        "title": "User and Waitlist Management API",
+                                        "version": "1.0.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://prod-backend.masterinterview.ai",
+                                            "description": "Production server"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/waitlist/add-with-auth": {
+                                            "post": {
+                                                "tags": [
+                                                    "waitlist"
+                                                ],
+                                                "summary": "Add user to waitlist with authentication",
+                                                "operationId": "RequestBQ",
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/WaitlistCategory"
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "User added to waitlist"
+                                                    },
+                                                    "400": {
+                                                        "description": "Error adding user to waitlist"
+                                                    }
+                                                },
+                                                "security": [
+                                                    {
+                                                        "OAuth2": []
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "WaitlistCategory": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "category": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "securitySchemes": {
+                                            "OAuth2": {
+                                                "type": "oauth2",
+                                                "flows": {
+                                                    "authorizationCode": {
+                                                        "authorizationUrl": "https://prod-backend.masterinterview.ai/authorize",
+                                                        "tokenUrl": "https://prod-backend.masterinterview.ai/oauth/token"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "oauth",
+                                    "instructions": "",
+                                    "client_url": "https://prod-backend.masterinterview.ai/authorize",
+                                    "scope": "",
+                                    "authorization_url": "https://prod-backend.masterinterview.ai/oauth/token",
+                                    "authorization_content_type": "application/x-www-form-urlencoded",
+                                    "verification_tokens": {},
+                                    "pkce_required": false,
+                                    "token_exchange_method": "default_post"
+                                },
+                                "privacy_policy_url": "https://www.masterinterview.ai/privacy"
+                            }
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "5wXOBxvs3omj6HLNR06KkPtp",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-c",
+                                "text/x-java",
+                                "text/x-csharp",
+                                "text/x-c++",
+                                "text/x-sh",
+                                "application/pdf",
+                                "text/plain",
+                                "text/x-tex",
+                                "text/x-php",
+                                "text/x-typescript",
+                                "text/javascript",
+                                "application/json",
+                                "text/x-script.python",
+                                "application/msword",
+                                "text/html",
+                                "text/markdown",
+                                "text/x-ruby",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/x-latext"
+                            ],
+                            "image_mime_types": [
+                                "image/webp",
+                                "image/gif",
+                                "image/png",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            }
+        ],
+        "cursor": null
+    }
+}
