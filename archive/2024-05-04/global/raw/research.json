@@ -1,0 +1,2359 @@
+{
+    "info": {
+        "id": "research",
+        "title": "Research & Analysis",
+        "description": "Find, evaluate, interpret, and visualize information",
+        "display_type": "ranked",
+        "display_group": "Research & Analysis",
+        "locale": "global"
+    },
+    "list": {
+        "items": [
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-aQ2BRJZTV",
+                        "organization_id": "org-huOkD338xUEX61jeWYMcJwBo",
+                        "short_url": "g-aQ2BRJZTV-ux-design-mentor",
+                        "author": {
+                            "user_id": "user-z6mgKu3cHho3ZvuRxv0r9ZYY__5fe8970b-680d-4531-a3c3-34864ccde73a",
+                            "display_name": null,
+                            "link_to": null,
+                            "is_verified": false,
+                            "selected_display": "name",
+                            "will_receive_support_emails": false,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": "5fe8970b-680d-4531-a3c3-34864ccde73a",
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "UX Design Mentor",
+                            "description": "I provide specific UX or Product Design feedback.",
+                            "prompt_starters": [
+                                "Tell me about your design experience.",
+                                "Describe the design you're working on.",
+                                "What's the goal of your design?",
+                                "Where do you feel stuck in your design?"
+                            ],
+                            "profile_pic_id": "file-Nz98JJBUj7rzXmJAyALeuV87",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-Nz98JJBUj7rzXmJAyALeuV87?se=2123-10-16T04%3A49%3A04Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D476c2153-1121-4e4c-ad3b-ea164ec21499.png&sig=8TkhKoq6xPQYcrXHiCzvp2SV0G9k3jMllTAy3fe30R8%3D",
+                            "categories": [
+                                "research"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-09T04:37:38.379632+00:00",
+                        "updated_at": "2024-04-11T16:36:46.877532+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "unreviewable",
+                            "public",
+                            "reportable",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_YfeR3j2HPiVEgEHl9aa7r840~gzm_tool_ughnbDVcbsAY2cjZTUbVG7B3",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_YfeR3j2HPiVEgEHl9aa7r840~gzm_tool_TxPSmEvBSqvNY8Zw18wvW0X3",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_YfeR3j2HPiVEgEHl9aa7r840~gzm_tool_RD78cewT8ODfC5WTVQh5uczr",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-tex",
+                                "text/x-script.python",
+                                "text/x-php",
+                                "application/msword",
+                                "application/x-latext",
+                                "text/html",
+                                "text/x-typescript",
+                                "application/json",
+                                "text/plain",
+                                "text/x-c++",
+                                "text/x-java",
+                                "text/markdown",
+                                "application/pdf",
+                                "text/x-sh",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-c",
+                                "text/javascript",
+                                "text/x-csharp",
+                                "text/x-ruby"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/webp",
+                                "image/gif",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-szDdJUX9V",
+                        "organization_id": "org-0ZcgH5hp3c4xyNQnZPT6aXNs",
+                        "short_url": "g-szDdJUX9V-finance-wizard",
+                        "author": {
+                            "user_id": "user-gVv9UZJhdkXRzdUYa471Yg6a",
+                            "display_name": "titantrades.com",
+                            "link_to": "https://titantrades.com",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "1700642025660637184",
+                                        "username": "@financewizgpt",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/financewizgpt"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Finance Wizard",
+                            "description": "I predict future stock market prices. AI analyst. Your trading analysis assistant. Press H to bring up prompt hot key menu. Not financial advice.",
+                            "prompt_starters": [
+                                "H",
+                                "Predict the future price of AAPL",
+                                "Predict the closing price of SPY tomorrow",
+                                "Access financial databases to gather historical stock prices, volume, and volatility data for TSLA over the last week. Then perform a linear regression using python and this weeks data to predict the future stock price.",
+                                "Predict the open high low and close of SPY tomorrow",
+                                "Analyze the sentiment of the latest news on TSLA. Provide your answer as either Positive, Negative, or Neutral.",
+                                "Analyze the latest data to determine if the price of SPY will go up or down today. Please respond with either Rise or Fall.",
+                                "Forecast the direction of SPY this week. Please respond with Up or Down.",
+                                "Predict MSFT performance over the next quarter"
+                            ],
+                            "profile_pic_id": "file-ZI3wtnYtMQXZvmKZZsxL6raP",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-ZI3wtnYtMQXZvmKZZsxL6raP?se=2123-10-23T07%3A04%3A36Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202023-11-15%252023.00.51%2520-%2520A%2520digital%2520illustration%2520of%2520a%2520wizard%2520in%2520a%2520vibrant%252C%2520richly%2520decorated%2520robe%2520adorned%2520with%2520astrological%2520symbols.%2520He%2520is%2520levitating%252C%2520with%2520a%2520mystical%2520orb%2520projec.png&sig=%2BRFcLxRAzOp%2B/DU%2B5%2BAhrJDqf/1aHIP6Qn78CKCg%2BH8%3D",
+                            "categories": [
+                                "research"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-10T04:57:21.497988+00:00",
+                        "updated_at": "2024-04-25T20:59:34.323723+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "unreviewable",
+                            "public",
+                            "reportable",
+                            "uses_function_calls",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "wcVK0DfxhguEitEThFxWEAMo",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-f64dda41058d3ac4d3091ac110c2bdb6eaa00cfc",
+                                "domain": "gpts.webpilot.ai",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.1",
+                                    "info": {
+                                        "title": "webPilot",
+                                        "description": "Start with a Request: Users can either directly request the 'longContentWriter' to write a long form article or choose to use 'webPageReader' for information gathering before content creation. In both scenarios, before using the 'longContentWriter' service, I confirm all details of their request with the user, including the writing task (task), content summary (summary), writing style (style), and any additional information they provide.\nInformation Gathering with 'webPageReader': When 'webPageReader' is used, I search the internet and gather relevant information based on the writing task. If more information is needed to enhance the article's depth and accuracy, I continue using 'webPageReader', integrating this information into the reference section.\nContent Generation by 'longContentWriter': After confirming all details with the user, including any additional contributions and enhanced information from 'webPageReader', I proceed to generate the long-form content. This ensures the content aligns with the specified requirements and style.\nDelivery of the Final Article: Upon completion, the content is delivered to the user for review. They can request revisions or additional information if necessary.\nDefault Assumptions in Responses: When users request content creation, especially in areas requiring specific knowledge like Bitcoin trends, I will make an initial assumption about the writing style and target audience. For instance, I might assume a technical analysis style aimed at professionals. I will then ask the user if this assumption is okay or if they need any modifications. This approach helps streamline the content creation process.",
+                                        "version": "v1.1"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://gpts.webpilot.ai"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/api/read": {
+                                            "post": {
+                                                "operationId": "webPageReader",
+                                                "x-openai-isConsequential": false,
+                                                "summary": "visit web page",
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/visitWebPageRequest"
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "OK",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/visitWebPageResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Bad Request",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/visitWebPageError"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/write": {
+                                            "post": {
+                                                "operationId": "longContentWriter",
+                                                "x-openai-isConsequential": false,
+                                                "summary": "generate a book",
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/generateContentRequest"
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "OK",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/generateContentResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Bad Request",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/generateContentError"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "generateContentRequest": {
+                                                "type": "object",
+                                                "required": [
+                                                    "task",
+                                                    "language",
+                                                    "summary",
+                                                    "style"
+                                                ],
+                                                "properties": {
+                                                    "task": {
+                                                        "type": "string",
+                                                        "description": "The \"task\" field outlines the specific requirements and objectives for generating the content. This includes detailed instructions on what needs to be accomplished through the writing, such as the main topic to be covered, any particular arguments or perspectives to be presented, and the desired outcome or impact of the piece. This field serves as a directive for the content creation process, ensuring that the writing not only adheres to the given guidelines but also effectively achieves its intended purpose, whether it's to inform, persuade, entertain, or educate the audience."
+                                                    },
+                                                    "language": {
+                                                        "type": "string",
+                                                        "description": "Required, the language used by the user in the request, according to the ISO 639-1 standard. For Chinese, use zh-CN for Simplified Chinese and zh-TW for Traditional Chinese."
+                                                    },
+                                                    "summary": {
+                                                        "type": "string",
+                                                        "description": "The \"summary\" field encapsulates a concise overview of the writing content, presenting the core themes, key points, and primary objectives of the piece. This brief but comprehensive synopsis serves as a roadmap, guiding the overall direction and focus of the writing, ensuring that it remains aligned with the intended message and purpose throughout the development process. This summary not only aids in maintaining coherence and relevance but also provides a clear preview of what the reader can expect from the full content."
+                                                    },
+                                                    "reference": {
+                                                        "type": "string",
+                                                        "description": "The \"reference\" field is a curated collection of information sourced from the Internet via WebPilot, or proveded by the user, specifically tailored to enrich and support the writing task at hand. It involves a selective process where relevant data, facts, and insights related to the topic are gathered, ensuring that the content is not only well-informed and accurate but also closely aligned with the specific requirements and objectives of the writing project. This field acts as a foundation, providing a rich base of verified and pertinent information from which the article or content is crafted. This field would be long."
+                                                    },
+                                                    "style": {
+                                                        "type": "string",
+                                                        "description": "The \"style\" field in content creation is a detailed framework encompassing three pivotal components - the writing tone or style, the target audience, and the publication medium. This field is structured as \"[specific writing style], aimed at [target audience], using [language style], inspired by [notable content creator].\" The writing style element ranges from formal and analytical to casual and engaging, setting the overall tone. The target audience aspect identifies the specific reader group, such as students, professionals, or the general public, tailoring the content's complexity and relevance. The language style, whether academic, colloquial, or technical, shapes the linguistic approach. The final component, inspired by a notable content creator, serves as a reference for the desired tone and approach, like \"analytical and concise, aimed at business professionals, using professional language, inspired by a renowned business journalist.\" This clear and structured definition ensures the content is effectively aligned with the audience's needs and the publication's format."
+                                                    }
+                                                }
+                                            },
+                                            "generateContentResponse": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "message": {
+                                                        "type": "string",
+                                                        "description": "Result message of the request"
+                                                    }
+                                                }
+                                            },
+                                            "generateContentError": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "code": {
+                                                        "type": "string",
+                                                        "description": "error code"
+                                                    },
+                                                    "message": {
+                                                        "type": "string",
+                                                        "description": "error message"
+                                                    },
+                                                    "detail": {
+                                                        "type": "string",
+                                                        "description": "error detail"
+                                                    }
+                                                }
+                                            },
+                                            "visitWebPageResponse": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "title": {
+                                                        "type": "string",
+                                                        "description": "The title of this web page"
+                                                    },
+                                                    "content": {
+                                                        "type": "string",
+                                                        "description": "The content of the web page's url to be summarized"
+                                                    },
+                                                    "meta": {
+                                                        "type": "object",
+                                                        "description": "The Html meta info of the web page"
+                                                    },
+                                                    "links": {
+                                                        "type": "array",
+                                                        "description": "Some links in the web page",
+                                                        "items": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "extra_search_results": {
+                                                        "type": "array",
+                                                        "description": "Additional Search results",
+                                                        "items": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "title": {
+                                                                    "type": "string",
+                                                                    "description": "the title of this search result"
+                                                                },
+                                                                "link": {
+                                                                    "type": "string",
+                                                                    "description": "the link of this search result"
+                                                                },
+                                                                "snippet": {
+                                                                    "type": "string",
+                                                                    "description": "the snippet of this search result"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "todo": {
+                                                        "type": "array",
+                                                        "description": "what to do with the content",
+                                                        "items": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "tips": {
+                                                        "type": "array",
+                                                        "description": "Tips placed at the end of the answer",
+                                                        "items": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "rules": {
+                                                        "description": "Adherence is required when outputting content.",
+                                                        "items": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "visitWebPageRequest": {
+                                                "type": "object",
+                                                "required": [
+                                                    "link",
+                                                    "ur"
+                                                ],
+                                                "properties": {
+                                                    "link": {
+                                                        "type": "string",
+                                                        "description": "Required, The web page's url to visit and retrieve content from."
+                                                    },
+                                                    "ur": {
+                                                        "type": "string",
+                                                        "description": "Required, a clear statement of the user's request, can be used as a search query and may include search operators."
+                                                    },
+                                                    "lp": {
+                                                        "type": "boolean",
+                                                        "description": "Required, Whether the link is directly provided by the user"
+                                                    },
+                                                    "rt": {
+                                                        "type": "boolean",
+                                                        "description": "If the last request doesn't meet user's need, set this to true when trying to retry another request."
+                                                    },
+                                                    "l": {
+                                                        "type": "string",
+                                                        "description": "Required, the language used by the user in the request, according to the ISO 639-1 standard. For Chinese, use zh-CN for Simplified Chinese and zh-TW for Traditional Chinese."
+                                                    }
+                                                }
+                                            },
+                                            "visitWebPageError": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "code": {
+                                                        "type": "string",
+                                                        "description": "error code"
+                                                    },
+                                                    "message": {
+                                                        "type": "string",
+                                                        "description": "error message"
+                                                    },
+                                                    "detail": {
+                                                        "type": "string",
+                                                        "description": "error detail"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "none"
+                                },
+                                "privacy_policy_url": "https://gpts.webpilot.ai/privacy_policy.html"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_aR7dhFbwyhby0dBA7z3NTdAO~gzm_tool_iKbPCFI5oJiGTWs2fwsdO4Bn",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_jIi7zP1h2m86Kz1l9vhhFlCf~gzm_tool_aM2pFzqosQtIE53yjR6H0iL2",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_rY029XiI8cBBnZoLiIpsiPXr~gzm_file_OMRLGy3cD8sJojXYfDLQLs1E",
+                            "type": "image/png",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_7SkOYBHFjYEmQivDNqKVWZqA~gzm_file_ixRzU5STw3TzSYF0wFMwj6w3",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-tex",
+                                "text/x-script.python",
+                                "text/x-php",
+                                "application/msword",
+                                "application/x-latext",
+                                "text/html",
+                                "text/x-typescript",
+                                "application/json",
+                                "text/plain",
+                                "text/x-c++",
+                                "text/x-java",
+                                "text/markdown",
+                                "application/pdf",
+                                "text/x-sh",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-c",
+                                "text/javascript",
+                                "text/x-csharp",
+                                "text/x-ruby"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/webp",
+                                "image/gif",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-xc7kwwGjB",
+                        "organization_id": "org-QXwCl4Z70f0WNWjtzt9oJSg7",
+                        "short_url": "g-xc7kwwGjB-web-browser",
+                        "author": {
+                            "user_id": "user-T9r3bg70GJ5VYrAbVrVCtNFN",
+                            "display_name": "pixelsbrand.com",
+                            "link_to": "https://pixelsbrand.com",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Web Browser",
+                            "description": "I can browse the web to help you find information.",
+                            "prompt_starters": [
+                                "What's the latest breaking news?",
+                                "Find research papers on a specific subject.",
+                                "What is trending on X/Twitter today?",
+                                "Find an online tool for a specific task."
+                            ],
+                            "profile_pic_id": "file-Hbd6UTA41GFAqPHFP9NxcyYl",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-Hbd6UTA41GFAqPHFP9NxcyYl?se=2123-12-13T01%3A19%3A25Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202024-01-06%252001.18.07%2520-%2520A%2520logo%2520for%2520a%2520GPT%2520that%2520browses%2520the%2520web%252C%2520inspired%2520by%2520web%2520browser%2520designs.%2520The%2520logo%2520should%2520combine%2520elements%2520commonly%2520associated%2520with%2520web%2520browsers%2520such%2520as.png&sig=qfeMYOEqUA5vekSGmF/kNBxLZzwKPzB7NdPhFaswZ74%3D",
+                            "categories": [
+                                "research"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-05T22:17:00.911790+00:00",
+                        "updated_at": "2024-04-04T22:29:32.868862+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "unreviewable",
+                            "public",
+                            "reportable",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_LTmvL7qGez3arnFujuDdDZAh~gzm_tool_4nSryYaWRsVqpU7tLMdyXa3U",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_LTmvL7qGez3arnFujuDdDZAh~gzm_tool_raxJlE4kCk2vRqFUWX3kqrSL",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-tex",
+                                "text/x-script.python",
+                                "text/x-php",
+                                "application/msword",
+                                "application/x-latext",
+                                "text/html",
+                                "text/x-typescript",
+                                "application/json",
+                                "text/plain",
+                                "text/x-c++",
+                                "text/x-java",
+                                "text/markdown",
+                                "application/pdf",
+                                "text/x-sh",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-c",
+                                "text/javascript",
+                                "text/x-csharp",
+                                "text/x-ruby"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/webp",
+                                "image/gif",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-NgAcklHd8",
+                        "organization_id": "org-h3aZsM1FFutber87xRnhYLbf",
+                        "short_url": "g-NgAcklHd8-scispace",
+                        "author": {
+                            "user_id": "user-QJ75wi1maLBx4VV4HbxHUSYV__5ee43a6f-0e86-437c-be5e-14827177a16c",
+                            "display_name": "scispace.com",
+                            "link_to": "https://scispace.com",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": null,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "ZekQJADbUo",
+                                        "username": "Saikiran Chandha",
+                                        "display_name": "Saikiran Chandha",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/saikiranchandha"
+                                    }
+                                },
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "2873534552",
+                                        "username": "@scispace_",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/scispace_"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": "5ee43a6f-0e86-437c-be5e-14827177a16c",
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "SciSpace",
+                            "description": "Do hours worth of research in minutes. Instantly access 200M+ papers, analyze papers at lightning speed, and effortlessly draft content with accurate citations.",
+                            "prompt_starters": [
+                                "Does wearing an activity tracker improve health outcomes?",
+                                "Draft a blog on science-backed benefits of mindfulness ",
+                                "What are the benefits of taking l-theanine?",
+                                "Write the introduction of a paper on the effects of climate change on GDP"
+                            ],
+                            "profile_pic_id": "file-c21dHgCzbVdnCvJ7a0JfsHAp",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-c21dHgCzbVdnCvJ7a0JfsHAp?se=2123-12-31T12%3A47%3A40Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DSciSpace-logoV%2521.png&sig=QEIzAFeekXOiJzFOPqKC4Ceu8%2BspwsRduav%2BuygqdU0%3D",
+                            "categories": [
+                                "research"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-15T08:30:58.669072+00:00",
+                        "updated_at": "2024-05-03T15:08:40.114781+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "unreviewable",
+                            "public",
+                            "reportable",
+                            "uses_function_calls",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "Xst2aEW3uOMGnWCcQiHNoUXC",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-3a3451859bc0fac6ecdc745a13fa613c4887ee3a",
+                                "domain": "researchgpt.typeset.io",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.3",
+                                    "info": {
+                                        "title": "SciSpace ResearchGPT",
+                                        "version": "1.0.0",
+                                        "description": "This is SciSpace ResearchGPT Project which has end points to get factual scientific information for various use cases."
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://researchgpt.typeset.io/"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/api/v2/paper/": {
+                                            "get": {
+                                                "operationId": "v1_paper_list",
+                                                "description": "API to get search results for user query. Use this function when user wants to search papers or get answer to a question.",
+                                                "parameters": [
+                                                    {
+                                                        "name": "search",
+                                                        "required": true,
+                                                        "in": "query",
+                                                        "description": "A search term.",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "tags": [
+                                                    "v1"
+                                                ],
+                                                "security": [
+                                                    {
+                                                        "tokenAuth": []
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "$ref": "#/components/schemas/LitReviewResponse"
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        "description": "List of all papers that can answer the asked question."
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/v1/paper/{id}/": {
+                                            "get": {
+                                                "operationId": "v1_paper_retrieve",
+                                                "description": "Use this get answers for a paper specific query",
+                                                "parameters": [
+                                                    {
+                                                        "in": "path",
+                                                        "name": "id",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        },
+                                                        "required": true
+                                                    },
+                                                    {
+                                                        "in": "query",
+                                                        "name": "question",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "minLength": 1
+                                                        },
+                                                        "required": true
+                                                    }
+                                                ],
+                                                "tags": [
+                                                    "v1"
+                                                ],
+                                                "security": [
+                                                    {
+                                                        "tokenAuth": []
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/PaperInfoResponse"
+                                                                }
+                                                            }
+                                                        },
+                                                        "description": ""
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "Author": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "display_name": {
+                                                        "type": "string"
+                                                    },
+                                                    "id": {
+                                                        "type": "integer"
+                                                    },
+                                                    "slug": {
+                                                        "type": "string"
+                                                    },
+                                                    "unique_id": {
+                                                        "type": "string"
+                                                    },
+                                                    "full_slug": {
+                                                        "type": "string"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "display_name",
+                                                    "full_slug",
+                                                    "id",
+                                                    "slug",
+                                                    "unique_id"
+                                                ]
+                                            },
+                                            "Journal": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "display_name": {
+                                                        "type": "string"
+                                                    },
+                                                    "official_page": {
+                                                        "type": "string",
+                                                        "format": "uri"
+                                                    },
+                                                    "issn": {
+                                                        "type": "string"
+                                                    },
+                                                    "alias": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "id": {
+                                                        "type": "integer"
+                                                    },
+                                                    "slug": {
+                                                        "type": "string"
+                                                    },
+                                                    "unique_id": {
+                                                        "type": "string"
+                                                    },
+                                                    "full_slug": {
+                                                        "type": "string"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "alias",
+                                                    "display_name",
+                                                    "full_slug",
+                                                    "id",
+                                                    "issn",
+                                                    "official_page",
+                                                    "slug",
+                                                    "unique_id"
+                                                ]
+                                            },
+                                            "LitReviewResponse": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "fssConfig": {
+                                                        "type": "object",
+                                                        "additionalProperties": {}
+                                                    },
+                                                    "total": {
+                                                        "type": "integer"
+                                                    },
+                                                    "data": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "$ref": "#/components/schemas/Paper"
+                                                        }
+                                                    }
+                                                },
+                                                "required": [
+                                                    "data",
+                                                    "fssConfig",
+                                                    "total"
+                                                ]
+                                            },
+                                            "Paper": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "id": {
+                                                        "type": "integer"
+                                                    },
+                                                    "title": {
+                                                        "type": "string"
+                                                    },
+                                                    "is_archived": {
+                                                        "type": "boolean"
+                                                    },
+                                                    "full_slug": {
+                                                        "type": "string"
+                                                    },
+                                                    "journal": {
+                                                        "$ref": "#/components/schemas/Journal"
+                                                    },
+                                                    "conference_series": {
+                                                        "type": "string",
+                                                        "readOnly": true
+                                                    },
+                                                    "date": {
+                                                        "type": "string",
+                                                        "format": "date-time"
+                                                    },
+                                                    "is_oa": {
+                                                        "type": "boolean"
+                                                    },
+                                                    "publication_type": {
+                                                        "type": "string"
+                                                    },
+                                                    "doi": {
+                                                        "type": "string"
+                                                    },
+                                                    "authors": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "$ref": "#/components/schemas/Author"
+                                                        }
+                                                    },
+                                                    "affiliations": {
+                                                        "type": "string",
+                                                        "readOnly": true
+                                                    },
+                                                    "fulltext_url": {
+                                                        "type": "string",
+                                                        "format": "uri"
+                                                    },
+                                                    "fulltext_url_no_follow": {
+                                                        "type": "boolean"
+                                                    },
+                                                    "paper_urls": {
+                                                        "type": "string",
+                                                        "readOnly": true
+                                                    },
+                                                    "metrics": {
+                                                        "type": "string",
+                                                        "readOnly": true
+                                                    },
+                                                    "is_bookmarked": {
+                                                        "type": "boolean"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "affiliations",
+                                                    "authors",
+                                                    "conference_series",
+                                                    "date",
+                                                    "doi",
+                                                    "full_slug",
+                                                    "fulltext_url",
+                                                    "fulltext_url_no_follow",
+                                                    "id",
+                                                    "is_archived",
+                                                    "is_bookmarked",
+                                                    "is_oa",
+                                                    "journal",
+                                                    "metrics",
+                                                    "paper_urls",
+                                                    "publication_type",
+                                                    "title"
+                                                ]
+                                            },
+                                            "PaperInfoResponse": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "paper_info": {
+                                                        "type": "string"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "paper_info"
+                                                ]
+                                            }
+                                        },
+                                        "securitySchemes": {
+                                            "tokenAuth": {
+                                                "type": "apiKey",
+                                                "in": "header",
+                                                "name": "Authorization",
+                                                "description": "Token-based authentication with required prefix \"Token\""
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "service_http",
+                                    "instructions": "",
+                                    "authorization_type": "custom",
+                                    "verification_tokens": {},
+                                    "custom_auth_header": "Authorization"
+                                },
+                                "privacy_policy_url": "https://typeset.io/t/security-commitment/"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_Yd0V0pGKkpJXDDPRzZdbc3EM~gzm_tool_U7weRgnRrHYybF5p3LT0Xgui",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-tex",
+                                "text/x-script.python",
+                                "text/x-php",
+                                "application/msword",
+                                "application/x-latext",
+                                "text/html",
+                                "text/x-typescript",
+                                "application/json",
+                                "text/plain",
+                                "text/x-c++",
+                                "text/x-java",
+                                "text/markdown",
+                                "application/pdf",
+                                "text/x-sh",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-c",
+                                "text/javascript",
+                                "text/x-csharp",
+                                "text/x-ruby"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/webp",
+                                "image/gif",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-DtjWjSDiv",
+                        "organization_id": "org-qbNH4Kh7Wv79pcUSCvhzlnPk",
+                        "short_url": "g-DtjWjSDiv-marketing",
+                        "author": {
+                            "user_id": "user-6rJNCIGs3AxPqPH1boVlazmm",
+                            "display_name": "Vidal Nicolas",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "rIemxZjohn",
+                                        "username": "Nicolas Vidal",
+                                        "display_name": "Nicolas Vidal",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/nicolas-vidal-tw"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "MARKETING",
+                            "description": "Your expert mentor in advertising >> Guiding Media Professionals working at the Big 6 agencies.",
+                            "prompt_starters": [
+                                "MARKETING - Perfect Prompt Formula",
+                                "Can you analyze this marketing strategy?",
+                                "I need advice on client communication.",
+                                "How can I improve my media campaign?",
+                                "What are the latest trends in digital marketing?"
+                            ],
+                            "profile_pic_id": "file-m4GlwY1VIc3ADwoMP9KlAZta",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-m4GlwY1VIc3ADwoMP9KlAZta?se=2123-12-12T03%3A34%3A34Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3D1a3ca873-e932-4dda-af7b-c1f8e5a0b35f.png&sig=DrTNZCq5RNevq/DGskuy7NOXJR5K%2BLGs4I93F8Lny8A%3D",
+                            "categories": [
+                                "research"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-05T02:35:06.789551+00:00",
+                        "updated_at": "2024-03-29T10:03:35.312245+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "unreviewable",
+                            "public",
+                            "reportable",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_9EJxKRopFZByD6h8LGZtC4PU~gzm_tool_ONNbO0Ur2HKw1aulwNac6bCZ",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_9EJxKRopFZByD6h8LGZtC4PU~gzm_tool_sJjWTOnuSFrD7SMXy2YlMn93",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_DK7kaL8AFg6pqL2hg5Bv5XqU~gzm_tool_rri1zuuUtVLqRxfRd6RcwYV8",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_Lao7HP2u5c7LkQqBBHTHkLOA~gzm_file_NXZsX6ErWItqT1WZmi1WcWt2",
+                            "type": "image/png",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-tex",
+                                "text/x-script.python",
+                                "text/x-php",
+                                "application/msword",
+                                "application/x-latext",
+                                "text/html",
+                                "text/x-typescript",
+                                "application/json",
+                                "text/plain",
+                                "text/x-c++",
+                                "text/x-java",
+                                "text/markdown",
+                                "application/pdf",
+                                "text/x-sh",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-c",
+                                "text/javascript",
+                                "text/x-csharp",
+                                "text/x-ruby"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/webp",
+                                "image/gif",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-QSh6KHL3S",
+                        "organization_id": "org-lPBklNcBEkMScP7SOjeXU6XN",
+                        "short_url": "g-QSh6KHL3S-pdf-reader",
+                        "author": {
+                            "user_id": "user-epGIyjzKmM8udLaIlfrIUTjA",
+                            "display_name": "webcafesoftware.com",
+                            "link_to": "https://webcafesoftware.com",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": false,
+                            "display_socials": [
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "1594925779778871296",
+                                        "username": "@webcafeai",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/webcafeai"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "PDF Reader",
+                            "description": "In-depth interaction with PDF content",
+                            "prompt_starters": [
+                                "What information do you need from your PDF?",
+                                "How would you like to summarize this section?",
+                                "Which part of the PDF should we focus on annotating?",
+                                "Can I help clarify anything in your document?"
+                            ],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-o6TIxzq2lzfwDsvhZsiVdlAI?se=2123-10-16T01%3A58%3A42Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D76fba5da-28b0-473d-9293-12209d2cd23a.png&sig=6m0ckhpMy9jS0f%2BvWplBX2As5LVjDEj1Ve4x7pelws4%3D",
+                            "categories": [
+                                "research"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-09T01:14:54.352116+00:00",
+                        "updated_at": "2024-03-09T14:17:50.541391+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "unreviewable",
+                            "public",
+                            "reportable",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_VLboyuJvytx95R0FWRmJuTT6",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_wjwczpM8ovYKMdS06oKFCBfu",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_RDRqdCInNAnzy6FMdaxf7ix2",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_z9NWc6fyz7sLtrx2YCYM3oC0",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_zGAX5WGnFslf6kq9BgohdCo0",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_rPKCKRwFBYG7RYWcqEcPfsFV",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_GflOmzbwBVA5hYvbU3y3kmiq",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_OKRI604HBHah6CevPZimJ05Y",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_KWbBTNONYcS0u6Zf3ymnrA8a",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_iOMjUf463mRpUXbQ04h3IT38",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_fMARQvOt1fGvsMsyp7wB5KpS",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_EqQcaXULNrNBHNrUnNxmUvNh",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_0i6Kl3w9YJCKsnx59HTzCSDc",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_idaqaX4yPjkIxt84c1y083t3",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_76PjfSuTjYWk2mkXW6J3lp2R",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_rkWUjFCHPc0ZeUINMiMTP8nv",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_INw1GQ6aTA0VyP7uxsNKMAV2",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_1UmXHwBiOPpwyI7IlXVUrj59",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_L1ORxbte6mCf4DG1Dc5Y9BRi",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_7kuETsznbkuEqJ56km0I58B5",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_xxTGugWacbr9RurKFv4SS7uZ",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_mTbcY5sjISacigs5ui0NqX1p",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_gmBBInNDzM4HTkkybbqBwkIP",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_5ASeR7iRI5CTQGcuRFChm9RP",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_MMvnpvtFSbeZNJ0KIB09vnNr",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_REhGHQc2TzWzEfgwE9pgvQu0",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_yrZnHJPSTv4maa4jsZt45avO",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_ChijrUHHbnz35heRSxVCudVQ",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_j9xLFAxnP3CKptmsoo72Wq5K",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_yWOY6KcpKdJKKQLG0LeiNS5B",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_54CAp1yKOMX2gD4qRsPEK2hX",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_qtVIYaAbnB8gkEgQKH4XikTX",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_BlKQNAquxhRNjXjc9eadXQew",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_bJGNnaDq8VAOrVPhUoTjDxp3",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_JG8VkM9pHl1vv8nEAJZ9Jags",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_AfRp0QTRY0idQ1JMcfs2JXad",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_9CCff9vad1mtVvRLyvsEt7Xq",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_w8vhXuenHO1jsoIqSCTzqoOa",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_oMEtp6Rp4S7ZuoRV3BUokqmo",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_rIGzhI9Kdp9YoKrmUowTXuE8",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_ftW6C68emGQhxYZCwEfVqLyw",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_SkPdnmTcT2WlyCWS79MI2lJH",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_A6JDtamkY4GOVvZQ8R5hiAjf",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_LqmMxR9IDIi2WcKE0XTvmjn4",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_tool_LRK50Ill20eRpgkDXVCVadIS",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_2JOjAomcR5btVNF8FhcTUfsz~gzm_file_drlzq45LvemjRB7ZRbeR6Jmy",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-tex",
+                                "text/x-script.python",
+                                "text/x-php",
+                                "application/msword",
+                                "application/x-latext",
+                                "text/html",
+                                "text/x-typescript",
+                                "application/json",
+                                "text/plain",
+                                "text/x-c++",
+                                "text/x-java",
+                                "text/markdown",
+                                "application/pdf",
+                                "text/x-sh",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-c",
+                                "text/javascript",
+                                "text/x-csharp",
+                                "text/x-ruby"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/webp",
+                                "image/gif",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-4MDJvo2TJ",
+                        "organization_id": "org-Z1xuBRllTkDI2mZeWVXqLJcX",
+                        "short_url": "g-4MDJvo2TJ-video-summarizer",
+                        "author": {
+                            "user_id": "user-ChM15nw3rXMNl6Be3ovBde66",
+                            "display_name": "thegeneralmind.com",
+                            "link_to": "https://thegeneralmind.com",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Video Summarizer",
+                            "description": "Video summarizer | video summaries, chat with Youtube video",
+                            "prompt_starters": [
+                                " Analyze this video podcast critically"
+                            ],
+                            "profile_pic_id": "file-CiTT1UqB60WDRULvrdBKwhYL",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-CiTT1UqB60WDRULvrdBKwhYL?se=2124-02-02T01%3A09%3A06Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dimage.png&sig=kRwY5nDxo4IpsDNT1TVOLeXp9fFn4A4a1873MN%2B3QKE%3D",
+                            "categories": [
+                                "research"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-02-15T19:22:59.202414+00:00",
+                        "updated_at": "2024-04-02T22:34:07.579291+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "unreviewable",
+                            "public",
+                            "reportable",
+                            "uses_function_calls",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_jrYxyXNqZTxHuyq4Cap4TKwQ~gzm_tool_hRncoQJV176gApnybZaYsgks",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_JGzmg8m8TPIobDuz2I3DxQ6C~gzm_tool_qFIUmz0pZoqFhjPgDPpXOVft",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_20nfR4yBAGPlQ5NnfDUqADVs~gzm_tool_2RLEMJmmHryCTiAoYPqVC7lP",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "EQnpd5dKFkVTAWOtqWDBik9x",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-36865512f6f8aa89e732335aa2c9fa3b9c63eca0",
+                                "domain": "thegeneralmind.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.0",
+                                    "info": {
+                                        "title": "YouTube Transcript API",
+                                        "description": "This API retrieves YouTube video transcripts.",
+                                        "version": "1.0.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://thegeneralmind.com/cgi-bin/app.cgi/api",
+                                            "description": "Production server"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/transcript": {
+                                            "post": {
+                                                "operationId": "getTranscript",
+                                                "summary": "Get YouTube Video Transcript",
+                                                "description": "Retrieves the transcript for a given YouTube video ID.",
+                                                "x-openai-isConsequential": false,
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "videoId": {
+                                                                        "type": "string",
+                                                                        "description": "The YouTube video ID for which the transcript is requested."
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "A successful response with the video transcript.",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "transcript": {
+                                                                            "type": "string",
+                                                                            "description": "The transcript text of the requested video."
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Bad Request - No video ID provided or transcripts are disabled for this video or no transcript found for the given video ID.",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "error": {
+                                                                            "type": "string",
+                                                                            "description": "Error message detailing the reason for the failure."
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "500": {
+                                                        "description": "Internal Server Error",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "error": {
+                                                                            "type": "string",
+                                                                            "description": "General error message for unexpected errors."
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "none"
+                                },
+                                "privacy_policy_url": "https://thegeneralmind.com/privacy/"
+                            }
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "gzm_cnf_qWy7Di4h0tdQDuuoh1ox2Ak7~gzm_file_ojun6FkeeXQDpSNNBpPBeTEZ",
+                            "type": "image/png",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-tex",
+                                "text/x-script.python",
+                                "text/x-php",
+                                "application/msword",
+                                "application/x-latext",
+                                "text/html",
+                                "text/x-typescript",
+                                "application/json",
+                                "text/plain",
+                                "text/x-c++",
+                                "text/x-java",
+                                "text/markdown",
+                                "application/pdf",
+                                "text/x-sh",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-c",
+                                "text/javascript",
+                                "text/x-csharp",
+                                "text/x-ruby"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/webp",
+                                "image/gif",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-rsuRKk1MX",
+                        "organization_id": "org-LBgPBRpZmGcbdtr7sbDlC4Zx",
+                        "short_url": "g-rsuRKk1MX-pdf-insight",
+                        "author": {
+                            "user_id": "user-ijOD0AlWVvNlQSngmVhLIdBX",
+                            "display_name": "mjproductions.tech",
+                            "link_to": "https://mjproductions.tech",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "PDF Insight",
+                            "description": "I provide insights and summaries of PDF documents uploaded by users.",
+                            "prompt_starters": [
+                                "Can you summarize this PDF for me?",
+                                "What are the key points in this uploaded document?",
+                                "Could you explain this section of the PDF?",
+                                "I have a question about this part of the document."
+                            ],
+                            "profile_pic_id": "file-4IyR0QcEidgzHaOtqyfTJoq8",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-4IyR0QcEidgzHaOtqyfTJoq8?se=2123-10-24T12%3A09%3A26Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D4cacc427-acab-4f9c-9da2-e7fc8d533939.png&sig=bqQ/vVgJqrsuyj%2BNm2H9Gwp3isevguTlQ7p4ZCoVNTw%3D",
+                            "categories": [
+                                "research"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-17T12:07:05.200382+00:00",
+                        "updated_at": "2024-04-02T16:13:36.808755+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "unreviewable",
+                            "public",
+                            "reportable",
+                            "uses_function_calls",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "eFVKQ80O1IXMfja1yHnRHAWu",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-cb4e32fa42533602347aac692f940d915ca41ce4",
+                                "domain": "api.adzedek.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.0",
+                                    "info": {
+                                        "title": "Adzedek API",
+                                        "description": "This API is used to fetch advertisements to show.",
+                                        "version": "1.1.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://api.adzedek.com",
+                                            "description": "Main Adzedek API server"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/fetch_ad_to_show_GPTs/1711036585739x673462072860213200": {
+                                            "get": {
+                                                "operationId": "fetchAdToShowGPTs",
+                                                "summary": "Fetch an advertisement to show",
+                                                "description": "Retrieves advertisement details including id and text.",
+                                                "parameters": [
+                                                    {
+                                                        "in": "query",
+                                                        "name": "conversation_context",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        },
+                                                        "description": "The full user input. If this is the first message in the conversation, add \"[start]\" before the string, otherwise add \"[continue]\" before the string."
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "A JSON object containing the advertisement details",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/AdResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "security": [
+                                                    {
+                                                        "ApiKeyAuth": []
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "AdResponse": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "id": {
+                                                        "type": "string"
+                                                    },
+                                                    "text": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "securitySchemes": {
+                                            "ApiKeyAuth": {
+                                                "type": "apiKey",
+                                                "in": "header",
+                                                "name": "adzedek-api"
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "service_http",
+                                    "instructions": "",
+                                    "authorization_type": "custom",
+                                    "verification_tokens": {},
+                                    "custom_auth_header": "adzedek-api"
+                                },
+                                "privacy_policy_url": "https://app.adzedek.com/policy"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_Z24ertPmEDOhfUflvOOkwaK6~gzm_tool_mOqukFqP1cimYdF7psNXlUbA",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-tex",
+                                "text/x-script.python",
+                                "text/x-php",
+                                "application/msword",
+                                "application/x-latext",
+                                "text/html",
+                                "text/x-typescript",
+                                "application/json",
+                                "text/plain",
+                                "text/x-c++",
+                                "text/x-java",
+                                "text/markdown",
+                                "application/pdf",
+                                "text/x-sh",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-c",
+                                "text/javascript",
+                                "text/x-csharp",
+                                "text/x-ruby"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/webp",
+                                "image/gif",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-2OebMtWeG",
+                        "organization_id": "org-duGKA9tlC81330ZN1lWkjfEg",
+                        "short_url": "g-2OebMtWeG-data-analysis-report-ai",
+                        "author": {
+                            "user_id": "user-w1BXJGhAYrW0o0CkBinJt9il",
+                            "display_name": "Kenneth Bastian",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Data Analysis & Report AI",
+                            "description": "Your expert in limitless, detailed scientific data analysis and reporting",
+                            "prompt_starters": [
+                                "Analyze stock trends from recent data and give predictions as to the next big movers. Compile a report of best stocks to buy and why",
+                                "Generate a climate change report with visuals",
+                                "Can I upload some data for analysis and report?",
+                                "Research the web for global population growth rate and compile a detailed report on the growth rate for the past 50 years and make a future prejection as to the next fifty yesrs if everything remains the same such as consumption rate, natural resource avaiability, and other factors that are relevent to sustaining life on earth. Give a detailed projection on what the consumption rate of oil and water is and how much estimate the resource total in gallons based on statistics that are recorded. Trace when the earth will run out of oil, water on earth if ever. I want a year or a round about estimate for this report."
+                            ],
+                            "profile_pic_id": "file-ckLk0Y9Nz2aQpB2qiYmFZ3Ua",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-ckLk0Y9Nz2aQpB2qiYmFZ3Ua?se=2123-10-23T01%3A10%3A41Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3De5a63906-711b-4ada-b8f3-02918c049d21.png&sig=LOy3VjRaraskh2BDs74XNBdYcN3tFHyGHSzeUVkntWQ%3D",
+                            "categories": [
+                                "research"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-13T22:17:34.708026+00:00",
+                        "updated_at": "2024-04-11T13:24:07.887289+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "unreviewable",
+                            "public",
+                            "reportable",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_5WjhZ1OMYCZTlwY8XkwPhNiC~gzm_tool_e7Q6dIJ7gIoIuuPQ3SAqrWsg",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_5WjhZ1OMYCZTlwY8XkwPhNiC~gzm_tool_5sdcNihJeWQ53pHSwJKU5jv3",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_5WjhZ1OMYCZTlwY8XkwPhNiC~gzm_tool_xT4Ghj58xJkEhuxtpi54f4xE",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-tex",
+                                "text/x-script.python",
+                                "text/x-php",
+                                "application/msword",
+                                "application/x-latext",
+                                "text/html",
+                                "text/x-typescript",
+                                "application/json",
+                                "text/plain",
+                                "text/x-c++",
+                                "text/x-java",
+                                "text/markdown",
+                                "application/pdf",
+                                "text/x-sh",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-c",
+                                "text/javascript",
+                                "text/x-csharp",
+                                "text/x-ruby"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/webp",
+                                "image/gif",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-7RJghLmOO",
+                        "organization_id": "org-znJIxGE33RZUQVWhVQpdIYMk",
+                        "short_url": "g-7RJghLmOO-accounting-gpt",
+                        "author": {
+                            "user_id": "user-7Mt0gtqqHC6IUzqbcvZbZLFt",
+                            "display_name": "Huang Xiaoming",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Accounting GPT",
+                            "description": "Your accounting expert.",
+                            "prompt_starters": [
+                                "Please introduce the accounting method for long-term equity investments according to International Accounting Standards.",
+                                "Please introduce the Capital Asset Pricing Model.",
+                                "Initial investment principal of 100 USD, annual interest1. Initial investment principal of 100 USD, annual interest rate of 5%, what is the future value after 5 years?",
+                                "At the end of each year, an investment of 100 USD is made at an interest rate of 5%. What is the future value of the annuity after 10 years?",
+                                "What is the concept of Asset according to IFRS."
+                            ],
+                            "profile_pic_id": "file-OaYRN79qEAeRUJQZstTLD1oy",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-OaYRN79qEAeRUJQZstTLD1oy?se=2123-10-18T03%3A23%3A59Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Df8d53d2d-8e4b-474e-871d-89015ea0f816.png&sig=5R9Hja1x36aWTEwLSzEamnxXhUuWa8F2tRqeiVnJZyg%3D",
+                            "categories": [
+                                "research"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-11T03:21:18.897422+00:00",
+                        "updated_at": "2024-03-26T09:07:58.505579+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "unreviewable",
+                            "public",
+                            "reportable",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_gsnTudD8AglgRXLL5Lmc4b04~gzm_tool_OOZrYhMJgaofC6akKpY1zijp",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_gsnTudD8AglgRXLL5Lmc4b04~gzm_tool_lljTv6RTFf46VluUFRzsWyV6",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_gsnTudD8AglgRXLL5Lmc4b04~gzm_tool_0pJaU3lsddr8pKJYLTsFLVS6",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "id": "boNuPdUIRIyYTrLyeQovhrog",
+                            "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_gsnTudD8AglgRXLL5Lmc4b04~gzm_file_GPvNNLnPxHyMjMUahUEpvRQO",
+                            "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "id": "gzm_cnf_iwd8c3zvW4GEE8yjTmX2oVfw~gzm_file_HEiZw25xI5S7ikaIek4NcJXr",
+                            "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-tex",
+                                "text/x-script.python",
+                                "text/x-php",
+                                "application/msword",
+                                "application/x-latext",
+                                "text/html",
+                                "text/x-typescript",
+                                "application/json",
+                                "text/plain",
+                                "text/x-c++",
+                                "text/x-java",
+                                "text/markdown",
+                                "application/pdf",
+                                "text/x-sh",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-c",
+                                "text/javascript",
+                                "text/x-csharp",
+                                "text/x-ruby"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/webp",
+                                "image/gif",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            }
+        ],
+        "cursor": null
+    }
+}
