@@ -16,11 +16,11 @@ If you are interested in viewing and downloading the top 500 GPTs daily, please 
 
 ## Latest
 
-[2024-05-06.en.md](/archive/2024-05-06/en)
+[2024-05-05.en.md](/archive/2024-05-05/en)
 
-[2024-05-06.global.md](/archive/2024-05-06/global)
+[2024-05-05.global.md](/archive/2024-05-05/global)
 
-## Global GPT Leaderboard for 2024-05-06
+## Global GPT Leaderboard for 2024-05-05
 
 
 
