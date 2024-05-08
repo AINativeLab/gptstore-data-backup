@@ -1,31 +1,7 @@
-# GPT Store data backup
-
-This project daily scrapes and archives data from the official GPT Store. If you have other data requirements, please open an issue.
-
-If you are interested in viewing and downloading the top 500 GPTs daily, please check out our another project: [AINativeLab/top-500-best-gpts](https://github.com/AINativeLab/top-500-best-gpts).
-
-<p align="center">
-★ Powered by <a target="_blank" href="https://www.gptshunter.com/?utm_source=gptstore-data-backup">GPTsHunter.com</a> ★
-</p>
-
-<p align="center">
-  <a target="_blank" href="https://gptshunter.com/?utm_source=gptstore-data-backup">
-    <img alt="GPTsHunter" src="https://gptshunter.com/full-logo.svg" width="300">
-  </a>
-</p>
-
-## Latest
-
-[2024-05-08.en.md](/archive/2024-05-08/en)
-
-[2024-05-08.global.md](/archive/2024-05-08/global)
-
-## Global GPT Leaderboard for 2024-05-08
+# 2024-05-08
 
 
-
-
-### Featured
+## Featured
 
 Curated top picks from this week
 
@@ -962,5 +938,3 @@ No.15 / 25K+ / ★ 4.1 (560 Reviews)
 [**Healthy Chef**](https://chat.openai.com/g/g-OdwKeQjDm-healthy-chef) \
 No.16 / 50K+ / ★ 4.4 (536 Reviews)
         
-
-      
