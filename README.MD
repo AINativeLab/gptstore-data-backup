@@ -4,7 +4,7 @@
 
   <p align="center">
     <a target="_blank" href="https://302.ai/?ref=gptshunter&block=github">
-      <img alt="GPTsHunter" src="https://i.v2ex.co/Y6u0hDa6.jpeg" width="300">
+      <img alt="GPTsHunter" src="https://i.v2ex.co/Y6u0hDa6.jpeg">
     </a>
   </p>
 
