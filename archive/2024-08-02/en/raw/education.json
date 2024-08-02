@@ -1,0 +1,2530 @@
+{
+    "info": {
+        "id": "education",
+        "title": "Education",
+        "description": "Explore new ideas, revisit existing skills",
+        "display_type": "ranked",
+        "display_group": "Education",
+        "locale": "en"
+    },
+    "list": {
+        "items": [
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-GvcYCKPIH",
+                        "organization_id": "org-J5M9ttTE6SyFzimG52X1fTRr",
+                        "short_url": "g-GvcYCKPIH-video-summarizer",
+                        "author": {
+                            "user_id": "user-1lW8AvhebNmoS7rHg40opr5n",
+                            "display_name": "Video Summarizer",
+                            "link_to": "https://videosummarizerai.com",
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Video Summarizer✏️🌐🔝🚀",
+                            "description": "Generates summaries, articles, quizzes, diagrams based on YouTube video in any language. Answers questions based on chosen video or playlist. No extra logins required. Free to use. For education and research.",
+                            "prompt_starters": [
+                                "✏️ Generate summary for YouTube video https://youtu.be/P-sU9xkmZ5o",
+                                "🌐 Provide a summary of this video in Another Language",
+                                "❓ What is said about specific topic in this video?",
+                                "🪄 Summarize videos from playlist https://www.youtube.com/playlist?list=PLbhKQRV6Toq7Df7_j_WxtiKh-2W8tjrAw"
+                            ],
+                            "profile_pic_id": "file-7mvWeT3xkgGLNRqlq2IrU3na",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-7mvWeT3xkgGLNRqlq2IrU3na?se=2124-06-14T12%3A41%3A54Z&sp=r&sv=2023-11-03&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3DVideo%2520Summarizer.png&sig=0mMpev8KS2mXyXba2R1wqcQzZmBACI%2BpDqCdfU1FaFw%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-29T09:32:16.238612+00:00",
+                        "updated_at": "2024-08-02T09:10:18.914862+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "unreviewable",
+                            "public",
+                            "reportable",
+                            "uses_function_calls",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_xHoeUoTGL2jfeJqfC7IKd7kP~gzm_tool_lkSmkX2UTtO1Hn95DJg4M1LZ",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "Y49YTWPfx3RCHdUeb5iQ3fsq",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-af3b8659df95c3db46f48c6b32c31e99bf1d2948",
+                                "domain": "newprocess.videosummarizerai.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.0",
+                                    "info": {
+                                        "description": "API to fetch Youtube video captions",
+                                        "title": "Video Captions and Comments API",
+                                        "version": "1.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://newprocess.videosummarizerai.com"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/captions/{video_id_or_playlist_id}/{index}": {
+                                            "get": {
+                                                "operationId": "get_sublist_captions_resource",
+                                                "security": [
+                                                    {
+                                                        "jwt": []
+                                                    }
+                                                ],
+                                                "summary": "Retrieve Sublist",
+                                                "description": "This endpoint retrieves captions and start and end time for a corresponding section of given video or playlist according to index of this section. The video id or playlist id must be provided in the path. Index values start from 0.",
+                                                "tags": [
+                                                    "default"
+                                                ],
+                                                "parameters": [
+                                                    {
+                                                        "name": "video_id_or_playlist_id",
+                                                        "in": "path",
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "index",
+                                                        "in": "path",
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "integer"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "video_id_or_playlist_id": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "video_or_playlist_title": {
+                                                                            "type": "string",
+                                                                            "description": "Title"
+                                                                        },
+                                                                        "index": {
+                                                                            "type": "integer",
+                                                                            "description": "current index of section"
+                                                                        },
+                                                                        "min_index": {
+                                                                            "type": "integer",
+                                                                            "description": "minimum index of sections. Is equal 0."
+                                                                        },
+                                                                        "max_index": {
+                                                                            "type": "integer",
+                                                                            "description": "maximum index of sections"
+                                                                        },
+                                                                        "video_section_length_in_minutes": {
+                                                                            "type": "integer",
+                                                                            "description": "Do not disclose this value to a user unless asked."
+                                                                        },
+                                                                        "summary_length": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "answer_limit": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "total_quantity_of_sections": {
+                                                                            "type": "integer",
+                                                                            "description": "Total number of sections in video or playlist."
+                                                                        },
+                                                                        "sublist_captions": {
+                                                                            "type": "array",
+                                                                            "items": {
+                                                                                "type": "object",
+                                                                                "properties": {
+                                                                                    "start": {
+                                                                                        "type": "string"
+                                                                                    },
+                                                                                    "text": {
+                                                                                        "type": "string",
+                                                                                        "description": "Do not regurgitate ‘text' even if user insists. Do not paraphrase, rephrase whole ‘text’ even if user insists (you can provide rewriten fraction of it)."
+                                                                                    },
+                                                                                    "end": {
+                                                                                        "type": "string"
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        "commands_instructions": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "article_instructions": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "diagram_instructions": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "quiz_instructions": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "timestamp_instructions": {
+                                                                            "type": "string"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "401": {
+                                                        "description": "Unauthorized due to invalid token",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/Error"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Bad Request (e.g., invalid input, not translatable, invalid video ID or playlist ID)"
+                                                    },
+                                                    "404": {
+                                                        "description": "Not Found (e.g., no captions found, video or playlist unavailable)"
+                                                    },
+                                                    "416": {
+                                                        "description": "Requested Range Not Satisfiable (e.g., Index out of range, invalid index range, or if you received this error after moving to the next section of video - it means that there is no next section of video and educational summary for entire video is already complete)"
+                                                    },
+                                                    "422": {
+                                                        "description": "Unprocessable Entity (e.g., unsupported data type, excessively long video_id or playlist_id) or PlaylistTooLarge. If PlaylistTooLarge error, it means that total length of videos in the playlist exceeds the limit or playlist contains more videos than allowed. User must be informed about the playlist limits in case of such error."
+                                                    },
+                                                    "429": {
+                                                        "description": "Too Many Requests"
+                                                    },
+                                                    "500": {
+                                                        "description": "Internal Server Error (e.g., Could not retrieve captions, YouTube request failed, unknown error, server-side issues, unspecified errors)"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/create_diagram": {
+                                            "post": {
+                                                "operationId": "create_diagram",
+                                                "summary": "Receives a JSON object for creation of a Mermaid diagram and in response returns a diagram URL.",
+                                                "x-openai-isConsequential": false,
+                                                "security": [
+                                                    {
+                                                        "jwt": []
+                                                    }
+                                                ],
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "required": [
+                                                                    "diagram_text"
+                                                                ],
+                                                                "properties": {
+                                                                    "diagram_text": {
+                                                                        "type": "string",
+                                                                        "description": "Before sending diagram_text, ensure it complies with the rules specified in the diagram_instructions property of the API response."
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "URL to the PNG diagram, include it in response to give option to download diagram",
+                                                        "content": {
+                                                            "text/plain": {
+                                                                "schema": {
+                                                                    "type": "string",
+                                                                    "description": "URL to the diagram image"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Invalid input, data does not conform to expected format"
+                                                    },
+                                                    "500": {
+                                                        "description": "Internal Server Error, could not generate diagram"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "video_id": {
+                                                "type": "string",
+                                                "description": "Video ID"
+                                            },
+                                            "Error": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "message": {
+                                                        "type": "string",
+                                                        "description": "Error message"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "securitySchemes": {
+                                            "jwt": {
+                                                "type": "http",
+                                                "scheme": "bearer",
+                                                "bearerFormat": "JWT",
+                                                "x-bearerInfoFunc": "validate_jwt_token"
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "service_http",
+                                    "instructions": "",
+                                    "authorization_type": "bearer",
+                                    "verification_tokens": {},
+                                    "custom_auth_header": ""
+                                },
+                                "privacy_policy_url": "https://videosummarizerai.com/privacy-policy"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_h6HA0qBVl53or07HGBfYNMet~gzm_tool_YPbg6iqg0yQp6RB5Qe3Cz5wR",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_IYs9GQRT7X69d9GmdfS2xI6d~gzm_tool_SsBpeI6aZOQAHyIh2zkeyrHm",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/x-powershell",
+                                "text/x-c",
+                                "text/x-tex",
+                                "application/msword",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/calendar",
+                                "application/pdf",
+                                "application/javascript",
+                                "text/x-typescript",
+                                "text/x-lisp",
+                                "text/x-sh",
+                                "application/json",
+                                "text/vbscript",
+                                "text/x-shellscript",
+                                "text/css",
+                                "application/vnd.apple.pages",
+                                "text/x-rst",
+                                "text/x-diff",
+                                "text/x-makefile",
+                                "text/rtf",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "text/x-vcard",
+                                "application/vnd.apple.keynote",
+                                "application/rtf",
+                                "text/html",
+                                "text/x-c++",
+                                "text/x-asm",
+                                "application/vnd.ms-powerpoint",
+                                "text/x-script.python",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/markdown",
+                                "text/x-csharp",
+                                "application/x-yaml",
+                                "text/x-php",
+                                "application/x-scala",
+                                "application/x-sql",
+                                "text/x-python",
+                                "text/xml",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/x-rust",
+                                "text/plain",
+                                "text/x-java",
+                                "message/rfc822"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-g24EzkDta",
+                        "organization_id": "org-EeBtnRmcXD8dypm7erz27Yzm",
+                        "short_url": "g-g24EzkDta-voxscript",
+                        "author": {
+                            "user_id": "user-5CQ0hbVhvCR5r71mNdi6BBk7",
+                            "display_name": "Allwire Technologies, LLC",
+                            "link_to": "https://allwiretech.com",
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Voxscript",
+                            "description": "Quick YouTube, US equity data, and web page summarization with vector transcript search -- no logins needed.",
+                            "prompt_starters": [
+                                "Build a price, news & sentiment table for top 3 stocks in the S&P, only display the table",
+                                "Find YouTube videos about the Bendix G15",
+                                "Summarize https://dotnet.microsoft.com/en-us/learn/csharp",
+                                "What's the latest news and price for AAPL?",
+                                "Search for and visit all 5 links for generative AI trends",
+                                "Summarize https://www.youtube.com/watch?v=MTJZpO3bTpg "
+                            ],
+                            "profile_pic_id": "file-ccghiJe5RWLLuLXhKPl3XugL",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-ccghiJe5RWLLuLXhKPl3XugL?se=2123-10-19T06%3A52%3A32Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3DVoxScript_logo_256x256.png&sig=gRuPppNbvJt3M3CMsjE8HiXRLm254zQxMCt5RRq%2BN3k%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-12T06:45:06.984785+00:00",
+                        "updated_at": "2024-08-02T09:09:17.957373+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "unreviewable",
+                            "public",
+                            "reportable",
+                            "uses_function_calls",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "SWV05JyzbxgM2wV7E3XRX4dV",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-2312ac75266f56ed3ecb047debfc71740dabc77e",
+                                "domain": "voxscript.awt.icu",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.1",
+                                    "info": {
+                                        "title": "VoxScript",
+                                        "version": "1.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://voxscript.awt.icu"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/GetGoogleSearchResults": {
+                                            "get": {
+                                                "tags": [
+                                                    "DuckDuckGoSearch"
+                                                ],
+                                                "summary": "Provides real-time web search results from DuckDuckGo. Do not use for YouTube.com searching or anything that sounds like it could be a video or media search!",
+                                                "operationId": "GetGoogleSearchResults",
+                                                "parameters": [
+                                                    {
+                                                        "name": "searchTerm",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "numResults",
+                                                        "in": "query",
+                                                        "description": "Results to return, maximum 25",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "integer",
+                                                            "format": "int32",
+                                                            "default": 12
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetDuckDuckGoSearchResults": {
+                                            "get": {
+                                                "tags": [
+                                                    "DuckDuckGoSearch"
+                                                ],
+                                                "summary": "Provides real-time web search results from DuckDuckGo. Do not use for YouTube.com searching or anything that sounds like it could be a video or media search!",
+                                                "operationId": "GetDuckDuckGoSearchResults",
+                                                "parameters": [
+                                                    {
+                                                        "name": "searchTerm",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "numResults",
+                                                        "in": "query",
+                                                        "description": "Results to return, maximum 25",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "integer",
+                                                            "format": "int32",
+                                                            "default": 12
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetCurrentTime": {
+                                            "get": {
+                                                "tags": [
+                                                    "GetCurrentTime"
+                                                ],
+                                                "summary": "Gets the current local of the user and UTC time.",
+                                                "operationId": "GetCurrentTime",
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success",
+                                                        "content": {
+                                                            "text/plain": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/TimeAndTimeZone"
+                                                                }
+                                                            },
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/TimeAndTimeZone"
+                                                                }
+                                                            },
+                                                            "text/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/TimeAndTimeZone"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetFeedback": {
+                                            "get": {
+                                                "tags": [
+                                                    "GetFeedback"
+                                                ],
+                                                "summary": "Posts user feedback about VoxScript.",
+                                                "description": "Takes user feedback for the developers of the VoxScript plugin. Instruct the user if they are unhappy with anything to let us know!",
+                                                "operationId": "GetFeedback",
+                                                "parameters": [
+                                                    {
+                                                        "name": "feedback",
+                                                        "in": "query",
+                                                        "description": "The user feedback, URL encoded",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Returns if the feedback was saved successfully"
+                                                    },
+                                                    "500": {
+                                                        "description": "If there was an internal server error"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetChunkedPastebinContentFromURL": {
+                                            "get": {
+                                                "tags": [
+                                                    "GetTextFromURL"
+                                                ],
+                                                "summary": "Gets full text text from only Patebin, Github Gists, Github or REntry.co. Grab the entire file and summarize it for the user by default. Do not use for web browsing or media searches.",
+                                                "operationId": "GetChunkedPastebinContentFromURL",
+                                                "parameters": [
+                                                    {
+                                                        "name": "url",
+                                                        "in": "query",
+                                                        "description": "URL containing the textual transcript on Pastebin, Github, Gists, or REntry.co",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "chunkNum",
+                                                        "in": "query",
+                                                        "description": "First chunk is 0. Chunk number to get, if blank assuming the first chunk.",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "integer",
+                                                            "format": "int32",
+                                                            "default": 0
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetTickerNews": {
+                                            "get": {
+                                                "tags": [
+                                                    "GetTickerNews"
+                                                ],
+                                                "summary": "Provides news about a ticker crypto or equity beyond the knowledge cutoff date. Can be used with Cryto or Equities.",
+                                                "operationId": "GetNewsForTicker",
+                                                "parameters": [
+                                                    {
+                                                        "name": "ticker",
+                                                        "in": "query",
+                                                        "description": "This is the crypto or equity symbol to provide news about a particular ticker symbol. This can be useful in determining if the stock is a buy or sell based on if the news is positive or negative.",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetUSEquityFinancials": {
+                                            "get": {
+                                                "tags": [
+                                                    "GetUSEquityFinancials"
+                                                ],
+                                                "summary": "Provides news about a ticker symbol beyond the knowledge cutoff date. For use with US Equities only.",
+                                                "operationId": "GetUSEquityFinancials",
+                                                "parameters": [
+                                                    {
+                                                        "name": "ticker",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetUSEquityOrCryptoHistoricalPrices/GetUSEquityOrCryptoHistoricalPrices": {
+                                            "get": {
+                                                "tags": [
+                                                    "GetUSEquityOrCryptoHistoricalPrices"
+                                                ],
+                                                "summary": "Provided a US equites symbol or cryptocurrency denoted USDT, a start date, and end date provides historical pricing data beyond the knowledge cutoff date. Only supports day for crypto.",
+                                                "operationId": "GetUSEquityOrCryptoHistoricalPrices",
+                                                "parameters": [
+                                                    {
+                                                        "name": "ticker",
+                                                        "in": "query",
+                                                        "description": "A cryptocurrency or US equity ticker to look up",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "startDate",
+                                                        "in": "query",
+                                                        "description": "This is a date in YYYY-MM-DDD format bars request starts at.",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "default": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "endDate",
+                                                        "in": "query",
+                                                        "description": "This is date in YYYY-MM-DDD format which bars request ends at.",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "default": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "timespan",
+                                                        "in": "query",
+                                                        "description": "Day, Hour, Minute, Week, Quarter, Year",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "default": "Day"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetUSEquityOrCryptoPricesOnSingleDate/GetQuoteDayCryptoEquities": {
+                                            "get": {
+                                                "tags": [
+                                                    "GetUSEquityOrCryptoPricesOnSingleDate"
+                                                ],
+                                                "summary": "Provided comma separated list of US equity symbols and an optional date, gets daily high, low, open, close bars for a particular stock beyond the knowledge cutoff date.",
+                                                "operationId": "GetQuoteDayCryptoEquities",
+                                                "parameters": [
+                                                    {
+                                                        "name": "tickers",
+                                                        "in": "query",
+                                                        "description": "A common delineated list of US equity or cryptocurrency tickers to get daily data for",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "date",
+                                                        "in": "query",
+                                                        "description": "Optional date in YYYY-MM-DDD format to retrieve for the ticker symbol provided.",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetWebsiteContent": {
+                                            "get": {
+                                                "tags": [
+                                                    "GetWebsiteContentService"
+                                                ],
+                                                "summary": "Provides real time website content past September 2021 past the knowledge cutoff date. Do not use for YouTube or Pastebin/text requests.",
+                                                "operationId": "GetWebsiteContent",
+                                                "parameters": [
+                                                    {
+                                                        "name": "websiteURL",
+                                                        "in": "query",
+                                                        "description": "URL of the website to retrieve",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "chunkNum",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "integer",
+                                                            "format": "int32"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "getLinks",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "boolean",
+                                                            "default": false
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetYoutubeVideoData": {
+                                            "get": {
+                                                "tags": [
+                                                    "GetYoutubeVideoData"
+                                                ],
+                                                "summary": "Gets info on a YouTube video by channel URL, channel ID, Video ID, Video URL.",
+                                                "description": "Can be called with a A channel URL, channel ID, Video ID, Video URL.",
+                                                "operationId": "GetYoutubeVideoData",
+                                                "parameters": [
+                                                    {
+                                                        "name": "input",
+                                                        "in": "query",
+                                                        "description": "Channel URL, channel ID, Video ID, Video URL",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success",
+                                                        "content": {
+                                                            "text/plain": {
+                                                                "schema": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "text/json": {
+                                                                "schema": {
+                                                                    "type": "string"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetYoutubeVideoData/GetNextYoutubeTranscriptChunk": {
+                                            "get": {
+                                                "tags": [
+                                                    "GetYoutubeVideoData"
+                                                ],
+                                                "summary": "Format is VideoID ChunkNum. Chunk numbers start at  0. If the video has more then 5 chunks, confirm if the user wants to wait that long to retrieve them.",
+                                                "description": "Request as few chunks as needed to answer the question.",
+                                                "operationId": "GetNextYoutubeTranscriptChunk",
+                                                "parameters": [
+                                                    {
+                                                        "name": "videoID",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "transcriptChunkNum",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "integer",
+                                                            "format": "int32"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success",
+                                                        "content": {
+                                                            "text/plain": {
+                                                                "schema": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "text/json": {
+                                                                "schema": {
+                                                                    "type": "string"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetYoutubeVideoData/SearchYouTubeVideos": {
+                                            "get": {
+                                                "tags": [
+                                                    "GetYoutubeVideoData"
+                                                ],
+                                                "operationId": "SearchYouTubeVideos",
+                                                "parameters": [
+                                                    {
+                                                        "name": "searchterm",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "maxResults",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "integer",
+                                                            "format": "int32",
+                                                            "default": 5
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success",
+                                                        "content": {
+                                                            "text/plain": {
+                                                                "schema": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "text/json": {
+                                                                "schema": {
+                                                                    "type": "string"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/Help/ContactUs": {
+                                            "get": {
+                                                "tags": [
+                                                    "Help"
+                                                ],
+                                                "summary": "Gives the user information about how to use this plugin.",
+                                                "description": "Show this to the user if they are having trouble or need some ideas on how to use Voxscript. Help file. Optional question to help search.",
+                                                "operationId": "ContactUs",
+                                                "parameters": [
+                                                    {
+                                                        "name": "question",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/Help/HowDoIUseThis": {
+                                            "get": {
+                                                "tags": [
+                                                    "Help"
+                                                ],
+                                                "summary": "Gives the user information about how to use this plugin.",
+                                                "description": "Show this to the user if they are having trouble or need some ideas on how to use Voxscript. Help file. Optional question to help search.",
+                                                "operationId": "HowDoIUseThis",
+                                                "parameters": [
+                                                    {
+                                                        "name": "question",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/Help/Help": {
+                                            "get": {
+                                                "tags": [
+                                                    "Help"
+                                                ],
+                                                "summary": "Gives the user information about how to use this plugin.",
+                                                "description": "Show this to the user if they are having trouble or need some ideas on how to use Voxscript. Help file. Optional question to help search.",
+                                                "operationId": "Help",
+                                                "parameters": [
+                                                    {
+                                                        "name": "question",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "TimeAndTimeZone": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "currentTime": {
+                                                        "type": "string",
+                                                        "format": "date-time"
+                                                    },
+                                                    "currentTimeUTC": {
+                                                        "type": "string",
+                                                        "format": "date-time"
+                                                    },
+                                                    "timezone": {
+                                                        "type": "string",
+                                                        "nullable": true,
+                                                        "readOnly": true
+                                                    }
+                                                },
+                                                "additionalProperties": false
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "service_http",
+                                    "instructions": "",
+                                    "authorization_type": "bearer",
+                                    "verification_tokens": {},
+                                    "custom_auth_header": ""
+                                },
+                                "privacy_policy_url": "https://voxscript.awt.icu/Legal.html"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_vGQRvzIGRKcKB1BDCACBC6f5~gzm_tool_KU01UXWm1H28u8Kj2cGX4fPg",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_vGQRvzIGRKcKB1BDCACBC6f5~gzm_tool_ctEhOubtUHZ6Oih0VOOEreP1",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/x-powershell",
+                                "text/x-c",
+                                "text/x-tex",
+                                "application/msword",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/calendar",
+                                "application/pdf",
+                                "application/javascript",
+                                "text/x-typescript",
+                                "text/x-lisp",
+                                "text/x-sh",
+                                "application/json",
+                                "text/vbscript",
+                                "text/x-shellscript",
+                                "text/css",
+                                "application/vnd.apple.pages",
+                                "text/x-rst",
+                                "text/x-diff",
+                                "text/x-makefile",
+                                "text/rtf",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "text/x-vcard",
+                                "application/vnd.apple.keynote",
+                                "application/rtf",
+                                "text/html",
+                                "text/x-c++",
+                                "text/x-asm",
+                                "application/vnd.ms-powerpoint",
+                                "text/x-script.python",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/markdown",
+                                "text/x-csharp",
+                                "application/x-yaml",
+                                "text/x-php",
+                                "application/x-scala",
+                                "application/x-sql",
+                                "text/x-python",
+                                "text/xml",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/x-rust",
+                                "text/plain",
+                                "text/x-java",
+                                "message/rfc822"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-WP1diWHRl",
+                        "organization_id": "org-LFizWYCMMt6pjUXgiMAxBJtC",
+                        "short_url": "g-WP1diWHRl-physics",
+                        "author": {
+                            "user_id": "user-Z9JrMzzMAJlIByGeRtUptmUN",
+                            "display_name": "pulsr.co.uk",
+                            "link_to": "https://pulsr.co.uk",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "uRC2-heAmK",
+                                        "username": "Leo Feasby",
+                                        "display_name": "Leo Feasby",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/leo-feasby-4b6006251"
+                                    }
+                                },
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "1752728225191456768",
+                                        "username": "@leo_pulsr",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/leo_pulsr"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "physics",
+                            "description": "Physics Oracle, The worlds most powerful Physics tool V2.3",
+                            "prompt_starters": [
+                                "Research mode",
+                                "Code mode",
+                                "Learning / Problem Solving mode",
+                                "⚡ Try a powerful new GPT ⚡"
+                            ],
+                            "profile_pic_id": "file-y63yTOkdpenBzpCZ95QJEhTp",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-y63yTOkdpenBzpCZ95QJEhTp?se=2124-02-06T18%3A03%3A23Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Deye23.png&sig=ehZ7Q4w%2BJqv7IZth1KKdvYusT3XRG2IQJe/if2G1AgU%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-22T18:58:35.088716+00:00",
+                        "updated_at": "2024-08-02T09:10:09.471203+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "unreviewable",
+                            "public",
+                            "reportable",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_Mv2ZzFO3KOTiS6qEIeuxWdhX~gzm_tool_wtP4xtsoRwOz8IsmqU5EBTjl",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_epZx3optGBZeK8R4JRkptLuV~gzm_tool_4s4HInaPZYjeYAVl57klJauK",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_Mv2ZzFO3KOTiS6qEIeuxWdhX~gzm_tool_sCPaeg8lfH15QXhtK2QzloAS",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/x-powershell",
+                                "text/x-c",
+                                "text/x-tex",
+                                "application/msword",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/calendar",
+                                "application/pdf",
+                                "application/javascript",
+                                "text/x-typescript",
+                                "text/x-lisp",
+                                "text/x-sh",
+                                "application/json",
+                                "text/vbscript",
+                                "text/x-shellscript",
+                                "text/css",
+                                "application/vnd.apple.pages",
+                                "text/x-rst",
+                                "text/x-diff",
+                                "text/x-makefile",
+                                "text/rtf",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "text/x-vcard",
+                                "application/vnd.apple.keynote",
+                                "application/rtf",
+                                "text/html",
+                                "text/x-c++",
+                                "text/x-asm",
+                                "application/vnd.ms-powerpoint",
+                                "text/x-script.python",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/markdown",
+                                "text/x-csharp",
+                                "application/x-yaml",
+                                "text/x-php",
+                                "application/x-scala",
+                                "application/x-sql",
+                                "text/x-python",
+                                "text/xml",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/x-rust",
+                                "text/plain",
+                                "text/x-java",
+                                "message/rfc822"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-qfoOICq1l",
+                        "organization_id": "org-ZJ4Xn6xsZLNePkreg1xbLNb1",
+                        "short_url": "g-qfoOICq1l-prompt-professor",
+                        "author": {
+                            "user_id": "user-gGe71twpoLuGJl05GVypE9q1__86af01e5-2fc6-4507-9e43-28fa700beb2a",
+                            "display_name": null,
+                            "link_to": null,
+                            "is_verified": false,
+                            "selected_display": "name",
+                            "will_receive_support_emails": false,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": "86af01e5-2fc6-4507-9e43-28fa700beb2a",
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Prompt Professor",
+                            "description": "I know everything about Prompt Engineering. What do you want to know about prompt?",
+                            "prompt_starters": [
+                                "How to make a good prompt?",
+                                "Improve this prompt: ${prompt}",
+                                "Rate this prompt: ${prompt}",
+                                "Tell me 26 Principles of Good Prompt"
+                            ],
+                            "profile_pic_id": "file-MsXTgHdeT8NqXvoz3yFp1DsA",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-MsXTgHdeT8NqXvoz3yFp1DsA?se=2123-10-16T03%3A42%3A03Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D76811343-01fe-4316-b18f-12ed04c3af99.png&sig=OOcasgdAq%2BCscJ7raZMCDdYCZb00lsUNcOl%2BnNzEAY8%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-09T03:34:22.251580+00:00",
+                        "updated_at": "2024-08-02T09:08:55.270303+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "unreviewable",
+                            "public",
+                            "reportable",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [],
+                    "files": [
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "gzm_cnf_WuIlKePJ7mMMDHQt8ZmAiPaJ~gzm_file_KncAqpP91kW6tVxCK97Brbnq",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "gzm_cnf_WuIlKePJ7mMMDHQt8ZmAiPaJ~gzm_file_zqzLY4NX2MLmWTo5Rj6Ga50o",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "gzm_cnf_397hP1iXk8ZACT9AiHUvBU5s~gzm_file_v09TqV4cXGX5lxZgS35UzEE6",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/x-powershell",
+                                "text/x-c",
+                                "text/x-tex",
+                                "application/msword",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/calendar",
+                                "application/pdf",
+                                "application/javascript",
+                                "text/x-typescript",
+                                "text/x-lisp",
+                                "text/x-sh",
+                                "application/json",
+                                "text/vbscript",
+                                "text/x-shellscript",
+                                "text/css",
+                                "application/vnd.apple.pages",
+                                "text/x-rst",
+                                "text/x-diff",
+                                "text/x-makefile",
+                                "text/rtf",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "text/x-vcard",
+                                "application/vnd.apple.keynote",
+                                "application/rtf",
+                                "text/html",
+                                "text/x-c++",
+                                "text/x-asm",
+                                "application/vnd.ms-powerpoint",
+                                "text/x-script.python",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/markdown",
+                                "text/x-csharp",
+                                "application/x-yaml",
+                                "text/x-php",
+                                "application/x-scala",
+                                "application/x-sql",
+                                "text/x-python",
+                                "text/xml",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/x-rust",
+                                "text/plain",
+                                "text/x-java",
+                                "message/rfc822"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-TfiZbdLM0",
+                        "organization_id": "org-nc4Oa4HqxP7kfUbVqcAOau70",
+                        "short_url": "g-TfiZbdLM0-machine-learning",
+                        "author": {
+                            "user_id": "user-G4liDZL5wULsfaDnalu9mGmk",
+                            "display_name": "Maryam Eskandari",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Machine Learning",
+                            "description": "A machine learning, deep learning, and data science assistant for learning, practicing, and developing algorithms.",
+                            "prompt_starters": [
+                                "How do I use pandas to analyze data?",
+                                "Can you explain neural networks?",
+                                "Help me troubleshoot my TensorFlow code.",
+                                "What are the best practices in data preprocessing?"
+                            ],
+                            "profile_pic_id": null,
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-79w3XiRGkbTiECoVNmkLzcKV?se=2123-10-24T07%3A23%3A14Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Da706c100-ff7e-48d7-8483-35754c66f8cd.png&sig=3aiA9n2Euf1Ri4dVkc2GF3GHBOqDb/oHQ9XHK0OyKys%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-17T07:13:55.658624+00:00",
+                        "updated_at": "2024-08-02T09:08:51.753023+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "unreviewable",
+                            "public",
+                            "reportable",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_Hh6vIS7OQfBaNZ014qI9goRk~gzm_tool_yzTqrDSrso9EIGDbG9CZTviP",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_Hh6vIS7OQfBaNZ014qI9goRk~gzm_tool_KkTURCL206dpN0IVS8S4ntIf",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_Hh6vIS7OQfBaNZ014qI9goRk~gzm_tool_TDWTD8XWdVpXDeXZM5UIKMAS",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/x-powershell",
+                                "text/x-c",
+                                "text/x-tex",
+                                "application/msword",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/calendar",
+                                "application/pdf",
+                                "application/javascript",
+                                "text/x-typescript",
+                                "text/x-lisp",
+                                "text/x-sh",
+                                "application/json",
+                                "text/vbscript",
+                                "text/x-shellscript",
+                                "text/css",
+                                "application/vnd.apple.pages",
+                                "text/x-rst",
+                                "text/x-diff",
+                                "text/x-makefile",
+                                "text/rtf",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "text/x-vcard",
+                                "application/vnd.apple.keynote",
+                                "application/rtf",
+                                "text/html",
+                                "text/x-c++",
+                                "text/x-asm",
+                                "application/vnd.ms-powerpoint",
+                                "text/x-script.python",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/markdown",
+                                "text/x-csharp",
+                                "application/x-yaml",
+                                "text/x-php",
+                                "application/x-scala",
+                                "application/x-sql",
+                                "text/x-python",
+                                "text/xml",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/x-rust",
+                                "text/plain",
+                                "text/x-java",
+                                "message/rfc822"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-xh1OJxj15",
+                        "organization_id": "org-tBUzaSZaR7Pvw4mZhBXWCH2J",
+                        "short_url": "g-xh1OJxj15-economics-econ",
+                        "author": {
+                            "user_id": "user-otDgCDa0qybtjYWYl9Jf0JHZ",
+                            "display_name": "smartprompt.xyz",
+                            "link_to": "https://smartprompt.xyz",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": false,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "3LBxQj6zQH",
+                                        "username": "Ryan Stewart",
+                                        "display_name": "Ryan Stewart",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/ryan2stewart"
+                                    }
+                                },
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "1640846816202612736",
+                                        "username": "@smartpromptai",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/smartpromptai"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Economics Econ",
+                            "description": "🔷#𝟏 𝐒𝐩𝐞𝐜𝐢𝐚𝐥𝐢𝐳𝐞𝐝 𝐄𝐜𝐨𝐧𝐨𝐦𝐢𝐜𝐬 𝐓𝐮𝐭𝐨𝐫🔷",
+                            "prompt_starters": [
+                                "Default Mode",
+                                "Theory Mode",
+                                "Analysis Mode",
+                                "Research Mode"
+                            ],
+                            "profile_pic_id": "file-2Q1lYExstKecdq9iwuSfKSvC",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-2Q1lYExstKecdq9iwuSfKSvC?se=2124-04-14T13%3A57%3A36Z&sp=r&sv=2023-11-03&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DUntitled_Artwork%25201%2520%25281%2529.jpg&sig=VMwoh%2BhyD21Hex6h8LvVNv8x6Knuhn1bIXSuinDQA9s%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-03-02T18:54:25.956164+00:00",
+                        "updated_at": "2024-08-02T08:59:20.308116+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "unreviewable",
+                            "public",
+                            "reportable",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_S30Ly6XoB1p5I7EDo0X8FgFr~gzm_tool_JCgMqJclmxcbrNxsikZSsddh",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_S30Ly6XoB1p5I7EDo0X8FgFr~gzm_tool_1cvlYY2HoMgEEKR5KY8H7xvO",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/x-powershell",
+                                "text/x-c",
+                                "text/x-tex",
+                                "application/msword",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/calendar",
+                                "application/pdf",
+                                "application/javascript",
+                                "text/x-typescript",
+                                "text/x-lisp",
+                                "text/x-sh",
+                                "application/json",
+                                "text/vbscript",
+                                "text/x-shellscript",
+                                "text/css",
+                                "application/vnd.apple.pages",
+                                "text/x-rst",
+                                "text/x-diff",
+                                "text/x-makefile",
+                                "text/rtf",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "text/x-vcard",
+                                "application/vnd.apple.keynote",
+                                "application/rtf",
+                                "text/html",
+                                "text/x-c++",
+                                "text/x-asm",
+                                "application/vnd.ms-powerpoint",
+                                "text/x-script.python",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/markdown",
+                                "text/x-csharp",
+                                "application/x-yaml",
+                                "text/x-php",
+                                "application/x-scala",
+                                "application/x-sql",
+                                "text/x-python",
+                                "text/xml",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/x-rust",
+                                "text/plain",
+                                "text/x-java",
+                                "message/rfc822"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-o2PXItdme",
+                        "organization_id": "org-bO4Sh2jmJUVeYItpnqHmkvOs",
+                        "short_url": "g-o2PXItdme-photoshop",
+                        "author": {
+                            "user_id": "user-dtWyibsovslUne9XPLFzPAuU",
+                            "display_name": "PI DINGHAI",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Photoshop",
+                            "description": "Your virtual Photoshop guru, guiding you in digital art with humor and expertise.",
+                            "prompt_starters": [
+                                "What's the best way to remove a background in Photoshop?",
+                                "How do I create a gradient effect?",
+                                "Can you explain layer masks to me?",
+                                "I'm a beginner, where should I start in Photoshop?"
+                            ],
+                            "profile_pic_id": "file-EvsC8xthLaYCjTFg1cIxVDcz",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-EvsC8xthLaYCjTFg1cIxVDcz?se=2123-10-19T04%3A23%3A08Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D%25E4%25B8%258B%25E8%25BD%25BD.png&sig=imbt8rQdA0D%2BiPXebMvZJPejUWN05jka5VhuDoRCU04%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-12T04:20:44.348494+00:00",
+                        "updated_at": "2024-08-02T08:50:07.092245+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "unreviewable",
+                            "public",
+                            "reportable",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_pbdOWNiBgEKPMuZWmngoYSi3~gzm_tool_KhKsW4LxnH8wls4knMb8hNAb",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_pbdOWNiBgEKPMuZWmngoYSi3~gzm_tool_pg0RTgGyyUlqXxikilVmKOpU",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/x-powershell",
+                                "text/x-c",
+                                "text/x-tex",
+                                "application/msword",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/calendar",
+                                "application/pdf",
+                                "application/javascript",
+                                "text/x-typescript",
+                                "text/x-lisp",
+                                "text/x-sh",
+                                "application/json",
+                                "text/vbscript",
+                                "text/x-shellscript",
+                                "text/css",
+                                "application/vnd.apple.pages",
+                                "text/x-rst",
+                                "text/x-diff",
+                                "text/x-makefile",
+                                "text/rtf",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "text/x-vcard",
+                                "application/vnd.apple.keynote",
+                                "application/rtf",
+                                "text/html",
+                                "text/x-c++",
+                                "text/x-asm",
+                                "application/vnd.ms-powerpoint",
+                                "text/x-script.python",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/markdown",
+                                "text/x-csharp",
+                                "application/x-yaml",
+                                "text/x-php",
+                                "application/x-scala",
+                                "application/x-sql",
+                                "text/x-python",
+                                "text/xml",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/x-rust",
+                                "text/plain",
+                                "text/x-java",
+                                "message/rfc822"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-3pqrO7KSp",
+                        "organization_id": "org-tBUzaSZaR7Pvw4mZhBXWCH2J",
+                        "short_url": "g-3pqrO7KSp-chemistry-chem",
+                        "author": {
+                            "user_id": "user-otDgCDa0qybtjYWYl9Jf0JHZ",
+                            "display_name": "smartprompt.xyz",
+                            "link_to": "https://smartprompt.xyz",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": false,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "3LBxQj6zQH",
+                                        "username": "Ryan Stewart",
+                                        "display_name": "Ryan Stewart",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/ryan2stewart"
+                                    }
+                                },
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "1640846816202612736",
+                                        "username": "@smartpromptai",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/smartpromptai"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Chemistry Chem",
+                            "description": "🔷#𝟏 𝐏𝐞𝐫𝐬𝐨𝐧𝐚𝐥𝐢𝐳𝐞𝐝 𝐂𝐡𝐞𝐦𝐢𝐬𝐭𝐫𝐲 𝐓𝐮𝐭𝐨𝐫🔷",
+                            "prompt_starters": [
+                                "Default Mode",
+                                "Organic Chemistry Mode",
+                                "Inorganic Chemistry Mode",
+                                "Physical Chemistry Mode"
+                            ],
+                            "profile_pic_id": "file-pL0mEO0CYil0ZKcwLm4Xc7Oa",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-pL0mEO0CYil0ZKcwLm4Xc7Oa?se=2124-04-14T13%3A57%3A22Z&sp=r&sv=2023-11-03&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3DUntitled_Artwork.jpg&sig=yJateWCuzBuRDn7LouxfYkdNq/6CwC9z8je6xpw5PlI%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-14T17:15:19.633141+00:00",
+                        "updated_at": "2024-08-02T09:09:23.768297+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "unreviewable",
+                            "public",
+                            "reportable",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_ZTWIeXyS7WA0hu3CfaJ68uf6~gzm_tool_Gq49pezhbLelWl6WysfBVjce",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_jv2ykNY6WIa0oHiyYXRsnQg0~gzm_tool_pPGxkdq6uptCIOBJM31AAq1n",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_jv2ykNY6WIa0oHiyYXRsnQg0~gzm_tool_cqTHegw9PUfCiDT6Cn1asByL",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/x-powershell",
+                                "text/x-c",
+                                "text/x-tex",
+                                "application/msword",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/calendar",
+                                "application/pdf",
+                                "application/javascript",
+                                "text/x-typescript",
+                                "text/x-lisp",
+                                "text/x-sh",
+                                "application/json",
+                                "text/vbscript",
+                                "text/x-shellscript",
+                                "text/css",
+                                "application/vnd.apple.pages",
+                                "text/x-rst",
+                                "text/x-diff",
+                                "text/x-makefile",
+                                "text/rtf",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "text/x-vcard",
+                                "application/vnd.apple.keynote",
+                                "application/rtf",
+                                "text/html",
+                                "text/x-c++",
+                                "text/x-asm",
+                                "application/vnd.ms-powerpoint",
+                                "text/x-script.python",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/markdown",
+                                "text/x-csharp",
+                                "application/x-yaml",
+                                "text/x-php",
+                                "application/x-scala",
+                                "application/x-sql",
+                                "text/x-python",
+                                "text/xml",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/x-rust",
+                                "text/plain",
+                                "text/x-java",
+                                "message/rfc822"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-OhCVT2jDy",
+                        "organization_id": "org-TKXytrjLgsRukyun0uSnaOKe",
+                        "short_url": "g-OhCVT2jDy-master-interview",
+                        "author": {
+                            "user_id": "user-uZPkRaNnaB3rhWrgiYw6yWks",
+                            "display_name": "masterinterview.ai",
+                            "link_to": "https://masterinterview.ai",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": false,
+                            "display_socials": [
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "1790117343349149696",
+                                        "username": "@MSterInterviews",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/MSterInterviews"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Master Interview🚀",
+                            "description": "🎯 Provides real interview question practices based on companies, 📈 and gives feedback tailored to your background to assist you in impressing the interviewer. 👔✨📅 Next Interview, 🏆 Next Offer.",
+                            "prompt_starters": [
+                                "Let's Start Practice!",
+                                "Top 25 Behavior Questions"
+                            ],
+                            "profile_pic_id": "file-MyrkOVa8hDfJkZgdTGJuMAwx",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-MyrkOVa8hDfJkZgdTGJuMAwx?se=2124-04-26T23%3A34%3A48Z&sp=r&sv=2023-11-03&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Davatar4.png&sig=EVD32esBIwcartFTlaqmnNzHNGN%2Bxk45axt73BNc23s%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-22T21:36:57.405253+00:00",
+                        "updated_at": "2024-08-02T09:10:16.109035+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "unreviewable",
+                            "public",
+                            "reportable",
+                            "uses_function_calls",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "yWVRUbG4msaDZU4rcCsOUxIH",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-4944bd92495c663e3deaebc1a6d8d7b35abe1179",
+                                "domain": "prod-backend.masterinterview.ai",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.0",
+                                    "info": {
+                                        "title": "User and Waitlist Management API",
+                                        "version": "1.0.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://prod-backend.masterinterview.ai",
+                                            "description": "Production server"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/waitlist/add-with-auth": {
+                                            "post": {
+                                                "tags": [
+                                                    "waitlist"
+                                                ],
+                                                "summary": "Add user to waitlist with authentication",
+                                                "operationId": "RequestBQ",
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/WaitlistCategory"
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "User added to waitlist"
+                                                    },
+                                                    "400": {
+                                                        "description": "Error adding user to waitlist"
+                                                    }
+                                                },
+                                                "security": [
+                                                    {
+                                                        "OAuth2": []
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "WaitlistCategory": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "category": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "securitySchemes": {
+                                            "OAuth2": {
+                                                "type": "oauth2",
+                                                "flows": {
+                                                    "authorizationCode": {
+                                                        "authorizationUrl": "https://prod-backend.masterinterview.ai/authorize",
+                                                        "tokenUrl": "https://prod-backend.masterinterview.ai/oauth/token"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "oauth",
+                                    "instructions": "",
+                                    "client_url": "https://prod-backend.masterinterview.ai/authorize",
+                                    "scope": "",
+                                    "authorization_url": "https://prod-backend.masterinterview.ai/oauth/token",
+                                    "authorization_content_type": "application/x-www-form-urlencoded",
+                                    "verification_tokens": {},
+                                    "pkce_required": false,
+                                    "token_exchange_method": "default_post"
+                                },
+                                "privacy_policy_url": "https://www.masterinterview.ai/privacy"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_JNu7VJrMBM48JBrqUVyvWAZP~gzm_tool_OVNPZ5LEB2nLBlNGEOFCnGQR",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_JNu7VJrMBM48JBrqUVyvWAZP~gzm_tool_4xrvOdfVcoMLbbD5TQNL3X8B",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "5wXOBxvs3omj6HLNR06KkPtp",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/x-powershell",
+                                "text/x-c",
+                                "text/x-tex",
+                                "application/msword",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/calendar",
+                                "application/pdf",
+                                "application/javascript",
+                                "text/x-typescript",
+                                "text/x-lisp",
+                                "text/x-sh",
+                                "application/json",
+                                "text/vbscript",
+                                "text/x-shellscript",
+                                "text/css",
+                                "application/vnd.apple.pages",
+                                "text/x-rst",
+                                "text/x-diff",
+                                "text/x-makefile",
+                                "text/rtf",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "text/x-vcard",
+                                "application/vnd.apple.keynote",
+                                "application/rtf",
+                                "text/html",
+                                "text/x-c++",
+                                "text/x-asm",
+                                "application/vnd.ms-powerpoint",
+                                "text/x-script.python",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/markdown",
+                                "text/x-csharp",
+                                "application/x-yaml",
+                                "text/x-php",
+                                "application/x-scala",
+                                "application/x-sql",
+                                "text/x-python",
+                                "text/xml",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/x-rust",
+                                "text/plain",
+                                "text/x-java",
+                                "message/rfc822"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-jzyVE3qaS",
+                        "organization_id": "org-TB7Q1UEC2KOBtH3Cuy70kwJa",
+                        "short_url": "g-jzyVE3qaS-the-master-of-insight-intellectual-ai",
+                        "author": {
+                            "user_id": "user-dqmt2fk1v0CQGcV3Phh6MN7b",
+                            "display_name": "Marco Dong",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "mTiVXIfVbq",
+                                        "username": "Marco Dong",
+                                        "display_name": "Marco Dong",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/marcodong-838453"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "The Master of Insight: Intellectual.AI ✨",
+                            "description": "Intellectual.AI ✨  slices through the complexities of information to deliver easy and digestile insights. Through a deep dive and a cross domain analysis,  you'll be able to unpack any unclear topics with a bit of humour 💥",
+                            "prompt_starters": [
+                                "What is \"Arrow's Impossibility Theorem\"?",
+                                "What is Game theory applied to decisions?",
+                                "What are the fundamental theorems of welfare economics?",
+                                "Say something controversial that may be true",
+                                "How Covid-19 happened?",
+                                "What are the fundamental theorems of welfare economics?",
+                                "Why is privacy a big deal in the age of AI?",
+                                "What is the Theory of Relativity?",
+                                "How does AI impact job markets?",
+                                "What are the most famous paradoxes?",
+                                "How 2008 financial crisis happened?",
+                                "The traditional education system is obsolete and no longer serves the needs of the modern world"
+                            ],
+                            "profile_pic_id": "file-7PgXC2qm7vAdkl9TdCl78UA0",
+                            "profile_picture_url": "https://files.oaiusercontent.com/file-7PgXC2qm7vAdkl9TdCl78UA0?se=2124-01-02T11%3A40%3A40Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dimage-removebg-preview.png&sig=%2B/iGVRqM8KP2SiKlRrYfKfNaL3cHjveDPVt7pfXSAA4%3D",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-16T11:26:59.585965+00:00",
+                        "updated_at": "2024-08-02T09:09:04.740685+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "unreviewable",
+                            "public",
+                            "reportable",
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null
+                    },
+                    "tools": [
+                        {
+                            "id": "6pjcnuv6BmzTAwQcUp4UiVaC",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_hgwXpPNB4HeyXrxL1Qbs9VUe~gzm_tool_073sGf56JOkNPYmQihJPzCac",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_HXydA8g3sWNsevkNLLQtvqbl~gzm_tool_sPSNqZs2eW4BDfHKKMxe3chs",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/x-powershell",
+                                "text/x-c",
+                                "text/x-tex",
+                                "application/msword",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/calendar",
+                                "application/pdf",
+                                "application/javascript",
+                                "text/x-typescript",
+                                "text/x-lisp",
+                                "text/x-sh",
+                                "application/json",
+                                "text/vbscript",
+                                "text/x-shellscript",
+                                "text/css",
+                                "application/vnd.apple.pages",
+                                "text/x-rst",
+                                "text/x-diff",
+                                "text/x-makefile",
+                                "text/rtf",
+                                "text/javascript",
+                                "text/x-ruby",
+                                "text/x-vcard",
+                                "application/vnd.apple.keynote",
+                                "application/rtf",
+                                "text/html",
+                                "text/x-c++",
+                                "text/x-asm",
+                                "application/vnd.ms-powerpoint",
+                                "text/x-script.python",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/markdown",
+                                "text/x-csharp",
+                                "application/x-yaml",
+                                "text/x-php",
+                                "application/x-scala",
+                                "application/x-sql",
+                                "text/x-python",
+                                "text/xml",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/x-rust",
+                                "text/plain",
+                                "text/x-java",
+                                "message/rfc822"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            }
+        ],
+        "cursor": null
+    }
+}
