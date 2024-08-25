@@ -1,37 +1,7 @@
-# GPT Store data backup
-  
-  This project daily scrapes and archives data from the official GPT Store. If you have other data requirements, please open an issue.
-
-  <p align="center">
-    <a target="_blank" href="https://302.ai/?ref=gptshunter&block=github">
-      <img alt="GPTsHunter" src="https://i.v2ex.co/Y6u0hDa6.jpeg">
-    </a>
-  </p>
-  
-  If you are interested in viewing and downloading the top 500 GPTs daily, please check out our another project: [AINativeLab/top-500-best-gpts](https://github.com/AINativeLab/top-500-best-gpts).
-  
-  <p align="center">
-  ★ Powered by <a target="_blank" href="https://www.gptshunter.com/?utm_source=gptstore-data-backup">GPTsHunter.com</a> ★
-  </p>
-  
-  <p align="center">
-    <a target="_blank" href="https://gptshunter.com/?utm_source=gptstore-data-backup">
-      <img alt="GPTsHunter" src="https://gptshunter.com/full-logo.svg" width="300">
-    </a>
-  </p>
-  
-  ## Latest
-  
-  [2024-08-25.en.md](/archive/2024-08-25/en)
-  
-  [2024-08-25.global.md](/archive/2024-08-25/global)
-  
-  ## Global GPT Leaderboard for 2024-08-25
-  
-  
+# 2024-08-25
 
   
-  ### Featured
+  ## Featured
   
   Curated top picks from this week
   
@@ -867,5 +837,3 @@
   [**Unity Helper**](https://chat.openai.com/g/g-Uz8I8oK3R-unity-helper) \
   No.16 / 100K+ / ★ 4.3 (1870 Reviews)
           
-  
-        
