@@ -1,0 +1,3049 @@
+{
+    "info": {
+        "id": "education",
+        "title": "Education",
+        "description": "Explore new ideas, revisit existing skills",
+        "display_type": "ranked",
+        "display_group": "Education",
+        "locale": "en"
+    },
+    "list": {
+        "items": [
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-g24EzkDta",
+                        "organization_id": "org-EeBtnRmcXD8dypm7erz27Yzm",
+                        "short_url": "g-g24EzkDta-voxscript",
+                        "author": {
+                            "user_id": "user-5CQ0hbVhvCR5r71mNdi6BBk7",
+                            "display_name": "Allwire Technologies, LLC",
+                            "link_to": "https://allwiretech.com",
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Voxscript",
+                            "description": "Updated 11-9-24! Quick YouTube, US equity data, and web page summarization with vector transcript search -- no logins needed.",
+                            "prompt_starters": [
+                                "Build a price, news & sentiment table for top 3 stocks in the S&P, only display the table",
+                                "Find YouTube videos about the Bendix G15",
+                                "Summarize https://dotnet.microsoft.com/en-us/learn/csharp",
+                                "What's the latest news and price for AAPL?",
+                                "Search for and visit all 5 links for generative AI trends",
+                                "Summarize https://www.youtube.com/watch?v=MTJZpO3bTpg "
+                            ],
+                            "profile_pic_id": "file-ccghiJe5RWLLuLXhKPl3XugL",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/content?id=file-ccghiJe5RWLLuLXhKPl3XugL&gizmo_id=g-g24EzkDta&ts=1731297239&p=gpp&sig=743222269892eda98d19718e5a3ec9ad866519d482e0a4d3f1bbfeb516aba635&v=0",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-12T06:45:06.984785+00:00",
+                        "updated_at": "2024-11-11T03:56:06.698372+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": null,
+                        "context_stuffing_budget": 16384
+                    },
+                    "tools": [
+                        {
+                            "id": "672f1373ea9c8190a7efc6fec0067a46",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-2312ac75266f56ed3ecb047debfc71740dabc77e",
+                                "domain": "voxscript.awt.icu",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.1",
+                                    "info": {
+                                        "title": "VoxScript",
+                                        "version": "1.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://voxscript.awt.icu"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/GetGoogleSearchResults": {
+                                            "get": {
+                                                "tags": [
+                                                    "DuckDuckGoSearch"
+                                                ],
+                                                "summary": "Provides real-time web search results from DuckDuckGo. Do not use for YouTube.com searching or anything that sounds like it could be a video or media search!",
+                                                "operationId": "GetGoogleSearchResults",
+                                                "parameters": [
+                                                    {
+                                                        "name": "searchTerm",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "numResults",
+                                                        "in": "query",
+                                                        "description": "Results to return, maximum 25",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "integer",
+                                                            "format": "int32",
+                                                            "default": 12
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetDuckDuckGoSearchResults": {
+                                            "get": {
+                                                "tags": [
+                                                    "DuckDuckGoSearch"
+                                                ],
+                                                "summary": "Provides real-time web search results from DuckDuckGo. Do not use for YouTube.com searching or anything that sounds like it could be a video or media search!",
+                                                "operationId": "GetDuckDuckGoSearchResults",
+                                                "parameters": [
+                                                    {
+                                                        "name": "searchTerm",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "numResults",
+                                                        "in": "query",
+                                                        "description": "Results to return, maximum 25",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "integer",
+                                                            "format": "int32",
+                                                            "default": 12
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetCurrentTime": {
+                                            "get": {
+                                                "tags": [
+                                                    "GetCurrentTime"
+                                                ],
+                                                "summary": "Gets the current local of the user and UTC time.",
+                                                "operationId": "GetCurrentTime",
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success",
+                                                        "content": {
+                                                            "text/plain": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/TimeAndTimeZone"
+                                                                }
+                                                            },
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/TimeAndTimeZone"
+                                                                }
+                                                            },
+                                                            "text/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/TimeAndTimeZone"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetFeedback": {
+                                            "get": {
+                                                "tags": [
+                                                    "GetFeedback"
+                                                ],
+                                                "summary": "Posts user feedback about VoxScript.",
+                                                "description": "Takes user feedback for the developers of the VoxScript plugin. Instruct the user if they are unhappy with anything to let us know!",
+                                                "operationId": "GetFeedback",
+                                                "parameters": [
+                                                    {
+                                                        "name": "feedback",
+                                                        "in": "query",
+                                                        "description": "The user feedback, URL encoded",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Returns if the feedback was saved successfully"
+                                                    },
+                                                    "500": {
+                                                        "description": "If there was an internal server error"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetChunkedPastebinContentFromURL": {
+                                            "get": {
+                                                "tags": [
+                                                    "GetTextFromURL"
+                                                ],
+                                                "summary": "Gets full text text from only Patebin, Github Gists, Github or REntry.co. Grab the entire file and summarize it for the user by default. Do not use for web browsing or media searches.",
+                                                "operationId": "GetChunkedPastebinContentFromURL",
+                                                "parameters": [
+                                                    {
+                                                        "name": "url",
+                                                        "in": "query",
+                                                        "description": "URL containing the textual transcript on Pastebin, Github, Gists, or REntry.co",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "chunkNum",
+                                                        "in": "query",
+                                                        "description": "First chunk is 0. Chunk number to get, if blank assuming the first chunk.",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "integer",
+                                                            "format": "int32",
+                                                            "default": 0
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetTickerNews": {
+                                            "get": {
+                                                "tags": [
+                                                    "GetTickerNews"
+                                                ],
+                                                "summary": "Provides news about a ticker crypto or equity beyond the knowledge cutoff date. Can be used with Cryto or Equities.",
+                                                "operationId": "GetNewsForTicker",
+                                                "parameters": [
+                                                    {
+                                                        "name": "ticker",
+                                                        "in": "query",
+                                                        "description": "This is the crypto or equity symbol to provide news about a particular ticker symbol. This can be useful in determining if the stock is a buy or sell based on if the news is positive or negative.",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetUSEquityFinancials": {
+                                            "get": {
+                                                "tags": [
+                                                    "GetUSEquityFinancials"
+                                                ],
+                                                "summary": "Provides news about a ticker symbol beyond the knowledge cutoff date. For use with US Equities only.",
+                                                "operationId": "GetUSEquityFinancials",
+                                                "parameters": [
+                                                    {
+                                                        "name": "ticker",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetUSEquityOrCryptoHistoricalPrices/GetUSEquityOrCryptoHistoricalPrices": {
+                                            "get": {
+                                                "tags": [
+                                                    "GetUSEquityOrCryptoHistoricalPrices"
+                                                ],
+                                                "summary": "Provided a US equites symbol or cryptocurrency denoted USDT, a start date, and end date provides historical pricing data beyond the knowledge cutoff date. Only supports day for crypto.",
+                                                "operationId": "GetUSEquityOrCryptoHistoricalPrices",
+                                                "parameters": [
+                                                    {
+                                                        "name": "ticker",
+                                                        "in": "query",
+                                                        "description": "A cryptocurrency or US equity ticker to look up",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "startDate",
+                                                        "in": "query",
+                                                        "description": "This is a date in YYYY-MM-DDD format bars request starts at.",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "default": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "endDate",
+                                                        "in": "query",
+                                                        "description": "This is date in YYYY-MM-DDD format which bars request ends at.",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "default": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "timespan",
+                                                        "in": "query",
+                                                        "description": "Day, Hour, Minute, Week, Quarter, Year",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "default": "Day"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetUSEquityOrCryptoPricesOnSingleDate/GetQuoteDayCryptoEquities": {
+                                            "get": {
+                                                "tags": [
+                                                    "GetUSEquityOrCryptoPricesOnSingleDate"
+                                                ],
+                                                "summary": "Provided comma separated list of US equity symbols and an optional date, gets daily high, low, open, close bars for a particular stock beyond the knowledge cutoff date.",
+                                                "operationId": "GetQuoteDayCryptoEquities",
+                                                "parameters": [
+                                                    {
+                                                        "name": "tickers",
+                                                        "in": "query",
+                                                        "description": "A common delineated list of US equity or cryptocurrency tickers to get daily data for",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "date",
+                                                        "in": "query",
+                                                        "description": "Optional date in YYYY-MM-DDD format to retrieve for the ticker symbol provided.",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetWebsiteContent": {
+                                            "get": {
+                                                "tags": [
+                                                    "GetWebsiteContentService"
+                                                ],
+                                                "summary": "Provides real time website content past September 2021 past the knowledge cutoff date. Do not use for YouTube or Pastebin/text requests.",
+                                                "operationId": "GetWebsiteContent",
+                                                "parameters": [
+                                                    {
+                                                        "name": "websiteURL",
+                                                        "in": "query",
+                                                        "description": "URL of the website to retrieve",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "chunkNum",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "integer",
+                                                            "format": "int32"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "getLinks",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "boolean",
+                                                            "default": false
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetYoutubeVideoData": {
+                                            "get": {
+                                                "tags": [
+                                                    "GetYoutubeVideoData"
+                                                ],
+                                                "summary": "Gets info on a YouTube video by channel URL, channel ID, Video ID, Video URL.",
+                                                "description": "Can be called with a A channel URL, channel ID, Video ID, Video URL.",
+                                                "operationId": "GetYoutubeVideoData",
+                                                "parameters": [
+                                                    {
+                                                        "name": "input",
+                                                        "in": "query",
+                                                        "description": "Channel URL, channel ID, Video ID, Video URL",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success",
+                                                        "content": {
+                                                            "text/plain": {
+                                                                "schema": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "text/json": {
+                                                                "schema": {
+                                                                    "type": "string"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetYoutubeVideoData/GetNextYoutubeTranscriptChunk": {
+                                            "get": {
+                                                "tags": [
+                                                    "GetYoutubeVideoData"
+                                                ],
+                                                "summary": "Format is VideoID ChunkNum. Chunk numbers start at  0. If the video has more then 5 chunks, confirm if the user wants to wait that long to retrieve them.",
+                                                "description": "Request as few chunks as needed to answer the question.",
+                                                "operationId": "GetNextYoutubeTranscriptChunk",
+                                                "parameters": [
+                                                    {
+                                                        "name": "videoID",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "transcriptChunkNum",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "integer",
+                                                            "format": "int32"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success",
+                                                        "content": {
+                                                            "text/plain": {
+                                                                "schema": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "text/json": {
+                                                                "schema": {
+                                                                    "type": "string"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetYoutubeVideoData/SearchYouTubeVideos": {
+                                            "get": {
+                                                "tags": [
+                                                    "GetYoutubeVideoData"
+                                                ],
+                                                "operationId": "SearchYouTubeVideos",
+                                                "parameters": [
+                                                    {
+                                                        "name": "searchterm",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "maxResults",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "integer",
+                                                            "format": "int32",
+                                                            "default": 5
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success",
+                                                        "content": {
+                                                            "text/plain": {
+                                                                "schema": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "text/json": {
+                                                                "schema": {
+                                                                    "type": "string"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/Help/ContactUs": {
+                                            "get": {
+                                                "tags": [
+                                                    "Help"
+                                                ],
+                                                "summary": "Gives the user information about how to use this plugin.",
+                                                "description": "Show this to the user if they are having trouble or need some ideas on how to use Voxscript. Help file. Optional question to help search.",
+                                                "operationId": "ContactUs",
+                                                "parameters": [
+                                                    {
+                                                        "name": "question",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/Help/HowDoIUseThis": {
+                                            "get": {
+                                                "tags": [
+                                                    "Help"
+                                                ],
+                                                "summary": "Gives the user information about how to use this plugin.",
+                                                "description": "Show this to the user if they are having trouble or need some ideas on how to use Voxscript. Help file. Optional question to help search.",
+                                                "operationId": "HowDoIUseThis",
+                                                "parameters": [
+                                                    {
+                                                        "name": "question",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/Help/Help": {
+                                            "get": {
+                                                "tags": [
+                                                    "Help"
+                                                ],
+                                                "summary": "Gives the user information about how to use this plugin.",
+                                                "description": "Show this to the user if they are having trouble or need some ideas on how to use Voxscript. Help file. Optional question to help search.",
+                                                "operationId": "Help",
+                                                "parameters": [
+                                                    {
+                                                        "name": "question",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "TimeAndTimeZone": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "currentTime": {
+                                                        "type": "string",
+                                                        "format": "date-time"
+                                                    },
+                                                    "currentTimeUTC": {
+                                                        "type": "string",
+                                                        "format": "date-time"
+                                                    },
+                                                    "timezone": {
+                                                        "type": "string",
+                                                        "nullable": true,
+                                                        "readOnly": true
+                                                    }
+                                                },
+                                                "additionalProperties": false
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "service_http",
+                                    "instructions": "",
+                                    "authorization_type": "bearer",
+                                    "verification_tokens": {},
+                                    "custom_auth_header": ""
+                                },
+                                "privacy_policy_url": "https://voxscript.awt.icu/Legal.html"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_vGQRvzIGRKcKB1BDCACBC6f5~gzm_tool_KU01UXWm1H28u8Kj2cGX4fPg",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_vGQRvzIGRKcKB1BDCACBC6f5~gzm_tool_ctEhOubtUHZ6Oih0VOOEreP1",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/vbscript",
+                                "application/msword",
+                                "text/plain",
+                                "application/x-yaml",
+                                "text/x-php",
+                                "text/calendar",
+                                "application/x-powershell",
+                                "text/x-python",
+                                "text/x-ruby",
+                                "text/rtf",
+                                "application/pdf",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-lisp",
+                                "text/markdown",
+                                "text/x-c++",
+                                "message/rfc822",
+                                "application/x-sql",
+                                "text/x-diff",
+                                "text/xml",
+                                "text/x-shellscript",
+                                "text/x-sh",
+                                "text/javascript",
+                                "application/x-scala",
+                                "text/x-asm",
+                                "text/x-tex",
+                                "text/x-script.python",
+                                "application/vnd.ms-powerpoint",
+                                "application/vnd.apple.pages",
+                                "application/vnd.apple.keynote",
+                                "text/x-vcard",
+                                "text/x-rst",
+                                "application/json",
+                                "text/x-typescript",
+                                "text/x-java",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/javascript",
+                                "text/x-c",
+                                "application/rtf",
+                                "text/x-csharp",
+                                "text/x-makefile",
+                                "application/x-rust",
+                                "text/css",
+                                "text/html"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/webp",
+                                "image/gif",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-My8UBHpJn",
+                        "organization_id": "org-Q4gfuqh9qB2wNbQarIzOYDwv",
+                        "short_url": "g-My8UBHpJn-law-legal-contract-not-real-lawyer",
+                        "author": {
+                            "user_id": "user-nZap0Ea5td9loJvoyqWFsZZa",
+                            "display_name": "AIResearchPlus.com",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "_usRTCLtZC",
+                                        "username": "Gilam Levi",
+                                        "display_name": "Gilam Levi",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/gilamlevi"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Law: Legal & Contract (not real lawyer)",
+                            "description": "🔴🔴𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐚𝐛𝐥𝐞🔴🔴Law, Legal & Contract",
+                            "prompt_starters": [
+                                "I have a question",
+                                "What is a peremptory challenge?",
+                                "Help!",
+                                "Let's start",
+                                "What does an injunction mean?",
+                                "What are reaffirmation agreements?"
+                            ],
+                            "profile_pic_id": "file-coE7EvWovPfF5A1ENpPNUW8J",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/content?id=file-coE7EvWovPfF5A1ENpPNUW8J&gizmo_id=g-My8UBHpJn&ts=1731297071&p=gpp&sig=b00c6c7d85cac62328c1d4a8b80bcc8011116f7b0153de0aa664003abd1409e0&v=0",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-03-23T15:20:30.316921+00:00",
+                        "updated_at": "2024-11-11T03:55:22.080597+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": null,
+                        "context_stuffing_budget": 16384
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_4BmF3inwL1ecHno5fK1vLEvL~gzm_tool_z3DD6eXTij2k4aPEslZWpG8S",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_4BmF3inwL1ecHno5fK1vLEvL~gzm_tool_LW83eH2IMxSWnWTwiHacYmfh",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "MhncqYPlrTyXmugJEEUa9qYz",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/vbscript",
+                                "application/msword",
+                                "text/plain",
+                                "application/x-yaml",
+                                "text/x-php",
+                                "text/calendar",
+                                "application/x-powershell",
+                                "text/x-python",
+                                "text/x-ruby",
+                                "text/rtf",
+                                "application/pdf",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-lisp",
+                                "text/markdown",
+                                "text/x-c++",
+                                "message/rfc822",
+                                "application/x-sql",
+                                "text/x-diff",
+                                "text/xml",
+                                "text/x-shellscript",
+                                "text/x-sh",
+                                "text/javascript",
+                                "application/x-scala",
+                                "text/x-asm",
+                                "text/x-tex",
+                                "text/x-script.python",
+                                "application/vnd.ms-powerpoint",
+                                "application/vnd.apple.pages",
+                                "application/vnd.apple.keynote",
+                                "text/x-vcard",
+                                "text/x-rst",
+                                "application/json",
+                                "text/x-typescript",
+                                "text/x-java",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/javascript",
+                                "text/x-c",
+                                "application/rtf",
+                                "text/x-csharp",
+                                "text/x-makefile",
+                                "application/x-rust",
+                                "text/css",
+                                "text/html"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/webp",
+                                "image/gif",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-jBdvgesNC",
+                        "organization_id": "org-Q1sNHSCUqwEjWNY5mF5CsQO5",
+                        "short_url": "g-jBdvgesNC-diagrams-flowcharts-mindmaps",
+                        "author": {
+                            "user_id": "user-G4p1yJeaaveeVcqU3SOAhKEe",
+                            "display_name": "NextGen Design Systems",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "r8en7iBpwD",
+                                        "username": "Maxim Dubovitsky",
+                                        "display_name": "Maxim Dubovitsky",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/maxim-dubovitsky"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Diagrams: Flowcharts & Mindmaps",
+                            "description": "Complex Visualizations (Diagram & Charts), Data Analysis & Reseach. For Coders: Visualize Databases, UserFlows, ERD, PlantUML and More. For business & data analysis: Mindmaps, Flowcharts and more.",
+                            "prompt_starters": [
+                                "🌐 Come up with a simple graph diagram of a company hierarchy (Color: Orange, Style: strict)",
+                                "🤖 Create a mindmap of AI application in real world + add a brain icon in the center  (Color: #ADD8E6, Sketch style)",
+                                "💾 Make up and Visualize a simple normalized SQL database for e-comm (Strict Style)",
+                                "🍰 Create an imaginary pie-chart of a distribution of the marketing budget",
+                                "🏡 Create a simplified sequence diagram of how the real estate sale happens ",
+                                "📊 Create a bar chart of the largest countries by population"
+                            ],
+                            "profile_pic_id": "file-QGQeocDO8y4WYiXcIIUs90uT",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/content?id=file-QGQeocDO8y4WYiXcIIUs90uT&gizmo_id=g-jBdvgesNC&ts=1731297375&p=gpp&sig=f228c2d01e1b0098b2dd24cc91b277541e7f14feb41cb3a0252626af9d1e9525&v=0",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-10T23:20:32.477425+00:00",
+                        "updated_at": "2024-11-11T03:56:44.739769+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": null,
+                        "context_stuffing_budget": 16384
+                    },
+                    "tools": [
+                        {
+                            "id": "6709c2ccb178819080d99390b6b85c2c",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-402b0c59d5aa490e184e74ad28fcc287ac57aaa5",
+                                "domain": "www.blocksandarrows.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.1.0",
+                                    "info": {
+                                        "title": "GPT Companion",
+                                        "version": "1.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://www.blocksandarrows.com",
+                                            "description": "Development server"
+                                        }
+                                    ],
+                                    "components": {
+                                        "schemas": {},
+                                        "parameters": {}
+                                    },
+                                    "paths": {
+                                        "/api/gpt/createGraphDiagram": {
+                                            "post": {
+                                                "summary": "Create graph diagram",
+                                                "operationId": "CreateGraph",
+                                                "x-openai-isConsequential": false,
+                                                "requestBody": {
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "diagramString": {
+                                                                        "type": "string",
+                                                                        "description": "The string for the chart rendering"
+                                                                    },
+                                                                    "title": {
+                                                                        "type": "string",
+                                                                        "description": "The name of the document in which the diagram will be placed"
+                                                                    },
+                                                                    "diagramColor": {
+                                                                        "type": "string",
+                                                                        "default": "rainbow"
+                                                                    },
+                                                                    "drawStyle": {
+                                                                        "type": "string",
+                                                                        "enum": [
+                                                                            "sketch",
+                                                                            "strict",
+                                                                            "code"
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "diagramString",
+                                                                    "title",
+                                                                    "diagramColor"
+                                                                ]
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Diagram successfully rendered",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "interpretingTheAPIResponse": {
+                                                                            "type": "string",
+                                                                            "description": "How to reply to the user"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "422": {
+                                                        "description": "Error while rendering the diagram",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "errorMessage": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "diagramTypeGuides": {
+                                                                            "type": "string",
+                                                                            "description": "look at these guides related to the current chart type, and try to fix the error"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "errorMessage",
+                                                                        "diagramTypeGuides"
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/gpt/createMindmapDiagram": {
+                                            "post": {
+                                                "summary": "Create mindmap diagram",
+                                                "operationId": "CreateMindmap",
+                                                "x-openai-isConsequential": false,
+                                                "requestBody": {
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "diagramString": {
+                                                                        "type": "string",
+                                                                        "description": "The string for the chart rendering"
+                                                                    },
+                                                                    "title": {
+                                                                        "type": "string",
+                                                                        "description": "The name of the document in which the diagram will be placed"
+                                                                    },
+                                                                    "diagramColor": {
+                                                                        "type": "string",
+                                                                        "default": "rainbow"
+                                                                    },
+                                                                    "drawStyle": {
+                                                                        "type": "string",
+                                                                        "enum": [
+                                                                            "sketch",
+                                                                            "strict",
+                                                                            "code"
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "diagramString",
+                                                                    "title",
+                                                                    "diagramColor"
+                                                                ]
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Diagram successfully rendered",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "interpretingTheAPIResponse": {
+                                                                            "type": "string",
+                                                                            "description": "How to reply to the user"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "422": {
+                                                        "description": "Error while rendering the diagram",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "errorMessage": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "diagramTypeGuides": {
+                                                                            "type": "string",
+                                                                            "description": "look at these guides related to the current chart type, and try to fix the error"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "errorMessage",
+                                                                        "diagramTypeGuides"
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/gpt/createMindmapDiagramWithImage": {
+                                            "post": {
+                                                "summary": "Create graph diagram with user image or generated image",
+                                                "operationId": "CreateMindmapWithImage",
+                                                "x-openai-isConsequential": false,
+                                                "requestBody": {
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "diagramString": {
+                                                                        "type": "string",
+                                                                        "description": "The string for the chart rendering"
+                                                                    },
+                                                                    "title": {
+                                                                        "type": "string",
+                                                                        "description": "The name of the document in which the diagram will be placed"
+                                                                    },
+                                                                    "diagramColor": {
+                                                                        "type": "string",
+                                                                        "default": "rainbow"
+                                                                    },
+                                                                    "drawStyle": {
+                                                                        "type": "string",
+                                                                        "enum": [
+                                                                            "sketch",
+                                                                            "strict",
+                                                                            "code"
+                                                                        ]
+                                                                    },
+                                                                    "openaiFileIdRefs": {
+                                                                        "type": "array",
+                                                                        "items": {
+                                                                            "type": "object",
+                                                                            "properties": {
+                                                                                "name": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "id": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "mime_type": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "download_link": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            },
+                                                                            "required": [
+                                                                                "name",
+                                                                                "id",
+                                                                                "mime_type",
+                                                                                "download_link"
+                                                                            ]
+                                                                        },
+                                                                        "description": "send the generated or user image with a mindmap diagram."
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "diagramString",
+                                                                    "title",
+                                                                    "diagramColor",
+                                                                    "openaiFileIdRefs"
+                                                                ]
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Diagram successfully rendered",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "interpretingTheAPIResponse": {
+                                                                            "type": "string",
+                                                                            "description": "How to reply to the user"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "422": {
+                                                        "description": "Error while rendering the diagram",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "errorMessage": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "diagramTypeGuides": {
+                                                                            "type": "string",
+                                                                            "description": "look at these guides related to the current chart type, and try to fix the error"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "errorMessage",
+                                                                        "diagramTypeGuides"
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/gpt/createEntityRelationshipDiagram": {
+                                            "post": {
+                                                "summary": "Create entity-relationship diagram",
+                                                "operationId": "CreateEntity",
+                                                "x-openai-isConsequential": false,
+                                                "requestBody": {
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "diagramString": {
+                                                                        "type": "string",
+                                                                        "description": "The string for the chart rendering"
+                                                                    },
+                                                                    "title": {
+                                                                        "type": "string",
+                                                                        "description": "The name of the document in which the diagram will be placed"
+                                                                    },
+                                                                    "diagramColor": {
+                                                                        "type": "string",
+                                                                        "default": "rainbow"
+                                                                    },
+                                                                    "drawStyle": {
+                                                                        "type": "string",
+                                                                        "enum": [
+                                                                            "sketch",
+                                                                            "strict",
+                                                                            "code"
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "diagramString",
+                                                                    "title",
+                                                                    "diagramColor"
+                                                                ]
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Diagram successfully rendered",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "interpretingTheAPIResponse": {
+                                                                            "type": "string",
+                                                                            "description": "How to reply to the user"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "422": {
+                                                        "description": "Error while rendering the diagram",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "errorMessage": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "diagramTypeGuides": {
+                                                                            "type": "string",
+                                                                            "description": "look at these guides related to the current chart type, and try to fix the error"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "errorMessage",
+                                                                        "diagramTypeGuides"
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/gpt/createSequenceDiagram": {
+                                            "post": {
+                                                "summary": "Create sequence diagram",
+                                                "operationId": "CreateSequence",
+                                                "x-openai-isConsequential": false,
+                                                "requestBody": {
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "diagramString": {
+                                                                        "type": "string",
+                                                                        "description": "The string for the chart rendering"
+                                                                    },
+                                                                    "title": {
+                                                                        "type": "string",
+                                                                        "description": "The name of the document in which the diagram will be placed"
+                                                                    },
+                                                                    "diagramColor": {
+                                                                        "type": "string",
+                                                                        "default": "rainbow"
+                                                                    },
+                                                                    "drawStyle": {
+                                                                        "type": "string",
+                                                                        "enum": [
+                                                                            "sketch",
+                                                                            "strict",
+                                                                            "code"
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "diagramString",
+                                                                    "title",
+                                                                    "diagramColor"
+                                                                ]
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Diagram successfully rendered",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "interpretingTheAPIResponse": {
+                                                                            "type": "string",
+                                                                            "description": "How to reply to the user"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "422": {
+                                                        "description": "Error while rendering the diagram",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "errorMessage": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "diagramTypeGuides": {
+                                                                            "type": "string",
+                                                                            "description": "look at these guides related to the current chart type, and try to fix the error"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "errorMessage",
+                                                                        "diagramTypeGuides"
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/gpt/createPieChartDiagram": {
+                                            "post": {
+                                                "summary": "Create pie chart diagram",
+                                                "operationId": "CreatePieChart",
+                                                "x-openai-isConsequential": false,
+                                                "requestBody": {
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "diagramString": {
+                                                                        "type": "string",
+                                                                        "description": "The string for the chart rendering"
+                                                                    },
+                                                                    "title": {
+                                                                        "type": "string",
+                                                                        "description": "The name of the document in which the diagram will be placed"
+                                                                    },
+                                                                    "diagramColor": {
+                                                                        "type": "string",
+                                                                        "default": "rainbow"
+                                                                    },
+                                                                    "drawStyle": {
+                                                                        "type": "string",
+                                                                        "enum": [
+                                                                            "sketch",
+                                                                            "strict",
+                                                                            "code"
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "diagramString",
+                                                                    "title",
+                                                                    "diagramColor"
+                                                                ]
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Diagram successfully rendered",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "interpretingTheAPIResponse": {
+                                                                            "type": "string",
+                                                                            "description": "How to reply to the user"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "422": {
+                                                        "description": "Error while rendering the diagram",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "errorMessage": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "diagramTypeGuides": {
+                                                                            "type": "string",
+                                                                            "description": "look at these guides related to the current chart type, and try to fix the error"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "errorMessage",
+                                                                        "diagramTypeGuides"
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/gpt/createTimelineDiagram": {
+                                            "post": {
+                                                "summary": "Create timeline diagram",
+                                                "operationId": "CreateTimeline",
+                                                "x-openai-isConsequential": false,
+                                                "requestBody": {
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "diagramString": {
+                                                                        "type": "string",
+                                                                        "description": "The string for the chart rendering"
+                                                                    },
+                                                                    "title": {
+                                                                        "type": "string",
+                                                                        "description": "The name of the document in which the diagram will be placed"
+                                                                    },
+                                                                    "diagramColor": {
+                                                                        "type": "string",
+                                                                        "default": "rainbow"
+                                                                    },
+                                                                    "drawStyle": {
+                                                                        "type": "string",
+                                                                        "enum": [
+                                                                            "sketch",
+                                                                            "strict",
+                                                                            "code"
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "diagramString",
+                                                                    "title",
+                                                                    "diagramColor"
+                                                                ]
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Diagram successfully rendered",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "interpretingTheAPIResponse": {
+                                                                            "type": "string",
+                                                                            "description": "How to reply to the user"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "422": {
+                                                        "description": "Error while rendering the diagram",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "errorMessage": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "diagramTypeGuides": {
+                                                                            "type": "string",
+                                                                            "description": "look at these guides related to the current chart type, and try to fix the error"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "errorMessage",
+                                                                        "diagramTypeGuides"
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "504": {
+                                                        "description": "timeout",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "errorMessage": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "diagramTypeGuides": {
+                                                                            "type": "string",
+                                                                            "description": "look at these guides related to the current chart type, and try to fix the error"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "errorMessage",
+                                                                        "diagramTypeGuides"
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/gpt/createClassDiagram": {
+                                            "post": {
+                                                "summary": "Create class diagram",
+                                                "operationId": "CreateClass",
+                                                "x-openai-isConsequential": false,
+                                                "requestBody": {
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "diagramString": {
+                                                                        "type": "string",
+                                                                        "description": "The string for the chart rendering"
+                                                                    },
+                                                                    "title": {
+                                                                        "type": "string",
+                                                                        "description": "The name of the document in which the diagram will be placed"
+                                                                    },
+                                                                    "diagramColor": {
+                                                                        "type": "string",
+                                                                        "default": "rainbow"
+                                                                    },
+                                                                    "drawStyle": {
+                                                                        "type": "string",
+                                                                        "enum": [
+                                                                            "sketch",
+                                                                            "strict",
+                                                                            "code"
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "diagramString",
+                                                                    "title",
+                                                                    "diagramColor"
+                                                                ]
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Diagram successfully rendered",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "interpretingTheAPIResponse": {
+                                                                            "type": "string",
+                                                                            "description": "How to reply to the user"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "422": {
+                                                        "description": "Error while rendering the diagram",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "errorMessage": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "diagramTypeGuides": {
+                                                                            "type": "string",
+                                                                            "description": "look at these guides related to the current chart type, and try to fix the error"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "errorMessage",
+                                                                        "diagramTypeGuides"
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "webhooks": {}
+                                },
+                                "auth": {
+                                    "type": "none"
+                                },
+                                "privacy_policy_url": "https://www.blocksandarrows.com/policy"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_um88Pr7yOBvv78tSpexsvqac~gzm_tool_pPNbhnm8niIJgq0UV6TJfB3j",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_um88Pr7yOBvv78tSpexsvqac~gzm_tool_nhLGwBn3StTgQd28UxeRB7Qn",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "UJywOnC5C3NtWBBI4LaRM9rL",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/vbscript",
+                                "application/msword",
+                                "text/plain",
+                                "application/x-yaml",
+                                "text/x-php",
+                                "text/calendar",
+                                "application/x-powershell",
+                                "text/x-python",
+                                "text/x-ruby",
+                                "text/rtf",
+                                "application/pdf",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-lisp",
+                                "text/markdown",
+                                "text/x-c++",
+                                "message/rfc822",
+                                "application/x-sql",
+                                "text/x-diff",
+                                "text/xml",
+                                "text/x-shellscript",
+                                "text/x-sh",
+                                "text/javascript",
+                                "application/x-scala",
+                                "text/x-asm",
+                                "text/x-tex",
+                                "text/x-script.python",
+                                "application/vnd.ms-powerpoint",
+                                "application/vnd.apple.pages",
+                                "application/vnd.apple.keynote",
+                                "text/x-vcard",
+                                "text/x-rst",
+                                "application/json",
+                                "text/x-typescript",
+                                "text/x-java",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/javascript",
+                                "text/x-c",
+                                "application/rtf",
+                                "text/x-csharp",
+                                "text/x-makefile",
+                                "application/x-rust",
+                                "text/css",
+                                "text/html"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/webp",
+                                "image/gif",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-9YeZz6m6k",
+                        "organization_id": "org-v4X4LAt91fypMUUa97asvej3",
+                        "short_url": "g-9YeZz6m6k-math-solver",
+                        "author": {
+                            "user_id": "user-4wqQWBLuPvX1n8YoftQCjqLn",
+                            "display_name": "studyx.ai",
+                            "link_to": "https://studyx.ai",
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Math Solver",
+                            "description": "Your AI Math Solver, offers step-by-step answers, and helps you learn math and even all subjects, at any educational level.",
+                            "prompt_starters": [
+                                "Calculate the area of a circle with a radius of 3.",
+                                "Solve the logarithmic equation log₂(x) = 3.",
+                                "Graph the function y = 2x + 3 and explain its meaning.",
+                                "Evaluate the integral ∫x²dx."
+                            ],
+                            "profile_pic_id": "file-tSZCMmjyqOBMHOnHPUxKQH8t",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/content?id=file-tSZCMmjyqOBMHOnHPUxKQH8t&gizmo_id=g-9YeZz6m6k&ts=1731297269&p=gpp&sig=218eaeb77adbbdd2a45c2716e1ac08a641c126b6d0bbe38c364bd064e3f52bca&v=0",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-14T08:34:55.304401+00:00",
+                        "updated_at": "2024-11-11T03:56:24.282711+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": null,
+                        "context_stuffing_budget": 16384
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_GYui16aHdfovycSfwtW83OkC~gzm_tool_fVKpra01RhUgR5k87hTWDvLc",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_GYui16aHdfovycSfwtW83OkC~gzm_tool_wOG7RKubrh2XqjGIpZBVKYlV",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_qGPZ2xwTPGpHi7Aes6QJdg6X~gzm_tool_Nyznn6wSduXq61seTuJMHXGQ",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/vbscript",
+                                "application/msword",
+                                "text/plain",
+                                "application/x-yaml",
+                                "text/x-php",
+                                "text/calendar",
+                                "application/x-powershell",
+                                "text/x-python",
+                                "text/x-ruby",
+                                "text/rtf",
+                                "application/pdf",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-lisp",
+                                "text/markdown",
+                                "text/x-c++",
+                                "message/rfc822",
+                                "application/x-sql",
+                                "text/x-diff",
+                                "text/xml",
+                                "text/x-shellscript",
+                                "text/x-sh",
+                                "text/javascript",
+                                "application/x-scala",
+                                "text/x-asm",
+                                "text/x-tex",
+                                "text/x-script.python",
+                                "application/vnd.ms-powerpoint",
+                                "application/vnd.apple.pages",
+                                "application/vnd.apple.keynote",
+                                "text/x-vcard",
+                                "text/x-rst",
+                                "application/json",
+                                "text/x-typescript",
+                                "text/x-java",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/javascript",
+                                "text/x-c",
+                                "application/rtf",
+                                "text/x-csharp",
+                                "text/x-makefile",
+                                "application/x-rust",
+                                "text/css",
+                                "text/html"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/webp",
+                                "image/gif",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-WP1diWHRl",
+                        "organization_id": "org-LFizWYCMMt6pjUXgiMAxBJtC",
+                        "short_url": "g-WP1diWHRl-math",
+                        "author": {
+                            "user_id": "user-Z9JrMzzMAJlIByGeRtUptmUN",
+                            "display_name": "pulsr.co.uk",
+                            "link_to": "https://pulsr.co.uk",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "uRC2-heAmK",
+                                        "username": "Leo Feasby",
+                                        "display_name": "Leo Feasby",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/leo-feasby-4b6006251"
+                                    }
+                                },
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "1752728225191456768",
+                                        "username": "@leo_pulsr",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/leo_pulsr"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "math",
+                            "description": "The worlds most powerful math tool.",
+                            "prompt_starters": [
+                                "Tutor / Problem Solving mode",
+                                "Graph mode",
+                                "Calculator mode",
+                                "⚡ Try a powerful new GPT ⚡"
+                            ],
+                            "profile_pic_id": "file-ecrTQMd13W0Mh3nQLDhqWW15",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/content?id=file-ecrTQMd13W0Mh3nQLDhqWW15&gizmo_id=g-WP1diWHRl&ts=1731297001&p=gpp&sig=27b5a115f479df2633a282c0fc022cf473287fa8011d1e116e89878f9e0d1f82&v=0",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-22T18:58:35.088716+00:00",
+                        "updated_at": "2024-11-11T03:56:48.718275+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": null,
+                        "context_stuffing_budget": 16384
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_epZx3optGBZeK8R4JRkptLuV~gzm_tool_4s4HInaPZYjeYAVl57klJauK",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_Mv2ZzFO3KOTiS6qEIeuxWdhX~gzm_tool_wtP4xtsoRwOz8IsmqU5EBTjl",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_Mv2ZzFO3KOTiS6qEIeuxWdhX~gzm_tool_sCPaeg8lfH15QXhtK2QzloAS",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/vbscript",
+                                "application/msword",
+                                "text/plain",
+                                "application/x-yaml",
+                                "text/x-php",
+                                "text/calendar",
+                                "application/x-powershell",
+                                "text/x-python",
+                                "text/x-ruby",
+                                "text/rtf",
+                                "application/pdf",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-lisp",
+                                "text/markdown",
+                                "text/x-c++",
+                                "message/rfc822",
+                                "application/x-sql",
+                                "text/x-diff",
+                                "text/xml",
+                                "text/x-shellscript",
+                                "text/x-sh",
+                                "text/javascript",
+                                "application/x-scala",
+                                "text/x-asm",
+                                "text/x-tex",
+                                "text/x-script.python",
+                                "application/vnd.ms-powerpoint",
+                                "application/vnd.apple.pages",
+                                "application/vnd.apple.keynote",
+                                "text/x-vcard",
+                                "text/x-rst",
+                                "application/json",
+                                "text/x-typescript",
+                                "text/x-java",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/javascript",
+                                "text/x-c",
+                                "application/rtf",
+                                "text/x-csharp",
+                                "text/x-makefile",
+                                "application/x-rust",
+                                "text/css",
+                                "text/html"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/webp",
+                                "image/gif",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-rLVq3NTrN",
+                        "organization_id": "org-limJqcVeOm4LWTRLT1WiFYqh",
+                        "short_url": "g-rLVq3NTrN-music-maker-ai",
+                        "author": {
+                            "user_id": "user-TT7cusoSEDOfdB1nn4VHJ5Yf",
+                            "display_name": "Elowen Sage",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Music Maker AI🎵🎵🎵🎵",
+                            "description": "Create original music using AI based on text prompts, supporting various genres and styles.",
+                            "prompt_starters": [
+                                "Compose a light music piece describing a sunrise",
+                                "Generate an energetic electronic dance track",
+                                "Create suspenseful background music for a thriller short film"
+                            ],
+                            "profile_pic_id": "file-cQ6UGsHifxQn2lgeBZcMKY5n",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/content?id=file-cQ6UGsHifxQn2lgeBZcMKY5n&gizmo_id=g-rLVq3NTrN&ts=1731297375&p=gpp&sig=c9ddaec41488c3c9d126a5d2d8c863227dc39a31e6e9137e021452591e6b3e12&v=0",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-07-23T15:30:39.908980+00:00",
+                        "updated_at": "2024-11-11T03:56:34.684079+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": null,
+                        "context_stuffing_budget": 16384
+                    },
+                    "tools": [
+                        {
+                            "id": "670a70e8dd0c8190b8ebea18690c7ede",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-8b27b5e65399c538202f132395bf6d40883e9470",
+                                "domain": "aimusiclab.co",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.1.0",
+                                    "info": {
+                                        "title": "Music",
+                                        "description": "free music",
+                                        "version": "v2.1.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://aimusiclab.co/api"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/get_music_api": {
+                                            "get": {
+                                                "operationId": "makeMusic",
+                                                "summary": "This API generates music based on user-provided prompts,",
+                                                "parameters": [
+                                                    {
+                                                        "name": "prompt",
+                                                        "in": "query",
+                                                        "required": true,
+                                                        "description": "Enter keywords or phrases to generate music.",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Returns a link to music generated from a user prompt."
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {}
+                                    }
+                                },
+                                "auth": {
+                                    "type": "none"
+                                },
+                                "privacy_policy_url": "https://aimusiclab.co/privacy"
+                            }
+                        },
+                        {
+                            "id": "2w22T6f3IkPvdnM2gThjmZyo",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "WeDZPqIvok3SPca0uTDjK6Zw",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/vbscript",
+                                "application/msword",
+                                "text/plain",
+                                "application/x-yaml",
+                                "text/x-php",
+                                "text/calendar",
+                                "application/x-powershell",
+                                "text/x-python",
+                                "text/x-ruby",
+                                "text/rtf",
+                                "application/pdf",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-lisp",
+                                "text/markdown",
+                                "text/x-c++",
+                                "message/rfc822",
+                                "application/x-sql",
+                                "text/x-diff",
+                                "text/xml",
+                                "text/x-shellscript",
+                                "text/x-sh",
+                                "text/javascript",
+                                "application/x-scala",
+                                "text/x-asm",
+                                "text/x-tex",
+                                "text/x-script.python",
+                                "application/vnd.ms-powerpoint",
+                                "application/vnd.apple.pages",
+                                "application/vnd.apple.keynote",
+                                "text/x-vcard",
+                                "text/x-rst",
+                                "application/json",
+                                "text/x-typescript",
+                                "text/x-java",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/javascript",
+                                "text/x-c",
+                                "application/rtf",
+                                "text/x-csharp",
+                                "text/x-makefile",
+                                "application/x-rust",
+                                "text/css",
+                                "text/html"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/webp",
+                                "image/gif",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-OhCVT2jDy",
+                        "organization_id": "org-TKXytrjLgsRukyun0uSnaOKe",
+                        "short_url": "g-OhCVT2jDy-master-interview",
+                        "author": {
+                            "user_id": "user-uZPkRaNnaB3rhWrgiYw6yWks",
+                            "display_name": "masterinterview.ai",
+                            "link_to": "https://masterinterview.ai",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": false,
+                            "display_socials": [
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "1790117343349149696",
+                                        "username": "@MSterInterviews",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/MSterInterviews"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Master Interview🚀",
+                            "description": "🎯 Provides real interview question practices based on companies, 📈 and gives feedback tailored to your background to assist you in impressing the interviewer. 👔✨📅 Next Interview, 🏆 Next Offer.",
+                            "prompt_starters": [
+                                "Let's Start Practice!",
+                                "Top 25 Behavior Questions"
+                            ],
+                            "profile_pic_id": "file-MyrkOVa8hDfJkZgdTGJuMAwx",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/content?id=file-MyrkOVa8hDfJkZgdTGJuMAwx&gizmo_id=g-OhCVT2jDy&ts=1731297322&p=gpp&sig=a2560fa6c05ea995e21a2c3e0ef982cc0e42d3e1d61198a86af738ddde592507&v=0",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-22T21:36:57.405253+00:00",
+                        "updated_at": "2024-11-11T03:55:30.182436+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": null,
+                        "context_stuffing_budget": 16384
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_JNu7VJrMBM48JBrqUVyvWAZP~gzm_tool_4xrvOdfVcoMLbbD5TQNL3X8B",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "QQVKAtccMMh80PF0mk07BhkK",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-4944bd92495c663e3deaebc1a6d8d7b35abe1179",
+                                "domain": "prod-backend.masterinterview.ai",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.0",
+                                    "info": {
+                                        "title": "User and Waitlist Management API",
+                                        "version": "1.0.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://prod-backend.masterinterview.ai",
+                                            "description": "Production server"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/waitlist/add-with-auth": {
+                                            "post": {
+                                                "tags": [
+                                                    "waitlist"
+                                                ],
+                                                "summary": "Add user to waitlist with authentication",
+                                                "operationId": "RequestBQ",
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/WaitlistCategory"
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "User added to waitlist"
+                                                    },
+                                                    "400": {
+                                                        "description": "Error adding user to waitlist"
+                                                    }
+                                                },
+                                                "security": [
+                                                    {
+                                                        "OAuth2": []
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "WaitlistCategory": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "category": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "securitySchemes": {
+                                            "OAuth2": {
+                                                "type": "oauth2",
+                                                "flows": {
+                                                    "authorizationCode": {
+                                                        "authorizationUrl": "https://prod-backend.masterinterview.ai/authorize",
+                                                        "tokenUrl": "https://prod-backend.masterinterview.ai/oauth/token"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "oauth",
+                                    "instructions": "",
+                                    "client_url": "https://prod-backend.masterinterview.ai/authorize",
+                                    "scope": "",
+                                    "authorization_url": "https://prod-backend.masterinterview.ai/oauth/token",
+                                    "authorization_content_type": "application/x-www-form-urlencoded",
+                                    "verification_tokens": {},
+                                    "pkce_required": false,
+                                    "token_exchange_method": "default_post"
+                                },
+                                "privacy_policy_url": "https://www.masterinterview.ai/privacy"
+                            }
+                        },
+                        {
+                            "id": "gzm_cnf_JNu7VJrMBM48JBrqUVyvWAZP~gzm_tool_OVNPZ5LEB2nLBlNGEOFCnGQR",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "5wXOBxvs3omj6HLNR06KkPtp",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/vbscript",
+                                "application/msword",
+                                "text/plain",
+                                "application/x-yaml",
+                                "text/x-php",
+                                "text/calendar",
+                                "application/x-powershell",
+                                "text/x-python",
+                                "text/x-ruby",
+                                "text/rtf",
+                                "application/pdf",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-lisp",
+                                "text/markdown",
+                                "text/x-c++",
+                                "message/rfc822",
+                                "application/x-sql",
+                                "text/x-diff",
+                                "text/xml",
+                                "text/x-shellscript",
+                                "text/x-sh",
+                                "text/javascript",
+                                "application/x-scala",
+                                "text/x-asm",
+                                "text/x-tex",
+                                "text/x-script.python",
+                                "application/vnd.ms-powerpoint",
+                                "application/vnd.apple.pages",
+                                "application/vnd.apple.keynote",
+                                "text/x-vcard",
+                                "text/x-rst",
+                                "application/json",
+                                "text/x-typescript",
+                                "text/x-java",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/javascript",
+                                "text/x-c",
+                                "application/rtf",
+                                "text/x-csharp",
+                                "text/x-makefile",
+                                "application/x-rust",
+                                "text/css",
+                                "text/html"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/webp",
+                                "image/gif",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-TfiZbdLM0",
+                        "organization_id": "org-nc4Oa4HqxP7kfUbVqcAOau70",
+                        "short_url": "g-TfiZbdLM0-machine-learning",
+                        "author": {
+                            "user_id": "user-G4liDZL5wULsfaDnalu9mGmk",
+                            "display_name": "Maryam Eskandari",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Machine Learning",
+                            "description": "A machine learning, deep learning, and data science assistant for learning, practicing, and developing algorithms.",
+                            "prompt_starters": [
+                                "How do I use pandas to analyze data?",
+                                "Can you explain neural networks?",
+                                "Help me troubleshoot my TensorFlow code.",
+                                "What are the best practices in data preprocessing?"
+                            ],
+                            "profile_pic_id": "file-79w3XiRGkbTiECoVNmkLzcKV",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/content?id=file-79w3XiRGkbTiECoVNmkLzcKV&gizmo_id=g-TfiZbdLM0&ts=1731295946&p=gpp&sig=73ba9e682e7d05413a513b29767a521906842e24777e6b038b8ee7e237e86301&v=0",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-17T07:13:55.658624+00:00",
+                        "updated_at": "2024-11-11T03:50:49.716488+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": null,
+                        "context_stuffing_budget": 16384
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_Hh6vIS7OQfBaNZ014qI9goRk~gzm_tool_yzTqrDSrso9EIGDbG9CZTviP",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_Hh6vIS7OQfBaNZ014qI9goRk~gzm_tool_KkTURCL206dpN0IVS8S4ntIf",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_Hh6vIS7OQfBaNZ014qI9goRk~gzm_tool_TDWTD8XWdVpXDeXZM5UIKMAS",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/vbscript",
+                                "application/msword",
+                                "text/plain",
+                                "application/x-yaml",
+                                "text/x-php",
+                                "text/calendar",
+                                "application/x-powershell",
+                                "text/x-python",
+                                "text/x-ruby",
+                                "text/rtf",
+                                "application/pdf",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-lisp",
+                                "text/markdown",
+                                "text/x-c++",
+                                "message/rfc822",
+                                "application/x-sql",
+                                "text/x-diff",
+                                "text/xml",
+                                "text/x-shellscript",
+                                "text/x-sh",
+                                "text/javascript",
+                                "application/x-scala",
+                                "text/x-asm",
+                                "text/x-tex",
+                                "text/x-script.python",
+                                "application/vnd.ms-powerpoint",
+                                "application/vnd.apple.pages",
+                                "application/vnd.apple.keynote",
+                                "text/x-vcard",
+                                "text/x-rst",
+                                "application/json",
+                                "text/x-typescript",
+                                "text/x-java",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/javascript",
+                                "text/x-c",
+                                "application/rtf",
+                                "text/x-csharp",
+                                "text/x-makefile",
+                                "application/x-rust",
+                                "text/css",
+                                "text/html"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/webp",
+                                "image/gif",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-BF1F5RjkJ",
+                        "organization_id": "org-BRBQvjObrA22hj94L0zqZF73",
+                        "short_url": "g-BF1F5RjkJ-speak-ai-english-conversation-practice-writing",
+                        "author": {
+                            "user_id": "user-Cerf2EMxqK6IaoOh8HW2bTfN",
+                            "display_name": "speakwithanai.com",
+                            "link_to": "https://speakwithanai.com",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "1768572395730907136",
+                                        "username": "@SpeakpalAi",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/SpeakpalAi"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Speak AI: English Conversation Practice&Writing",
+                            "description": "Talk with an AI English teacher. Our tutor proposes topics, corrects your errors, and improves fluency with personalized feedback and interactive chats. Enhance your English with progressive vocabulary, essential phrases, daily conversation, and writing exercises.",
+                            "prompt_starters": [
+                                "Can you help me practice daily English conversation?",
+                                "I need to improve my professional English. Can we practice?",
+                                "Let's simulate a situational conversation.",
+                                "What are 3 common English phrases used in travel?"
+                            ],
+                            "profile_pic_id": "file-848DaBBiUllDNLZA5hhh0750",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/content?id=file-848DaBBiUllDNLZA5hhh0750&gizmo_id=g-BF1F5RjkJ&ts=1731297097&p=gpp&sig=83d5ce4532d747335a65fb53b7651b2075695b4c5aeead0d829def20d68185ee&v=0",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-06-05T09:17:29.173893+00:00",
+                        "updated_at": "2024-11-11T03:56:19.659665+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": null,
+                        "context_stuffing_budget": 16384
+                    },
+                    "tools": [
+                        {
+                            "id": "pfrIayNAN8hZl312VR04518Z",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "IrpqsUzWsJyzf1xl0ywvzX6m",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/vbscript",
+                                "application/msword",
+                                "text/plain",
+                                "application/x-yaml",
+                                "text/x-php",
+                                "text/calendar",
+                                "application/x-powershell",
+                                "text/x-python",
+                                "text/x-ruby",
+                                "text/rtf",
+                                "application/pdf",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-lisp",
+                                "text/markdown",
+                                "text/x-c++",
+                                "message/rfc822",
+                                "application/x-sql",
+                                "text/x-diff",
+                                "text/xml",
+                                "text/x-shellscript",
+                                "text/x-sh",
+                                "text/javascript",
+                                "application/x-scala",
+                                "text/x-asm",
+                                "text/x-tex",
+                                "text/x-script.python",
+                                "application/vnd.ms-powerpoint",
+                                "application/vnd.apple.pages",
+                                "application/vnd.apple.keynote",
+                                "text/x-vcard",
+                                "text/x-rst",
+                                "application/json",
+                                "text/x-typescript",
+                                "text/x-java",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/javascript",
+                                "text/x-c",
+                                "application/rtf",
+                                "text/x-csharp",
+                                "text/x-makefile",
+                                "application/x-rust",
+                                "text/css",
+                                "text/html"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/webp",
+                                "image/gif",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-qfoOICq1l",
+                        "organization_id": "org-ZJ4Xn6xsZLNePkreg1xbLNb1",
+                        "short_url": "g-qfoOICq1l-prompt-professor",
+                        "author": {
+                            "user_id": "user-gGe71twpoLuGJl05GVypE9q1__86af01e5-2fc6-4507-9e43-28fa700beb2a",
+                            "display_name": null,
+                            "link_to": null,
+                            "is_verified": false,
+                            "selected_display": "name",
+                            "will_receive_support_emails": false,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": "86af01e5-2fc6-4507-9e43-28fa700beb2a",
+                        "model": null,
+                        "instructions": null,
+                        "settings": null,
+                        "display": {
+                            "name": "Prompt Professor",
+                            "description": "I know everything about Prompt Engineering. What do you want to know about prompt?",
+                            "prompt_starters": [
+                                "How to make a good prompt?",
+                                "Improve this prompt: ${prompt}",
+                                "Rate this prompt: ${prompt}",
+                                "Tell me 26 Principles of Good Prompt"
+                            ],
+                            "profile_pic_id": "file-MsXTgHdeT8NqXvoz3yFp1DsA",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/content?id=file-MsXTgHdeT8NqXvoz3yFp1DsA&gizmo_id=g-qfoOICq1l&ts=1731296494&p=gpp&sig=ea4b54565eecbe65ffca86e73c5b022b76c8733e3f05d816b4bdbdbab352136f&v=0",
+                            "categories": [
+                                "education"
+                            ]
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-09T03:34:22.251580+00:00",
+                        "updated_at": "2024-11-11T03:54:37.922887+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "version": null,
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": null,
+                        "context_stuffing_budget": 16384
+                    },
+                    "tools": [],
+                    "files": [
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "gzm_cnf_WuIlKePJ7mMMDHQt8ZmAiPaJ~gzm_file_KncAqpP91kW6tVxCK97Brbnq",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "gzm_cnf_WuIlKePJ7mMMDHQt8ZmAiPaJ~gzm_file_zqzLY4NX2MLmWTo5Rj6Ga50o",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "gzm_cnf_397hP1iXk8ZACT9AiHUvBU5s~gzm_file_v09TqV4cXGX5lxZgS35UzEE6",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/vbscript",
+                                "application/msword",
+                                "text/plain",
+                                "application/x-yaml",
+                                "text/x-php",
+                                "text/calendar",
+                                "application/x-powershell",
+                                "text/x-python",
+                                "text/x-ruby",
+                                "text/rtf",
+                                "application/pdf",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-lisp",
+                                "text/markdown",
+                                "text/x-c++",
+                                "message/rfc822",
+                                "application/x-sql",
+                                "text/x-diff",
+                                "text/xml",
+                                "text/x-shellscript",
+                                "text/x-sh",
+                                "text/javascript",
+                                "application/x-scala",
+                                "text/x-asm",
+                                "text/x-tex",
+                                "text/x-script.python",
+                                "application/vnd.ms-powerpoint",
+                                "application/vnd.apple.pages",
+                                "application/vnd.apple.keynote",
+                                "text/x-vcard",
+                                "text/x-rst",
+                                "application/json",
+                                "text/x-typescript",
+                                "text/x-java",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/javascript",
+                                "text/x-c",
+                                "application/rtf",
+                                "text/x-csharp",
+                                "text/x-makefile",
+                                "application/x-rust",
+                                "text/css",
+                                "text/html"
+                            ],
+                            "image_mime_types": [
+                                "image/jpeg",
+                                "image/webp",
+                                "image/gif",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            }
+        ],
+        "cursor": null
+    }
+}
