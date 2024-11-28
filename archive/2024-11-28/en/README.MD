@@ -1,37 +1,7 @@
-# GPT Store data backup
-  
-  This project daily scrapes and archives data from the official GPT Store. If you have other data requirements, please open an issue.
-
-  <p align="center">
-    <a target="_blank" href="https://302.ai/?ref=gptshunter&block=github">
-      <img alt="302.ai" src="https://assets.gptshunt.com/github-1500%C3%97400-en.jpg">
-    </a>
-  </p>
-  
-  If you are interested in viewing and downloading the top 500 GPTs daily, please check out our another project: [AINativeLab/top-500-best-gpts](https://github.com/AINativeLab/top-500-best-gpts).
-  
-  <p align="center">
-  ★ Powered by <a target="_blank" href="https://www.gptshunter.com/?utm_source=gptstore-data-backup">GPTsHunter.com</a> ★
-  </p>
-  
-  <p align="center">
-    <a target="_blank" href="https://gptshunter.com/?utm_source=gptstore-data-backup">
-      <img alt="GPTsHunter" src="https://gptshunter.com/full-logo.svg" width="300">
-    </a>
-  </p>
-  
-  ## Latest
-  
-  [2024-11-28.en.md](/archive/2024-11-28/en)
-  
-  [2024-11-28.global.md](/archive/2024-11-28/global)
-  
-  ## Global GPT Leaderboard for 2024-11-28
-  
-  
+# 2024-11-28
 
   
-  ### Featured
+  ## Featured
   
   Curated top picks from this week
   
@@ -119,46 +89,46 @@
   No.9 / 2M+ / ★ 3.9 (84628 Reviews)
           
 
-  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="챗GPT" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-yOO0xA22YQbkjlS6bbbOEoLq%26gizmo_id%3Dg-FvT4UOsoA%26ts%3D481329%26p%3Dgpp%26sig%3Df95280ec7139094db67e300b2a0e0e694fee1c7c14a1263d4d957243ed7b9922%26v%3D0"/>](https://chat.openai.com/g/g-FvT4UOsoA-caesgpt)
-  
-  [**챗GPT**](https://chat.openai.com/g/g-FvT4UOsoA-caesgpt) \
-  No.10 / 5M+ / ★ 4.2 (40956 Reviews)
-          
-
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Python" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-ld53W1TkNJMYK6RyyFboObSW%26gizmo_id%3Dg-cKXjWStaE%26ts%3D481329%26p%3Dgpp%26sig%3D67a9e85d732f93864d825f49b0b696e789e9ba35f04e7fbe55914cff0f6aed19%26v%3D0"/>](https://chat.openai.com/g/g-cKXjWStaE-python)
   
   [**Python**](https://chat.openai.com/g/g-cKXjWStaE-python) \
-  No.11 / 1M+ / ★ 4.3 (76020 Reviews)
+  No.10 / 1M+ / ★ 4.3 (76020 Reviews)
           
 
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Presentation and Slides GPT: PowerPoints, PDFs" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-yopXxYff2NK3hIRuo1v4e0zR%26gizmo_id%3Dg-cJtHaGnyo%26ts%3D481329%26p%3Dgpp%26sig%3D95b6236b40b706dd9ae487396c71a8c958fd5358bc30b71537fc2a82589f9bfc%26v%3D0"/>](https://chat.openai.com/g/g-cJtHaGnyo-presentation-and-slides-gpt-powerpoints-pdfs)
   
   [**Presentation and Slides GPT: PowerPoints, PDFs**](https://chat.openai.com/g/g-cJtHaGnyo-presentation-and-slides-gpt-powerpoints-pdfs) \
-  No.12 / 1M+ / ★ 3.9 (77838 Reviews)
+  No.11 / 1M+ / ★ 3.9 (77838 Reviews)
           
 
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="SciSpace" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-rdCQ0lZNp84NkdCMq56ppn8r%26gizmo_id%3Dg-NgAcklHd8%26ts%3D481329%26p%3Dgpp%26sig%3D8eea1e498947a2160ebd0fde2c258f966361497beeeae0c6ff6376e7f6005029%26v%3D0"/>](https://chat.openai.com/g/g-NgAcklHd8-scispace)
   
   [**SciSpace**](https://chat.openai.com/g/g-NgAcklHd8-scispace) \
-  No.13 / 1M+ / ★ 4.3 (36712 Reviews)
+  No.12 / 1M+ / ★ 4.3 (36712 Reviews)
           
 
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Website Generator" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-IrBNu77AV10e4xnLWISJNrh3%26gizmo_id%3Dg-iYSeH3EAI%26ts%3D481329%26p%3Dgpp%26sig%3D5ac70a9a9f57cef4e6a591e66d650e349baf45f3ead6581aed1034eef73aec49%26v%3D0"/>](https://chat.openai.com/g/g-iYSeH3EAI-website-generator)
   
   [**Website Generator**](https://chat.openai.com/g/g-iYSeH3EAI-website-generator) \
-  No.14 / 1M+ / ★ 4.0 (29614 Reviews)
+  No.13 / 1M+ / ★ 4.0 (29614 Reviews)
           
 
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Presentation & Diagram Generator by <ShowMe>" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-HSed5Uqpf9H8LUjXibDQP80b%26gizmo_id%3Dg-5QhhdsfDj%26ts%3D481329%26p%3Dgpp%26sig%3Dde654e29f5d374d94c9a18981ab74cada55d574ec2a1fb3c5b5fb687724cafd0%26v%3D0"/>](https://chat.openai.com/g/g-5QhhdsfDj-presentation-diagram-generator-by-showme)
   
   [**Presentation & Diagram Generator by <ShowMe>**](https://chat.openai.com/g/g-5QhhdsfDj-presentation-diagram-generator-by-showme) \
-  No.15 / 2M+ / ★ 3.9 (58172 Reviews)
+  No.14 / 2M+ / ★ 3.9 (58172 Reviews)
           
 
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="AI Humanizer" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-OPDq3ZahhE1JxhxVVBEBBMX4%26gizmo_id%3Dg-2azCVmXdy%26ts%3D481329%26p%3Dgpp%26sig%3De16bf756aa42eb86459b4744788aef0329bd5b1fd855bb684a62332e2b559d92%26v%3D0"/>](https://chat.openai.com/g/g-2azCVmXdy-ai-humanizer)
   
   [**AI Humanizer**](https://chat.openai.com/g/g-2azCVmXdy-ai-humanizer) \
-  No.16 / 4M+ / ★ 3.9 (52986 Reviews)
+  No.15 / 4M+ / ★ 3.9 (52986 Reviews)
+          
+
+  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Humanize AI" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-G2dq0SJV4pOuJSWG4bM9v2XJ%26gizmo_id%3Dg-a6Fpz8NRb%26ts%3D481329%26p%3Dgpp%26sig%3D995cb5e694a1ff6275aa3e0ca7dfde28f76c2af9b9fc9fbc320c76879754150f%26v%3D0"/>](https://chat.openai.com/g/g-a6Fpz8NRb-humanize-ai)
+  
+  [**Humanize AI**](https://chat.openai.com/g/g-a6Fpz8NRb-humanize-ai) \
+  No.16 / 2M+ / ★ 4.1 (32245 Reviews)
           
   
   ## By ChatGPT
@@ -309,58 +279,58 @@
   No.7 / 500K+ / ★ 4.2 (13218 Reviews)
           
 
-  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Translate GPT" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-MkvwaZFerLLTL6z32mCcQQS3%26gizmo_id%3Dg-5bNPpaVZy%26ts%3D481329%26p%3Dgpp%26sig%3Dfc482f845af707de4da0eb4fa26e1a0fd052affd9e529418253c66686e0ff362%26v%3D0"/>](https://chat.openai.com/g/g-5bNPpaVZy-translate-gpt)
-  
-  [**Translate GPT**](https://chat.openai.com/g/g-5bNPpaVZy-translate-gpt) \
-  No.8 / 800K+ / ★ 4.2 (12060 Reviews)
-          
-
-  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Music Song AI  Generator" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-NOTCgmNzbV7EvpGr7harJBPQ%26gizmo_id%3Dg-Sl88SFeWR%26ts%3D481329%26p%3Dgpp%26sig%3De9b4bb704db5e8c4d9755a0b78634d5ecc0dd7bd2c1d2086498f2893d46d6654%26v%3D0"/>](https://chat.openai.com/g/g-Sl88SFeWR-music-song-ai-generator)
-  
-  [**Music Song AI  Generator**](https://chat.openai.com/g/g-Sl88SFeWR-music-song-ai-generator) \
-  No.9 / 1M+ / ★ 3.6 (5307 Reviews)
-          
-
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Fully SEO Optimized Article including FAQ's (2.0)" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-9FJw9NckvXfmBgxuhJQBTok7%26gizmo_id%3Dg-ySbhcRtru%26ts%3D481329%26p%3Dgpp%26sig%3D45960ac7db6d368eb5c35639839f64a50c9e27827575b3cebaa8037480753f5a%26v%3D0"/>](https://chat.openai.com/g/g-ySbhcRtru-fully-seo-optimized-article-including-faq-s-2-0)
   
   [**Fully SEO Optimized Article including FAQ's (2.0)**](https://chat.openai.com/g/g-ySbhcRtru-fully-seo-optimized-article-including-faq-s-2-0) \
-  No.10 / 600K+ / ★ 4.3 (8263 Reviews)
+  No.8 / 600K+ / ★ 4.3 (8263 Reviews)
           
 
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Automated Writer" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-yN6Pz708NERE4NBraTFNLgEy%26gizmo_id%3Dg-82ALdp8Nj%26ts%3D481329%26p%3Dgpp%26sig%3Ddbe01514a8e786d06c552c976d92563078277921b12ca3106e5b8d321da36b9d%26v%3D0"/>](https://chat.openai.com/g/g-82ALdp8Nj-automated-writer)
   
   [**Automated Writer**](https://chat.openai.com/g/g-82ALdp8Nj-automated-writer) \
-  No.11 / 500K+ / ★ 4.3 (14649 Reviews)
+  No.9 / 500K+ / ★ 4.3 (14649 Reviews)
           
 
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="👌Academic Assistant Pro" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-lYAqmT8xUfOKi4AXmEdpjzqm%26gizmo_id%3Dg-UubB08D4y%26ts%3D481329%26p%3Dgpp%26sig%3Df1a095a32cdd05320dda8094c51c9b240d8f5d994b3333242a944cfa4a5d9dd8%26v%3D0"/>](https://chat.openai.com/g/g-UubB08D4y-academic-assistant-pro)
   
   [**👌Academic Assistant Pro**](https://chat.openai.com/g/g-UubB08D4y-academic-assistant-pro) \
-  No.12 / 600K+ / ★ 4.3 (12602 Reviews)
+  No.10 / 600K+ / ★ 4.3 (12602 Reviews)
           
 
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Insta Guru" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-ddDvNKyI8PViYRwX8lfqVHG3%26gizmo_id%3Dg-cNLNWsBdX%26ts%3D481329%26p%3Dgpp%26sig%3Dba0535592c95b44c5a788d746d1f5f7e8c4cc6a977b35465c4a1e15102d0322a%26v%3D0"/>](https://chat.openai.com/g/g-cNLNWsBdX-insta-guru)
   
   [**Insta Guru**](https://chat.openai.com/g/g-cNLNWsBdX-insta-guru) \
-  No.13 / 100K+ / ★ 4.4 (1086 Reviews)
+  No.11 / 100K+ / ★ 4.4 (1086 Reviews)
           
 
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Cover Letter" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-9itEgFrCozgJhvGbQEvHrwZ7%26gizmo_id%3Dg-tb2UpZTEH%26ts%3D481329%26p%3Dgpp%26sig%3D3c396475e5a13fc934993e5de6b3152bead540470bf42dbf20580df5f2da9ebc%26v%3D0"/>](https://chat.openai.com/g/g-tb2UpZTEH-cover-letter)
   
   [**Cover Letter**](https://chat.openai.com/g/g-tb2UpZTEH-cover-letter) \
-  No.14 / 300K+ / ★ 4.2 (5826 Reviews)
+  No.12 / 300K+ / ★ 4.2 (5826 Reviews)
           
 
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Viral Linkedin Post Formatter" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-5W8GPaTN5NP9jCFXNtgEtglA%26gizmo_id%3Dg-hYB5bT7ZL%26ts%3D481329%26p%3Dgpp%26sig%3Dbce6d02e50f5670ff648c4219d16517d2c915ad9bef20ac839186bc07ad8287b%26v%3D0"/>](https://chat.openai.com/g/g-hYB5bT7ZL-viral-linkedin-post-formatter)
   
   [**Viral Linkedin Post Formatter**](https://chat.openai.com/g/g-hYB5bT7ZL-viral-linkedin-post-formatter) \
-  No.15 / 200K+ / ★ 4.2 (3458 Reviews)
+  No.13 / 200K+ / ★ 4.2 (3458 Reviews)
           
 
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Book Creator Guide" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-QDv14Pkaw2Q5LPiYRqb8tSan%26gizmo_id%3Dg-7C0wg9CMN%26ts%3D481329%26p%3Dgpp%26sig%3Dcf3d5738e5cc3698c4fb467f1d2c5fd7cd3e1bcfeb072a5e8508e3163ad53318%26v%3D0"/>](https://chat.openai.com/g/g-7C0wg9CMN-book-creator-guide)
   
   [**Book Creator Guide**](https://chat.openai.com/g/g-7C0wg9CMN-book-creator-guide) \
-  No.16 / 200K+ / ★ 4.4 (10702 Reviews)
+  No.14 / 200K+ / ★ 4.4 (10702 Reviews)
+          
+
+  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Research Paper Writing" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-ugzP6dHAuhQRti9ZXMHc55O9%26gizmo_id%3Dg-UF8QlvSsU%26ts%3D481329%26p%3Dgpp%26sig%3Dca382eeb41e4ccd691d04ad437bd9e3af8edf8b08439a14ba4d410502c6e26da%26v%3D0"/>](https://chat.openai.com/g/g-UF8QlvSsU-research-paper-writing)
+  
+  [**Research Paper Writing**](https://chat.openai.com/g/g-UF8QlvSsU-research-paper-writing) \
+  No.15 / 100K+ / ★ 4.3 (4655 Reviews)
+          
+
+  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Undetectable AI Humanizer" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-lU5BOLI3trKXuSKtM5SjFa2X%26gizmo_id%3Dg-aWz3pQroP%26ts%3D481329%26p%3Dgpp%26sig%3Dd610859265655ca76187e7c21d32c57331c7add63f9cf5da0964927b58ce959d%26v%3D0"/>](https://chat.openai.com/g/g-aWz3pQroP-undetectable-ai-humanizer)
+  
+  [**Undetectable AI Humanizer**](https://chat.openai.com/g/g-aWz3pQroP-undetectable-ai-humanizer) \
+  No.16 / 400K+ / ★ 4.3 (1950 Reviews)
           
   
   ## Productivity
@@ -511,58 +481,58 @@
   No.7 / 2M+ / ★ 4.2 (33247 Reviews)
           
 
-  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Data Analysis & Report AI🌍" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-ckLk0Y9Nz2aQpB2qiYmFZ3Ua%26gizmo_id%3Dg-2OebMtWeG%26ts%3D481329%26p%3Dgpp%26sig%3Dc4073da7a4a16b6fba6a8a639795033f7b25ca448d36cf51f4dc35fea70dcb7c%26v%3D0"/>](https://chat.openai.com/g/g-2OebMtWeG-data-analysis-report-ai)
-  
-  [**Data Analysis & Report AI🌍**](https://chat.openai.com/g/g-2OebMtWeG-data-analysis-report-ai) \
-  No.8 / 400K+ / ★ 4.2 (17742 Reviews)
-          
-
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Finance Wizard" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-ZI3wtnYtMQXZvmKZZsxL6raP%26gizmo_id%3Dg-szDdJUX9V%26ts%3D481329%26p%3Dgpp%26sig%3Ded43e9b02cb806477da1b3a4c4251db27584efe90af443b5dac734ef1c008852%26v%3D0"/>](https://chat.openai.com/g/g-szDdJUX9V-finance-wizard)
   
   [**Finance Wizard**](https://chat.openai.com/g/g-szDdJUX9V-finance-wizard) \
-  No.9 / 700K+ / ★ 4.1 (12404 Reviews)
+  No.8 / 700K+ / ★ 4.1 (12404 Reviews)
           
 
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="AskYourPDF Research Assistant" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-DA3Ydcqttrv1tYcjGUv9Nv3Q%26gizmo_id%3Dg-UfFxTDMxq%26ts%3D481329%26p%3Dgpp%26sig%3D4828111942e17efafda68eaefc8c05fea0b23dd02445ceaf05e7fc3ab2ba5b1f%26v%3D0"/>](https://chat.openai.com/g/g-UfFxTDMxq-askyourpdf-research-assistant)
   
   [**AskYourPDF Research Assistant**](https://chat.openai.com/g/g-UfFxTDMxq-askyourpdf-research-assistant) \
-  No.10 / 1M+ / ★ 4.1 (24843 Reviews)
+  No.9 / 1M+ / ★ 4.1 (24843 Reviews)
           
 
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="MARKETING" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-m4GlwY1VIc3ADwoMP9KlAZta%26gizmo_id%3Dg-DtjWjSDiv%26ts%3D481329%26p%3Dgpp%26sig%3D3657d79c6679e58afcbe9d50425c40a6cd200a337b0daec57bd553b479da1c1b%26v%3D0"/>](https://chat.openai.com/g/g-DtjWjSDiv-marketing)
   
   [**MARKETING**](https://chat.openai.com/g/g-DtjWjSDiv-marketing) \
-  No.11 / 400K+ / ★ 4.4 (8970 Reviews)
+  No.10 / 400K+ / ★ 4.4 (8970 Reviews)
           
 
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Web Browser" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-Hbd6UTA41GFAqPHFP9NxcyYl%26gizmo_id%3Dg-xc7kwwGjB%26ts%3D481329%26p%3Dgpp%26sig%3D07f413a106b74ce9f5a624324ac8ab8e066a9a013ab6c677f09ef1a026463a86%26v%3D0"/>](https://chat.openai.com/g/g-xc7kwwGjB-web-browser)
   
   [**Web Browser**](https://chat.openai.com/g/g-xc7kwwGjB-web-browser) \
-  No.12 / 500K+ / ★ 3.9 (9286 Reviews)
-          
-
-  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Paper Interpreter (Japanese)" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-8i4vObbTYaTFeNItgHzSQ3CD%26gizmo_id%3Dg-hxDOCBQrs%26ts%3D481329%26p%3Dgpp%26sig%3D0f7c94db6fb473737ced6a49756daa0550d85ec80a26cc222fefc310616f5c4c%26v%3D0"/>](https://chat.openai.com/g/g-hxDOCBQrs-paper-interpreter-japanese)
-  
-  [**Paper Interpreter (Japanese)**](https://chat.openai.com/g/g-hxDOCBQrs-paper-interpreter-japanese) \
-  No.13 / 200K+ / ★ 4.3 (2677 Reviews)
+  No.11 / 500K+ / ★ 3.9 (9286 Reviews)
           
 
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Stock Research Assistant (Stocks/Options) ✅" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-VFjQBzKlUA9x30xcWAYjLyx1%26gizmo_id%3Dg-5wVuKfpEt%26ts%3D481329%26p%3Dgpp%26sig%3Debc5bf098ba2b634c475c0ae1c0293efda5e98434125f75bc5d0fd6bed2791a9%26v%3D0"/>](https://chat.openai.com/g/g-5wVuKfpEt-stock-research-assistant-stocks-options)
   
   [**Stock Research Assistant (Stocks/Options) ✅**](https://chat.openai.com/g/g-5wVuKfpEt-stock-research-assistant-stocks-options) \
-  No.14 / 100K+ / ★ 4.3 (2620 Reviews)
+  No.12 / 100K+ / ★ 4.3 (2620 Reviews)
           
 
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="PDF Reader" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-o6TIxzq2lzfwDsvhZsiVdlAI%26gizmo_id%3Dg-QSh6KHL3S%26ts%3D481329%26p%3Dgpp%26sig%3Db35dbf2519f4868590a3cd8d983e2bdd218b70b3d7f4a34375037f715eb8bc87%26v%3D0"/>](https://chat.openai.com/g/g-QSh6KHL3S-pdf-reader)
   
   [**PDF Reader**](https://chat.openai.com/g/g-QSh6KHL3S-pdf-reader) \
-  No.15 / 200K+ / ★ 4.0 (8218 Reviews)
+  No.13 / 200K+ / ★ 4.0 (8218 Reviews)
           
 
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Accounting GPT" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-OaYRN79qEAeRUJQZstTLD1oy%26gizmo_id%3Dg-7RJghLmOO%26ts%3D481329%26p%3Dgpp%26sig%3Da847ad3ad46ba156a115772d32f023c57df33573c7d0bfb256be653448519b7e%26v%3D0"/>](https://chat.openai.com/g/g-7RJghLmOO-accounting-gpt)
   
   [**Accounting GPT**](https://chat.openai.com/g/g-7RJghLmOO-accounting-gpt) \
-  No.16 / 200K+ / ★ 4.2 (5409 Reviews)
+  No.14 / 200K+ / ★ 4.2 (5409 Reviews)
+          
+
+  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Video Insights: Summaries/Transcription/Vision" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-XDTgDvDuiiu20qCqfBLSpQAm%26gizmo_id%3Dg-HXZv0dg8w%26ts%3D481329%26p%3Dgpp%26sig%3Dc3b4c8251def3c02b657a5e9c2c9328dca4af92c04e5fa00e3bcd6979d27ce50%26v%3D0"/>](https://chat.openai.com/g/g-HXZv0dg8w-video-insights-summaries-transcription-vision)
+  
+  [**Video Insights: Summaries/Transcription/Vision**](https://chat.openai.com/g/g-HXZv0dg8w-video-insights-summaries-transcription-vision) \
+  No.15 / 100K+ / ★ 4.0 (2678 Reviews)
+          
+
+  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Power BI Wizard" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-BmqOUjBX4V5NaqJilfp0wPKP%26gizmo_id%3Dg-TiBidpICQ%26ts%3D481329%26p%3Dgpp%26sig%3D5d7d63a3fe1f68343eb77e2790f727f09f5afdb5a5e794d2c51a5488dcdfd6aa%26v%3D0"/>](https://chat.openai.com/g/g-TiBidpICQ-power-bi-wizard)
+  
+  [**Power BI Wizard**](https://chat.openai.com/g/g-TiBidpICQ-power-bi-wizard) \
+  No.16 / 100K+ / ★ 4.1 (1866 Reviews)
           
   
   ## Education
@@ -570,100 +540,100 @@
   Explore new ideas, revisit existing skills
   
   
-  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="챗GPT" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-yOO0xA22YQbkjlS6bbbOEoLq%26gizmo_id%3Dg-FvT4UOsoA%26ts%3D481328%26p%3Dgpp%26sig%3D9f443bf9f462c1eea3a6c6077971cea156c3b31a09892d05b157ddbb90220123%26v%3D0"/>](https://chat.openai.com/g/g-FvT4UOsoA-caesgpt)
-  
-  [**챗GPT**](https://chat.openai.com/g/g-FvT4UOsoA-caesgpt) \
-  No.1 / 5M+ / ★ 4.2 (40956 Reviews)
-          
-
-  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="日本語 | ログイン 🇯🇵" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-ibcwzyHdRtdPeqZ9w6hdFBnr%26gizmo_id%3Dg-PGPnMa4Ph%26ts%3D481328%26p%3Dgpp%26sig%3Dff80b1fdf761be7871f9dac0979b3522325b9f4a19f23561a4214c183a2a9a4c%26v%3D0"/>](https://chat.openai.com/g/g-PGPnMa4Ph-ri-ben-yu-rokuin)
-  
-  [**日本語 | ログイン 🇯🇵**](https://chat.openai.com/g/g-PGPnMa4Ph-ri-ben-yu-rokuin) \
-  No.2 / 1M+ / ★ 4.1 (23220 Reviews)
-          
-
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Write Anything" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-zwDDLb5BMozpWGRDCb2eD7GT%26gizmo_id%3Dg-odWlfAKWM%26ts%3D481328%26p%3Dgpp%26sig%3D760aa5715517d86b3329dc0f500c6fc0f85a5a10b99f254552dd3409d800c9c7%26v%3D0"/>](https://chat.openai.com/g/g-odWlfAKWM-write-anything)
   
   [**Write Anything**](https://chat.openai.com/g/g-odWlfAKWM-write-anything) \
-  No.3 / 1M+ / ★ 4.2 (32403 Reviews)
-          
-
-  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="チャットGPT" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-kmM4eFFNZIYsZyoSRDGJiBXD%26gizmo_id%3Dg-8sPlJ64Gn%26ts%3D481328%26p%3Dgpp%26sig%3Df527b7a83c01524d5752dc53fa99116934d349db49b10c958f62bac7349b2765%26v%3D0"/>](https://chat.openai.com/g/g-8sPlJ64Gn-tiyatutogpt)
-  
-  [**チャットGPT**](https://chat.openai.com/g/g-8sPlJ64Gn-tiyatutogpt) \
-  No.4 / 4M+ / ★ 4.0 (18616 Reviews)
+  No.1 / 1M+ / ★ 4.2 (32403 Reviews)
           
 
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Universal Primer" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-thqJUpDWcYAMxgKhiwNYZFj0%26gizmo_id%3Dg-GbLbctpPz%26ts%3D481328%26p%3Dgpp%26sig%3De0397757e3ca50935d346821d14ae1251719ad19b5eaa138fb783173ed0ce9c1%26v%3D0"/>](https://chat.openai.com/g/g-GbLbctpPz-universal-primer)
   
   [**Universal Primer**](https://chat.openai.com/g/g-GbLbctpPz-universal-primer) \
-  No.5 / 2M+ / ★ 4.6 (37873 Reviews)
+  No.2 / 2M+ / ★ 4.6 (37873 Reviews)
           
 
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Code Tutor" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-wT9OjtSlKWSliHQlnvDPbLnB%26gizmo_id%3Dg-HxPrv1p8v%26ts%3D481328%26p%3Dgpp%26sig%3D65f83f8b05c14eef24f3594f7650a7d4d6dfac19428e761fad25a7554455ddee%26v%3D0"/>](https://chat.openai.com/g/g-HxPrv1p8v-code-tutor)
   
   [**Code Tutor**](https://chat.openai.com/g/g-HxPrv1p8v-code-tutor) \
-  No.6 / 700K+ / ★ 4.4 (13286 Reviews)
+  No.3 / 700K+ / ★ 4.4 (13286 Reviews)
           
 
-  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Video Summarizer ✏️🌐🔝🚀" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-7mvWeT3xkgGLNRqlq2IrU3na%26gizmo_id%3Dg-GvcYCKPIH%26ts%3D481329%26p%3Dgpp%26sig%3D0fc627956440d7d995fcac31249f0a7d2d7513dce65d03873052425a51897b10%26v%3D0"/>](https://chat.openai.com/g/g-GvcYCKPIH-video-summarizer)
+  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Video Summarizer ✏️🌐🔝🚀" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-7mvWeT3xkgGLNRqlq2IrU3na%26gizmo_id%3Dg-GvcYCKPIH%26ts%3D481328%26p%3Dgpp%26sig%3D38dbaacba5857bf5184fea4975c78d34384609196f3249506ec9c633e3dc6e82%26v%3D0"/>](https://chat.openai.com/g/g-GvcYCKPIH-video-summarizer)
   
   [**Video Summarizer ✏️🌐🔝🚀**](https://chat.openai.com/g/g-GvcYCKPIH-video-summarizer) \
-  No.7 / 1M+ / ★ 4.5 (19404 Reviews)
+  No.4 / 1M+ / ★ 4.5 (19404 Reviews)
           
 
-  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Language Teacher | Ms. Smith" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-p7wjkbf2I2Am2p4jIy9OWKMP%26gizmo_id%3Dg-RR3RCyK8N%26ts%3D481329%26p%3Dgpp%26sig%3D51262a0c95e3cfd071857e7a5aabcfa98555482ac224ca87470111761cc7c7ea%26v%3D0"/>](https://chat.openai.com/g/g-RR3RCyK8N-language-teacher-ms-smith)
-  
-  [**Language Teacher | Ms. Smith**](https://chat.openai.com/g/g-RR3RCyK8N-language-teacher-ms-smith) \
-  No.8 / 700K+ / ★ 4.4 (21365 Reviews)
-          
-
-  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Tutor Me" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-kM163oDkrVnm7jsidA5WweOP%26gizmo_id%3Dg-hRCqiqVlM%26ts%3D481329%26p%3Dgpp%26sig%3Dcfde0e084366ca0f68399a2d1c90a264edd1e873f793fa780a36a3f33ba750c5%26v%3D0"/>](https://chat.openai.com/g/g-hRCqiqVlM-tutor-me)
+  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Tutor Me" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-kM163oDkrVnm7jsidA5WweOP%26gizmo_id%3Dg-hRCqiqVlM%26ts%3D481328%26p%3Dgpp%26sig%3D64bb9bd4264a9293a1481d86fb3d143ed08be9538ee807e50f623b32e4853a0c%26v%3D0"/>](https://chat.openai.com/g/g-hRCqiqVlM-tutor-me)
   
   [**Tutor Me**](https://chat.openai.com/g/g-hRCqiqVlM-tutor-me) \
-  No.9 / 1M+ / ★ 4.5 (32469 Reviews)
+  No.5 / 1M+ / ★ 4.5 (32469 Reviews)
           
 
-  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Summarizer: PDF Book Article Web Text Code" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-EepVyw12XfLuBs2GljbAVevT%26gizmo_id%3Dg-uefFoRnpX%26ts%3D481329%26p%3Dgpp%26sig%3D453744f14554434e81cdfb4a657e3f448e26998496a0cf2cdce35a7298ff4572%26v%3D0"/>](https://chat.openai.com/g/g-uefFoRnpX-summarizer-pdf-book-article-web-text-code)
+  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Summarizer: PDF Book Article Web Text Code" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-EepVyw12XfLuBs2GljbAVevT%26gizmo_id%3Dg-uefFoRnpX%26ts%3D481328%26p%3Dgpp%26sig%3D68e7c8da9d869d27893e7055e59f30363ea8600236d539e824b0bc18fdf2a184%26v%3D0"/>](https://chat.openai.com/g/g-uefFoRnpX-summarizer-pdf-book-article-web-text-code)
   
   [**Summarizer: PDF Book Article Web Text Code**](https://chat.openai.com/g/g-uefFoRnpX-summarizer-pdf-book-article-web-text-code) \
-  No.10 / 600K+ / ★ 4.4 (13154 Reviews)
-          
-
-  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="GPT Chat Español" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-cIMYuCLzkelA0NXjZpX2yFcM%26gizmo_id%3Dg-1E7Z6Q2XF%26ts%3D481329%26p%3Dgpp%26sig%3D7f0aa2e7dab2c6f372180e064b3585a3acdb5ca69ff3d0f44bb04ff3543977c2%26v%3D0"/>](https://chat.openai.com/g/g-1E7Z6Q2XF-gpt-chat-espanol)
-  
-  [**GPT Chat Español**](https://chat.openai.com/g/g-1E7Z6Q2XF-gpt-chat-espanol) \
-  No.11 / 2M+ / ★ 4.3 (8403 Reviews)
+  No.6 / 600K+ / ★ 4.4 (13154 Reviews)
           
 
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Voxscript" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-ccghiJe5RWLLuLXhKPl3XugL%26gizmo_id%3Dg-g24EzkDta%26ts%3D481329%26p%3Dgpp%26sig%3D92dca72198162d6c7aed0184072ce90fd4f6ab3aec36ba850a761d0ffe1ad7b0%26v%3D0"/>](https://chat.openai.com/g/g-g24EzkDta-voxscript)
   
   [**Voxscript**](https://chat.openai.com/g/g-g24EzkDta-voxscript) \
-  No.12 / 500K+ / ★ 4.3 (7629 Reviews)
+  No.7 / 500K+ / ★ 4.3 (7629 Reviews)
           
 
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Law: Legal & Contract (not real lawyer)" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-coE7EvWovPfF5A1ENpPNUW8J%26gizmo_id%3Dg-My8UBHpJn%26ts%3D481329%26p%3Dgpp%26sig%3Dcf39d9b4ef264ac3a80a1bafbb5e59ebd94d1d39f2f9f48b794188306c492e07%26v%3D0"/>](https://chat.openai.com/g/g-My8UBHpJn-law-legal-contract-not-real-lawyer)
   
   [**Law: Legal & Contract (not real lawyer)**](https://chat.openai.com/g/g-My8UBHpJn-law-legal-contract-not-real-lawyer) \
-  No.13 / 500K+ / ★ 4.5 (7108 Reviews)
+  No.8 / 500K+ / ★ 4.5 (7108 Reviews)
           
 
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Diagrams: Flowcharts & Mindmaps" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-QGQeocDO8y4WYiXcIIUs90uT%26gizmo_id%3Dg-jBdvgesNC%26ts%3D481329%26p%3Dgpp%26sig%3Dd776a8d742ee22b5ef8d4cd6a8b8150dfbb823a91eb4fe5762702af1213660f0%26v%3D0"/>](https://chat.openai.com/g/g-jBdvgesNC-diagrams-flowcharts-mindmaps)
   
   [**Diagrams: Flowcharts & Mindmaps**](https://chat.openai.com/g/g-jBdvgesNC-diagrams-flowcharts-mindmaps) \
-  No.14 / 700K+ / ★ 3.9 (19266 Reviews)
+  No.9 / 700K+ / ★ 3.9 (19266 Reviews)
           
 
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Math Solver" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-tSZCMmjyqOBMHOnHPUxKQH8t%26gizmo_id%3Dg-9YeZz6m6k%26ts%3D481329%26p%3Dgpp%26sig%3D24f144cad1f8c1ea252ed23b29af710a9588df33d67522b07c52b4be0bdb97f3%26v%3D0"/>](https://chat.openai.com/g/g-9YeZz6m6k-math-solver)
   
   [**Math Solver**](https://chat.openai.com/g/g-9YeZz6m6k-math-solver) \
-  No.15 / 1M+ / ★ 4.2 (19865 Reviews)
+  No.10 / 1M+ / ★ 4.2 (19865 Reviews)
           
 
-  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="чат GPT" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-RXnZk5OWZlRNsV271LlNjuqJ%26gizmo_id%3Dg-mzFm1dKjW%26ts%3D481329%26p%3Dgpp%26sig%3D82560da35345ac482a71a05aa966a24ec8939b1a6169c7438f5d42adebd05f01%26v%3D0"/>](https://chat.openai.com/g/g-mzFm1dKjW-chat-gpt)
+  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="math" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-ecrTQMd13W0Mh3nQLDhqWW15%26gizmo_id%3Dg-WP1diWHRl%26ts%3D481329%26p%3Dgpp%26sig%3D7985501a0678fe9d6998e0f576edcd98b5e0ffb7d39ffb9d1cd63db88f578228%26v%3D0"/>](https://chat.openai.com/g/g-WP1diWHRl-math)
   
-  [**чат GPT**](https://chat.openai.com/g/g-mzFm1dKjW-chat-gpt) \
-  No.16 / 8M+ / ★ 4.2 (5887 Reviews)
+  [**math**](https://chat.openai.com/g/g-WP1diWHRl-math) \
+  No.11 / 700K+ / ★ 4.3 (13350 Reviews)
+          
+
+  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Music Maker AI🎵🎵🎵🎵" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-cQ6UGsHifxQn2lgeBZcMKY5n%26gizmo_id%3Dg-rLVq3NTrN%26ts%3D481329%26p%3Dgpp%26sig%3D538437fea6e979c8be91bbae95021e0ddd0281568a79adf63b0a21d6ee796b8f%26v%3D0"/>](https://chat.openai.com/g/g-rLVq3NTrN-music-maker-ai)
+  
+  [**Music Maker AI🎵🎵🎵🎵**](https://chat.openai.com/g/g-rLVq3NTrN-music-maker-ai) \
+  No.12 / 400K+ / ★ 3.2 (275 Reviews)
+          
+
+  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Master Interview🚀" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-MyrkOVa8hDfJkZgdTGJuMAwx%26gizmo_id%3Dg-OhCVT2jDy%26ts%3D481329%26p%3Dgpp%26sig%3De641f68919955ff3692072f719475a4a4828ffdfcc55466012851427464793b8%26v%3D0"/>](https://chat.openai.com/g/g-OhCVT2jDy-master-interview)
+  
+  [**Master Interview🚀**](https://chat.openai.com/g/g-OhCVT2jDy-master-interview) \
+  No.13 / 200K+ / ★ 4.5 (3034 Reviews)
+          
+
+  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Machine Learning" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-79w3XiRGkbTiECoVNmkLzcKV%26gizmo_id%3Dg-TfiZbdLM0%26ts%3D481329%26p%3Dgpp%26sig%3D5859223140233cd9321e9dd2fe3c81ad31f3cd84c6f8248648d1e926192d7a6a%26v%3D0"/>](https://chat.openai.com/g/g-TfiZbdLM0-machine-learning)
+  
+  [**Machine Learning**](https://chat.openai.com/g/g-TfiZbdLM0-machine-learning) \
+  No.14 / 200K+ / ★ 4.3 (4644 Reviews)
+          
+
+  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Speak AI: English Conversation Practice&Writing" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-848DaBBiUllDNLZA5hhh0750%26gizmo_id%3Dg-BF1F5RjkJ%26ts%3D481329%26p%3Dgpp%26sig%3D664664d16a5519a845c028e434a9b0cfca941019bbd35307b3caa13dc7c85206%26v%3D0"/>](https://chat.openai.com/g/g-BF1F5RjkJ-speak-ai-english-conversation-practice-writing)
+  
+  [**Speak AI: English Conversation Practice&Writing**](https://chat.openai.com/g/g-BF1F5RjkJ-speak-ai-english-conversation-practice-writing) \
+  No.15 / 400K+ / ★ 4.5 (452 Reviews)
+          
+
+  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Prompt Professor" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-MsXTgHdeT8NqXvoz3yFp1DsA%26gizmo_id%3Dg-qfoOICq1l%26ts%3D481329%26p%3Dgpp%26sig%3D4aad9f29f720eaf792e9c54b1af67634141fc35810f6a83921bbf5bc1cf8e941%26v%3D0"/>](https://chat.openai.com/g/g-qfoOICq1l-prompt-professor)
+  
+  [**Prompt Professor**](https://chat.openai.com/g/g-qfoOICq1l-prompt-professor) \
+  No.16 / 200K+ / ★ 4.4 (2804 Reviews)
           
   
   ## Lifestyle
@@ -731,34 +701,34 @@
   No.10 / 300K+ / ★ 4.4 (4166 Reviews)
           
 
-  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Chinese BaZi Fortune Teller (参天AI算命)" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-1LDRTEnOXaqaPYOmnMYcImok%26gizmo_id%3Dg-ZcHiHNtc5%26ts%3D481329%26p%3Dgpp%26sig%3D5c355019eddfe551075cc3e29237c710bba534a7b62ef1117c6915a3a75506ce%26v%3D0"/>](https://chat.openai.com/g/g-ZcHiHNtc5-chinese-bazi-fortune-teller-can-tian-aisuan-ming)
-  
-  [**Chinese BaZi Fortune Teller (参天AI算命)**](https://chat.openai.com/g/g-ZcHiHNtc5-chinese-bazi-fortune-teller-can-tian-aisuan-ming) \
-  No.11 / 100K+ / ★ 4.4 (1964 Reviews)
-          
-
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="PlaylistAI - Music Playlist Maker" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-W59PXnljpwgUVySbqiitC3mP%26gizmo_id%3Dg-KkxbQAVuk%26ts%3D481329%26p%3Dgpp%26sig%3D74ed76ef054e381ed712cb2edc0124ee51782ae2f263f9f96718d9fd26a3d395%26v%3D0"/>](https://chat.openai.com/g/g-KkxbQAVuk-playlistai-music-playlist-maker)
   
   [**PlaylistAI - Music Playlist Maker**](https://chat.openai.com/g/g-KkxbQAVuk-playlistai-music-playlist-maker) \
-  No.12 / 50K+ / ★ 3.9 (1909 Reviews)
+  No.11 / 50K+ / ★ 3.9 (1909 Reviews)
           
 
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Find My Celebrity Look Alike" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-O4j7uYjyZydQzNEQgOpzTp0N%26gizmo_id%3Dg-BGVU2wjKi%26ts%3D481329%26p%3Dgpp%26sig%3D937bb0deacfd2f763bb6a576bc8cf6c32021f2e2b4f69225a5b0c487d3d5b61a%26v%3D0"/>](https://chat.openai.com/g/g-BGVU2wjKi-find-my-celebrity-look-alike)
   
   [**Find My Celebrity Look Alike**](https://chat.openai.com/g/g-BGVU2wjKi-find-my-celebrity-look-alike) \
-  No.13 / 1M+ / ★ 3.6 (991 Reviews)
+  No.12 / 1M+ / ★ 3.6 (991 Reviews)
           
 
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Personal Color Analysis" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-oyHQXVI87NFrj3PyI8LPsdsh%26gizmo_id%3Dg-35kDoPvW7%26ts%3D481329%26p%3Dgpp%26sig%3D32545f3cf356a6e1f9472665a46238bc443962d055cbd1f8d18d41e6d1c3f532%26v%3D0"/>](https://chat.openai.com/g/g-35kDoPvW7-personal-color-analysis)
   
   [**Personal Color Analysis**](https://chat.openai.com/g/g-35kDoPvW7-personal-color-analysis) \
-  No.14 / 100K+ / ★ 4.4 (3012 Reviews)
+  No.13 / 100K+ / ★ 4.4 (3012 Reviews)
           
 
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="SONG MAKER - AI MUSIC CREATOR - SONG GENERATOR" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-jykanM0WMmAWgMdoYHwbs5W2%26gizmo_id%3Dg-BZGmBbhgh%26ts%3D481329%26p%3Dgpp%26sig%3D251e62c58bb1ac2e1efb4684900518b8550363dd0040b778ac1124c0ceb74f35%26v%3D0"/>](https://chat.openai.com/g/g-BZGmBbhgh-song-maker-ai-music-creator-song-generator)
   
   [**SONG MAKER - AI MUSIC CREATOR - SONG GENERATOR**](https://chat.openai.com/g/g-BZGmBbhgh-song-maker-ai-music-creator-song-generator) \
-  No.15 / 10K+ / ★ 4.1 (167 Reviews)
+  No.14 / 10K+ / ★ 4.1 (167 Reviews)
+          
+
+  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Relationship Coach" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Fcontent%3Fid%3Dfile-t9RBXqBVc4Tyk6IK9c3sOTsP%26gizmo_id%3Dg-w1AlrEucq%26ts%3D481329%26p%3Dgpp%26sig%3Db9a1f6874112c0e114049f722b79f3ca84979df457428e85fcdbd38bf3257474%26v%3D0"/>](https://chat.openai.com/g/g-w1AlrEucq-relationship-coach)
+  
+  [**Relationship Coach**](https://chat.openai.com/g/g-w1AlrEucq-relationship-coach) \
+  No.15 / 25K+ / ★ 4.3 (867 Reviews)
           
   
   ## Programming
@@ -861,5 +831,3 @@
   [**Unreal Engine 5 Expert**](https://chat.openai.com/g/g-f52QYAJK1-unreal-engine-5-expert) \
   No.16 / 100K+ / ★ 4.2 (1624 Reviews)
           
-  
-        
