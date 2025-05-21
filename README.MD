@@ -3,7 +3,7 @@
   This project daily scrapes and archives data from the official GPT Store. If you have other data requirements, please open an issue.
 
   <p align="center">
-    <a target="_blank" href="https://302.ai/?ref=gptshunter&block=github">
+    <a target="_blank" href="https://share.302.ai/oEmLPK?ref=gptshunter&block=github">
       <img alt="302.ai" src="https://assets.gptshunt.com/github-1500%C3%97400-en.jpg">
     </a>
   </p>
