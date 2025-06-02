@@ -1,0 +1,1324 @@
+[
+  {
+    "id": "featured_store",
+    "list": [
+      {
+        "index": 1,
+        "name": "SciSpace",
+        "id": "g-NgAcklHd8",
+        "short_url": "g-NgAcklHd8-scispace",
+        "chats": null
+      },
+      {
+        "index": 2,
+        "name": "Wolfram",
+        "id": "g-0S5FXLyFN",
+        "short_url": "g-0S5FXLyFN-wolfram",
+        "chats": "3M+",
+        "review_count": 46690,
+        "review_total": 195699,
+        "review_average": "4.2"
+      },
+      {
+        "index": 3,
+        "name": "Video GPT by VEED - Instant & Free AI Video Maker",
+        "id": "g-Hkqnd7mFT",
+        "short_url": "g-Hkqnd7mFT-video-gpt-by-veed-instant-free-ai-video-maker",
+        "chats": null
+      },
+      {
+        "index": 4,
+        "name": "Canva",
+        "id": "g-alKfVrz9K",
+        "short_url": "g-alKfVrz9K-canva",
+        "chats": "16M+",
+        "review_count": 198605,
+        "review_total": 682558,
+        "review_average": "3.4"
+      }
+    ]
+  },
+  {
+    "id": "trending",
+    "list": [
+      {
+        "index": 1,
+        "name": "Humanize AI",
+        "id": "g-a6Fpz8NRb",
+        "short_url": "g-a6Fpz8NRb-humanize-ai",
+        "chats": "5M+",
+        "review_count": 59747,
+        "review_total": 243919,
+        "review_average": "4.1"
+      },
+      {
+        "index": 2,
+        "name": "Scholar GPT",
+        "id": "g-kZ0eYXlJe",
+        "short_url": "g-kZ0eYXlJe-scholar-gpt",
+        "chats": "21M+",
+        "review_count": 116044,
+        "review_total": 497313,
+        "review_average": "4.3"
+      },
+      {
+        "index": 3,
+        "name": "Fitness, Workout & Diet - PhD Coach",
+        "id": "g-ipOIcM229",
+        "short_url": "g-ipOIcM229-fitness-workout-diet-phd-coach",
+        "chats": "2M+",
+        "review_count": 47653,
+        "review_total": 219322,
+        "review_average": "4.6"
+      },
+      {
+        "index": 4,
+        "name": "Consensus",
+        "id": "g-bo0FiWLY7",
+        "short_url": "g-bo0FiWLY7-consensus",
+        "chats": null
+      },
+      {
+        "index": 5,
+        "name": "챗",
+        "id": "g-FvT4UOsoA",
+        "short_url": "g-FvT4UOsoA-caes",
+        "chats": "29M+",
+        "review_count": 103658,
+        "review_total": 434703,
+        "review_average": "4.2"
+      },
+      {
+        "index": 6,
+        "name": "Canva",
+        "id": "g-alKfVrz9K",
+        "short_url": "g-alKfVrz9K-canva",
+        "chats": "16M+",
+        "review_count": 198605,
+        "review_total": 682558,
+        "review_average": "3.4"
+      },
+      {
+        "index": 7,
+        "name": "Logo Creator",
+        "id": "g-gFt1ghYJl",
+        "short_url": "g-gFt1ghYJl-logo-creator",
+        "chats": "9M+",
+        "review_count": 100680,
+        "review_total": 342628,
+        "review_average": "3.4"
+      },
+      {
+        "index": 8,
+        "name": "image generator",
+        "id": "g-pmuQfob8d",
+        "short_url": "g-pmuQfob8d-image-generator",
+        "chats": null
+      },
+      {
+        "index": 9,
+        "name": "AI Humanizer",
+        "id": "g-2azCVmXdy",
+        "short_url": "g-2azCVmXdy-ai-humanizer",
+        "chats": "7M+",
+        "review_count": 28652,
+        "review_total": 116507,
+        "review_average": "4.1"
+      },
+      {
+        "index": 10,
+        "name": "Video AI",
+        "id": "g-h8l4uLHFQ",
+        "short_url": "g-h8l4uLHFQ-video-ai",
+        "chats": null
+      },
+      {
+        "index": 11,
+        "name": "Python",
+        "id": "g-cKXjWStaE",
+        "short_url": "g-cKXjWStaE-python",
+        "chats": null
+      },
+      {
+        "index": 12,
+        "name": "Video GPT by VEED - Instant & Free AI Video Maker",
+        "id": "g-Hkqnd7mFT",
+        "short_url": "g-Hkqnd7mFT-video-gpt-by-veed-instant-free-ai-video-maker",
+        "chats": null
+      },
+      {
+        "index": 13,
+        "name": "Therapist/Psychologist-Fictional. Not-real therapy",
+        "id": "g-FGhasb1tZ",
+        "short_url": "g-FGhasb1tZ-therapist-psychologist-fictional-not-real-therapy",
+        "chats": "2M+",
+        "review_count": 48156,
+        "review_total": 221436,
+        "review_average": "4.6"
+      },
+      {
+        "index": 14,
+        "name": "Code Copilot",
+        "id": "g-2DQzU5UZl",
+        "short_url": "g-2DQzU5UZl-code-copilot",
+        "chats": "8M+",
+        "review_count": 25859,
+        "review_total": 106564,
+        "review_average": "4.1"
+      },
+      {
+        "index": 15,
+        "name": "image generator pro",
+        "id": "g-8m2CPAfeF",
+        "short_url": "g-8m2CPAfeF-image-generator-pro",
+        "chats": "6M+",
+        "review_count": 50742,
+        "review_total": 179707,
+        "review_average": "3.5"
+      },
+      {
+        "index": 16,
+        "name": "SciSpace",
+        "id": "g-NgAcklHd8",
+        "short_url": "g-NgAcklHd8-scispace",
+        "chats": null
+      }
+    ]
+  },
+  {
+    "id": "featured",
+    "list": [
+      {
+        "index": 1,
+        "name": "Monday",
+        "id": "g-67edab4a24fc8191b975acaa8da2dcef",
+        "short_url": "g-67edab4a24fc8191b975acaa8da2dcef-monday",
+        "chats": null
+      },
+      {
+        "index": 2,
+        "name": "DALL·E",
+        "id": "g-2fkFE8rbu",
+        "short_url": "g-2fkFE8rbu-dall-e",
+        "chats": null
+      },
+      {
+        "index": 3,
+        "name": "Data Analyst",
+        "id": "g-HMNcP6w7d",
+        "short_url": "g-HMNcP6w7d-data-analyst",
+        "chats": null
+      },
+      {
+        "index": 4,
+        "name": "Hot Mods",
+        "id": "g-fTA4FQ7wj",
+        "short_url": "g-fTA4FQ7wj-hot-mods",
+        "chats": null
+      },
+      {
+        "index": 5,
+        "name": "Creative Writing Coach",
+        "id": "g-lN1gKFnvL",
+        "short_url": "g-lN1gKFnvL-creative-writing-coach",
+        "chats": null
+      },
+      {
+        "index": 6,
+        "name": "Coloring Book Hero",
+        "id": "g-DerYxX7rA",
+        "short_url": "g-DerYxX7rA-coloring-book-hero",
+        "chats": null
+      },
+      {
+        "index": 7,
+        "name": "ChatGPT Classic",
+        "id": "g-YyyyMT9XH",
+        "short_url": "g-YyyyMT9XH-chatgpt-classic",
+        "chats": null
+      },
+      {
+        "index": 8,
+        "name": "Web Browser",
+        "id": "g-3w1rEXGE0",
+        "short_url": "g-3w1rEXGE0-web-browser",
+        "chats": null
+      },
+      {
+        "index": 9,
+        "name": "Game Time",
+        "id": "g-Sug6mXozT",
+        "short_url": "g-Sug6mXozT-game-time",
+        "chats": null
+      },
+      {
+        "index": 10,
+        "name": "The Negotiator",
+        "id": "g-TTTAK9GuS",
+        "short_url": "g-TTTAK9GuS-the-negotiator",
+        "chats": null
+      },
+      {
+        "index": 11,
+        "name": "Cosmic Dream",
+        "id": "g-FdMHL1sNo",
+        "short_url": "g-FdMHL1sNo-cosmic-dream",
+        "chats": null
+      },
+      {
+        "index": 12,
+        "name": "Tech Support Advisor",
+        "id": "g-WKIaLGGem",
+        "short_url": "g-WKIaLGGem-tech-support-advisor",
+        "chats": null
+      },
+      {
+        "index": 13,
+        "name": "Laundry Buddy",
+        "id": "g-QrGDSn90Q",
+        "short_url": "g-QrGDSn90Q-laundry-buddy",
+        "chats": null
+      },
+      {
+        "index": 14,
+        "name": "Sous Chef",
+        "id": "g-3VrgJ1GpH",
+        "short_url": "g-3VrgJ1GpH-sous-chef",
+        "chats": null
+      },
+      {
+        "index": 15,
+        "name": "Math Mentor",
+        "id": "g-ENhijiiwK",
+        "short_url": "g-ENhijiiwK-math-mentor",
+        "chats": null
+      },
+      {
+        "index": 16,
+        "name": "Mocktail Mixologist",
+        "id": "g-PXlrhc1MV",
+        "short_url": "g-PXlrhc1MV-mocktail-mixologist",
+        "chats": null
+      }
+    ]
+  },
+  {
+    "id": "dalle",
+    "list": [
+      {
+        "index": 1,
+        "name": "Glibatree Art Designer",
+        "id": "g-7CKojumSX",
+        "short_url": "g-7CKojumSX-glibatree-art-designer",
+        "chats": null
+      },
+      {
+        "index": 2,
+        "name": "AI 그림 그리기 - 이미지 복원 / 통합 / 편집 / 스타일 변경",
+        "id": "g-apTaTPT9v",
+        "short_url": "g-apTaTPT9v-ai-geurim-geurigi-imiji-bogweon-tonghab-pyeonjib-seutail-byeongyeong",
+        "chats": null
+      },
+      {
+        "index": 3,
+        "name": "MIDJOURNEY | v7.0 | RAW",
+        "id": "g-Auns8wEIi",
+        "short_url": "g-Auns8wEIi-midjourney-v7-0-raw",
+        "chats": "100K+",
+        "review_count": 3837,
+        "review_total": 17030,
+        "review_average": "4.4"
+      },
+      {
+        "index": 4,
+        "name": "Graphic Designer",
+        "id": "g-lPeUc0axE",
+        "short_url": "g-lPeUc0axE-graphic-designer",
+        "chats": null
+      },
+      {
+        "index": 5,
+        "name": "Sora Video Prompter",
+        "id": "g-675bffa6a7508191baca3c68cd204068",
+        "short_url": "g-675bffa6a7508191baca3c68cd204068-sora-video-prompter",
+        "chats": null
+      },
+      {
+        "index": 6,
+        "name": "Headshot Pro",
+        "id": "g-yoiVlMv3g",
+        "short_url": "g-yoiVlMv3g-headshot-pro",
+        "chats": "100K+",
+        "review_count": 2011,
+        "review_total": 4747,
+        "review_average": "2.4"
+      },
+      {
+        "index": 7,
+        "name": "Generador de Imágenes",
+        "id": "g-tvADFu1PW",
+        "short_url": "g-tvADFu1PW-generador-de-imagenes",
+        "chats": "1M+",
+        "review_count": 2859,
+        "review_total": 9884,
+        "review_average": "3.5"
+      },
+      {
+        "index": 8,
+        "name": "Action Figure Generator",
+        "id": "g-67e78f0ad59481919afba9a6b28d6724",
+        "short_url": "g-67e78f0ad59481919afba9a6b28d6724-action-figure-generator",
+        "chats": "100K+",
+        "review_count": 435,
+        "review_total": 1562,
+        "review_average": "3.6"
+      },
+      {
+        "index": 9,
+        "name": "Animation Creation",
+        "id": "g-mMk82EkTz",
+        "short_url": "g-mMk82EkTz-animation-creation",
+        "chats": "100K+",
+        "review_count": 2035,
+        "review_total": 7863,
+        "review_average": "3.9"
+      },
+      {
+        "index": 10,
+        "name": "画像生成",
+        "id": "g-D0oLp5LQu",
+        "short_url": "g-D0oLp5LQu-hua-xiang-sheng-cheng",
+        "chats": null
+      },
+      {
+        "index": 11,
+        "name": "Bilder erstellen",
+        "id": "g-RfZM7NUri",
+        "short_url": "g-RfZM7NUri-bilder-erstellen",
+        "chats": "400K+",
+        "review_count": 2584,
+        "review_total": 8519,
+        "review_average": "3.3"
+      },
+      {
+        "index": 12,
+        "name": "Architecture AI",
+        "id": "g-40KJLGAgH",
+        "short_url": "g-40KJLGAgH-architecture-ai",
+        "chats": "100K+",
+        "review_count": 3509,
+        "review_total": 11452,
+        "review_average": "3.3"
+      },
+      {
+        "index": 13,
+        "name": "LOGO",
+        "id": "g-pCq5xaCri",
+        "short_url": "g-pCq5xaCri-logo",
+        "chats": "900K+",
+        "review_count": 38076,
+        "review_total": 125024,
+        "review_average": "3.3"
+      },
+      {
+        "index": 14,
+        "name": "SORA Prompter",
+        "id": "g-67582a4049948191b544bb453841a5d1",
+        "short_url": "g-67582a4049948191b544bb453841a5d1-sora-prompter",
+        "chats": "25K+",
+        "review_count": 457,
+        "review_total": 1940,
+        "review_average": "4.2"
+      },
+      {
+        "index": 15,
+        "name": "image generator",
+        "id": "g-pmuQfob8d",
+        "short_url": "g-pmuQfob8d-image-generator",
+        "chats": null
+      },
+      {
+        "index": 16,
+        "name": "ロMidjourneyロ -- MJ Prompt Generator (V6)",
+        "id": "g-tc0eHXdgb",
+        "short_url": "g-tc0eHXdgb-romidjourneyro-mj-prompt-generator-v6",
+        "chats": "1M+",
+        "review_count": 14058,
+        "review_total": 62159,
+        "review_average": "4.4"
+      }
+    ]
+  },
+  {
+    "id": "writing",
+    "list": [
+      {
+        "index": 1,
+        "name": "Undetectable AI Humanizer",
+        "id": "g-aWz3pQroP",
+        "short_url": "g-aWz3pQroP-undetectable-ai-humanizer",
+        "chats": null
+      },
+      {
+        "index": 2,
+        "name": "Cover Letter",
+        "id": "g-tb2UpZTEH",
+        "short_url": "g-tb2UpZTEH-cover-letter",
+        "chats": "500K+",
+        "review_count": 8061,
+        "review_total": 34105,
+        "review_average": "4.2"
+      },
+      {
+        "index": 3,
+        "name": "CV Writer - the CV Expert",
+        "id": "g-cStsvQbjd",
+        "short_url": "g-cStsvQbjd-cv-writer-the-cv-expert",
+        "chats": "1M+",
+        "review_count": 23132,
+        "review_total": 95836,
+        "review_average": "4.1"
+      },
+      {
+        "index": 4,
+        "name": "AI Humanizer Pro",
+        "id": "g-TiS7zU3kO",
+        "short_url": "g-TiS7zU3kO-ai-humanizer-pro",
+        "chats": "1M+",
+        "review_count": 23660,
+        "review_total": 91705,
+        "review_average": "3.9"
+      },
+      {
+        "index": 5,
+        "name": "Copywriter GPT - Marketing, Branding, Ads",
+        "id": "g-Ji2QOyMml",
+        "short_url": "g-Ji2QOyMml-copywriter-gpt-marketing-branding-ads",
+        "chats": "2M+",
+        "review_count": 45169,
+        "review_total": 191237,
+        "review_average": "4.2"
+      },
+      {
+        "index": 6,
+        "name": "Humanize AI",
+        "id": "g-a6Fpz8NRb",
+        "short_url": "g-a6Fpz8NRb-humanize-ai",
+        "chats": "5M+",
+        "review_count": 59747,
+        "review_total": 243919,
+        "review_average": "4.1"
+      },
+      {
+        "index": 7,
+        "name": "Viral Linkedin Post Formatter",
+        "id": "g-hYB5bT7ZL",
+        "short_url": "g-hYB5bT7ZL-viral-linkedin-post-formatter",
+        "chats": "500K+",
+        "review_count": 6397,
+        "review_total": 27287,
+        "review_average": "4.3"
+      },
+      {
+        "index": 8,
+        "name": "Essay Writer & Humanizer",
+        "id": "g-OHtksi5YI",
+        "short_url": "g-OHtksi5YI-essay-writer-humanizer",
+        "chats": "300K+",
+        "review_count": 7692,
+        "review_total": 32404,
+        "review_average": "4.2"
+      },
+      {
+        "index": 9,
+        "name": "Legal & Contracts (Lawyer-Backed/Not Legal Advice)",
+        "id": "g-odWlfAKWM",
+        "short_url": "g-odWlfAKWM-legal-contracts-lawyer-backed-not-legal-advice",
+        "chats": "2M+",
+        "review_count": 41092,
+        "review_total": 174222,
+        "review_average": "4.2"
+      },
+      {
+        "index": 10,
+        "name": "Writing Assistant",
+        "id": "g-Z7GlWKlJx",
+        "short_url": "g-Z7GlWKlJx-writing-assistant",
+        "chats": null
+      },
+      {
+        "index": 11,
+        "name": "Translate GPT",
+        "id": "g-5bNPpaVZy",
+        "short_url": "g-5bNPpaVZy-translate-gpt",
+        "chats": null
+      },
+      {
+        "index": 12,
+        "name": "Unbound Limitless Story Writer",
+        "id": "g-Jqzg9kcR8",
+        "short_url": "g-Jqzg9kcR8-unbound-limitless-story-writer",
+        "chats": "1M+",
+        "review_count": 5773,
+        "review_total": 25811,
+        "review_average": "4.5"
+      },
+      {
+        "index": 13,
+        "name": "ChatPRD - AI for Product Managers",
+        "id": "g-G5diVh12v",
+        "short_url": "g-G5diVh12v-chatprd-ai-for-product-managers",
+        "chats": "300K+",
+        "review_count": 5608,
+        "review_total": 25242,
+        "review_average": "4.5"
+      },
+      {
+        "index": 14,
+        "name": "AI Humanizer",
+        "id": "g-2azCVmXdy",
+        "short_url": "g-2azCVmXdy-ai-humanizer",
+        "chats": "7M+",
+        "review_count": 28652,
+        "review_total": 116507,
+        "review_average": "4.1"
+      },
+      {
+        "index": 15,
+        "name": "Write For Me",
+        "id": "g-B3hgivKK9",
+        "short_url": "g-B3hgivKK9-write-for-me",
+        "chats": null
+      },
+      {
+        "index": 16,
+        "name": "Video Summarizer ✏️ Video Summary Summarize Video",
+        "id": "g-GvcYCKPIH",
+        "short_url": "g-GvcYCKPIH-video-summarizer-video-summary-summarize-video",
+        "chats": "2M+",
+        "review_count": 30959,
+        "review_total": 137814,
+        "review_average": "4.5"
+      }
+    ]
+  },
+  {
+    "id": "productivity",
+    "list": [
+      {
+        "index": 1,
+        "name": "Diagrams: Flowcharts & Mindmaps",
+        "id": "g-jBdvgesNC",
+        "short_url": "g-jBdvgesNC-diagrams-flowcharts-mindmaps",
+        "chats": null
+      },
+      {
+        "index": 2,
+        "name": "Presentation",
+        "id": "g-67e3c5d494a4819181f8bab64ba35a57",
+        "short_url": "g-67e3c5d494a4819181f8bab64ba35a57-presentation",
+        "chats": null
+      },
+      {
+        "index": 3,
+        "name": "Presentation & Diagram Generator by <ShowMe>",
+        "id": "g-5QhhdsfDj",
+        "short_url": "g-5QhhdsfDj-presentation-diagram-generator-by-showme",
+        "chats": null
+      },
+      {
+        "index": 4,
+        "name": "Resume",
+        "id": "g-MrgKnTZbc",
+        "short_url": "g-MrgKnTZbc-resume",
+        "chats": "2M+",
+        "review_count": 59835,
+        "review_total": 266420,
+        "review_average": "4.5"
+      },
+      {
+        "index": 5,
+        "name": "Video AI",
+        "id": "g-h8l4uLHFQ",
+        "short_url": "g-h8l4uLHFQ-video-ai",
+        "chats": null
+      },
+      {
+        "index": 6,
+        "name": "TurboScribe Transcription — Transcribe Audio/Video",
+        "id": "g-Mc1tBt7gp",
+        "short_url": "g-Mc1tBt7gp-turboscribe-transcription-transcribe-audio-video",
+        "chats": "600K+",
+        "review_count": 6700,
+        "review_total": 29350,
+        "review_average": "4.4"
+      },
+      {
+        "index": 7,
+        "name": "Slide Maker: PowerPoints, Presentations",
+        "id": "g-Vklr0BddT",
+        "short_url": "g-Vklr0BddT-slide-maker-powerpoints-presentations",
+        "chats": "1M+",
+        "review_count": 26271,
+        "review_total": 97482,
+        "review_average": "3.7"
+      },
+      {
+        "index": 8,
+        "name": "image generator pro",
+        "id": "g-8m2CPAfeF",
+        "short_url": "g-8m2CPAfeF-image-generator-pro",
+        "chats": "6M+",
+        "review_count": 50742,
+        "review_total": 179707,
+        "review_average": "3.5"
+      },
+      {
+        "index": 9,
+        "name": "CapCut VideoGPT",
+        "id": "g-Gpu8ZMR52",
+        "short_url": "g-Gpu8ZMR52-capcut-videogpt",
+        "chats": null
+      },
+      {
+        "index": 10,
+        "name": "PRESENTATION",
+        "id": "g-67c61d2a003c8191912eddaf8768dbe5",
+        "short_url": "g-67c61d2a003c8191912eddaf8768dbe5-presentation",
+        "chats": "200K+",
+        "review_count": 5359,
+        "review_total": 20193,
+        "review_average": "3.8"
+      },
+      {
+        "index": 11,
+        "name": "Canva",
+        "id": "g-alKfVrz9K",
+        "short_url": "g-alKfVrz9K-canva",
+        "chats": "16M+",
+        "review_count": 198605,
+        "review_total": 682558,
+        "review_average": "3.4"
+      },
+      {
+        "index": 12,
+        "name": "AI PDF Drive: Chat, Create, Organize",
+        "id": "g-V2KIUZSj0",
+        "short_url": "g-V2KIUZSj0-ai-pdf-drive-chat-create-organize",
+        "chats": null
+      },
+      {
+        "index": 13,
+        "name": "Photo Realistic Image and Video Generator",
+        "id": "g-KCgVk2Cjt",
+        "short_url": "g-KCgVk2Cjt-photo-realistic-image-and-video-generator",
+        "chats": null
+      },
+      {
+        "index": 14,
+        "name": "Social Media Manager|Content Creator Generator|AI",
+        "id": "g-Zo3fmsCJP",
+        "short_url": "g-Zo3fmsCJP-social-media-manager-content-creator-generator-ai",
+        "chats": "500K+",
+        "review_count": 7135,
+        "review_total": 30988,
+        "review_average": "4.3"
+      },
+      {
+        "index": 15,
+        "name": "Video GPT by VEED - Instant & Free AI Video Maker",
+        "id": "g-Hkqnd7mFT",
+        "short_url": "g-Hkqnd7mFT-video-gpt-by-veed-instant-free-ai-video-maker",
+        "chats": null
+      },
+      {
+        "index": 16,
+        "name": "Photo Realistic Image GPT",
+        "id": "g-q9wdIq7OQ",
+        "short_url": "g-q9wdIq7OQ-photo-realistic-image-gpt",
+        "chats": null
+      }
+    ]
+  },
+  {
+    "id": "research",
+    "list": [
+      {
+        "index": 1,
+        "name": "Scholar GPT",
+        "id": "g-kZ0eYXlJe",
+        "short_url": "g-kZ0eYXlJe-scholar-gpt",
+        "chats": "21M+",
+        "review_count": 116044,
+        "review_total": 497313,
+        "review_average": "4.3"
+      },
+      {
+        "index": 2,
+        "name": "Consensus",
+        "id": "g-bo0FiWLY7",
+        "short_url": "g-bo0FiWLY7-consensus",
+        "chats": null
+      },
+      {
+        "index": 3,
+        "name": "AI Content Detector",
+        "id": "g-NcgzdHmZc",
+        "short_url": "g-NcgzdHmZc-ai-content-detector",
+        "chats": null
+      },
+      {
+        "index": 4,
+        "name": "Accounting GPT",
+        "id": "g-7RJghLmOO",
+        "short_url": "g-7RJghLmOO-accounting-gpt",
+        "chats": null
+      },
+      {
+        "index": 5,
+        "name": "Finance & Economics - Stock, Crypto, Trade, Invest",
+        "id": "g-iR15hX15H",
+        "short_url": "g-iR15hX15H-finance-economics-stock-crypto-trade-invest",
+        "chats": null
+      },
+      {
+        "index": 6,
+        "name": "Wolfram",
+        "id": "g-0S5FXLyFN",
+        "short_url": "g-0S5FXLyFN-wolfram",
+        "chats": "3M+",
+        "review_count": 46690,
+        "review_total": 195699,
+        "review_average": "4.2"
+      },
+      {
+        "index": 7,
+        "name": "PDF Reader",
+        "id": "g-QSh6KHL3S",
+        "short_url": "g-QSh6KHL3S-pdf-reader",
+        "chats": null
+      },
+      {
+        "index": 8,
+        "name": "MARKETING",
+        "id": "g-DtjWjSDiv",
+        "short_url": "g-DtjWjSDiv-marketing",
+        "chats": "800K+",
+        "review_count": 15268,
+        "review_total": 66811,
+        "review_average": "4.4"
+      },
+      {
+        "index": 9,
+        "name": "SciSpace",
+        "id": "g-NgAcklHd8",
+        "short_url": "g-NgAcklHd8-scispace",
+        "chats": null
+      },
+      {
+        "index": 10,
+        "name": "YouTube Video Summarizer",
+        "id": "g-xYRkZh2Ba",
+        "short_url": "g-xYRkZh2Ba-youtube-video-summarizer",
+        "chats": null
+      },
+      {
+        "index": 11,
+        "name": "Marketing Research and Competitive Analysis",
+        "id": "g-O5mNWQGMa",
+        "short_url": "g-O5mNWQGMa-marketing-research-and-competitive-analysis",
+        "chats": "600K+",
+        "review_count": 16951,
+        "review_total": 74425,
+        "review_average": "4.4"
+      },
+      {
+        "index": 12,
+        "name": "GPT 4.5",
+        "id": "g-oYwnGsgub",
+        "short_url": "g-oYwnGsgub-gpt-4-5",
+        "chats": "900K+",
+        "review_count": 5128,
+        "review_total": 21649,
+        "review_average": "4.2"
+      },
+      {
+        "index": 13,
+        "name": "Scholar AI",
+        "id": "g-L2HknCZTC",
+        "short_url": "g-L2HknCZTC-scholar-ai",
+        "chats": null
+      },
+      {
+        "index": 14,
+        "name": "Stocks, Crypto, Options & Forex: Market Summary",
+        "id": "g-5wVuKfpEt",
+        "short_url": "g-5wVuKfpEt-stocks-crypto-options-forex-market-summary",
+        "chats": "400K+",
+        "review_count": 6084,
+        "review_total": 26288,
+        "review_average": "4.3"
+      },
+      {
+        "index": 15,
+        "name": "Paper Interpreter (Japanese)",
+        "id": "g-hxDOCBQrs",
+        "short_url": "g-hxDOCBQrs-paper-interpreter-japanese",
+        "chats": "400K+",
+        "review_count": 3923,
+        "review_total": 17247,
+        "review_average": "4.4"
+      }
+    ]
+  },
+  {
+    "id": "programming",
+    "list": [
+      {
+        "index": 1,
+        "name": "DesignerGPT",
+        "id": "g-2Eo3NxuS7",
+        "short_url": "g-2Eo3NxuS7-designergpt",
+        "chats": "1M+",
+        "review_count": 19978,
+        "review_total": 74781,
+        "review_average": "3.7"
+      },
+      {
+        "index": 2,
+        "name": "Website Generator",
+        "id": "g-iYSeH3EAI",
+        "short_url": "g-iYSeH3EAI-website-generator",
+        "chats": "3M+",
+        "review_count": 55526,
+        "review_total": 225325,
+        "review_average": "4.1"
+      },
+      {
+        "index": 3,
+        "name": "Ethical Hacker GPT",
+        "id": "g-j4PQ2hyqn",
+        "short_url": "g-j4PQ2hyqn-ethical-hacker-gpt",
+        "chats": "300K+",
+        "review_count": 1336,
+        "review_total": 5897,
+        "review_average": "4.4"
+      },
+      {
+        "index": 4,
+        "name": "Grimoire",
+        "id": "g-n7Rs0IK86",
+        "short_url": "g-n7Rs0IK86-grimoire",
+        "chats": "3M+",
+        "review_count": 35627,
+        "review_total": 155109,
+        "review_average": "4.4"
+      },
+      {
+        "index": 5,
+        "name": "Laravel GPT",
+        "id": "g-XTOuIQ6Tz",
+        "short_url": "g-XTOuIQ6Tz-laravel-gpt",
+        "chats": "200K+",
+        "review_count": 2229,
+        "review_total": 9658,
+        "review_average": "4.3"
+      },
+      {
+        "index": 6,
+        "name": "R Wizard",
+        "id": "g-TgjKDuQwZ",
+        "short_url": "g-TgjKDuQwZ-r-wizard",
+        "chats": null
+      },
+      {
+        "index": 7,
+        "name": "Coding Code 👉🏼 Python Javascript React PHP SQL+",
+        "id": "g-xyrbbmlRT",
+        "short_url": "g-xyrbbmlRT-coding-code-python-javascript-react-php-sql",
+        "chats": null
+      },
+      {
+        "index": 8,
+        "name": "Unreal Engine 5 Expert",
+        "id": "g-f52QYAJK1",
+        "short_url": "g-f52QYAJK1-unreal-engine-5-expert",
+        "chats": "300K+",
+        "review_count": 2848,
+        "review_total": 12061,
+        "review_average": "4.2"
+      },
+      {
+        "index": 9,
+        "name": "Matlab Help",
+        "id": "g-w6u2v1z4A",
+        "short_url": "g-w6u2v1z4A-matlab-help",
+        "chats": "300K+",
+        "review_count": 5143,
+        "review_total": 21427,
+        "review_average": "4.2"
+      },
+      {
+        "index": 10,
+        "name": "Code",
+        "id": "g-k3IqoCe1l",
+        "short_url": "g-k3IqoCe1l-code",
+        "chats": null
+      },
+      {
+        "index": 11,
+        "name": "SQL Expert (QueryGPT)",
+        "id": "g-m5lMeGifF",
+        "short_url": "g-m5lMeGifF-sql-expert-querygpt",
+        "chats": "1M+",
+        "review_count": 19286,
+        "review_total": 84277,
+        "review_average": "4.4"
+      },
+      {
+        "index": 12,
+        "name": "Website Ai Designer",
+        "id": "g-rLwPjHrHR",
+        "short_url": "g-rLwPjHrHR-website-ai-designer",
+        "chats": null
+      },
+      {
+        "index": 13,
+        "name": "Python",
+        "id": "g-cKXjWStaE",
+        "short_url": "g-cKXjWStaE-python",
+        "chats": null
+      },
+      {
+        "index": 14,
+        "name": "HTML + CSS + Javascript",
+        "id": "g-JOJBoNrCa",
+        "short_url": "g-JOJBoNrCa-html-css-javascript",
+        "chats": null
+      },
+      {
+        "index": 15,
+        "name": "Code Copilot",
+        "id": "g-2DQzU5UZl",
+        "short_url": "g-2DQzU5UZl-code-copilot",
+        "chats": "8M+",
+        "review_count": 25859,
+        "review_total": 106564,
+        "review_average": "4.1"
+      },
+      {
+        "index": 16,
+        "name": "Software Architect GPT",
+        "id": "g-J0FYgDhN5",
+        "short_url": "g-J0FYgDhN5-software-architect-gpt",
+        "chats": null
+      }
+    ]
+  },
+  {
+    "id": "education",
+    "list": [
+      {
+        "index": 1,
+        "name": "Français GPT",
+        "id": "g-SSpQk25bS",
+        "short_url": "g-SSpQk25bS-francais-gpt",
+        "chats": "3M+",
+        "review_count": 6752,
+        "review_total": 28892,
+        "review_average": "4.3"
+      },
+      {
+        "index": 2,
+        "name": "Universal Primer",
+        "id": "g-GbLbctpPz",
+        "short_url": "g-GbLbctpPz-universal-primer",
+        "chats": "3M+",
+        "review_count": 50492,
+        "review_total": 230212,
+        "review_average": "4.6"
+      },
+      {
+        "index": 3,
+        "name": "Math Solver",
+        "id": "g-9YeZz6m6k",
+        "short_url": "g-9YeZz6m6k-math-solver",
+        "chats": "2M+",
+        "review_count": 28008,
+        "review_total": 117406,
+        "review_average": "4.2"
+      },
+      {
+        "index": 4,
+        "name": "Health & Medicine🔹Not Doctor/Not Medical Advice",
+        "id": "g-t3BUYjh4C",
+        "short_url": "g-t3BUYjh4C-health-medicinenot-doctor-not-medical-advice",
+        "chats": "500K+",
+        "review_count": 7378,
+        "review_total": 34000,
+        "review_average": "4.6"
+      },
+      {
+        "index": 5,
+        "name": "Interview & Resume/CV - Job & Career Coach 🔥",
+        "id": "g-MPzLx3VuB",
+        "short_url": "g-MPzLx3VuB-interview-resume-cv-job-career-coach",
+        "chats": "700K+",
+        "review_count": 4407,
+        "review_total": 19724,
+        "review_average": "4.5"
+      },
+      {
+        "index": 6,
+        "name": "チャット",
+        "id": "g-8sPlJ64Gn",
+        "short_url": "g-8sPlJ64Gn-tiyatuto",
+        "chats": null
+      },
+      {
+        "index": 7,
+        "name": "👌Academic Assistant Pro",
+        "id": "g-UubB08D4y",
+        "short_url": "g-UubB08D4y-academic-assistant-pro",
+        "chats": "1M+",
+        "review_count": 23542,
+        "review_total": 101543,
+        "review_average": "4.3"
+      },
+      {
+        "index": 8,
+        "name": "Tutor Me",
+        "id": "g-hRCqiqVlM",
+        "short_url": "g-hRCqiqVlM-tutor-me",
+        "chats": null
+      },
+      {
+        "index": 9,
+        "name": "Statistics Stats",
+        "id": "g-Q1LwuGocS",
+        "short_url": "g-Q1LwuGocS-statistics-stats",
+        "chats": "400K+",
+        "review_count": 7709,
+        "review_total": 33781,
+        "review_average": "4.4"
+      },
+      {
+        "index": 10,
+        "name": "Chat Português",
+        "id": "g-kr4mnJ5kT",
+        "short_url": "g-kr4mnJ5kT-chat-portugues",
+        "chats": "10M+",
+        "review_count": 9041,
+        "review_total": 38934,
+        "review_average": "4.3"
+      },
+      {
+        "index": 11,
+        "name": "Law & Contract🔹Disclaimer:not lawyer/legal advice",
+        "id": "g-My8UBHpJn",
+        "short_url": "g-My8UBHpJn-law-contractdisclaimer-not-lawyer-legal-advice",
+        "chats": "2M+",
+        "review_count": 13004,
+        "review_total": 58820,
+        "review_average": "4.5"
+      },
+      {
+        "index": 12,
+        "name": "physics",
+        "id": "g-KMujTLNVK",
+        "short_url": "g-KMujTLNVK-physics",
+        "chats": "400K+",
+        "review_count": 4134,
+        "review_total": 17569,
+        "review_average": "4.2"
+      },
+      {
+        "index": 13,
+        "name": "챗",
+        "id": "g-FvT4UOsoA",
+        "short_url": "g-FvT4UOsoA-caes",
+        "chats": "29M+",
+        "review_count": 103658,
+        "review_total": 434703,
+        "review_average": "4.2"
+      },
+      {
+        "index": 14,
+        "name": "AMBOSS Medical Knowledge",
+        "id": "g-Jv4qOKRF5",
+        "short_url": "g-Jv4qOKRF5-amboss-medical-knowledge",
+        "chats": "900K+",
+        "review_count": 3925,
+        "review_total": 17800,
+        "review_average": "4.5"
+      },
+      {
+        "index": 15,
+        "name": "Language Teacher | Ms. Smith",
+        "id": "g-RR3RCyK8N",
+        "short_url": "g-RR3RCyK8N-language-teacher-ms-smith",
+        "chats": null
+      },
+      {
+        "index": 16,
+        "name": "Voxscript",
+        "id": "g-g24EzkDta",
+        "short_url": "g-g24EzkDta-voxscript",
+        "chats": null
+      }
+    ]
+  },
+  {
+    "id": "lifestyle",
+    "list": [
+      {
+        "index": 1,
+        "name": "Looksmaxxing GPT",
+        "id": "g-7r4TPybMU",
+        "short_url": "g-7r4TPybMU-looksmaxxing-gpt",
+        "chats": "700K+",
+        "review_count": 2481,
+        "review_total": 10970,
+        "review_average": "4.4"
+      },
+      {
+        "index": 2,
+        "name": "Expedia",
+        "id": "g-rmdbtMF7a",
+        "short_url": "g-rmdbtMF7a-expedia",
+        "chats": "400K+",
+        "review_count": 4391,
+        "review_total": 16712,
+        "review_average": "3.8"
+      },
+      {
+        "index": 3,
+        "name": "Astrology Birth Chart GPT",
+        "id": "g-WxckXARTP",
+        "short_url": "g-WxckXARTP-astrology-birth-chart-gpt",
+        "chats": null
+      },
+      {
+        "index": 4,
+        "name": "운세박사 타로 - 무료 인공지능 AI 타로 리딩 챗GPT 궁합, 연애운, 사주, 전화 타로",
+        "id": "g-67a56d907fc88191814386dac67ed919",
+        "short_url": "g-67a56d907fc88191814386dac67ed919-unsebagsa-taro-muryo-ingongjineung-ai-taro-riding-caesgpt-gunghab-yeonaeun-saju-jeonhwa-taro",
+        "chats": "300K+",
+        "review_count": 1684,
+        "review_total": 7335,
+        "review_average": "4.4"
+      },
+      {
+        "index": 5,
+        "name": "Personal Color Analysis",
+        "id": "g-35kDoPvW7",
+        "short_url": "g-35kDoPvW7-personal-color-analysis",
+        "chats": "300K+",
+        "review_count": 5389,
+        "review_total": 23959,
+        "review_average": "4.4"
+      },
+      {
+        "index": 6,
+        "name": "Travel Guide",
+        "id": "g-E7eSRUHy6",
+        "short_url": "g-E7eSRUHy6-travel-guide",
+        "chats": "1M+",
+        "review_count": 25624,
+        "review_total": 113402,
+        "review_average": "4.4"
+      },
+      {
+        "index": 7,
+        "name": "Rizz GPT",
+        "id": "g-CsdwU23wt",
+        "short_url": "g-CsdwU23wt-rizz-gpt",
+        "chats": null
+      },
+      {
+        "index": 8,
+        "name": "Mia AI, your new best friend and life coach.",
+        "id": "g-l38NcMokB",
+        "short_url": "g-l38NcMokB-mia-ai-your-new-best-friend-and-life-coach",
+        "chats": "1M+",
+        "review_count": 18280,
+        "review_total": 83596,
+        "review_average": "4.6"
+      },
+      {
+        "index": 9,
+        "name": "LOGO",
+        "id": "g-9i7ARxKhj",
+        "short_url": "g-9i7ARxKhj-logo",
+        "chats": null
+      },
+      {
+        "index": 10,
+        "name": "Interior Design & Room Decoration",
+        "id": "g-TADmjoSDg",
+        "short_url": "g-TADmjoSDg-interior-design-room-decoration",
+        "chats": "400K+",
+        "review_count": 7299,
+        "review_total": 24756,
+        "review_average": "3.4"
+      },
+      {
+        "index": 11,
+        "name": "Mystic Tarot Reader",
+        "id": "g-8F8CR1D2b",
+        "short_url": "g-8F8CR1D2b-mystic-tarot-reader",
+        "chats": "800K+",
+        "review_count": 5755,
+        "review_total": 26646,
+        "review_average": "4.6"
+      },
+      {
+        "index": 12,
+        "name": "Find My Celebrity Look Alike",
+        "id": "g-BGVU2wjKi",
+        "short_url": "g-BGVU2wjKi-find-my-celebrity-look-alike",
+        "chats": null
+      },
+      {
+        "index": 13,
+        "name": "בעברית GPT צ'אט",
+        "id": "g-k2kWL8Qfk",
+        "short_url": "g-k2kWL8Qfk-b-bryt-gpt-ts-t",
+        "chats": "4M+",
+        "review_count": 4881,
+        "review_total": 20023,
+        "review_average": "4.1"
+      },
+      {
+        "index": 14,
+        "name": "운세박사 GPT - AI 사주 세계 1위 AI 사주팔자 신년운세 한국 Korean 명리학",
+        "id": "g-mHCPUrEvZ",
+        "short_url": "g-mHCPUrEvZ-unsebagsa-gpt-ai-saju-segye-1wi-ai-sajupalja-sinnyeonunse-hangug-korean-myeongrihag",
+        "chats": "700K+",
+        "review_count": 6310,
+        "review_total": 27893,
+        "review_average": "4.4"
+      },
+      {
+        "index": 15,
+        "name": "Fitness, Workout & Diet - PhD Coach",
+        "id": "g-ipOIcM229",
+        "short_url": "g-ipOIcM229-fitness-workout-diet-phd-coach",
+        "chats": "2M+",
+        "review_count": 47653,
+        "review_total": 219322,
+        "review_average": "4.6"
+      },
+      {
+        "index": 16,
+        "name": "사주팔자 명리학 -  (\"방문율 1위\" 운세, 사주, 궁합, 인생, 사업, 자녀, 길일)",
+        "id": "g-bOHE77cGN",
+        "short_url": "g-bOHE77cGN-sajupalja-myeongrihag-bangmunyul-1wi-unse-saju-gunghab-insaeng-saeob-janyeo-gilil",
+        "chats": "1M+",
+        "review_count": 14181,
+        "review_total": 62480,
+        "review_average": "4.4"
+      }
+    ]
+  }
+]
