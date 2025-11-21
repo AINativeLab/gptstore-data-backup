@@ -1,0 +1,2728 @@
+{
+    "info": {
+        "id": "dalle",
+        "title": "DALL·E",
+        "description": "Transform your ideas into amazing images",
+        "display_type": "ranked",
+        "display_group": "DALL·E",
+        "locale": "global"
+    },
+    "list": {
+        "items": [
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-mMk82EkTz",
+                        "organization_id": "org-YMRmzDrAVItdIYm1vECb7FCk",
+                        "short_url": "g-mMk82EkTz-animation-creation",
+                        "author": {
+                            "user_id": "user-5Vn4DssEN0QhfIOmUE6A87eL",
+                            "user_email": null,
+                            "display_name": "mindrenders.com",
+                            "link_to": "https://mindrenders.com",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": null,
+                        "instructions": null,
+                        "display": {
+                            "name": "Animation Creation",
+                            "description": "Create animated scenes and characters that resemble a 3D animated movie.",
+                            "prompt_starters": [
+                                "A smiling blue troll",
+                                "A young girl with glasses chasing her kitten",
+                                "Surprise me!",
+                                "More examples ❤"
+                            ],
+                            "profile_pic_id": "file-TQIYoxz3esetHhR21vgmdxIL",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-TQIYoxz3esetHhR21vgmdxIL&gizmo_id=g-mMk82EkTz&ts=489921&p=gpp&cid=1&sig=67640f7793680527ea68f287b000a2d48375fb3125864da302fdd553bdb59dec&v=0",
+                            "categories": [
+                                "dalle"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-10T23:07:43.181790+00:00",
+                        "updated_at": "2025-11-21T09:28:06.517470+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2023-11-18T16:56:04.136663+00:00",
+                        "version_updated_at": "2025-05-19T12:19:18.644174+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_fbQzxNxCWnY231AkTwfxuPjV~gzm_tool_tHmb1QS85aCltRFaVXRMAPE1",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/x-powershell",
+                                "application/msword",
+                                "text/x-python",
+                                "text/x-tmpl",
+                                "text/x-erlang",
+                                "application/pdf",
+                                "text/x-script.python",
+                                "text/x-objectivec++",
+                                "text/x-mustache",
+                                "text/x-c++",
+                                "text/x-haskell",
+                                "application/vnd.oasis.opendocument.text",
+                                "text/x-vcard",
+                                "text/x-rst",
+                                "text/x-twig",
+                                "text/html",
+                                "text/x-swift",
+                                "application/x-rust",
+                                "application/vnd.ms-powerpoint",
+                                "text/vbscript",
+                                "text/x-elixir",
+                                "text/css",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-java",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-c",
+                                "text/x-handlebars",
+                                "text/x-pug",
+                                "text/x-sh",
+                                "text/x-groovy",
+                                "message/rfc822",
+                                "text/x-diff",
+                                "text/markdown",
+                                "text/x-erb",
+                                "application/vnd.apple.pages",
+                                "application/x-sql",
+                                "application/x-scala",
+                                "text/x-r",
+                                "text/x-perl",
+                                "text/x-ruby",
+                                "text/jsx",
+                                "text/x-asm",
+                                "text/x-astro",
+                                "text/x-csharp",
+                                "text/x-julia",
+                                "application/vnd.apple.keynote",
+                                "text/x-ejs",
+                                "text/x-makefile",
+                                "text/x-go",
+                                "text/xml",
+                                "application/x-yaml",
+                                "application/rtf",
+                                "text/x-scala",
+                                "text/x-lua",
+                                "text/x-objectivec",
+                                "text/x-jinja2",
+                                "application/toml",
+                                "text/x-lisp",
+                                "text/x-typescript",
+                                "application/json",
+                                "text/x-jade",
+                                "text/calendar",
+                                "text/x-dart",
+                                "text/plain",
+                                "text/tsx",
+                                "text/x-tex",
+                                "text/javascript",
+                                "text/x-rust",
+                                "text/rtf",
+                                "application/javascript",
+                                "text/x-shellscript",
+                                "text/x-php",
+                                "text/x-kotlin",
+                                "text/x-liquid",
+                                "text/x-clojure"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/jpeg",
+                                "image/png",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-D0oLp5LQu",
+                        "organization_id": "org-n1DRi8u7rbGbKl4J8XjoG0cU",
+                        "short_url": "g-D0oLp5LQu-hua-xiang-sheng-cheng",
+                        "author": {
+                            "user_id": "user-cFNMCfWg1I5XouQCkTjd1qn1",
+                            "user_email": null,
+                            "display_name": "IH EH",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": null,
+                        "instructions": null,
+                        "display": {
+                            "name": "画像生成",
+                            "description": "この画像ジェネレーターは、テキスト説明から画像を作成するために設計された高度なAIプログラムです。簡単なテキストを入力するだけで、クリエイティブなビジュアルを得ることができるので、アーティストやデザイナーなど、アイデアを視覚的に実現したい方に最適です。",
+                            "prompt_starters": [
+                                "作りたいイメージを書いてください。",
+                                "ユニークなイメージを共有する",
+                                "あなたの完璧なイメージは何ですか？",
+                                "イメージのアイデアの練り直しにお困りですか？"
+                            ],
+                            "profile_pic_id": "file-dZbFi6seTOvXqyd6fyPKgp2g",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-dZbFi6seTOvXqyd6fyPKgp2g&gizmo_id=g-D0oLp5LQu&ts=489921&p=gpp&cid=1&sig=9710be3f8cd412840474df1891ea33e6e692c836f0e07f18cfc874104811eadf&v=0",
+                            "categories": [
+                                "other"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-12-26T23:13:09.667358+00:00",
+                        "updated_at": "2025-11-21T09:29:20.709615+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2025-10-01T12:12:10.613080+00:00",
+                        "version_updated_at": "2025-10-01T12:12:19.018388+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_8hAj6zCjmq19NUZ7aaMTU3Ey~gzm_tool_E8apj5mpj7qm084m87oE5Bkp",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_8hAj6zCjmq19NUZ7aaMTU3Ey~gzm_tool_cnTzO11POHB7pqprSqQzRvEv",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "68dd1960e9a88191be5d42979e0d981c",
+                            "type": "canvas",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "68dd1960ea20819180bca78aa3f8d05e",
+                            "type": "image_gen",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "68dd1960ea648191a860558fe8ee6804",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/x-powershell",
+                                "application/msword",
+                                "text/x-python",
+                                "text/x-tmpl",
+                                "text/x-erlang",
+                                "application/pdf",
+                                "text/x-script.python",
+                                "text/x-objectivec++",
+                                "text/x-mustache",
+                                "text/x-c++",
+                                "text/x-haskell",
+                                "application/vnd.oasis.opendocument.text",
+                                "text/x-vcard",
+                                "text/x-rst",
+                                "text/x-twig",
+                                "text/html",
+                                "text/x-swift",
+                                "application/x-rust",
+                                "application/vnd.ms-powerpoint",
+                                "text/vbscript",
+                                "text/x-elixir",
+                                "text/css",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-java",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-c",
+                                "text/x-handlebars",
+                                "text/x-pug",
+                                "text/x-sh",
+                                "text/x-groovy",
+                                "message/rfc822",
+                                "text/x-diff",
+                                "text/markdown",
+                                "text/x-erb",
+                                "application/vnd.apple.pages",
+                                "application/x-sql",
+                                "application/x-scala",
+                                "text/x-r",
+                                "text/x-perl",
+                                "text/x-ruby",
+                                "text/jsx",
+                                "text/x-asm",
+                                "text/x-astro",
+                                "text/x-csharp",
+                                "text/x-julia",
+                                "application/vnd.apple.keynote",
+                                "text/x-ejs",
+                                "text/x-makefile",
+                                "text/x-go",
+                                "text/xml",
+                                "application/x-yaml",
+                                "application/rtf",
+                                "text/x-scala",
+                                "text/x-lua",
+                                "text/x-objectivec",
+                                "text/x-jinja2",
+                                "application/toml",
+                                "text/x-lisp",
+                                "text/x-typescript",
+                                "application/json",
+                                "text/x-jade",
+                                "text/calendar",
+                                "text/x-dart",
+                                "text/plain",
+                                "text/tsx",
+                                "text/x-tex",
+                                "text/javascript",
+                                "text/x-rust",
+                                "text/rtf",
+                                "application/javascript",
+                                "text/x-shellscript",
+                                "text/x-php",
+                                "text/x-kotlin",
+                                "text/x-liquid",
+                                "text/x-clojure"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/jpeg",
+                                "image/png",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-RfZM7NUri",
+                        "organization_id": "org-n1DRi8u7rbGbKl4J8XjoG0cU",
+                        "short_url": "g-RfZM7NUri-bilder-erstellen",
+                        "author": {
+                            "user_id": "user-cFNMCfWg1I5XouQCkTjd1qn1",
+                            "user_email": null,
+                            "display_name": "IH EH",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": null,
+                        "instructions": null,
+                        "display": {
+                            "name": "Bilder erstellen",
+                            "description": "Bilder erstellen leicht gemacht! Durch einfache Texteingaben können Sie Bilder erstellen, die genau Ihren Vorstellungen entsprechen. Mit diesem Bildgenerator können Sie Bilder erstellen, die verschiedene Stile, Epochen und künstlerische Techniken kombinieren.",
+                            "prompt_starters": [
+                                "Male einen Schneemann am Strand, der verzweifelt einen Ventilator benutzt."
+                            ],
+                            "profile_pic_id": "file-TaruUFn3g4dnSvo1qIFMbUP4",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-TaruUFn3g4dnSvo1qIFMbUP4&gizmo_id=g-RfZM7NUri&ts=489921&p=gpp&cid=1&sig=3fb11adb50a6706dd3f3d0bf9ee42fbfac6dc79eab78c0df444b0dae175dd757&v=0",
+                            "categories": [
+                                "dalle"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-12-25T02:05:48.054449+00:00",
+                        "updated_at": "2025-11-21T09:29:08.236888+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2025-11-08T01:56:37.098975+00:00",
+                        "version_updated_at": "2025-11-08T01:56:44.385514+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_td3UGSfa4l2FGZP2QdyrimZ4~gzm_tool_6S55lZQXIZaUYPF1R6gqgrV8",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_td3UGSfa4l2FGZP2QdyrimZ4~gzm_tool_gKqYypWDXXDsBOeUJQZUpIwA",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "68dd157fc5648191aabc41fff6a646e4",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "68dd157fc5988191bd0cdac92dab5208",
+                            "type": "image_gen",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "68dd157fc5c48191babc508e66dc1000",
+                            "type": "canvas",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/x-powershell",
+                                "application/msword",
+                                "text/x-python",
+                                "text/x-tmpl",
+                                "text/x-erlang",
+                                "application/pdf",
+                                "text/x-script.python",
+                                "text/x-objectivec++",
+                                "text/x-mustache",
+                                "text/x-c++",
+                                "text/x-haskell",
+                                "application/vnd.oasis.opendocument.text",
+                                "text/x-vcard",
+                                "text/x-rst",
+                                "text/x-twig",
+                                "text/html",
+                                "text/x-swift",
+                                "application/x-rust",
+                                "application/vnd.ms-powerpoint",
+                                "text/vbscript",
+                                "text/x-elixir",
+                                "text/css",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-java",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-c",
+                                "text/x-handlebars",
+                                "text/x-pug",
+                                "text/x-sh",
+                                "text/x-groovy",
+                                "message/rfc822",
+                                "text/x-diff",
+                                "text/markdown",
+                                "text/x-erb",
+                                "application/vnd.apple.pages",
+                                "application/x-sql",
+                                "application/x-scala",
+                                "text/x-r",
+                                "text/x-perl",
+                                "text/x-ruby",
+                                "text/jsx",
+                                "text/x-asm",
+                                "text/x-astro",
+                                "text/x-csharp",
+                                "text/x-julia",
+                                "application/vnd.apple.keynote",
+                                "text/x-ejs",
+                                "text/x-makefile",
+                                "text/x-go",
+                                "text/xml",
+                                "application/x-yaml",
+                                "application/rtf",
+                                "text/x-scala",
+                                "text/x-lua",
+                                "text/x-objectivec",
+                                "text/x-jinja2",
+                                "application/toml",
+                                "text/x-lisp",
+                                "text/x-typescript",
+                                "application/json",
+                                "text/x-jade",
+                                "text/calendar",
+                                "text/x-dart",
+                                "text/plain",
+                                "text/tsx",
+                                "text/x-tex",
+                                "text/javascript",
+                                "text/x-rust",
+                                "text/rtf",
+                                "application/javascript",
+                                "text/x-shellscript",
+                                "text/x-php",
+                                "text/x-kotlin",
+                                "text/x-liquid",
+                                "text/x-clojure"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/jpeg",
+                                "image/png",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-40KJLGAgH",
+                        "organization_id": "org-OXR1Yrjnum3S5hAdzJBlW2mm",
+                        "short_url": "g-40KJLGAgH-architecture-ai",
+                        "author": {
+                            "user_id": "user-jaBDI4zxKbjyWbWx4R6REGcD",
+                            "user_email": null,
+                            "display_name": "YIMBYLAND",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": null,
+                        "instructions": null,
+                        "display": {
+                            "name": "Architecture AI",
+                            "description": "AI architect for designing beautiful buildings",
+                            "prompt_starters": [
+                                "Help me design my dream home.",
+                                "I want to design missing-middle housing.",
+                                "Let's design a skyscraper.",
+                                "Help me envision a Texas row house."
+                            ],
+                            "profile_pic_id": "file-laKmwJPd0q7rzr8zC64RxCBs",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-laKmwJPd0q7rzr8zC64RxCBs&gizmo_id=g-40KJLGAgH&ts=489921&p=gpp&cid=1&sig=a807bed86dcc9da21cad2819edb4a58caa27ab851aef4cc88ceafe4ba765a255&v=0",
+                            "categories": [
+                                "dalle"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-08T20:36:47.052769+00:00",
+                        "updated_at": "2025-11-21T09:28:46.226234+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2023-11-15T17:53:27.991231+00:00",
+                        "version_updated_at": "2025-02-03T22:38:48.211146+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_JVO9MgDdUuMHrpJ55sEhFOTy~gzm_tool_cNXNFnvlMMWFpgJWT8xHyAr6",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_JVO9MgDdUuMHrpJ55sEhFOTy~gzm_tool_2FO5ZRi1Jwll6RmjhDWhC8ma",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_QFhknpKty8FwIh3RpwRLVWfm~gzm_tool_d8wp6djIS8DGkvZvAhwEvhs3",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_QFhknpKty8FwIh3RpwRLVWfm~gzm_tool_7M4mc0JTMyQ6DjZNmqyYIL7l",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_QFhknpKty8FwIh3RpwRLVWfm~gzm_tool_VOVrZA4N7roYSIm7FbRhfT2p",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_QFhknpKty8FwIh3RpwRLVWfm~gzm_tool_Y3LYP378DF01BjP56g01z16u",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_QFhknpKty8FwIh3RpwRLVWfm~gzm_tool_d6kleevS4F0a5pQKXbRMrI5s",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_QFhknpKty8FwIh3RpwRLVWfm~gzm_tool_fcUubLIBFcxnVnCFUDw8UYpA",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_QFhknpKty8FwIh3RpwRLVWfm~gzm_tool_S8yxRHlxlTho1nRPcEZKsQyN",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_QFhknpKty8FwIh3RpwRLVWfm~gzm_tool_BuA4gpKBXfIwn4kynkb74MPV",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_QFhknpKty8FwIh3RpwRLVWfm~gzm_tool_cJBRkeNdaCPG5g8EbKqsSZyV",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_QFhknpKty8FwIh3RpwRLVWfm~gzm_tool_NRLCItSsuExiTr2EPTvUsiVf",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_QFhknpKty8FwIh3RpwRLVWfm~gzm_tool_TPWG9A36Nm2HelrikrTWu5w0",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_QFhknpKty8FwIh3RpwRLVWfm~gzm_tool_x5oRLaiBMtJZgyQNqiI8s2gv",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_QFhknpKty8FwIh3RpwRLVWfm~gzm_tool_gBhvHPinfNKVcpClKDLVzxU9",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_QFhknpKty8FwIh3RpwRLVWfm~gzm_tool_6wIaG4hEHfl9rHBJu4JqV5Z9",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_QFhknpKty8FwIh3RpwRLVWfm~gzm_tool_5zBNk6CSb2bX2xc6jzq2Ewdh",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_QFhknpKty8FwIh3RpwRLVWfm~gzm_tool_XzcDb8bJZJ84PJXVjc5hadeV",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_QFhknpKty8FwIh3RpwRLVWfm~gzm_tool_zqku8HaFDUzccMmf9rm5TS9O",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_QFhknpKty8FwIh3RpwRLVWfm~gzm_tool_4dVlMgb9IS1LMrNt5GK6fI2d",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_QFhknpKty8FwIh3RpwRLVWfm~gzm_tool_ojyNa8kCQaUnDUoRQ4b3J1YQ",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_QFhknpKty8FwIh3RpwRLVWfm~gzm_tool_94Ud7wDVmeTGIhZCXk9U0jsA",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_QFhknpKty8FwIh3RpwRLVWfm~gzm_tool_CNvHlHiEu03TdE7npDGXuiLP",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_QFhknpKty8FwIh3RpwRLVWfm~gzm_tool_xyztPIApig4C488pjQZNlM6W",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_QFhknpKty8FwIh3RpwRLVWfm~gzm_tool_e81gAySKqDyqyHBZ0ATozpn2",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_QFhknpKty8FwIh3RpwRLVWfm~gzm_tool_xGXlYhO7O2blJeoO4uHHskvp",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_QFhknpKty8FwIh3RpwRLVWfm~gzm_tool_4sGLyVvAQaLnl5RgEBHMlmaB",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_QFhknpKty8FwIh3RpwRLVWfm~gzm_tool_KkssTqqX6C63oBDZca6TOSyi",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_QFhknpKty8FwIh3RpwRLVWfm~gzm_tool_2ChAZg6IFRmrwUOuaazPCdGG",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_QFhknpKty8FwIh3RpwRLVWfm~gzm_tool_uGNCkzmLOmbfghKC1AOeYeaz",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_SPG49SBnSsYSfrx77rl28y7r",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_0vu5w1OyPyn21LmZ39orbzxs",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_Z5XjRs4eLckNMhYMrl8wZEcp",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_jDw69npYqVyZ37oZYGMBEePO",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_KZKf5KsUbbDDyrkbQ1KMPcoq",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_c3fDIWbDCX165yBCnl8BTVqf",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_kg12vRJpEwUsRha9ZPH7DkXC",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_0dlMDNqEsQnB3HOboXisdRAT",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_uM3C10YGKIRQ7oJBJZKeJMf7",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_fPF6ihaNlw93sDulWaEmMzH1",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_86pyIcDhobaJ4BVaQkqvjOhI",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_cCjOb32zUeOuY2d3hjPuAr0E",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_7GjrJDqqQW5ZiCQTqNmJdaSg",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_9obHDzYjkeZBoQtqGFOyJFhk",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_kXlPLxP9CLrcQWaFtIsbIki6",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_t073aitGT01vujpBHtmwYaF3",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_g0h8JaYqXmXzz9f7MHdPN2gi",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_IuD3F7VQL6O418HdK6MSfmeB",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_mLtMKpc5T4PhwoLu4mHgwCMZ",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_R7B8OUZuG1px6fXovcj3AZ0k",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_3KDoDoUpL5il64WlkTrESHa0",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_ewZ5cMKYVB4DfrhP6oo8cv8m",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_cnwygADWe6POwtgihFLBIRRn",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_qezHr95sKKUbZeoRfmLVW13R",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_Ns17yUo26IAPf8b73T8UfezQ",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_WxSJ0P1cNejzT1r3yyVamslD",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_HK1y85UYMAlRIptvpubb0juY",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_jVNDjZHnUGRrqEeqqN6zl9b6",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_6GEin0wGnAmYX1WSqHdePXWb",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_iKxxfdgUsR5QKV85Xuxo7VWd",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_emk2LO9bCTsTV0BZ50NAYFqT",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_EzBd6q7tMSBcdX9Ev63XgOUh",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_KCNCWIiE5EQSHva88nUXNgnk",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_KbeWVF7nbodluQZA71YBJieB",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_BdMIxxFhcw0y7tQiJZzmRqll",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_AeoGQtqlXlQ3fmi8164U187s",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_OYSKZn31za3RONUjXj8n4Zsd",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_Llt7uxXqLsUPt6tHyl95gz1d",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_H2qCxRZMCB70Y1BUeVz0gNVV",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_XmeRDSQFqMbQXobSRfTDL9Xz",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_zmT0tJdnKvx937B1hzMD75Kl",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_HuynVoYTwmijfzBPE4EHpcoI",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_2ugnPIzcLOMFaS0IVxuAk5Re",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_EPrgFNKvjZlVytNb9yaTUH17",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_4JZAwEFBlB55M6U8SkI92vix",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_mkjZNBJybPN2PKrQv4yNR6Mx",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_ifww2J1oMvudTpzzaK4BUZFm",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_LB05dJpTv8v6V6KJoBtdNQfy",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_hMD14ZkYBXpiomsOmrh2awIs",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_G42r0O6aaVChg7LfpKmH1V4e",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_RgUzezi4YrUPWh8Di5obYtV5",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_ZSua1lJWFiJ2j0oFWe6BkD3D",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_8dHynzS4SEtl33yPYkurJnMA",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_S6MJ1QNgF7HchAblw1S8qAGg",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_TjOocBc3EQ6EAA43cLbPGK0V",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_jV6Y4Z3VQfuWK4TyhxiGHiAs",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_IN3RHBjz4T1iL4dYw4Ht5ZFk",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_snfh9rxg8fj4yP8LpfS9ipux",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_8ZCLyrggvDkgok9NyH3kHikW",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_6MygMkT5tJbR3QDYU6bmGcmf",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_3Brc7l1T5lwyt8MKvOIe8hTs",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_tpTZf5a0dpDXaYzA13doXN50",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_0xx8rRc1dzKhlFBLel3ntE4w",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_8lZvLtcSg54Ck94OFO5RQ1kO",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_mNlF27LfqyS8BDe3kZujCHP4",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_NJRe6V4vKPeWe9PzcGBbK0JR",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_oUki0AGtFr4njbWwDokKUYBa",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_p0jSRUv5mKw2QPQsAfOI0Ieu",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_NAulliGeazKMJif06miYMvWB",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_FOsV4Tfo1eaxvMvYDbVXCW66",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_gJCRGBvo2vMpj8GXFhea6oag",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_AVHC0PG8D1r5V8k5JPHbN9w9",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_ydlkb1lJIUuis16p1DClXhkv",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_LTrHu7aUyOIKw9xT0IBBc76Z",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_CsItscOY5MxUTXQVvJM2lNVz",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_05qrV7RRY9QkchcrvG03wBCA",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_TaItHRlvJnNNWhb7Ecx24Gks",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_2Gas1Wf6cByJTAFDhbHDQkQl",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_Mg2Q0GtxVrOxofv2pLSmGw3V",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_4KxPHLPdGE9YWzAor3VgscvN",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_28AxdRGAUbyEZTnp7yU1vDfk",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_SSbTDZoVux7itasUgBtN2bub",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_6TGpUulmcYm9dyNyaPeoH71O",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_ZVv9ppRvgIoDJMX5N7BrtNPT",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_0UVugUUrqWibhR1IUHXvhrh8",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_nnE3o5UCLkvarJq5Pl3oOooP",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_qaRoXJPHsKyCmhHpTuue6DrD",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_buX3jddI3xy1eu35RocMt4n6",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_SYF1nZy5QluN8osXAhLImhy8",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_PkKLUTDQA9TaKYRK5rtyDScK",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_QJr95zgoph37hbX025TuHTiV",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_VOCSn4hlrhqgZdsfD1TQsmgE",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_CVug9XYQ35UIpZ9dGnzx4KNo~gzm_tool_V8YM8OOZtgnRQgaSAGFoKX3u",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/x-powershell",
+                                "application/msword",
+                                "text/x-python",
+                                "text/x-tmpl",
+                                "text/x-erlang",
+                                "application/pdf",
+                                "text/x-script.python",
+                                "text/x-objectivec++",
+                                "text/x-mustache",
+                                "text/x-c++",
+                                "text/x-haskell",
+                                "application/vnd.oasis.opendocument.text",
+                                "text/x-vcard",
+                                "text/x-rst",
+                                "text/x-twig",
+                                "text/html",
+                                "text/x-swift",
+                                "application/x-rust",
+                                "application/vnd.ms-powerpoint",
+                                "text/vbscript",
+                                "text/x-elixir",
+                                "text/css",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-java",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-c",
+                                "text/x-handlebars",
+                                "text/x-pug",
+                                "text/x-sh",
+                                "text/x-groovy",
+                                "message/rfc822",
+                                "text/x-diff",
+                                "text/markdown",
+                                "text/x-erb",
+                                "application/vnd.apple.pages",
+                                "application/x-sql",
+                                "application/x-scala",
+                                "text/x-r",
+                                "text/x-perl",
+                                "text/x-ruby",
+                                "text/jsx",
+                                "text/x-asm",
+                                "text/x-astro",
+                                "text/x-csharp",
+                                "text/x-julia",
+                                "application/vnd.apple.keynote",
+                                "text/x-ejs",
+                                "text/x-makefile",
+                                "text/x-go",
+                                "text/xml",
+                                "application/x-yaml",
+                                "application/rtf",
+                                "text/x-scala",
+                                "text/x-lua",
+                                "text/x-objectivec",
+                                "text/x-jinja2",
+                                "application/toml",
+                                "text/x-lisp",
+                                "text/x-typescript",
+                                "application/json",
+                                "text/x-jade",
+                                "text/calendar",
+                                "text/x-dart",
+                                "text/plain",
+                                "text/tsx",
+                                "text/x-tex",
+                                "text/javascript",
+                                "text/x-rust",
+                                "text/rtf",
+                                "application/javascript",
+                                "text/x-shellscript",
+                                "text/x-php",
+                                "text/x-kotlin",
+                                "text/x-liquid",
+                                "text/x-clojure"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/jpeg",
+                                "image/png",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-pCq5xaCri",
+                        "organization_id": "org-yuP2brQLvVbYWBmjpmfbdQgc",
+                        "short_url": "g-pCq5xaCri-logo",
+                        "author": {
+                            "user_id": "user-iXMm8dbb5k1i6wKVVqSQ9GDR",
+                            "user_email": null,
+                            "display_name": "logogpts.cn",
+                            "link_to": "https://logogpts.cn",
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": null,
+                        "instructions": null,
+                        "display": {
+                            "name": "LOGO",
+                            "description": "Senior brand LOGO design expert, 20 years of brand LOGO design experience, designer material feeding training",
+                            "prompt_starters": [
+                                "I need a new company logo.",
+                                "Please provide some creative product LOGO designs.",
+                                "My company is about health and I need a suitable LOGO.",
+                                "I want a modern logo."
+                            ],
+                            "profile_pic_id": "file-lvZdHWZGgQwvsX1a7z6jDqjp",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-lvZdHWZGgQwvsX1a7z6jDqjp&gizmo_id=g-pCq5xaCri&ts=489921&p=gpp&cid=1&sig=98b703194e35d7a504299120c65c8a1ecbd574fd4f6979e0922c1978d5bcdffe&v=0",
+                            "categories": [
+                                "dalle"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-17T04:34:12.889403+00:00",
+                        "updated_at": "2025-11-21T09:28:24.478143+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2023-11-21T05:54:17.500800+00:00",
+                        "version_updated_at": "2024-03-12T20:01:04.116999+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_I2hq7pA3m3pKVB8SNA7o0ZH7~gzm_tool_nGubki5NkhQvEcBeC9RUq3Aq",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_I2hq7pA3m3pKVB8SNA7o0ZH7~gzm_tool_LQ3w08YiJqwlnSFJ0QNMhfHm",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_I2hq7pA3m3pKVB8SNA7o0ZH7~gzm_tool_oTW1hpQcuqCWKAiEdkFWpHjC",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_I2hq7pA3m3pKVB8SNA7o0ZH7~gzm_tool_fjTzJKDQ8DJTZaEeXnHoKh6N",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_I2hq7pA3m3pKVB8SNA7o0ZH7~gzm_tool_XPNO8yCbryQT07O2L5qCu8HA",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_I2hq7pA3m3pKVB8SNA7o0ZH7~gzm_tool_hFzaQt7CrdcBOJEa51vdwvpD",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "gzm_cnf_ejRDbssEx1GW8L9k1Xv6beat~gzm_file_urQihacyemXQI0LJ3h37HExX",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "gzm_cnf_ejRDbssEx1GW8L9k1Xv6beat~gzm_file_BX7Auf0KYKpSixm0eKameV7x",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "gzm_cnf_ejRDbssEx1GW8L9k1Xv6beat~gzm_file_ks1VARcJfRcKW9OY6g2wGNcb",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "gzm_cnf_ejRDbssEx1GW8L9k1Xv6beat~gzm_file_MDOgfEdSSwxSs5aA6dVKdtXe",
+                            "type": "image/jpeg",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/x-powershell",
+                                "application/msword",
+                                "text/x-python",
+                                "text/x-tmpl",
+                                "text/x-erlang",
+                                "application/pdf",
+                                "text/x-script.python",
+                                "text/x-objectivec++",
+                                "text/x-mustache",
+                                "text/x-c++",
+                                "text/x-haskell",
+                                "application/vnd.oasis.opendocument.text",
+                                "text/x-vcard",
+                                "text/x-rst",
+                                "text/x-twig",
+                                "text/html",
+                                "text/x-swift",
+                                "application/x-rust",
+                                "application/vnd.ms-powerpoint",
+                                "text/vbscript",
+                                "text/x-elixir",
+                                "text/css",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-java",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-c",
+                                "text/x-handlebars",
+                                "text/x-pug",
+                                "text/x-sh",
+                                "text/x-groovy",
+                                "message/rfc822",
+                                "text/x-diff",
+                                "text/markdown",
+                                "text/x-erb",
+                                "application/vnd.apple.pages",
+                                "application/x-sql",
+                                "application/x-scala",
+                                "text/x-r",
+                                "text/x-perl",
+                                "text/x-ruby",
+                                "text/jsx",
+                                "text/x-asm",
+                                "text/x-astro",
+                                "text/x-csharp",
+                                "text/x-julia",
+                                "application/vnd.apple.keynote",
+                                "text/x-ejs",
+                                "text/x-makefile",
+                                "text/x-go",
+                                "text/xml",
+                                "application/x-yaml",
+                                "application/rtf",
+                                "text/x-scala",
+                                "text/x-lua",
+                                "text/x-objectivec",
+                                "text/x-jinja2",
+                                "application/toml",
+                                "text/x-lisp",
+                                "text/x-typescript",
+                                "application/json",
+                                "text/x-jade",
+                                "text/calendar",
+                                "text/x-dart",
+                                "text/plain",
+                                "text/tsx",
+                                "text/x-tex",
+                                "text/javascript",
+                                "text/x-rust",
+                                "text/rtf",
+                                "application/javascript",
+                                "text/x-shellscript",
+                                "text/x-php",
+                                "text/x-kotlin",
+                                "text/x-liquid",
+                                "text/x-clojure"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/jpeg",
+                                "image/png",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-pmuQfob8d",
+                        "organization_id": "org-AWLMos7qkuCxcVO5OhJqPO9X",
+                        "short_url": "g-pmuQfob8d-image-generator",
+                        "author": {
+                            "user_id": "user-8UW0V9Gz998stjOgOVMwXVIh",
+                            "user_email": null,
+                            "display_name": "NAIF J ALOTAIBI",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "9l7yHFsF92",
+                                        "username": "naif j alotaibi",
+                                        "display_name": "naif j alotaibi",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/naif-j-alotaibi-b01596352"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": null,
+                        "instructions": null,
+                        "display": {
+                            "name": "image generator",
+                            "description": "A GPT specialized in generating and refining images with a mix of professional and friendly tone.image generator",
+                            "prompt_starters": [
+                                "Generate an image of a futuristic city.",
+                                "Create a portrait of a fictional character.",
+                                "Design a logo for a new tech startup.",
+                                "Illustrate a scene from a fantasy novel."
+                            ],
+                            "profile_pic_id": "file-M1df4Ab7Ow6QCJ871tBUsi0x",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-M1df4Ab7Ow6QCJ871tBUsi0x&gizmo_id=g-pmuQfob8d&ts=489921&p=gpp&cid=1&sig=d7e9e532b4a9116ccda3086be1944ec199d59cfd9a8136d414c2cf8a4b8d0b7a&v=0",
+                            "categories": [
+                                "dalle"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-12-02T16:43:09.108969+00:00",
+                        "updated_at": "2025-11-21T09:29:50.560956+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2025-10-22T16:17:02.034785+00:00",
+                        "version_updated_at": "2025-10-22T16:17:08.126475+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_sTkqcaqsAFhjM4b959j5mP5X~gzm_tool_FWZcgGNvH7bOPxkb7MNxvKil",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_sTkqcaqsAFhjM4b959j5mP5X~gzm_tool_oKrzZ3BvFRBPkJSUiCU3aoEA",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "680fe53f7a108191a487e039cd36853d",
+                            "type": "image_gen",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/x-powershell",
+                                "application/msword",
+                                "text/x-python",
+                                "text/x-tmpl",
+                                "text/x-erlang",
+                                "application/pdf",
+                                "text/x-script.python",
+                                "text/x-objectivec++",
+                                "text/x-mustache",
+                                "text/x-c++",
+                                "text/x-haskell",
+                                "application/vnd.oasis.opendocument.text",
+                                "text/x-vcard",
+                                "text/x-rst",
+                                "text/x-twig",
+                                "text/html",
+                                "text/x-swift",
+                                "application/x-rust",
+                                "application/vnd.ms-powerpoint",
+                                "text/vbscript",
+                                "text/x-elixir",
+                                "text/css",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-java",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-c",
+                                "text/x-handlebars",
+                                "text/x-pug",
+                                "text/x-sh",
+                                "text/x-groovy",
+                                "message/rfc822",
+                                "text/x-diff",
+                                "text/markdown",
+                                "text/x-erb",
+                                "application/vnd.apple.pages",
+                                "application/x-sql",
+                                "application/x-scala",
+                                "text/x-r",
+                                "text/x-perl",
+                                "text/x-ruby",
+                                "text/jsx",
+                                "text/x-asm",
+                                "text/x-astro",
+                                "text/x-csharp",
+                                "text/x-julia",
+                                "application/vnd.apple.keynote",
+                                "text/x-ejs",
+                                "text/x-makefile",
+                                "text/x-go",
+                                "text/xml",
+                                "application/x-yaml",
+                                "application/rtf",
+                                "text/x-scala",
+                                "text/x-lua",
+                                "text/x-objectivec",
+                                "text/x-jinja2",
+                                "application/toml",
+                                "text/x-lisp",
+                                "text/x-typescript",
+                                "application/json",
+                                "text/x-jade",
+                                "text/calendar",
+                                "text/x-dart",
+                                "text/plain",
+                                "text/tsx",
+                                "text/x-tex",
+                                "text/javascript",
+                                "text/x-rust",
+                                "text/rtf",
+                                "application/javascript",
+                                "text/x-shellscript",
+                                "text/x-php",
+                                "text/x-kotlin",
+                                "text/x-liquid",
+                                "text/x-clojure"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/jpeg",
+                                "image/png",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-tc0eHXdgb",
+                        "organization_id": "org-K3KRcn4uKf2VxukWHfOPRJKh",
+                        "short_url": "g-tc0eHXdgb-romidjourneyro-mj-prompt-generator-v6",
+                        "author": {
+                            "user_id": "user-d3RZJsMOIJWqdmGnIIPUh2pa",
+                            "user_email": null,
+                            "display_name": "featuredgpts.com",
+                            "link_to": "https://featuredgpts.com",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": null,
+                        "instructions": null,
+                        "display": {
+                            "name": "ロMidjourneyロ -- MJ Prompt Generator (V6)",
+                            "description": "Generate 5 detailed, creative, optimized prompts that are ready to create awesome images in Midjourney V6. Mention \"niji\" if you need ending with \"--niji 6\"",
+                            "prompt_starters": [
+                                "💡 Start outlining my desired artwork...",
+                                "Digital art of a futuristic cityscape at night.",
+                                "Portrait of a woman in 1920s fashion.",
+                                "Where clouds deepen unseen, Niji."
+                            ],
+                            "profile_pic_id": "file-KAtx8ne11BR9ODHC5MpovfD9",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-KAtx8ne11BR9ODHC5MpovfD9&gizmo_id=g-tc0eHXdgb&ts=489921&p=gpp&cid=1&sig=e5204cf5e95c7877ff826ab2d61ea08b4b504a87c473361be0d9b2f22d8d0409&v=0",
+                            "categories": [
+                                "dalle"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-12-28T07:42:35.235994+00:00",
+                        "updated_at": "2025-11-21T09:29:52.684161+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2024-06-03T00:59:36.043852+00:00",
+                        "version_updated_at": "2024-10-28T03:06:37.238023+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [
+                        {
+                            "id": "W4F62mfrMUpP3gXFjNVcLwNE",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-d958dd44aea4ee2959dd0a10aa681f329048b888",
+                                "domain": "api.adzedek.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.0",
+                                    "info": {
+                                        "title": "Adzedek API",
+                                        "description": "This API is used to fetch advertisements to show.",
+                                        "version": "1.1.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://api.adzedek.com",
+                                            "description": "Main Adzedek API server"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/fetch_ad_to_show_GPTs/1714971429124x509935022332968960": {
+                                            "get": {
+                                                "operationId": "fetchAdToShowGPTs",
+                                                "summary": "Fetch an advertisement to show",
+                                                "description": "Retrieves advertisement details including id and text.",
+                                                "parameters": [
+                                                    {
+                                                        "in": "query",
+                                                        "name": "conversation_context",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        },
+                                                        "description": "The full user input. If this is the first message in the conversation, add \"[start]\" before the string, otherwise add \"[continue]\" before the string."
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "A JSON object containing the advertisement details",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/AdResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "security": [
+                                                    {
+                                                        "ApiKeyAuth": []
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "AdResponse": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "id": {
+                                                        "type": "string"
+                                                    },
+                                                    "text": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "securitySchemes": {
+                                            "ApiKeyAuth": {
+                                                "type": "apiKey",
+                                                "in": "header",
+                                                "name": "adzedek-api"
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "service_http",
+                                    "instructions": "",
+                                    "authorization_type": "custom",
+                                    "verification_tokens": {},
+                                    "custom_auth_header": "adzedek-api"
+                                },
+                                "privacy_policy_url": "https://app.adzedek.com/policy"
+                            }
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/x-powershell",
+                                "application/msword",
+                                "text/x-python",
+                                "text/x-tmpl",
+                                "text/x-erlang",
+                                "application/pdf",
+                                "text/x-script.python",
+                                "text/x-objectivec++",
+                                "text/x-mustache",
+                                "text/x-c++",
+                                "text/x-haskell",
+                                "application/vnd.oasis.opendocument.text",
+                                "text/x-vcard",
+                                "text/x-rst",
+                                "text/x-twig",
+                                "text/html",
+                                "text/x-swift",
+                                "application/x-rust",
+                                "application/vnd.ms-powerpoint",
+                                "text/vbscript",
+                                "text/x-elixir",
+                                "text/css",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-java",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-c",
+                                "text/x-handlebars",
+                                "text/x-pug",
+                                "text/x-sh",
+                                "text/x-groovy",
+                                "message/rfc822",
+                                "text/x-diff",
+                                "text/markdown",
+                                "text/x-erb",
+                                "application/vnd.apple.pages",
+                                "application/x-sql",
+                                "application/x-scala",
+                                "text/x-r",
+                                "text/x-perl",
+                                "text/x-ruby",
+                                "text/jsx",
+                                "text/x-asm",
+                                "text/x-astro",
+                                "text/x-csharp",
+                                "text/x-julia",
+                                "application/vnd.apple.keynote",
+                                "text/x-ejs",
+                                "text/x-makefile",
+                                "text/x-go",
+                                "text/xml",
+                                "application/x-yaml",
+                                "application/rtf",
+                                "text/x-scala",
+                                "text/x-lua",
+                                "text/x-objectivec",
+                                "text/x-jinja2",
+                                "application/toml",
+                                "text/x-lisp",
+                                "text/x-typescript",
+                                "application/json",
+                                "text/x-jade",
+                                "text/calendar",
+                                "text/x-dart",
+                                "text/plain",
+                                "text/tsx",
+                                "text/x-tex",
+                                "text/javascript",
+                                "text/x-rust",
+                                "text/rtf",
+                                "application/javascript",
+                                "text/x-shellscript",
+                                "text/x-php",
+                                "text/x-kotlin",
+                                "text/x-liquid",
+                                "text/x-clojure"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/jpeg",
+                                "image/png",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-gFt1ghYJl",
+                        "organization_id": "org-z511Rxq0sC9UgHi9vOlO9Xty",
+                        "short_url": "g-gFt1ghYJl-logo-creator",
+                        "author": {
+                            "user_id": "user-UpVXM5zMYLfXw7XCV8QMcyAD__1c4024e6-292b-450c-910d-8de74ea9acac",
+                            "user_email": null,
+                            "display_name": null,
+                            "link_to": null,
+                            "is_verified": false,
+                            "selected_display": "name",
+                            "will_receive_support_emails": false,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": "1c4024e6-292b-450c-910d-8de74ea9acac",
+                        "model": null,
+                        "default_model": null,
+                        "instructions": null,
+                        "display": {
+                            "name": "Logo Creator",
+                            "description": "Use me to generate professional logo designs and app icons!",
+                            "prompt_starters": [
+                                "Generate me a logo featuring an ice cream",
+                                "Make me an app icon for an RPG adventure game"
+                            ],
+                            "profile_pic_id": "file-RMJTxVFqg1Bl06buAXrMGNr3",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-RMJTxVFqg1Bl06buAXrMGNr3&gizmo_id=g-gFt1ghYJl&ts=489921&p=gpp&cid=1&sig=6dca85330bc9b6cfd6c1705ec4f734695601161ee91cac9ab860da533230de7c&v=0",
+                            "categories": [
+                                "dalle"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-10T00:01:50.799536+00:00",
+                        "updated_at": "2025-11-21T09:29:27.781688+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2025-04-08T12:49:04.451073+00:00",
+                        "version_updated_at": "2025-04-08T19:36:56.606612+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [
+                        {
+                            "id": "678b9f5086c481919971e63a4dfe4a98",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/x-powershell",
+                                "application/msword",
+                                "text/x-python",
+                                "text/x-tmpl",
+                                "text/x-erlang",
+                                "application/pdf",
+                                "text/x-script.python",
+                                "text/x-objectivec++",
+                                "text/x-mustache",
+                                "text/x-c++",
+                                "text/x-haskell",
+                                "application/vnd.oasis.opendocument.text",
+                                "text/x-vcard",
+                                "text/x-rst",
+                                "text/x-twig",
+                                "text/html",
+                                "text/x-swift",
+                                "application/x-rust",
+                                "application/vnd.ms-powerpoint",
+                                "text/vbscript",
+                                "text/x-elixir",
+                                "text/css",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-java",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-c",
+                                "text/x-handlebars",
+                                "text/x-pug",
+                                "text/x-sh",
+                                "text/x-groovy",
+                                "message/rfc822",
+                                "text/x-diff",
+                                "text/markdown",
+                                "text/x-erb",
+                                "application/vnd.apple.pages",
+                                "application/x-sql",
+                                "application/x-scala",
+                                "text/x-r",
+                                "text/x-perl",
+                                "text/x-ruby",
+                                "text/jsx",
+                                "text/x-asm",
+                                "text/x-astro",
+                                "text/x-csharp",
+                                "text/x-julia",
+                                "application/vnd.apple.keynote",
+                                "text/x-ejs",
+                                "text/x-makefile",
+                                "text/x-go",
+                                "text/xml",
+                                "application/x-yaml",
+                                "application/rtf",
+                                "text/x-scala",
+                                "text/x-lua",
+                                "text/x-objectivec",
+                                "text/x-jinja2",
+                                "application/toml",
+                                "text/x-lisp",
+                                "text/x-typescript",
+                                "application/json",
+                                "text/x-jade",
+                                "text/calendar",
+                                "text/x-dart",
+                                "text/plain",
+                                "text/tsx",
+                                "text/x-tex",
+                                "text/javascript",
+                                "text/x-rust",
+                                "text/rtf",
+                                "application/javascript",
+                                "text/x-shellscript",
+                                "text/x-php",
+                                "text/x-kotlin",
+                                "text/x-liquid",
+                                "text/x-clojure"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/jpeg",
+                                "image/png",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-fnPpt4WcB",
+                        "organization_id": "org-AWLMos7qkuCxcVO5OhJqPO9X",
+                        "short_url": "g-fnPpt4WcB-ai-image-generator",
+                        "author": {
+                            "user_id": "user-8UW0V9Gz998stjOgOVMwXVIh",
+                            "user_email": null,
+                            "display_name": "NAIF J ALOTAIBI",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "9l7yHFsF92",
+                                        "username": "naif j alotaibi",
+                                        "display_name": "naif j alotaibi",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/naif-j-alotaibi-b01596352"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": null,
+                        "instructions": null,
+                        "display": {
+                            "name": "AI Image Generator",
+                            "description": "Turn any idea into a realistic image with AI Image Generator — a smart tool powered by ChatGPT that transforms your text into stunning visuals in seconds. Perfect for designers, advertisers, and creatives.",
+                            "prompt_starters": [
+                                "Create an image with...",
+                                "Design a scene featuring...",
+                                "Illustrate an environment where...",
+                                "Generate an artwork depicting..."
+                            ],
+                            "profile_pic_id": "file-U7Lpqv3pA76f1wigr4W9bd",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-U7Lpqv3pA76f1wigr4W9bd&gizmo_id=g-fnPpt4WcB&ts=489921&p=gpp&cid=1&sig=6d7be232ba424f4c7c43fccbd68f9d0a55aced3b9c1989096c6b1dfb332eea2b&v=0",
+                            "categories": [
+                                "dalle"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-13T20:31:44.249126+00:00",
+                        "updated_at": "2025-11-21T09:29:13.080674+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2025-11-09T17:52:48.065485+00:00",
+                        "version_updated_at": "2025-11-09T17:53:10.296347+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [
+                        {
+                            "id": "67aa267420c48191a144d1fd3f85f038",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "6820dca2360481919150cce86d242370",
+                            "type": "image_gen",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "6820dca6c4c4819185e81bfffa0638f7",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/x-powershell",
+                                "application/msword",
+                                "text/x-python",
+                                "text/x-tmpl",
+                                "text/x-erlang",
+                                "application/pdf",
+                                "text/x-script.python",
+                                "text/x-objectivec++",
+                                "text/x-mustache",
+                                "text/x-c++",
+                                "text/x-haskell",
+                                "application/vnd.oasis.opendocument.text",
+                                "text/x-vcard",
+                                "text/x-rst",
+                                "text/x-twig",
+                                "text/html",
+                                "text/x-swift",
+                                "application/x-rust",
+                                "application/vnd.ms-powerpoint",
+                                "text/vbscript",
+                                "text/x-elixir",
+                                "text/css",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-java",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-c",
+                                "text/x-handlebars",
+                                "text/x-pug",
+                                "text/x-sh",
+                                "text/x-groovy",
+                                "message/rfc822",
+                                "text/x-diff",
+                                "text/markdown",
+                                "text/x-erb",
+                                "application/vnd.apple.pages",
+                                "application/x-sql",
+                                "application/x-scala",
+                                "text/x-r",
+                                "text/x-perl",
+                                "text/x-ruby",
+                                "text/jsx",
+                                "text/x-asm",
+                                "text/x-astro",
+                                "text/x-csharp",
+                                "text/x-julia",
+                                "application/vnd.apple.keynote",
+                                "text/x-ejs",
+                                "text/x-makefile",
+                                "text/x-go",
+                                "text/xml",
+                                "application/x-yaml",
+                                "application/rtf",
+                                "text/x-scala",
+                                "text/x-lua",
+                                "text/x-objectivec",
+                                "text/x-jinja2",
+                                "application/toml",
+                                "text/x-lisp",
+                                "text/x-typescript",
+                                "application/json",
+                                "text/x-jade",
+                                "text/calendar",
+                                "text/x-dart",
+                                "text/plain",
+                                "text/tsx",
+                                "text/x-tex",
+                                "text/javascript",
+                                "text/x-rust",
+                                "text/rtf",
+                                "application/javascript",
+                                "text/x-shellscript",
+                                "text/x-php",
+                                "text/x-kotlin",
+                                "text/x-liquid",
+                                "text/x-clojure"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/jpeg",
+                                "image/png",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-a9JivI0y2",
+                        "organization_id": "org-J8s7k6ldlWQgIPn5qCTGXGRg",
+                        "short_url": "g-a9JivI0y2-consistent-character-gpt-fast-high-quality",
+                        "author": {
+                            "user_id": "user-bpmApMbymAlBeGAkig32juCU",
+                            "user_email": null,
+                            "display_name": "neolemon.com",
+                            "link_to": "https://neolemon.com",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": false,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "_m76jWdapw",
+                                        "username": "Sachin Kamath",
+                                        "display_name": "Sachin Kamath",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/sachinkamathai"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": "gpt-4o",
+                        "instructions": null,
+                        "display": {
+                            "name": "Consistent Character GPT👉🏼 Fast & High Quality⚡️",
+                            "description": "Your creative partner for generating characters in different poses, expressions, and scenes. No prompt needed, just start with 'CLICK HERE' and follow the steps.",
+                            "prompt_starters": [
+                                "CLICK HERE to start creating character designs!"
+                            ],
+                            "profile_pic_id": "file-yUZ6QSWZ2ZNFL0kOmPkvBWiS",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-yUZ6QSWZ2ZNFL0kOmPkvBWiS&gizmo_id=g-a9JivI0y2&ts=489921&p=gpp&cid=1&sig=bc5d2f18a4c784bea27384b77dd371debcb34fbd0d2b7abba54b223da7caac20&v=0",
+                            "categories": [
+                                "dalle"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-12T17:04:33.107384+00:00",
+                        "updated_at": "2025-11-21T09:25:16.150532+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2025-10-23T12:30:33.170117+00:00",
+                        "version_updated_at": "2025-10-23T12:30:41.960698+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_BFCJ7V5ngvZU8gbEiRIO5H59~gzm_tool_2SprtTQyCKXFSzrjNZWNFAOC",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "684f580021bc81918416d6e8ccc14f6d",
+                            "type": "image_gen",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "684f580484c08191a927cef89b339eb8",
+                            "type": "canvas",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/x-powershell",
+                                "application/msword",
+                                "text/x-python",
+                                "text/x-tmpl",
+                                "text/x-erlang",
+                                "application/pdf",
+                                "text/x-script.python",
+                                "text/x-objectivec++",
+                                "text/x-mustache",
+                                "text/x-c++",
+                                "text/x-haskell",
+                                "application/vnd.oasis.opendocument.text",
+                                "text/x-vcard",
+                                "text/x-rst",
+                                "text/x-twig",
+                                "text/html",
+                                "text/x-swift",
+                                "application/x-rust",
+                                "application/vnd.ms-powerpoint",
+                                "text/vbscript",
+                                "text/x-elixir",
+                                "text/css",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-java",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-c",
+                                "text/x-handlebars",
+                                "text/x-pug",
+                                "text/x-sh",
+                                "text/x-groovy",
+                                "message/rfc822",
+                                "text/x-diff",
+                                "text/markdown",
+                                "text/x-erb",
+                                "application/vnd.apple.pages",
+                                "application/x-sql",
+                                "application/x-scala",
+                                "text/x-r",
+                                "text/x-perl",
+                                "text/x-ruby",
+                                "text/jsx",
+                                "text/x-asm",
+                                "text/x-astro",
+                                "text/x-csharp",
+                                "text/x-julia",
+                                "application/vnd.apple.keynote",
+                                "text/x-ejs",
+                                "text/x-makefile",
+                                "text/x-go",
+                                "text/xml",
+                                "application/x-yaml",
+                                "application/rtf",
+                                "text/x-scala",
+                                "text/x-lua",
+                                "text/x-objectivec",
+                                "text/x-jinja2",
+                                "application/toml",
+                                "text/x-lisp",
+                                "text/x-typescript",
+                                "application/json",
+                                "text/x-jade",
+                                "text/calendar",
+                                "text/x-dart",
+                                "text/plain",
+                                "text/tsx",
+                                "text/x-tex",
+                                "text/javascript",
+                                "text/x-rust",
+                                "text/rtf",
+                                "application/javascript",
+                                "text/x-shellscript",
+                                "text/x-php",
+                                "text/x-kotlin",
+                                "text/x-liquid",
+                                "text/x-clojure"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/jpeg",
+                                "image/png",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            }
+        ],
+        "cursor": null
+    }
+}
