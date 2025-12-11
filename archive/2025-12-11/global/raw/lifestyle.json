@@ -1,0 +1,2759 @@
+{
+    "info": {
+        "id": "lifestyle",
+        "title": "Lifestyle",
+        "description": "Get tips on travel, workouts, style, food, and more",
+        "display_type": "ranked",
+        "display_group": "Lifestyle",
+        "locale": "global"
+    },
+    "list": {
+        "items": [
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-8F8CR1D2b",
+                        "organization_id": "org-YWssiXxin71R35bPy41fz8IR",
+                        "short_url": "g-8F8CR1D2b-mystic-tarot-reader",
+                        "author": {
+                            "user_id": "user-RaSh8YQop9pkjdBjzXhjs8NK__c97313da-b508-479b-abc3-1ca677d34008",
+                            "user_email": null,
+                            "display_name": null,
+                            "link_to": null,
+                            "is_verified": false,
+                            "selected_display": "name",
+                            "will_receive_support_emails": false,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": "c97313da-b508-479b-abc3-1ca677d34008",
+                        "model": null,
+                        "default_model": null,
+                        "instructions": null,
+                        "display": {
+                            "name": "Mystic Tarot Reader",
+                            "description": "Empathic Tarot Insights with Mystical Guidance",
+                            "prompt_starters": [
+                                "What does the future hold for my career?",
+                                "Can you do a relationship reading for me?",
+                                "What should I focus on for personal growth?",
+                                "What are the energies surrounding my current situation?"
+                            ],
+                            "profile_pic_id": "file-iaUQFn2mwf9xRmanpqvuIXqN",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-iaUQFn2mwf9xRmanpqvuIXqN&gizmo_id=g-8F8CR1D2b&ts=490401&p=gpp&cid=1&sig=32b4a022d36ddb420bad31148341b3819c177f15e1c74e528cf6821793ebfa6b&v=0",
+                            "categories": [
+                                "lifestyle"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-09T09:42:13.401803+00:00",
+                        "updated_at": "2025-12-11T09:37:31.508158+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2024-05-18T11:14:44.568939+00:00",
+                        "version_updated_at": "2025-04-09T17:54:57.971944+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_FnItQRI49EFzFnLZWnbojqK4~gzm_tool_0G2J6dWW21JAWaehpSNCHho6",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_FnItQRI49EFzFnLZWnbojqK4~gzm_tool_4D3Bl9QH6d47VDbYzO4Rpit8",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/pdf",
+                                "application/msword",
+                                "text/markdown",
+                                "application/x-rust",
+                                "application/x-powershell",
+                                "text/xml",
+                                "text/x-c++",
+                                "text/x-swift",
+                                "text/x-clojure",
+                                "text/x-php",
+                                "text/x-astro",
+                                "application/x-scala",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-jade",
+                                "text/x-csharp",
+                                "text/x-erlang",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/calendar",
+                                "text/x-shellscript",
+                                "text/x-julia",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/rtf",
+                                "text/css",
+                                "text/x-lua",
+                                "text/x-perl",
+                                "text/vbscript",
+                                "text/tsx",
+                                "text/x-java",
+                                "text/x-tex",
+                                "text/x-twig",
+                                "application/vnd.ms-powerpoint",
+                                "text/plain",
+                                "text/x-erb",
+                                "text/rtf",
+                                "text/x-scala",
+                                "text/x-tmpl",
+                                "text/x-vcard",
+                                "text/x-groovy",
+                                "text/x-ejs",
+                                "text/javascript",
+                                "text/x-rust",
+                                "application/toml",
+                                "text/x-objectivec++",
+                                "text/x-asm",
+                                "text/x-script.python",
+                                "text/x-dart",
+                                "message/rfc822",
+                                "text/x-diff",
+                                "application/vnd.apple.pages",
+                                "text/x-objectivec",
+                                "text/x-mustache",
+                                "application/javascript",
+                                "text/x-typescript",
+                                "text/x-go",
+                                "text/x-handlebars",
+                                "text/x-makefile",
+                                "text/x-c",
+                                "text/x-kotlin",
+                                "text/x-jinja2",
+                                "text/x-python",
+                                "application/json",
+                                "text/x-r",
+                                "application/x-sql",
+                                "text/x-lisp",
+                                "text/html",
+                                "text/jsx",
+                                "text/x-pug",
+                                "text/x-ruby",
+                                "text/x-liquid",
+                                "application/x-yaml",
+                                "text/x-elixir",
+                                "text/x-sh",
+                                "text/x-rst",
+                                "application/vnd.apple.keynote",
+                                "text/x-haskell"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-BGVU2wjKi",
+                        "organization_id": "org-RzE0nYM69K6zEvM4dXtLl9L6",
+                        "short_url": "g-BGVU2wjKi-find-my-celebrity-look-alike",
+                        "author": {
+                            "user_id": "user-B8xwe5rD2rKHaSlGljQ89yZy",
+                            "user_email": null,
+                            "display_name": "habitcreatures.com",
+                            "link_to": "https://habitcreatures.com",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": "gpt-4o",
+                        "instructions": null,
+                        "display": {
+                            "name": "Find My Celebrity Look Alike",
+                            "description": "Upload a photo of yourself and see which celeb you look like",
+                            "prompt_starters": [
+                                "Who are my top 4 celebrity look-alikes?",
+                                "Find my most accurate celeb look alike",
+                                "Upload my photo and match me with a celeb!",
+                                "Show me which celebrity I resemble!"
+                            ],
+                            "profile_pic_id": "file-O4j7uYjyZydQzNEQgOpzTp0N",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-O4j7uYjyZydQzNEQgOpzTp0N&gizmo_id=g-BGVU2wjKi&ts=490401&p=gpp&cid=1&sig=16fd358868fd553ddcd63bf240fc942cf20fb20dd2e47204ab0537a2dee43158&v=0",
+                            "categories": [
+                                "other"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-09T20:04:02.346739+00:00",
+                        "updated_at": "2025-12-11T09:37:01.979253+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2025-10-21T12:56:37.879784+00:00",
+                        "version_updated_at": "2025-10-21T12:56:41.788098+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [
+                        {
+                            "id": "67a371ab1e1081918938f2898776e4de",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "67a371b1eeec8191ae14611cd9ab2e76",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "67a371b4c3888191ba568bf1dd7df483",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "67a371b4c3ec8191ba24277869bf7be3",
+                            "type": "canvas",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "68e2535e6e088191ad5c2da17f4668f0",
+                            "type": "image_gen",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/pdf",
+                                "application/msword",
+                                "text/markdown",
+                                "application/x-rust",
+                                "application/x-powershell",
+                                "text/xml",
+                                "text/x-c++",
+                                "text/x-swift",
+                                "text/x-clojure",
+                                "text/x-php",
+                                "text/x-astro",
+                                "application/x-scala",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-jade",
+                                "text/x-csharp",
+                                "text/x-erlang",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/calendar",
+                                "text/x-shellscript",
+                                "text/x-julia",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/rtf",
+                                "text/css",
+                                "text/x-lua",
+                                "text/x-perl",
+                                "text/vbscript",
+                                "text/tsx",
+                                "text/x-java",
+                                "text/x-tex",
+                                "text/x-twig",
+                                "application/vnd.ms-powerpoint",
+                                "text/plain",
+                                "text/x-erb",
+                                "text/rtf",
+                                "text/x-scala",
+                                "text/x-tmpl",
+                                "text/x-vcard",
+                                "text/x-groovy",
+                                "text/x-ejs",
+                                "text/javascript",
+                                "text/x-rust",
+                                "application/toml",
+                                "text/x-objectivec++",
+                                "text/x-asm",
+                                "text/x-script.python",
+                                "text/x-dart",
+                                "message/rfc822",
+                                "text/x-diff",
+                                "application/vnd.apple.pages",
+                                "text/x-objectivec",
+                                "text/x-mustache",
+                                "application/javascript",
+                                "text/x-typescript",
+                                "text/x-go",
+                                "text/x-handlebars",
+                                "text/x-makefile",
+                                "text/x-c",
+                                "text/x-kotlin",
+                                "text/x-jinja2",
+                                "text/x-python",
+                                "application/json",
+                                "text/x-r",
+                                "application/x-sql",
+                                "text/x-lisp",
+                                "text/html",
+                                "text/jsx",
+                                "text/x-pug",
+                                "text/x-ruby",
+                                "text/x-liquid",
+                                "application/x-yaml",
+                                "text/x-elixir",
+                                "text/x-sh",
+                                "text/x-rst",
+                                "application/vnd.apple.keynote",
+                                "text/x-haskell"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-k2kWL8Qfk",
+                        "organization_id": "org-tGvRBpVEwf7i5JnHbUKQ6lLS",
+                        "short_url": "g-k2kWL8Qfk-b-bryt-gpt-ts-t",
+                        "author": {
+                            "user_id": "user-Ji3Pnu5llYSvlKypY2P7ZvMV",
+                            "user_email": null,
+                            "display_name": "kfir marco",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "-MLpydbcS3",
+                                        "username": "kfir marco",
+                                        "display_name": "kfir marco",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/kfir-marco-744790281"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": "gpt-5-1",
+                        "instructions": null,
+                        "display": {
+                            "name": "בעברית GPT צ'אט",
+                            "description": "צ'אט חכם עם תפריט תפקידים, קבצים, קוד, תמונות ופקודות מיוחדות – לגמרי בחינם! .  💖",
+                            "prompt_starters": [],
+                            "profile_pic_id": "file-kjIABxRvQ57FTHm5GTWte5PL",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-kjIABxRvQ57FTHm5GTWte5PL&gizmo_id=g-k2kWL8Qfk&ts=490401&p=gpp&cid=1&sig=56c7d8f6e27f99499bd9fca306ce401895245ef84166334b9dfb309982922884&v=0",
+                            "categories": [
+                                "lifestyle"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-16T15:31:33.864438+00:00",
+                        "updated_at": "2025-12-11T09:37:25.584713+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2025-12-08T12:18:50.899177+00:00",
+                        "version_updated_at": "2025-12-08T12:18:54.558282+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_QrzZrc5zcwouNcm44p1ItDQU~gzm_tool_zeJtVQmJhgSzTcsZ0hglrClJ",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_QrzZrc5zcwouNcm44p1ItDQU~gzm_tool_9FgFCHPnwxSRKuN0kCBtQEzf",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "674e70ac58ec8191b2e8d82c17357758",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "6759c57958888191bb3bd4237bc3ab19",
+                            "type": "canvas",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "683183cf9dc48191870962920d3b1bc0",
+                            "type": "image_gen",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/pdf",
+                                "application/msword",
+                                "text/markdown",
+                                "application/x-rust",
+                                "application/x-powershell",
+                                "text/xml",
+                                "text/x-c++",
+                                "text/x-swift",
+                                "text/x-clojure",
+                                "text/x-php",
+                                "text/x-astro",
+                                "application/x-scala",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-jade",
+                                "text/x-csharp",
+                                "text/x-erlang",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/calendar",
+                                "text/x-shellscript",
+                                "text/x-julia",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/rtf",
+                                "text/css",
+                                "text/x-lua",
+                                "text/x-perl",
+                                "text/vbscript",
+                                "text/tsx",
+                                "text/x-java",
+                                "text/x-tex",
+                                "text/x-twig",
+                                "application/vnd.ms-powerpoint",
+                                "text/plain",
+                                "text/x-erb",
+                                "text/rtf",
+                                "text/x-scala",
+                                "text/x-tmpl",
+                                "text/x-vcard",
+                                "text/x-groovy",
+                                "text/x-ejs",
+                                "text/javascript",
+                                "text/x-rust",
+                                "application/toml",
+                                "text/x-objectivec++",
+                                "text/x-asm",
+                                "text/x-script.python",
+                                "text/x-dart",
+                                "message/rfc822",
+                                "text/x-diff",
+                                "application/vnd.apple.pages",
+                                "text/x-objectivec",
+                                "text/x-mustache",
+                                "application/javascript",
+                                "text/x-typescript",
+                                "text/x-go",
+                                "text/x-handlebars",
+                                "text/x-makefile",
+                                "text/x-c",
+                                "text/x-kotlin",
+                                "text/x-jinja2",
+                                "text/x-python",
+                                "application/json",
+                                "text/x-r",
+                                "application/x-sql",
+                                "text/x-lisp",
+                                "text/html",
+                                "text/jsx",
+                                "text/x-pug",
+                                "text/x-ruby",
+                                "text/x-liquid",
+                                "application/x-yaml",
+                                "text/x-elixir",
+                                "text/x-sh",
+                                "text/x-rst",
+                                "application/vnd.apple.keynote",
+                                "text/x-haskell"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-mHCPUrEvZ",
+                        "organization_id": "org-AAmBh3jxYBL2rj1xkemFvOw2",
+                        "short_url": "g-mHCPUrEvZ-unsebagsa-gpt-ai-saju-segye-1wi-sajupalja-sinnyeonunse-hangug-korean-myeongrihag",
+                        "author": {
+                            "user_id": "user-hv1iclw4GcvUDnHBeyNpOYqg",
+                            "user_email": null,
+                            "display_name": "aifortunedoctor.com",
+                            "link_to": "https://aifortunedoctor.com",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": null,
+                        "instructions": null,
+                        "display": {
+                            "name": "운세박사 GPT - AI 사주 \"세계 1위\" 사주팔자 신년운세 한국 Korean 명리학",
+                            "description": "월간 이용자 수 100만 명+ 세계 1위 사주 웹툰 회사 청월당 팀에서 직접 만든 무료 AI 사주 \"운세박사 GPT\" 입니다. 연예인, 재벌, 전문직 사주를 보는 청담동, 한남동, 압구정동 사주 점술가 20명+과 협업하여 개발하는 청월당 팀만의 압도적인 기술력을 챗GPT를 통해서 무료로 이용해보세요. 다른 GPT들은 가짜 사주 명식을 생성해냅니다. 오직 \"운세박사 GPT\"만 명리학 원리에 따른 정확한 사주풀이를 할 수 있습니다. 궁합,작명,애정운,관상,손금,부적,해몽,신점,챗지피티 사주,포스텔러,헬로우봇,점신,신년운세,챗GPT사주",
+                            "prompt_starters": [
+                                "유재석 사주팔자 봐주세요. (양력, 1972-08-14, 남자, 태어난 시간 오전 6시)",
+                                "차은우는 누구랑 결혼하게 될까요? 사주를 보고 알려주세요. 배우 차은우: 양력, 1997-3-30, 남자, 태어난 시간 낮 12시 8분"
+                            ],
+                            "profile_pic_id": "file-JXMJ4FeREZ5WHWNcZbEU3m",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-JXMJ4FeREZ5WHWNcZbEU3m&gizmo_id=g-mHCPUrEvZ&ts=490401&p=gpp&cid=1&sig=32d9fdc5b80226ed31b28e83c69c42333551e167d6db806bdfada486f973405d&v=0",
+                            "categories": [
+                                "lifestyle"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-23T14:38:18.412589+00:00",
+                        "updated_at": "2025-12-11T09:37:36.027345+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2025-10-02T04:49:31.241990+00:00",
+                        "version_updated_at": "2025-10-02T04:49:38.798063+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_eAFCWX9gHsQdYOWkmgosSpK6~gzm_tool_2WFU2f7YzWxH3ElZ5SQ5tXyn",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "68de045b3e08819194e88f777599924a",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-2fec500b9e53e461a91745e0aa920f513faf8b48",
+                                "domain": "api.aifortunedoctor.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.1.0",
+                                    "info": {
+                                        "title": "운세박사",
+                                        "description": "사용자가 태어난 생년월일, 시간, 성별, 양력/음력 여부로 만세력을 계산한 뒤, 해당 만세력을 바탕으로 사주팔자를 해석합니다.",
+                                        "version": "v1"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://api.aifortunedoctor.com"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/manse": {
+                                            "post": {
+                                                "summary": "Calculate Manse Calendar From Birth Date.",
+                                                "description": "Calculate Manse Calendar From Birth Date. Using Manse Calendar, 운세박사 can calculate user's fortune.",
+                                                "operationId": "get_manse_calendar_for_fortune_telling",
+                                                "x-openai-isConsequential": false,
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "required": [
+                                                                    "birthday",
+                                                                    "birthdayType",
+                                                                    "gender"
+                                                                ],
+                                                                "properties": {
+                                                                    "birthday": {
+                                                                        "type": "string",
+                                                                        "description": "User's birthday in YYYYMMDD format.",
+                                                                        "minLength": 8,
+                                                                        "maxLength": 8,
+                                                                        "pattern": "^(19[0-9][0-9]|20\\d{2}|2100)(0[0-9]|1[0-2])(0[1-9]|[1-2][0-9]|3[0-1])$"
+                                                                    },
+                                                                    "time": {
+                                                                        "type": "string",
+                                                                        "description": "Optional time in hours. If user don't input the birth time, the default value is 99. 00:00~01:29 -> 00, 01:30~03:29 -> 02, 03:30~05:29 -> 04, 05:30~07:29 -> 06, 07:30~09:29 -> 08, 09:30~11:29 -> 10, 11:30~13:29 -> 12, 13:30~15:29 -> 14, 15:30~17:29 -> 16, 17:30~19:29 -> 18, 19:30~21:29 -> 20, 21:30~23:29 -> 22, 23:30~23:59 -> 24.",
+                                                                        "minLength": 0,
+                                                                        "maxLength": 2,
+                                                                        "enum": [
+                                                                            "99",
+                                                                            "00",
+                                                                            "02",
+                                                                            "04",
+                                                                            "06",
+                                                                            "08",
+                                                                            "10",
+                                                                            "12",
+                                                                            "14",
+                                                                            "16",
+                                                                            "18",
+                                                                            "20",
+                                                                            "22",
+                                                                            "24"
+                                                                        ]
+                                                                    },
+                                                                    "birthdayType": {
+                                                                        "type": "string",
+                                                                        "description": "Type of birthday (SOLAR or LUNAR). Default Value is SOLAR. If user input 양력 -> SOLAR, if user input 음력 -> LUNAR.",
+                                                                        "enum": [
+                                                                            "SOLAR",
+                                                                            "LUNAR"
+                                                                        ]
+                                                                    },
+                                                                    "gender": {
+                                                                        "type": "string",
+                                                                        "description": "Gender of the user (MALE or FEMALE). 남성 -> MALE, 여성 -> FEMALE",
+                                                                        "enum": [
+                                                                            "MALE",
+                                                                            "FEMALE"
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful response",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "result": {
+                                                                            "type": "string",
+                                                                            "description": "Calculation result"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Bad request"
+                                                    },
+                                                    "500": {
+                                                        "description": "Server error"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "none"
+                                },
+                                "privacy_policy_url": "https://aifortunedoctor.com/policy/privacy/gpt_privacy"
+                            }
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/pdf",
+                                "application/msword",
+                                "text/markdown",
+                                "application/x-rust",
+                                "application/x-powershell",
+                                "text/xml",
+                                "text/x-c++",
+                                "text/x-swift",
+                                "text/x-clojure",
+                                "text/x-php",
+                                "text/x-astro",
+                                "application/x-scala",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-jade",
+                                "text/x-csharp",
+                                "text/x-erlang",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/calendar",
+                                "text/x-shellscript",
+                                "text/x-julia",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/rtf",
+                                "text/css",
+                                "text/x-lua",
+                                "text/x-perl",
+                                "text/vbscript",
+                                "text/tsx",
+                                "text/x-java",
+                                "text/x-tex",
+                                "text/x-twig",
+                                "application/vnd.ms-powerpoint",
+                                "text/plain",
+                                "text/x-erb",
+                                "text/rtf",
+                                "text/x-scala",
+                                "text/x-tmpl",
+                                "text/x-vcard",
+                                "text/x-groovy",
+                                "text/x-ejs",
+                                "text/javascript",
+                                "text/x-rust",
+                                "application/toml",
+                                "text/x-objectivec++",
+                                "text/x-asm",
+                                "text/x-script.python",
+                                "text/x-dart",
+                                "message/rfc822",
+                                "text/x-diff",
+                                "application/vnd.apple.pages",
+                                "text/x-objectivec",
+                                "text/x-mustache",
+                                "application/javascript",
+                                "text/x-typescript",
+                                "text/x-go",
+                                "text/x-handlebars",
+                                "text/x-makefile",
+                                "text/x-c",
+                                "text/x-kotlin",
+                                "text/x-jinja2",
+                                "text/x-python",
+                                "application/json",
+                                "text/x-r",
+                                "application/x-sql",
+                                "text/x-lisp",
+                                "text/html",
+                                "text/jsx",
+                                "text/x-pug",
+                                "text/x-ruby",
+                                "text/x-liquid",
+                                "application/x-yaml",
+                                "text/x-elixir",
+                                "text/x-sh",
+                                "text/x-rst",
+                                "application/vnd.apple.keynote",
+                                "text/x-haskell"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-ipOIcM229",
+                        "organization_id": "org-g9pBjQ05HLnrLH0x4lCxuKo8",
+                        "short_url": "g-ipOIcM229-fitness-workout-diet-phd-coach",
+                        "author": {
+                            "user_id": "user-QJvIO3xslrrUuSUBqKl0TU2Y",
+                            "user_email": null,
+                            "display_name": "Newgen PhD",
+                            "link_to": "https://newgenphd.com",
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": null,
+                        "instructions": null,
+                        "display": {
+                            "name": "Fitness, Workout & Diet - PhD Coach",
+                            "description": "🟢 IMPROVE QUICKLY 🎁 Get Bonus Gift 🎁 Receive turn-key fitness & workout support plus advanced diet & nutrition insights. Trained on 232,625 PhD-level empirical data points. v3.27",
+                            "prompt_starters": [
+                                "🟢 Improve quickly + 🎁 Gift.",
+                                "🔴  Learn Any Skill via N3S.",
+                                "Build a scientific workout plan.",
+                                "Quickly analyze your diet."
+                            ],
+                            "profile_pic_id": "file-5f1JkpDKEg1Q5BisIfQCEgKj",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-5f1JkpDKEg1Q5BisIfQCEgKj&gizmo_id=g-ipOIcM229&ts=490401&p=gpp&cid=1&sig=d5df8e09bcda4b909d1cfee539c5d5b3ede1ce163219c5b4731e97e329bc3348&v=0",
+                            "categories": [
+                                "lifestyle"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-11T00:08:13.653250+00:00",
+                        "updated_at": "2025-12-11T09:37:30.628595+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2024-12-15T07:53:58.104605+00:00",
+                        "version_updated_at": "2025-08-05T03:22:16.405561+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [
+                        {
+                            "id": "675e8b161b58819197677a71d2d5afdb",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "675e8b161b7c8191a940beab4c1ab515",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "675e8b161b9c8191b5eee42b9e71859c",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "675e8aa04a448191a85184a56bc644fa",
+                            "type": "text/markdown",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "675e8aa04a6c81919830a521a5ae2e05",
+                            "type": "text/markdown",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "675e8aa04a908191b1b9743a99bf22d2",
+                            "type": "text/markdown",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "675e8aa04ab08191a70b2f9f7ab15904",
+                            "type": "text/markdown",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "675e8aa04acc8191a33030fd0129925f",
+                            "type": "text/markdown",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "675e8aa04ae881918bffe8261dbe898e",
+                            "type": "text/markdown",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "675e8aa04b048191b6da0667b5c4252f",
+                            "type": "text/markdown",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "675e8abc06488191b529075cfeba7960",
+                            "type": "text/markdown",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "675e8abc0674819198dd2122d986f029",
+                            "type": "text/markdown",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "675e8abc06948191bc4ea0b59f597209",
+                            "type": "text/markdown",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "675e8abc06ac8191ba4029139c94d4c0",
+                            "type": "text/markdown",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "675e8abc06c88191bb36c4aba3eae4a9",
+                            "type": "text/markdown",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "675e8abc06e48191b50388f863557e29",
+                            "type": "text/markdown",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "675e8abc06fc81919af33084f19fc6f4",
+                            "type": "text/markdown",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/pdf",
+                                "application/msword",
+                                "text/markdown",
+                                "application/x-rust",
+                                "application/x-powershell",
+                                "text/xml",
+                                "text/x-c++",
+                                "text/x-swift",
+                                "text/x-clojure",
+                                "text/x-php",
+                                "text/x-astro",
+                                "application/x-scala",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-jade",
+                                "text/x-csharp",
+                                "text/x-erlang",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/calendar",
+                                "text/x-shellscript",
+                                "text/x-julia",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/rtf",
+                                "text/css",
+                                "text/x-lua",
+                                "text/x-perl",
+                                "text/vbscript",
+                                "text/tsx",
+                                "text/x-java",
+                                "text/x-tex",
+                                "text/x-twig",
+                                "application/vnd.ms-powerpoint",
+                                "text/plain",
+                                "text/x-erb",
+                                "text/rtf",
+                                "text/x-scala",
+                                "text/x-tmpl",
+                                "text/x-vcard",
+                                "text/x-groovy",
+                                "text/x-ejs",
+                                "text/javascript",
+                                "text/x-rust",
+                                "application/toml",
+                                "text/x-objectivec++",
+                                "text/x-asm",
+                                "text/x-script.python",
+                                "text/x-dart",
+                                "message/rfc822",
+                                "text/x-diff",
+                                "application/vnd.apple.pages",
+                                "text/x-objectivec",
+                                "text/x-mustache",
+                                "application/javascript",
+                                "text/x-typescript",
+                                "text/x-go",
+                                "text/x-handlebars",
+                                "text/x-makefile",
+                                "text/x-c",
+                                "text/x-kotlin",
+                                "text/x-jinja2",
+                                "text/x-python",
+                                "application/json",
+                                "text/x-r",
+                                "application/x-sql",
+                                "text/x-lisp",
+                                "text/html",
+                                "text/jsx",
+                                "text/x-pug",
+                                "text/x-ruby",
+                                "text/x-liquid",
+                                "application/x-yaml",
+                                "text/x-elixir",
+                                "text/x-sh",
+                                "text/x-rst",
+                                "application/vnd.apple.keynote",
+                                "text/x-haskell"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-bOHE77cGN",
+                        "organization_id": "org-JMo6TjIEDdLnEeGnNLlLs30S",
+                        "short_url": "g-bOHE77cGN-sajupalja-myeongrihag-bangmunyul-1wi-unse-saju-gunghab-insaeng-saeob-janyeo-gilil",
+                        "author": {
+                            "user_id": "user-NKCcu1JcusqyXBG4iQbOOkkt",
+                            "user_email": null,
+                            "display_name": "LEE NA YOUNG",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": false,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": "gpt-5",
+                        "instructions": null,
+                        "display": {
+                            "name": "사주팔자 명리학 -  (\"방문율 1위\" 운세, 사주, 궁합, 인생, 사업, 자녀, 길일)",
+                            "description": "\"방문율 1위\" 명리학 책을 바탕으로, 3백만명이 선택한 사주 상담을 제공합니다. (**설명이 부족하면 \"더 설명해\" 라고 말해주세요!)",
+                            "prompt_starters": [
+                                "시작",
+                                "오늘운세, 평생사주, 연인궁합, 인생상담, 이사일자, 자녀상담, 재물운, 학업방향, 사업상담 기타 등등",
+                                "한국천문연구원기준으로 정확한 만세력을 제공합니다.",
+                                "답변 내용이 부실하면 \"더 말해줘\" !!라고 입력하세요",
+                                "본인의 추가적인 궁금한것은 물어봐주세요."
+                            ],
+                            "profile_pic_id": "file-AWEWkKl1FPwtDqiFJji2wjYE",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-AWEWkKl1FPwtDqiFJji2wjYE&gizmo_id=g-bOHE77cGN&ts=490401&p=gpp&cid=1&sig=49b5506727a8075b1b7c5093bb05722091743f9b7f462cd8a507f5c12eb15ed5&v=0",
+                            "categories": [
+                                "lifestyle"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-01-18T06:10:56.358027+00:00",
+                        "updated_at": "2025-12-11T09:37:39.204616+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2025-11-14T06:14:51.541592+00:00",
+                        "version_updated_at": "2025-11-14T06:15:10.336403+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [
+                        {
+                            "id": "681cce31e6bc819182c72fd0f01853fb",
+                            "type": "canvas",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "681cce31e6e8819187bb27b1d1007a31",
+                            "type": "image_gen",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "681cce31e7188191885e7984cd0abeee",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "6916c8db8ae08191ad38c3c1f7e332ad",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-44f6757d8fee87d3bcd8d2ce094b8954b54d5ef2",
+                                "domain": "alphasss.onrender.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.1.0",
+                                    "info": {
+                                        "title": "Saju Manse API",
+                                        "version": "1.0.6",
+                                        "description": "Korean Four Pillars (사주팔자) fortune telling API with complete fortune analysis.\n- 모든 날짜/시간은 한국 표준시(KST, UTC+9) 기준으로 처리/반환됩니다.\n- `format=md|markdown`이면 응답은 `text/markdown`으로 반환합니다.\n"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://alphasss.onrender.com"
+                                        }
+                                    ],
+                                    "security": [
+                                        {
+                                            "ApiKeyAuth": []
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/api/saju": {
+                                            "get": {
+                                                "operationId": "getSaju",
+                                                "summary": "사주 API - 완전한 사주팔자 분석",
+                                                "description": "`format=json`(기본) 또는 `format=md|markdown`으로 결과를 반환합니다.\nGPT에 재가공 여지를 막으려면 `format=md`를 권장합니다.\n",
+                                                "parameters": [
+                                                    {
+                                                        "name": "y",
+                                                        "in": "query",
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "integer",
+                                                            "minimum": 1900,
+                                                            "maximum": 2100
+                                                        },
+                                                        "description": "태어난 연도 (YYYY)"
+                                                    },
+                                                    {
+                                                        "name": "m",
+                                                        "in": "query",
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "integer",
+                                                            "minimum": 1,
+                                                            "maximum": 12
+                                                        },
+                                                        "description": "태어난 월 (1-12)"
+                                                    },
+                                                    {
+                                                        "name": "d",
+                                                        "in": "query",
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "integer",
+                                                            "minimum": 1,
+                                                            "maximum": 31
+                                                        },
+                                                        "description": "태어난 일 (1-31)"
+                                                    },
+                                                    {
+                                                        "name": "hh",
+                                                        "in": "query",
+                                                        "required": false,
+                                                        "schema": {
+                                                            "type": "integer",
+                                                            "minimum": 0,
+                                                            "maximum": 23,
+                                                            "default": 0
+                                                        },
+                                                        "description": "태어난 시 (0-23, 기본 0)"
+                                                    },
+                                                    {
+                                                        "name": "mm",
+                                                        "in": "query",
+                                                        "required": false,
+                                                        "schema": {
+                                                            "type": "integer",
+                                                            "minimum": 0,
+                                                            "maximum": 59,
+                                                            "default": 0
+                                                        },
+                                                        "description": "태어난 분 (0-59, 기본 0)"
+                                                    },
+                                                    {
+                                                        "name": "calendar",
+                                                        "in": "query",
+                                                        "required": false,
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "enum": [
+                                                                "solar",
+                                                                "lunar"
+                                                            ],
+                                                            "default": "solar"
+                                                        },
+                                                        "description": "양력(solar) 또는 음력(lunar)"
+                                                    },
+                                                    {
+                                                        "name": "leap",
+                                                        "in": "query",
+                                                        "required": false,
+                                                        "schema": {
+                                                            "type": "boolean",
+                                                            "default": false
+                                                        },
+                                                        "description": "음력 윤달 여부. *calendar=lunar*일 때만 의미가 있음."
+                                                    },
+                                                    {
+                                                        "name": "gender",
+                                                        "in": "query",
+                                                        "required": false,
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "enum": [
+                                                                "남",
+                                                                "여"
+                                                            ],
+                                                            "default": "남"
+                                                        },
+                                                        "description": "성별 (남/여)"
+                                                    },
+                                                    {
+                                                        "name": "fortune_year",
+                                                        "in": "query",
+                                                        "required": false,
+                                                        "schema": {
+                                                            "type": "integer"
+                                                        },
+                                                        "description": "운세 계산 기준 연도(없으면 서버 기본 로직)"
+                                                    },
+                                                    {
+                                                        "name": "start_age",
+                                                        "in": "query",
+                                                        "required": false,
+                                                        "schema": {
+                                                            "type": "integer",
+                                                            "minimum": 0
+                                                        },
+                                                        "description": "대운 시작 나이를 강제 지정(옵션)"
+                                                    },
+                                                    {
+                                                        "name": "format",
+                                                        "in": "query",
+                                                        "required": false,
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "enum": [
+                                                                "json",
+                                                                "md",
+                                                                "markdown"
+                                                            ],
+                                                            "default": "json"
+                                                        },
+                                                        "description": "응답 포맷. md/markdown은 마크다운 표를 그대로 반환"
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "사주팔자 분석 결과",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/SajuResponse"
+                                                                }
+                                                            },
+                                                            "text/markdown": {
+                                                                "schema": {
+                                                                    "type": "string"
+                                                                },
+                                                                "example": "## 사주 4주\n| 시주 | 일주 | 월주 | 연주 |\n|:---:|:---:|:---:|:---:|\n| 庚子 | 丁亥 | 甲子 | 癸亥 |\n\n## 오행 분포\n| 목 | 화 | 토 | 금 | 수 |\n|:---:|:---:|:---:|:---:|:---:|\n| 1 | 1 | 0 | 1 | 5 |\n"
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "잘못된 요청(유효성 오류 등)",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/Error"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "401": {
+                                                        "description": "인증 실패 (X-API-Key 누락/오류)",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/Error"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "403": {
+                                                        "description": "금지된 패턴 등 사전 차단",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/Error"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "429": {
+                                                        "description": "요청 과다(레이트 리밋/자원 보호)",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/Error"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "503": {
+                                                        "description": "서비스 일시 중단(자원 부족 등)",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/Error"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "500": {
+                                                        "description": "서버 오류",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/Error"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "securitySchemes": {
+                                            "ApiKeyAuth": {
+                                                "type": "apiKey",
+                                                "in": "header",
+                                                "name": "X-API-Key"
+                                            }
+                                        },
+                                        "schemas": {
+                                            "SajuResponse": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "converted_datetime": {
+                                                        "type": "string",
+                                                        "format": "date-time",
+                                                        "description": "변환된 날짜시간(ISO8601, KST)"
+                                                    },
+                                                    "signature": {
+                                                        "type": "string",
+                                                        "deprecated": true,
+                                                        "description": "이전 버전 호환. 현재는 기본 포함되지 않을 수 있음"
+                                                    },
+                                                    "pillars": {
+                                                        "$ref": "#/components/schemas/Pillars"
+                                                    },
+                                                    "pillars_korean": {
+                                                        "$ref": "#/components/schemas/PillarsKorean"
+                                                    },
+                                                    "five_elements": {
+                                                        "$ref": "#/components/schemas/FiveElements"
+                                                    },
+                                                    "five_elements_en": {
+                                                        "$ref": "#/components/schemas/FiveElementsEN"
+                                                    },
+                                                    "deep": {
+                                                        "$ref": "#/components/schemas/Deep"
+                                                    },
+                                                    "fortune": {
+                                                        "$ref": "#/components/schemas/Fortune"
+                                                    },
+                                                    "stemRelations": {
+                                                        "type": "array",
+                                                        "description": "천간 특수관계(충/합 등) 목록",
+                                                        "items": {
+                                                            "$ref": "#/components/schemas/StemRelationItem"
+                                                        }
+                                                    },
+                                                    "branchRelations": {
+                                                        "$ref": "#/components/schemas/BranchRelations"
+                                                    },
+                                                    "branchSals": {
+                                                        "$ref": "#/components/schemas/SalsByPillar"
+                                                    },
+                                                    "ganSals": {
+                                                        "$ref": "#/components/schemas/SalsByPillar"
+                                                    },
+                                                    "specialSals": {
+                                                        "$ref": "#/components/schemas/SalsByPillar"
+                                                    },
+                                                    "allSals": {
+                                                        "$ref": "#/components/schemas/SalsByPillar"
+                                                    },
+                                                    "input": {
+                                                        "$ref": "#/components/schemas/InputInfo"
+                                                    }
+                                                }
+                                            },
+                                            "Pillars": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "year": {
+                                                        "type": "string",
+                                                        "description": "연주 간지"
+                                                    },
+                                                    "month": {
+                                                        "type": "string",
+                                                        "description": "월주 간지"
+                                                    },
+                                                    "day": {
+                                                        "type": "string",
+                                                        "description": "일주 간지"
+                                                    },
+                                                    "hour": {
+                                                        "type": "string",
+                                                        "description": "시주 간지"
+                                                    },
+                                                    "leap_month": {
+                                                        "type": "boolean",
+                                                        "description": "윤달 여부"
+                                                    },
+                                                    "birth_dt": {
+                                                        "type": "string",
+                                                        "format": "date-time",
+                                                        "description": "출생 일시(KST)"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "year",
+                                                    "month",
+                                                    "day",
+                                                    "hour",
+                                                    "leap_month",
+                                                    "birth_dt"
+                                                ]
+                                            },
+                                            "PillarsKorean": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "year": {
+                                                        "type": "string"
+                                                    },
+                                                    "month": {
+                                                        "type": "string"
+                                                    },
+                                                    "day": {
+                                                        "type": "string"
+                                                    },
+                                                    "hour": {
+                                                        "type": "string"
+                                                    },
+                                                    "leap_month": {
+                                                        "type": "boolean"
+                                                    },
+                                                    "birth_dt": {
+                                                        "type": "string",
+                                                        "format": "date-time"
+                                                    }
+                                                }
+                                            },
+                                            "FiveElements": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "목": {
+                                                        "type": "integer"
+                                                    },
+                                                    "화": {
+                                                        "type": "integer"
+                                                    },
+                                                    "토": {
+                                                        "type": "integer"
+                                                    },
+                                                    "금": {
+                                                        "type": "integer"
+                                                    },
+                                                    "수": {
+                                                        "type": "integer"
+                                                    }
+                                                }
+                                            },
+                                            "FiveElementsEN": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "Wood": {
+                                                        "type": "integer"
+                                                    },
+                                                    "Fire": {
+                                                        "type": "integer"
+                                                    },
+                                                    "Earth": {
+                                                        "type": "integer"
+                                                    },
+                                                    "Metal": {
+                                                        "type": "integer"
+                                                    },
+                                                    "Water": {
+                                                        "type": "integer"
+                                                    }
+                                                }
+                                            },
+                                            "Deep": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "십성": {
+                                                        "$ref": "#/components/schemas/FourPillarsStrings"
+                                                    },
+                                                    "정기지지십성": {
+                                                        "$ref": "#/components/schemas/FourPillarsStrings"
+                                                    },
+                                                    "지지십성": {
+                                                        "$ref": "#/components/schemas/FourPillarsStrings"
+                                                    },
+                                                    "봉법12운성": {
+                                                        "$ref": "#/components/schemas/FourPillarsStrings"
+                                                    },
+                                                    "거법12운성": {
+                                                        "$ref": "#/components/schemas/FourPillarsStrings"
+                                                    }
+                                                }
+                                            },
+                                            "FourPillarsStrings": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "year": {
+                                                        "type": "string"
+                                                    },
+                                                    "month": {
+                                                        "type": "string"
+                                                    },
+                                                    "day": {
+                                                        "type": "string"
+                                                    },
+                                                    "hour": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "Fortune": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "direction": {
+                                                        "type": "string",
+                                                        "description": "대운 방향",
+                                                        "enum": [
+                                                            "순행",
+                                                            "역행"
+                                                        ]
+                                                    },
+                                                    "start_age": {
+                                                        "type": "integer",
+                                                        "description": "대운 시작 나이"
+                                                    },
+                                                    "total_days": {
+                                                        "type": "integer",
+                                                        "description": "총 일수"
+                                                    },
+                                                    "current_age": {
+                                                        "type": "integer",
+                                                        "description": "현재 나이"
+                                                    },
+                                                    "dayun": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "age_range": {
+                                                                    "type": "string",
+                                                                    "description": "대운 나이 범위"
+                                                                },
+                                                                "ganzhi": {
+                                                                    "type": "string",
+                                                                    "description": "대운 간지"
+                                                                },
+                                                                "stem": {
+                                                                    "type": "string",
+                                                                    "description": "대운 천간"
+                                                                },
+                                                                "branch": {
+                                                                    "type": "string",
+                                                                    "description": "대운 지지"
+                                                                },
+                                                                "start_year": {
+                                                                    "type": "integer",
+                                                                    "description": "대운 시작 연도"
+                                                                },
+                                                                "direction": {
+                                                                    "type": "string",
+                                                                    "description": "순행/역행"
+                                                                },
+                                                                "is_current": {
+                                                                    "type": "boolean",
+                                                                    "description": "현재 대운 여부"
+                                                                },
+                                                                "sal": {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "string"
+                                                                    }
+                                                                },
+                                                                "12unsung": {
+                                                                    "type": "string",
+                                                                    "description": "대운 12운성"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "seyun": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "year": {
+                                                                    "type": "integer",
+                                                                    "description": "세운 연도"
+                                                                },
+                                                                "ganzhi": {
+                                                                    "type": "string",
+                                                                    "description": "세운 간지"
+                                                                },
+                                                                "stem": {
+                                                                    "type": "string",
+                                                                    "description": "세운 천간"
+                                                                },
+                                                                "branch": {
+                                                                    "type": "string",
+                                                                    "description": "세운 지지"
+                                                                },
+                                                                "sal": {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "string"
+                                                                    }
+                                                                },
+                                                                "12unsung": {
+                                                                    "type": "string",
+                                                                    "description": "세운 12운성"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "wolyun": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "month": {
+                                                                    "type": "integer",
+                                                                    "description": "월운 월"
+                                                                },
+                                                                "month_name": {
+                                                                    "type": "string",
+                                                                    "description": "월운 월 이름"
+                                                                },
+                                                                "ganzhi": {
+                                                                    "type": "string",
+                                                                    "description": "월운 간지"
+                                                                },
+                                                                "stem": {
+                                                                    "type": "string",
+                                                                    "description": "월운 천간"
+                                                                },
+                                                                "branch": {
+                                                                    "type": "string",
+                                                                    "description": "월운 지지"
+                                                                },
+                                                                "sal": {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "string"
+                                                                    }
+                                                                },
+                                                                "12unsung": {
+                                                                    "type": "string",
+                                                                    "description": "월운 12운성"
+                                                                },
+                                                                "stem_tengod": {
+                                                                    "type": "string",
+                                                                    "description": "월운 천간십성"
+                                                                },
+                                                                "branch_tengod": {
+                                                                    "type": "string",
+                                                                    "description": "월운 지지십성"
+                                                                },
+                                                                "solar_term": {
+                                                                    "type": "string",
+                                                                    "description": "해당 월 절기"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "StemRelationItem": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "pillar": {
+                                                        "type": "string",
+                                                        "description": "해당 기둥",
+                                                        "enum": [
+                                                            "year",
+                                                            "month",
+                                                            "day",
+                                                            "hour"
+                                                        ]
+                                                    },
+                                                    "type": {
+                                                        "type": "string",
+                                                        "description": "관계 유형 (예: 충, 합 등)"
+                                                    },
+                                                    "pair": {
+                                                        "type": "string",
+                                                        "description": "관계 쌍 (예: 甲庚)"
+                                                    },
+                                                    "desc": {
+                                                        "type": "string",
+                                                        "description": "설명 (예: 甲庚沖)"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "pillar",
+                                                    "type",
+                                                    "pair"
+                                                ]
+                                            },
+                                            "BranchRelations": {
+                                                "type": "object",
+                                                "description": "지지 형·충·회·합 해석 (각 카테고리별 year/month/day/hour 문자열)",
+                                                "properties": {},
+                                                "additionalProperties": {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "year": {
+                                                            "type": "string"
+                                                        },
+                                                        "month": {
+                                                            "type": "string"
+                                                        },
+                                                        "day": {
+                                                            "type": "string"
+                                                        },
+                                                        "hour": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "required": [
+                                                        "year",
+                                                        "month",
+                                                        "day",
+                                                        "hour"
+                                                    ],
+                                                    "additionalProperties": false
+                                                },
+                                                "example": {
+                                                    "충": {
+                                                        "year": "巳亥, 巳亥",
+                                                        "month": "子午",
+                                                        "day": "巳亥",
+                                                        "hour": "子午"
+                                                    },
+                                                    "형": {
+                                                        "year": "亥亥",
+                                                        "month": "子酉",
+                                                        "day": "亥亥",
+                                                        "hour": "子酉"
+                                                    },
+                                                    "삼합": {
+                                                        "year": "申子辰",
+                                                        "month": "",
+                                                        "day": "",
+                                                        "hour": "申子辰"
+                                                    }
+                                                }
+                                            },
+                                            "SalsByPillar": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "year": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "month": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "day": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "hour": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "InputInfo": {
+                                                "type": "object",
+                                                "description": "입력 파라미터 정보",
+                                                "properties": {
+                                                    "calendar": {
+                                                        "type": "string"
+                                                    },
+                                                    "leap_month": {
+                                                        "type": "boolean"
+                                                    },
+                                                    "gender": {
+                                                        "type": "string"
+                                                    },
+                                                    "fortune_year": {
+                                                        "type": "integer"
+                                                    },
+                                                    "y": {
+                                                        "type": "integer"
+                                                    },
+                                                    "m": {
+                                                        "type": "integer"
+                                                    },
+                                                    "d": {
+                                                        "type": "integer"
+                                                    },
+                                                    "hh": {
+                                                        "type": "integer"
+                                                    },
+                                                    "mm": {
+                                                        "type": "integer"
+                                                    }
+                                                }
+                                            },
+                                            "Error": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "error": {
+                                                        "type": "string",
+                                                        "description": "에러 메시지"
+                                                    },
+                                                    "code": {
+                                                        "type": "string",
+                                                        "description": "에러 코드(예: E_AUTH, E_TIME, E_SIG)"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "service_http",
+                                    "instructions": "",
+                                    "authorization_type": "bearer",
+                                    "verification_tokens": {},
+                                    "custom_auth_header": ""
+                                },
+                                "privacy_policy_url": "https://www.notion.so/1ed8f27934448056993ee972299dc66f"
+                            }
+                        }
+                    ],
+                    "files": [
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "689763fc64a081918c3ad65ac4b95482",
+                            "type": "application/pdf",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/pdf",
+                                "application/msword",
+                                "text/markdown",
+                                "application/x-rust",
+                                "application/x-powershell",
+                                "text/xml",
+                                "text/x-c++",
+                                "text/x-swift",
+                                "text/x-clojure",
+                                "text/x-php",
+                                "text/x-astro",
+                                "application/x-scala",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-jade",
+                                "text/x-csharp",
+                                "text/x-erlang",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/calendar",
+                                "text/x-shellscript",
+                                "text/x-julia",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/rtf",
+                                "text/css",
+                                "text/x-lua",
+                                "text/x-perl",
+                                "text/vbscript",
+                                "text/tsx",
+                                "text/x-java",
+                                "text/x-tex",
+                                "text/x-twig",
+                                "application/vnd.ms-powerpoint",
+                                "text/plain",
+                                "text/x-erb",
+                                "text/rtf",
+                                "text/x-scala",
+                                "text/x-tmpl",
+                                "text/x-vcard",
+                                "text/x-groovy",
+                                "text/x-ejs",
+                                "text/javascript",
+                                "text/x-rust",
+                                "application/toml",
+                                "text/x-objectivec++",
+                                "text/x-asm",
+                                "text/x-script.python",
+                                "text/x-dart",
+                                "message/rfc822",
+                                "text/x-diff",
+                                "application/vnd.apple.pages",
+                                "text/x-objectivec",
+                                "text/x-mustache",
+                                "application/javascript",
+                                "text/x-typescript",
+                                "text/x-go",
+                                "text/x-handlebars",
+                                "text/x-makefile",
+                                "text/x-c",
+                                "text/x-kotlin",
+                                "text/x-jinja2",
+                                "text/x-python",
+                                "application/json",
+                                "text/x-r",
+                                "application/x-sql",
+                                "text/x-lisp",
+                                "text/html",
+                                "text/jsx",
+                                "text/x-pug",
+                                "text/x-ruby",
+                                "text/x-liquid",
+                                "application/x-yaml",
+                                "text/x-elixir",
+                                "text/x-sh",
+                                "text/x-rst",
+                                "application/vnd.apple.keynote",
+                                "text/x-haskell"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-1zMekbWTA",
+                        "organization_id": "org-7hdUoDmN8vcMm0bntFYki1wn",
+                        "short_url": "g-1zMekbWTA-tattoo-gpt",
+                        "author": {
+                            "user_id": "user-U4GcFpbp4ipxNZMJ0jUAuvbR",
+                            "user_email": null,
+                            "display_name": "Michael Moncada",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": null,
+                        "instructions": null,
+                        "display": {
+                            "name": "Tattoo GPT",
+                            "description": "Tattoo GPT designs your tattoo. It assists you in refining your tattoo ideas, suggests designs, generates visual previews of the designs, and offers customization options. It recommends tattoo artists or studios and provides aftercare advice.",
+                            "prompt_starters": [
+                                "Design my tattoo!",
+                                "How do I care for my tattoo?",
+                                "Who are highly rated Tattoo Artists in my area?",
+                                "Redesign a tattoo based on a photo I upload"
+                            ],
+                            "profile_pic_id": "file-5gbnQcPkuruwkwHjP2ptHmuT",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-5gbnQcPkuruwkwHjP2ptHmuT&gizmo_id=g-1zMekbWTA&ts=490401&p=gpp&cid=1&sig=360dc28f94ffbd90ac1b5e2e82a4ea2676f71235ab030ce27f90e8f2043298ee&v=0",
+                            "categories": [
+                                "other"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-10T16:07:55.690291+00:00",
+                        "updated_at": "2025-12-11T09:35:25.599922+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2023-11-10T20:05:45.981540+00:00",
+                        "version_updated_at": "2024-03-09T14:17:10.151118+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/pdf",
+                                "application/msword",
+                                "text/markdown",
+                                "application/x-rust",
+                                "application/x-powershell",
+                                "text/xml",
+                                "text/x-c++",
+                                "text/x-swift",
+                                "text/x-clojure",
+                                "text/x-php",
+                                "text/x-astro",
+                                "application/x-scala",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-jade",
+                                "text/x-csharp",
+                                "text/x-erlang",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/calendar",
+                                "text/x-shellscript",
+                                "text/x-julia",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/rtf",
+                                "text/css",
+                                "text/x-lua",
+                                "text/x-perl",
+                                "text/vbscript",
+                                "text/tsx",
+                                "text/x-java",
+                                "text/x-tex",
+                                "text/x-twig",
+                                "application/vnd.ms-powerpoint",
+                                "text/plain",
+                                "text/x-erb",
+                                "text/rtf",
+                                "text/x-scala",
+                                "text/x-tmpl",
+                                "text/x-vcard",
+                                "text/x-groovy",
+                                "text/x-ejs",
+                                "text/javascript",
+                                "text/x-rust",
+                                "application/toml",
+                                "text/x-objectivec++",
+                                "text/x-asm",
+                                "text/x-script.python",
+                                "text/x-dart",
+                                "message/rfc822",
+                                "text/x-diff",
+                                "application/vnd.apple.pages",
+                                "text/x-objectivec",
+                                "text/x-mustache",
+                                "application/javascript",
+                                "text/x-typescript",
+                                "text/x-go",
+                                "text/x-handlebars",
+                                "text/x-makefile",
+                                "text/x-c",
+                                "text/x-kotlin",
+                                "text/x-jinja2",
+                                "text/x-python",
+                                "application/json",
+                                "text/x-r",
+                                "application/x-sql",
+                                "text/x-lisp",
+                                "text/html",
+                                "text/jsx",
+                                "text/x-pug",
+                                "text/x-ruby",
+                                "text/x-liquid",
+                                "application/x-yaml",
+                                "text/x-elixir",
+                                "text/x-sh",
+                                "text/x-rst",
+                                "application/vnd.apple.keynote",
+                                "text/x-haskell"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-KU2U5o7Wj",
+                        "organization_id": "org-Q4gfuqh9qB2wNbQarIzOYDwv",
+                        "short_url": "g-KU2U5o7Wj-contracts-agreements",
+                        "author": {
+                            "user_id": "user-nZap0Ea5td9loJvoyqWFsZZa",
+                            "user_email": null,
+                            "display_name": "AIResearchPlus.com",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": null,
+                        "instructions": null,
+                        "display": {
+                            "name": "Contracts / Agreements",
+                            "description": "Disclaimer: always consult with a licensed professional; not legal advice; AI resource for study and educational purposes only, not for real document drafting; always consult with a relevant professional.",
+                            "prompt_starters": [
+                                "Let's start",
+                                "I have a question",
+                                "What is a Ratchet Clause?",
+                                "What are Clawback Provisions?"
+                            ],
+                            "profile_pic_id": "file-6eA2Au734h1UMbnVwWWCbH",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-6eA2Au734h1UMbnVwWWCbH&gizmo_id=g-KU2U5o7Wj&ts=490401&p=gpp&cid=1&sig=1cb1dce0c51c96974e914b26ed8d26d12baa2687ae86c232e62e5008ad0e7137&v=0",
+                            "categories": [
+                                "writing"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-09T07:50:16.655389+00:00",
+                        "updated_at": "2025-12-11T09:27:48.660776+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2025-08-21T15:42:39.277105+00:00",
+                        "version_updated_at": "2025-08-22T23:31:45.571895+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [
+                        {
+                            "id": "67b772de46548191ab8440e6454ac2e8",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "67b772de46888191a2c3fc02cd8205bc",
+                            "type": "canvas",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "67b772de46c08191ae919aa9017e0660",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "67b772de46fc81919dc36589da77b145",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "680cf8d64ca08191ad27fd7fc9a0dc48",
+                            "type": "image_gen",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/pdf",
+                                "application/msword",
+                                "text/markdown",
+                                "application/x-rust",
+                                "application/x-powershell",
+                                "text/xml",
+                                "text/x-c++",
+                                "text/x-swift",
+                                "text/x-clojure",
+                                "text/x-php",
+                                "text/x-astro",
+                                "application/x-scala",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-jade",
+                                "text/x-csharp",
+                                "text/x-erlang",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/calendar",
+                                "text/x-shellscript",
+                                "text/x-julia",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/rtf",
+                                "text/css",
+                                "text/x-lua",
+                                "text/x-perl",
+                                "text/vbscript",
+                                "text/tsx",
+                                "text/x-java",
+                                "text/x-tex",
+                                "text/x-twig",
+                                "application/vnd.ms-powerpoint",
+                                "text/plain",
+                                "text/x-erb",
+                                "text/rtf",
+                                "text/x-scala",
+                                "text/x-tmpl",
+                                "text/x-vcard",
+                                "text/x-groovy",
+                                "text/x-ejs",
+                                "text/javascript",
+                                "text/x-rust",
+                                "application/toml",
+                                "text/x-objectivec++",
+                                "text/x-asm",
+                                "text/x-script.python",
+                                "text/x-dart",
+                                "message/rfc822",
+                                "text/x-diff",
+                                "application/vnd.apple.pages",
+                                "text/x-objectivec",
+                                "text/x-mustache",
+                                "application/javascript",
+                                "text/x-typescript",
+                                "text/x-go",
+                                "text/x-handlebars",
+                                "text/x-makefile",
+                                "text/x-c",
+                                "text/x-kotlin",
+                                "text/x-jinja2",
+                                "text/x-python",
+                                "application/json",
+                                "text/x-r",
+                                "application/x-sql",
+                                "text/x-lisp",
+                                "text/html",
+                                "text/jsx",
+                                "text/x-pug",
+                                "text/x-ruby",
+                                "text/x-liquid",
+                                "application/x-yaml",
+                                "text/x-elixir",
+                                "text/x-sh",
+                                "text/x-rst",
+                                "application/vnd.apple.keynote",
+                                "text/x-haskell"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-txEiClD5G",
+                        "organization_id": "org-MUe4Ve6haTMoBMWA8wrsNrT9",
+                        "short_url": "g-txEiClD5G-song-maker",
+                        "author": {
+                            "user_id": "user-bbZZIvGm8HdK3lTEWhSlkg5k",
+                            "user_email": null,
+                            "display_name": "ailmind.com",
+                            "link_to": "https://ailmind.com",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": "gpt-5-1-thinking",
+                        "instructions": null,
+                        "display": {
+                            "name": "Song Maker",
+                            "description": "Create music using musical theory. Discover essential songwriting tips to compose music and create songs. This GPT can generate MIDI, chord progressions, musical notes, song lyrics, soundtracks and album covers.",
+                            "prompt_starters": [
+                                "Create a rock song inspired by these emojis: 🧙‍♂️⚡🏫🎩🦉📚⚔️🐍",
+                                "Design an iconic album cover that visualizes my song's lyrics.",
+                                "Can you write me a song from an image? Use canvas!",
+                                "How can I create a sense of mystery in a song? Provide me 3 different MIDI files, each with a clear explanation.",
+                                "Create a MIDI guitar loop using an ascending arpeggio of chord progression Am–F–C–G over 2 octaves. Each chord should follow the rhythmic pattern: two quarter notes, one eighth note, one eighth rest, and one quarter note (1/4, 1/4, 1/8, 1/8 rest, 1/4) before moving to the next chord.",
+                                "Draft a viral love song that echoes Romeo and Juliet's tale. But imagine Shakespeare was a comedian."
+                            ],
+                            "profile_pic_id": "file-S3TGtYMTNvQcs2y1yN7i4b",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-S3TGtYMTNvQcs2y1yN7i4b&gizmo_id=g-txEiClD5G&ts=490401&p=gpp&cid=1&sig=c7871fa3acf394d047ab2b6dfed2e415db59a361ae594c69933bf674c493a9d5&v=0",
+                            "categories": [
+                                "lifestyle"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-16T06:55:03.259057+00:00",
+                        "updated_at": "2025-12-11T09:34:34.061752+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2025-11-13T05:44:49.968567+00:00",
+                        "version_updated_at": "2025-11-13T05:45:03.719723+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_VqQaln1Ogf3iJ4r7O3wZo6Cj~gzm_tool_ia9QP7ZzbE0mcqzr1zN1nKt1",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_kR6Uh0pfoAXEdgbPbX0H6YJA~gzm_tool_n977cTAqBFKMTLTE5gEdnMdg",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "675c16f91e7c819198e67ca1148b21b5",
+                            "type": "canvas",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_kR6Uh0pfoAXEdgbPbX0H6YJA~gzm_tool_J4hqkIk9VEEaMyKJ52ilLUuB",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "680f585c18f88191b71027d4b3ea00a3",
+                            "type": "image_gen",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "6757445874d0819197732134855f1b96",
+                            "type": "application/zip",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "675747a627f08191a7666ddd22d477d6",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "675747a62824819199099d0c697a8b4a",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "675747a6285081918ae7e6b1e0f493e6",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "675c16f9213c8191afc974115b600958",
+                            "type": "",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "6757445875a48191bab318be53b51c25",
+                            "type": "application/zip",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "6757445875548191bba14c1a0bd1cc57",
+                            "type": "application/zip",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "67a1ae2968f88191897a8363e343a62e",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "6873105ca12481919a00a841493776bc",
+                            "type": "application/x-zip-compressed",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "application/pdf",
+                                "application/msword",
+                                "text/markdown",
+                                "application/x-rust",
+                                "application/x-powershell",
+                                "text/xml",
+                                "text/x-c++",
+                                "text/x-swift",
+                                "text/x-clojure",
+                                "text/x-php",
+                                "text/x-astro",
+                                "application/x-scala",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-jade",
+                                "text/x-csharp",
+                                "text/x-erlang",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/calendar",
+                                "text/x-shellscript",
+                                "text/x-julia",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/rtf",
+                                "text/css",
+                                "text/x-lua",
+                                "text/x-perl",
+                                "text/vbscript",
+                                "text/tsx",
+                                "text/x-java",
+                                "text/x-tex",
+                                "text/x-twig",
+                                "application/vnd.ms-powerpoint",
+                                "text/plain",
+                                "text/x-erb",
+                                "text/rtf",
+                                "text/x-scala",
+                                "text/x-tmpl",
+                                "text/x-vcard",
+                                "text/x-groovy",
+                                "text/x-ejs",
+                                "text/javascript",
+                                "text/x-rust",
+                                "application/toml",
+                                "text/x-objectivec++",
+                                "text/x-asm",
+                                "text/x-script.python",
+                                "text/x-dart",
+                                "message/rfc822",
+                                "text/x-diff",
+                                "application/vnd.apple.pages",
+                                "text/x-objectivec",
+                                "text/x-mustache",
+                                "application/javascript",
+                                "text/x-typescript",
+                                "text/x-go",
+                                "text/x-handlebars",
+                                "text/x-makefile",
+                                "text/x-c",
+                                "text/x-kotlin",
+                                "text/x-jinja2",
+                                "text/x-python",
+                                "application/json",
+                                "text/x-r",
+                                "application/x-sql",
+                                "text/x-lisp",
+                                "text/html",
+                                "text/jsx",
+                                "text/x-pug",
+                                "text/x-ruby",
+                                "text/x-liquid",
+                                "application/x-yaml",
+                                "text/x-elixir",
+                                "text/x-sh",
+                                "text/x-rst",
+                                "application/vnd.apple.keynote",
+                                "text/x-haskell"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            }
+        ],
+        "cursor": null
+    }
+}
