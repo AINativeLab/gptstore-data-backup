@@ -22,11 +22,11 @@
   
   ## Latest
   
-  [2025-12-31.en.md](/archive/2025-12-31/en)
+  [2026-01-01.en.md](/archive/2026-01-01/en)
   
-  [2025-12-31.global.md](/archive/2025-12-31/global)
+  [2026-01-01.global.md](/archive/2026-01-01/global)
   
-  ## Global GPT Leaderboard for 2025-12-31
+  ## Global GPT Leaderboard for 2026-01-01
   
   
 
