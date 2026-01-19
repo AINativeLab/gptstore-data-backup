@@ -1,0 +1,1912 @@
+{
+    "info": {
+        "id": "writing",
+        "title": "Writing",
+        "description": "Enhance your writing with tools for creation, editing, and style refinement",
+        "display_type": "ranked",
+        "display_group": "Writing",
+        "locale": "global"
+    },
+    "list": {
+        "items": [
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-Z7GlWKlJx",
+                        "organization_id": "org-G228YezvMjQP6UJbCVpoKZEw",
+                        "short_url": "g-Z7GlWKlJx-writing-assistant",
+                        "author": {
+                            "user_id": "user-wAaHLmJHLmCmKnBHFUbdyqSA",
+                            "user_email": null,
+                            "display_name": "Mohammed Ziara",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "uje0a59jIw",
+                                        "username": "Mohammed Ziara, PMP, ACP",
+                                        "display_name": "Mohammed Ziara, PMP, ACP",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/mohammed-ziara-pmp-acp-a7a02519"
+                                    }
+                                },
+                                {
+                                    "id": "githubverify-dff6-4871-860f-d61dfa7afa7f",
+                                    "type": "github",
+                                    "display_name": "GitHub",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": 34110523,
+                                        "username": "ziara84",
+                                        "type": "github",
+                                        "link_to": "https://github.com/ziara84"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": null,
+                        "instructions": null,
+                        "display": {
+                            "name": "Writing Assistant",
+                            "description": "Drop in any text, email, paragraph, etc., It will be humanly improved and correcting spelling and grammar, enhancing clarity, refining tone, and much more.",
+                            "prompt_starters": [
+                                "Can you help me improve this paragraph for clarity and flow?",
+                                "I'd like your feedback on this text, can you enhance its tone and style?",
+                                "Can you review this writing for grammar mistakes and better word choices?"
+                            ],
+                            "profile_pic_id": "file-oYGDOwJXL72QDzYkc6Q1arTQ",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-oYGDOwJXL72QDzYkc6Q1arTQ&gizmo_id=g-Z7GlWKlJx&ts=491337&p=gpp&cid=1&sig=84923a7c13ee1f09554b85be414659edb29ec646b7d9f2584dea6b33c609e2d6&v=0",
+                            "categories": [
+                                "writing"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-10T00:59:11.047772+00:00",
+                        "updated_at": "2026-01-19T09:43:40.009612+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2025-08-21T12:28:39.394031+00:00",
+                        "version_updated_at": "2025-08-21T12:28:44.131457+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-twig",
+                                "text/x-go",
+                                "text/x-script.python",
+                                "application/x-sql",
+                                "application/javascript",
+                                "application/x-rust",
+                                "text/x-php",
+                                "text/xml",
+                                "text/html",
+                                "text/x-scala",
+                                "text/x-dart",
+                                "text/x-tex",
+                                "application/x-yaml",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-rst",
+                                "text/tsx",
+                                "text/x-shellscript",
+                                "text/x-makefile",
+                                "application/vnd.ms-powerpoint",
+                                "text/x-python",
+                                "text/x-kotlin",
+                                "application/json",
+                                "text/x-objectivec",
+                                "text/x-elixir",
+                                "text/x-haskell",
+                                "application/rtf",
+                                "application/x-scala",
+                                "text/javascript",
+                                "text/x-swift",
+                                "text/calendar",
+                                "application/vnd.apple.keynote",
+                                "text/x-pug",
+                                "text/x-asm",
+                                "text/x-vcard",
+                                "text/x-astro",
+                                "text/x-erb",
+                                "text/x-diff",
+                                "text/x-sh",
+                                "application/pdf",
+                                "text/x-objectivec++",
+                                "text/x-csharp",
+                                "text/x-jinja2",
+                                "text/x-groovy",
+                                "text/x-rust",
+                                "text/x-mustache",
+                                "application/toml",
+                                "text/x-lisp",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/css",
+                                "text/x-ruby",
+                                "text/x-julia",
+                                "text/x-handlebars",
+                                "text/x-ejs",
+                                "text/x-tmpl",
+                                "application/vnd.apple.pages",
+                                "text/x-liquid",
+                                "text/x-java",
+                                "text/x-jade",
+                                "application/x-powershell",
+                                "text/x-lua",
+                                "text/vbscript",
+                                "text/x-typescript",
+                                "text/x-erlang",
+                                "text/x-clojure",
+                                "text/jsx",
+                                "application/vnd.oasis.opendocument.text",
+                                "text/x-c++",
+                                "text/x-perl",
+                                "text/x-r",
+                                "text/rtf",
+                                "application/msword",
+                                "text/markdown",
+                                "text/plain",
+                                "message/rfc822",
+                                "text/x-c"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/webp",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-5bNPpaVZy",
+                        "organization_id": "org-sEHbWZwb5BOyzeeAL8haY8AW",
+                        "short_url": "g-5bNPpaVZy-translate-gpt",
+                        "author": {
+                            "user_id": "user-diyGcmie8xAfKbc8FtpsfIaw",
+                            "user_email": null,
+                            "display_name": "hix.ai",
+                            "link_to": "https://hix.ai",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "1671354862553137152",
+                                        "username": "@HIX_AI_",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/HIX_AI_"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": null,
+                        "instructions": null,
+                        "display": {
+                            "name": "Translate GPT",
+                            "description": "Experience our ChatGPT Translation, a sophisticated tool that provides accurate and context-aware translations across multiple languages, bridging communication gaps seamlessly.",
+                            "prompt_starters": [
+                                "Translate the following content from English to French",
+                                "Translate the content from [URL] from English to Japanese",
+                                "Translate the document from English to Germany",
+                                "Translate the content in this PDF from English to Italian"
+                            ],
+                            "profile_pic_id": "file-MkvwaZFerLLTL6z32mCcQQS3",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-MkvwaZFerLLTL6z32mCcQQS3&gizmo_id=g-5bNPpaVZy&ts=491337&p=gpp&cid=1&sig=2854f52834327e6d83f10fcf92814159fb6bc85a462e641f10344ec4d83d8c1c&v=0",
+                            "categories": [
+                                "writing"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-12-18T08:15:30.566699+00:00",
+                        "updated_at": "2026-01-19T09:43:30.790827+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2024-02-23T01:47:03.010153+00:00",
+                        "version_updated_at": "2024-10-28T03:06:37.417154+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_tl5cwVEwy4OrfmdEx0pMpYuR~gzm_tool_IbG6AJR7hgf3VTRhZTb5ft0P",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_tl5cwVEwy4OrfmdEx0pMpYuR~gzm_tool_CMUyvjQUBf1KNGGggy4dn9zP",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-twig",
+                                "text/x-go",
+                                "text/x-script.python",
+                                "application/x-sql",
+                                "application/javascript",
+                                "application/x-rust",
+                                "text/x-php",
+                                "text/xml",
+                                "text/html",
+                                "text/x-scala",
+                                "text/x-dart",
+                                "text/x-tex",
+                                "application/x-yaml",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-rst",
+                                "text/tsx",
+                                "text/x-shellscript",
+                                "text/x-makefile",
+                                "application/vnd.ms-powerpoint",
+                                "text/x-python",
+                                "text/x-kotlin",
+                                "application/json",
+                                "text/x-objectivec",
+                                "text/x-elixir",
+                                "text/x-haskell",
+                                "application/rtf",
+                                "application/x-scala",
+                                "text/javascript",
+                                "text/x-swift",
+                                "text/calendar",
+                                "application/vnd.apple.keynote",
+                                "text/x-pug",
+                                "text/x-asm",
+                                "text/x-vcard",
+                                "text/x-astro",
+                                "text/x-erb",
+                                "text/x-diff",
+                                "text/x-sh",
+                                "application/pdf",
+                                "text/x-objectivec++",
+                                "text/x-csharp",
+                                "text/x-jinja2",
+                                "text/x-groovy",
+                                "text/x-rust",
+                                "text/x-mustache",
+                                "application/toml",
+                                "text/x-lisp",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/css",
+                                "text/x-ruby",
+                                "text/x-julia",
+                                "text/x-handlebars",
+                                "text/x-ejs",
+                                "text/x-tmpl",
+                                "application/vnd.apple.pages",
+                                "text/x-liquid",
+                                "text/x-java",
+                                "text/x-jade",
+                                "application/x-powershell",
+                                "text/x-lua",
+                                "text/vbscript",
+                                "text/x-typescript",
+                                "text/x-erlang",
+                                "text/x-clojure",
+                                "text/jsx",
+                                "application/vnd.oasis.opendocument.text",
+                                "text/x-c++",
+                                "text/x-perl",
+                                "text/x-r",
+                                "text/rtf",
+                                "application/msword",
+                                "text/markdown",
+                                "text/plain",
+                                "message/rfc822",
+                                "text/x-c"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/webp",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-Jqzg9kcR8",
+                        "organization_id": "org-c0PdFgTx1UDI7nITvJ7GlB3J",
+                        "short_url": "g-Jqzg9kcR8-unbound-limitless-story-writer",
+                        "author": {
+                            "user_id": "user-EJnyAEvVYTywbdWRESj5w7I4",
+                            "user_email": null,
+                            "display_name": "MOHAMED BENALI BENDAHMANE",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": "gpt-4o",
+                        "instructions": null,
+                        "display": {
+                            "name": "Unbound Limitless Story Writer",
+                            "description": "Writes stories",
+                            "prompt_starters": [
+                                "Write a story about a fallen kingdom.",
+                                "Create a tale of betrayal and power.",
+                                "Imagine a world where magic is forbidden.",
+                                "Tell a story of a hero's tragic flaw."
+                            ],
+                            "profile_pic_id": "file-2tZbU4ZMYRFGLOAooqJ8sw1B",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-2tZbU4ZMYRFGLOAooqJ8sw1B&gizmo_id=g-Jqzg9kcR8&ts=491337&p=gpp&cid=1&sig=89643599463b8325e0fa0e0f07c2ff6999e90df180d46bb896f65b88bc78efdf&v=0",
+                            "categories": [
+                                "writing"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-02-27T17:52:25.403432+00:00",
+                        "updated_at": "2026-01-19T09:43:05.933693+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2025-12-27T02:35:07.519130+00:00",
+                        "version_updated_at": "2025-12-27T02:35:10.300662+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [
+                        {
+                            "id": "681108fd77808191be560d161dcee351",
+                            "type": "image_gen",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "684c434296088191804dd25f25e9b247",
+                            "type": "canvas",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-twig",
+                                "text/x-go",
+                                "text/x-script.python",
+                                "application/x-sql",
+                                "application/javascript",
+                                "application/x-rust",
+                                "text/x-php",
+                                "text/xml",
+                                "text/html",
+                                "text/x-scala",
+                                "text/x-dart",
+                                "text/x-tex",
+                                "application/x-yaml",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-rst",
+                                "text/tsx",
+                                "text/x-shellscript",
+                                "text/x-makefile",
+                                "application/vnd.ms-powerpoint",
+                                "text/x-python",
+                                "text/x-kotlin",
+                                "application/json",
+                                "text/x-objectivec",
+                                "text/x-elixir",
+                                "text/x-haskell",
+                                "application/rtf",
+                                "application/x-scala",
+                                "text/javascript",
+                                "text/x-swift",
+                                "text/calendar",
+                                "application/vnd.apple.keynote",
+                                "text/x-pug",
+                                "text/x-asm",
+                                "text/x-vcard",
+                                "text/x-astro",
+                                "text/x-erb",
+                                "text/x-diff",
+                                "text/x-sh",
+                                "application/pdf",
+                                "text/x-objectivec++",
+                                "text/x-csharp",
+                                "text/x-jinja2",
+                                "text/x-groovy",
+                                "text/x-rust",
+                                "text/x-mustache",
+                                "application/toml",
+                                "text/x-lisp",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/css",
+                                "text/x-ruby",
+                                "text/x-julia",
+                                "text/x-handlebars",
+                                "text/x-ejs",
+                                "text/x-tmpl",
+                                "application/vnd.apple.pages",
+                                "text/x-liquid",
+                                "text/x-java",
+                                "text/x-jade",
+                                "application/x-powershell",
+                                "text/x-lua",
+                                "text/vbscript",
+                                "text/x-typescript",
+                                "text/x-erlang",
+                                "text/x-clojure",
+                                "text/jsx",
+                                "application/vnd.oasis.opendocument.text",
+                                "text/x-c++",
+                                "text/x-perl",
+                                "text/x-r",
+                                "text/rtf",
+                                "application/msword",
+                                "text/markdown",
+                                "text/plain",
+                                "message/rfc822",
+                                "text/x-c"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/webp",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-G5diVh12v",
+                        "organization_id": "org-EBirHnlkVmrLeljmnnfrVn2h",
+                        "short_url": "g-G5diVh12v-chatprd-ai-for-product-managers",
+                        "author": {
+                            "user_id": "user-ASX8CtgoATGCMGP3mcMRMaPB__7669fef3-06d2-4ea7-ac58-0552e90dd4b3",
+                            "user_email": null,
+                            "display_name": null,
+                            "link_to": null,
+                            "is_verified": false,
+                            "selected_display": "name",
+                            "will_receive_support_emails": false,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": "7669fef3-06d2-4ea7-ac58-0552e90dd4b3",
+                        "model": null,
+                        "default_model": null,
+                        "instructions": null,
+                        "display": {
+                            "name": "ChatPRD - AI for Product Managers",
+                            "description": "An on-demand Chief Product Officer that drafts and improves your PRDs, while coaching you to become an elite product manager.  The best product copilot for PMs & engineers. Visit 👉 chatprd.ai for pro features",
+                            "prompt_starters": [
+                                "Help me draft a PRD for phone-based authentication",
+                                "How can I make this PRD better?",
+                                "Let's brainstorm a roadmap for my billing product",
+                                "What are good metrics for an AI chat product?"
+                            ],
+                            "profile_pic_id": "file-UWMgGyvxR8oM9DWk22ikcV",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-UWMgGyvxR8oM9DWk22ikcV&gizmo_id=g-G5diVh12v&ts=491337&p=gpp&cid=1&sig=9ab0cd884e483f488d68e7d3c3c9f27a18fd9807e8e289dd15195315a6b1dd4a&v=0",
+                            "categories": [
+                                "writing"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-10T19:33:18.948129+00:00",
+                        "updated_at": "2026-01-19T09:42:04.069337+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2025-11-17T20:39:29.579099+00:00",
+                        "version_updated_at": "2025-11-17T20:39:35.303640+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [
+                        {
+                            "id": "68b8953521588191b25b3a667bb28a0e",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "68b89535219c819186ad6e4f2663308e",
+                            "type": "canvas",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-twig",
+                                "text/x-go",
+                                "text/x-script.python",
+                                "application/x-sql",
+                                "application/javascript",
+                                "application/x-rust",
+                                "text/x-php",
+                                "text/xml",
+                                "text/html",
+                                "text/x-scala",
+                                "text/x-dart",
+                                "text/x-tex",
+                                "application/x-yaml",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-rst",
+                                "text/tsx",
+                                "text/x-shellscript",
+                                "text/x-makefile",
+                                "application/vnd.ms-powerpoint",
+                                "text/x-python",
+                                "text/x-kotlin",
+                                "application/json",
+                                "text/x-objectivec",
+                                "text/x-elixir",
+                                "text/x-haskell",
+                                "application/rtf",
+                                "application/x-scala",
+                                "text/javascript",
+                                "text/x-swift",
+                                "text/calendar",
+                                "application/vnd.apple.keynote",
+                                "text/x-pug",
+                                "text/x-asm",
+                                "text/x-vcard",
+                                "text/x-astro",
+                                "text/x-erb",
+                                "text/x-diff",
+                                "text/x-sh",
+                                "application/pdf",
+                                "text/x-objectivec++",
+                                "text/x-csharp",
+                                "text/x-jinja2",
+                                "text/x-groovy",
+                                "text/x-rust",
+                                "text/x-mustache",
+                                "application/toml",
+                                "text/x-lisp",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/css",
+                                "text/x-ruby",
+                                "text/x-julia",
+                                "text/x-handlebars",
+                                "text/x-ejs",
+                                "text/x-tmpl",
+                                "application/vnd.apple.pages",
+                                "text/x-liquid",
+                                "text/x-java",
+                                "text/x-jade",
+                                "application/x-powershell",
+                                "text/x-lua",
+                                "text/vbscript",
+                                "text/x-typescript",
+                                "text/x-erlang",
+                                "text/x-clojure",
+                                "text/jsx",
+                                "application/vnd.oasis.opendocument.text",
+                                "text/x-c++",
+                                "text/x-perl",
+                                "text/x-r",
+                                "text/rtf",
+                                "application/msword",
+                                "text/markdown",
+                                "text/plain",
+                                "message/rfc822",
+                                "text/x-c"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/webp",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-2azCVmXdy",
+                        "organization_id": "org-Jh4icqLDQbSiwaXRnsCYyOM1",
+                        "short_url": "g-2azCVmXdy-ai-humanizer",
+                        "author": {
+                            "user_id": "user-LfH5gS5D7s5RMBHWOJ8qd3DT__db1a6978-e330-496e-ac6a-8c993d17770d",
+                            "user_email": null,
+                            "display_name": "mmchdigital.solutions",
+                            "link_to": "https://mmchdigital.solutions",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": "db1a6978-e330-496e-ac6a-8c993d17770d",
+                        "model": null,
+                        "default_model": null,
+                        "instructions": null,
+                        "display": {
+                            "name": "AI Humanizer",
+                            "description": "#1 AI humanizer in the world 🏆 | Get human-like content in seconds with Free credits. This GPT humanizes AI-generated text, maintaining content meaning and quality.",
+                            "prompt_starters": [
+                                "⬇️ Please provide BELOW the AI text to humanize ⬇️"
+                            ],
+                            "profile_pic_id": "file-OPDq3ZahhE1JxhxVVBEBBMX4",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-OPDq3ZahhE1JxhxVVBEBBMX4&gizmo_id=g-2azCVmXdy&ts=491337&p=gpp&cid=1&sig=e0bd27d87625d4f739aa8713c6b7ba8ebc533ca2456d96d27383e890721bde2f&v=0",
+                            "categories": [
+                                "writing"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-15T14:14:36.022505+00:00",
+                        "updated_at": "2026-01-19T09:44:05.481849+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2025-04-28T12:10:05.604233+00:00",
+                        "version_updated_at": "2025-06-02T23:26:11.284801+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [
+                        {
+                            "id": "680f701d9adc81919cc168fd7e5bc949",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-8fa2842b6789c78d2e314cdfa462efc712d1239d",
+                                "domain": "plugin.gptinf.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.1.0",
+                                    "info": {
+                                        "title": "GPTinf Plugin",
+                                        "description": "A plugin to humanize AI content by paraphrasing.",
+                                        "version": "v1"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://plugin.gptinf.com/api"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/paraphrase": {
+                                            "post": {
+                                                "operationId": "paraphrase",
+                                                "summary": "Paraphrase a text",
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/paraphraseRequest"
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "OK",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/paraphraseResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Bad Request",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/errorResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "paraphraseRequest": {
+                                                "type": "object",
+                                                "required": [
+                                                    "text",
+                                                    "id"
+                                                ],
+                                                "properties": {
+                                                    "text": {
+                                                        "type": "string",
+                                                        "description": "The text to paraphrase."
+                                                    },
+                                                    "id": {
+                                                        "type": "string",
+                                                        "enum": [
+                                                            "crl"
+                                                        ],
+                                                        "description": "The required ID for all the calls."
+                                                    }
+                                                }
+                                            },
+                                            "paraphraseResponse": {
+                                                "type": "object",
+                                                "required": [
+                                                    "paraphrased"
+                                                ],
+                                                "properties": {
+                                                    "paraphrased": {
+                                                        "type": "string",
+                                                        "description": "The successful paraphrase of the text. Or request to increase the words limit."
+                                                    }
+                                                }
+                                            },
+                                            "errorResponse": {
+                                                "type": "object",
+                                                "required": [
+                                                    "error"
+                                                ],
+                                                "properties": {
+                                                    "error": {
+                                                        "type": "string",
+                                                        "description": "Description of the error."
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "oauth",
+                                    "instructions": "",
+                                    "client_url": "https://plugin.gptinf.com/api/oauth",
+                                    "scope": "",
+                                    "authorization_url": "https://plugin.gptinf.com/api/oauth_exchange",
+                                    "authorization_content_type": "application/x-www-form-urlencoded",
+                                    "verification_tokens": {},
+                                    "pkce_required": false,
+                                    "token_exchange_method": "basic_auth_header"
+                                },
+                                "privacy_policy_url": "https://app.gptinf.com/privacy_policy.html"
+                            }
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-twig",
+                                "text/x-go",
+                                "text/x-script.python",
+                                "application/x-sql",
+                                "application/javascript",
+                                "application/x-rust",
+                                "text/x-php",
+                                "text/xml",
+                                "text/html",
+                                "text/x-scala",
+                                "text/x-dart",
+                                "text/x-tex",
+                                "application/x-yaml",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-rst",
+                                "text/tsx",
+                                "text/x-shellscript",
+                                "text/x-makefile",
+                                "application/vnd.ms-powerpoint",
+                                "text/x-python",
+                                "text/x-kotlin",
+                                "application/json",
+                                "text/x-objectivec",
+                                "text/x-elixir",
+                                "text/x-haskell",
+                                "application/rtf",
+                                "application/x-scala",
+                                "text/javascript",
+                                "text/x-swift",
+                                "text/calendar",
+                                "application/vnd.apple.keynote",
+                                "text/x-pug",
+                                "text/x-asm",
+                                "text/x-vcard",
+                                "text/x-astro",
+                                "text/x-erb",
+                                "text/x-diff",
+                                "text/x-sh",
+                                "application/pdf",
+                                "text/x-objectivec++",
+                                "text/x-csharp",
+                                "text/x-jinja2",
+                                "text/x-groovy",
+                                "text/x-rust",
+                                "text/x-mustache",
+                                "application/toml",
+                                "text/x-lisp",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/css",
+                                "text/x-ruby",
+                                "text/x-julia",
+                                "text/x-handlebars",
+                                "text/x-ejs",
+                                "text/x-tmpl",
+                                "application/vnd.apple.pages",
+                                "text/x-liquid",
+                                "text/x-java",
+                                "text/x-jade",
+                                "application/x-powershell",
+                                "text/x-lua",
+                                "text/vbscript",
+                                "text/x-typescript",
+                                "text/x-erlang",
+                                "text/x-clojure",
+                                "text/jsx",
+                                "application/vnd.oasis.opendocument.text",
+                                "text/x-c++",
+                                "text/x-perl",
+                                "text/x-r",
+                                "text/rtf",
+                                "application/msword",
+                                "text/markdown",
+                                "text/plain",
+                                "message/rfc822",
+                                "text/x-c"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/webp",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-B3hgivKK9",
+                        "organization_id": "org-Lhg5UuxewxUamqjwDCtrkn4V",
+                        "short_url": "g-B3hgivKK9-write-for-me",
+                        "author": {
+                            "user_id": "user-qcK7n3IbKhYmu4dSv3kkiut3",
+                            "user_email": null,
+                            "display_name": "puzzle.today",
+                            "link_to": "https://puzzle.today",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": "gpt-5-2",
+                        "instructions": null,
+                        "display": {
+                            "name": "Write For Me",
+                            "description": "Supercharged writing assistant⚡",
+                            "prompt_starters": [
+                                "In the age of AI, what’s the smartest upper-income career strategy for someone just starting college?",
+                                "What are some little known hacks for being a naturally charming person?",
+                                "What tiny daily habit has the biggest long-term payoff?",
+                                "Write essay summarizing the East India Company "
+                            ],
+                            "profile_pic_id": "file-EG75QHv1rSRjNvYzgvFrth",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-EG75QHv1rSRjNvYzgvFrth&gizmo_id=g-B3hgivKK9&ts=491337&p=gpp&cid=1&sig=9e75c608b0cac6763a2565376fa0ac3a68bb3a8d37d812f031cab3ce1daa949f&v=0",
+                            "categories": [
+                                "writing"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-17T11:08:46.422186+00:00",
+                        "updated_at": "2026-01-19T09:44:28.645491+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2025-12-13T10:00:28.122737+00:00",
+                        "version_updated_at": "2025-12-13T10:00:29.194275+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_beABKP0vR5FARysR0QswD9C4~gzm_tool_tS7qT03d0NGlMlo5MFC0ozB7",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_beABKP0vR5FARysR0QswD9C4~gzm_tool_SaLuHtCItvhOrZYHSWBVpQt2",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "675c3b09b9ec8191a08f833df0858b76",
+                            "type": "canvas",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_beABKP0vR5FARysR0QswD9C4~gzm_tool_eBRCdiC28TzmkmlcEMJNgBsx",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "685349f352f481919d8039b4b2036f0d",
+                            "type": "image_gen",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-twig",
+                                "text/x-go",
+                                "text/x-script.python",
+                                "application/x-sql",
+                                "application/javascript",
+                                "application/x-rust",
+                                "text/x-php",
+                                "text/xml",
+                                "text/html",
+                                "text/x-scala",
+                                "text/x-dart",
+                                "text/x-tex",
+                                "application/x-yaml",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-rst",
+                                "text/tsx",
+                                "text/x-shellscript",
+                                "text/x-makefile",
+                                "application/vnd.ms-powerpoint",
+                                "text/x-python",
+                                "text/x-kotlin",
+                                "application/json",
+                                "text/x-objectivec",
+                                "text/x-elixir",
+                                "text/x-haskell",
+                                "application/rtf",
+                                "application/x-scala",
+                                "text/javascript",
+                                "text/x-swift",
+                                "text/calendar",
+                                "application/vnd.apple.keynote",
+                                "text/x-pug",
+                                "text/x-asm",
+                                "text/x-vcard",
+                                "text/x-astro",
+                                "text/x-erb",
+                                "text/x-diff",
+                                "text/x-sh",
+                                "application/pdf",
+                                "text/x-objectivec++",
+                                "text/x-csharp",
+                                "text/x-jinja2",
+                                "text/x-groovy",
+                                "text/x-rust",
+                                "text/x-mustache",
+                                "application/toml",
+                                "text/x-lisp",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/css",
+                                "text/x-ruby",
+                                "text/x-julia",
+                                "text/x-handlebars",
+                                "text/x-ejs",
+                                "text/x-tmpl",
+                                "application/vnd.apple.pages",
+                                "text/x-liquid",
+                                "text/x-java",
+                                "text/x-jade",
+                                "application/x-powershell",
+                                "text/x-lua",
+                                "text/vbscript",
+                                "text/x-typescript",
+                                "text/x-erlang",
+                                "text/x-clojure",
+                                "text/jsx",
+                                "application/vnd.oasis.opendocument.text",
+                                "text/x-c++",
+                                "text/x-perl",
+                                "text/x-r",
+                                "text/rtf",
+                                "application/msword",
+                                "text/markdown",
+                                "text/plain",
+                                "message/rfc822",
+                                "text/x-c"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/webp",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-GvcYCKPIH",
+                        "organization_id": "org-J5M9ttTE6SyFzimG52X1fTRr",
+                        "short_url": "g-GvcYCKPIH-noyoutube-video-summarizer-noyoutube-unaffiliated",
+                        "author": {
+                            "user_id": "user-1lW8AvhebNmoS7rHg40opr5n",
+                            "user_email": null,
+                            "display_name": "Video Summarizer",
+                            "link_to": "https://videosummarizerai.com",
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": "gpt-5",
+                        "instructions": null,
+                        "display": {
+                            "name": "のYouTube Video Summarizer ✏️ のYouTube Unaffiliated",
+                            "description": "Interactive & Multilanguage. Open new chat and paste link. Provides video summaries. Human support: support@videosummarizerai.com",
+                            "prompt_starters": [
+                                "✏️ Generate summary for YouTube video",
+                                "🌐 Provide summary in Another Language",
+                                "❓ What is said about specific topic in this video?"
+                            ],
+                            "profile_pic_id": "file-Y5WFbnzw3h5smKEYcTbiWH",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-Y5WFbnzw3h5smKEYcTbiWH&gizmo_id=g-GvcYCKPIH&ts=491337&p=gpp&cid=1&sig=26354c0187a915db153a7c820ef90e1f68722a6f552c543f3d4aeeda026b7489&v=0",
+                            "categories": [
+                                "writing"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-29T09:32:16.238612+00:00",
+                        "updated_at": "2026-01-19T09:44:23.458288+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2025-10-01T17:10:14.382509+00:00",
+                        "version_updated_at": "2025-10-01T17:10:22.736384+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_IYs9GQRT7X69d9GmdfS2xI6d~gzm_tool_SsBpeI6aZOQAHyIh2zkeyrHm",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_h6HA0qBVl53or07HGBfYNMet~gzm_tool_YPbg6iqg0yQp6RB5Qe3Cz5wR",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "6758dab8664081918f7f201e14e34d28",
+                            "type": "canvas",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "681b7ebf4d8c819186518e20dc6ce79f",
+                            "type": "image_gen",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "68dd607662088191a283fccb52cc2113",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-ed3d710e82fb6e560920f6d172b2e6aaa09e6545",
+                                "domain": "videosummarizer.co",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.1.0",
+                                    "info": {
+                                        "title": "Transcript API",
+                                        "version": "1.0.0",
+                                        "description": "API for fetching transcript data for videos.\n"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://videosummarizer.co"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/c_tra_to_en/own_lo_p_get_captions/": {
+                                            "post": {
+                                                "summary": "Get Captions",
+                                                "description": "Retrieves YouTube video captions for a given video ID and section index.",
+                                                "operationId": "own_lo_p_get_captions",
+                                                "x-openai-isConsequential": false,
+                                                "security": [
+                                                    {
+                                                        "bearerAuth": []
+                                                    }
+                                                ],
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/VideoIdRequest"
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successfully retrieved captions and boost information.",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/TranscriptResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Bad Request - Invalid input data.",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/Error"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "401": {
+                                                        "description": "Unauthorized - Invalid or missing token.",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/Error"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "403": {
+                                                        "description": "Forbidden - Authentication failed.",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/Error"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "404": {
+                                                        "description": "Not Found - Transcript not found for the given video_id.",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/Error"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "408": {
+                                                        "description": "Request timeout.",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/Error"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "422": {
+                                                        "description": "Unprocessable Entity - Invalid data format.",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/Error"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "429": {
+                                                        "description": "Too Many Requests.",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/Error"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "500": {
+                                                        "description": "Internal Server Error - Failed to process the request.",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/Error"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/c_tra_to_en/own_lo_freemium_hours_minutes_left/": {
+                                            "post": {
+                                                "summary": "Get Remaining Booster Hours and Minutes for a particular user and their current subscription period end date",
+                                                "operationId": "own_lo_hours_minutes_left",
+                                                "x-openai-isConsequential": false,
+                                                "security": [
+                                                    {
+                                                        "bearerAuth": []
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Hours and minutes left and subscription end date.",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "string"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "default": {
+                                                        "description": "Unexpected error",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/Error"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/c_tra_to_en/own_lo_create_diagram": {
+                                            "post": {
+                                                "operationId": "own_lo_create_diagram",
+                                                "summary": "Receives a JSON object for creation of a Mermaid diagram and in response returns a diagram URL.",
+                                                "x-openai-isConsequential": false,
+                                                "security": [
+                                                    {
+                                                        "bearerAuth": []
+                                                    }
+                                                ],
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "required": [
+                                                                    "diagram_text"
+                                                                ],
+                                                                "properties": {
+                                                                    "diagram_text": {
+                                                                        "type": "string",
+                                                                        "description": "Before sending diagram_text, ensure it complies with the rules specified in the diagram_instructions property of the API response."
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "URL to the PNG diagram, include it in response to give option to download diagram",
+                                                        "content": {
+                                                            "text/plain": {
+                                                                "schema": {
+                                                                    "type": "string",
+                                                                    "description": "URL to the diagram image"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Invalid input, data does not conform to expected format"
+                                                    },
+                                                    "500": {
+                                                        "description": "Internal Server Error, could not generate diagram"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/c_tra_to_en/own_subscription_management_and_cancellation": {
+                                            "get": {
+                                                "summary": "Endpoint for cases when a user ask to cancel or renew or manage user's subscription. It returns Stripe billing portal url.",
+                                                "operationId": "getSubscriptionManagementUrl",
+                                                "x-openai-isConsequential": false,
+                                                "security": [
+                                                    {
+                                                        "bearerAuth": []
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Stripe billing portal url",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "subscription_management_and_cancellation_url": {
+                                                                            "type": "string",
+                                                                            "format": "uri"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "401": {
+                                                        "description": "The Bearer token is missing, expired or invalid."
+                                                    },
+                                                    "403": {
+                                                        "description": "User does not have active subscription"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/c_tra_to_en/own_get_wemtos_url": {
+                                            "get": {
+                                                "summary": "Generates an wemtos URL for the current user.",
+                                                "operationId": "getWemtosUrl",
+                                                "x-openai-isConsequential": false,
+                                                "security": [
+                                                    {
+                                                        "bearerAuth": []
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "wemtos url",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "required": [
+                                                                        "wemtos_url"
+                                                                    ],
+                                                                    "properties": {
+                                                                        "wemtos_url": {
+                                                                            "type": "string",
+                                                                            "format": "uri"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "401": {
+                                                        "description": "The Bearer token is missing, expired or invalid."
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "TranscriptResponse": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "video_id": {
+                                                        "type": "string",
+                                                        "description": "The ID of the video."
+                                                    },
+                                                    "video_title": {
+                                                        "type": "string",
+                                                        "description": "Title of the video."
+                                                    },
+                                                    "index": {
+                                                        "type": "integer",
+                                                        "description": "Current index of the section."
+                                                    },
+                                                    "min_index": {
+                                                        "type": "integer",
+                                                        "description": "Minimum index of sections. Is equal to 0."
+                                                    },
+                                                    "max_index": {
+                                                        "type": "integer",
+                                                        "description": "Maximum index of sections."
+                                                    },
+                                                    "video_section_length_in_minutes": {
+                                                        "type": "integer",
+                                                        "description": "Length of the video section in minutes."
+                                                    },
+                                                    "summary_length": {
+                                                        "type": "string"
+                                                    },
+                                                    "answer_limit": {
+                                                        "type": "string"
+                                                    },
+                                                    "total_quantity_of_sections": {
+                                                        "type": "integer",
+                                                        "description": "Total number of sections in the video."
+                                                    },
+                                                    "sublist_captions": {
+                                                        "type": "array",
+                                                        "description": "List of caption segments with timing.",
+                                                        "items": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "start": {
+                                                                    "type": "string",
+                                                                    "description": "Start time of the section (e.g., \"00:01:23\")."
+                                                                },
+                                                                "text": {
+                                                                    "type": "string",
+                                                                    "description": "Caption text for the section."
+                                                                },
+                                                                "end": {
+                                                                    "type": "string",
+                                                                    "description": "End time of the section (e.g., \"00:01:45\")."
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "commands_instructions": {
+                                                        "type": "string",
+                                                        "description": "Instructions related to commands."
+                                                    },
+                                                    "article_instructions": {
+                                                        "type": "string",
+                                                        "description": "Instructions related to articles."
+                                                    },
+                                                    "diagram_instructions": {
+                                                        "type": "string",
+                                                        "description": "Instructions related to diagrams."
+                                                    },
+                                                    "quiz_instructions": {
+                                                        "type": "string",
+                                                        "description": "Instructions related to quizzes."
+                                                    },
+                                                    "timestamp_instructions": {
+                                                        "type": "string",
+                                                        "description": "Instructions related to timestamps."
+                                                    },
+                                                    "expand_summary_instructions": {
+                                                        "type": "string",
+                                                        "description": "Instructions related to expanding summary."
+                                                    },
+                                                    "additional_instructions": {
+                                                        "type": "string",
+                                                        "description": "Any additional instructions."
+                                                    },
+                                                    "footer_instructions": {
+                                                        "type": "string"
+                                                    },
+                                                    "add_cmd_instructions": {
+                                                        "type": "string"
+                                                    },
+                                                    "status": {
+                                                        "type": "string",
+                                                        "enum": [
+                                                            "has_subscription",
+                                                            "no_subscription"
+                                                        ],
+                                                        "description": "Whether the user has active subscription or not."
+                                                    },
+                                                    "current_date_and_time": {
+                                                        "type": "string",
+                                                        "format": "date-time"
+                                                    },
+                                                    "human_support_email": {
+                                                        "type": "string",
+                                                        "format": "email"
+                                                    },
+                                                    "checkout_url": {
+                                                        "type": "string",
+                                                        "format": "uri",
+                                                        "description": "Checkout URL for starting a subscription."
+                                                    },
+                                                    "promo_code": {
+                                                        "type": "string",
+                                                        "nullable": true
+                                                    },
+                                                    "promo_code_exp_date": {
+                                                        "type": "string",
+                                                        "description": "promo code expiration date"
+                                                    },
+                                                    "custom_instructions": {
+                                                        "type": "string",
+                                                        "description": "additional instructions to follow"
+                                                    }
+                                                }
+                                            },
+                                            "Error": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "detail": {
+                                                        "type": "string",
+                                                        "description": "Error message detailing what went wrong."
+                                                    }
+                                                },
+                                                "required": [
+                                                    "detail"
+                                                ]
+                                            },
+                                            "VideoIdRequest": {
+                                                "type": "object",
+                                                "required": [
+                                                    "video_id",
+                                                    "index"
+                                                ],
+                                                "properties": {
+                                                    "video_id": {
+                                                        "type": "string",
+                                                        "description": "The ID of the video.",
+                                                        "example": "2WcbPcGrQZU"
+                                                    },
+                                                    "index": {
+                                                        "type": "integer",
+                                                        "description": "Section index. Starts from 0.",
+                                                        "example": 0
+                                                    }
+                                                }
+                                            },
+                                            "ErrorResponse": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "detail": {
+                                                        "type": "string",
+                                                        "description": "Detailed error message."
+                                                    }
+                                                },
+                                                "required": [
+                                                    "detail"
+                                                ]
+                                            }
+                                        },
+                                        "securitySchemes": {
+                                            "bearerAuth": {
+                                                "type": "http",
+                                                "scheme": "bearer",
+                                                "bearerFormat": "JWT"
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "oauth",
+                                    "instructions": "",
+                                    "client_url": "https://auth.videosummarizer.co/oidc/auth",
+                                    "scope": "openid profile email",
+                                    "authorization_url": "https://auth.videosummarizer.co/oidc/token",
+                                    "authorization_content_type": "application/x-www-form-urlencoded",
+                                    "verification_tokens": {},
+                                    "pkce_required": false,
+                                    "token_exchange_method": "default_post"
+                                },
+                                "privacy_policy_url": "https://videosummarizerai.com/n-privacy-policy"
+                            }
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-twig",
+                                "text/x-go",
+                                "text/x-script.python",
+                                "application/x-sql",
+                                "application/javascript",
+                                "application/x-rust",
+                                "text/x-php",
+                                "text/xml",
+                                "text/html",
+                                "text/x-scala",
+                                "text/x-dart",
+                                "text/x-tex",
+                                "application/x-yaml",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-rst",
+                                "text/tsx",
+                                "text/x-shellscript",
+                                "text/x-makefile",
+                                "application/vnd.ms-powerpoint",
+                                "text/x-python",
+                                "text/x-kotlin",
+                                "application/json",
+                                "text/x-objectivec",
+                                "text/x-elixir",
+                                "text/x-haskell",
+                                "application/rtf",
+                                "application/x-scala",
+                                "text/javascript",
+                                "text/x-swift",
+                                "text/calendar",
+                                "application/vnd.apple.keynote",
+                                "text/x-pug",
+                                "text/x-asm",
+                                "text/x-vcard",
+                                "text/x-astro",
+                                "text/x-erb",
+                                "text/x-diff",
+                                "text/x-sh",
+                                "application/pdf",
+                                "text/x-objectivec++",
+                                "text/x-csharp",
+                                "text/x-jinja2",
+                                "text/x-groovy",
+                                "text/x-rust",
+                                "text/x-mustache",
+                                "application/toml",
+                                "text/x-lisp",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/css",
+                                "text/x-ruby",
+                                "text/x-julia",
+                                "text/x-handlebars",
+                                "text/x-ejs",
+                                "text/x-tmpl",
+                                "application/vnd.apple.pages",
+                                "text/x-liquid",
+                                "text/x-java",
+                                "text/x-jade",
+                                "application/x-powershell",
+                                "text/x-lua",
+                                "text/vbscript",
+                                "text/x-typescript",
+                                "text/x-erlang",
+                                "text/x-clojure",
+                                "text/jsx",
+                                "application/vnd.oasis.opendocument.text",
+                                "text/x-c++",
+                                "text/x-perl",
+                                "text/x-r",
+                                "text/rtf",
+                                "application/msword",
+                                "text/markdown",
+                                "text/plain",
+                                "message/rfc822",
+                                "text/x-c"
+                            ],
+                            "image_mime_types": [
+                                "image/png",
+                                "image/gif",
+                                "image/webp",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            }
+        ],
+        "cursor": null
+    }
+}
