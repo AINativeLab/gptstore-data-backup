@@ -1,37 +1,7 @@
-# GPT Store data backup
-  
-  This project daily scrapes and archives data from the official GPT Store. If you have other data requirements, please open an issue.
-
-  <p align="center">
-    <a target="_blank" href="https://share.302.ai/oEmLPK?ref=gptshunter&block=github">
-      <img alt="302.ai" src="https://assets.gptshunt.com/github-1500%C3%97400-en.jpg">
-    </a>
-  </p>
-  
-  If you are interested in viewing and downloading the top 500 GPTs daily, please check out our another project: [AINativeLab/top-500-best-gpts](https://github.com/AINativeLab/top-500-best-gpts).
-  
-  <p align="center">
-  ★ Powered by <a target="_blank" href="https://www.gptshunter.com/?utm_source=gptstore-data-backup">GPTsHunter.com</a> ★
-  </p>
-  
-  <p align="center">
-    <a target="_blank" href="https://gptshunter.com/?utm_source=gptstore-data-backup">
-      <img alt="GPTsHunter" src="https://gptshunter.com/full-logo.svg" width="300">
-    </a>
-  </p>
-  
-  ## Latest
-  
-  [2026-01-28.en.md](/archive/2026-01-28/en)
-  
-  [2026-01-28.global.md](/archive/2026-01-28/global)
-  
-  ## Global GPT Leaderboard for 2026-01-28
-  
-  
+# 2026-01-28
 
   
-  ### Featured
+  ## Featured
   
   Curated top picks from this week
   
@@ -498,6 +468,3 @@
   [**Code Copilot**](https://chat.openai.com/g/g-2DQzU5UZl-code-copilot) \
   No.13 / 10M+ / ★ 4.1 (41795 Reviews)
           
-
-  
-        
