@@ -1,0 +1,2945 @@
+{
+    "info": {
+        "id": "education",
+        "title": "Education",
+        "description": "Explore new ideas, revisit existing skills",
+        "display_type": "ranked",
+        "display_group": "Education",
+        "locale": "global"
+    },
+    "list": {
+        "items": [
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-hRCqiqVlM",
+                        "organization_id": "org-FqTXlsMUrWCUj3F7Q1QschB1",
+                        "short_url": "g-hRCqiqVlM-tutor-me",
+                        "author": {
+                            "user_id": "user-PfXyJoh1R3QWf85M2uGIqZDN__02dcb0b0-6385-4a41-846b-7031222365f7",
+                            "user_email": null,
+                            "display_name": "khanacademy.org",
+                            "link_to": "https://khanacademy.org",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": "02dcb0b0-6385-4a41-846b-7031222365f7",
+                        "model": null,
+                        "default_model": null,
+                        "instructions": null,
+                        "display": {
+                            "name": "Tutor Me",
+                            "description": "Your personal AI tutor by Khan Academy! I'm Khanmigo Lite - here to help you with math, science, and  humanities questions. I won’t do your work for you, but I will help you learn how to solve them on your own.  Can you tell me the problem or exercise you’d like to solve?",
+                            "prompt_starters": [
+                                "Give me 10 practice problems!",
+                                "How are you different than regular Khanmigo?"
+                            ],
+                            "profile_pic_id": "file-kM163oDkrVnm7jsidA5WweOP",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-kM163oDkrVnm7jsidA5WweOP&gizmo_id=g-hRCqiqVlM&ts=491697&p=gpp&cid=1&sig=9bd13e15126d928f98e2066136d8ade2e745ad4209477a6a02f6796e91fbe89e&v=0",
+                            "categories": [
+                                "education"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-30T22:41:49.438414+00:00",
+                        "updated_at": "2026-02-03T09:56:45.009079+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2025-05-06T22:02:01.061729+00:00",
+                        "version_updated_at": "2025-05-06T22:02:06.004307+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [
+                        {
+                            "id": "675a1b7ac00c81919c7467a964c004ff",
+                            "type": "canvas",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "681a86d90ff8819180c02a4a444ef13b",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-315eb94165daa3680e886be30f823c96896a96ab",
+                                "domain": "khanacademy.org",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.1.0",
+                                    "info": {
+                                        "title": "Search Khan Academy Content",
+                                        "description": "Returns a list of Khan Academy content items related to the query",
+                                        "version": "v1.0.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://khanacademy.org"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/api/internal/_rg/khanmigo/search_content": {
+                                            "get": {
+                                                "description": "Search Khan Academy Content for related Articles, Videos, Domains, Courses, Units, and Lessons",
+                                                "operationId": "SearchContent",
+                                                "parameters": [
+                                                    {
+                                                        "name": "query",
+                                                        "in": "query",
+                                                        "description": "The search query",
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "referrer",
+                                                        "in": "query",
+                                                        "description": "The GPT making this request. ALWAYS 'gpt-tutorme'",
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "deprecated": false
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {}
+                                    }
+                                },
+                                "auth": {
+                                    "type": "none"
+                                },
+                                "privacy_policy_url": "https://support.khanacademy.org/hc/en-us/articles/22396485532173"
+                            }
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-go",
+                                "text/javascript",
+                                "application/pdf",
+                                "text/css",
+                                "text/x-sh",
+                                "text/x-haskell",
+                                "text/x-kotlin",
+                                "text/jsx",
+                                "application/vnd.ms-powerpoint",
+                                "text/markdown",
+                                "text/x-c++",
+                                "text/x-diff",
+                                "application/x-scala",
+                                "application/vnd.apple.pages",
+                                "message/rfc822",
+                                "text/html",
+                                "text/x-vcard",
+                                "text/rtf",
+                                "application/toml",
+                                "application/javascript",
+                                "text/x-php",
+                                "text/x-rst",
+                                "text/x-astro",
+                                "text/x-lisp",
+                                "application/x-rust",
+                                "application/vnd.apple.keynote",
+                                "text/x-julia",
+                                "text/x-twig",
+                                "text/x-script.python",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-jade",
+                                "text/x-python",
+                                "text/x-tex",
+                                "text/x-liquid",
+                                "text/x-elixir",
+                                "application/rtf",
+                                "text/x-c",
+                                "text/x-tmpl",
+                                "text/x-lua",
+                                "application/x-sql",
+                                "text/x-makefile",
+                                "text/x-r",
+                                "text/x-erlang",
+                                "text/x-clojure",
+                                "text/xml",
+                                "text/plain",
+                                "application/x-yaml",
+                                "text/x-ruby",
+                                "text/x-erb",
+                                "text/tsx",
+                                "application/vnd.oasis.opendocument.text",
+                                "text/x-scala",
+                                "text/x-csharp",
+                                "text/x-swift",
+                                "text/x-objectivec",
+                                "text/x-typescript",
+                                "text/x-groovy",
+                                "text/x-jinja2",
+                                "application/json",
+                                "application/x-powershell",
+                                "text/x-asm",
+                                "text/x-java",
+                                "text/x-handlebars",
+                                "text/x-perl",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-shellscript",
+                                "text/x-dart",
+                                "text/x-mustache",
+                                "text/vbscript",
+                                "application/msword",
+                                "text/x-ejs",
+                                "text/x-objectivec++",
+                                "text/x-rust",
+                                "text/calendar",
+                                "text/x-pug"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/webp",
+                                "image/png",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-Q1LwuGocS",
+                        "organization_id": "org-tBUzaSZaR7Pvw4mZhBXWCH2J",
+                        "short_url": "g-Q1LwuGocS-statistics-stats",
+                        "author": {
+                            "user_id": "user-otDgCDa0qybtjYWYl9Jf0JHZ",
+                            "user_email": null,
+                            "display_name": "smartprompt.xyz",
+                            "link_to": "https://smartprompt.xyz",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": false,
+                            "display_socials": [
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "1640846816202612736",
+                                        "username": "@theryanstew",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/theryanstew"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": "gpt-5-thinking",
+                        "instructions": null,
+                        "display": {
+                            "name": "Statistics Stats",
+                            "description": "🔷#𝟏 𝐏𝐞𝐫𝐬𝐨𝐧𝐚𝐥𝐢𝐳𝐞𝐝 𝐒𝐭𝐚𝐭𝐢𝐬𝐭𝐢𝐜𝐬 𝐓𝐨𝐨𝐥🔷",
+                            "prompt_starters": [
+                                "Default Mode",
+                                "Analysis Mode",
+                                "Visualization Mode",
+                                "Software Guidance"
+                            ],
+                            "profile_pic_id": "file-jrvg2waC2sIiWuq0GSzZXHVX",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-jrvg2waC2sIiWuq0GSzZXHVX&gizmo_id=g-Q1LwuGocS&ts=491697&p=gpp&cid=1&sig=5476f126f34bed064c3eb0d3051363c133bb6548db1d271f5a5a6c3f236aeb7d&v=0",
+                            "categories": [
+                                "education"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-03-05T01:34:30.286910+00:00",
+                        "updated_at": "2026-02-03T09:54:07.146101+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2026-01-12T16:56:32.128625+00:00",
+                        "version_updated_at": "2026-01-12T16:56:34.895153+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_Sdx0BY8aTFC8vdJ7XWLyBOMt~gzm_tool_IyubXbNOyU0XRolLlNawl48r",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_AIKHm3Njg2pBiUGzsLSIHIHo~gzm_tool_qvfv3RBMKAcD6VSwe5DFsgyy",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-go",
+                                "text/javascript",
+                                "application/pdf",
+                                "text/css",
+                                "text/x-sh",
+                                "text/x-haskell",
+                                "text/x-kotlin",
+                                "text/jsx",
+                                "application/vnd.ms-powerpoint",
+                                "text/markdown",
+                                "text/x-c++",
+                                "text/x-diff",
+                                "application/x-scala",
+                                "application/vnd.apple.pages",
+                                "message/rfc822",
+                                "text/html",
+                                "text/x-vcard",
+                                "text/rtf",
+                                "application/toml",
+                                "application/javascript",
+                                "text/x-php",
+                                "text/x-rst",
+                                "text/x-astro",
+                                "text/x-lisp",
+                                "application/x-rust",
+                                "application/vnd.apple.keynote",
+                                "text/x-julia",
+                                "text/x-twig",
+                                "text/x-script.python",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-jade",
+                                "text/x-python",
+                                "text/x-tex",
+                                "text/x-liquid",
+                                "text/x-elixir",
+                                "application/rtf",
+                                "text/x-c",
+                                "text/x-tmpl",
+                                "text/x-lua",
+                                "application/x-sql",
+                                "text/x-makefile",
+                                "text/x-r",
+                                "text/x-erlang",
+                                "text/x-clojure",
+                                "text/xml",
+                                "text/plain",
+                                "application/x-yaml",
+                                "text/x-ruby",
+                                "text/x-erb",
+                                "text/tsx",
+                                "application/vnd.oasis.opendocument.text",
+                                "text/x-scala",
+                                "text/x-csharp",
+                                "text/x-swift",
+                                "text/x-objectivec",
+                                "text/x-typescript",
+                                "text/x-groovy",
+                                "text/x-jinja2",
+                                "application/json",
+                                "application/x-powershell",
+                                "text/x-asm",
+                                "text/x-java",
+                                "text/x-handlebars",
+                                "text/x-perl",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-shellscript",
+                                "text/x-dart",
+                                "text/x-mustache",
+                                "text/vbscript",
+                                "application/msword",
+                                "text/x-ejs",
+                                "text/x-objectivec++",
+                                "text/x-rust",
+                                "text/calendar",
+                                "text/x-pug"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/webp",
+                                "image/png",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-kr4mnJ5kT",
+                        "organization_id": "org-JC0bGzaxysp9AnQS6jKBXskB",
+                        "short_url": "g-kr4mnJ5kT-chat-portugues",
+                        "author": {
+                            "user_id": "user-vgtn849uMB9tyiZZwCPKNzqy",
+                            "user_email": null,
+                            "display_name": "gptonline.ai",
+                            "link_to": "https://gptonline.ai",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": null,
+                        "instructions": null,
+                        "display": {
+                            "name": "Chat Português",
+                            "description": "Chatbot adaptado à cultura e linguagem portuguesas, com foco em educação e respeito.",
+                            "prompt_starters": [
+                                "Qual é a capital de Portugal?",
+                                "Quais são os pratos típicos portugueses?",
+                                "Conte-me uma curiosidade sobre a história de Portugal."
+                            ],
+                            "profile_pic_id": "file-mC4f0gq8O16AeAAOmYvY6CMy",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-mC4f0gq8O16AeAAOmYvY6CMy&gizmo_id=g-kr4mnJ5kT&ts=491697&p=gpp&cid=1&sig=6c10d6d73f457b79c113ca3a92fb982c37ead46cfdbead8a84fbc1c73b7c6f4d&v=0",
+                            "categories": [
+                                "education"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-12-27T09:37:38.822302+00:00",
+                        "updated_at": "2026-02-03T09:56:56.439052+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2025-05-09T02:52:04.043273+00:00",
+                        "version_updated_at": "2025-05-14T15:07:43.715578+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [
+                        {
+                            "id": "67aeb30972a08191bb8d6a8cacc7cfa3",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "67aeb30972d4819188e97c9d03df88de",
+                            "type": "canvas",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "67aeb30972fc819182afdbcb9329cefd",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "67aeb309732881919006f1f6090bcf84",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "680f04acfca88191818ed5d9d088b13a",
+                            "type": "image_gen",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-go",
+                                "text/javascript",
+                                "application/pdf",
+                                "text/css",
+                                "text/x-sh",
+                                "text/x-haskell",
+                                "text/x-kotlin",
+                                "text/jsx",
+                                "application/vnd.ms-powerpoint",
+                                "text/markdown",
+                                "text/x-c++",
+                                "text/x-diff",
+                                "application/x-scala",
+                                "application/vnd.apple.pages",
+                                "message/rfc822",
+                                "text/html",
+                                "text/x-vcard",
+                                "text/rtf",
+                                "application/toml",
+                                "application/javascript",
+                                "text/x-php",
+                                "text/x-rst",
+                                "text/x-astro",
+                                "text/x-lisp",
+                                "application/x-rust",
+                                "application/vnd.apple.keynote",
+                                "text/x-julia",
+                                "text/x-twig",
+                                "text/x-script.python",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-jade",
+                                "text/x-python",
+                                "text/x-tex",
+                                "text/x-liquid",
+                                "text/x-elixir",
+                                "application/rtf",
+                                "text/x-c",
+                                "text/x-tmpl",
+                                "text/x-lua",
+                                "application/x-sql",
+                                "text/x-makefile",
+                                "text/x-r",
+                                "text/x-erlang",
+                                "text/x-clojure",
+                                "text/xml",
+                                "text/plain",
+                                "application/x-yaml",
+                                "text/x-ruby",
+                                "text/x-erb",
+                                "text/tsx",
+                                "application/vnd.oasis.opendocument.text",
+                                "text/x-scala",
+                                "text/x-csharp",
+                                "text/x-swift",
+                                "text/x-objectivec",
+                                "text/x-typescript",
+                                "text/x-groovy",
+                                "text/x-jinja2",
+                                "application/json",
+                                "application/x-powershell",
+                                "text/x-asm",
+                                "text/x-java",
+                                "text/x-handlebars",
+                                "text/x-perl",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-shellscript",
+                                "text/x-dart",
+                                "text/x-mustache",
+                                "text/vbscript",
+                                "application/msword",
+                                "text/x-ejs",
+                                "text/x-objectivec++",
+                                "text/x-rust",
+                                "text/calendar",
+                                "text/x-pug"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/webp",
+                                "image/png",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-My8UBHpJn",
+                        "organization_id": "org-Q4gfuqh9qB2wNbQarIzOYDwv",
+                        "short_url": "g-My8UBHpJn-legal-contracts-lawyer-backed",
+                        "author": {
+                            "user_id": "user-nZap0Ea5td9loJvoyqWFsZZa",
+                            "user_email": null,
+                            "display_name": "AIResearchPlus.com",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": null,
+                        "instructions": null,
+                        "display": {
+                            "name": "Legal & Contracts (Lawyer-Backed)",
+                            "description": "THE FIRST & MOST TRAINED, backed by 2,000+ lawyers on demand. DISCLAIMER: LAWYERS ARE NOT SUPERVISING OR PARTICIPATING IN THIS CHAT. You can reach one through it. Do not rely on this GPT for legal advice or consider any of its content as such advice. Always consult a professional.",
+                            "prompt_starters": [
+                                "Let's start!",
+                                "I have a question",
+                                "How can you help?",
+                                "I need an explanation"
+                            ],
+                            "profile_pic_id": "file-SFFcETjEbG7R3uAEjKR8ia",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-SFFcETjEbG7R3uAEjKR8ia&gizmo_id=g-My8UBHpJn&ts=491697&p=gpp&cid=1&sig=77a00d8da656c502655f7e77eb9ba4255dd8cbc8c84e4283c6aafcd5f317c917&v=0",
+                            "categories": [
+                                "research"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-03-23T15:20:30.316921+00:00",
+                        "updated_at": "2026-02-03T09:56:42.917140+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2025-10-15T17:40:48.556533+00:00",
+                        "version_updated_at": "2025-10-15T17:40:52.654802+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [
+                        {
+                            "id": "MhncqYPlrTyXmugJEEUa9qYz",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_4BmF3inwL1ecHno5fK1vLEvL~gzm_tool_LW83eH2IMxSWnWTwiHacYmfh",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_4BmF3inwL1ecHno5fK1vLEvL~gzm_tool_z3DD6eXTij2k4aPEslZWpG8S",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "677fa5a0ae7c8191a473208a40dd364e",
+                            "type": "canvas",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "684bd32f34088191ac2a785463dd5b26",
+                            "type": "image_gen",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "68efdca08e9c8191b73ed7cb331b24ff",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-30b1cd9945a5bb71e65d7165f0789e8a3c3d07a5",
+                                "domain": "api.inhouse.app",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.1.0",
+                                    "info": {
+                                        "title": "Inhouse API",
+                                        "description": "API for generating documents and submitting referral leads.",
+                                        "version": "1.0.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://api.inhouse.app",
+                                            "description": "Inhouse API server"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/gpt/airesearchpro/generate-document": {
+                                            "post": {
+                                                "operationId": "generate_document",
+                                                "summary": "Generate a link to continue document generation at Inhouse",
+                                                "description": "Sends a summary of the conversation to Inhouse so the document generation can continue there.",
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "user_requirements": {
+                                                                        "type": "string",
+                                                                        "description": "A description of user requirements for document generation. Make this as detailed as possible and make sure you add all the details provided by the user"
+                                                                    },
+                                                                    "document_title": {
+                                                                        "type": "string",
+                                                                        "description": "A title for the document being generated"
+                                                                    },
+                                                                    "document_uploaded": {
+                                                                        "type": "boolean",
+                                                                        "description": "True if the user uploaded a document during the conversation which was not shared on this API call. False if the user did not upload a document."
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "user_requirements",
+                                                                    "document_title",
+                                                                    "document_uploaded"
+                                                                ]
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successfully generated the document and returned an access URL.",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "url": {
+                                                                            "type": "string",
+                                                                            "description": "A URL to continue document generation in Inhouse."
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "url"
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Bad request, invalid input."
+                                                    },
+                                                    "500": {
+                                                        "description": "Internal server error."
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/gpt/airesearchpro/get-lawyer-advice": {
+                                            "post": {
+                                                "operationId": "getLawyerAdvice",
+                                                "summary": "Generate a link to continue legal advise at Inhouse",
+                                                "description": "Sends a summary of the conversation to Inhouse to continue with the process of connecting with a lawyer.",
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "user_requirements": {
+                                                                        "type": "string",
+                                                                        "description": "A description of user requirements for legal review request. Make this as detailed as possible and make sure you add all the details provided by the user"
+                                                                    },
+                                                                    "document_uploaded": {
+                                                                        "type": "boolean",
+                                                                        "description": "True if the user uploaded a document during the conversation which was not shared on this API call. False if the user did not upload a document."
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "user_requirements",
+                                                                    "document_uploaded"
+                                                                ]
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successfully generated the lawyer review request and returned an access URL.",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "url": {
+                                                                            "type": "string",
+                                                                            "format": "uri",
+                                                                            "description": "A URL to continue with Inhouse"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "url"
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Bad request, invalid input."
+                                                    },
+                                                    "500": {
+                                                        "description": "Internal server error."
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "service_http",
+                                    "instructions": "",
+                                    "authorization_type": "bearer",
+                                    "verification_tokens": {},
+                                    "custom_auth_header": ""
+                                },
+                                "privacy_policy_url": "https://www.inhouse.app/privacy-policy"
+                            }
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-go",
+                                "text/javascript",
+                                "application/pdf",
+                                "text/css",
+                                "text/x-sh",
+                                "text/x-haskell",
+                                "text/x-kotlin",
+                                "text/jsx",
+                                "application/vnd.ms-powerpoint",
+                                "text/markdown",
+                                "text/x-c++",
+                                "text/x-diff",
+                                "application/x-scala",
+                                "application/vnd.apple.pages",
+                                "message/rfc822",
+                                "text/html",
+                                "text/x-vcard",
+                                "text/rtf",
+                                "application/toml",
+                                "application/javascript",
+                                "text/x-php",
+                                "text/x-rst",
+                                "text/x-astro",
+                                "text/x-lisp",
+                                "application/x-rust",
+                                "application/vnd.apple.keynote",
+                                "text/x-julia",
+                                "text/x-twig",
+                                "text/x-script.python",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-jade",
+                                "text/x-python",
+                                "text/x-tex",
+                                "text/x-liquid",
+                                "text/x-elixir",
+                                "application/rtf",
+                                "text/x-c",
+                                "text/x-tmpl",
+                                "text/x-lua",
+                                "application/x-sql",
+                                "text/x-makefile",
+                                "text/x-r",
+                                "text/x-erlang",
+                                "text/x-clojure",
+                                "text/xml",
+                                "text/plain",
+                                "application/x-yaml",
+                                "text/x-ruby",
+                                "text/x-erb",
+                                "text/tsx",
+                                "application/vnd.oasis.opendocument.text",
+                                "text/x-scala",
+                                "text/x-csharp",
+                                "text/x-swift",
+                                "text/x-objectivec",
+                                "text/x-typescript",
+                                "text/x-groovy",
+                                "text/x-jinja2",
+                                "application/json",
+                                "application/x-powershell",
+                                "text/x-asm",
+                                "text/x-java",
+                                "text/x-handlebars",
+                                "text/x-perl",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-shellscript",
+                                "text/x-dart",
+                                "text/x-mustache",
+                                "text/vbscript",
+                                "application/msword",
+                                "text/x-ejs",
+                                "text/x-objectivec++",
+                                "text/x-rust",
+                                "text/calendar",
+                                "text/x-pug"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/webp",
+                                "image/png",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-KMujTLNVK",
+                        "organization_id": "org-LFizWYCMMt6pjUXgiMAxBJtC",
+                        "short_url": "g-KMujTLNVK-physics",
+                        "author": {
+                            "user_id": "user-Z9JrMzzMAJlIByGeRtUptmUN",
+                            "user_email": null,
+                            "display_name": "pulsrai.com",
+                            "link_to": "https://pulsrai.com",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": false,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "uRC2-heAmK",
+                                        "username": "Leo Feasby",
+                                        "display_name": "Leo Feasby",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/leo-feasby-4b6006251"
+                                    }
+                                },
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "1860506670339657728",
+                                        "username": "@Pulsrcoin",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/Pulsrcoin"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": "o4-mini",
+                        "instructions": null,
+                        "display": {
+                            "name": "physics",
+                            "description": "💎 The worlds most powerful Physics tool. 💎 $PULSR",
+                            "prompt_starters": [
+                                "Learning / Problem Solving mode",
+                                "Research mode",
+                                "Code mode",
+                                "🔗 universal intelligence"
+                            ],
+                            "profile_pic_id": "file-2djz8QCHlYQT4mgGEd3233VD",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-2djz8QCHlYQT4mgGEd3233VD&gizmo_id=g-KMujTLNVK&ts=491697&p=gpp&cid=1&sig=7a4bc65cc7c85b7587fd3925f4aa7e9ed970421e96a2a2ea840c57ed4522e8d2&v=0",
+                            "categories": [
+                                "education"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-03-09T16:30:36.621699+00:00",
+                        "updated_at": "2026-02-03T09:49:44.969853+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2025-12-16T10:41:48.111315+00:00",
+                        "version_updated_at": "2025-12-16T10:41:56.000576+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [
+                        {
+                            "id": "684b49e2e2e481918e6135ab1d198dad",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "684b49e67aec8191aa2da22dd50cff76",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "684b49e67b10819198db8a09a0f51604",
+                            "type": "image_gen",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-go",
+                                "text/javascript",
+                                "application/pdf",
+                                "text/css",
+                                "text/x-sh",
+                                "text/x-haskell",
+                                "text/x-kotlin",
+                                "text/jsx",
+                                "application/vnd.ms-powerpoint",
+                                "text/markdown",
+                                "text/x-c++",
+                                "text/x-diff",
+                                "application/x-scala",
+                                "application/vnd.apple.pages",
+                                "message/rfc822",
+                                "text/html",
+                                "text/x-vcard",
+                                "text/rtf",
+                                "application/toml",
+                                "application/javascript",
+                                "text/x-php",
+                                "text/x-rst",
+                                "text/x-astro",
+                                "text/x-lisp",
+                                "application/x-rust",
+                                "application/vnd.apple.keynote",
+                                "text/x-julia",
+                                "text/x-twig",
+                                "text/x-script.python",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-jade",
+                                "text/x-python",
+                                "text/x-tex",
+                                "text/x-liquid",
+                                "text/x-elixir",
+                                "application/rtf",
+                                "text/x-c",
+                                "text/x-tmpl",
+                                "text/x-lua",
+                                "application/x-sql",
+                                "text/x-makefile",
+                                "text/x-r",
+                                "text/x-erlang",
+                                "text/x-clojure",
+                                "text/xml",
+                                "text/plain",
+                                "application/x-yaml",
+                                "text/x-ruby",
+                                "text/x-erb",
+                                "text/tsx",
+                                "application/vnd.oasis.opendocument.text",
+                                "text/x-scala",
+                                "text/x-csharp",
+                                "text/x-swift",
+                                "text/x-objectivec",
+                                "text/x-typescript",
+                                "text/x-groovy",
+                                "text/x-jinja2",
+                                "application/json",
+                                "application/x-powershell",
+                                "text/x-asm",
+                                "text/x-java",
+                                "text/x-handlebars",
+                                "text/x-perl",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-shellscript",
+                                "text/x-dart",
+                                "text/x-mustache",
+                                "text/vbscript",
+                                "application/msword",
+                                "text/x-ejs",
+                                "text/x-objectivec++",
+                                "text/x-rust",
+                                "text/calendar",
+                                "text/x-pug"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/webp",
+                                "image/png",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-FvT4UOsoA",
+                        "organization_id": "org-JC0bGzaxysp9AnQS6jKBXskB",
+                        "short_url": "g-FvT4UOsoA-caes",
+                        "author": {
+                            "user_id": "user-vgtn849uMB9tyiZZwCPKNzqy",
+                            "user_email": null,
+                            "display_name": null,
+                            "link_to": null,
+                            "is_verified": false,
+                            "selected_display": "name",
+                            "will_receive_support_emails": false,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": null,
+                        "instructions": null,
+                        "display": {
+                            "name": "챗",
+                            "description": "한국 문화에 적합한 말하기 스타일을 사용하여 사용자에게 응답합니다.",
+                            "prompt_starters": [
+                                "고급 채팅을 원하시면 https://gptonline.ai/를 방문하세요.",
+                                "한국의 역사적 사건에 대한 정보가 필요해요.",
+                                "한국어 문법 규칙에 대한 질문이 있어요.",
+                                "이 단어의 뜻이 궁금해요. "
+                            ],
+                            "profile_pic_id": "file-yOO0xA22YQbkjlS6bbbOEoLq",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-yOO0xA22YQbkjlS6bbbOEoLq&gizmo_id=g-FvT4UOsoA&ts=491697&p=gpp&cid=1&sig=af8fb75bb6d557722c46a0aa140490b63fba7507d6739b045fb3879dc85742e6&v=0",
+                            "categories": [
+                                "education"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-12-27T08:48:51.118730+00:00",
+                        "updated_at": "2026-02-03T09:56:46.902673+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2025-05-03T16:33:16.884398+00:00",
+                        "version_updated_at": "2025-05-05T15:06:58.990333+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [
+                        {
+                            "id": "Y1X18s62aZhFkDGNp5Olv1VC",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "67aeba722b8c819197c66653ca900d67",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "67aeba722bc8819189f4b894327cc758",
+                            "type": "canvas",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "67aeba7506bc81919b03285a65f2e856",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "680f1ad00a14819197bbdfc3d2d6fc04",
+                            "type": "image_gen",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-go",
+                                "text/javascript",
+                                "application/pdf",
+                                "text/css",
+                                "text/x-sh",
+                                "text/x-haskell",
+                                "text/x-kotlin",
+                                "text/jsx",
+                                "application/vnd.ms-powerpoint",
+                                "text/markdown",
+                                "text/x-c++",
+                                "text/x-diff",
+                                "application/x-scala",
+                                "application/vnd.apple.pages",
+                                "message/rfc822",
+                                "text/html",
+                                "text/x-vcard",
+                                "text/rtf",
+                                "application/toml",
+                                "application/javascript",
+                                "text/x-php",
+                                "text/x-rst",
+                                "text/x-astro",
+                                "text/x-lisp",
+                                "application/x-rust",
+                                "application/vnd.apple.keynote",
+                                "text/x-julia",
+                                "text/x-twig",
+                                "text/x-script.python",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-jade",
+                                "text/x-python",
+                                "text/x-tex",
+                                "text/x-liquid",
+                                "text/x-elixir",
+                                "application/rtf",
+                                "text/x-c",
+                                "text/x-tmpl",
+                                "text/x-lua",
+                                "application/x-sql",
+                                "text/x-makefile",
+                                "text/x-r",
+                                "text/x-erlang",
+                                "text/x-clojure",
+                                "text/xml",
+                                "text/plain",
+                                "application/x-yaml",
+                                "text/x-ruby",
+                                "text/x-erb",
+                                "text/tsx",
+                                "application/vnd.oasis.opendocument.text",
+                                "text/x-scala",
+                                "text/x-csharp",
+                                "text/x-swift",
+                                "text/x-objectivec",
+                                "text/x-typescript",
+                                "text/x-groovy",
+                                "text/x-jinja2",
+                                "application/json",
+                                "application/x-powershell",
+                                "text/x-asm",
+                                "text/x-java",
+                                "text/x-handlebars",
+                                "text/x-perl",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-shellscript",
+                                "text/x-dart",
+                                "text/x-mustache",
+                                "text/vbscript",
+                                "application/msword",
+                                "text/x-ejs",
+                                "text/x-objectivec++",
+                                "text/x-rust",
+                                "text/calendar",
+                                "text/x-pug"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/webp",
+                                "image/png",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-1E7Z6Q2XF",
+                        "organization_id": "org-JC0bGzaxysp9AnQS6jKBXskB",
+                        "short_url": "g-1E7Z6Q2XF-chat-espanol",
+                        "author": {
+                            "user_id": "user-vgtn849uMB9tyiZZwCPKNzqy",
+                            "user_email": null,
+                            "display_name": "gptonline.ai",
+                            "link_to": "https://gptonline.ai",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": null,
+                        "instructions": null,
+                        "display": {
+                            "name": "Chat Español",
+                            "description": "El chatbot está diseñado para ser cultural y lingüísticamente apropiado para España, con un enfoque en la educación y el respeto.",
+                            "prompt_starters": [
+                                "¿Cuál es el significado de esta expresión española?",
+                                "¿Puedes explicarme una tradición típica de España?",
+                                "Enséñame algunas palabras coloquiales usadas en Madrid.",
+                                "¿Qué diferencia hay entre el español de España y el de Latinoamérica?"
+                            ],
+                            "profile_pic_id": "file-HoyCLfw9C6irWfaxKSEwWY",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-HoyCLfw9C6irWfaxKSEwWY&gizmo_id=g-1E7Z6Q2XF&ts=491697&p=gpp&cid=1&sig=250e505f4e28e7bce0a7ade5955a0dfbb1970abd933998d98f771c3be3b2d71b&v=0",
+                            "categories": [
+                                "education"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-12-27T08:54:33.926086+00:00",
+                        "updated_at": "2026-02-03T09:56:38.598255+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2025-06-14T06:43:49.612410+00:00",
+                        "version_updated_at": "2025-06-14T06:43:54.287535+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_o7XWpHX9s6VRtM28VCBtybBV~gzm_tool_le20gAWK1epLN4jdmNAh5Ejn",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_o7XWpHX9s6VRtM28VCBtybBV~gzm_tool_Izk7MUEf4GIWq5Of1MDlg5V0",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "0HMAEBjwJj4JCgXI6Cw4MbBu",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "676238791e4c81919ff4e34b7978ef8e",
+                            "type": "canvas",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "680f1ab27c8c81918b52025b12961363",
+                            "type": "image_gen",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-go",
+                                "text/javascript",
+                                "application/pdf",
+                                "text/css",
+                                "text/x-sh",
+                                "text/x-haskell",
+                                "text/x-kotlin",
+                                "text/jsx",
+                                "application/vnd.ms-powerpoint",
+                                "text/markdown",
+                                "text/x-c++",
+                                "text/x-diff",
+                                "application/x-scala",
+                                "application/vnd.apple.pages",
+                                "message/rfc822",
+                                "text/html",
+                                "text/x-vcard",
+                                "text/rtf",
+                                "application/toml",
+                                "application/javascript",
+                                "text/x-php",
+                                "text/x-rst",
+                                "text/x-astro",
+                                "text/x-lisp",
+                                "application/x-rust",
+                                "application/vnd.apple.keynote",
+                                "text/x-julia",
+                                "text/x-twig",
+                                "text/x-script.python",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-jade",
+                                "text/x-python",
+                                "text/x-tex",
+                                "text/x-liquid",
+                                "text/x-elixir",
+                                "application/rtf",
+                                "text/x-c",
+                                "text/x-tmpl",
+                                "text/x-lua",
+                                "application/x-sql",
+                                "text/x-makefile",
+                                "text/x-r",
+                                "text/x-erlang",
+                                "text/x-clojure",
+                                "text/xml",
+                                "text/plain",
+                                "application/x-yaml",
+                                "text/x-ruby",
+                                "text/x-erb",
+                                "text/tsx",
+                                "application/vnd.oasis.opendocument.text",
+                                "text/x-scala",
+                                "text/x-csharp",
+                                "text/x-swift",
+                                "text/x-objectivec",
+                                "text/x-typescript",
+                                "text/x-groovy",
+                                "text/x-jinja2",
+                                "application/json",
+                                "application/x-powershell",
+                                "text/x-asm",
+                                "text/x-java",
+                                "text/x-handlebars",
+                                "text/x-perl",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-shellscript",
+                                "text/x-dart",
+                                "text/x-mustache",
+                                "text/vbscript",
+                                "application/msword",
+                                "text/x-ejs",
+                                "text/x-objectivec++",
+                                "text/x-rust",
+                                "text/calendar",
+                                "text/x-pug"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/webp",
+                                "image/png",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-Jv4qOKRF5",
+                        "organization_id": "org-AV6E7A58yOQRLxBqSHaMVsgn",
+                        "short_url": "g-Jv4qOKRF5-amboss-medical-knowledge",
+                        "author": {
+                            "user_id": "user-TXf1htbmJ8VWatCZuz7LhPz8",
+                            "user_email": null,
+                            "display_name": "AMBOSS",
+                            "link_to": "https://amboss.com",
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": "gpt-5-instant",
+                        "instructions": null,
+                        "display": {
+                            "name": "AMBOSS Medical Knowledge",
+                            "description": "Ask me medical questions in any language. I will consult the AMBOSS Library to provide answers. Note: I am intended for informational and educational purposes only, NOT for diagnostic or therapeutic use. I do NOT offer tailored medical advice. AI can make mistakes.",
+                            "prompt_starters": [
+                                "Define unstable angina",
+                                "Differentiate TIA from stroke",
+                                "List the symptoms of hypothyroidism",
+                                "Outline anaphylaxis management"
+                            ],
+                            "profile_pic_id": "file-KHmKKqXq24IabhONnoy9F4Ms",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-KHmKKqXq24IabhONnoy9F4Ms&gizmo_id=g-Jv4qOKRF5&ts=491697&p=gpp&cid=1&sig=f28109e03e66a47493eddd4a70ef102502e052b853990a27c3910632b8550987&v=0",
+                            "categories": [
+                                "education"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-07T12:31:39.068597+00:00",
+                        "updated_at": "2026-02-03T09:56:57.468899+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2026-01-07T10:02:03.648629+00:00",
+                        "version_updated_at": "2026-01-07T10:02:08.720998+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [
+                        {
+                            "id": "695e2f1ba6208191b3bcba1b7b99368b",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-ea62d9fc2ecfdab479fbb704eecedc41fd1c732d",
+                                "domain": "chatgpt.amboss.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.1.0",
+                                    "info": {
+                                        "title": "AMBOSS Retrieval API",
+                                        "description": "An API that provides context-specific, reliable medical information sourced from the AMBOSS library.",
+                                        "version": "v0.0.1"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://chatgpt.amboss.com"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/retrieve/{language}": {
+                                            "get": {
+                                                "summary": "Retrieve",
+                                                "description": "Retrieve medical information for the given query from the AMBOSS library.",
+                                                "operationId": "retrieve_retrieve__language__get",
+                                                "parameters": [
+                                                    {
+                                                        "name": "language",
+                                                        "in": "path",
+                                                        "required": true,
+                                                        "schema": {
+                                                            "$ref": "#/components/schemas/Language"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "query",
+                                                        "in": "query",
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "description": "The medical search query.",
+                                                            "title": "Query"
+                                                        },
+                                                        "description": "The medical search query."
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful response",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/Results"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Invalid query parameter",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/Error"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "401": {
+                                                        "description": "User is not authenticated",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/Error"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "422": {
+                                                        "description": "Validation Error",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "429": {
+                                                        "description": "Free quota exceeded",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/Error"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "Error": {
+                                                "properties": {
+                                                    "error": {
+                                                        "type": "string",
+                                                        "title": "Error"
+                                                    }
+                                                },
+                                                "type": "object",
+                                                "required": [
+                                                    "error"
+                                                ],
+                                                "title": "Error"
+                                            },
+                                            "HTTPValidationError": {
+                                                "properties": {
+                                                    "detail": {
+                                                        "items": {
+                                                            "$ref": "#/components/schemas/ValidationError"
+                                                        },
+                                                        "type": "array",
+                                                        "title": "Detail"
+                                                    }
+                                                },
+                                                "type": "object",
+                                                "title": "HTTPValidationError"
+                                            },
+                                            "Language": {
+                                                "type": "string",
+                                                "enum": [
+                                                    "en",
+                                                    "de"
+                                                ],
+                                                "title": "Language"
+                                            },
+                                            "Result": {
+                                                "properties": {
+                                                    "chunk": {
+                                                        "type": "string",
+                                                        "title": "Chunk",
+                                                        "description": "A Markdown chunk containing the most relevant medical information."
+                                                    },
+                                                    "url": {
+                                                        "anyOf": [
+                                                            {
+                                                                "type": "string"
+                                                            },
+                                                            {
+                                                                "type": "null"
+                                                            }
+                                                        ],
+                                                        "title": "Url",
+                                                        "description": "The source URL with further medical information related to the chunk."
+                                                    }
+                                                },
+                                                "type": "object",
+                                                "required": [
+                                                    "chunk",
+                                                    "url"
+                                                ],
+                                                "title": "Result"
+                                            },
+                                            "Results": {
+                                                "properties": {
+                                                    "front_matter": {
+                                                        "type": "string",
+                                                        "title": "Front Matter",
+                                                        "description": "The front matter to be prepended to the results."
+                                                    },
+                                                    "results": {
+                                                        "items": {
+                                                            "$ref": "#/components/schemas/Result"
+                                                        },
+                                                        "type": "array",
+                                                        "title": "Results"
+                                                    }
+                                                },
+                                                "type": "object",
+                                                "required": [
+                                                    "front_matter",
+                                                    "results"
+                                                ],
+                                                "title": "Results"
+                                            },
+                                            "ValidationError": {
+                                                "properties": {
+                                                    "loc": {
+                                                        "items": {
+                                                            "anyOf": [
+                                                                {
+                                                                    "type": "string"
+                                                                },
+                                                                {
+                                                                    "type": "integer"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "type": "array",
+                                                        "title": "Location"
+                                                    },
+                                                    "msg": {
+                                                        "type": "string",
+                                                        "title": "Message"
+                                                    },
+                                                    "type": {
+                                                        "type": "string",
+                                                        "title": "Error Type"
+                                                    }
+                                                },
+                                                "type": "object",
+                                                "required": [
+                                                    "loc",
+                                                    "msg",
+                                                    "type"
+                                                ],
+                                                "title": "ValidationError"
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "oauth",
+                                    "instructions": "",
+                                    "client_url": "https://auth.amboss.com/oidc/auth",
+                                    "scope": "profile",
+                                    "authorization_url": "https://auth.amboss.com/oidc/token",
+                                    "authorization_content_type": "application/x-www-form-urlencoded",
+                                    "verification_tokens": {},
+                                    "pkce_required": false,
+                                    "token_exchange_method": "default_post"
+                                },
+                                "privacy_policy_url": "https://www.amboss.com/us/privacy"
+                            }
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-go",
+                                "text/javascript",
+                                "application/pdf",
+                                "text/css",
+                                "text/x-sh",
+                                "text/x-haskell",
+                                "text/x-kotlin",
+                                "text/jsx",
+                                "application/vnd.ms-powerpoint",
+                                "text/markdown",
+                                "text/x-c++",
+                                "text/x-diff",
+                                "application/x-scala",
+                                "application/vnd.apple.pages",
+                                "message/rfc822",
+                                "text/html",
+                                "text/x-vcard",
+                                "text/rtf",
+                                "application/toml",
+                                "application/javascript",
+                                "text/x-php",
+                                "text/x-rst",
+                                "text/x-astro",
+                                "text/x-lisp",
+                                "application/x-rust",
+                                "application/vnd.apple.keynote",
+                                "text/x-julia",
+                                "text/x-twig",
+                                "text/x-script.python",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-jade",
+                                "text/x-python",
+                                "text/x-tex",
+                                "text/x-liquid",
+                                "text/x-elixir",
+                                "application/rtf",
+                                "text/x-c",
+                                "text/x-tmpl",
+                                "text/x-lua",
+                                "application/x-sql",
+                                "text/x-makefile",
+                                "text/x-r",
+                                "text/x-erlang",
+                                "text/x-clojure",
+                                "text/xml",
+                                "text/plain",
+                                "application/x-yaml",
+                                "text/x-ruby",
+                                "text/x-erb",
+                                "text/tsx",
+                                "application/vnd.oasis.opendocument.text",
+                                "text/x-scala",
+                                "text/x-csharp",
+                                "text/x-swift",
+                                "text/x-objectivec",
+                                "text/x-typescript",
+                                "text/x-groovy",
+                                "text/x-jinja2",
+                                "application/json",
+                                "application/x-powershell",
+                                "text/x-asm",
+                                "text/x-java",
+                                "text/x-handlebars",
+                                "text/x-perl",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-shellscript",
+                                "text/x-dart",
+                                "text/x-mustache",
+                                "text/vbscript",
+                                "application/msword",
+                                "text/x-ejs",
+                                "text/x-objectivec++",
+                                "text/x-rust",
+                                "text/calendar",
+                                "text/x-pug"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/webp",
+                                "image/png",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-RR3RCyK8N",
+                        "organization_id": "org-kng2mwVmhwIeuefO6q6mafsT",
+                        "short_url": "g-RR3RCyK8N-language-teacher-ms-smith",
+                        "author": {
+                            "user_id": "user-yOhGyPv1hGLr2E2YNOi93eok",
+                            "user_email": null,
+                            "display_name": "tevfik.xyz",
+                            "link_to": "https://tevfik.xyz",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": null,
+                        "instructions": null,
+                        "display": {
+                            "name": "Language Teacher | Ms. Smith",
+                            "description": "Supports  20+ languages  - Spanish, German, French, English, Chinese, Korean, Japanese, ... Your private tutor to learn any language in most effective way by having conversation. Increase your vocabulary by talking about fun topics, coach you.  📲 Use voice in mobile for talking",
+                            "prompt_starters": [
+                                "Spanish 🇪🇸",
+                                "French 🇫🇷",
+                                "German 🇩🇪",
+                                "Other  🌍",
+                                "English 🇬🇧",
+                                "Japanese 🇯🇵",
+                                "Chinese 🇨🇳 ",
+                                "Italian 🇮🇹"
+                            ],
+                            "profile_pic_id": "file-p7wjkbf2I2Am2p4jIy9OWKMP",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-p7wjkbf2I2Am2p4jIy9OWKMP&gizmo_id=g-RR3RCyK8N&ts=491697&p=gpp&cid=1&sig=93c6653dbfcb7cb329ff52e5a40e888d24e89ceaa0ca3336334319f06de4a844&v=0",
+                            "categories": [
+                                "education"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-12-20T19:34:28.812692+00:00",
+                        "updated_at": "2026-02-03T09:53:19.260187+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2024-04-01T17:09:48.762978+00:00",
+                        "version_updated_at": "2024-10-28T03:06:37.381476+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-go",
+                                "text/javascript",
+                                "application/pdf",
+                                "text/css",
+                                "text/x-sh",
+                                "text/x-haskell",
+                                "text/x-kotlin",
+                                "text/jsx",
+                                "application/vnd.ms-powerpoint",
+                                "text/markdown",
+                                "text/x-c++",
+                                "text/x-diff",
+                                "application/x-scala",
+                                "application/vnd.apple.pages",
+                                "message/rfc822",
+                                "text/html",
+                                "text/x-vcard",
+                                "text/rtf",
+                                "application/toml",
+                                "application/javascript",
+                                "text/x-php",
+                                "text/x-rst",
+                                "text/x-astro",
+                                "text/x-lisp",
+                                "application/x-rust",
+                                "application/vnd.apple.keynote",
+                                "text/x-julia",
+                                "text/x-twig",
+                                "text/x-script.python",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-jade",
+                                "text/x-python",
+                                "text/x-tex",
+                                "text/x-liquid",
+                                "text/x-elixir",
+                                "application/rtf",
+                                "text/x-c",
+                                "text/x-tmpl",
+                                "text/x-lua",
+                                "application/x-sql",
+                                "text/x-makefile",
+                                "text/x-r",
+                                "text/x-erlang",
+                                "text/x-clojure",
+                                "text/xml",
+                                "text/plain",
+                                "application/x-yaml",
+                                "text/x-ruby",
+                                "text/x-erb",
+                                "text/tsx",
+                                "application/vnd.oasis.opendocument.text",
+                                "text/x-scala",
+                                "text/x-csharp",
+                                "text/x-swift",
+                                "text/x-objectivec",
+                                "text/x-typescript",
+                                "text/x-groovy",
+                                "text/x-jinja2",
+                                "application/json",
+                                "application/x-powershell",
+                                "text/x-asm",
+                                "text/x-java",
+                                "text/x-handlebars",
+                                "text/x-perl",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-shellscript",
+                                "text/x-dart",
+                                "text/x-mustache",
+                                "text/vbscript",
+                                "application/msword",
+                                "text/x-ejs",
+                                "text/x-objectivec++",
+                                "text/x-rust",
+                                "text/calendar",
+                                "text/x-pug"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/webp",
+                                "image/png",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-g24EzkDta",
+                        "organization_id": "org-EeBtnRmcXD8dypm7erz27Yzm",
+                        "short_url": "g-g24EzkDta-voxscript",
+                        "author": {
+                            "user_id": "user-5CQ0hbVhvCR5r71mNdi6BBk7",
+                            "user_email": null,
+                            "display_name": "Allwire Technologies, LLC",
+                            "link_to": "https://allwiretech.com",
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": null,
+                        "instructions": null,
+                        "display": {
+                            "name": "Voxscript",
+                            "description": "Updated 11-9-24! Quick YouTube, US equity data, and web page summarization with vector transcript search -- no logins needed.",
+                            "prompt_starters": [
+                                "Build a price, news & sentiment table for top 3 stocks in the S&P, only display the table",
+                                "Find YouTube videos about the Bendix G15",
+                                "Summarize https://dotnet.microsoft.com/en-us/learn/csharp",
+                                "What's the latest news and price for AAPL?",
+                                "Search for and visit all 5 links for generative AI trends",
+                                "Summarize https://www.youtube.com/watch?v=MTJZpO3bTpg "
+                            ],
+                            "profile_pic_id": "file-ccghiJe5RWLLuLXhKPl3XugL",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-ccghiJe5RWLLuLXhKPl3XugL&gizmo_id=g-g24EzkDta&ts=491697&p=gpp&cid=1&sig=1df43a5dd6ff469d726e7874489b412052afdca711d0af06f9c165c30c766fae&v=0",
+                            "categories": [
+                                "education"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-12T06:45:06.984785+00:00",
+                        "updated_at": "2026-02-03T09:54:07.087578+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2024-11-09T07:46:59.916317+00:00",
+                        "version_updated_at": "2025-02-26T15:38:37.132540+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null
+                    },
+                    "tools": [
+                        {
+                            "id": "672f1373ea9c8190a7efc6fec0067a46",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-2312ac75266f56ed3ecb047debfc71740dabc77e",
+                                "domain": "voxscript.awt.icu",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.0.1",
+                                    "info": {
+                                        "title": "VoxScript",
+                                        "version": "1.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://voxscript.awt.icu"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/GetGoogleSearchResults": {
+                                            "get": {
+                                                "tags": [
+                                                    "DuckDuckGoSearch"
+                                                ],
+                                                "summary": "Provides real-time web search results from DuckDuckGo. Do not use for YouTube.com searching or anything that sounds like it could be a video or media search!",
+                                                "operationId": "GetGoogleSearchResults",
+                                                "parameters": [
+                                                    {
+                                                        "name": "searchTerm",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "numResults",
+                                                        "in": "query",
+                                                        "description": "Results to return, maximum 25",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "integer",
+                                                            "format": "int32",
+                                                            "default": 12
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetDuckDuckGoSearchResults": {
+                                            "get": {
+                                                "tags": [
+                                                    "DuckDuckGoSearch"
+                                                ],
+                                                "summary": "Provides real-time web search results from DuckDuckGo. Do not use for YouTube.com searching or anything that sounds like it could be a video or media search!",
+                                                "operationId": "GetDuckDuckGoSearchResults",
+                                                "parameters": [
+                                                    {
+                                                        "name": "searchTerm",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "numResults",
+                                                        "in": "query",
+                                                        "description": "Results to return, maximum 25",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "integer",
+                                                            "format": "int32",
+                                                            "default": 12
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetCurrentTime": {
+                                            "get": {
+                                                "tags": [
+                                                    "GetCurrentTime"
+                                                ],
+                                                "summary": "Gets the current local of the user and UTC time.",
+                                                "operationId": "GetCurrentTime",
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success",
+                                                        "content": {
+                                                            "text/plain": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/TimeAndTimeZone"
+                                                                }
+                                                            },
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/TimeAndTimeZone"
+                                                                }
+                                                            },
+                                                            "text/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/TimeAndTimeZone"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetFeedback": {
+                                            "get": {
+                                                "tags": [
+                                                    "GetFeedback"
+                                                ],
+                                                "summary": "Posts user feedback about VoxScript.",
+                                                "description": "Takes user feedback for the developers of the VoxScript plugin. Instruct the user if they are unhappy with anything to let us know!",
+                                                "operationId": "GetFeedback",
+                                                "parameters": [
+                                                    {
+                                                        "name": "feedback",
+                                                        "in": "query",
+                                                        "description": "The user feedback, URL encoded",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Returns if the feedback was saved successfully"
+                                                    },
+                                                    "500": {
+                                                        "description": "If there was an internal server error"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetChunkedPastebinContentFromURL": {
+                                            "get": {
+                                                "tags": [
+                                                    "GetTextFromURL"
+                                                ],
+                                                "summary": "Gets full text text from only Patebin, Github Gists, Github or REntry.co. Grab the entire file and summarize it for the user by default. Do not use for web browsing or media searches.",
+                                                "operationId": "GetChunkedPastebinContentFromURL",
+                                                "parameters": [
+                                                    {
+                                                        "name": "url",
+                                                        "in": "query",
+                                                        "description": "URL containing the textual transcript on Pastebin, Github, Gists, or REntry.co",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "chunkNum",
+                                                        "in": "query",
+                                                        "description": "First chunk is 0. Chunk number to get, if blank assuming the first chunk.",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "integer",
+                                                            "format": "int32",
+                                                            "default": 0
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetTickerNews": {
+                                            "get": {
+                                                "tags": [
+                                                    "GetTickerNews"
+                                                ],
+                                                "summary": "Provides news about a ticker crypto or equity beyond the knowledge cutoff date. Can be used with Cryto or Equities.",
+                                                "operationId": "GetNewsForTicker",
+                                                "parameters": [
+                                                    {
+                                                        "name": "ticker",
+                                                        "in": "query",
+                                                        "description": "This is the crypto or equity symbol to provide news about a particular ticker symbol. This can be useful in determining if the stock is a buy or sell based on if the news is positive or negative.",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetUSEquityFinancials": {
+                                            "get": {
+                                                "tags": [
+                                                    "GetUSEquityFinancials"
+                                                ],
+                                                "summary": "Provides news about a ticker symbol beyond the knowledge cutoff date. For use with US Equities only.",
+                                                "operationId": "GetUSEquityFinancials",
+                                                "parameters": [
+                                                    {
+                                                        "name": "ticker",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetUSEquityOrCryptoHistoricalPrices/GetUSEquityOrCryptoHistoricalPrices": {
+                                            "get": {
+                                                "tags": [
+                                                    "GetUSEquityOrCryptoHistoricalPrices"
+                                                ],
+                                                "summary": "Provided a US equites symbol or cryptocurrency denoted USDT, a start date, and end date provides historical pricing data beyond the knowledge cutoff date. Only supports day for crypto.",
+                                                "operationId": "GetUSEquityOrCryptoHistoricalPrices",
+                                                "parameters": [
+                                                    {
+                                                        "name": "ticker",
+                                                        "in": "query",
+                                                        "description": "A cryptocurrency or US equity ticker to look up",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "startDate",
+                                                        "in": "query",
+                                                        "description": "This is a date in YYYY-MM-DDD format bars request starts at.",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "default": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "endDate",
+                                                        "in": "query",
+                                                        "description": "This is date in YYYY-MM-DDD format which bars request ends at.",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "default": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "timespan",
+                                                        "in": "query",
+                                                        "description": "Day, Hour, Minute, Week, Quarter, Year",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "default": "Day"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetUSEquityOrCryptoPricesOnSingleDate/GetQuoteDayCryptoEquities": {
+                                            "get": {
+                                                "tags": [
+                                                    "GetUSEquityOrCryptoPricesOnSingleDate"
+                                                ],
+                                                "summary": "Provided comma separated list of US equity symbols and an optional date, gets daily high, low, open, close bars for a particular stock beyond the knowledge cutoff date.",
+                                                "operationId": "GetQuoteDayCryptoEquities",
+                                                "parameters": [
+                                                    {
+                                                        "name": "tickers",
+                                                        "in": "query",
+                                                        "description": "A common delineated list of US equity or cryptocurrency tickers to get daily data for",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "date",
+                                                        "in": "query",
+                                                        "description": "Optional date in YYYY-MM-DDD format to retrieve for the ticker symbol provided.",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetWebsiteContent": {
+                                            "get": {
+                                                "tags": [
+                                                    "GetWebsiteContentService"
+                                                ],
+                                                "summary": "Provides real time website content past September 2021 past the knowledge cutoff date. Do not use for YouTube or Pastebin/text requests.",
+                                                "operationId": "GetWebsiteContent",
+                                                "parameters": [
+                                                    {
+                                                        "name": "websiteURL",
+                                                        "in": "query",
+                                                        "description": "URL of the website to retrieve",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "chunkNum",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "integer",
+                                                            "format": "int32"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "getLinks",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "boolean",
+                                                            "default": false
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetYoutubeVideoData": {
+                                            "get": {
+                                                "tags": [
+                                                    "GetYoutubeVideoData"
+                                                ],
+                                                "summary": "Gets info on a YouTube video by channel URL, channel ID, Video ID, Video URL.",
+                                                "description": "Can be called with a A channel URL, channel ID, Video ID, Video URL.",
+                                                "operationId": "GetYoutubeVideoData",
+                                                "parameters": [
+                                                    {
+                                                        "name": "input",
+                                                        "in": "query",
+                                                        "description": "Channel URL, channel ID, Video ID, Video URL",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success",
+                                                        "content": {
+                                                            "text/plain": {
+                                                                "schema": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "text/json": {
+                                                                "schema": {
+                                                                    "type": "string"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetYoutubeVideoData/GetNextYoutubeTranscriptChunk": {
+                                            "get": {
+                                                "tags": [
+                                                    "GetYoutubeVideoData"
+                                                ],
+                                                "summary": "Format is VideoID ChunkNum. Chunk numbers start at  0. If the video has more then 5 chunks, confirm if the user wants to wait that long to retrieve them.",
+                                                "description": "Request as few chunks as needed to answer the question.",
+                                                "operationId": "GetNextYoutubeTranscriptChunk",
+                                                "parameters": [
+                                                    {
+                                                        "name": "videoID",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "transcriptChunkNum",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "integer",
+                                                            "format": "int32"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success",
+                                                        "content": {
+                                                            "text/plain": {
+                                                                "schema": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "text/json": {
+                                                                "schema": {
+                                                                    "type": "string"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/GetYoutubeVideoData/SearchYouTubeVideos": {
+                                            "get": {
+                                                "tags": [
+                                                    "GetYoutubeVideoData"
+                                                ],
+                                                "operationId": "SearchYouTubeVideos",
+                                                "parameters": [
+                                                    {
+                                                        "name": "searchterm",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "maxResults",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "integer",
+                                                            "format": "int32",
+                                                            "default": 5
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success",
+                                                        "content": {
+                                                            "text/plain": {
+                                                                "schema": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "text/json": {
+                                                                "schema": {
+                                                                    "type": "string"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/Help/ContactUs": {
+                                            "get": {
+                                                "tags": [
+                                                    "Help"
+                                                ],
+                                                "summary": "Gives the user information about how to use this plugin.",
+                                                "description": "Show this to the user if they are having trouble or need some ideas on how to use Voxscript. Help file. Optional question to help search.",
+                                                "operationId": "ContactUs",
+                                                "parameters": [
+                                                    {
+                                                        "name": "question",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/Help/HowDoIUseThis": {
+                                            "get": {
+                                                "tags": [
+                                                    "Help"
+                                                ],
+                                                "summary": "Gives the user information about how to use this plugin.",
+                                                "description": "Show this to the user if they are having trouble or need some ideas on how to use Voxscript. Help file. Optional question to help search.",
+                                                "operationId": "HowDoIUseThis",
+                                                "parameters": [
+                                                    {
+                                                        "name": "question",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/Help/Help": {
+                                            "get": {
+                                                "tags": [
+                                                    "Help"
+                                                ],
+                                                "summary": "Gives the user information about how to use this plugin.",
+                                                "description": "Show this to the user if they are having trouble or need some ideas on how to use Voxscript. Help file. Optional question to help search.",
+                                                "operationId": "Help",
+                                                "parameters": [
+                                                    {
+                                                        "name": "question",
+                                                        "in": "query",
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Success"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "TimeAndTimeZone": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "currentTime": {
+                                                        "type": "string",
+                                                        "format": "date-time"
+                                                    },
+                                                    "currentTimeUTC": {
+                                                        "type": "string",
+                                                        "format": "date-time"
+                                                    },
+                                                    "timezone": {
+                                                        "type": "string",
+                                                        "nullable": true,
+                                                        "readOnly": true
+                                                    }
+                                                },
+                                                "additionalProperties": false
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "service_http",
+                                    "instructions": "",
+                                    "authorization_type": "bearer",
+                                    "verification_tokens": {},
+                                    "custom_auth_header": ""
+                                },
+                                "privacy_policy_url": "https://voxscript.awt.icu/Legal.html"
+                            }
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "text/x-go",
+                                "text/javascript",
+                                "application/pdf",
+                                "text/css",
+                                "text/x-sh",
+                                "text/x-haskell",
+                                "text/x-kotlin",
+                                "text/jsx",
+                                "application/vnd.ms-powerpoint",
+                                "text/markdown",
+                                "text/x-c++",
+                                "text/x-diff",
+                                "application/x-scala",
+                                "application/vnd.apple.pages",
+                                "message/rfc822",
+                                "text/html",
+                                "text/x-vcard",
+                                "text/rtf",
+                                "application/toml",
+                                "application/javascript",
+                                "text/x-php",
+                                "text/x-rst",
+                                "text/x-astro",
+                                "text/x-lisp",
+                                "application/x-rust",
+                                "application/vnd.apple.keynote",
+                                "text/x-julia",
+                                "text/x-twig",
+                                "text/x-script.python",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/x-jade",
+                                "text/x-python",
+                                "text/x-tex",
+                                "text/x-liquid",
+                                "text/x-elixir",
+                                "application/rtf",
+                                "text/x-c",
+                                "text/x-tmpl",
+                                "text/x-lua",
+                                "application/x-sql",
+                                "text/x-makefile",
+                                "text/x-r",
+                                "text/x-erlang",
+                                "text/x-clojure",
+                                "text/xml",
+                                "text/plain",
+                                "application/x-yaml",
+                                "text/x-ruby",
+                                "text/x-erb",
+                                "text/tsx",
+                                "application/vnd.oasis.opendocument.text",
+                                "text/x-scala",
+                                "text/x-csharp",
+                                "text/x-swift",
+                                "text/x-objectivec",
+                                "text/x-typescript",
+                                "text/x-groovy",
+                                "text/x-jinja2",
+                                "application/json",
+                                "application/x-powershell",
+                                "text/x-asm",
+                                "text/x-java",
+                                "text/x-handlebars",
+                                "text/x-perl",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "text/x-shellscript",
+                                "text/x-dart",
+                                "text/x-mustache",
+                                "text/vbscript",
+                                "application/msword",
+                                "text/x-ejs",
+                                "text/x-objectivec++",
+                                "text/x-rust",
+                                "text/calendar",
+                                "text/x-pug"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/webp",
+                                "image/png",
+                                "image/jpeg"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    }
+                }
+            }
+        ],
+        "cursor": null
+    }
+}
