@@ -1,0 +1,3065 @@
+{
+    "info": {
+        "id": "trending",
+        "title": "Trending",
+        "description": "Most popular GPTs by our community",
+        "display_type": "ranked",
+        "display_group": "Top Picks",
+        "locale": "global"
+    },
+    "list": {
+        "items": [
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-pmuQfob8d",
+                        "organization_id": "org-AWLMos7qkuCxcVO5OhJqPO9X",
+                        "short_url": "g-pmuQfob8d-image-generator",
+                        "author": {
+                            "user_id": "user-8UW0V9Gz998stjOgOVMwXVIh",
+                            "user_email": null,
+                            "display_name": "NAIF J ALOTAIBI",
+                            "link_to": null,
+                            "is_verified": true,
+                            "selected_display": "name",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "9l7yHFsF92",
+                                        "username": "naif j alotaibi",
+                                        "display_name": "naif j alotaibi",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/naif-j-alotaibi-b01596352"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": null,
+                        "instructions": null,
+                        "display": {
+                            "name": "image generator",
+                            "description": "A GPT specialized in generating and refining images with a mix of professional and friendly tone.image generator",
+                            "prompt_starters": [
+                                "Generate an image of a futuristic city.",
+                                "Create a portrait of a fictional character.",
+                                "Design a logo for a new tech startup.",
+                                "Illustrate a scene from a fantasy novel."
+                            ],
+                            "profile_pic_id": "file-M1df4Ab7Ow6QCJ871tBUsi0x",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-M1df4Ab7Ow6QCJ871tBUsi0x&gizmo_id=g-pmuQfob8d&ts=492249&p=gpp&cid=1&sig=dba8e95a5e704a8f12a0f445f914398804aa4c0c0596eadee290bcd79288944c&v=0",
+                            "categories": [
+                                "dalle"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-12-02T16:43:09.108969+00:00",
+                        "updated_at": "2026-02-26T09:59:10.646199+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2026-01-29T14:58:36.732990+00:00",
+                        "version_updated_at": "2026-01-29T14:58:40.257053+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null,
+                        "archived_at": null,
+                        "is_archived": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_sTkqcaqsAFhjM4b959j5mP5X~gzm_tool_FWZcgGNvH7bOPxkb7MNxvKil",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_sTkqcaqsAFhjM4b959j5mP5X~gzm_tool_oKrzZ3BvFRBPkJSUiCU3aoEA",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "680fe53f7a108191a487e039cd36853d",
+                            "type": "image_gen",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "message/rfc822",
+                                "text/plain",
+                                "text/x-ruby",
+                                "text/html",
+                                "text/x-groovy",
+                                "application/vnd.apple.keynote",
+                                "text/x-c++",
+                                "text/x-perl",
+                                "text/tsx",
+                                "text/x-rust",
+                                "application/javascript",
+                                "application/pdf",
+                                "application/vnd.apple.pages",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/rtf",
+                                "text/x-julia",
+                                "text/x-script.python",
+                                "text/jsx",
+                                "text/x-objectivec",
+                                "text/x-clojure",
+                                "application/x-scala",
+                                "text/x-csharp",
+                                "text/x-shellscript",
+                                "text/x-vcard",
+                                "text/x-asm",
+                                "text/x-typescript",
+                                "text/x-lua",
+                                "text/x-liquid",
+                                "application/json",
+                                "text/x-scala",
+                                "text/x-twig",
+                                "text/x-mustache",
+                                "application/x-rust",
+                                "text/x-c",
+                                "text/x-handlebars",
+                                "application/msword",
+                                "text/x-kotlin",
+                                "text/x-swift",
+                                "text/xml",
+                                "text/x-elixir",
+                                "text/x-php",
+                                "application/toml",
+                                "text/x-jinja2",
+                                "application/vnd.ms-powerpoint",
+                                "text/x-jade",
+                                "text/x-tex",
+                                "text/x-ejs",
+                                "application/x-sql",
+                                "text/x-java",
+                                "text/x-go",
+                                "text/x-erlang",
+                                "text/javascript",
+                                "text/x-objectivec++",
+                                "text/calendar",
+                                "text/x-tmpl",
+                                "text/x-r",
+                                "text/css",
+                                "text/x-erb",
+                                "text/x-pug",
+                                "text/x-astro",
+                                "text/x-diff",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/markdown",
+                                "application/x-powershell",
+                                "text/x-lisp",
+                                "text/x-dart",
+                                "text/x-sh",
+                                "text/x-makefile",
+                                "text/vbscript",
+                                "text/x-rst",
+                                "text/x-python",
+                                "text/x-haskell",
+                                "text/rtf",
+                                "application/x-yaml"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    },
+                    "project_file_limits": null
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-2azCVmXdy",
+                        "organization_id": "org-Jh4icqLDQbSiwaXRnsCYyOM1",
+                        "short_url": "g-2azCVmXdy-ai-humanizer",
+                        "author": {
+                            "user_id": "user-LfH5gS5D7s5RMBHWOJ8qd3DT__db1a6978-e330-496e-ac6a-8c993d17770d",
+                            "user_email": null,
+                            "display_name": "mmchdigital.solutions",
+                            "link_to": "https://mmchdigital.solutions",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": "db1a6978-e330-496e-ac6a-8c993d17770d",
+                        "model": null,
+                        "default_model": null,
+                        "instructions": null,
+                        "display": {
+                            "name": "AI Humanizer",
+                            "description": "#1 AI humanizer in the world 🏆 | Get human-like content in seconds with Free credits. This GPT humanizes AI-generated text, maintaining content meaning and quality.",
+                            "prompt_starters": [
+                                "⬇️ Please provide BELOW the AI text to humanize ⬇️"
+                            ],
+                            "profile_pic_id": "file-OPDq3ZahhE1JxhxVVBEBBMX4",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-OPDq3ZahhE1JxhxVVBEBBMX4&gizmo_id=g-2azCVmXdy&ts=492249&p=gpp&cid=1&sig=c02797566ea2527b4689ac174efa7f136023b0c42d5fc29c12dd25cce7a43754&v=0",
+                            "categories": [
+                                "writing"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-15T14:14:36.022505+00:00",
+                        "updated_at": "2026-02-26T09:58:43.955522+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2025-04-28T12:10:05.604233+00:00",
+                        "version_updated_at": "2025-06-02T23:26:11.284801+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null,
+                        "archived_at": null,
+                        "is_archived": null
+                    },
+                    "tools": [
+                        {
+                            "id": "680f701d9adc81919cc168fd7e5bc949",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-8fa2842b6789c78d2e314cdfa462efc712d1239d",
+                                "domain": "plugin.gptinf.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.1.0",
+                                    "info": {
+                                        "title": "GPTinf Plugin",
+                                        "description": "A plugin to humanize AI content by paraphrasing.",
+                                        "version": "v1"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://plugin.gptinf.com/api"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/paraphrase": {
+                                            "post": {
+                                                "operationId": "paraphrase",
+                                                "summary": "Paraphrase a text",
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/paraphraseRequest"
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "OK",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/paraphraseResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Bad Request",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/errorResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "paraphraseRequest": {
+                                                "type": "object",
+                                                "required": [
+                                                    "text",
+                                                    "id"
+                                                ],
+                                                "properties": {
+                                                    "text": {
+                                                        "type": "string",
+                                                        "description": "The text to paraphrase."
+                                                    },
+                                                    "id": {
+                                                        "type": "string",
+                                                        "enum": [
+                                                            "crl"
+                                                        ],
+                                                        "description": "The required ID for all the calls."
+                                                    }
+                                                }
+                                            },
+                                            "paraphraseResponse": {
+                                                "type": "object",
+                                                "required": [
+                                                    "paraphrased"
+                                                ],
+                                                "properties": {
+                                                    "paraphrased": {
+                                                        "type": "string",
+                                                        "description": "The successful paraphrase of the text. Or request to increase the words limit."
+                                                    }
+                                                }
+                                            },
+                                            "errorResponse": {
+                                                "type": "object",
+                                                "required": [
+                                                    "error"
+                                                ],
+                                                "properties": {
+                                                    "error": {
+                                                        "type": "string",
+                                                        "description": "Description of the error."
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "oauth",
+                                    "instructions": "",
+                                    "client_url": "https://plugin.gptinf.com/api/oauth",
+                                    "scope": "",
+                                    "authorization_url": "https://plugin.gptinf.com/api/oauth_exchange",
+                                    "authorization_content_type": "application/x-www-form-urlencoded",
+                                    "verification_tokens": {},
+                                    "pkce_required": false,
+                                    "token_exchange_method": "basic_auth_header"
+                                },
+                                "privacy_policy_url": "https://app.gptinf.com/privacy_policy.html"
+                            }
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "message/rfc822",
+                                "text/plain",
+                                "text/x-ruby",
+                                "text/html",
+                                "text/x-groovy",
+                                "application/vnd.apple.keynote",
+                                "text/x-c++",
+                                "text/x-perl",
+                                "text/tsx",
+                                "text/x-rust",
+                                "application/javascript",
+                                "application/pdf",
+                                "application/vnd.apple.pages",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/rtf",
+                                "text/x-julia",
+                                "text/x-script.python",
+                                "text/jsx",
+                                "text/x-objectivec",
+                                "text/x-clojure",
+                                "application/x-scala",
+                                "text/x-csharp",
+                                "text/x-shellscript",
+                                "text/x-vcard",
+                                "text/x-asm",
+                                "text/x-typescript",
+                                "text/x-lua",
+                                "text/x-liquid",
+                                "application/json",
+                                "text/x-scala",
+                                "text/x-twig",
+                                "text/x-mustache",
+                                "application/x-rust",
+                                "text/x-c",
+                                "text/x-handlebars",
+                                "application/msword",
+                                "text/x-kotlin",
+                                "text/x-swift",
+                                "text/xml",
+                                "text/x-elixir",
+                                "text/x-php",
+                                "application/toml",
+                                "text/x-jinja2",
+                                "application/vnd.ms-powerpoint",
+                                "text/x-jade",
+                                "text/x-tex",
+                                "text/x-ejs",
+                                "application/x-sql",
+                                "text/x-java",
+                                "text/x-go",
+                                "text/x-erlang",
+                                "text/javascript",
+                                "text/x-objectivec++",
+                                "text/calendar",
+                                "text/x-tmpl",
+                                "text/x-r",
+                                "text/css",
+                                "text/x-erb",
+                                "text/x-pug",
+                                "text/x-astro",
+                                "text/x-diff",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/markdown",
+                                "application/x-powershell",
+                                "text/x-lisp",
+                                "text/x-dart",
+                                "text/x-sh",
+                                "text/x-makefile",
+                                "text/vbscript",
+                                "text/x-rst",
+                                "text/x-python",
+                                "text/x-haskell",
+                                "text/rtf",
+                                "application/x-yaml"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    },
+                    "project_file_limits": null
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-h8l4uLHFQ",
+                        "organization_id": "org-EjquXjWT0E066HTE6gv2ti9g",
+                        "short_url": "g-h8l4uLHFQ-video-ai-by-invideo",
+                        "author": {
+                            "user_id": "user-M64bxYAIRX4KL5kKyb60nPiu",
+                            "user_email": null,
+                            "display_name": "invideo.io",
+                            "link_to": "https://invideo.io",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": null,
+                        "instructions": null,
+                        "display": {
+                            "name": "Video AI by invideo",
+                            "description": "4.0 ★ - AI video maker GPT (Supercharged with Sora 2) - generate engaging videos with voiceovers in any language!",
+                            "prompt_starters": [
+                                "Let's create a youtube shorts video!",
+                                "Let's create a marketing video.",
+                                "Let's create an explainer video.",
+                                "Let's start by creating a script..."
+                            ],
+                            "profile_pic_id": "file-28vZ8N7w9U1vN3DJbMYn1P",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-28vZ8N7w9U1vN3DJbMYn1P&gizmo_id=g-h8l4uLHFQ&ts=492249&p=gpp&cid=1&sig=41c5c5db507c78cd24b7383296b9165a3a3a32f2fd1f106554a878df57c3ddff&v=0",
+                            "categories": [
+                                "productivity"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-24T12:04:19.281443+00:00",
+                        "updated_at": "2026-02-26T09:59:10.944336+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2025-10-19T03:12:48.602931+00:00",
+                        "version_updated_at": "2025-10-19T03:12:56.318189+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null,
+                        "archived_at": null,
+                        "is_archived": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_FrmpO8n3sI67b9ONLixutJTV~gzm_tool_JuJ6DG5KORNTa1i2UsdZolyc",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_wHmuSawSGzImZTMQmqnQSMr5~gzm_tool_YxxnimmBHrrg3oZQFsnuHcEM",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_FrmpO8n3sI67b9ONLixutJTV~gzm_tool_fx08woct4a7jiweI5hhMzbNx",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "68f457309a788191a45258571ae8fc89",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-b907563ee01db32f50a59802d8a002fd04faedf2",
+                                "domain": "video-ai.invideo.io",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.1.1",
+                                    "info": {
+                                        "title": "invideo AI",
+                                        "version": "v1",
+                                        "description": "Plugin for crafting narrated videos from text prompts and scripts."
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://video-ai.invideo.io/"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/api/copilot/request/chatgpt-new-from-brief": {
+                                            "post": {
+                                                "operationId": "generateVideoFromBrief",
+                                                "summary": "Generate video from a detailed brief.",
+                                                "x-openai-isConsequential": false,
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/VideoFromBriefInput"
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "OK",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/VideoResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/copilot/request/chatgpt-new-from-script": {
+                                            "post": {
+                                                "operationId": "generateVideoFromScript",
+                                                "summary": "Generate video from a script.",
+                                                "x-openai-isConsequential": false,
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/VideoFromScriptInput"
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "OK",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/VideoResponse"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "VideoFromBriefInput": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "brief": {
+                                                        "type": "string",
+                                                        "description": "Plain English text starting with 'Create a video' or 'Create a [platform] video'."
+                                                    },
+                                                    "settings": {
+                                                        "type": "string",
+                                                        "description": "Voiceover, music tone, etc. May be empty."
+                                                    },
+                                                    "title": {
+                                                        "type": "string"
+                                                    },
+                                                    "description": {
+                                                        "type": "string"
+                                                    },
+                                                    "platforms": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "audiences": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "length_in_minutes": {
+                                                        "type": "number"
+                                                    },
+                                                    "openaiFileIdRefs": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                },
+                                                "required": [
+                                                    "title",
+                                                    "description",
+                                                    "platforms",
+                                                    "audiences",
+                                                    "length_in_minutes",
+                                                    "brief"
+                                                ]
+                                            },
+                                            "VideoFromScriptInput": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "script": {
+                                                        "type": "string"
+                                                    },
+                                                    "settings": {
+                                                        "type": "string",
+                                                        "description": "Voiceover, music tone, etc. May be empty."
+                                                    },
+                                                    "title": {
+                                                        "type": "string"
+                                                    },
+                                                    "description": {
+                                                        "type": "string"
+                                                    },
+                                                    "platforms": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "audiences": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "length_in_minutes": {
+                                                        "type": "number"
+                                                    },
+                                                    "openaiFileIdRefs": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                },
+                                                "required": [
+                                                    "title",
+                                                    "description",
+                                                    "platforms",
+                                                    "audiences",
+                                                    "length_in_minutes",
+                                                    "script"
+                                                ]
+                                            },
+                                            "VideoResponse": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "video_url": {
+                                                        "type": "string",
+                                                        "format": "uri"
+                                                    },
+                                                    "thumbnail_url": {
+                                                        "type": "string",
+                                                        "format": "uri"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "none"
+                                },
+                                "privacy_policy_url": "https://pro-api.invideo.io/legal.html"
+                            }
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "message/rfc822",
+                                "text/plain",
+                                "text/x-ruby",
+                                "text/html",
+                                "text/x-groovy",
+                                "application/vnd.apple.keynote",
+                                "text/x-c++",
+                                "text/x-perl",
+                                "text/tsx",
+                                "text/x-rust",
+                                "application/javascript",
+                                "application/pdf",
+                                "application/vnd.apple.pages",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/rtf",
+                                "text/x-julia",
+                                "text/x-script.python",
+                                "text/jsx",
+                                "text/x-objectivec",
+                                "text/x-clojure",
+                                "application/x-scala",
+                                "text/x-csharp",
+                                "text/x-shellscript",
+                                "text/x-vcard",
+                                "text/x-asm",
+                                "text/x-typescript",
+                                "text/x-lua",
+                                "text/x-liquid",
+                                "application/json",
+                                "text/x-scala",
+                                "text/x-twig",
+                                "text/x-mustache",
+                                "application/x-rust",
+                                "text/x-c",
+                                "text/x-handlebars",
+                                "application/msword",
+                                "text/x-kotlin",
+                                "text/x-swift",
+                                "text/xml",
+                                "text/x-elixir",
+                                "text/x-php",
+                                "application/toml",
+                                "text/x-jinja2",
+                                "application/vnd.ms-powerpoint",
+                                "text/x-jade",
+                                "text/x-tex",
+                                "text/x-ejs",
+                                "application/x-sql",
+                                "text/x-java",
+                                "text/x-go",
+                                "text/x-erlang",
+                                "text/javascript",
+                                "text/x-objectivec++",
+                                "text/calendar",
+                                "text/x-tmpl",
+                                "text/x-r",
+                                "text/css",
+                                "text/x-erb",
+                                "text/x-pug",
+                                "text/x-astro",
+                                "text/x-diff",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/markdown",
+                                "application/x-powershell",
+                                "text/x-lisp",
+                                "text/x-dart",
+                                "text/x-sh",
+                                "text/x-makefile",
+                                "text/vbscript",
+                                "text/x-rst",
+                                "text/x-python",
+                                "text/x-haskell",
+                                "text/rtf",
+                                "application/x-yaml"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    },
+                    "project_file_limits": null
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-Hkqnd7mFT",
+                        "organization_id": "org-Nt158GSjNwdeQ2R0MEOOKhbZ",
+                        "short_url": "g-Hkqnd7mFT-ai-video-generator-videogpt-by-veed",
+                        "author": {
+                            "user_id": "user-Tq0JrNbjBnhWUbMh9KOkAaK5__56229743-cdba-470e-ad1c-3a3ef76e8f68",
+                            "user_email": null,
+                            "display_name": "veed.io",
+                            "link_to": "https://veed.io",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": null,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": "56229743-cdba-470e-ad1c-3a3ef76e8f68",
+                        "model": null,
+                        "default_model": null,
+                        "instructions": null,
+                        "display": {
+                            "name": "AI Video Generator - VideoGPT by VEED",
+                            "description": "Sora 2, Veo 3.1, Kling O1 and all the latest AI models. Generate and edit videos.",
+                            "prompt_starters": [
+                                "Let’s make a social video!",
+                                "NEW! Create AI talking videos from an image & audio",
+                                "Create videos with Sora 2, VEO 3, Minimax, & more",
+                                "Create images with Nano Banana Pro, Flux, & more"
+                            ],
+                            "profile_pic_id": "file-PamwNFYygXZLmmkF7vz33j",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-PamwNFYygXZLmmkF7vz33j&gizmo_id=g-Hkqnd7mFT&ts=492249&p=gpp&cid=1&sig=9d587843fc6c121da3e4edf560d27b0b98b68b0f7e888acbd4493cee65afbd53&v=0",
+                            "categories": [
+                                "productivity"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-14T11:54:59.742888+00:00",
+                        "updated_at": "2026-02-26T09:58:50.916665+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2026-01-12T11:52:11.419801+00:00",
+                        "version_updated_at": "2026-01-12T11:52:15.219614+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null,
+                        "archived_at": null,
+                        "is_archived": null
+                    },
+                    "tools": [
+                        {
+                            "id": "6964e06b6ba08191ab3f6e4a6162ac32",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-036d8c2b753fa9b25fdfbe78e504b499311659f8",
+                                "domain": "www.veed.io",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.1.0",
+                                    "info": {
+                                        "title": "Video GPT by VEED API",
+                                        "description": "This API is used to create VEED projects.",
+                                        "version": "v1.0.0"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://www.veed.io/text-to-video-ap/api"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/generate/videogpt": {
+                                            "post": {
+                                                "description": "Generate a VEED video project and upload files",
+                                                "operationId": "GenerateProject",
+                                                "x-openai-isConsequential": false,
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "required": [
+                                                                    "flowType"
+                                                                ],
+                                                                "additionalProperties": true,
+                                                                "properties": {
+                                                                    "flowType": {
+                                                                        "type": "string",
+                                                                        "enum": [
+                                                                            "social",
+                                                                            "clips",
+                                                                            "aiPlayground",
+                                                                            "fabric"
+                                                                        ]
+                                                                    },
+                                                                    "payload": {
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "script": {
+                                                                                "type": "string"
+                                                                            },
+                                                                            "videoUrl": {
+                                                                                "type": "string",
+                                                                                "format": "uri"
+                                                                            },
+                                                                            "prompt": {
+                                                                                "type": "string"
+                                                                            },
+                                                                            "model": {
+                                                                                "type": "string"
+                                                                            },
+                                                                            "aspectRatio": {
+                                                                                "type": "string",
+                                                                                "enum": [
+                                                                                    "portrait",
+                                                                                    "landscape",
+                                                                                    "square"
+                                                                                ]
+                                                                            },
+                                                                            "characterId": {
+                                                                                "type": "string",
+                                                                                "description": "The character ID for Fabric flow (character-1 through character-8)"
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "openaiFileIdRefs": {
+                                                                        "type": "array",
+                                                                        "items": {
+                                                                            "type": "string"
+                                                                        }
+                                                                    },
+                                                                    "source": {
+                                                                        "type": "string",
+                                                                        "description": "Optional string to indicate which integration/source triggered the request, e.g. 'videogpt'."
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Expected response to a valid request",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/Project"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "schemas": {
+                                            "Project": {
+                                                "description": "A VEED project",
+                                                "type": "object",
+                                                "required": [
+                                                    "project"
+                                                ],
+                                                "additionalProperties": false,
+                                                "properties": {
+                                                    "project": {
+                                                        "type": "object",
+                                                        "required": [
+                                                            "id",
+                                                            "link"
+                                                        ],
+                                                        "additionalProperties": false,
+                                                        "properties": {
+                                                            "id": {
+                                                                "type": "string",
+                                                                "format": "uuid"
+                                                            },
+                                                            "link": {
+                                                                "description": "URL to edit the project in the VEED editor",
+                                                                "type": "string",
+                                                                "format": "uri"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "none"
+                                },
+                                "privacy_policy_url": "https://www.veed.io/privacy"
+                            }
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "message/rfc822",
+                                "text/plain",
+                                "text/x-ruby",
+                                "text/html",
+                                "text/x-groovy",
+                                "application/vnd.apple.keynote",
+                                "text/x-c++",
+                                "text/x-perl",
+                                "text/tsx",
+                                "text/x-rust",
+                                "application/javascript",
+                                "application/pdf",
+                                "application/vnd.apple.pages",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/rtf",
+                                "text/x-julia",
+                                "text/x-script.python",
+                                "text/jsx",
+                                "text/x-objectivec",
+                                "text/x-clojure",
+                                "application/x-scala",
+                                "text/x-csharp",
+                                "text/x-shellscript",
+                                "text/x-vcard",
+                                "text/x-asm",
+                                "text/x-typescript",
+                                "text/x-lua",
+                                "text/x-liquid",
+                                "application/json",
+                                "text/x-scala",
+                                "text/x-twig",
+                                "text/x-mustache",
+                                "application/x-rust",
+                                "text/x-c",
+                                "text/x-handlebars",
+                                "application/msword",
+                                "text/x-kotlin",
+                                "text/x-swift",
+                                "text/xml",
+                                "text/x-elixir",
+                                "text/x-php",
+                                "application/toml",
+                                "text/x-jinja2",
+                                "application/vnd.ms-powerpoint",
+                                "text/x-jade",
+                                "text/x-tex",
+                                "text/x-ejs",
+                                "application/x-sql",
+                                "text/x-java",
+                                "text/x-go",
+                                "text/x-erlang",
+                                "text/javascript",
+                                "text/x-objectivec++",
+                                "text/calendar",
+                                "text/x-tmpl",
+                                "text/x-r",
+                                "text/css",
+                                "text/x-erb",
+                                "text/x-pug",
+                                "text/x-astro",
+                                "text/x-diff",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/markdown",
+                                "application/x-powershell",
+                                "text/x-lisp",
+                                "text/x-dart",
+                                "text/x-sh",
+                                "text/x-makefile",
+                                "text/vbscript",
+                                "text/x-rst",
+                                "text/x-python",
+                                "text/x-haskell",
+                                "text/rtf",
+                                "application/x-yaml"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    },
+                    "project_file_limits": null
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-2DQzU5UZl",
+                        "organization_id": "org-0qmMjUp9ManzN9006ZKzGT3I",
+                        "short_url": "g-2DQzU5UZl-code-copilot",
+                        "author": {
+                            "user_id": "user-6aFDZhDCRHmM3i0cFMPreja8__aa0fe397-9bbf-4d5b-8aa4-6cb81d04dc7e",
+                            "user_email": null,
+                            "display_name": "promptspellsmith.com",
+                            "link_to": "https://promptspellsmith.com",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "4855776815",
+                                        "username": "@ericwang42",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/ericwang42"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": "aa0fe397-9bbf-4d5b-8aa4-6cb81d04dc7e",
+                        "model": null,
+                        "default_model": "gpt-5-2-thinking",
+                        "instructions": null,
+                        "display": {
+                            "name": "Code Copilot",
+                            "description": "Code Smarter, Build Faster—With the Expertise of a 10x Programmer by Your Side.",
+                            "prompt_starters": [
+                                "/start Python",
+                                "/canvas document"
+                            ],
+                            "profile_pic_id": "file-hbxowtiyxew901FywZXTcb4V",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-hbxowtiyxew901FywZXTcb4V&gizmo_id=g-2DQzU5UZl&ts=492249&p=gpp&cid=1&sig=8408bf9fc7b2563b22052e3f00052090980747d8e7a91d7021c3448d225d0aa6&v=0",
+                            "categories": [
+                                "programming"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-07T01:00:36.878445+00:00",
+                        "updated_at": "2026-02-26T09:58:48.454363+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2025-12-25T07:38:51.109263+00:00",
+                        "version_updated_at": "2025-12-25T07:38:52.759107+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null,
+                        "archived_at": null,
+                        "is_archived": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_Q5xenVVRggXomhbe90xgLcbU~gzm_tool_3CRytLrqQsX3rCLeB8BGz0KA",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_Q5xenVVRggXomhbe90xgLcbU~gzm_tool_60B6cSC6hTzOhgPXVvCVrMwi",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "67591dffa1d88191b94291b8dea674e6",
+                            "type": "canvas",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "message/rfc822",
+                                "text/plain",
+                                "text/x-ruby",
+                                "text/html",
+                                "text/x-groovy",
+                                "application/vnd.apple.keynote",
+                                "text/x-c++",
+                                "text/x-perl",
+                                "text/tsx",
+                                "text/x-rust",
+                                "application/javascript",
+                                "application/pdf",
+                                "application/vnd.apple.pages",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/rtf",
+                                "text/x-julia",
+                                "text/x-script.python",
+                                "text/jsx",
+                                "text/x-objectivec",
+                                "text/x-clojure",
+                                "application/x-scala",
+                                "text/x-csharp",
+                                "text/x-shellscript",
+                                "text/x-vcard",
+                                "text/x-asm",
+                                "text/x-typescript",
+                                "text/x-lua",
+                                "text/x-liquid",
+                                "application/json",
+                                "text/x-scala",
+                                "text/x-twig",
+                                "text/x-mustache",
+                                "application/x-rust",
+                                "text/x-c",
+                                "text/x-handlebars",
+                                "application/msword",
+                                "text/x-kotlin",
+                                "text/x-swift",
+                                "text/xml",
+                                "text/x-elixir",
+                                "text/x-php",
+                                "application/toml",
+                                "text/x-jinja2",
+                                "application/vnd.ms-powerpoint",
+                                "text/x-jade",
+                                "text/x-tex",
+                                "text/x-ejs",
+                                "application/x-sql",
+                                "text/x-java",
+                                "text/x-go",
+                                "text/x-erlang",
+                                "text/javascript",
+                                "text/x-objectivec++",
+                                "text/calendar",
+                                "text/x-tmpl",
+                                "text/x-r",
+                                "text/css",
+                                "text/x-erb",
+                                "text/x-pug",
+                                "text/x-astro",
+                                "text/x-diff",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/markdown",
+                                "application/x-powershell",
+                                "text/x-lisp",
+                                "text/x-dart",
+                                "text/x-sh",
+                                "text/x-makefile",
+                                "text/vbscript",
+                                "text/x-rst",
+                                "text/x-python",
+                                "text/x-haskell",
+                                "text/rtf",
+                                "application/x-yaml"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    },
+                    "project_file_limits": null
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-NgAcklHd8",
+                        "organization_id": "org-h3aZsM1FFutber87xRnhYLbf",
+                        "short_url": "g-NgAcklHd8-scispace",
+                        "author": {
+                            "user_id": "user-QJ75wi1maLBx4VV4HbxHUSYV__5ee43a6f-0e86-437c-be5e-14827177a16c",
+                            "user_email": null,
+                            "display_name": "scispace.com",
+                            "link_to": "https://scispace.com",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": [
+                                {
+                                    "id": "linkedinverify-4b97-9080-6c959845166a",
+                                    "type": "linkedin",
+                                    "display_name": "LinkedIn",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "ZekQJADbUo",
+                                        "username": "Saikiran Chandha",
+                                        "display_name": "Saikiran Chandha",
+                                        "type": "linkedin",
+                                        "link_to": "https://linkedin.com/in/saikiranchandha"
+                                    }
+                                },
+                                {
+                                    "id": "twitterverify-43d2-b12a-bbe33d600487",
+                                    "type": "twitter",
+                                    "display_name": "X",
+                                    "verified": true,
+                                    "verified_data": {
+                                        "id": "2873534552",
+                                        "username": "@scispace_",
+                                        "type": "twitter",
+                                        "link_to": "https://twitter.com/scispace_"
+                                    }
+                                }
+                            ]
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": "5ee43a6f-0e86-437c-be5e-14827177a16c",
+                        "model": null,
+                        "default_model": "gpt-5-instant",
+                        "instructions": null,
+                        "display": {
+                            "name": "SciSpace",
+                            "description": "Do hours worth of research in minutes. Instantly access 287M+ papers, analyze papers at lightning speed, and effortlessly draft content with accurate citations.",
+                            "prompt_starters": [
+                                "Does wearing an activity tracker improve health outcomes?",
+                                "What are the benefits of taking l-theanine?",
+                                "Upload a Paper and ask any questions related to it",
+                                "Share a paper link to extract information and get insights"
+                            ],
+                            "profile_pic_id": "file-rdCQ0lZNp84NkdCMq56ppn8r",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-rdCQ0lZNp84NkdCMq56ppn8r&gizmo_id=g-NgAcklHd8&ts=492249&p=gpp&cid=1&sig=878669701ff18dc4f39263db32edc830af0b26ca463d4b5412f5021351de4617&v=0",
+                            "categories": [
+                                "research"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-15T08:30:58.669072+00:00",
+                        "updated_at": "2026-02-26T09:58:59.542676+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2025-12-19T16:34:24.261168+00:00",
+                        "version_updated_at": "2025-12-19T16:34:30.735533+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null,
+                        "archived_at": null,
+                        "is_archived": null
+                    },
+                    "tools": [
+                        {
+                            "id": "Y0z2VYsWkXRyin56OHW4nqN4",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_Yd0V0pGKkpJXDDPRzZdbc3EM~gzm_tool_U7weRgnRrHYybF5p3LT0Xgui",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "676d14615d0c81918158cb22787ee8a7",
+                            "type": "canvas",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "6889c895b2388191b32e6e55047ca305",
+                            "type": "image_gen",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "69457e9042ec8191b4e15afd65b3655b",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-46b1f0d7ed5cb4663c3edb6147b525517c3ae00f",
+                                "domain": "scispace.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.1.0",
+                                    "info": {
+                                        "version": "2.0.0",
+                                        "title": "GPT Store API",
+                                        "termsOfService": "https://example.com/terms/",
+                                        "contact": {
+                                            "email": "contact@example.com",
+                                            "url": "http://example.com/contact"
+                                        },
+                                        "license": {
+                                            "name": "Apache 2.0",
+                                            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+                                        },
+                                        "x-logo": {
+                                            "url": "https://redocly.github.io/openapi-template/logo.png"
+                                        },
+                                        "description": "This is an API for a research paper backend. You can use this API to search for papers and get insights.\n"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://scispace.com"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/api/v2/gpt/vector-search/": {
+                                            "post": {
+                                                "security": [
+                                                    {
+                                                        "api_key_auth": []
+                                                    }
+                                                ],
+                                                "tags": [
+                                                    "Search"
+                                                ],
+                                                "summary": "Vector search in papers",
+                                                "description": "Get the vector search results when a search term is applied. This is used for the Global search.",
+                                                "x-openai-isConsequential": false,
+                                                "operationId": "vectorSearch",
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "search_term": {
+                                                                        "type": "string",
+                                                                        "description": "The search term to apply."
+                                                                    },
+                                                                    "sort": {
+                                                                        "type": "string",
+                                                                        "description": "The sort order to apply. For time based sorting use newest_first and oldest_first",
+                                                                        "enum": [
+                                                                            "relevance",
+                                                                            "newest_first",
+                                                                            "oldest_first"
+                                                                        ]
+                                                                    },
+                                                                    "filter_info": {
+                                                                        "type": "object",
+                                                                        "description": "Filters to be applied on search",
+                                                                        "properties": {
+                                                                            "year": {
+                                                                                "type": "string",
+                                                                                "description": "papers published between specific years"
+                                                                            },
+                                                                            "publication_type": {
+                                                                                "type": "array",
+                                                                                "items": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "page_info": {
+                                                                        "type": "object",
+                                                                        "description": "API pagination details. The pagination follows zero-based indexing. This means the first page is indexed as 0.",
+                                                                        "properties": {
+                                                                            "page": {
+                                                                                "type": "integer",
+                                                                                "description": "Page number to retrieve starting from zero"
+                                                                            },
+                                                                            "page_size": {
+                                                                                "type": "integer",
+                                                                                "description": "Number of entities required per page"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "search_term",
+                                                                    "sort",
+                                                                    "filter_info",
+                                                                    "page_info"
+                                                                ]
+                                                            },
+                                                            "examples": {
+                                                                "example 1": {
+                                                                    "summary": "Sample request on a query with no filters",
+                                                                    "value": {
+                                                                        "search_term": "How to increase immunity in men ?",
+                                                                        "sort": "relevance",
+                                                                        "filter_info": {},
+                                                                        "page_info": {
+                                                                            "page": 0,
+                                                                            "page_size": 5
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "example 2": {
+                                                                    "summary": "Sample request on a query with filters",
+                                                                    "value": {
+                                                                        "search_term": "Papers on IC engines published between 2020 and 2023 ?",
+                                                                        "sort": "relevance",
+                                                                        "filter_info": {
+                                                                            "has_pdf": true,
+                                                                            "is_oa": true,
+                                                                            "year": "2020,2023",
+                                                                            "publication_type": []
+                                                                        },
+                                                                        "page_info": {
+                                                                            "page": 0,
+                                                                            "page_size": 5
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "$ref": "#/components/responses/Success"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/api/v2/gpt/papers/context/": {
+                                            "post": {
+                                                "security": [
+                                                    {
+                                                        "api_key_auth": []
+                                                    }
+                                                ],
+                                                "tags": [
+                                                    "Paper Info"
+                                                ],
+                                                "summary": "Get Context for Papers",
+                                                "description": "Get the context for the list of papers to add a column to the GPT search table.\n",
+                                                "x-openai-isConsequential": false,
+                                                "operationId": "getContextForPapers",
+                                                "requestBody": {
+                                                    "required": true,
+                                                    "content": {
+                                                        "application/json": {
+                                                            "schema": {
+                                                                "$ref": "#/components/schemas/Request"
+                                                            },
+                                                            "examples": {
+                                                                "200": {
+                                                                    "summary": "Example of fetching context for papers",
+                                                                    "description": "This is the example to fetch context for the list of papers.\n",
+                                                                    "value": {
+                                                                        "question": "What are Potential Biases",
+                                                                        "entity_full_slugs": [
+                                                                            "effect-of-vitamin-d-on-cognitive-function-and-white-matter-2jho07ez4v",
+                                                                            "cognitive-intraindividual-variability-and-white-matter-5az9sa8t9h"
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "OK",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "$ref": "#/components/schemas/Response"
+                                                                },
+                                                                "examples": {
+                                                                    "200": {
+                                                                        "summary": "Success response for fetching context for papers",
+                                                                        "description": "This is the success response for fetching context for the list of papers.\n",
+                                                                        "value": {
+                                                                            "data": [
+                                                                                {
+                                                                                    "type": "object",
+                                                                                    "paper_slug": "cognitive-intraindividual-variability-and-white-matter-5az9sa8t9h",
+                                                                                    "context": [
+                                                                                        "The intraindividual variability (IIV) of cognitive performance has been shown to increase with aging. While brain research has generally focused on mean performance, little is known about neural correlates of cognitive IIV. Nevertheless, some studies suggest that IIV relates more strongly than mean level of performance to the quality of white matter (WM). Our study aims to explore the relation between WM integrity and cognitive IIV by combining functional (fMRI) and structural (diffusion tensor imaging, DTI) imaging. Twelve young adults (aged 18–30 years) and thirteen older adults (61–82 years) underwent a battery of neuropsychological tasks, along with fMRI and DTI imaging. Their behavioral data were analyzed and correlated with the imaging data at WM regions of interest defined on the basis of (1) the fMRI-activated areas and (2) the Johns Hopkins University (JHU) WM tractography atlas. For both methods, fractional anisotropy, along with the mean, radial, and axial diffusivity parameters, was computed. In accord with previous studies, our results showed that the DTI parameters were more related to IIV than to mean performance. Results also indicated that age differences in the DTI parameters were more pronounced in the regions activated primarily by young adults during a choice reaction-time task than in those also activated in older adults."
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "type": "object",
+                                                                                    "paper_slug": "effect-of-vitamin-d-on-cognitive-function-and-white-matter-2jho07ez4v",
+                                                                                    "context": [
+                                                                                        "Aim To examine the effect of vitamin D level on cognitive function and white matter hyperintensity (WMH) in patients with mild Alzheimer's disease (AD). Methods We recruited patients with mild AD, and carried out clinical interviews, neuropsychological assessments, laboratory tests and brain magnetic resonance imaging. Results In total, 146 patients"
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "components": {
+                                        "securitySchemes": {
+                                            "api_key_auth": {
+                                                "type": "apiKey",
+                                                "in": "header",
+                                                "name": "Authorization"
+                                            }
+                                        },
+                                        "schemas": {
+                                            "Journal": {
+                                                "type": "object",
+                                                "title": "Journal",
+                                                "properties": {
+                                                    "display_name": {
+                                                        "description": "The display name of the journal.",
+                                                        "type": "string"
+                                                    },
+                                                    "official_page": {
+                                                        "description": "The official page of the journal.",
+                                                        "type": "string"
+                                                    },
+                                                    "issn": {
+                                                        "description": "The ISSN of the journal.",
+                                                        "type": "string"
+                                                    },
+                                                    "alias": {
+                                                        "description": "The alias of the journal.",
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "id": {
+                                                        "description": "The unique ID of the journal.",
+                                                        "type": "integer"
+                                                    },
+                                                    "slug": {
+                                                        "description": "The slug of the journal.",
+                                                        "type": "string"
+                                                    },
+                                                    "unique_id": {
+                                                        "description": "The unique ID of the journal.",
+                                                        "type": "string"
+                                                    },
+                                                    "full_slug": {
+                                                        "description": "The full slug of the journal.",
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "Author": {
+                                                "type": "object",
+                                                "title": "Author",
+                                                "properties": {
+                                                    "display_name": {
+                                                        "description": "The display name of the author.",
+                                                        "type": "string"
+                                                    },
+                                                    "id": {
+                                                        "description": "The unique ID of the author.",
+                                                        "type": "integer"
+                                                    },
+                                                    "slug": {
+                                                        "description": "The slug of the author.",
+                                                        "type": "string"
+                                                    },
+                                                    "unique_id": {
+                                                        "description": "The unique ID of the author.",
+                                                        "type": "string"
+                                                    },
+                                                    "full_slug": {
+                                                        "description": "The full slug of the author.",
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "Request": {
+                                                "type": "object",
+                                                "title": "Get Context For a question on List of Papers",
+                                                "properties": {
+                                                    "question": {
+                                                        "type": "string",
+                                                        "description": "The question for the column asked by the user.\n"
+                                                    },
+                                                    "entity_full_slugs": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string"
+                                                        },
+                                                        "description": "The full slugs of the papers."
+                                                    }
+                                                },
+                                                "required": [
+                                                    "question",
+                                                    "entity_full_slugs"
+                                                ]
+                                            },
+                                            "Response": {
+                                                "type": "object",
+                                                "title": "Generic Response to get context for a list of papers",
+                                                "properties": {
+                                                    "data": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "paper_slug": {
+                                                                    "type": "string",
+                                                                    "description": "The full slug of the paper."
+                                                                },
+                                                                "context": {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "string"
+                                                                    },
+                                                                    "description": "The context for the paper."
+                                                                }
+                                                            }
+                                                        },
+                                                        "description": "The context data for the papers. You should take into consideration the original language in which the user asked the question while consuming this endpoint. The context data is always in english, so you should translate this response to the original language of the user question and generate the final response in the same language in which user asked the question.\n"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "responses": {
+                                            "Success": {
+                                                "description": "Vector Search Response",
+                                                "content": {
+                                                    "application/json": {
+                                                        "schema": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "total": {
+                                                                    "type": "integer",
+                                                                    "description": "Total number of search results"
+                                                                },
+                                                                "data": {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "id": {
+                                                                                "type": "integer",
+                                                                                "description": "The unique ID of the paper."
+                                                                            },
+                                                                            "title": {
+                                                                                "type": "string",
+                                                                                "description": "The title of the paper."
+                                                                            },
+                                                                            "is_archived": {
+                                                                                "type": "boolean",
+                                                                                "description": "Whether the paper is archived."
+                                                                            },
+                                                                            "full_slug": {
+                                                                                "type": "string",
+                                                                                "description": "The full slug of the paper."
+                                                                            },
+                                                                            "journal": {
+                                                                                "$ref": "#/components/schemas/Journal"
+                                                                            },
+                                                                            "conference_series": {
+                                                                                "type": "object",
+                                                                                "properties": {
+                                                                                    "display_name": {
+                                                                                        "type": "string",
+                                                                                        "description": "The display name of the conference series."
+                                                                                    },
+                                                                                    "official_page": {
+                                                                                        "type": "string",
+                                                                                        "description": "The official page of the conference series."
+                                                                                    },
+                                                                                    "id": {
+                                                                                        "type": "integer",
+                                                                                        "description": "The unique ID of the conference series."
+                                                                                    },
+                                                                                    "slug": {
+                                                                                        "type": "string",
+                                                                                        "description": "The slug of the conference series."
+                                                                                    },
+                                                                                    "unique_id": {
+                                                                                        "type": "string",
+                                                                                        "description": "The unique ID of the conference series."
+                                                                                    },
+                                                                                    "full_slug": {
+                                                                                        "type": "string",
+                                                                                        "description": "The full slug of the conference series."
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            "date": {
+                                                                                "type": "string",
+                                                                                "description": "The date of the paper."
+                                                                            },
+                                                                            "is_oa": {
+                                                                                "type": "boolean",
+                                                                                "description": "Whether the paper is open access."
+                                                                            },
+                                                                            "publication_type": {
+                                                                                "type": "string",
+                                                                                "description": "The publication type of the paper."
+                                                                            },
+                                                                            "doi": {
+                                                                                "type": "string",
+                                                                                "description": "The DOI of the paper."
+                                                                            },
+                                                                            "abstract": {
+                                                                                "type": "string",
+                                                                                "description": "The abstract of the paper."
+                                                                            },
+                                                                            "authors": {
+                                                                                "type": "object",
+                                                                                "properties": {
+                                                                                    "total": {
+                                                                                        "type": "integer",
+                                                                                        "description": "Total number of authors"
+                                                                                    },
+                                                                                    "data": {
+                                                                                        "type": "array",
+                                                                                        "items": {
+                                                                                            "$ref": "#/components/schemas/Author"
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "service_http",
+                                    "instructions": "",
+                                    "authorization_type": "custom",
+                                    "verification_tokens": {},
+                                    "custom_auth_header": "Authorization"
+                                },
+                                "privacy_policy_url": "https://scispace.com/t/security-commitment/"
+                            }
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "message/rfc822",
+                                "text/plain",
+                                "text/x-ruby",
+                                "text/html",
+                                "text/x-groovy",
+                                "application/vnd.apple.keynote",
+                                "text/x-c++",
+                                "text/x-perl",
+                                "text/tsx",
+                                "text/x-rust",
+                                "application/javascript",
+                                "application/pdf",
+                                "application/vnd.apple.pages",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/rtf",
+                                "text/x-julia",
+                                "text/x-script.python",
+                                "text/jsx",
+                                "text/x-objectivec",
+                                "text/x-clojure",
+                                "application/x-scala",
+                                "text/x-csharp",
+                                "text/x-shellscript",
+                                "text/x-vcard",
+                                "text/x-asm",
+                                "text/x-typescript",
+                                "text/x-lua",
+                                "text/x-liquid",
+                                "application/json",
+                                "text/x-scala",
+                                "text/x-twig",
+                                "text/x-mustache",
+                                "application/x-rust",
+                                "text/x-c",
+                                "text/x-handlebars",
+                                "application/msword",
+                                "text/x-kotlin",
+                                "text/x-swift",
+                                "text/xml",
+                                "text/x-elixir",
+                                "text/x-php",
+                                "application/toml",
+                                "text/x-jinja2",
+                                "application/vnd.ms-powerpoint",
+                                "text/x-jade",
+                                "text/x-tex",
+                                "text/x-ejs",
+                                "application/x-sql",
+                                "text/x-java",
+                                "text/x-go",
+                                "text/x-erlang",
+                                "text/javascript",
+                                "text/x-objectivec++",
+                                "text/calendar",
+                                "text/x-tmpl",
+                                "text/x-r",
+                                "text/css",
+                                "text/x-erb",
+                                "text/x-pug",
+                                "text/x-astro",
+                                "text/x-diff",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/markdown",
+                                "application/x-powershell",
+                                "text/x-lisp",
+                                "text/x-dart",
+                                "text/x-sh",
+                                "text/x-makefile",
+                                "text/vbscript",
+                                "text/x-rst",
+                                "text/x-python",
+                                "text/x-haskell",
+                                "text/rtf",
+                                "application/x-yaml"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    },
+                    "project_file_limits": null
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-B3hgivKK9",
+                        "organization_id": "org-Lhg5UuxewxUamqjwDCtrkn4V",
+                        "short_url": "g-B3hgivKK9-write-for-me",
+                        "author": {
+                            "user_id": "user-qcK7n3IbKhYmu4dSv3kkiut3",
+                            "user_email": null,
+                            "display_name": "puzzle.today",
+                            "link_to": "https://puzzle.today",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": "gpt-5-2",
+                        "instructions": null,
+                        "display": {
+                            "name": "Write For Me",
+                            "description": "Supercharged writing assistant⚡",
+                            "prompt_starters": [
+                                "In the age of AI, what’s the smartest upper-income career strategy for someone just starting college?",
+                                "What are some little known hacks for being a naturally charming person?",
+                                "What tiny daily habit has the biggest long-term payoff?",
+                                "Write essay summarizing the East India Company "
+                            ],
+                            "profile_pic_id": "file-EG75QHv1rSRjNvYzgvFrth",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-EG75QHv1rSRjNvYzgvFrth&gizmo_id=g-B3hgivKK9&ts=492249&p=gpp&cid=1&sig=64d0cfaa616d7b50c493b51ddd675304413e232de1ce89547497835a9340133f&v=0",
+                            "categories": [
+                                "writing"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-11-17T11:08:46.422186+00:00",
+                        "updated_at": "2026-02-26T09:59:05.843063+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2025-12-13T10:00:28.122737+00:00",
+                        "version_updated_at": "2025-12-13T10:00:29.194275+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null,
+                        "archived_at": null,
+                        "is_archived": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_beABKP0vR5FARysR0QswD9C4~gzm_tool_tS7qT03d0NGlMlo5MFC0ozB7",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_beABKP0vR5FARysR0QswD9C4~gzm_tool_SaLuHtCItvhOrZYHSWBVpQt2",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "675c3b09b9ec8191a08f833df0858b76",
+                            "type": "canvas",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_beABKP0vR5FARysR0QswD9C4~gzm_tool_eBRCdiC28TzmkmlcEMJNgBsx",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "685349f352f481919d8039b4b2036f0d",
+                            "type": "image_gen",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "message/rfc822",
+                                "text/plain",
+                                "text/x-ruby",
+                                "text/html",
+                                "text/x-groovy",
+                                "application/vnd.apple.keynote",
+                                "text/x-c++",
+                                "text/x-perl",
+                                "text/tsx",
+                                "text/x-rust",
+                                "application/javascript",
+                                "application/pdf",
+                                "application/vnd.apple.pages",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/rtf",
+                                "text/x-julia",
+                                "text/x-script.python",
+                                "text/jsx",
+                                "text/x-objectivec",
+                                "text/x-clojure",
+                                "application/x-scala",
+                                "text/x-csharp",
+                                "text/x-shellscript",
+                                "text/x-vcard",
+                                "text/x-asm",
+                                "text/x-typescript",
+                                "text/x-lua",
+                                "text/x-liquid",
+                                "application/json",
+                                "text/x-scala",
+                                "text/x-twig",
+                                "text/x-mustache",
+                                "application/x-rust",
+                                "text/x-c",
+                                "text/x-handlebars",
+                                "application/msword",
+                                "text/x-kotlin",
+                                "text/x-swift",
+                                "text/xml",
+                                "text/x-elixir",
+                                "text/x-php",
+                                "application/toml",
+                                "text/x-jinja2",
+                                "application/vnd.ms-powerpoint",
+                                "text/x-jade",
+                                "text/x-tex",
+                                "text/x-ejs",
+                                "application/x-sql",
+                                "text/x-java",
+                                "text/x-go",
+                                "text/x-erlang",
+                                "text/javascript",
+                                "text/x-objectivec++",
+                                "text/calendar",
+                                "text/x-tmpl",
+                                "text/x-r",
+                                "text/css",
+                                "text/x-erb",
+                                "text/x-pug",
+                                "text/x-astro",
+                                "text/x-diff",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/markdown",
+                                "application/x-powershell",
+                                "text/x-lisp",
+                                "text/x-dart",
+                                "text/x-sh",
+                                "text/x-makefile",
+                                "text/vbscript",
+                                "text/x-rst",
+                                "text/x-python",
+                                "text/x-haskell",
+                                "text/rtf",
+                                "application/x-yaml"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    },
+                    "project_file_limits": null
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-0S5FXLyFN",
+                        "organization_id": "org-MiQaFvevLF7okpzszDxUPLVF",
+                        "short_url": "g-0S5FXLyFN-wolfram",
+                        "author": {
+                            "user_id": "user-FlTb1ZArzBH5KVmoXXNvUyr8",
+                            "user_email": null,
+                            "display_name": null,
+                            "link_to": null,
+                            "is_verified": false,
+                            "selected_display": "name",
+                            "will_receive_support_emails": false,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": null,
+                        "instructions": null,
+                        "display": {
+                            "name": "Wolfram",
+                            "description": "Access computation, math, chemistry, curated knowledge & real-time data from Wolfram|Alpha and Wolfram Language; from the makers of Mathematica.",
+                            "prompt_starters": [
+                                "Plot the intersection of x^2+y^2<1 and y>x with Wolfram Language",
+                                "get zodiac constellations visible from Chicago at 10PM with Wolfram Alpha",
+                                "Show me recent earthquakes in Indonesia",
+                                "How has the dollar-euro conversion changed recently?",
+                                "what do I call my grandfather's aunt's son"
+                            ],
+                            "profile_pic_id": "file-fGE6EGZCQY73C76MJantfE0d",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-fGE6EGZCQY73C76MJantfE0d&gizmo_id=g-0S5FXLyFN&ts=492249&p=gpp&cid=1&sig=e16df9bcafff431883d415aded52063a95cf084d3a94c6c699eaa8f80aff46c3&v=0",
+                            "categories": [
+                                "research"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2023-12-14T15:36:40.626116+00:00",
+                        "updated_at": "2026-02-26T09:56:52.236291+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2025-05-30T15:07:28.057237+00:00",
+                        "version_updated_at": "2025-12-18T15:02:55.043450+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null,
+                        "archived_at": null,
+                        "is_archived": null
+                    },
+                    "tools": [
+                        {
+                            "id": "6839c9b00ed88191bbb93573b02b3c72",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-7eee53b3fb11709621495522023ddba10e83f38e",
+                                "domain": "api.wolframcloud.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.1.0",
+                                    "info": {
+                                        "title": "Wolfram Language API",
+                                        "version": "1.0.0",
+                                        "description": "API for evaluating Wolfram Language code and finding semantic Wolfram Language representations of natural language inputs."
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://api.wolframcloud.com/"
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/wl/api/v1/eval-api": {
+                                            "get": {
+                                                "operationId": "getWolframCloudResults",
+                                                "x-openai-location-header": true,
+                                                "externalDocs": {
+                                                    "description": "Get Wolfram Language documentation here",
+                                                    "url": "https://reference.wolfram.com/language/"
+                                                },
+                                                "summary": "Evaluates Wolfram Language code only",
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "The result of the Wolfram Language evaluation",
+                                                        "content": {
+                                                            "text/plain": {}
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "The request is missing the 'input' parameter"
+                                                    },
+                                                    "403": {
+                                                        "description": "Unauthorized"
+                                                    },
+                                                    "500": {
+                                                        "description": "Wolfram Cloud was unable to generate a result"
+                                                    },
+                                                    "503": {
+                                                        "description": "Service temporarily unavailable. This may be the result of too many requests."
+                                                    }
+                                                },
+                                                "parameters": [
+                                                    {
+                                                        "name": "input",
+                                                        "in": "query",
+                                                        "description": "Wolfram Language code to be evaluated",
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        "/obj/chatgpt-utilities/getSemanticInterpretationAPI": {
+                                            "get": {
+                                                "summary": "Get Semantic Interpretation",
+                                                "operationId": "getSemanticInterpretationAPI",
+                                                "description": "Interprets simplified natural language inputs as Wolfram Language entities, entity classes, or more complex reverse-lookups.",
+                                                "parameters": [
+                                                    {
+                                                        "name": "input",
+                                                        "in": "query",
+                                                        "required": true,
+                                                        "description": "Simplified natural language input to be interpreted.",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful response with the interpreted Wolfram Language entity or entity class.",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "interpretation": {
+                                                                            "type": "string",
+                                                                            "description": "The interpreted Wolfram Language entity or entity class."
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Invalid request parameters."
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/obj/chatgpt-utilities/findEntityClassAPI": {
+                                            "get": {
+                                                "summary": "Find Wolfram Language EntityClass",
+                                                "operationId": "findEntityClassAPI",
+                                                "description": "Returns EntityClass interpretations for a specified type and input.",
+                                                "parameters": [
+                                                    {
+                                                        "name": "type",
+                                                        "in": "query",
+                                                        "required": true,
+                                                        "description": "The type of the Wolfram entity for EntityClass interpretation.",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "name",
+                                                        "in": "query",
+                                                        "required": true,
+                                                        "description": "The input for EntityClass interpretation.",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful response with the EntityClass interpretation.",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "interpretation": {
+                                                                            "type": "string",
+                                                                            "description": "The EntityClass interpretation of the provided type and input."
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Invalid request parameters."
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/obj/chatgpt-utilities/findPropertyAPI": {
+                                            "get": {
+                                                "summary": "Find Wolfram Language EntityProperty",
+                                                "operationId": "findPropertyAPI",
+                                                "description": "Returns EntityProperty interpretations for a specified type and input.",
+                                                "parameters": [
+                                                    {
+                                                        "name": "type",
+                                                        "in": "query",
+                                                        "required": true,
+                                                        "description": "The type of the Wolfram entity for EntityProperty interpretation.",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "name",
+                                                        "in": "query",
+                                                        "required": true,
+                                                        "description": "The input for EntityProperty interpretation.",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful response with the EntityProperty interpretation.",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "interpretation": {
+                                                                            "type": "string",
+                                                                            "description": "The EntityProperty interpretation of the provided type and input."
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Invalid request parameters."
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/obj/chatgpt-utilities/getDocumentationAPI": {
+                                            "get": {
+                                                "summary": "Get Wolfram Language Documentation",
+                                                "operationId": "getDocumentationAPI",
+                                                "description": "Returns usage information for Wolfram Language symbols.",
+                                                "parameters": [
+                                                    {
+                                                        "name": "input",
+                                                        "in": "query",
+                                                        "required": true,
+                                                        "description": "The Wolfram Language symbol for which to retrieve documentation.",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful response with the usage information of the symbol.",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "documentation": {
+                                                                            "type": "string",
+                                                                            "description": "The usage information of the Wolfram Language symbol."
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Invalid request parameters."
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "/obj/chatgpt-utilities/findEntityAPI": {
+                                            "get": {
+                                                "summary": "Find Wolfram Language Entity",
+                                                "operationId": "findEntityAPI",
+                                                "description": "Returns Wolfram Language interpretations of a specified entity.",
+                                                "parameters": [
+                                                    {
+                                                        "name": "type",
+                                                        "in": "query",
+                                                        "required": true,
+                                                        "description": "The type of the Wolfram entity (e.g., City, Country).",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "name",
+                                                        "in": "query",
+                                                        "required": true,
+                                                        "description": "The name of the entity to be interpreted in Wolfram Language.",
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                ],
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "Successful response with the Wolfram Language interpretation of the entity.",
+                                                        "content": {
+                                                            "application/json": {
+                                                                "schema": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "interpretation": {
+                                                                            "type": "string",
+                                                                            "description": "The Wolfram Language interpretation of the provided entity."
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "Invalid request parameters."
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "service_http",
+                                    "instructions": "",
+                                    "authorization_type": "bearer",
+                                    "verification_tokens": {},
+                                    "custom_auth_header": ""
+                                },
+                                "privacy_policy_url": "https://www.wolfram.com/legal/privacy/wolfram/"
+                            }
+                        },
+                        {
+                            "id": "6839c9b00f208191a5e1d4ddc5d445e7",
+                            "type": "plugins_prototype",
+                            "settings": null,
+                            "metadata": {
+                                "action_id": "g-d800b5509b57e51501b3cca34b719d443859af01",
+                                "domain": "www.wolframalpha.com",
+                                "raw_spec": null,
+                                "json_schema": {
+                                    "openapi": "3.1.0",
+                                    "info": {
+                                        "title": "Wolfram",
+                                        "version": "v0.1"
+                                    },
+                                    "servers": [
+                                        {
+                                            "url": "https://www.wolframalpha.com",
+                                            "description": "Wolfram Alpha API for LLMs."
+                                        }
+                                    ],
+                                    "paths": {
+                                        "/api/v1/llm-api": {
+                                            "get": {
+                                                "operationId": "getWolframAlphaResults",
+                                                "x-openai-location-header": true,
+                                                "externalDocs": {
+                                                    "description": "Get API information here",
+                                                    "url": "https://products.wolframalpha.com/api"
+                                                },
+                                                "summary": "Use Wolfram Alpha to interpret natural language queries and perform simple computations that do not require code",
+                                                "responses": {
+                                                    "200": {
+                                                        "description": "The result of the Wolfram|Alpha query",
+                                                        "content": {
+                                                            "text/plain": {}
+                                                        }
+                                                    },
+                                                    "400": {
+                                                        "description": "The request is missing the 'input' parameter"
+                                                    },
+                                                    "403": {
+                                                        "description": "Unauthorized"
+                                                    },
+                                                    "500": {
+                                                        "description": "Wolfram|Alpha was unable to generate a result"
+                                                    },
+                                                    "501": {
+                                                        "description": "Wolfram|Alpha was unable to generate a result"
+                                                    },
+                                                    "503": {
+                                                        "description": "Service temporarily unavailable. This may be the result of too many requests."
+                                                    }
+                                                },
+                                                "parameters": [
+                                                    {
+                                                        "name": "input",
+                                                        "in": "query",
+                                                        "description": "Natural language input for Wolfram Alpha",
+                                                        "required": true,
+                                                        "schema": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "assumption",
+                                                        "in": "query",
+                                                        "description": "the assumption to use, passed back from a previous query with the same input.",
+                                                        "required": false,
+                                                        "explode": true,
+                                                        "style": "form",
+                                                        "schema": {
+                                                            "type": "array",
+                                                            "items": {
+                                                                "type": "string"
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                },
+                                "auth": {
+                                    "type": "service_http",
+                                    "instructions": "",
+                                    "authorization_type": "bearer",
+                                    "verification_tokens": {},
+                                    "custom_auth_header": ""
+                                },
+                                "privacy_policy_url": "https://www.wolfram.com/legal/privacy/wolfram/"
+                            }
+                        }
+                    ],
+                    "files": [
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "6807ccbd63808191b862a01e225ee427",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "6807ccbd63c081918892ff5cce64b343",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "6807ccbd63f081918904f48ac8be99af",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        },
+                        {
+                            "file_response_type": "live_file_response",
+                            "id": "6807ccbd641c8191aef705436e4bf8a4",
+                            "type": "text/plain",
+                            "file_id": "",
+                            "location": ""
+                        }
+                    ],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "message/rfc822",
+                                "text/plain",
+                                "text/x-ruby",
+                                "text/html",
+                                "text/x-groovy",
+                                "application/vnd.apple.keynote",
+                                "text/x-c++",
+                                "text/x-perl",
+                                "text/tsx",
+                                "text/x-rust",
+                                "application/javascript",
+                                "application/pdf",
+                                "application/vnd.apple.pages",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/rtf",
+                                "text/x-julia",
+                                "text/x-script.python",
+                                "text/jsx",
+                                "text/x-objectivec",
+                                "text/x-clojure",
+                                "application/x-scala",
+                                "text/x-csharp",
+                                "text/x-shellscript",
+                                "text/x-vcard",
+                                "text/x-asm",
+                                "text/x-typescript",
+                                "text/x-lua",
+                                "text/x-liquid",
+                                "application/json",
+                                "text/x-scala",
+                                "text/x-twig",
+                                "text/x-mustache",
+                                "application/x-rust",
+                                "text/x-c",
+                                "text/x-handlebars",
+                                "application/msword",
+                                "text/x-kotlin",
+                                "text/x-swift",
+                                "text/xml",
+                                "text/x-elixir",
+                                "text/x-php",
+                                "application/toml",
+                                "text/x-jinja2",
+                                "application/vnd.ms-powerpoint",
+                                "text/x-jade",
+                                "text/x-tex",
+                                "text/x-ejs",
+                                "application/x-sql",
+                                "text/x-java",
+                                "text/x-go",
+                                "text/x-erlang",
+                                "text/javascript",
+                                "text/x-objectivec++",
+                                "text/calendar",
+                                "text/x-tmpl",
+                                "text/x-r",
+                                "text/css",
+                                "text/x-erb",
+                                "text/x-pug",
+                                "text/x-astro",
+                                "text/x-diff",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/markdown",
+                                "application/x-powershell",
+                                "text/x-lisp",
+                                "text/x-dart",
+                                "text/x-sh",
+                                "text/x-makefile",
+                                "text/vbscript",
+                                "text/x-rst",
+                                "text/x-python",
+                                "text/x-haskell",
+                                "text/rtf",
+                                "application/x-yaml"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    },
+                    "project_file_limits": null
+                }
+            },
+            {
+                "resource": {
+                    "gizmo": {
+                        "id": "g-q9wdIq7OQ",
+                        "organization_id": "org-hgJvAaP3r9S2nkHk6jXUGVRl",
+                        "short_url": "g-q9wdIq7OQ-photo-realistic-image-gpt",
+                        "author": {
+                            "user_id": "user-Jqd1cicmBctgHW5hhu2hfTPN",
+                            "user_email": null,
+                            "display_name": "genigpt.net",
+                            "link_to": "https://genigpt.net",
+                            "is_verified": true,
+                            "selected_display": "website",
+                            "will_receive_support_emails": true,
+                            "display_socials": []
+                        },
+                        "voice": {
+                            "id": "ember"
+                        },
+                        "workspace_id": null,
+                        "model": null,
+                        "default_model": null,
+                        "instructions": null,
+                        "display": {
+                            "name": "Photo Realistic Image GPT",
+                            "description": "Realistic image generator",
+                            "prompt_starters": [],
+                            "profile_pic_id": "file-GyjjbdHxR7sQT8c2ZfIMAIfw",
+                            "profile_picture_url": "https://chatgpt.com/backend-api/estuary/content?id=file-GyjjbdHxR7sQT8c2ZfIMAIfw&gizmo_id=g-q9wdIq7OQ&ts=492249&p=gpp&cid=1&sig=c0a94373c123e4e1a0eda04cc8b7ae05d1c5b9874992d09658585f537db126ce&v=0",
+                            "categories": [
+                                "productivity"
+                            ],
+                            "emoji": null,
+                            "theme": null
+                        },
+                        "share_recipient": "marketplace",
+                        "created_at": "2024-03-14T21:55:17.205255+00:00",
+                        "updated_at": "2026-02-26T09:59:06.442120+00:00",
+                        "last_interacted_at": null,
+                        "num_interactions": null,
+                        "tags": [
+                            "interactions_disabled"
+                        ],
+                        "is_unassigned": false,
+                        "version": null,
+                        "version_author": null,
+                        "version_created_at": "2025-06-14T12:23:11.814783+00:00",
+                        "version_updated_at": "2025-06-14T12:23:16.403724+00:00",
+                        "live_version": null,
+                        "training_disabled": null,
+                        "sharing_targets": null,
+                        "appeal_info": null,
+                        "vanity_metrics": {
+                            "num_conversations": null,
+                            "num_conversations_str": null,
+                            "created_ago_str": null,
+                            "review_stats": null
+                        },
+                        "workspace_approval_date": null,
+                        "workspace_approved": null,
+                        "sharing": null,
+                        "current_user_permission": null,
+                        "gizmo_type": "gpt",
+                        "context_stuffing_budget": 16384,
+                        "conversation_copy_in_progress": false,
+                        "gizmo_snorlax_type": null,
+                        "archived_at": null,
+                        "is_archived": null
+                    },
+                    "tools": [
+                        {
+                            "id": "gzm_cnf_51B1w6tzgVtRruwZvHtpY1AK~gzm_tool_FLrZHXPFgweccD052N56WNlE",
+                            "type": "python",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "gzm_cnf_97OoQDzU6s6yLNmm3Ji5DVkR~gzm_tool_LLm9ybQhcWVlWppweE6XJqIV",
+                            "type": "browser",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "6712678e7c50819082840634c3fcfd49",
+                            "type": "dalle",
+                            "settings": null,
+                            "metadata": null
+                        },
+                        {
+                            "id": "6819f447b404819181d27cfe2ec642ab",
+                            "type": "image_gen",
+                            "settings": null,
+                            "metadata": null
+                        }
+                    ],
+                    "files": [],
+                    "product_features": {
+                        "attachments": {
+                            "type": "retrieval",
+                            "accepted_mime_types": [
+                                "message/rfc822",
+                                "text/plain",
+                                "text/x-ruby",
+                                "text/html",
+                                "text/x-groovy",
+                                "application/vnd.apple.keynote",
+                                "text/x-c++",
+                                "text/x-perl",
+                                "text/tsx",
+                                "text/x-rust",
+                                "application/javascript",
+                                "application/pdf",
+                                "application/vnd.apple.pages",
+                                "application/vnd.oasis.opendocument.text",
+                                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                "application/rtf",
+                                "text/x-julia",
+                                "text/x-script.python",
+                                "text/jsx",
+                                "text/x-objectivec",
+                                "text/x-clojure",
+                                "application/x-scala",
+                                "text/x-csharp",
+                                "text/x-shellscript",
+                                "text/x-vcard",
+                                "text/x-asm",
+                                "text/x-typescript",
+                                "text/x-lua",
+                                "text/x-liquid",
+                                "application/json",
+                                "text/x-scala",
+                                "text/x-twig",
+                                "text/x-mustache",
+                                "application/x-rust",
+                                "text/x-c",
+                                "text/x-handlebars",
+                                "application/msword",
+                                "text/x-kotlin",
+                                "text/x-swift",
+                                "text/xml",
+                                "text/x-elixir",
+                                "text/x-php",
+                                "application/toml",
+                                "text/x-jinja2",
+                                "application/vnd.ms-powerpoint",
+                                "text/x-jade",
+                                "text/x-tex",
+                                "text/x-ejs",
+                                "application/x-sql",
+                                "text/x-java",
+                                "text/x-go",
+                                "text/x-erlang",
+                                "text/javascript",
+                                "text/x-objectivec++",
+                                "text/calendar",
+                                "text/x-tmpl",
+                                "text/x-r",
+                                "text/css",
+                                "text/x-erb",
+                                "text/x-pug",
+                                "text/x-astro",
+                                "text/x-diff",
+                                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                "text/markdown",
+                                "application/x-powershell",
+                                "text/x-lisp",
+                                "text/x-dart",
+                                "text/x-sh",
+                                "text/x-makefile",
+                                "text/vbscript",
+                                "text/x-rst",
+                                "text/x-python",
+                                "text/x-haskell",
+                                "text/rtf",
+                                "application/x-yaml"
+                            ],
+                            "image_mime_types": [
+                                "image/gif",
+                                "image/jpeg",
+                                "image/webp",
+                                "image/png"
+                            ],
+                            "can_accept_all_mime_types": true
+                        }
+                    },
+                    "project_file_limits": null
+                }
+            }
+        ],
+        "cursor": null
+    }
+}
