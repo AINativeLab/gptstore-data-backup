@@ -1,37 +1,7 @@
-# GPT Store data backup
-  
-  This project daily scrapes and archives data from the official GPT Store. If you have other data requirements, please open an issue.
-
-  <p align="center">
-    <a target="_blank" href="https://share.302.ai/oEmLPK?ref=gptshunter&block=github">
-      <img alt="302.ai" src="https://assets.gptshunt.com/github-1500%C3%97400-en.jpg">
-    </a>
-  </p>
-  
-  If you are interested in viewing and downloading the top 500 GPTs daily, please check out our another project: [AINativeLab/top-500-best-gpts](https://github.com/AINativeLab/top-500-best-gpts).
-  
-  <p align="center">
-  ★ Powered by <a target="_blank" href="https://www.gptshunter.com/?utm_source=gptstore-data-backup">GPTsHunter.com</a> ★
-  </p>
-  
-  <p align="center">
-    <a target="_blank" href="https://gptshunter.com/?utm_source=gptstore-data-backup">
-      <img alt="GPTsHunter" src="https://gptshunter.com/full-logo.svg" width="300">
-    </a>
-  </p>
-  
-  ## Latest
-  
-  [2026-03-28.en.md](/archive/2026-03-28/en)
-  
-  [2026-03-28.global.md](/archive/2026-03-28/global)
-  
-  ## Global GPT Leaderboard for 2026-03-28
-  
-  
+# 2026-03-28
 
   
-  ### Featured
+  ## Featured
   
   Curated top picks from this week
   
@@ -99,33 +69,29 @@
   Enhance your writing with tools for creation, editing, and style refinement
   
   
-  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Fully SEO Optimized Article including FAQ's (3.0)" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Festuary%2Fcontent%3Fid%3Dfile-9FJw9NckvXfmBgxuhJQBTok7%26gizmo_id%3Dg-ySbhcRtru%26ts%3D492969%26p%3Dgpp%26cid%3D1%26sig%3Dde55b18f8e1bb38e941b08575a52cb35fa67be797500ad9de63b5e2745604a20%26v%3D0"/>](https://chat.openai.com/g/g-ySbhcRtru-fully-seo-optimized-article-including-faq-s-3-0)
-  
-  [**Fully SEO Optimized Article including FAQ's (3.0)**](https://chat.openai.com/g/g-ySbhcRtru-fully-seo-optimized-article-including-faq-s-3-0) \
-  No.1 / 1M+ / ★ 4.3 (24625 Reviews)
-          
-
-
-
-
-
 
 
 
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Unbound Limitless Story Writer" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Festuary%2Fcontent%3Fid%3Dfile-2tZbU4ZMYRFGLOAooqJ8sw1B%26gizmo_id%3Dg-Jqzg9kcR8%26ts%3D492969%26p%3Dgpp%26cid%3D1%26sig%3D0849f595fc022af839c67e556de51387ad2e78c716ded3693fda48621daf685c%26v%3D0"/>](https://chat.openai.com/g/g-Jqzg9kcR8-unbound-limitless-story-writer)
   
   [**Unbound Limitless Story Writer**](https://chat.openai.com/g/g-Jqzg9kcR8-unbound-limitless-story-writer) \
-  No.9 / 2M+ / ★ 4.4 (18072 Reviews)
+  No.4 / 2M+ / ★ 4.4 (18072 Reviews)
           
 
-
-
-
-  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="のYouTube Video Summarizer ✏️ のYouTube Unaffiliated" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Festuary%2Fcontent%3Fid%3Dfile-Y5WFbnzw3h5smKEYcTbiWH%26gizmo_id%3Dg-GvcYCKPIH%26ts%3D492969%26p%3Dgpp%26cid%3D1%26sig%3D4f446dfc37045042da354429c8511df2b339764c0958dea5a7569532409d7a72%26v%3D0"/>](https://chat.openai.com/g/g-GvcYCKPIH-noyoutube-video-summarizer-noyoutube-unaffiliated)
+  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Fully SEO Optimized Article including FAQ's (3.0)" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Festuary%2Fcontent%3Fid%3Dfile-9FJw9NckvXfmBgxuhJQBTok7%26gizmo_id%3Dg-ySbhcRtru%26ts%3D492969%26p%3Dgpp%26cid%3D1%26sig%3Dde55b18f8e1bb38e941b08575a52cb35fa67be797500ad9de63b5e2745604a20%26v%3D0"/>](https://chat.openai.com/g/g-ySbhcRtru-fully-seo-optimized-article-including-faq-s-3-0)
   
-  [**のYouTube Video Summarizer ✏️ のYouTube Unaffiliated**](https://chat.openai.com/g/g-GvcYCKPIH-noyoutube-video-summarizer-noyoutube-unaffiliated) \
-  No.13 / 2M+ / ★ 4.4 (34255 Reviews)
+  [**Fully SEO Optimized Article including FAQ's (3.0)**](https://chat.openai.com/g/g-ySbhcRtru-fully-seo-optimized-article-including-faq-s-3-0) \
+  No.5 / 1M+ / ★ 4.3 (24625 Reviews)
           
+
+
+
+
+
+
+
+
+
   
   ## Productivity
   
@@ -139,11 +105,10 @@
 
 
 
-
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="AI PDF Drive: Chat, Create, Organize" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Festuary%2Fcontent%3Fid%3Dfile-aZFW7yy5PyKXFLXjsKqpylF4%26gizmo_id%3Dg-V2KIUZSj0%26ts%3D492969%26p%3Dgpp%26cid%3D1%26sig%3Da475af8105ed6ecc891e537ffce9db8efba2cb2c2a8d9b3817f2e99c23bcbdcf%26v%3D0"/>](https://chat.openai.com/g/g-V2KIUZSj0-ai-pdf-drive-chat-create-organize)
   
   [**AI PDF Drive: Chat, Create, Organize**](https://chat.openai.com/g/g-V2KIUZSj0-ai-pdf-drive-chat-create-organize) \
-  No.9 / 6M+ / ★ 4.0 (90012 Reviews)
+  No.8 / 6M+ / ★ 4.0 (90012 Reviews)
           
 
 
@@ -158,7 +123,6 @@
   Find, evaluate, interpret, and visualize information
   
   
-
 
 
 
@@ -198,7 +162,11 @@
 
 
 
-
+  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Song Maker" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Festuary%2Fcontent%3Fid%3Dfile-2YTWxekBdCMbJNQC7mTvjL%26gizmo_id%3Dg-txEiClD5G%26ts%3D492969%26p%3Dgpp%26cid%3D1%26sig%3Dffdecc7f9582b9cda4e1a5a5d539b327664f38105c3b6ccf05acf57bfc8ff18d%26v%3D0"/>](https://chat.openai.com/g/g-txEiClD5G-song-maker)
+  
+  [**Song Maker**](https://chat.openai.com/g/g-txEiClD5G-song-maker) \
+  No.4 / 1M+ / ★ 4.0 (17132 Reviews)
+          
 
 
 
@@ -207,43 +175,34 @@
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Fitness, Workout & Diet - PhD Coach" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Festuary%2Fcontent%3Fid%3Dfile-5f1JkpDKEg1Q5BisIfQCEgKj%26gizmo_id%3Dg-ipOIcM229%26ts%3D492969%26p%3Dgpp%26cid%3D1%26sig%3D0af7de1d7cd5cbd2cf580f79eb39801de0442c47d60e0a5e5a543cced8a2700d%26v%3D0"/>](https://chat.openai.com/g/g-ipOIcM229-fitness-workout-diet-phd-coach)
   
   [**Fitness, Workout & Diet - PhD Coach**](https://chat.openai.com/g/g-ipOIcM229-fitness-workout-diet-phd-coach) \
-  No.10 / 4M+ / ★ 4.6 (105595 Reviews)
+  No.9 / 4M+ / ★ 4.6 (105595 Reviews)
           
 
 
 
 
-  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Song Maker" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Festuary%2Fcontent%3Fid%3Dfile-2YTWxekBdCMbJNQC7mTvjL%26gizmo_id%3Dg-txEiClD5G%26ts%3D492969%26p%3Dgpp%26cid%3D1%26sig%3Dffdecc7f9582b9cda4e1a5a5d539b327664f38105c3b6ccf05acf57bfc8ff18d%26v%3D0"/>](https://chat.openai.com/g/g-txEiClD5G-song-maker)
-  
-  [**Song Maker**](https://chat.openai.com/g/g-txEiClD5G-song-maker) \
-  No.14 / 1M+ / ★ 4.0 (17132 Reviews)
-          
+
   
   ## DALL·E
   
   Transform your ideas into amazing images
   
   
-
-
-
-
-
-
-
-
-  [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="Bilder erstellen" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Festuary%2Fcontent%3Fid%3Dfile-TaruUFn3g4dnSvo1qIFMbUP4%26gizmo_id%3Dg-RfZM7NUri%26ts%3D492969%26p%3Dgpp%26cid%3D1%26sig%3Db5bee72aeebcaa6345babc50eb50877e0cee3a48e29ecb759fa312c478f5c68f%26v%3D0"/>](https://chat.openai.com/g/g-RfZM7NUri-bilder-erstellen)
-  
-  [**Bilder erstellen**](https://chat.openai.com/g/g-RfZM7NUri-bilder-erstellen) \
-  No.9 / 800K+ / ★ 3.4 (4790 Reviews)
-          
-
-
   [<img align="left" height="48px" width="48px" style="border-radius:50%" alt="LOGO" src="https://api-1.gptshunter.com/api/v1/image/proxy?url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Festuary%2Fcontent%3Fid%3Dfile-lvZdHWZGgQwvsX1a7z6jDqjp%26gizmo_id%3Dg-pCq5xaCri%26ts%3D492969%26p%3Dgpp%26cid%3D1%26sig%3Da8f27717089e4a8d414c7e59187a73c0d544b6ef4f0f71586413d68f75203aa9%26v%3D0"/>](https://chat.openai.com/g/g-pCq5xaCri-logo)
   
   [**LOGO**](https://chat.openai.com/g/g-pCq5xaCri-logo) \
-  No.11 / 1M+ / ★ 3.4 (68793 Reviews)
+  No.1 / 1M+ / ★ 3.4 (68793 Reviews)
           
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -266,6 +225,3 @@
 
 
 
-
-  
-        
